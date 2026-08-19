@@ -1,0 +1,36 @@
+{
+  "updated_at_kst": "2026-08-20 08:18 KST",
+  "market_bias": "하락 우세",
+  "drivers": [
+    "미 재무부가 장기채 바이백 확대 계획을 발표하면서 미 장기 국채금리가 하락했고 달러인덱스도 98.93까지 내려가 원/달러 환율 하락 압력이 커졌습니다.",
+    "다만 7월 FOMC 의사록에서는 인플레이션이 높은 상태가 이어질 경우 추가 금리 인상이 필요하다는 의견이 다수 확인돼 달러 약세 폭을 제한하고 있습니다.",
+    "최근 7월 미국 고용 감소와 완만한 물가 지표로 단기 금리 인상 기대는 낮아져 있어, 현재는 금리 재인상 우려보다 경기·달러 약세 재료가 조금 더 우세합니다."
+  ],
+  "outlook": "단기적으로 원/달러는 하락 압력이 우세하나, 연준의 추가 금리 인상 가능성과 중동발 유가 상승이 반등 요인으로 남아 변동성은 지속될 전망입니다.",
+  "articles": [
+    {
+      "title": "Dollar falls after US Treasury plans more bond buybacks",
+      "url": "https://www.reuters.com/world/africa/dollar-drifts-near-multi-month-lows-treasury-yields-ease-fed-minutes-awaited-2026-08-19/",
+      "domain": "Reuters",
+      "seen": "08/19"
+    },
+    {
+      "title": "Fed policymakers' inflation concerns increased at July meeting, minutes show",
+      "url": "https://www.reuters.com/business/fed-policymakers-inflation-concerns-increased-july-meeting-minutes-show-2026-08-19/",
+      "domain": "Reuters",
+      "seen": "08/19"
+    },
+    {
+      "title": "Fed to hold interest rates this year, economists say, sticking to their view: Reuters poll",
+      "url": "https://www.reuters.com/business/fed-hold-interest-rates-this-year-economists-say-sticking-their-view-2026-08-17/",
+      "domain": "Reuters",
+      "seen": "08/17"
+    },
+    {
+      "title": "VIEW Market shrugs off in-line July CPI report",
+      "url": "https://www.reuters.com/business/view-market-shrugs-off-in-line-july-cpi-report-2026-08-12/",
+      "domain": "Reuters",
+      "seen": "08/12"
+    }
+  ]
+}

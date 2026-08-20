@@ -21,50 +21,88 @@ def load_report() -> dict:
     return {}
 
 
+def normalize_text(text: str) -> str:
+    text = text.replace("\u00a0", " ").replace("−", "-").replace("–", "-").replace("—", "-")
+    return re.sub(r"\s+", " ", text).strip()
+
+
 def find_forecast_range(text: str):
-    m = re.search(r"금일\s*달러/원\s*환율\s*([0-9,]+)\s*~\s*([0-9,]+)원\s*전망", text)
+    flat = normalize_text(text)
+    m = re.search(r"금일\s*달러/원\s*환율\s*([0-9,]+)\s*~\s*([0-9,]+)원\s*전망", flat)
     if not m:
         return None
     return to_float(m.group(1)), to_float(m.group(2))
 
 
 def find_market_watch(text: str, old_rate):
-    forecast = find_forecast_range(text)
-    sections = text.split("Market Watch")
+    flat = normalize_text(text)
+    forecast = find_forecast_range(flat)
     candidates = []
 
-    for sec in sections[1:]:
-        m = re.search(
-            r"USD/KRW\s*([0-9,]+(?:\.[0-9]+)?)\s*([+-]?[0-9,]+(?:\.[0-9]+)?)\s*\(([+-]?[0-9.]+)%\)",
-            sec,
-            flags=re.S,
-        )
-        if not m:
+    for m in re.finditer(r"USD/KRW", flat, flags=re.I):
+        start = max(0, m.start() - 1200)
+        end = min(len(flat), m.end() + 800)
+        context = flat[start:end]
+        after = flat[m.end():end]
+
+        rate_match = re.search(r"(?<!\d)(1[1-8][0-9]{2}(?:\.[0-9]+)?|1,[1-8][0-9]{2}(?:\.[0-9]+)?)(?!\d)", after)
+        if not rate_match:
             continue
 
-        rate = to_float(m.group(1))
-        delta = to_float(m.group(2))
-        pct = float(m.group(3))
-
+        rate = to_float(rate_match.group(1))
         if not (1100 <= rate <= 1800):
+            continue
+        if old_rate and abs(rate - float(old_rate)) > 150:
             continue
         if forecast:
             lo, hi = forecast
-            if not (lo - 100 <= rate <= hi + 100):
+            if not (lo - 120 <= rate <= hi + 120):
                 continue
-        if old_rate and abs(rate - old_rate) > 150:
-            continue
 
-        tm = re.search(r"(20\d{2}\.\d{2}\.\d{2}\s+\d{2}:\d{2}:\d{2})", sec[:500])
-        candidates.append((rate, delta, pct, tm.group(1) if tm else None))
+        tail = after[rate_match.end():rate_match.end() + 180]
+        delta = None
+        pct = None
+
+        dm = re.search(r"(?:▲|△)?\s*([+]?[0-9,]+(?:\.[0-9]+)?)\s*\(([+]?[0-9.]+)%\)", tail)
+        if dm:
+            delta = to_float(dm.group(1))
+            pct = float(dm.group(2))
+        else:
+            dm = re.search(r"(?:▼|▽)\s*([0-9,]+(?:\.[0-9]+)?)\s*\((-?[0-9.]+)%\)", tail)
+            if dm:
+                delta = -to_float(dm.group(1))
+                pct = float(dm.group(2))
+            else:
+                dm = re.search(r"([+-][0-9,]+(?:\.[0-9]+)?)\s*\(([+-]?[0-9.]+)%\)", tail)
+                if dm:
+                    delta = to_float(dm.group(1))
+                    pct = float(dm.group(2))
+
+        tm = re.search(r"(20\d{2}[.\-/]\d{2}[.\-/]\d{2}\s+\d{2}:\d{2}:\d{2})", context)
+        kb_time = tm.group(1) if tm else None
+
+        score = 0
+        if re.search(r"Market\s*Watch", context, flags=re.I):
+            score += 20
+        if kb_time:
+            score += 5
+        if delta is not None:
+            score += 5
+        if old_rate:
+            score += max(0, 10 - abs(rate - float(old_rate)) / 10)
+
+        candidates.append((score, m.start(), rate, delta, pct, kb_time, context))
 
     if not candidates:
         print("----- KB STAR FX BODY PREVIEW -----")
-        print(text[:6000])
+        print(text[:12000])
         print("----- END PREVIEW -----")
-        raise RuntimeError("KB STAR FX Market Watch의 유효한 USD/KRW 값을 찾지 못했습니다.")
+        raise RuntimeError("KB STAR FX 페이지에서 유효한 USD/KRW 시장환율을 찾지 못했습니다.")
 
-    return candidates[-1], forecast
+    candidates.sort(key=lambda x: (x[0], x[1]))
+    _, _, rate, delta, pct, kb_time, context = candidates[-1]
+    print("Selected KB STAR FX context:", context[:1200])
+    return (rate, delta, pct, kb_time), forecast
 
 
 def get_kb_rate(old_rate):
@@ -82,7 +120,7 @@ def get_kb_rate(old_rate):
             ),
         )
         page.goto(KB_URL, wait_until="domcontentloaded", timeout=90000)
-        page.wait_for_timeout(15000)
+        page.wait_for_timeout(18000)
         text = page.locator("body").inner_text(timeout=30000)
         browser.close()
 
@@ -95,12 +133,16 @@ def main():
     now = datetime.now(KST)
 
     (rate, delta, pct, kb_time), forecast = get_kb_rate(old_rate)
-    previous_close = round(rate - delta, 4)
+
+    previous_close = None
+    if delta is not None:
+        previous_close = round(rate - delta, 4)
 
     report["current_rate"] = rate
     report["previous_close"] = previous_close
     report["rate_updated_at_kst"] = (
-        kb_time.replace(".", "-") + " KST" if kb_time else now.strftime("%Y-%m-%d %H:%M:%S KST")
+        kb_time.replace(".", "-").replace("/", "-") + " KST"
+        if kb_time else now.strftime("%Y-%m-%d %H:%M:%S KST")
     )
     report["rate_source"] = "KB STAR FX Market Watch"
     report["rate_source_time"] = report["rate_updated_at_kst"]
@@ -116,7 +158,7 @@ def main():
         json.dumps(report, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",
     )
-    print(f"KB STAR FX USD/KRW updated: {rate} ({delta:+.2f}, {pct:+.2f}%)")
+    print(f"KB STAR FX USD/KRW updated: {rate} ({delta}, {pct})")
 
 
 if __name__ == "__main__":

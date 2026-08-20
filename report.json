@@ -1,11 +1,11 @@
 {
   "updated_at_kst": "2026-08-20 14:53 KST",
-  "current_rate": 1394.84,
-  "previous_close": null,
-  "rate_updated_at_kst": "2026-08-20 14:31 KST",
-  "rate_source": "실시간 통화 환율 소스",
-  "rate_source_time": "2026-08-20 14:31 KST",
-  "rate_url": null,
+  "current_rate": 1395.0,
+  "previous_close": 1393.3,
+  "rate_updated_at_kst": "2026-08-21 08:37:58 KST",
+  "rate_source": "KB STAR FX Market Watch",
+  "rate_source_time": "2026-08-21 08:37:58 KST",
+  "rate_url": "https://fx.kbstar.com/",
   "market_bias": "하락 우세",
   "drivers": [
     "미 재무부의 장기채 바이백 확대 발표 뒤 30년물 국채금리가 5.337% 고점에서 5.184%로 낮아지고 달러인덱스가 98.938로 3개월 저점 부근에 머물러 달러 약세 압력이 이어지고 있습니다.",
@@ -14,10 +14,41 @@
   ],
   "outlook": "달러 자체의 약세 압력은 이어지고 있으나 고유가와 중동 리스크가 원화 강세를 제약해 원/달러는 단기 변동성이 큰 하락 우세 흐름이 예상됩니다.",
   "articles": [
-    {"title":"Dollar hugs three-month lows as Treasury seeks to sooth the bond market","url":"https://www.reuters.com/world/africa/dollar-hugs-three-month-lows-treasury-seeks-sooth-bond-market-2026-08-20/","domain":"Reuters","seen":"2026-08-20 09:53 KST"},
-    {"title":"US yields drop after Treasury offers liquidity support","url":"https://www.reuters.com/business/us-yields-head-lower-after-treasury-offers-liquidity-support-2026-08-19/","domain":"Reuters","seen":"2026-08-19 23:15 KST"},
-    {"title":"US 30-year Treasury yields drop from multi-year highs","url":"https://www.reuters.com/business/us-30-year-treasury-yields-drop-multi-year-highs-2026-08-19/","domain":"Reuters","seen":"2026-08-19 22:47 KST"},
-    {"title":"Trading Day: Bessent makes his mark","url":"https://www.reuters.com/commentary/reuters-open-interest/global-markets-trading-day-graphic-2026-08-19/","domain":"Reuters","seen":"2026-08-20 KST"},
-    {"title":"Oil prices steady as investors assess US-Iran war outlook","url":"https://www.reuters.com/business/energy/oil-prices-steady-investors-assess-us-iran-war-outlook-2026-08-20/","domain":"Reuters","seen":"2026-08-20 10:11 KST"}
+    {
+      "title": "Dollar hugs three-month lows as Treasury seeks to sooth the bond market",
+      "url": "https://www.reuters.com/world/africa/dollar-hugs-three-month-lows-treasury-seeks-sooth-bond-market-2026-08-20/",
+      "domain": "Reuters",
+      "seen": "2026-08-20 09:53 KST"
+    },
+    {
+      "title": "US yields drop after Treasury offers liquidity support",
+      "url": "https://www.reuters.com/business/us-yields-head-lower-after-treasury-offers-liquidity-support-2026-08-19/",
+      "domain": "Reuters",
+      "seen": "2026-08-19 23:15 KST"
+    },
+    {
+      "title": "US 30-year Treasury yields drop from multi-year highs",
+      "url": "https://www.reuters.com/business/us-30-year-treasury-yields-drop-multi-year-highs-2026-08-19/",
+      "domain": "Reuters",
+      "seen": "2026-08-19 22:47 KST"
+    },
+    {
+      "title": "Trading Day: Bessent makes his mark",
+      "url": "https://www.reuters.com/commentary/reuters-open-interest/global-markets-trading-day-graphic-2026-08-19/",
+      "domain": "Reuters",
+      "seen": "2026-08-20 KST"
+    },
+    {
+      "title": "Oil prices steady as investors assess US-Iran war outlook",
+      "url": "https://www.reuters.com/business/energy/oil-prices-steady-investors-assess-us-iran-war-outlook-2026-08-20/",
+      "domain": "Reuters",
+      "seen": "2026-08-20 10:11 KST"
+    }
+  ],
+  "rate_change": 1.7,
+  "rate_change_pct": 0.12,
+  "kb_daily_forecast_range": [
+    1388.0,
+    1399.0
   ]
 }

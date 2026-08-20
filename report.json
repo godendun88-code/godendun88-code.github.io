@@ -1,48 +1,54 @@
 {
-  "updated_at_kst": "2026-08-20 14:53 KST",
+  "updated_at_kst": "2026-08-21 08:43 KST",
   "current_rate": 1395.0,
   "previous_close": 1393.3,
-  "rate_updated_at_kst": "2026-08-21 08:37:58 KST",
+  "rate_updated_at_kst": "2026-08-21 08:43:00 KST",
   "rate_source": "KB STAR FX Market Watch",
-  "rate_source_time": "2026-08-21 08:37:58 KST",
+  "rate_source_time": "2026-08-21 08:43:00 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "market_bias": "하락 우세",
+  "market_bias": "상승 우세",
   "drivers": [
-    "미 재무부의 장기채 바이백 확대 발표 뒤 30년물 국채금리가 5.337% 고점에서 5.184%로 낮아지고 달러인덱스가 98.938로 3개월 저점 부근에 머물러 달러 약세 압력이 이어지고 있습니다.",
-    "7월 FOMC 의사록에서는 물가가 2% 목표로 충분히 낮아지지 않을 경우 추가 금리 인상이 필요할 수 있다는 의견이 확인됐지만, 이후 나온 완화된 물가와 고용 지표는 당장 금리를 올릴 필요성을 낮추는 요인으로 평가되고 있습니다.",
-    "미·이란 전쟁과 호르무즈 해협 불확실성 속 브렌트유가 배럴당 91.87달러 수준을 유지해 에너지 수입 의존도가 높은 원화에는 부담 요인으로 남아 있습니다."
+    "연준의 추가 금리 인상 또는 매파적 기조 우려가 부각돼 달러 강세 압력이 높아지는 요인으로 작용하고 있습니다.",
+    "미국 물가 관련 최신 기사(\"Europe's STOXX 600 slips on inflation fears\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
+    "미 국채금리 하락 관련 보도가 확인돼 달러의 금리 매력이 낮아지면서 원/달러 환율 하락 압력으로 작용하고 있습니다."
   ],
-  "outlook": "달러 자체의 약세 압력은 이어지고 있으나 고유가와 중동 리스크가 원화 강세를 제약해 원/달러는 단기 변동성이 큰 하락 우세 흐름이 예상됩니다.",
+  "outlook": "달러 강세·금리 상승 계열의 재료가 상대적으로 우세해 원/달러는 단기 상승 압력이 나타날 수 있으나, 국내 수급과 위험선호 회복 여부에 따라 변동성이 예상됩니다.",
   "articles": [
     {
-      "title": "Dollar hugs three-month lows as Treasury seeks to sooth the bond market",
-      "url": "https://www.reuters.com/world/africa/dollar-hugs-three-month-lows-treasury-seeks-sooth-bond-market-2026-08-20/",
+      "title": "Fed minutes show September rate hike still on the table",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPSVRUSV8yamU0TV9KS0l6VjdObHdFelZjd2QxY2ZhWXBJTjN5b3hRbzZGekxuNWVQUHFVSXNHdFFscG1LTTVMX2xKZkx2Nk1GNzRBY3E4RGlGcXpUSkVxUnRaQllXeFlrT2lFd0UycUpVV1Q2MHpYQzU2TFBaM3JYTW50dHFKTlJtd2Y3QzViUWpRRklDSU13VzlHUjRHMmRrSlFibHM3Rzlsa0NNcHh1Tm9XdG1qRTdZ?oc=5",
       "domain": "Reuters",
-      "seen": "2026-08-20 09:53 KST"
+      "seen": "2026-08-21 08:31 KST"
     },
     {
-      "title": "US yields drop after Treasury offers liquidity support",
-      "url": "https://www.reuters.com/business/us-yields-head-lower-after-treasury-offers-liquidity-support-2026-08-19/",
+      "title": "US Treasury buyback strategy falls short as debt worries persist",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQUzFwdENyWXEzYkFodVhwWFR5eGRlTnAwT0xXQy1OVDExRi1lVWoxMnE3NE9NZjlMS1Z6Z3ZZT0sxdnpNT01SVTVnWkVnV2ZlSkZlMWxBQXRZY2dXVWFVbGJJVDlPZFZuZ1A2VnJGRFd6bkF5cjZCYlVST0pCcmQ3UUQ0WHo1Q2NBLVF1SU9Wb0FNY2RuSmZrRDdXTFR0enVhM19xTEhmTHY3ZkdZNWc?oc=5",
       "domain": "Reuters",
-      "seen": "2026-08-19 23:15 KST"
+      "seen": "2026-08-21 05:58 KST"
     },
     {
-      "title": "US 30-year Treasury yields drop from multi-year highs",
-      "url": "https://www.reuters.com/business/us-30-year-treasury-yields-drop-multi-year-highs-2026-08-19/",
-      "domain": "Reuters",
-      "seen": "2026-08-19 22:47 KST"
+      "title": "Oil hits more than 3-week high as Trump tries to raise pressure on Iran",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOc0syb0xoem5HdWhvZFRGaGI3X0h3amFCMm44UC1hLVNQa1FOX2JRWTBOY2w5TlpfUDFCZko1Y3JERE12cDdGd19LRThoa2xERVZ1dXJNWV96QzYzN04xRmRjeVNfTENLbjVhSzQycnlrYkl1SDJ4V3JfOUswbnNnVlZVUVY4cVVqalJ4SWhYYThyVTRJY1lwMTY1VEVjWERrTmJtZ3dqWEk5Q25CU0VNSGNtM2xYZ9IBuwFBVV95cUxOMWpXQWZFdWJKaGRZcVN2WnZHVm9NNUN5bkZCT2RrbWRCRHNvYThtQ1JKN0RBdTRvLTVXOGpraVc4MEV2MEFTZUN2UWtwOHFWOXVkUXFUektuWTRzZFg0NHA5NWpGTzA2MmhDZlRrZkZhaV9NZWs4WXpwWVplTHhiYlE1WEZRNmIxNE94Wlh0YlZDcTdyNHBHQ0JNY05PZ2hqYmpEMUpWelB3VGJraDFfMDFpdnBVZXVpcmQw?oc=5",
+      "domain": "The Korea Times",
+      "seen": "2026-08-21 01:42 KST"
     },
     {
-      "title": "Trading Day: Bessent makes his mark",
-      "url": "https://www.reuters.com/commentary/reuters-open-interest/global-markets-trading-day-graphic-2026-08-19/",
+      "title": "Breakingviews - The US pioneers Operation Twist and Shout",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPVVh0aEMzdExoOE1abjFQeTVoSV9ReExwanJDSFJkVE1OLTE2T3U4WnNmTnV2Z1d5aTlhR040WXhkdzlBdDFtRUl1YWllbk9RMDVwTWNxZWR3YVBSODRjNnZQWFlZb1dScmlkZjdiOE9idFdJdU9vV1pxODU1MFFENTl1M0pLVC1oVEFwbHdXTWlSY1ZjQm9Da2Rn?oc=5",
       "domain": "Reuters",
-      "seen": "2026-08-20 KST"
+      "seen": "2026-08-21 01:34 KST"
     },
     {
-      "title": "Oil prices steady as investors assess US-Iran war outlook",
-      "url": "https://www.reuters.com/business/energy/oil-prices-steady-investors-assess-us-iran-war-outlook-2026-08-20/",
+      "title": "Europe's STOXX 600 slips on inflation fears",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQeDlZbm1VZjNFaEdVbnVGVkcyZkVlS3F2ci1DSERqUnVlYVNxaVBzaWprS25aeGcyWHBkVDUxM1A4V3JRVVJONjZyN3JCR2xqa29RblRsSm9GTjU3SmNZRnhIcTBRdkYxYkdyN01QTXprdG52ZV9oR2ZTdkxLUDlKTi1sRTdmOUhmc2QxOUtuT0lLby1NZ0thTlpvWkZhTnRNaEFyWHZOSC1MU0lxYnNjLWxTUzU1dw?oc=5",
       "domain": "Reuters",
-      "seen": "2026-08-20 10:11 KST"
+      "seen": "2026-08-21 01:33 KST"
+    },
+    {
+      "title": "Breakingviews - Bond yields are still relatively low",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNTi1UejBOOVVZVFZicERaU3pSa0doNDI3LXZOTzJIVnltZktnbEdqeDMwV2pVN3poRjBJeGxmUmR2ODdybjc3bVZJT2dLZHJjdmdMNU9zN0F2Q2FySE45NGsxSGZUTGUtblA1blpFQWhPajB2TVJFbmt1SGRyRXVTYkpnWV9YdmEwdzk5dWo5SmVwbHVRdXlzaUJHWmxzdw?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-08-20 20:25 KST"
     }
   ],
   "rate_change": 1.7,

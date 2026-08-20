@@ -1,6 +1,5 @@
 import json
 import re
-import shutil
 from datetime import datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -56,29 +55,22 @@ def find_market_watch(text: str, old_rate):
         if old_rate and abs(rate - old_rate) > 150:
             continue
 
-        tm = re.search(r"(20\d{2}\.\d{2}\.\d{2}\s+\d{2}:\d{2}:\d{2})", sec[:300])
+        tm = re.search(r"(20\d{2}\.\d{2}\.\d{2}\s+\d{2}:\d{2}:\d{2})", sec[:500])
         candidates.append((rate, delta, pct, tm.group(1) if tm else None))
 
     if not candidates:
+        print("----- KB STAR FX BODY PREVIEW -----")
+        print(text[:6000])
+        print("----- END PREVIEW -----")
         raise RuntimeError("KB STAR FX Market Watch의 유효한 USD/KRW 값을 찾지 못했습니다.")
 
     return candidates[-1], forecast
 
 
 def get_kb_rate(old_rate):
-    chrome = (
-        shutil.which("google-chrome")
-        or shutil.which("google-chrome-stable")
-        or shutil.which("chromium")
-        or shutil.which("chromium-browser")
-    )
-    if not chrome:
-        raise RuntimeError("GitHub runner에서 Chrome 실행 파일을 찾지 못했습니다.")
-
     with sync_playwright() as p:
         browser = p.chromium.launch(
             headless=True,
-            executable_path=chrome,
             args=["--no-sandbox", "--disable-dev-shm-usage"],
         )
         page = browser.new_page(
@@ -90,7 +82,7 @@ def get_kb_rate(old_rate):
             ),
         )
         page.goto(KB_URL, wait_until="domcontentloaded", timeout=90000)
-        page.wait_for_timeout(12000)
+        page.wait_for_timeout(15000)
         text = page.locator("body").inner_text(timeout=30000)
         browser.close()
 

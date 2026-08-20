@@ -1,42 +1,23 @@
 {
-  "updated_at_kst": "2026-08-20 09:20 KST",
+  "updated_at_kst": "2026-08-20 09:35 KST",
+  "current_rate": 1418.57,
+  "previous_close": 1407.48,
+  "rate_updated_at_kst": "2026-08-20 09:35 KST 수집",
+  "rate_source": "Investing.com 실시간 FX",
+  "rate_source_time": "04:49:41 (Investing.com 표기)",
+  "rate_url": "https://kr.investing.com/currencies/usd-krw-historical-data",
   "market_bias": "하락 우세",
   "drivers": [
     "미 재무부의 장기채 바이백 확대 발표 뒤 10년물·30년물 국채금리가 하락하고 달러인덱스가 98.93까지 내려가면서 원/달러에는 하락 압력이 우세합니다.",
     "7월 FOMC 의사록에서는 물가가 2% 목표로 충분히 내려오지 않을 경우 추가 금리 인상이 필요하다는 의견이 다수 확인돼 달러 약세를 제한하는 반대 요인으로 남아 있습니다.",
-    "최근 미국의 물가 완화와 7월 고용 감소는 단기 금리 인상 기대를 낮추지만, 중동 긴장으로 브렌트유가 배럴당 91달러대를 유지해 한국처럼 에너지 수입 비중이 높은 국가의 원화에는 부담 요인입니다."
+    "최근 미국의 물가 완화와 7월 고용 감소는 단기 금리 인상 기대를 낮추지만, 중동 긴장으로 브렌트유가 높은 수준을 유지해 한국처럼 에너지 수입 비중이 높은 국가의 원화에는 부담 요인입니다."
   ],
   "outlook": "단기적으로는 달러 약세와 장기금리 하락 영향으로 원/달러 하락 우세를 보되, 연준의 추가 인상 신호 강화나 중동발 유가 급등 시 환율이 재반등할 위험을 함께 봐야 합니다.",
   "articles": [
-    {
-      "title": "Dollar falls after US Treasury plans more bond buybacks",
-      "url": "https://www.reuters.com/world/africa/dollar-drifts-near-multi-month-lows-treasury-yields-ease-fed-minutes-awaited-2026-08-19/",
-      "domain": "Reuters",
-      "seen": "2026-08-19 10:31 KST"
-    },
-    {
-      "title": "Fed policymakers' inflation concerns increased at July meeting, minutes show",
-      "url": "https://www.reuters.com/business/fed-policymakers-inflation-concerns-increased-july-meeting-minutes-show-2026-08-19/",
-      "domain": "Reuters",
-      "seen": "2026-08-20 03:04 KST"
-    },
-    {
-      "title": "Morning Bid: Yields give way",
-      "url": "https://www.reuters.com/commentary/reuters-open-interest/global-markets-view-usa-2026-08-18/",
-      "domain": "Reuters",
-      "seen": "2026-08-18 19:32 KST"
-    },
-    {
-      "title": "SK Hynix plans $28.6 billion buyback after share price declines",
-      "url": "https://www.reuters.com/legal/transactional/sk-hynix-buy-back-cancel-29-billion-worth-treasury-shares-2026-08-19/",
-      "domain": "Reuters",
-      "seen": "2026-08-19 16:09 KST"
-    },
-    {
-      "title": "'Many' Fed officials think higher rates will be needed if inflation stays high",
-      "url": "https://apnews.com/article/0030d04832b89b564b743b34ab2cd8de",
-      "domain": "AP",
-      "seen": "2026-08-20"
-    }
+    {"title":"Dollar falls after US Treasury plans more bond buybacks","url":"https://www.reuters.com/world/africa/dollar-drifts-near-multi-month-lows-treasury-yields-ease-fed-minutes-awaited-2026-08-19/","domain":"Reuters","seen":"2026-08-19 10:31 KST"},
+    {"title":"Fed policymakers' inflation concerns increased at July meeting, minutes show","url":"https://www.reuters.com/business/fed-policymakers-inflation-concerns-increased-july-meeting-minutes-show-2026-08-19/","domain":"Reuters","seen":"2026-08-20 03:04 KST"},
+    {"title":"Morning Bid: Yields give way","url":"https://www.reuters.com/commentary/reuters-open-interest/global-markets-view-usa-2026-08-18/","domain":"Reuters","seen":"2026-08-18 19:32 KST"},
+    {"title":"SK Hynix plans $28.6 billion buyback after share price declines","url":"https://www.reuters.com/legal/transactional/sk-hynix-buy-back-cancel-29-billion-worth-treasury-shares-2026-08-19/","domain":"Reuters","seen":"2026-08-19 16:09 KST"},
+    {"title":"'Many' Fed officials think higher rates will be needed if inflation stays high","url":"https://apnews.com/article/0030d04832b89b564b743b34ab2cd8de","domain":"AP","seen":"2026-08-20"}
   ]
 }

@@ -1,22 +1,34 @@
 {
-  "updated_at_kst": "2026-08-22 05:58 KST",
+  "updated_at_kst": "2026-08-22 06:58 KST",
   "current_rate": 1386.5,
   "previous_close": 1393.3,
-  "rate_updated_at_kst": "2026-08-22 05:57:47 KST",
+  "rate_updated_at_kst": "2026-08-22 06:58:05 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "상승 우세",
   "drivers": [
     "연준의 추가 금리 인상 또는 매파적 기조 우려가 부각돼 달러 강세 압력이 높아지는 요인으로 작용하고 있습니다.",
     "미국 물가 관련 최신 기사(\"European stocks gain, but inflation worries drive weekly decline\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
-    "미 국채금리 관련 최신 기사(\"Treasury buyback renews dollar-debasement fears\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다."
+    "미 국채금리 하락 관련 보도가 확인돼 달러의 금리 매력이 낮아지면서 원/달러 환율 하락 압력으로 작용하고 있습니다."
   ],
   "outlook": "달러 강세·금리 상승 계열의 재료가 상대적으로 우세해 원/달러는 단기 상승 압력이 나타날 수 있으나, 국내 수급과 위험선호 회복 여부에 따라 변동성이 예상됩니다.",
   "articles": [
+    {
+      "title": "Wall St rises on the day but falls for the week; bond yields and Iran in focus",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQX2E3YkdBQXBjbW43VmpoeklMN0VYV0ZtV0xZeUNHQUx0aXAxLW16MjU5bWdkLVRxUzlpNGhWWEpCeUJDd3JYbTJkZE5KTll3R3JkZGJoamdUSnRPMmp1d21Tc2lUb3FVcldGcXBXamZZU0lqcEV1SDdwN09pOUl4cTM4WHBnWDVhNExtbzdkMXBYVTRmVjVXSjQyYjMyUXJt?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-08-22 05:44 KST"
+    },
     {
       "title": "European stocks gain, but inflation worries drive weekly decline",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQTGI4aEFTYmRYM0wyeVlIYmtqcjNFRWpHQndSS1FZRzBqTnZUUmJoRGdXTGNtV2VaakRWdzBqNmZpUWh5OFdTM0RqWmZrQ0ZmX0VqMEtnRU5jOGlQUDlHR0VxX1JhMS15ZGtCVmNDWV9QUTN6WFlwalVqbTZvcXNDQzVVRjRwQU1XcUxPNmMyajMyMHdtbHVwY2dPWUpWOHJjTzFIR2RfV29QeW9wOEVqMFJvdVVHUQ?oc=5",
       "domain": "Reuters",
       "seen": "2026-08-22 01:38 KST"
+    },
+    {
+      "title": "Treasury buyback renews dollar-debasement fears",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOMkkwenhydmpyZmx1Z0lxTjNQN0NXRDJtbjd4UEFkLVllcks3M05JM1VlQnJ5WDNmRDJTbHhValJwSmt0SnpFdllKYnRUcGNyY3lDNDBYZ1ZTWWtDaklOeDgzVUFqbzZyeWRLQ05waUV1aUd3LTRyRGlqc1FYaHNvNm1SZE83S0ZOYXNrejRwNXZ2N19BRWNka2FuTzB6ay01OUNuREtR?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-08-21 23:03 KST"
     },
     {
       "title": "Traders are bracing for an increasingly hawkish ECB",
@@ -35,21 +47,9 @@
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPeTRXSGR0N2FUbGhlTWN5NFFQWkc0OS1TX1dhS0RtQkNySkxWWDBWQVktajFIWWJwTzBoR2pOczFKdjYwWlRsWVBmODR6M2IzSWM4VzlMblk3cHNwQ21pdXVlbERIZDhlanhFT19UT214OWxBUFJHMk81cjlOajRRTm9pamlEb05VeHVVZEtpQmNLMC1rSnhmbmZCWWY1WEQtZDkxUWV4MDFHR1dqWmhSVmQ2Y3R0dW1U?oc=5",
       "domain": "Reuters",
       "seen": "2026-08-21 19:15 KST"
-    },
-    {
-      "title": "Treasury buyback renews dollar-debasement fears",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOMkkwenhydmpyZmx1Z0lxTjNQN0NXRDJtbjd4UEFkLVllcks3M05JM1VlQnJ5WDNmRDJTbHhValJwSmt0SnpFdllKYnRUcGNyY3lDNDBYZ1ZTWWtDaklOeDgzVUFqbzZyeWRLQ05waUV1aUd3LTRyRGlqc1FYaHNvNm1SZE83S0ZOYXNrejRwNXZ2N19BRWNka2FuTzB6ay01OUNuREtR?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-08-21 14:04 KST"
-    },
-    {
-      "title": "Rupee dips on week as oil pangs linger, intervention prevents fall past 96/USD",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNdmF1dnI2MFY1Qmo5LWdRYUpPck90S0RZOWxXUHdfYTJvMUd5aHVYenFQNFRsc0F3OGktZUZEY2tEOHdEdHRHYVZ4bkljN0dfR1F3Mm40cGdmT1BFODhNWDFnbG44NkxxTVd2RnBLekZ3b2R4Y0ZXbmo5TlR6N2VpdzVJWWVQXzhPNUxEdnZpbG5RVmZOZ1FldERicXJCU2Utd3dzQXFpalM5ZV9LSmxjVG1OZEI?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-08-21 11:58 KST"
     }
   ],
-  "rate_source_time": "2026-08-22 05:57:47 KST",
+  "rate_source_time": "2026-08-22 06:58:05 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": -6.8,
   "rate_change_pct": -0.49,

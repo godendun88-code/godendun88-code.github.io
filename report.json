@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-08-21 14:58 KST",
-  "current_rate": 1384.5,
+  "updated_at_kst": "2026-08-21 16:43 KST",
+  "current_rate": 1384.3,
   "previous_close": 1393.3,
-  "rate_updated_at_kst": "2026-08-21 14:58:15 KST",
+  "rate_updated_at_kst": "2026-08-21 16:43:11 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
@@ -19,16 +19,10 @@
       "seen": "2026-08-21 14:04 KST"
     },
     {
-      "title": "Rupee battles oil, hedging drag; RBI shield, weak dollar cushion fall",
+      "title": "Rupee flat as intervention anchor stays in place, on course for weekly dip",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNdmF1dnI2MFY1Qmo5LWdRYUpPck90S0RZOWxXUHdfYTJvMUd5aHVYenFQNFRsc0F3OGktZUZEY2tEOHdEdHRHYVZ4bkljN0dfR1F3Mm40cGdmT1BFODhNWDFnbG44NkxxTVd2RnBLekZ3b2R4Y0ZXbmo5TlR6N2VpdzVJWWVQXzhPNUxEdnZpbG5RVmZOZ1FldERicXJCU2Utd3dzQXFpalM5ZV9LSmxjVG1OZEI?oc=5",
       "domain": "Reuters",
       "seen": "2026-08-21 11:58 KST"
-    },
-    {
-      "title": "Oil set for second weekly rise as unsettled US-Iran war crimps supply",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPbEh1QVJmcTNtSE1PMURxNmRBT3RIWHhVTmtwZDRiMk5yUzJtc2xuNHFlQXF1a3VJS3FQckxIY3Y2VjhFejlkNDZnLTY0R0prazZHb194Y19sRDdjUVJtNHlMT0lwSHRRcU5UM2VBTFZpVHBDZEl1OGFWbUkxX1pacWhMYUtFQ0pRbGVRYVNYcy1zSUNZVWtxNW4zczc0YVhZVkFWUHJwRWlFQl8zQUR3dFNIU1o?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-08-21 10:50 KST"
     },
     {
       "title": "Gold on track for third weekly gain after US Treasury move",
@@ -47,12 +41,18 @@
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPSVRUSV8yamU0TV9KS0l6VjdObHdFelZjd2QxY2ZhWXBJTjN5b3hRbzZGekxuNWVQUHFVSXNHdFFscG1LTTVMX2xKZkx2Nk1GNzRBY3E4RGlGcXpUSkVxUnRaQllXeFlrT2lFd0UycUpVV1Q2MHpYQzU2TFBaM3JYTW50dHFKTlJtd2Y3QzViUWpRRklDSU13VzlHUjRHMmRrSlFibHM3Rzlsa0NNcHh1Tm9XdG1qRTdZ?oc=5",
       "domain": "Reuters",
       "seen": "2026-08-21 08:31 KST"
+    },
+    {
+      "title": "Treasury's Bessent says upsized bond buybacks could increase further",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPTWc4bVJ0eEl6MmpreFhiWU9RajRyM05KRDVuNU01TkZnY3UxRTdHSkFBTEwtWVV3dHJfczQyS0dNcW9uR2s4cXRDUmN6Y1FjaUZULWpxejJGMUdRWHlnQi1rekZjN2hyQXJmUXZlMGJocGFkaVQwOUtQMWFNYUVyZG9WQnBtYUlEQVdvdnp0dnE1aTlRNUZ1Q1d6OFUyb2IyTEluOXB6Y0RIU0JOSzhmS1l3?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-08-21 05:37 KST"
     }
   ],
-  "rate_source_time": "2026-08-21 14:58:15 KST",
+  "rate_source_time": "2026-08-21 16:43:11 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": -8.8,
-  "rate_change_pct": -0.63,
+  "rate_change": -9.0,
+  "rate_change_pct": -0.65,
   "kb_daily_forecast_range": [
     1388.0,
     1399.0

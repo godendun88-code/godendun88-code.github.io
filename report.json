@@ -1,19 +1,60 @@
 {
-  "updated_at_kst": "2026-08-21 10:38 KST",
-  "current_rate": 1385.2,
+  "updated_at_kst": "2026-08-21 10:26 KST",
+  "current_rate": 1382.7,
   "previous_close": 1393.3,
-  "rate_updated_at_kst": "2026-08-21 09:38 KST",
-  "rate_source": "실시간 통화 환율 소스",
-  "market_bias": "하락 우세",
+  "rate_updated_at_kst": "2026-08-21 10:26:17 KST",
+  "rate_source": "KB STAR FX Market Watch",
+  "market_bias": "혼조",
   "drivers": [
-    "미 달러가 주간 약세 흐름을 이어가고 있습니다. 미 재무부가 장기 국채 바이백을 확대하면서 장기금리를 낮추려는 움직임이 달러에 하방 압력을 주었고, 21일 아시아 시간에도 달러 약세가 원/달러 하락 요인으로 작용하고 있습니다.",
-    "다만 미 국채금리는 전일 바이백 발표 직후의 하락분을 일부 되돌렸습니다. 20일 미 10년물 금리는 4.70%, 30년물은 5.249%까지 올라 달러의 추가 약세를 제한하는 요인으로 작용하고 있습니다.",
-    "미국 고용은 7월 고용 감소에도 최근 신규 실업수당 청구가 소폭 감소해 노동시장이 급격히 악화됐다는 신호는 확인되지 않았습니다. 동시에 7월 FOMC 의사록에서 물가 우려와 추가 금리 인상 가능성이 확인돼 연준의 매파적 경계가 원/달러의 하단을 제한하고 있습니다."
+    "연준·금리 관련 최신 기사(\"Fed officials tread carefully after Treasury's bond market intervention\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
+    "미국 물가 관련 최신 기사(\"Europe's STOXX 600 slips on inflation fears\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
+    "미 국채금리 하락 관련 보도가 확인돼 달러의 금리 매력이 낮아지면서 원/달러 환율 하락 압력으로 작용하고 있습니다."
   ],
-  "outlook": "현재 원/달러는 전일 종가 1,393.3원보다 낮은 1,385원대입니다. 단기적으로는 달러 약세가 우세해 원/달러 하락 압력이 이어질 가능성이 있으나, 미 장기금리 재상승과 연준의 추가 인상 경계가 남아 있어 하락 속도는 제한될 수 있습니다. 당일에는 1,380원대 지지 여부와 미 국채금리·달러인덱스의 추가 반등 여부를 함께 확인하는 것이 중요합니다.",
+  "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
-    {"title":"Gold steadies, heads for third straight weekly gain","url":"https://www.reuters.com/business/gold-steadies-heads-third-straight-weekly-gain-2026-08-21/","domain":"Reuters","seen":"2026-08-21 09:58 KST"},
-    {"title":"US Treasury buyback strategy falls short as debt worries persist","url":"https://www.reuters.com/business/us-treasury-buyback-briefly-eases-bond-rout-debt-worries-persist-2026-08-20/","domain":"Reuters","seen":"2026-08-21 KST"},
-    {"title":"Fed policymakers' inflation concerns increased at July meeting, minutes show","url":"https://www.reuters.com/business/fed-policymakers-inflation-concerns-increased-july-meeting-minutes-show-2026-08-19/","domain":"Reuters","seen":"2026-08-21 KST"}
+    {
+      "title": "Gold steadies, heads for third straight weekly gain",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNdzBQclFYMVRpaFk2cVBvUUNLd2tWYjlENUhJbG9tR3RYQ2k3VTFpSV9yd0xXVVgzNnFQNGltZV9sbHhQdENsX29BekdQM0NOb2p5bjBqQWNUbnE1WGZmaEt5d0ZFQVgzZUFKeWNOSEt2eHUzZWZRdk8xb1lMZUplLVZBY2oyYlRtMHo4YmZhdWRRZ2FndkE?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-08-21 09:58 KST"
+    },
+    {
+      "title": "Fed officials tread carefully after Treasury's bond market intervention",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQNExUX05vcVRoMGFiSkhtemgyTmhlSVpPd25ldTV2d0NXQWpvTzJLdTJSOUFnTjBPN2JKVU1oWXA2STYzNHBlVVdoa1V3a25ka1NVbkdSQXo5N2VhQU1DSFIwbjEtM0ZIN1ZPd2tNMDJPR1NTcWpNaWxUSzhsRmw0VHRtenJtc2N6bU9aREw1bnp0d1lMdkU5Y29xSHhZb3paQjRfeGRER1drWEc5aXc?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-08-21 08:44 KST"
+    },
+    {
+      "title": "Fed minutes show September rate hike still on the table",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPSVRUSV8yamU0TV9KS0l6VjdObHdFelZjd2QxY2ZhWXBJTjN5b3hRbzZGekxuNWVQUHFVSXNHdFFscG1LTTVMX2xKZkx2Nk1GNzRBY3E4RGlGcXpUSkVxUnRaQllXeFlrT2lFd0UycUpVV1Q2MHpYQzU2TFBaM3JYTW50dHFKTlJtd2Y3QzViUWpRRklDSU13VzlHUjRHMmRrSlFibHM3Rzlsa0NNcHh1Tm9XdG1qRTdZ?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-08-21 08:31 KST"
+    },
+    {
+      "title": "US Treasury buyback strategy falls short as debt worries persist",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQUzFwdENyWXEzYkFodVhwWFR5eGRlTnAwT0xXQy1OVDExRi1lVWoxMnE3NE9NZjlMS1Z6Z3ZZT0sxdnpNT01SVTVnWkVnV2ZlSkZlMWxBQXRZY2dXVWFVbGJJVDlPZFZuZ1A2VnJGRFd6bkF5cjZCYlVST0pCcmQ3UUQ0WHo1Q2NBLVF1SU9Wb0FNY2RuSmZrRDdXTFR0enVhM19xTEhmTHY3ZkdZNWc?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-08-21 05:58 KST"
+    },
+    {
+      "title": "Oil hits more than 3-week high as Trump tries to raise pressure on Iran",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOc0syb0xoem5HdWhvZFRGaGI3X0h3amFCMm44UC1hLVNQa1FOX2JRWTBOY2w5TlpfUDFCZko1Y3JERE12cDdGd19LRThoa2xERVZ1dXJNWV96QzYzN04xRmRjeVNfTENLbjVhSzQycnlrYkl1SDJ4V3JfOUswbnNnVlZVUVY4cVVqalJ4SWhYYThyVTRJY1lwMTY1VEVjWERrTmJtZ3dqWEk5Q25CU0VNSGNtM2xYZ9IBuwFBVV95cUxOMWpXQWZFdWJKaGRZcVN2WnZHVm9NNUN5bkZCT2RrbWRCRHNvYThtQ1JKN0RBdTRvLTVXOGpraVc4MEV2MEFTZUN2UWtwOHFWOXVkUXFUektuWTRzZFg0NHA5NWpGTzA2MmhDZlRrZkZhaV9NZWs4WXpwWVplTHhiYlE1WEZRNmIxNE94Wlh0YlZDcTdyNHBHQ0JNY05PZ2hqYmpEMUpWelB3VGJraDFfMDFpdnBVZXVpcmQw?oc=5",
+      "domain": "The Korea Times",
+      "seen": "2026-08-21 01:42 KST"
+    },
+    {
+      "title": "Breakingviews - The US pioneers Operation Twist and Shout",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPVVh0aEMzdExoOE1abjFQeTVoSV9ReExwanJDSFJkVE1OLTE2T3U4WnNmTnV2Z1d5aTlhR040WXhkdzlBdDFtRUl1YWllbk9RMDVwTWNxZWR3YVBSODRjNnZQWFlZb1dScmlkZjdiOE9idFdJdU9vV1pxODU1MFFENTl1M0pLVC1oVEFwbHdXTWlSY1ZjQm9Da2Rn?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-08-21 01:34 KST"
+    }
+  ],
+  "rate_source_time": "2026-08-21 10:26:17 KST",
+  "rate_url": "https://fx.kbstar.com/",
+  "rate_change": -10.6,
+  "rate_change_pct": -0.76,
+  "kb_daily_forecast_range": [
+    1388.0,
+    1399.0
   ]
 }

@@ -1,17 +1,23 @@
 {
-  "updated_at_kst": "2026-08-21 17:07 KST",
-  "current_rate": 1384.0,
+  "updated_at_kst": "2026-08-21 19:04 KST",
+  "current_rate": 1384.5,
   "previous_close": 1393.3,
-  "rate_updated_at_kst": "2026-08-21 17:07:38 KST",
+  "rate_updated_at_kst": "2026-08-21 19:03:53 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
     "연준·금리 관련 최신 기사(\"Fed officials tread carefully after Treasury's bond market intervention\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
     "미 국채금리 관련 최신 기사(\"Treasury buyback renews dollar-debasement fears\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다.",
-    "글로벌 달러 강세 관련 보도가 이어지며 원/달러 환율에는 상승 압력으로 작용하고 있습니다."
+    "유가 및 중동 지정학적 불확실성이 부각돼 에너지 수입 의존도가 높은 원화에는 약세 부담 요인으로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
+    {
+      "title": "Iranian oil offers to Chinese buyers fall as US blockade bites, sources say",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPNTlOa0p6cWFWR2FCZ0dZY2tEZEZLMkNWR3RvQkUzdUwyTE11aVF0TkVpMExXM3otZy0wbVRZU0lBOUpLV2lhYTdPWHBMZ3plOGFwekxwbVdQLTM5anpldkwtTWpnak05T3VLdDVUT3ItVVpEeHllS3E5SjFOeHFCT0FPeXU5c1I3X203S0pGcENjeFRESF9YaTZnV0JNNGNZUnl4RUxGTFZIN2RNU0k0YXpJbVhyVW55UlB6Rw?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-08-21 17:45 KST"
+    },
     {
       "title": "Six months of war",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNX0lPYzNQYzNFb2I1ZW91YXRCQWhCYWV2NGFkMWNtTV9KdUUtSWNOREVHOEJGY3R5THNITzY0d29lTTB3Tk5RQ1dGQ21nYk1oblczcGVua3RuemZLdm1BeXBETDEwN29rWEZGeG1VUy04ZUxGRDRWWEdKa1VLNS1nYzR1Y1VNSFVFcmJ3VQ?oc=5",
@@ -31,28 +37,22 @@
       "seen": "2026-08-21 11:58 KST"
     },
     {
-      "title": "Oil set for second weekly rise as unsettled US-Iran war crimps supply",
+      "title": "Oil set for second weekly gain as US ramps up pressure on Iran",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPbEh1QVJmcTNtSE1PMURxNmRBT3RIWHhVTmtwZDRiMk5yUzJtc2xuNHFlQXF1a3VJS3FQckxIY3Y2VjhFejlkNDZnLTY0R0prazZHb194Y19sRDdjUVJtNHlMT0lwSHRRcU5UM2VBTFZpVHBDZEl1OGFWbUkxX1pacWhMYUtFQ0pRbGVRYVNYcy1zSUNZVWtxNW4zczc0YVhZVkFWUHJwRWlFQl8zQUR3dFNIU1o?oc=5",
       "domain": "Reuters",
       "seen": "2026-08-21 10:50 KST"
     },
     {
-      "title": "Gold on track for third weekly gain after US Treasury move",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNdzBQclFYMVRpaFk2cVBvUUNLd2tWYjlENUhJbG9tR3RYQ2k3VTFpSV9yd0xXVVgzNnFQNGltZV9sbHhQdENsX29BekdQM0NOb2p5bjBqQWNUbnE1WGZmaEt5d0ZFQVgzZUFKeWNOSEt2eHUzZWZRdk8xb1lMZUplLVZBY2oyYlRtMHo4YmZhdWRRZ2FndkE?oc=5",
+      "title": "Dollar wobbles as Treasury's bond-market buybacks raise fresh concerns",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSFZuSmFFRlNlQUZPTlJaNnE2UUJzS29YTWZkWlhJNG1BSWEwbTNCWEVidHBISmc5VUpSMVh5YnRhNHBwMzhCRUZMX2RQalJCTjJhUWJTeFdQckZwbmxRZFgxdVBaTTg3NkZhOE9tZ2h3dHNNV1M5WEVSbTM4NTNsbXdNNnJyNTZHaTk5d25mWVB1eDB5c2RtQkpwVkVidDEtSkpCbA?oc=5",
       "domain": "Reuters",
-      "seen": "2026-08-21 09:58 KST"
-    },
-    {
-      "title": "Fed officials tread carefully after Treasury's bond market intervention",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQNExUX05vcVRoMGFiSkhtemgyTmhlSVpPd25ldTV2d0NXQWpvTzJLdTJSOUFnTjBPN2JKVU1oWXA2STYzNHBlVVdoa1V3a25ka1NVbkdSQXo5N2VhQU1DSFIwbjEtM0ZIN1ZPd2tNMDJPR1NTcWpNaWxUSzhsRmw0VHRtenJtc2N6bU9aREw1bnp0d1lMdkU5Y29xSHhZb3paQjRfeGRER1drWEc5aXc?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-08-21 08:44 KST"
+      "seen": "2026-08-21 10:36 KST"
     }
   ],
-  "rate_source_time": "2026-08-21 17:07:38 KST",
+  "rate_source_time": "2026-08-21 19:03:53 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": -9.3,
-  "rate_change_pct": -0.67,
+  "rate_change": -8.8,
+  "rate_change_pct": -0.63,
   "kb_daily_forecast_range": [
     1388.0,
     1399.0

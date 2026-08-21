@@ -8,6 +8,7 @@ from playwright.sync_api import sync_playwright
 
 KB_URL = "https://fx.kbstar.com/"
 REPORT_PATH = Path("report.json")
+DEBUG_PATH = Path("kb_network_debug.json")
 KST = ZoneInfo("Asia/Seoul")
 
 
@@ -105,7 +106,18 @@ def find_market_watch(text: str, old_rate):
     return (rate, delta, pct, kb_time), forecast
 
 
+def interesting_payload(text: str) -> bool:
+    t = text.lower()
+    if "usd/krw" in t or "usdkrw" in t or "market watch" in t:
+        return True
+    if re.search(r"\b1[1-8][0-9]{2}(?:\.[0-9]+)?\b", text) and any(k in t for k in ["rate", "fx", "quote", "spot", "krw", "usd"]):
+        return True
+    return False
+
+
 def get_kb_rate(old_rate):
+    debug = {"captured_at_kst": datetime.now(KST).strftime("%Y-%m-%d %H:%M:%S KST"), "http": [], "websocket": []}
+
     with sync_playwright() as p:
         browser = p.chromium.launch(
             headless=True,
@@ -119,11 +131,50 @@ def get_kb_rate(old_rate):
                 "Chrome/151.0.0.0 Safari/537.36"
             ),
         )
+
+        def on_response(resp):
+            if len(debug["http"]) >= 60:
+                return
+            try:
+                ct = (resp.headers.get("content-type") or "").lower()
+                if not any(x in ct for x in ["json", "text", "javascript", "xml"]):
+                    return
+                body = resp.text()
+                if interesting_payload(body) or any(k in resp.url.lower() for k in ["fx", "rate", "quote", "market", "price"]):
+                    debug["http"].append({
+                        "url": resp.url,
+                        "status": resp.status,
+                        "content_type": ct,
+                        "body_preview": body[:3000],
+                    })
+            except Exception:
+                pass
+
+        def on_websocket(ws):
+            entry = {"url": ws.url, "frames": []}
+            debug["websocket"].append(entry)
+
+            def on_frame(payload):
+                if len(entry["frames"]) >= 40:
+                    return
+                try:
+                    s = payload if isinstance(payload, str) else str(payload)
+                    if interesting_payload(s) or re.search(r"\b1[1-8][0-9]{2}(?:\.[0-9]+)?\b", s):
+                        entry["frames"].append(s[:3000])
+                except Exception:
+                    pass
+
+            ws.on("framereceived", on_frame)
+
+        page.on("response", on_response)
+        page.on("websocket", on_websocket)
+
         page.goto(KB_URL, wait_until="domcontentloaded", timeout=90000)
         page.wait_for_timeout(18000)
         text = page.locator("body").inner_text(timeout=30000)
         browser.close()
 
+    DEBUG_PATH.write_text(json.dumps(debug, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     return find_market_watch(text, old_rate)
 
 

@@ -1,17 +1,35 @@
 {
-  "updated_at_kst": "2026-08-21 10:26 KST",
-  "current_rate": 1382.7,
+  "updated_at_kst": "2026-08-21 13:07 KST",
+  "current_rate": 1382.3,
   "previous_close": 1393.3,
-  "rate_updated_at_kst": "2026-08-21 10:26:17 KST",
+  "rate_updated_at_kst": "2026-08-21 13:07:18 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
     "연준·금리 관련 최신 기사(\"Fed officials tread carefully after Treasury's bond market intervention\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
     "미국 물가 관련 최신 기사(\"Europe's STOXX 600 slips on inflation fears\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
-    "미 국채금리 하락 관련 보도가 확인돼 달러의 금리 매력이 낮아지면서 원/달러 환율 하락 압력으로 작용하고 있습니다."
+    "미 국채금리 관련 최신 기사(\"Asia shares downbeat on the week as bond yields, oil stay high\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
+    {
+      "title": "Rupee battles oil, hedging drag; RBI shield, weak dollar cushion fall",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNdmF1dnI2MFY1Qmo5LWdRYUpPck90S0RZOWxXUHdfYTJvMUd5aHVYenFQNFRsc0F3OGktZUZEY2tEOHdEdHRHYVZ4bkljN0dfR1F3Mm40cGdmT1BFODhNWDFnbG44NkxxTVd2RnBLekZ3b2R4Y0ZXbmo5TlR6N2VpdzVJWWVQXzhPNUxEdnZpbG5RVmZOZ1FldERicXJCU2Utd3dzQXFpalM5ZV9LSmxjVG1OZEI?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-08-21 11:58 KST"
+    },
+    {
+      "title": "Oil set for second weekly rise as unsettled US-Iran war crimps supply",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPbEh1QVJmcTNtSE1PMURxNmRBT3RIWHhVTmtwZDRiMk5yUzJtc2xuNHFlQXF1a3VJS3FQckxIY3Y2VjhFejlkNDZnLTY0R0prazZHb194Y19sRDdjUVJtNHlMT0lwSHRRcU5UM2VBTFZpVHBDZEl1OGFWbUkxX1pacWhMYUtFQ0pRbGVRYVNYcy1zSUNZVWtxNW4zczc0YVhZVkFWUHJwRWlFQl8zQUR3dFNIU1o?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-08-21 10:50 KST"
+    },
+    {
+      "title": "Asia shares downbeat on the week as bond yields, oil stay high",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNVTFQMW56em9GbmdpNkt2Y1pGekxZbWNTT2I5bHZDNUJCaFFYem9uWVlkSEd3dzBHQ19mSHA0QzZlUmMzWHJtOEtJX09qRmVaNFdYaC1wZzQ4VmJCdFdlWnFDSkhRLVkwYXRidHJPaVk2ZXFyeVNzU0dCbzNRZnhNc0dLcw?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-08-21 10:23 KST"
+    },
     {
       "title": "Gold steadies, heads for third straight weekly gain",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNdzBQclFYMVRpaFk2cVBvUUNLd2tWYjlENUhJbG9tR3RYQ2k3VTFpSV9yd0xXVVgzNnFQNGltZV9sbHhQdENsX29BekdQM0NOb2p5bjBqQWNUbnE1WGZmaEt5d0ZFQVgzZUFKeWNOSEt2eHUzZWZRdk8xb1lMZUplLVZBY2oyYlRtMHo4YmZhdWRRZ2FndkE?oc=5",
@@ -29,30 +47,12 @@
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPSVRUSV8yamU0TV9KS0l6VjdObHdFelZjd2QxY2ZhWXBJTjN5b3hRbzZGekxuNWVQUHFVSXNHdFFscG1LTTVMX2xKZkx2Nk1GNzRBY3E4RGlGcXpUSkVxUnRaQllXeFlrT2lFd0UycUpVV1Q2MHpYQzU2TFBaM3JYTW50dHFKTlJtd2Y3QzViUWpRRklDSU13VzlHUjRHMmRrSlFibHM3Rzlsa0NNcHh1Tm9XdG1qRTdZ?oc=5",
       "domain": "Reuters",
       "seen": "2026-08-21 08:31 KST"
-    },
-    {
-      "title": "US Treasury buyback strategy falls short as debt worries persist",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQUzFwdENyWXEzYkFodVhwWFR5eGRlTnAwT0xXQy1OVDExRi1lVWoxMnE3NE9NZjlMS1Z6Z3ZZT0sxdnpNT01SVTVnWkVnV2ZlSkZlMWxBQXRZY2dXVWFVbGJJVDlPZFZuZ1A2VnJGRFd6bkF5cjZCYlVST0pCcmQ3UUQ0WHo1Q2NBLVF1SU9Wb0FNY2RuSmZrRDdXTFR0enVhM19xTEhmTHY3ZkdZNWc?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-08-21 05:58 KST"
-    },
-    {
-      "title": "Oil hits more than 3-week high as Trump tries to raise pressure on Iran",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOc0syb0xoem5HdWhvZFRGaGI3X0h3amFCMm44UC1hLVNQa1FOX2JRWTBOY2w5TlpfUDFCZko1Y3JERE12cDdGd19LRThoa2xERVZ1dXJNWV96QzYzN04xRmRjeVNfTENLbjVhSzQycnlrYkl1SDJ4V3JfOUswbnNnVlZVUVY4cVVqalJ4SWhYYThyVTRJY1lwMTY1VEVjWERrTmJtZ3dqWEk5Q25CU0VNSGNtM2xYZ9IBuwFBVV95cUxOMWpXQWZFdWJKaGRZcVN2WnZHVm9NNUN5bkZCT2RrbWRCRHNvYThtQ1JKN0RBdTRvLTVXOGpraVc4MEV2MEFTZUN2UWtwOHFWOXVkUXFUektuWTRzZFg0NHA5NWpGTzA2MmhDZlRrZkZhaV9NZWs4WXpwWVplTHhiYlE1WEZRNmIxNE94Wlh0YlZDcTdyNHBHQ0JNY05PZ2hqYmpEMUpWelB3VGJraDFfMDFpdnBVZXVpcmQw?oc=5",
-      "domain": "The Korea Times",
-      "seen": "2026-08-21 01:42 KST"
-    },
-    {
-      "title": "Breakingviews - The US pioneers Operation Twist and Shout",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPVVh0aEMzdExoOE1abjFQeTVoSV9ReExwanJDSFJkVE1OLTE2T3U4WnNmTnV2Z1d5aTlhR040WXhkdzlBdDFtRUl1YWllbk9RMDVwTWNxZWR3YVBSODRjNnZQWFlZb1dScmlkZjdiOE9idFdJdU9vV1pxODU1MFFENTl1M0pLVC1oVEFwbHdXTWlSY1ZjQm9Da2Rn?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-08-21 01:34 KST"
     }
   ],
-  "rate_source_time": "2026-08-21 10:26:17 KST",
+  "rate_source_time": "2026-08-21 13:07:18 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": -10.6,
-  "rate_change_pct": -0.76,
+  "rate_change": -11.0,
+  "rate_change_pct": -0.79,
   "kb_daily_forecast_range": [
     1388.0,
     1399.0

@@ -2,7 +2,9 @@ name: Update KB STAR FX rate and market news
 
 on:
   schedule:
-    - cron: '7 * * * *'
+    # GitHub scheduled workflows can be delayed. Check four times per hour
+    # so a missed slot is recovered automatically.
+    - cron: '3,18,33,48 * * * *'
   workflow_dispatch:
   push:
     branches: [main]

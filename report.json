@@ -1,17 +1,29 @@
 {
-  "updated_at_kst": "2026-08-21 20:05 KST",
-  "current_rate": 1384.8,
+  "updated_at_kst": "2026-08-22 00:53 KST",
+  "current_rate": 1386.5,
   "previous_close": 1393.3,
-  "rate_updated_at_kst": "2026-08-21 20:04:52 KST",
+  "rate_updated_at_kst": "2026-08-22 00:53:19 KST",
   "rate_source": "KB STAR FX Market Watch",
-  "market_bias": "혼조",
+  "market_bias": "상승 우세",
   "drivers": [
-    "연준·금리 관련 최신 기사(\"Fed officials tread carefully after Treasury's bond market intervention\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
-    "미 국채금리 관련 최신 기사(\"Dollar wobbles as Treasury's bond-market buybacks raise fresh concerns\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다.",
-    "달러 관련 최신 기사(\"Gold rallies to three-month high as softer dollar, technicals support\")가 확인돼 달러인덱스 방향성이 원/달러 환율의 핵심 변수로 작용하고 있습니다."
+    "연준의 추가 금리 인상 또는 매파적 기조 우려가 부각돼 달러 강세 압력이 높아지는 요인으로 작용하고 있습니다.",
+    "미 국채금리 관련 최신 기사(\"Treasury buyback renews dollar-debasement fears\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다.",
+    "달러 관련 최신 기사(\"Gold rallies to 3-month high as frail dollar, technicals support\")가 확인돼 달러인덱스 방향성이 원/달러 환율의 핵심 변수로 작용하고 있습니다."
   ],
-  "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
+  "outlook": "달러 강세·금리 상승 계열의 재료가 상대적으로 우세해 원/달러는 단기 상승 압력이 나타날 수 있으나, 국내 수급과 위험선호 회복 여부에 따라 변동성이 예상됩니다.",
   "articles": [
+    {
+      "title": "Traders are bracing for an increasingly hawkish ECB",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZUt4YkUxMjR5N050eGJjdnVxRDJJV0ZYSGFsVkJmaldxdWZaOXBMbV9rTkpYMnRGbXllLW1SbHc0c0dOWVV1WkNoUVE2anBDRVBpaHJkb0RvYm51T24tYXBULVRmSHA5dVg2U3lYSnRoQkdac0pUTnA5MUhmMG5TWTFGSzlrTFo4ckZ6blZXMmp6WjVqZDhON1ZZazI?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-08-21 21:36 KST"
+    },
+    {
+      "title": "Take Five: Six months of war",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNX0lPYzNQYzNFb2I1ZW91YXRCQWhCYWV2NGFkMWNtTV9KdUUtSWNOREVHOEJGY3R5THNITzY0d29lTTB3Tk5RQ1dGQ21nYk1oblczcGVua3RuemZLdm1BeXBETDEwN29rWEZGeG1VUy04ZUxGRDRWWEdKa1VLNS1nYzR1Y1VNSFVFcmJ3VQ?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-08-21 20:25 KST"
+    },
     {
       "title": "Wall St Week Ahead Nvidia earnings, Jackson Hole to test pillars of stock rally",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPeTRXSGR0N2FUbGhlTWN5NFFQWkc0OS1TX1dhS0RtQkNySkxWWDBWQVktajFIWWJwTzBoR2pOczFKdjYwWlRsWVBmODR6M2IzSWM4VzlMblk3cHNwQ21pdXVlbERIZDhlanhFT19UT214OWxBUFJHMk81cjlOajRRTm9pamlEb05VeHVVZEtpQmNLMC1rSnhmbmZCWWY1WEQtZDkxUWV4MDFHR1dqWmhSVmQ2Y3R0dW1U?oc=5",
@@ -23,18 +35,6 @@
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPNTlOa0p6cWFWR2FCZ0dZY2tEZEZLMkNWR3RvQkUzdUwyTE11aVF0TkVpMExXM3otZy0wbVRZU0lBOUpLV2lhYTdPWHBMZ3plOGFwekxwbVdQLTM5anpldkwtTWpnak05T3VLdDVUT3ItVVpEeHllS3E5SjFOeHFCT0FPeXU5c1I3X203S0pGcENjeFRESF9YaTZnV0JNNGNZUnl4RUxGTFZIN2RNU0k0YXpJbVhyVW55UlB6Rw?oc=5",
       "domain": "Reuters",
       "seen": "2026-08-21 17:45 KST"
-    },
-    {
-      "title": "Dollar wobbles as Treasury's bond-market buybacks raise fresh concerns",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSFZuSmFFRlNlQUZPTlJaNnE2UUJzS29YTWZkWlhJNG1BSWEwbTNCWEVidHBISmc5VUpSMVh5YnRhNHBwMzhCRUZMX2RQalJCTjJhUWJTeFdQckZwbmxRZFgxdVBaTTg3NkZhOE9tZ2h3dHNNV1M5WEVSbTM4NTNsbXdNNnJyNTZHaTk5d25mWVB1eDB5c2RtQkpwVkVidDEtSkpCbA?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-08-21 17:25 KST"
-    },
-    {
-      "title": "Six months of war",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNX0lPYzNQYzNFb2I1ZW91YXRCQWhCYWV2NGFkMWNtTV9KdUUtSWNOREVHOEJGY3R5THNITzY0d29lTTB3Tk5RQ1dGQ21nYk1oblczcGVua3RuemZLdm1BeXBETDEwN29rWEZGeG1VUy04ZUxGRDRWWEdKa1VLNS1nYzR1Y1VNSFVFcmJ3VQ?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-08-21 16:53 KST"
     },
     {
       "title": "Treasury buyback renews dollar-debasement fears",
@@ -49,10 +49,10 @@
       "seen": "2026-08-21 11:58 KST"
     }
   ],
-  "rate_source_time": "2026-08-21 20:04:52 KST",
+  "rate_source_time": "2026-08-22 00:53:19 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": -8.5,
-  "rate_change_pct": -0.61,
+  "rate_change": -6.8,
+  "rate_change_pct": -0.49,
   "kb_daily_forecast_range": [
     1388.0,
     1399.0

@@ -2,8 +2,6 @@ name: Update KB STAR FX rate and market news
 
 on:
   schedule:
-    # GitHub scheduled workflows can be delayed. Check four times per hour
-    # so a missed slot is recovered automatically.
     - cron: '3,18,33,48 * * * *'
   workflow_dispatch:
   push:
@@ -46,14 +44,14 @@ jobs:
         continue-on-error: true
         run: python scripts/update_news.py
 
-      - name: Commit report.json when changed
+      - name: Commit dashboard data and temporary network trace
         run: |
-          if git diff --quiet -- report.json; then
+          if git diff --quiet -- report.json kb_network_debug.json; then
             echo "No dashboard data change"
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add report.json
+          git add report.json kb_network_debug.json
           git commit -m "Update FX dashboard data"
           git push

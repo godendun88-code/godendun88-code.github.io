@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-08-22 16:49 KST",
+  "updated_at_kst": "2026-08-22 19:01 KST",
   "current_rate": 1386.5,
   "previous_close": 1393.3,
-  "rate_updated_at_kst": "2026-08-22 16:48:49 KST",
+  "rate_updated_at_kst": "2026-08-22 19:01:25 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
@@ -19,16 +19,10 @@
       "seen": "2026-08-22 08:27 KST"
     },
     {
-      "title": "Wall St rises on the day but falls for the week; bond yields and Iran in focus",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQX2E3YkdBQXBjbW43VmpoeklMN0VYV0ZtV0xZeUNHQUx0aXAxLW16MjU5bWdkLVRxUzlpNGhWWEpCeUJDd3JYbTJkZE5KTll3R3JkZGJoamdUSnRPMmp1d21Tc2lUb3FVcldGcXBXamZZU0lqcEV1SDdwN09pOUl4cTM4WHBnWDVhNExtbzdkMXBYVTRmVjVXSjQyYjMyUXJt?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-08-22 07:58 KST"
-    },
-    {
       "title": "Gold rallies to 3-month high on weaker dollar, bullish technicals",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOOTV0NDBOcjdnVlNLYi1WTGY5MjE4bTZ0QlNJUldvQ2g5MURYbS0zSDdubU1jY29qZTVZS0dZeF9xUnA4LWpKcUduckRrd0xsWHdiRURrdlcxTlUzUHZGNGdQSjVacFFvT3RKZXZfMkZUNWx3QXI1U2RXYVk0cEdVbFctQXZxbHh6d1p6ZkdlOE9oamdrQmZQU2hqeWtKWGlZSWRWX3RGTV9PTmh30gGyAUFVX3lxTFB0MGY3eXJFTTZwM3dmWmsxbW9YWjZhN0JKSFlfZVotRjR5cHo5SGM4bDFLeHFfSHpMc3NzdzY3NDhUSXFlWGEybWdfOXZJRnNzYmtZRGpFdmpPc1dsWTZRYVNBQnlYYTBaUVBaVWwzb0UwMFhRVG1iQllKNF84Um9pejhNM015UTdqNE53N1BHQlpVWG80MEtpNlRQS3BaSWp1bERRbjd4cVk5bjk5d1JLZHc?oc=5",
-      "domain": "The Korea Times",
-      "seen": "2026-08-22 02:07 KST"
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNdzBQclFYMVRpaFk2cVBvUUNLd2tWYjlENUhJbG9tR3RYQ2k3VTFpSV9yd0xXVVgzNnFQNGltZV9sbHhQdENsX29BekdQM0NOb2p5bjBqQWNUbnE1WGZmaEt5d0ZFQVgzZUFKeWNOSEt2eHUzZWZRdk8xb1lMZUplLVZBY2oyYlRtMHo4YmZhdWRRZ2FndkE?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-08-22 02:57 KST"
     },
     {
       "title": "European stocks gain, but inflation worries drive weekly decline",
@@ -47,9 +41,15 @@
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOMkkwenhydmpyZmx1Z0lxTjNQN0NXRDJtbjd4UEFkLVllcks3M05JM1VlQnJ5WDNmRDJTbHhValJwSmt0SnpFdllKYnRUcGNyY3lDNDBYZ1ZTWWtDaklOeDgzVUFqbzZyeWRLQ05waUV1aUd3LTRyRGlqc1FYaHNvNm1SZE83S0ZOYXNrejRwNXZ2N19BRWNka2FuTzB6ay01OUNuREtR?oc=5",
       "domain": "Reuters",
       "seen": "2026-08-21 23:03 KST"
+    },
+    {
+      "title": "Traders are bracing for an increasingly hawkish ECB",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZUt4YkUxMjR5N050eGJjdnVxRDJJV0ZYSGFsVkJmaldxdWZaOXBMbV9rTkpYMnRGbXllLW1SbHc0c0dOWVV1WkNoUVE2anBDRVBpaHJkb0RvYm51T24tYXBULVRmSHA5dVg2U3lYSnRoQkdac0pUTnA5MUhmMG5TWTFGSzlrTFo4ckZ6blZXMmp6WjVqZDhON1ZZazI?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-08-21 21:36 KST"
     }
   ],
-  "rate_source_time": "2026-08-22 16:48:49 KST",
+  "rate_source_time": "2026-08-22 19:01:25 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": -6.8,
   "rate_change_pct": -0.49,

@@ -1,17 +1,23 @@
 {
-  "updated_at_kst": "2026-08-22 12:12 KST",
+  "updated_at_kst": "2026-08-22 14:01 KST",
   "current_rate": 1386.5,
   "previous_close": 1393.3,
-  "rate_updated_at_kst": "2026-08-22 12:11:56 KST",
+  "rate_updated_at_kst": "2026-08-22 14:00:58 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
     "미국 물가 관련 최신 기사(\"European stocks gain, but inflation worries drive weekly decline\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
-    "미 국채금리 하락 관련 보도가 확인돼 달러의 금리 매력이 낮아지면서 원/달러 환율 하락 압력으로 작용하고 있습니다.",
+    "미 국채금리 관련 최신 기사(\"Trump says he did not direct Bessent to intervene in bond market\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다.",
     "달러 관련 최신 기사(\"Gold rallies to 3-month high on weaker dollar, bullish technicals\")가 확인돼 달러인덱스 방향성이 원/달러 환율의 핵심 변수로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
+    {
+      "title": "Trump says he did not direct Bessent to intervene in bond market",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOTkFsc1FIR29sOXp1dmJuLTJFNHR0Z04taHhTaEZkd1QyRmhxN0hKTmZHYldObW5zV1J6c2ozT04xOXp0dlFMbWgwMHVUckdCeHNPRG1QTEE4bU9fckJmd1BnekhaZ0JCOUUwbDBCdWdRM3FRWEFJUHB4LW9KaTNPRDBmQ1lLYTdOUTJWa2wtckZ1Y0FFbjJVTkFjaUVKY2Zwdm05VENB?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-08-22 08:27 KST"
+    },
     {
       "title": "Wall St rises on the day but falls for the week; bond yields and Iran in focus",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQX2E3YkdBQXBjbW43VmpoeklMN0VYV0ZtV0xZeUNHQUx0aXAxLW16MjU5bWdkLVRxUzlpNGhWWEpCeUJDd3JYbTJkZE5KTll3R3JkZGJoamdUSnRPMmp1d21Tc2lUb3FVcldGcXBXamZZU0lqcEV1SDdwN09pOUl4cTM4WHBnWDVhNExtbzdkMXBYVTRmVjVXSjQyYjMyUXJt?oc=5",
@@ -26,9 +32,9 @@
     },
     {
       "title": "Gold rallies to 3-month high on weaker dollar, bullish technicals",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNdzBQclFYMVRpaFk2cVBvUUNLd2tWYjlENUhJbG9tR3RYQ2k3VTFpSV9yd0xXVVgzNnFQNGltZV9sbHhQdENsX29BekdQM0NOb2p5bjBqQWNUbnE1WGZmaEt5d0ZFQVgzZUFKeWNOSEt2eHUzZWZRdk8xb1lMZUplLVZBY2oyYlRtMHo4YmZhdWRRZ2FndkE?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-08-22 02:57 KST"
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOOTV0NDBOcjdnVlNLYi1WTGY5MjE4bTZ0QlNJUldvQ2g5MURYbS0zSDdubU1jY29qZTVZS0dZeF9xUnA4LWpKcUduckRrd0xsWHdiRURrdlcxTlUzUHZGNGdQSjVacFFvT3RKZXZfMkZUNWx3QXI1U2RXYVk0cEdVbFctQXZxbHh6d1p6ZkdlOE9oamdrQmZQU2hqeWtKWGlZSWRWX3RGTV9PTmh30gGyAUFVX3lxTFB0MGY3eXJFTTZwM3dmWmsxbW9YWjZhN0JKSFlfZVotRjR5cHo5SGM4bDFLeHFfSHpMc3NzdzY3NDhUSXFlWGEybWdfOXZJRnNzYmtZRGpFdmpPc1dsWTZRYVNBQnlYYTBaUVBaVWwzb0UwMFhRVG1iQllKNF84Um9pejhNM015UTdqNE53N1BHQlpVWG80MEtpNlRQS3BaSWp1bERRbjd4cVk5bjk5d1JLZHc?oc=5",
+      "domain": "The Korea Times",
+      "seen": "2026-08-22 02:07 KST"
     },
     {
       "title": "European stocks gain, but inflation worries drive weekly decline",
@@ -41,15 +47,9 @@
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOMkkwenhydmpyZmx1Z0lxTjNQN0NXRDJtbjd4UEFkLVllcks3M05JM1VlQnJ5WDNmRDJTbHhValJwSmt0SnpFdllKYnRUcGNyY3lDNDBYZ1ZTWWtDaklOeDgzVUFqbzZyeWRLQ05waUV1aUd3LTRyRGlqc1FYaHNvNm1SZE83S0ZOYXNrejRwNXZ2N19BRWNka2FuTzB6ay01OUNuREtR?oc=5",
       "domain": "Reuters",
       "seen": "2026-08-21 23:03 KST"
-    },
-    {
-      "title": "Traders are bracing for an increasingly hawkish ECB",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZUt4YkUxMjR5N050eGJjdnVxRDJJV0ZYSGFsVkJmaldxdWZaOXBMbV9rTkpYMnRGbXllLW1SbHc0c0dOWVV1WkNoUVE2anBDRVBpaHJkb0RvYm51T24tYXBULVRmSHA5dVg2U3lYSnRoQkdac0pUTnA5MUhmMG5TWTFGSzlrTFo4ckZ6blZXMmp6WjVqZDhON1ZZazI?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-08-21 21:36 KST"
     }
   ],
-  "rate_source_time": "2026-08-22 12:11:56 KST",
+  "rate_source_time": "2026-08-22 14:00:58 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": -6.8,
   "rate_change_pct": -0.49,

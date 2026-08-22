@@ -1,14 +1,14 @@
 {
-  "updated_at_kst": "2026-08-23 00:42 KST",
+  "updated_at_kst": "2026-08-23 01:52 KST",
   "current_rate": 1386.5,
   "previous_close": 1393.3,
-  "rate_updated_at_kst": "2026-08-23 00:42:29 KST",
+  "rate_updated_at_kst": "2026-08-23 01:52:40 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
-    "미국 물가 관련 최신 기사(\"European stocks gain, but inflation worries drive weekly decline\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
     "미 국채금리 관련 최신 기사(\"Trump says he did not direct Bessent to intervene in bond market\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다.",
-    "달러 관련 최신 기사(\"Gold rallies to 3-month high on weaker dollar, bullish technicals\")가 확인돼 달러인덱스 방향성이 원/달러 환율의 핵심 변수로 작용하고 있습니다."
+    "달러 관련 최신 기사(\"Gold rallies to 3-month high on weaker dollar, bullish technicals\")가 확인돼 달러인덱스 방향성이 원/달러 환율의 핵심 변수로 작용하고 있습니다.",
+    "미 국채금리 하락 관련 보도가 확인돼 달러의 금리 매력이 낮아지면서 원/달러 환율 하락 압력으로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
@@ -29,15 +29,9 @@
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNRUxzQlBETWZRMDdEUjZfNF9DczUtMkpPWkdyWlBmRGlfOWF0eWNLYjI4QjZ2TnZnTW9CR1NUNmtJS2JUX0czaHRaSUQxR2gwWko4RVdWNmRVeXJLOFRlWnpTbExtUTl0bzZGc2JFZUZHbWF0RUh3UnFOSWcwdjNfVm54UGJYNFRmM28yaFFfemk3U2s3SjQzQXRIVE04emVEVkFLc21ERkZ1UjNyWXI2UkNjTU8tamJGMXg2bEltZETSAbIBQVVfeXFMUHQwZjd5ckVNNnAzd2ZaazFtb1haNmE3QkpIWV9lWi1GNHlwejlIYzhsMUt4cV9Iekxzc3N3Njc0OFRJcWVYYTJtZ185dklGc3Nia1lEakV2ak9zV2xZNlFhU0FCeVhhMFpRUFpVbDNvRTAwWFFUbWJCWUo0XzhSb2l6OE0zTXlRN2o0Tnc3UEdCWlVYbzQwS2k2VFBLcFpJanVsRFFuN3hxWTluOTl3Uktkdw?oc=5",
       "domain": "The Korea Times",
       "seen": "2026-08-22 02:07 KST"
-    },
-    {
-      "title": "European stocks gain, but inflation worries drive weekly decline",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQTGI4aEFTYmRYM0wyeVlIYmtqcjNFRWpHQndSS1FZRzBqTnZUUmJoRGdXTGNtV2VaakRWdzBqNmZpUWh5OFdTM0RqWmZrQ0ZmX0VqMEtnRU5jOGlQUDlHR0VxX1JhMS15ZGtCVmNDWV9QUTN6WFlwalVqbTZvcXNDQzVVRjRwQU1XcUxPNmMyajMyMHdtbHVwY2dPWUpWOHJjTzFIR2RfV29QeW9wOEVqMFJvdVVHUQ?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-08-22 01:38 KST"
     }
   ],
-  "rate_source_time": "2026-08-23 00:42:29 KST",
+  "rate_source_time": "2026-08-23 01:52:40 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": -6.8,
   "rate_change_pct": -0.49,

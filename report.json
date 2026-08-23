@@ -2,7 +2,7 @@
   "updated_at_kst": "2026-08-23 07:55 KST",
   "current_rate": 1386.5,
   "previous_close": 1393.3,
-  "rate_updated_at_kst": "2026-08-24 05:56:02 KST",
+  "rate_updated_at_kst": "2026-08-24 06:50:44 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
@@ -24,7 +24,7 @@
       "seen": "2026-08-22 07:58 KST"
     }
   ],
-  "rate_source_time": "2026-08-24 05:56:02 KST",
+  "rate_source_time": "2026-08-24 06:50:44 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": -6.8,
   "rate_change_pct": -0.49,

@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-08-24 23:27 KST",
-  "current_rate": 1384.6,
+  "updated_at_kst": "2026-08-25 01:09 KST",
+  "current_rate": 1384.1,
   "previous_close": 1386.5,
-  "rate_updated_at_kst": "2026-08-24 23:27:31 KST",
+  "rate_updated_at_kst": "2026-08-25 01:08:45 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
@@ -13,10 +13,10 @@
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
     {
-      "title": "Gold rally gains momentum ahead of US inflation, Jackson Hole event",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNUkZtQVBPdjlyb21JaVBxeFRicDFEeHVNQ21pZzdGQnlSMUpFYV80MEl3RjJUbF9tYWxmdkZqY2NpaXh5S0NPd1lhbFZxUHZMVVFkTHNyNktCX2hrUU5KN3hjcWRUVTlaQ0hwcmVoMV9VZjBmUkFjMGtTUUY5MXBwRDRFWXBwQnhZTzU1dV81LThOaTNZR1BLVDRGU1JtbDczRjVweFByWkVQbWhhX3VwYTlJZ0VYblU?oc=5",
+      "title": "S&P 500, Nasdaq slip as Iran tensions test markets in high-stakes week",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZmVCQWYzaWpzTVpmVFJPV0xRdEtUcXg0N2JKZHB5Z2JFZWpWRHFwS0Q3R2NtVHp1c29rem5scXhwa0FZMFZJNGtqM3ZCRlVOa1doNGNtWEcxVVZCYXFDSXlEbmJwODhKbG5Kdk15RDJpbDFleUFpWkdmbWEtMkhGWnF0U1FWWVpmSnp4aXp4UzlPc2hzaFNTWllwSm5UVWlpNWtWQlkzX1dqOHJNbkg5ag?oc=5",
       "domain": "Reuters",
-      "seen": "2026-08-24 23:08 KST"
+      "seen": "2026-08-24 23:11 KST"
     },
     {
       "title": "Move over, Warsh. Treasury's Bessent also has a credibility problem",
@@ -43,16 +43,16 @@
       "seen": "2026-08-24 20:33 KST"
     },
     {
-      "title": "S&P, Nasdaq futures slip as markets await Iran sanctions, Nvidia results",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZmVCQWYzaWpzTVpmVFJPV0xRdEtUcXg0N2JKZHB5Z2JFZWpWRHFwS0Q3R2NtVHp1c29rem5scXhwa0FZMFZJNGtqM3ZCRlVOa1doNGNtWEcxVVZCYXFDSXlEbmJwODhKbG5Kdk15RDJpbDFleUFpWkdmbWEtMkhGWnF0U1FWWVpmSnp4aXp4UzlPc2hzaFNTWllwSm5UVWlpNWtWQlkzX1dqOHJNbkg5ag?oc=5",
+      "title": "South African rand holds near multi-month high as Iran sanctions loom",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZGQybU1aeHVscjllZWFSNjREdlZJNWJFWWNVS2VzTjJSWmw2cGg5RXJhTHhjSUhCbEYyQlI4Um5VZnBjRUVmSGVQeUtQZ2ladmN6SHd2REdQRThiOFMtT3oxTWNuYzQ2RWRlOTVqa2RzX3lBNk5LalBtRG9Ya2VnM0VWUjdIOGkyN0ZzdGtRa1hNYWJJNVZuNFFTQm50a0hyUEtkQnNNUU93c0V1OG9CRGc3REpxUQ?oc=5",
       "domain": "Reuters",
-      "seen": "2026-08-24 19:10 KST"
+      "seen": "2026-08-24 15:54 KST"
     }
   ],
-  "rate_source_time": "2026-08-24 23:27:31 KST",
+  "rate_source_time": "2026-08-25 01:08:45 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": -1.9,
-  "rate_change_pct": -0.14,
+  "rate_change": -2.4,
+  "rate_change_pct": -0.17,
   "kb_daily_forecast_range": [
     1380.0,
     1390.0

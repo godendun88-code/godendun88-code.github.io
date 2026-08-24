@@ -1,22 +1,28 @@
 {
-  "updated_at_kst": "2026-08-25 07:04 KST",
-  "current_rate": 1384.1,
-  "previous_close": 1386.5,
-  "rate_updated_at_kst": "2026-08-25 07:03:50 KST",
+  "updated_at_kst": "2026-08-25 08:59 KST",
+  "current_rate": 1381.0,
+  "previous_close": 1384.1,
+  "rate_updated_at_kst": "2026-08-25 08:58:48 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
     "미국 물가 관련 최신 기사(\"Gold rally gains momentum ahead of US inflation data, Jackson Hole event\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
-    "미 국채금리 관련 최신 기사(\"US Treasury to stick to debt auction schedule despite bigger buybacks, Bessent says\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다.",
+    "미 국채금리 관련 최신 기사(\"Move over, Warsh. Treasury's Bessent also has a credibility problem\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다.",
     "유가 및 중동 지정학적 불확실성이 부각돼 에너지 수입 의존도가 높은 원화에는 약세 부담 요인으로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
     {
-      "title": "TRADING DAY Tech, tariffs & Treasuries",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUmpoclpIbHRCNUVXQ0IyQ1ZQbDJoR0VQQ0JuN2k4YVJuekdBQ05YcHI5WnVtc0JNSzN6MDhFSzRSS2dvbWRzUnFxSEJ5TURVVEFuc3Vha0sxdGhSbUZ6TllJSkU0c0JrMFFOb2dsN3VLRTItYnE4MVNVWVJQR3o3alhlSFAzVXNla1pBcXNnTnNwencyLWtpRmJteWVFYnJtS0IzbzZR?oc=5",
+      "title": "Move over, Warsh. Treasury's Bessent also has a credibility problem",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNYnpIYnF5aERab0NEQURhUm9aQ0k5dk1LdmpFSHpTVkhfUHdvTzhqb2swR2lseDczOUVqMGplQWl5NGFYUXJYVkVxemFydzFlQUtVSFR2cTNPZlg4U0FaNnJDMzJvWE04LTUtWkxxUUw1aW01Z0hiT0Q2U1MxV2pxc2lzckRVUlF6dkNiNmpZblcxRThoSlVvS2pwUmFLWDRLSlVBLWRiLURDZnpUbGhoN2pHNHpRVVRYUzkwc0lXdTIydm9langtZUstaw?oc=5",
       "domain": "Reuters",
-      "seen": "2026-08-25 06:13 KST"
+      "seen": "2026-08-25 08:30 KST"
+    },
+    {
+      "title": "Bond market anxiety raises stakes for Warsh's debut Jackson Hole speech",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcnNlclhfMG4yZE9OTExTUEQ4Zi1sUml5RFdoUVZiU2tXd3EtaTJSc0E4YlRBQUp4T1hvSzdmVHRBeFhobTMxV1hodmhsRl80Zm4zSldlTzBWTGJMeTNEd0RnekpmLV9RaVprUWp4SlBCQXJheXc1ZUt4NEx2T3pON0NQQTVlQTlldVA0SWRWdmN6OWVwc25jUlRBeGFTUFIzaC1YNlRQSzFrREtrQ3FXWQ?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-08-25 06:07 KST"
     },
     {
       "title": "US Treasury to stick to debt auction schedule despite bigger buybacks, Bessent says",
@@ -31,30 +37,24 @@
       "seen": "2026-08-25 01:46 KST"
     },
     {
-      "title": "Move over, Warsh. Treasury's Bessent also has a credibility problem",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNYnpIYnF5aERab0NEQURhUm9aQ0k5dk1LdmpFSHpTVkhfUHdvTzhqb2swR2lseDczOUVqMGplQWl5NGFYUXJYVkVxemFydzFlQUtVSFR2cTNPZlg4U0FaNnJDMzJvWE04LTUtWkxxUUw1aW01Z0hiT0Q2U1MxV2pxc2lzckRVUlF6dkNiNmpZblcxRThoSlVvS2pwUmFLWDRLSlVBLWRiLURDZnpUbGhoN2pHNHpRVVRYUzkwc0lXdTIydm9langtZUstaw?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-08-24 22:04 KST"
-    },
-    {
-      "title": "Bond market anxiety raises stakes for Warsh's debut Jackson Hole speech",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcnNlclhfMG4yZE9OTExTUEQ4Zi1sUml5RFdoUVZiU2tXd3EtaTJSc0E4YlRBQUp4T1hvSzdmVHRBeFhobTMxV1hodmhsRl80Zm4zSldlTzBWTGJMeTNEd0RnekpmLV9RaVprUWp4SlBCQXJheXc1ZUt4NEx2T3pON0NQQTVlQTlldVA0SWRWdmN6OWVwc25jUlRBeGFTUFIzaC1YNlRQSzFrREtrQ3FXWQ?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-08-24 21:21 KST"
-    },
-    {
       "title": "Gold rally gains momentum ahead of US inflation data, Jackson Hole event",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNUkZtQVBPdjlyb21JaVBxeFRicDFEeHVNQ21pZzdGQnlSMUpFYV80MEl3RjJUbF9tYWxmdkZqY2NpaXh5S0NPd1lhbFZxUHZMVVFkTHNyNktCX2hrUU5KN3hjcWRUVTlaQ0hwcmVoMV9VZjBmUkFjMGtTUUY5MXBwRDRFWXBwQnhZTzU1dV81LThOaTNZR1BLVDRGU1JtbDczRjVweFByWkVQbWhhX3VwYTlJZ0VYblU?oc=5",
       "domain": "Reuters",
       "seen": "2026-08-24 13:39 KST"
+    },
+    {
+      "title": "Interventions hold rupee on narrow leash, traders await US sanctions on Iran",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWTRWMGpMTzlmX3RQR0Y5dzctZjZ5LVFqeEMxT1FydzQybE84MjB0aUlqdkZXLTRESXJzZnZwbDR0QndhN3VnaVRIVVIwLVBOVENWNXZ6MlNmTm5qd1dINmY0TlVjdjJSQm8yOVhYelVUb054c0wwWjMxWW1XQUttQ2N0VXU4Y2hqc1dudkdnSGJKVFdaclRUSThRZ1AwTHlpLWtPRmcyRV9XZGUyd2I2RXB3dE5KMGYz?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-08-24 11:37 KST"
     }
   ],
-  "rate_source_time": "2026-08-25 07:03:50 KST",
+  "rate_source_time": "2026-08-25 08:58:48 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": -2.4,
-  "rate_change_pct": -0.17,
+  "rate_change": -3.1,
+  "rate_change_pct": -0.22,
   "kb_daily_forecast_range": [
-    1380.0,
-    1390.0
+    1376.0,
+    1387.0
   ]
 }

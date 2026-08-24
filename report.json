@@ -1,22 +1,40 @@
 {
-  "updated_at_kst": "2026-08-24 17:31 KST",
-  "current_rate": 1385.5,
+  "updated_at_kst": "2026-08-24 19:25 KST",
+  "current_rate": 1382.9,
   "previous_close": 1386.5,
-  "rate_updated_at_kst": "2026-08-24 17:30:45 KST",
+  "rate_updated_at_kst": "2026-08-24 19:24:48 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
-    "미국 물가 관련 최신 기사(\"Gold hits over 3-month high ahead of U.S. inflation data, Fed chair speech\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
-    "글로벌 달러 약세 관련 보도가 이어지며 원/달러 환율에는 하락 압력으로 작용하고 있습니다.",
+    "미국 물가 관련 최신 기사(\"Gold climbs to more than three-month high as markets await US inflation data\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
+    "미 국채금리 관련 최신 기사(\"Bond market anxiety raises stakes for Warsh's debut Jackson Hole speech\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다.",
     "유가 및 중동 지정학적 불확실성이 부각돼 에너지 수입 의존도가 높은 원화에는 약세 부담 요인으로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
     {
+      "title": "Bond market anxiety raises stakes for Warsh's debut Jackson Hole speech",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcnNlclhfMG4yZE9OTExTUEQ4Zi1sUml5RFdoUVZiU2tXd3EtaTJSc0E4YlRBQUp4T1hvSzdmVHRBeFhobTMxV1hodmhsRl80Zm4zSldlTzBWTGJMeTNEd0RnekpmLV9RaVprUWp4SlBCQXJheXc1ZUt4NEx2T3pON0NQQTVlQTlldVA0SWRWdmN6OWVwc25jUlRBeGFTUFIzaC1YNlRQSzFrREtrQ3FXWQ?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-08-24 19:11 KST"
+    },
+    {
+      "title": "S&P, Nasdaq futures slip as markets await Iran sanctions, Nvidia results",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZmVCQWYzaWpzTVpmVFJPV0xRdEtUcXg0N2JKZHB5Z2JFZWpWRHFwS0Q3R2NtVHp1c29rem5scXhwa0FZMFZJNGtqM3ZCRlVOa1doNGNtWEcxVVZCYXFDSXlEbmJwODhKbG5Kdk15RDJpbDFleUFpWkdmbWEtMkhGWnF0U1FWWVpmSnp4aXp4UzlPc2hzaFNTWllwSm5UVWlpNWtWQlkzX1dqOHJNbkg5ag?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-08-24 19:10 KST"
+    },
+    {
       "title": "South African rand holds near multi-month high as Iran sanctions loom",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZGQybU1aeHVscjllZWFSNjREdlZJNWJFWWNVS2VzTjJSWmw2cGg5RXJhTHhjSUhCbEYyQlI4Um5VZnBjRUVmSGVQeUtQZ2ladmN6SHd2REdQRThiOFMtT3oxTWNuYzQ2RWRlOTVqa2RzX3lBNk5LalBtRG9Ya2VnM0VWUjdIOGkyN0ZzdGtRa1hNYWJJNVZuNFFTQm50a0hyUEtkQnNNUU93c0V1OG9CRGc3REpxUQ?oc=5",
       "domain": "Reuters",
       "seen": "2026-08-24 15:54 KST"
+    },
+    {
+      "title": "Gold climbs to more than three-month high as markets await US inflation data",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNUkZtQVBPdjlyb21JaVBxeFRicDFEeHVNQ21pZzdGQnlSMUpFYV80MEl3RjJUbF9tYWxmdkZqY2NpaXh5S0NPd1lhbFZxUHZMVVFkTHNyNktCX2hrUU5KN3hjcWRUVTlaQ0hwcmVoMV9VZjBmUkFjMGtTUUY5MXBwRDRFWXBwQnhZTzU1dV81LThOaTNZR1BLVDRGU1JtbDczRjVweFByWkVQbWhhX3VwYTlJZ0VYblU?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-08-24 13:39 KST"
     },
     {
       "title": "Rupee little changed, caught between elevated oil and RBI support",
@@ -29,30 +47,12 @@
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNGxqTWFDclJZX1VkZVk1ZVd1VmFSWUxrUUtsamRiQWppQm1rNnZ4ck5SYkd0YXJVb0Z5blpURF8yaWtWX0s0cWgwSElJbHg1Zkx5SDJXS3pkelhaYktUTno2bnNuMzJnMmdpbzJMQXlOR3djaHExUlhaaFZkMWxWU2xlaUpLcXhKamxaMFlYc2FKTTUyRGlHMWd4clg2T3E2MG9VSnNNa9IBpwFBVV95cUxQNGxqTWFDclJZX1VkZVk1ZVd1VmFSWUxrUUtsamRiQWppQm1rNnZ4ck5SYkd0YXJVb0Z5blpURF8yaWtWX0s0cWgwSElJbHg1Zkx5SDJXS3pkelhaYktUTno2bnNuMzJnMmdpbzJMQXlOR3djaHExUlhaaFZkMWxWU2xlaUpLcXhKamxaMFlYc2FKTTUyRGlHMWd4clg2T3E2MG9VSnNNaw?oc=5",
       "domain": "CNBC",
       "seen": "2026-08-24 11:31 KST"
-    },
-    {
-      "title": "Dollar trading near multi-month lows, restrained by debt nerves",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeWdQcUNEMGg5ZXdrRnBJRl9PLXZtbk9NYzdiZnEydGZBT21TOWRFaV9EQVBpYU9mcktFSV84c0JwcVBDdHVDSkkwUUpIWVM3ZVhYTWFrNFNWRlc3MUhMWVZ5V29JTXh5U01Ja0l3MzdGTTUweFo0Y0VVZjlfYXp5YjVfSU11NW5zdUtqM1l4cEtCV1JmU24xVmlBc1NtVkRHcnpxUFlxNkRZSUU?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-08-24 10:48 KST"
-    },
-    {
-      "title": "Inflow cushion to anchor rupee against month-end flows; bonds track oil, Treasuries",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPa3l2cUdfaDZqM3VWcmhlUVJka2hkaFJDXy1tUUQxY3RtZVJMSG1GZjNRcFRNaEsxSmlWOXExblVacDNJUXRGZm1mZUJibjlvSEQzLXBGNk1EUURIRkNTOFVOZTR0dWFyZkxHM3Y0a3JXbjdtbHUyYlRDQnBSeGRCdWkxLVZ6QUw5d1VwdW4zOEkxTERwWTIycXVjcGZXTERCMVgtY3VHTzlSelVSbWhTYldlS3VJV2dSOVVhaThJc2tCaHJS?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-08-24 10:33 KST"
-    },
-    {
-      "title": "Shares dither, oil slips in wait for US details of Iran sanctions",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPMG83ZmMxSkVxZFI2eFdsTkhlblVtbE82OFd5SmxFekFOZmtQZEVLSzZOZU1tckZxd2QyOU9vYmRuWGhXeDIzVDhkQ1RaUF96T1hRZkg1SVRHWHAxcGVMTWxmMXBsSjVONURWaEFhMWp2dWdKM0piSGtyWVF1bkJ0YWFxWQ?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-08-24 09:49 KST"
     }
   ],
-  "rate_source_time": "2026-08-24 17:30:45 KST",
+  "rate_source_time": "2026-08-24 19:24:48 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": -1.0,
-  "rate_change_pct": -0.07,
+  "rate_change": -3.6,
+  "rate_change_pct": -0.26,
   "kb_daily_forecast_range": [
     1380.0,
     1390.0

@@ -1,33 +1,52 @@
 {
-  "updated_at_kst": "2026-08-23 07:55 KST",
-  "current_rate": 1385.5,
-  "previous_close": 1383.81,
-  "rate_updated_at_kst": "2026-08-24 08:51:00 KST",
+  "updated_at_kst": "2026-08-24 12:36 KST",
+  "current_rate": 1379.9,
+  "previous_close": 1386.5,
+  "rate_updated_at_kst": "2026-08-24 12:35:53 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
-    "미 국채금리 관련 최신 기사(\"Trump says he did not direct Bessent to intervene in bond market\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다.",
-    "미 국채금리 하락 관련 보도가 확인돼 달러의 금리 매력이 낮아지면서 원/달러 환율 하락 압력으로 작용하고 있습니다."
+    "미국 물가 관련 최신 기사(\"Gold hits over 3-month high ahead of U.S. inflation data, Fed chair speech\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
+    "글로벌 달러 약세 관련 보도가 이어지며 원/달러 환율에는 하락 압력으로 작용하고 있습니다.",
+    "유가 및 중동 지정학적 불확실성이 부각돼 에너지 수입 의존도가 높은 원화에는 약세 부담 요인으로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
     {
-      "title": "Trump says he did not direct Bessent to intervene in bond market",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOTkFsc1FIR29sOXp1dmJuLTJFNHR0Z04taHhTaEZkd1QyRmhxN0hKTmZHYldObW5zV1J6c2ozT04xOXp0dlFMbWgwMHVUckdCeHNPRG1QTEE4bU9fckJmd1BnekhaZ0JCOUUwbDBCdWdRM3FRWEFJUHB4LW9KaTNPRDBmQ1lLYTdOUTJWa2wtckZ1Y0FFbjJVTkFjaUVKY2Zwdm05VENB?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-08-22 08:27 KST"
+      "title": "Gold hits over 3-month high ahead of U.S. inflation data, Fed chair speech",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPaU5WTzNQenZqaS00RkdfbUFUNUp6dlRvRDBhWVVqekhnOVJHVlQxTGhLZFRsVWJYdzl3S1JTNDBXQ19NOTk3U3o1TU85N3pFTFBBVm1RSEttVEdiNFlZWUtMZHlNaDB5RkpBd0dHbUpVTkNJVjRhbFR5V1VNbXM2NkJoSEEyYzFEcGRfblEzakRaaXA2ZTJYZS02bGdsczM1VnfSAacBQVVfeXFMUDRsak1hQ3JSWV9VZGVZNWVXdVZhUllMa1FLbGpkYkFqaUJtazZ2eHJOUmJHdGFyVW9GeW5aVERfMmlrVl9LNHFoMEhJSWx4NWZMeUgyV0t6ZHpYWmJLVE56Nm5zbjMyZzJnaW8yTEF5Tkd3Y2hxMVJYWmhWZDFsVlNsZWlKS3F4SmpsWjBZWHNhSk01MkRpRzFneHJYNk9xNjBvVUpzTWs?oc=5",
+      "domain": "CNBC",
+      "seen": "2026-08-24 11:31 KST"
     },
     {
-      "title": "Wall St rises on the day but falls for the week; bond yields and Iran in focus",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQX2E3YkdBQXBjbW43VmpoeklMN0VYV0ZtV0xZeUNHQUx0aXAxLW16MjU5bWdkLVRxUzlpNGhWWEpCeUJDd3JYbTJkZE5KTll3R3JkZGJoamdUSnRPMmp1d21Tc2lUb3FVcldGcXBXamZZU0lqcEV1SDdwN09pOUl4cTM4WHBnWDVhNExtbzdkMXBYVTRmVjVXSjQyYjMyUXJt?oc=5",
+      "title": "Indian shares likely to open higher; caution ahead of new Iran sanctions",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPM09QeWVZWGJNRTU2Y2hDN2lmLVhsZDN1OHVDeG1GODlEY2M4cjdMOUM3YkJBbzRYTXJkMHVSSkdpdXE5dllmcy11WVRPU1MxMXVxcnZMZHFzYTFCdXpfYWZJNU51TC1jY0ZyQkltTVhYMTRsYWpYYXBVWWstalVXTktkTlBiblNrSE5iZjRnRXpsNnJQdDVUT2ExVVRKSlgwOWcyU2F1bVJ1dG9IRUdqVzd5Yw?oc=5",
       "domain": "Reuters",
-      "seen": "2026-08-22 07:58 KST"
+      "seen": "2026-08-24 11:22 KST"
+    },
+    {
+      "title": "Dollar trading near multi-month lows, restrained by debt nerves",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeWdQcUNEMGg5ZXdrRnBJRl9PLXZtbk9NYzdiZnEydGZBT21TOWRFaV9EQVBpYU9mcktFSV84c0JwcVBDdHVDSkkwUUpIWVM3ZVhYTWFrNFNWRlc3MUhMWVZ5V29JTXh5U01Ja0l3MzdGTTUweFo0Y0VVZjlfYXp5YjVfSU11NW5zdUtqM1l4cEtCV1JmU24xVmlBc1NtVkRHcnpxUFlxNkRZSUU?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-08-24 10:48 KST"
+    },
+    {
+      "title": "Inflow cushion to anchor rupee against month-end flows; bonds track oil, Treasuries",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPa3l2cUdfaDZqM3VWcmhlUVJka2hkaFJDXy1tUUQxY3RtZVJMSG1GZjNRcFRNaEsxSmlWOXExblVacDNJUXRGZm1mZUJibjlvSEQzLXBGNk1EUURIRkNTOFVOZTR0dWFyZkxHM3Y0a3JXbjdtbHUyYlRDQnBSeGRCdWkxLVZ6QUw5d1VwdW4zOEkxTERwWTIycXVjcGZXTERCMVgtY3VHTzlSelVSbWhTYldlS3VJV2dSOVVhaThJc2tCaHJS?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-08-24 10:33 KST"
+    },
+    {
+      "title": "Shares flat in Asia before Iran sanctions news, Nvidia results",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPMG83ZmMxSkVxZFI2eFdsTkhlblVtbE82OFd5SmxFekFOZmtQZEVLSzZOZU1tckZxd2QyOU9vYmRuWGhXeDIzVDhkQ1RaUF96T1hRZkg1SVRHWHAxcGVMTWxmMXBsSjVONURWaEFhMWp2dWdKM0piSGtyWVF1bkJ0YWFxWQ?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-08-24 09:49 KST"
     }
   ],
-  "rate_source_time": "2026-08-24 08:51:00 KST",
+  "rate_source_time": "2026-08-24 12:35:53 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 1.69,
-  "rate_change_pct": 0.09,
+  "rate_change": -6.6,
+  "rate_change_pct": -0.48,
   "kb_daily_forecast_range": [
     1380.0,
     1390.0

@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-08-25 06:05 KST",
+  "updated_at_kst": "2026-08-25 07:04 KST",
   "current_rate": 1384.1,
   "previous_close": 1386.5,
-  "rate_updated_at_kst": "2026-08-25 06:04:54 KST",
+  "rate_updated_at_kst": "2026-08-25 07:03:50 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
@@ -12,6 +12,12 @@
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
+    {
+      "title": "TRADING DAY Tech, tariffs & Treasuries",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUmpoclpIbHRCNUVXQ0IyQ1ZQbDJoR0VQQ0JuN2k4YVJuekdBQ05YcHI5WnVtc0JNSzN6MDhFSzRSS2dvbWRzUnFxSEJ5TURVVEFuc3Vha0sxdGhSbUZ6TllJSkU0c0JrMFFOb2dsN3VLRTItYnE4MVNVWVJQR3o3alhlSFAzVXNla1pBcXNnTnNwencyLWtpRmJteWVFYnJtS0IzbzZR?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-08-25 06:13 KST"
+    },
     {
       "title": "US Treasury to stick to debt auction schedule despite bigger buybacks, Bessent says",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNNjNOaTQ3NkZ4V1N0SHI2ek42SEVXX0xHVVZXbHU1WGZXRFA5MHJ1YkdSLWxzREw2UnZURlFrVG1wWkZOVlU3VWg3dHVkeGpLbk1pMGJzRUVlLWpndGVoWlRwS2p2dlBXWXg5ZzR5UUVhd3g2RElhdklmbG1mNXZ5MDJrNUNROTZhcGY0ZC0yX21pblpqakFsY3VUaEhUelZfNllQemQ2QnR2Uk9sZW9IQjRJOFlBUkx3c3ZJd1JWMktDUQ?oc=5",
@@ -37,19 +43,13 @@
       "seen": "2026-08-24 21:21 KST"
     },
     {
-      "title": "Interventions hold rupee on narrow leash, traders await US sanctions on Iran",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWTRWMGpMTzlmX3RQR0Y5dzctZjZ5LVFqeEMxT1FydzQybE84MjB0aUlqdkZXLTRESXJzZnZwbDR0QndhN3VnaVRIVVIwLVBOVENWNXZ6MlNmTm5qd1dINmY0TlVjdjJSQm8yOVhYelVUb054c0wwWjMxWW1XQUttQ2N0VXU4Y2hqc1dudkdnSGJKVFdaclRUSThRZ1AwTHlpLWtPRmcyRV9XZGUyd2I2RXB3dE5KMGYz?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-08-24 19:07 KST"
-    },
-    {
       "title": "Gold rally gains momentum ahead of US inflation data, Jackson Hole event",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNUkZtQVBPdjlyb21JaVBxeFRicDFEeHVNQ21pZzdGQnlSMUpFYV80MEl3RjJUbF9tYWxmdkZqY2NpaXh5S0NPd1lhbFZxUHZMVVFkTHNyNktCX2hrUU5KN3hjcWRUVTlaQ0hwcmVoMV9VZjBmUkFjMGtTUUY5MXBwRDRFWXBwQnhZTzU1dV81LThOaTNZR1BLVDRGU1JtbDczRjVweFByWkVQbWhhX3VwYTlJZ0VYblU?oc=5",
       "domain": "Reuters",
       "seen": "2026-08-24 13:39 KST"
     }
   ],
-  "rate_source_time": "2026-08-25 06:04:54 KST",
+  "rate_source_time": "2026-08-25 07:03:50 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": -2.4,
   "rate_change_pct": -0.17,

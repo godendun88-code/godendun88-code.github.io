@@ -1,17 +1,29 @@
 {
-  "updated_at_kst": "2026-08-25 19:04 KST",
-  "current_rate": 1384.3,
+  "updated_at_kst": "2026-08-25 23:10 KST",
+  "current_rate": 1385.0,
   "previous_close": 1384.1,
-  "rate_updated_at_kst": "2026-08-25 20:14:39 KST",
+  "rate_updated_at_kst": "2026-08-25 23:10:32 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
     "미국 물가 관련 최신 기사(\"US stock futures rise on tech rebound before Nvidia, inflation tests\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
-    "미 국채금리 관련 최신 기사(\"Move over, Warsh. Treasury's Bessent also has a credibility problem\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다.",
-    "유가·지정학 관련 최신 기사(\"Indian shares subdued as Middle East tensions persist, Nifty expiry looms\")가 확인돼 원화 변동성 확대 요인으로 작용하고 있습니다."
+    "미 국채금리 관련 최신 기사(\"Why the bond market may be resetting expectations about the US\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다.",
+    "국제유가 하락이 한국의 수입물가 부담을 낮추는 방향으로 작용해 원화에는 상대적으로 우호적인 요인입니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
+    {
+      "title": "Why the bond market may be resetting expectations about the US",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOeEtCYVJGWXZVMG1WcGJUUnZCaXd2ZEJqZWVhbzlrYm4yMzc2MndzUV8td2pRbHVmRGprZmFhVmNUaHNkR2o1SFVpb2RIaFZIUy0zek1qdGl6WkhaVFRLdXpLQnVxemxpSW5VX3dTYnlpbkRPWkpBSDc0MkQ0Um84QklpNzdqSVdqeXFIa2NpalhxQjIyTW42WUZHOW91WVE4dktseW1EYUY0LXBpVmZv?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-08-25 21:36 KST"
+    },
+    {
+      "title": "Gold slips on profit-taking after rally to over three-month high",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQa19NSUEzV2xqY0JpOW5BRUlWc1VQNHNxdFk1cjk2ZldBQnotS0VtRmo4MWRSdjdDMEhya0JXeURjRFVoRkpyeDVLSGxTcExWM0YxaDh4dFl5OGF6MmN3eU4zd0poVXRBMnlQRFFkUy1qQmNwck9nV01hd2RNSXlaR3lJMzFYRWt3TDFGVnJENVZEVXZDR1puXzV0dGtSdW8zZGFmYXFn?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-08-25 20:34 KST"
+    },
     {
       "title": "US stock futures rise on tech rebound before Nvidia, inflation tests",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOdmhxOE10Q2J5RzR6U1lxZjRCX0FUYmdxdkl5SE5fT1N2SG5RSmMxb0xPekZ2eDNjbVhyVE54N0FIOTByZEdrMFUtSmp0U3A0R2RLVldRczJ2aW5PU2QzUzZ6Y0FYUThQU01jdEJOdzdtbndvdThwXzhUbDAzQ2lHeVIwbHE4dkZITlhxZ0JLLWVEVHdzZmcxYTdub3dWRjh1QnRNUzRhU0V3bnJZV2c?oc=5",
@@ -25,34 +37,22 @@
       "seen": "2026-08-25 15:00 KST"
     },
     {
-      "title": "Rupee bolted in place by central bank muscle, traders wince",
+      "title": "Oil fall lifts rupee to over one-week high after central bank keeps lid on losses",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxONENQQzk3elh2bE02TFhNNGdiaTVValpsRmctWHNGc1VZX3k5MjM5Qk9yTHBEZ19SWVlNRHBVUFRtX0VxV1c4aWpLdjZfS3l4SnEwWjJCaU1qZjRzdXZxQXBMWk5QWDBsOUhJb0dkdl90dXN0WmxudGxZUE5HREduV3Q0MUd4cXUtNEUxZy1rRGhoTlJfaEc0WWprVEdQVjlBTXJqNEJ3eUtxVGVUMEMzcEVYSEdvR1ZrR3c?oc=5",
       "domain": "Reuters",
-      "seen": "2026-08-25 14:23 KST"
+      "seen": "2026-08-25 11:35 KST"
     },
     {
-      "title": "Indian shares subdued as Middle East tensions persist, Nifty expiry looms",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQTDhZbzZHenBpbmZRdWk3d19SclJJYzFBYmtCYzNRYWJxYWk3ekJuQ3NhaGhBckhrUEIwbEdXV3pueTZKazFCaEM3MnV3NkVKandsYXBRVXhVaUtadEd2Y25PYzBrQzhEVzFRaVRlS09IVERDYkdxejlrMUs4Z08zU3diZVVTRzZfT05XV1FJT1R6Vnl3RnVHSjFKUWdqd1I5TTRIRVh5MExoOXpvemNvVnhjQTVMZms?oc=5",
+      "title": "Dollar fragile as investors weigh Iran sanctions, Treasury buybacks",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxORld4THVaUUFJWlFtRmRFeTI5SlliZ2ladnZNa2htLS1yeXBwcGY2UjFSVE5heHlycC11ay1KR0pLRTJKVGk4bUp2cVVwcXZsUE5kR0JCM0hTRGlRZk5WT1pDWnhfd0JKcjFkbUhlNHVRd3lpWkV4bmtDUG9CSGJCWFhuTFFfY04yb2FIOGtNYkxhS1N0SlJVaXhFTVN1ak51Z1lvaDVSaEVsb2J0UEFjM2w4THk1SzdY?oc=5",
       "domain": "Reuters",
-      "seen": "2026-08-25 11:22 KST"
-    },
-    {
-      "title": "Shares drift ahead of Nvidia earnings; oil wobbles",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPREVmalQ3MXdwbVJUT3l4bktkT2xBLTVycVpRVkdzSUxPZ3lYdGZjTXpVWU5OckdENlF0R05kSm1CMUdPUDJwcXVxLWJaZ2VESzE1QTloUzdhTzZtMF9NM0FERmp3NWRJR3JudVN5UUttekdhTnV0UUExUFR2U0ZaS0J5TQ?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-08-25 10:26 KST"
-    },
-    {
-      "title": "Oil extends fall as investors shrug off latest US sanctions on Iran",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPeWVpMEdoenRuUHdzUlpxOG1xdVdSMTItdmhxNk5MUGc3YmdGLXl0S2EwYkNYVDV6LUJtaE96QkVuUFhqQzdORlVFdmRJTDRFaTVtSlNTZlh6OE9rQ0ZqdzJOWmQzbjVtWHJxZjFZNmo0VVlzRDRnYzJ1UklrQ0lNOHNCZWdZRVgtdXFZVnZGNXdlQVd2TlN0UjFhS2NNYjByTHBnZTY1NVpXNExJeGdObFllQ2lSYjNzRGw3aGh1ZFBuNmFnaUE?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-08-25 10:16 KST"
+      "seen": "2026-08-25 10:31 KST"
     }
   ],
-  "rate_source_time": "2026-08-25 20:14:39 KST",
+  "rate_source_time": "2026-08-25 23:10:32 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 0.2,
-  "rate_change_pct": 0.01,
+  "rate_change": 0.9,
+  "rate_change_pct": 0.07,
   "kb_daily_forecast_range": [
     1376.0,
     1387.0

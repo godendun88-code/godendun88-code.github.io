@@ -1,23 +1,17 @@
 {
-  "updated_at_kst": "2026-08-26 01:19 KST",
+  "updated_at_kst": "2026-08-26 03:01 KST",
   "current_rate": 1384.9,
   "previous_close": 1384.1,
-  "rate_updated_at_kst": "2026-08-26 01:19:08 KST",
+  "rate_updated_at_kst": "2026-08-26 03:00:50 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
-    "미국 물가 관련 최신 기사(\"US rates need to rise soon absent evidence of ongoing drop in inflation, Fed's Collins says\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
+    "미국 물가 관련 최신 기사(\"US stock futures rise on tech rebound before Nvidia, inflation tests\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
     "미 국채금리 관련 최신 기사(\"Why the bond market may be resetting expectations about the US\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다.",
-    "유가 및 중동 지정학적 불확실성이 부각돼 에너지 수입 의존도가 높은 원화에는 약세 부담 요인으로 작용하고 있습니다."
+    "달러 관련 최신 기사(\"India's Yes Bank, two other peers withdraw dollar debt plan, bankers say\")가 확인돼 달러인덱스 방향성이 원/달러 환율의 핵심 변수로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
-    {
-      "title": "US rates need to rise soon absent evidence of ongoing drop in inflation, Fed's Collins says",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPNTVDMFZMTDZGMDAxNEtoSVNSU01oel8ybnRNblR5VXVWTUJNb0xBR2R2QVFCY3FkelBPSDdyUURZcEM0cl9SVV9jWVZSRjJVQWh1WExNanllMmM0U3ZqeGR0S2RFbUhaRTlMTFBWVlJGTl9XRWVnSWF2bVd2WWUzOWlJTl9mRnJfVklYd3ptUlBFbHNfZXZZRGZBVVMzaXVXczJGSDRHQVVxV0xwME5uZFRmdDdKanNNdF9aSGs5Z0RrbDA?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-08-26 00:07 KST"
-    },
     {
       "title": "Jackson Hole's big question: who pays the government's bill?",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxONjdXTjRMdFdlUHMtSWYtU3oxYUxXUHdZYjRsYy1Nak94VGkzVFMyVXd2dDBNY05ORHNjU2JORFFsazdxVFI1TGJ3bUp5dW1SeDVLQmZaeWs3dUY1cDRFYXhEbU9nRVdHS3g5UGZaMWg0YkkycmhSeU5uTnNIeHItQVlKbVRERVdVY0djV3RiRnhSM3V0VHRkMlJYTEdOLWRYWmpSeEtR?oc=5",
@@ -37,19 +31,25 @@
       "seen": "2026-08-25 18:53 KST"
     },
     {
-      "title": "Oil hits one-week low as investors shrug off latest U.S. sanctions on Iran",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOVHczeE5Zb012dHFPdS11TE84YnJ6MUYtTXlyV0xCSTBsbWwtSm9MS1BuRXA0dGxuTERlbWNsZFRZczRiSVZTQ09XRzZ2aWNvSXBKTjU3cDdfd1Y5TWpGSlNCeFFicVMwZ25reHlNektmMGdzM1RDM0ZOMUtzMlRXREk1bXV0LVpoeEY1M1ExaHNocmFOcXVyZEh4QjXSAaIBQVVfeXFMUDRoVUJ0UjdFQWhtcHpGOThKQnNKSm5UYS1zOVJKX0x2ODhoVFJtOXA4R1pQanN6b3JlekxXLVFneTBoNkEzZ2cxb3NiS3Y5a2hJelVJOTl2ZEhDamtHeXdUY0Z0dTk2aW96MTB4TEJPQ2RuYXBxQUZVckJoUWR4VmNFSFlUcm5aenBOUFRxaVpOYXRsYWI3SWFNR0lPSDgzbzB3?oc=5",
-      "domain": "CNBC",
-      "seen": "2026-08-25 17:57 KST"
+      "title": "India's Yes Bank, two other peers withdraw dollar debt plan, bankers say",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSzNJY3I2Rl9qTnE1dzdnQ3JYNW1lT3plRVlvbmxZeFMtcjIyR3FvZVpVMng2Q1RwbHcxeU0tMDVQSEs5bEJ1SWNIMkdBblJjbm1uUkNsa1dieWt1UURWVUtRSlU3c0RUN3Vaa1p4S2dvVE1XTjUxc05UeTFOVnZZazdGbFRXNGxzYUxJQUJjQTlvRjE5SU5SMzZwMlZNbWM4bS1NTWk1VHU4Vkh1bHFJMUFGOWNSZEgz?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-08-25 18:34 KST"
     },
     {
       "title": "The US fiscal hole has an AI problem at its core",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNYkt1S0JESkM2QzgtS25qN2xrY2FjTXFkc0VpNmxaSWdDbHlwempJSUcxc2pXclVkTWNKVHNySU9vMFZLY1ZvRjBmQ0RETk9PajNnOVpCS0VDNlJfc1VuOGxjcFdoT0hwaEtzakJpZDFyS1RkYTlGTC1uMEhHVWxKXzhOOUdTR0RUYmdNV1ljRDhzeHA5M2xDT2o5TjhsRzNpRFJuMUVMUG8tSVhQb19z?oc=5",
       "domain": "Reuters",
       "seen": "2026-08-25 15:00 KST"
+    },
+    {
+      "title": "Oil fall lifts rupee to over one-week high after central bank keeps lid on losses",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxONENQQzk3elh2bE02TFhNNGdiaTVValpsRmctWHNGc1VZX3k5MjM5Qk9yTHBEZ19SWVlNRHBVUFRtX0VxV1c4aWpLdjZfS3l4SnEwWjJCaU1qZjRzdXZxQXBMWk5QWDBsOUhJb0dkdl90dXN0WmxudGxZUE5HREduV3Q0MUd4cXUtNEUxZy1rRGhoTlJfaEc0WWprVEdQVjlBTXJqNEJ3eUtxVGVUMEMzcEVYSEdvR1ZrR3c?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-08-25 11:35 KST"
     }
   ],
-  "rate_source_time": "2026-08-26 01:19:08 KST",
+  "rate_source_time": "2026-08-26 03:00:50 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": 0.8,
   "rate_change_pct": 0.06,

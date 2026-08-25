@@ -1,22 +1,28 @@
 {
-  "updated_at_kst": "2026-08-26 08:03 KST",
-  "current_rate": 1384.9,
-  "previous_close": 1384.1,
-  "rate_updated_at_kst": "2026-08-26 08:03:21 KST",
+  "updated_at_kst": "2026-08-26 08:58 KST",
+  "current_rate": 1382.1,
+  "previous_close": 1384.9,
+  "rate_updated_at_kst": "2026-08-26 08:58:30 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
     "미국 물가 관련 최신 기사(\"Gold steadies after hitting over 3-month peak ahead of US inflation data\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
     "미 국채금리 관련 최신 기사(\"Why the bond market may be resetting expectations about the US\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다.",
-    "유가 및 중동 지정학적 불확실성이 부각돼 에너지 수입 의존도가 높은 원화에는 약세 부담 요인으로 작용하고 있습니다."
+    "국제유가 하락이 한국의 수입물가 부담을 낮추는 방향으로 작용해 원화에는 상대적으로 우호적인 요인입니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
     {
+      "title": "Yen bears, it’s time to recalibrate",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxONUVfYm0wck1MUkNQNjJCdEdKYWpxM2s5TFdmZlVKbEJiYkxCWDZaa2ZNRmh1cllWUEdPbXpXSkNHNUZpdFdVN0l1VDBhazNJamhIenF2bnJLU2tpQjNMMXN3SS1aS082bzhuQjZqV3RYbjRwRHRqS2t2Znc3TXlFd3JnT2FrY0QydEh0Z21vNkp6TlF6STI5emJwMlpVSTdoQk92MjVyTWRmSzFrU2UyVw?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-08-26 08:12 KST"
+    },
+    {
       "title": "Explainer: Jackson Hole's big question: who pays the government's bill?",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxONjdXTjRMdFdlUHMtSWYtU3oxYUxXUHdZYjRsYy1Nak94VGkzVFMyVXd2dDBNY05ORHNjU2JORFFsazdxVFI1TGJ3bUp5dW1SeDVLQmZaeWs3dUY1cDRFYXhEbU9nRVdHS3g5UGZaMWg0YkkycmhSeU5uTnNIeHItQVlKbVRERVdVY0djV3RiRnhSM3V0VHRkMlJYTEdOLWRYWmpSeEtR?oc=5",
       "domain": "Reuters",
-      "seen": "2026-08-26 06:50 KST"
+      "seen": "2026-08-26 07:49 KST"
     },
     {
       "title": "Why the bond market may be resetting expectations about the US",
@@ -31,12 +37,6 @@
       "seen": "2026-08-26 05:29 KST"
     },
     {
-      "title": "Breakingviews - US ‘D-Day’ on Iran barely makes it off the beach",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQUDlqaS1qLS1XdUdyYmdEcy1XMEJRMlM5M3NSV3JqSldMSW5VbGVWOEIwZHcycVl3b0xNWGVsa1ZaRmpBU0d0UC1UQ25iTHo1LU9vc2QxWXJfZDVnZ2w3ZlV2Nmp6LU5aT0dRdmhxLVV1M3ZYWXZwalA2VDMyNHRUaWtSWHBBb1B5WHBlQk5aVFZOdnc5UEQ2MjEwUnNxU24xaEE?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-08-25 20:30 KST"
-    },
-    {
       "title": "US Treasury buybacks a 'mistake' costing credibility, says Druckenmiller",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxONFhrMnlvaVJzOS1LSDNUYkZ4VWdvUXNFN01zY3RBQ3liQ3ExenZWdUNxTkVweEpNOWhOQ2o0X04td1hPNnJqSTZjLVBQYl9PbzREVzlMR0ptb2xxRUtCeXFWSndid1UxZl9tZmgwOWFvVE5BZ1l3elhFZ2hmVmtnYXR0MVlXWnF2cEJwN2pZVDJvN2pxd1o4Rml6M2xSZEotdnF5VnQ3QUJNcGtMUmpGblJDejI5ZXZhS3lkbGQ3TDc?oc=5",
       "domain": "Reuters",
@@ -49,12 +49,12 @@
       "seen": "2026-08-25 15:00 KST"
     }
   ],
-  "rate_source_time": "2026-08-26 08:03:21 KST",
+  "rate_source_time": "2026-08-26 08:58:30 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 0.8,
-  "rate_change_pct": 0.06,
+  "rate_change": -2.8,
+  "rate_change_pct": -0.2,
   "kb_daily_forecast_range": [
     1376.0,
-    1387.0
+    1386.0
   ]
 }

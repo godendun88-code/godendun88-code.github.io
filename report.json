@@ -1,17 +1,29 @@
 {
-  "updated_at_kst": "2026-08-26 06:03 KST",
+  "updated_at_kst": "2026-08-26 06:59 KST",
   "current_rate": 1384.9,
   "previous_close": 1384.1,
-  "rate_updated_at_kst": "2026-08-26 06:03:03 KST",
+  "rate_updated_at_kst": "2026-08-26 06:59:34 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
-    "미국 물가 관련 최신 기사(\"Gold rally gains momentum ahead of US inflation data, Jackson Hole event\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
     "미 국채금리 관련 최신 기사(\"Explainer: Why the bond market may be resetting expectations about the US\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다.",
-    "달러 관련 최신 기사(\"India's Yes Bank, two other peers withdraw dollar debt plan, bankers say\")가 확인돼 달러인덱스 방향성이 원/달러 환율의 핵심 변수로 작용하고 있습니다."
+    "국제유가 하락이 한국의 수입물가 부담을 낮추는 방향으로 작용해 원화에는 상대적으로 우호적인 요인입니다.",
+    "외환시장 관련 최신 기사(\"Explainer: Jackson Hole's big question: who pays the government's bill?\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
+    {
+      "title": "Explainer: Jackson Hole's big question: who pays the government's bill?",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxONjdXTjRMdFdlUHMtSWYtU3oxYUxXUHdZYjRsYy1Nak94VGkzVFMyVXd2dDBNY05ORHNjU2JORFFsazdxVFI1TGJ3bUp5dW1SeDVLQmZaeWs3dUY1cDRFYXhEbU9nRVdHS3g5UGZaMWg0YkkycmhSeU5uTnNIeHItQVlKbVRERVdVY0djV3RiRnhSM3V0VHRkMlJYTEdOLWRYWmpSeEtR?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-08-26 06:50 KST"
+    },
+    {
+      "title": "Wall Street ends higher as tech rebounds before Nvidia results",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOdmhxOE10Q2J5RzR6U1lxZjRCX0FUYmdxdkl5SE5fT1N2SG5RSmMxb0xPekZ2eDNjbVhyVE54N0FIOTByZEdrMFUtSmp0U3A0R2RLVldRczJ2aW5PU2QzUzZ6Y0FYUThQU01jdEJOdzdtbndvdThwXzhUbDAzQ2lHeVIwbHE4dkZITlhxZ0JLLWVEVHdzZmcxYTdub3dWRjh1QnRNUzRhU0V3bnJZV2c?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-08-26 05:29 KST"
+    },
     {
       "title": "Explainer: Why the bond market may be resetting expectations about the US",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOeEtCYVJGWXZVMG1WcGJUUnZCaXd2ZEJqZWVhbzlrYm4yMzc2MndzUV8td2pRbHVmRGprZmFhVmNUaHNkR2o1SFVpb2RIaFZIUy0zek1qdGl6WkhaVFRLdXpLQnVxemxpSW5VX3dTYnlpbkRPWkpBSDc0MkQ0Um84QklpNzdqSVdqeXFIa2NpalhxQjIyTW42WUZHOW91WVE4dktseW1EYUY0LXBpVmZv?oc=5",
@@ -19,22 +31,10 @@
       "seen": "2026-08-26 05:05 KST"
     },
     {
-      "title": "Wall Street rises as tech bounces back before Nvidia results, bond yields drop",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOdmhxOE10Q2J5RzR6U1lxZjRCX0FUYmdxdkl5SE5fT1N2SG5RSmMxb0xPekZ2eDNjbVhyVE54N0FIOTByZEdrMFUtSmp0U3A0R2RLVldRczJ2aW5PU2QzUzZ6Y0FYUThQU01jdEJOdzdtbndvdThwXzhUbDAzQ2lHeVIwbHE4dkZITlhxZ0JLLWVEVHdzZmcxYTdub3dWRjh1QnRNUzRhU0V3bnJZV2c?oc=5",
+      "title": "US Treasury buybacks a 'mistake' costing credibility, says Druckenmiller",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxONFhrMnlvaVJzOS1LSDNUYkZ4VWdvUXNFN01zY3RBQ3liQ3ExenZWdUNxTkVweEpNOWhOQ2o0X04td1hPNnJqSTZjLVBQYl9PbzREVzlMR0ptb2xxRUtCeXFWSndid1UxZl9tZmgwOWFvVE5BZ1l3elhFZ2hmVmtnYXR0MVlXWnF2cEJwN2pZVDJvN2pxd1o4Rml6M2xSZEotdnF5VnQ3QUJNcGtMUmpGblJDejI5ZXZhS3lkbGQ3TDc?oc=5",
       "domain": "Reuters",
-      "seen": "2026-08-26 03:36 KST"
-    },
-    {
-      "title": "Jackson Hole's big question: who pays the government's bill?",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxONjdXTjRMdFdlUHMtSWYtU3oxYUxXUHdZYjRsYy1Nak94VGkzVFMyVXd2dDBNY05ORHNjU2JORFFsazdxVFI1TGJ3bUp5dW1SeDVLQmZaeWs3dUY1cDRFYXhEbU9nRVdHS3g5UGZaMWg0YkkycmhSeU5uTnNIeHItQVlKbVRERVdVY0djV3RiRnhSM3V0VHRkMlJYTEdOLWRYWmpSeEtR?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-08-25 23:30 KST"
-    },
-    {
-      "title": "India's Yes Bank, two other peers withdraw dollar debt plan, bankers say",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSzNJY3I2Rl9qTnE1dzdnQ3JYNW1lT3plRVlvbmxZeFMtcjIyR3FvZVpVMng2Q1RwbHcxeU0tMDVQSEs5bEJ1SWNIMkdBblJjbm1uUkNsa1dieWt1UURWVUtRSlU3c0RUN3Vaa1p4S2dvVE1XTjUxc05UeTFOVnZZazdGbFRXNGxzYUxJQUJjQTlvRjE5SU5SMzZwMlZNbWM4bS1NTWk1VHU4Vkh1bHFJMUFGOWNSZEgz?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-08-25 18:34 KST"
+      "seen": "2026-08-25 15:44 KST"
     },
     {
       "title": "The US fiscal hole has an AI problem at its core",
@@ -49,7 +49,7 @@
       "seen": "2026-08-25 11:35 KST"
     }
   ],
-  "rate_source_time": "2026-08-26 06:03:03 KST",
+  "rate_source_time": "2026-08-26 06:59:34 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": 0.8,
   "rate_change_pct": 0.06,

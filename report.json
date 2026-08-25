@@ -1,58 +1,58 @@
 {
-  "updated_at_kst": "2026-08-25 14:19 KST",
-  "current_rate": 1383.1,
+  "updated_at_kst": "2026-08-25 17:04 KST",
+  "current_rate": 1385.5,
   "previous_close": 1384.1,
-  "rate_updated_at_kst": "2026-08-25 14:18:51 KST",
+  "rate_updated_at_kst": "2026-08-25 17:04:14 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
-    "미 국채금리 관련 최신 기사(\"Dollar struggles for traction as markets weigh Iran sanctions, Treasury buybacks\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다.",
-    "유가 및 중동 지정학적 불확실성이 부각돼 에너지 수입 의존도가 높은 원화에는 약세 부담 요인으로 작용하고 있습니다.",
-    "국제유가 하락이 한국의 수입물가 부담을 낮추는 방향으로 작용해 원화에는 상대적으로 우호적인 요인입니다."
+    "미 국채금리 관련 최신 기사(\"Dollar inches up as markets weigh Iran sanctions, Treasury buybacks\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다.",
+    "유가·지정학 관련 최신 기사(\"Shares drift ahead of Nvidia earnings; oil wobbles\")가 확인돼 원화 변동성 확대 요인으로 작용하고 있습니다.",
+    "외환시장 관련 최신 기사(\"The US fiscal hole has an AI problem at its core\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
     {
-      "title": "Dollar struggles for traction as markets weigh Iran sanctions, Treasury buybacks",
+      "title": "The US fiscal hole has an AI problem at its core",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNYkt1S0JESkM2QzgtS25qN2xrY2FjTXFkc0VpNmxaSWdDbHlwempJSUcxc2pXclVkTWNKVHNySU9vMFZLY1ZvRjBmQ0RETk9PajNnOVpCS0VDNlJfc1VuOGxjcFdoT0hwaEtzakJpZDFyS1RkYTlGTC1uMEhHVWxKXzhOOUdTR0RUYmdNV1ljRDhzeHA5M2xDT2o5TjhsRzNpRFJuMUVMUG8tSVhQb19z?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-08-25 15:00 KST"
+    },
+    {
+      "title": "Rupee bolted in place by central bank muscle, traders wince",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxONENQQzk3elh2bE02TFhNNGdiaTVValpsRmctWHNGc1VZX3k5MjM5Qk9yTHBEZ19SWVlNRHBVUFRtX0VxV1c4aWpLdjZfS3l4SnEwWjJCaU1qZjRzdXZxQXBMWk5QWDBsOUhJb0dkdl90dXN0WmxudGxZUE5HREduV3Q0MUd4cXUtNEUxZy1rRGhoTlJfaEc0WWprVEdQVjlBTXJqNEJ3eUtxVGVUMEMzcEVYSEdvR1ZrR3c?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-08-25 11:35 KST"
+    },
+    {
+      "title": "Dollar inches up as markets weigh Iran sanctions, Treasury buybacks",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxORld4THVaUUFJWlFtRmRFeTI5SlliZ2ladnZNa2htLS1yeXBwcGY2UjFSVE5heHlycC11ay1KR0pLRTJKVGk4bUp2cVVwcXZsUE5kR0JCM0hTRGlRZk5WT1pDWnhfd0JKcjFkbUhlNHVRd3lpWkV4bmtDUG9CSGJCWFhuTFFfY04yb2FIOGtNYkxhS1N0SlJVaXhFTVN1ak51Z1lvaDVSaEVsb2J0UEFjM2w4THk1SzdY?oc=5",
       "domain": "Reuters",
       "seen": "2026-08-25 10:31 KST"
     },
     {
-      "title": "Oil prices steady as investors weigh impact of expanded U.S. sanctions against Iran",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOdjdIalctS1JJM1FBSG9rZ2s5NklubXAzTzFxMHdVSUZSbHA0c2pEN0N6RUhCblNVV2d5U1owUzFEN0U3SUhsdFViYjd2SkVsN1g5cnJRbGdTT0VZclA3TUVxcjNobnZtb0tQdUNYbzhLSTExcG1ZRFVsU2VlUU9FNU9aSFp2VmZqRjBIcGN1b1dqa1hlVzFxR012WU1pTzY4RjlTaVNn0gGrAUFVX3lxTFBkdzg2S1Y1V2lMVnpaY3N5WXFiVk5abXZvbFBweUtXWnRpakdIam5wcEFkYl8zVXE0RW9EQ0p2cFBFczBFVTY4MmpVTmRfeHBhS29hYTZtaG1WQy1PX3Ewckh3TVJGT0pMUzhpZjBOVWhHMV9zMk5mUmY2OTR2YUZlR3dlRTI4VEI3dFZQQnpWTkp3UGtDNkJnVklsWkRvdFBoZkp2X2RRc2hnRQ?oc=5",
-      "domain": "CNBC",
-      "seen": "2026-08-25 10:29 KST"
-    },
-    {
-      "title": "Asia shares fall on tech nerves; oil prices slip",
+      "title": "Shares drift ahead of Nvidia earnings; oil wobbles",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPREVmalQ3MXdwbVJUT3l4bktkT2xBLTVycVpRVkdzSUxPZ3lYdGZjTXpVWU5OckdENlF0R05kSm1CMUdPUDJwcXVxLWJaZ2VESzE1QTloUzdhTzZtMF9NM0FERmp3NWRJR3JudVN5UUttekdhTnV0UUExUFR2U0ZaS0J5TQ?oc=5",
       "domain": "Reuters",
       "seen": "2026-08-25 10:26 KST"
+    },
+    {
+      "title": "Oil extends fall as investors shrug off latest US sanctions on Iran",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPeWVpMEdoenRuUHdzUlpxOG1xdVdSMTItdmhxNk5MUGc3YmdGLXl0S2EwYkNYVDV6LUJtaE96QkVuUFhqQzdORlVFdmRJTDRFaTVtSlNTZlh6OE9rQ0ZqdzJOWmQzbjVtWHJxZjFZNmo0VVlzRDRnYzJ1UklrQ0lNOHNCZWdZRVgtdXFZVnZGNXdlQVd2TlN0UjFhS2NNYjByTHBnZTY1NVpXNExJeGdObFllQ2lSYjNzRGw3aGh1ZFBuNmFnaUE?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-08-25 10:16 KST"
     },
     {
       "title": "Move over, Warsh. Treasury's Bessent also has a credibility problem",
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNYnpIYnF5aERab0NEQURhUm9aQ0k5dk1LdmpFSHpTVkhfUHdvTzhqb2swR2lseDczOUVqMGplQWl5NGFYUXJYVkVxemFydzFlQUtVSFR2cTNPZlg4U0FaNnJDMzJvWE04LTUtWkxxUUw1aW01Z0hiT0Q2U1MxV2pxc2lzckRVUlF6dkNiNmpZblcxRThoSlVvS2pwUmFLWDRLSlVBLWRiLURDZnpUbGhoN2pHNHpRVVRYUzkwc0lXdTIydm9langtZUstaw?oc=5",
       "domain": "Reuters",
       "seen": "2026-08-25 08:30 KST"
-    },
-    {
-      "title": "US Treasury to stick to debt auction schedule despite bigger buybacks, Bessent says",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNNjNOaTQ3NkZ4V1N0SHI2ek42SEVXX0xHVVZXbHU1WGZXRFA5MHJ1YkdSLWxzREw2UnZURlFrVG1wWkZOVlU3VWg3dHVkeGpLbk1pMGJzRUVlLWpndGVoWlRwS2p2dlBXWXg5ZzR5UUVhd3g2RElhdklmbG1mNXZ5MDJrNUNROTZhcGY0ZC0yX21pblpqakFsY3VUaEhUelZfNllQemQ2QnR2Uk9sZW9IQjRJOFlBUkx3c3ZJd1JWMktDUQ?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-08-25 04:43 KST"
-    },
-    {
-      "title": "European stocks flat as markets weigh Iran tensions, await economic data",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPYUFOcHRycnRBVzJHNi1CM1o1TWo5dHJha2xIcmFFbEQyTy1PQ2x1WWFSdkpWYjQtQ1RxcW5TYlhJbXE3TGE5S3RqazhrT0dMRjdVbW5rMEdPUk5BUWNrMkJqY0NILVpTNkhQeEJhcjBkc0NwS1ZkVDUyM1BSZkhrakNPUERDNk54LS1kd1BxLWRuVWRiQ084SHhQOG1GVW9GNm1EckhR?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-08-25 01:46 KST"
     }
   ],
-  "rate_source_time": "2026-08-25 14:18:51 KST",
+  "rate_source_time": "2026-08-25 17:04:14 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": -1.0,
-  "rate_change_pct": -0.07,
+  "rate_change": 1.4,
+  "rate_change_pct": 0.1,
   "kb_daily_forecast_range": [
     1376.0,
     1387.0

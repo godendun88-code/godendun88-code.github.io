@@ -1,31 +1,37 @@
 {
-  "updated_at_kst": "2026-08-26 19:11 KST",
-  "current_rate": 1384.8,
-  "previous_close": 1383.77,
-  "rate_updated_at_kst": "2026-08-26 19:10:55 KST",
+  "updated_at_kst": "2026-08-26 23:30 KST",
+  "current_rate": 1386.7,
+  "previous_close": 1384.9,
+  "rate_updated_at_kst": "2026-08-26 23:29:48 KST",
   "rate_source": "KB STAR FX Market Watch",
-  "market_bias": "혼조",
+  "market_bias": "하락 우세",
   "drivers": [
     "연준·금리 관련 최신 기사(\"Anxious investors hope for clarity on Warsh's Fed plan at Jackson Hole\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
-    "미국 물가 관련 최신 기사(\"Dollar inches higher ahead of US inflation data; Aussie gains on rate bets\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
+    "미국 물가 관련 최신 기사(\"Wall St futures subdued as Nvidia results, inflation take center stage\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
     "유가 및 중동 지정학적 불확실성이 부각돼 에너지 수입 의존도가 높은 원화에는 약세 부담 요인으로 작용하고 있습니다."
   ],
-  "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
+  "outlook": "달러 약세·금리 하락 계열의 재료가 상대적으로 우세해 원/달러는 단기 하락 압력이 이어질 가능성이 있으나, 유가와 지정학적 리스크는 하단을 제한할 수 있습니다.",
   "articles": [
     {
       "title": "Anxious investors hope for clarity on Warsh's Fed plan at Jackson Hole",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNWZ3MGJLTko3T21vNS15UFBYZkktczAwVEwtNGV6WDEyN1MyTXpZMzhPVG9qYU5SdDVzMUYwWUVFcUh4VDlWY1F0TzF0dUkzWEtjcml1eGppZThOUV9TNE5lWjBic0FtX3BLTmdSeUJVamhNSm80eGI2T3EtazQyaGJlZ2p4YldqNHE2a0NDYXg4LTdLbjVpT2RHV2x4cW5pVGN5eWZUNA?oc=5",
       "domain": "Reuters",
-      "seen": "2026-08-26 19:05 KST"
+      "seen": "2026-08-26 21:37 KST"
     },
     {
-      "title": "World stocks gain as oil slips on Hormuz hopes ahead of Nvidia results",
+      "title": "Wall St futures subdued as Nvidia results, inflation take center stage",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNV3N4UlJubUVvNndNbHlFSTFtWlpoek1URGE5c3J4SDJEYlZ2aWYzaUNRWDluMnRua19BSENVRWdZZEFzZEh0VWFINF9Va3RPYVEtamhja1Rud3hVUFFWQUZBS1JlWE5wMk0yZUEyQ3lpV3pETVRMMnUxLWZ4Rm92OGZmVGpjY3BVZXl1dDBrR3RtX3RWZG9DOEFEMzFlV2NRSTVKYkxQb0hCZU0?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-08-26 20:33 KST"
+    },
+    {
+      "title": "World stocks inch up as oil drops on Hormuz hopes ahead of data, Nvidia results",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE91T2JHeEdCeW1LQUVJbHFFd0lzWkxUXzZjUWZodDZET0tTdWZYbEtpWnpPNGRsNzRZSjF1dUs5ZWNDV0t0a3F6YlBCdWJWTlRKc2F6NVV3T3ltWWl6Um9tbFlvVWRIZDk1dHFpNU5aUFo0UGVibk10NFE5dw?oc=5",
       "domain": "Reuters",
       "seen": "2026-08-26 11:17 KST"
     },
     {
-      "title": "Dollar inches higher ahead of US inflation data; Aussie gains on rate bets",
+      "title": "Dollar nudges higher ahead of US inflation data; Aussie gains on rate bets",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQalFaeTZ2Tl9BS09vVjROdl84Z24tcVpyWWRLMVltR3hyQ1g5OThDMllnMGxscnZMWktXT2FxNVVMd1ZGTTVycFJMV0JVT202NFFncFh0MVRYUlBiLS1XWEVvUnI1dHNaMEt0TXgzanprZGp5MDRsRXl5cTVVRDZ0SjYwNXc0UUtGNWlMVDlQUE9MRk5EbDgzTFllcWlOZ3ZFWkM0MWFwOGYtYk9CRUl3bWNJVXk?oc=5",
       "domain": "Reuters",
       "seen": "2026-08-26 10:51 KST"
@@ -41,18 +47,12 @@
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxONUVfYm0wck1MUkNQNjJCdEdKYWpxM2s5TFdmZlVKbEJiYkxCWDZaa2ZNRmh1cllWUEdPbXpXSkNHNUZpdFdVN0l1VDBhazNJamhIenF2bnJLU2tpQjNMMXN3SS1aS082bzhuQjZqV3RYbjRwRHRqS2t2Znc3TXlFd3JnT2FrY0QydEh0Z21vNkp6TlF6STI5emJwMlpVSTdoQk92MjVyTWRmSzFrU2UyVw?oc=5",
       "domain": "Reuters",
       "seen": "2026-08-26 08:12 KST"
-    },
-    {
-      "title": "US rates need to rise soon absent evidence of ongoing drop in inflation, Fed's Collins says",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPNTVDMFZMTDZGMDAxNEtoSVNSU01oel8ybnRNblR5VXVWTUJNb0xBR2R2QVFCY3FkelBPSDdyUURZcEM0cl9SVV9jWVZSRjJVQWh1WExNanllMmM0U3ZqeGR0S2RFbUhaRTlMTFBWVlJGTl9XRWVnSWF2bVd2WWUzOWlJTl9mRnJfVklYd3ptUlBFbHNfZXZZRGZBVVMzaXVXczJGSDRHQVVxV0xwME5uZFRmdDdKanNNdF9aSGs5Z0RrbDA?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-08-26 00:06 KST"
     }
   ],
-  "rate_source_time": "2026-08-26 19:10:55 KST",
+  "rate_source_time": "2026-08-26 23:29:48 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 1.03,
-  "rate_change_pct": 0.12,
+  "rate_change": 1.8,
+  "rate_change_pct": 0.13,
   "smbs_base_rate": 1383.1,
   "smbs_rate_date": "2026-08-26",
   "smbs_rate_updated_at_kst": "2026-08-26 KST",

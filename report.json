@@ -1,17 +1,29 @@
 {
-  "updated_at_kst": "2026-08-26 12:38 KST",
-  "current_rate": 1386.8,
+  "updated_at_kst": "2026-08-26 16:46 KST",
+  "current_rate": 1384.9,
   "previous_close": 1384.9,
-  "rate_updated_at_kst": "2026-08-26 12:38:02 KST",
+  "rate_updated_at_kst": "2026-08-26 16:46:03 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
     "미국 물가 관련 최신 기사(\"Dollar moves in a narrow range ahead of inflation data, Jackson Hole\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
-    "미 국채금리 관련 최신 기사(\"Explainer: Why the bond market may be resetting expectations about the US\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다.",
-    "외환시장 관련 최신 기사(\"Wall Street ends higher as tech rebounds before Nvidia results\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다."
+    "미 국채금리 관련 최신 기사(\"Trading Day: Oil, yields slide\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다.",
+    "유가 및 중동 지정학적 불확실성이 부각돼 에너지 수입 의존도가 높은 원화에는 약세 부담 요인으로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
+    {
+      "title": "US-Iran war sinks into energy trench warfare six months on",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQcUMxd0dzb1VHdVAxRERXaTE2RFhfaEE1M1pQY084QWJIU2ZLWEZ3VUpVbi1ORkpXMEJNRjUyS1dwUUdvYnROb1kwNXFpQm40V3VjellLTWdRYWQ1ZWxKY1dvc3ZLWXVzSVhJSmJqSXNGWmRieDJMQ2RlSktPeS1zSVFFTndmQ0NXaFcwTDFiUGRZU1VHdzlUdFdDWW04MEtMZ0dwT0JQamhjWU1RRkYxQlBWcUJFTlQzWnFZdGs2U0NIZw?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-08-26 15:00 KST"
+    },
+    {
+      "title": "Asian stocks gain before Nvidia, oil slips on Hormuz hopes",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE91T2JHeEdCeW1LQUVJbHFFd0lzWkxUXzZjUWZodDZET0tTdWZYbEtpWnpPNGRsNzRZSjF1dUs5ZWNDV0t0a3F6YlBCdWJWTlRKc2F6NVV3T3ltWWl6Um9tbFlvVWRIZDk1dHFpNU5aUFo0UGVibk10NFE5dw?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-08-26 11:17 KST"
+    },
     {
       "title": "Dollar moves in a narrow range ahead of inflation data, Jackson Hole",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQalFaeTZ2Tl9BS09vVjROdl84Z24tcVpyWWRLMVltR3hyQ1g5OThDMllnMGxscnZMWktXT2FxNVVMd1ZGTTVycFJMV0JVT202NFFncFh0MVRYUlBiLS1XWEVvUnI1dHNaMEt0TXgzanprZGp5MDRsRXl5cTVVRDZ0SjYwNXc0UUtGNWlMVDlQUE9MRk5EbDgzTFllcWlOZ3ZFWkM0MWFwOGYtYk9CRUl3bWNJVXk?oc=5",
@@ -31,28 +43,16 @@
       "seen": "2026-08-26 08:12 KST"
     },
     {
-      "title": "Explainer: Why the bond market may be resetting expectations about the US",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOeEtCYVJGWXZVMG1WcGJUUnZCaXd2ZEJqZWVhbzlrYm4yMzc2MndzUV8td2pRbHVmRGprZmFhVmNUaHNkR2o1SFVpb2RIaFZIUy0zek1qdGl6WkhaVFRLdXpLQnVxemxpSW5VX3dTYnlpbkRPWkpBSDc0MkQ0Um84QklpNzdqSVdqeXFIa2NpalhxQjIyTW42WUZHOW91WVE4dktseW1EYUY0LXBpVmZv?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-08-26 07:50 KST"
-    },
-    {
       "title": "Explainer: Jackson Hole's big question: who pays the government's bill?",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxONjdXTjRMdFdlUHMtSWYtU3oxYUxXUHdZYjRsYy1Nak94VGkzVFMyVXd2dDBNY05ORHNjU2JORFFsazdxVFI1TGJ3bUp5dW1SeDVLQmZaeWs3dUY1cDRFYXhEbU9nRVdHS3g5UGZaMWg0YkkycmhSeU5uTnNIeHItQVlKbVRERVdVY0djV3RiRnhSM3V0VHRkMlJYTEdOLWRYWmpSeEtR?oc=5",
       "domain": "Reuters",
       "seen": "2026-08-26 07:49 KST"
-    },
-    {
-      "title": "Trading Day: Oil, yields slide",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNLWNydl9TRXBTU3ZISVRYVVJxUGw2Sm5QZnctdVJDdXFZTW1kZDMzV1JSRkk5cGtiWjdVa1FzV2U4d3dSTU8tNkJRRE9NWUxmMVpoODZpTExIajltTW9JWnhGOEtnM0k0VC1VMnQtS2dfMGxYVW81aUNxNXJ0a1NNN2dTemFiYU5Ld3EtT3FJR2d1WUg3Nnc1QVhWWjNiZWpwUFAtYVZR?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-08-26 06:47 KST"
     }
   ],
-  "rate_source_time": "2026-08-26 12:38:02 KST",
+  "rate_source_time": "2026-08-26 16:46:03 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 1.9,
-  "rate_change_pct": 0.14,
+  "rate_change": 0.0,
+  "rate_change_pct": 0.0,
   "smbs_base_rate": 1383.1,
   "smbs_rate_date": "2026-08-26",
   "smbs_rate_updated_at_kst": "2026-08-26 KST",
@@ -61,5 +61,6 @@
   "kb_daily_forecast_range": [
     1376.0,
     1386.0
-  ]
+  ],
+  "smbs_rate_error": "Error: Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://www.smbs.biz/ExRate/TodayExRatePop.jsp\nCall log:\n  - navigating to \"https://www.smbs.biz/ExRate/TodayExRatePop.jsp\", waiting until \"domcontentloaded\"\n"
 }

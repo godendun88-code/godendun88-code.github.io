@@ -1,19 +1,31 @@
 {
-  "updated_at_kst": "2026-08-26 17:05 KST",
-  "current_rate": 1384.7,
-  "previous_close": 1383.78,
-  "rate_updated_at_kst": "2026-08-26 17:05:17 KST",
+  "updated_at_kst": "2026-08-26 19:11 KST",
+  "current_rate": 1384.8,
+  "previous_close": 1383.77,
+  "rate_updated_at_kst": "2026-08-26 19:10:55 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
-    "미국 물가 관련 최신 기사(\"Dollar steady ahead of US inflation data; Aussie gains on rate bets\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
-    "미 국채금리 관련 최신 기사(\"Why the bond market may be resetting expectations about the US\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다.",
-    "외환시장 관련 최신 기사(\"Wall Street ends higher as tech rebounds before Nvidia results\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다."
+    "연준·금리 관련 최신 기사(\"Anxious investors hope for clarity on Warsh's Fed plan at Jackson Hole\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
+    "미국 물가 관련 최신 기사(\"Dollar inches higher ahead of US inflation data; Aussie gains on rate bets\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
+    "유가 및 중동 지정학적 불확실성이 부각돼 에너지 수입 의존도가 높은 원화에는 약세 부담 요인으로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
     {
-      "title": "Dollar steady ahead of US inflation data; Aussie gains on rate bets",
+      "title": "Anxious investors hope for clarity on Warsh's Fed plan at Jackson Hole",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNWZ3MGJLTko3T21vNS15UFBYZkktczAwVEwtNGV6WDEyN1MyTXpZMzhPVG9qYU5SdDVzMUYwWUVFcUh4VDlWY1F0TzF0dUkzWEtjcml1eGppZThOUV9TNE5lWjBic0FtX3BLTmdSeUJVamhNSm80eGI2T3EtazQyaGJlZ2p4YldqNHE2a0NDYXg4LTdLbjVpT2RHV2x4cW5pVGN5eWZUNA?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-08-26 19:05 KST"
+    },
+    {
+      "title": "World stocks gain as oil slips on Hormuz hopes ahead of Nvidia results",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE91T2JHeEdCeW1LQUVJbHFFd0lzWkxUXzZjUWZodDZET0tTdWZYbEtpWnpPNGRsNzRZSjF1dUs5ZWNDV0t0a3F6YlBCdWJWTlRKc2F6NVV3T3ltWWl6Um9tbFlvVWRIZDk1dHFpNU5aUFo0UGVibk10NFE5dw?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-08-26 11:17 KST"
+    },
+    {
+      "title": "Dollar inches higher ahead of US inflation data; Aussie gains on rate bets",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQalFaeTZ2Tl9BS09vVjROdl84Z24tcVpyWWRLMVltR3hyQ1g5OThDMllnMGxscnZMWktXT2FxNVVMd1ZGTTVycFJMV0JVT202NFFncFh0MVRYUlBiLS1XWEVvUnI1dHNaMEt0TXgzanprZGp5MDRsRXl5cTVVRDZ0SjYwNXc0UUtGNWlMVDlQUE9MRk5EbDgzTFllcWlOZ3ZFWkM0MWFwOGYtYk9CRUl3bWNJVXk?oc=5",
       "domain": "Reuters",
       "seen": "2026-08-26 10:51 KST"
@@ -31,16 +43,16 @@
       "seen": "2026-08-26 08:12 KST"
     },
     {
-      "title": "Why the bond market may be resetting expectations about the US",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOeEtCYVJGWXZVMG1WcGJUUnZCaXd2ZEJqZWVhbzlrYm4yMzc2MndzUV8td2pRbHVmRGprZmFhVmNUaHNkR2o1SFVpb2RIaFZIUy0zek1qdGl6WkhaVFRLdXpLQnVxemxpSW5VX3dTYnlpbkRPWkpBSDc0MkQ0Um84QklpNzdqSVdqeXFIa2NpalhxQjIyTW42WUZHOW91WVE4dktseW1EYUY0LXBpVmZv?oc=5",
+      "title": "US rates need to rise soon absent evidence of ongoing drop in inflation, Fed's Collins says",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPNTVDMFZMTDZGMDAxNEtoSVNSU01oel8ybnRNblR5VXVWTUJNb0xBR2R2QVFCY3FkelBPSDdyUURZcEM0cl9SVV9jWVZSRjJVQWh1WExNanllMmM0U3ZqeGR0S2RFbUhaRTlMTFBWVlJGTl9XRWVnSWF2bVd2WWUzOWlJTl9mRnJfVklYd3ptUlBFbHNfZXZZRGZBVVMzaXVXczJGSDRHQVVxV0xwME5uZFRmdDdKanNNdF9aSGs5Z0RrbDA?oc=5",
       "domain": "Reuters",
-      "seen": "2026-08-25 19:05 KST"
+      "seen": "2026-08-26 00:06 KST"
     }
   ],
-  "rate_source_time": "2026-08-26 17:05:17 KST",
+  "rate_source_time": "2026-08-26 19:10:55 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 0.92,
-  "rate_change_pct": 0.11,
+  "rate_change": 1.03,
+  "rate_change_pct": 0.12,
   "smbs_base_rate": 1383.1,
   "smbs_rate_date": "2026-08-26",
   "smbs_rate_updated_at_kst": "2026-08-26 KST",

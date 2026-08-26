@@ -53,6 +53,11 @@
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": 1.9,
   "rate_change_pct": 0.14,
+  "smbs_base_rate": 1383.1,
+  "smbs_rate_date": "2026-08-26",
+  "smbs_rate_updated_at_kst": "2026-08-26 KST",
+  "smbs_rate_source": "서울외국환중개 매매기준율",
+  "smbs_rate_url": "https://www.smbs.biz/ExRate/TodayExRatePop.jsp",
   "kb_daily_forecast_range": [
     1376.0,
     1386.0

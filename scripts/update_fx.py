@@ -1,12 +1,15 @@
 import json
 import re
+import html as html_lib
 from datetime import datetime
 from pathlib import Path
+from urllib.request import Request, urlopen
 from zoneinfo import ZoneInfo
 
 from playwright.sync_api import sync_playwright
 
 KB_URL = "https://fx.kbstar.com/"
+SMBS_URL = "https://www.smbs.biz/ExRate/TodayExRatePop.jsp"
 REPORT_PATH = Path("report.json")
 DEBUG_PATH = Path("kb_network_debug.json")
 KST = ZoneInfo("Asia/Seoul")
@@ -33,6 +36,73 @@ def find_forecast_range(text: str):
     if not m:
         return None
     return to_float(m.group(1)), to_float(m.group(2))
+
+
+def find_smbs_rate(text: str):
+    flat = normalize_text(html_lib.unescape(re.sub(r"<[^>]+>", " ", text)))
+    patterns = [
+        r"미국\s*달러\s*\(\s*USD\s*\)\s*([0-9,]+(?:\.[0-9]+)?)",
+        r"USD\s*/\s*KRW[^0-9]{0,80}([0-9,]+(?:\.[0-9]+)?)",
+    ]
+    rate = None
+    for pattern in patterns:
+        match = re.search(pattern, flat, flags=re.I)
+        if match:
+            candidate = to_float(match.group(1))
+            if 1100 <= candidate <= 1800:
+                rate = candidate
+                break
+    if rate is None:
+        raise RuntimeError("서울외국환중개 페이지에서 USD 매매기준율을 찾지 못했습니다.")
+
+    dates = []
+    for y, m, d in re.findall(r"(20\d{2})\s*(?:[.\-/]|년\s*)(\d{1,2})\s*(?:[.\-/]|월\s*)(\d{1,2})", flat):
+        try:
+            dates.append(datetime(int(y), int(m), int(d)).date())
+        except ValueError:
+            pass
+    today = datetime.now(KST).date()
+    valid_dates = [d for d in dates if d <= today]
+    rate_date = max(valid_dates).isoformat() if valid_dates else today.isoformat()
+    return rate, rate_date
+
+
+def get_smbs_rate(old_rate):
+    request = Request(
+        SMBS_URL,
+        headers={
+            "User-Agent": (
+                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0 Safari/537.36"
+            ),
+            "Accept": "text/html,application/xhtml+xml",
+        },
+    )
+    try:
+        raw = urlopen(request, timeout=40).read()
+        for encoding in ("utf-8", "cp949", "euc-kr"):
+            try:
+                text = raw.decode(encoding)
+                break
+            except UnicodeDecodeError:
+                continue
+        else:
+            text = raw.decode("utf-8", errors="replace")
+        rate, rate_date = find_smbs_rate(text)
+    except Exception as first_error:
+        print(f"Direct SMBS fetch failed, retrying with browser: {first_error}")
+        with sync_playwright() as p:
+            browser = p.chromium.launch(headless=True, args=["--no-sandbox", "--disable-dev-shm-usage"])
+            page = browser.new_page(viewport={"width": 1280, "height": 1000})
+            page.goto(SMBS_URL, wait_until="domcontentloaded", timeout=90000)
+            page.wait_for_timeout(5000)
+            text = page.locator("body").inner_text(timeout=30000)
+            browser.close()
+        rate, rate_date = find_smbs_rate(text)
+
+    if old_rate and abs(rate - float(old_rate)) > 150:
+        raise RuntimeError(f"서울외국환중개 환율 급변 검증 실패: {old_rate} -> {rate}")
+    return rate, rate_date
 
 
 def find_market_watch(text: str, old_rate):
@@ -200,6 +270,19 @@ def main():
     report["rate_url"] = KB_URL
     report["rate_change"] = delta
     report["rate_change_pct"] = pct
+
+    try:
+        smbs_rate, smbs_rate_date = get_smbs_rate(report.get("smbs_base_rate"))
+        report["smbs_base_rate"] = smbs_rate
+        report["smbs_rate_date"] = smbs_rate_date
+        report["smbs_rate_updated_at_kst"] = now.strftime("%Y-%m-%d %H:%M:%S KST")
+        report["smbs_rate_source"] = "서울외국환중개 매매기준율"
+        report["smbs_rate_url"] = SMBS_URL
+        report.pop("smbs_rate_error", None)
+        print(f"SMBS USD/KRW base rate updated: {smbs_rate} ({smbs_rate_date})")
+    except Exception as error:
+        report["smbs_rate_error"] = f"{type(error).__name__}: {error}"
+        print(f"SMBS update skipped; keeping previous value: {error}")
 
     if forecast:
         lo, hi = forecast

@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-08-27 13:47 KST",
-  "current_rate": 1380.7,
+  "updated_at_kst": "2026-08-27 13:49 KST",
+  "current_rate": 1380.4,
   "previous_close": 1386.5,
-  "rate_updated_at_kst": "2026-08-27 13:47:37 KST",
+  "rate_updated_at_kst": "2026-08-27 13:49:33 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
@@ -43,10 +43,10 @@
       "seen": "2026-08-26 13:53 KST"
     }
   ],
-  "rate_source_time": "2026-08-27 13:47:37 KST",
+  "rate_source_time": "2026-08-27 13:49:33 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": -5.8,
-  "rate_change_pct": -0.42,
+  "rate_change": -6.1,
+  "rate_change_pct": -0.44,
   "smbs_base_rate": 1383.1,
   "smbs_rate_date": "2026-08-26",
   "smbs_rate_updated_at_kst": "2026-08-26 KST",
@@ -58,5 +58,5 @@
   ],
   "smbs_rate_error": "RuntimeError: 서울외국환중개 페이지에서 USD 매매기준율을 찾지 못했습니다.",
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-08-27 13:47:26 KST"
+  "rate_job_checked_at_kst": "2026-08-27 13:49:21 KST"
 }

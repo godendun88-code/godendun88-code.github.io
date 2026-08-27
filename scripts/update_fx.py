@@ -54,6 +54,9 @@ def find_smbs_rate(text: str):
                 rate = candidate
                 break
     if rate is None:
+        print("----- SMBS BODY PREVIEW -----")
+        print(flat[:5000])
+        print("----- END SMBS PREVIEW -----")
         raise RuntimeError("서울외국환중개 페이지에서 USD 매매기준율을 찾지 못했습니다.")
 
     dates = []

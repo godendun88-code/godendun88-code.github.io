@@ -1,49 +1,61 @@
 {
-  "updated_at_kst": "2026-08-27 13:54 KST",
-  "current_rate": 1380.4,
+  "updated_at_kst": "2026-08-28 08:01 KST",
+  "current_rate": 1382.0,
   "previous_close": 1386.5,
-  "rate_updated_at_kst": "2026-08-27 13:53:59 KST",
+  "rate_updated_at_kst": "2026-08-28 08:01:38 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
-    "연준·금리 관련 최신 기사(\"Rupee seen steady after holiday as Fed hike risk, hedging balance out RBI, oil relief\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
-    "미국 물가 관련 최신 기사(\"Wall Street stocks end tad lower after hot inflation data ahead of Nvidia earnings\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
-    "연준·금리 관련 최신 기사(\"Anxious investors hope for clarity on Warsh's Fed plan at Jackson Hole\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다."
+    "연준·금리 관련 최신 기사(\"COMMENTARY: TRADING DAY Tech on a tear, attention Fed chair\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
+    "글로벌 달러 강세 관련 보도가 이어지며 원/달러 환율에는 상승 압력으로 작용하고 있습니다.",
+    "유가 및 중동 지정학적 불확실성이 부각돼 에너지 수입 의존도가 높은 원화에는 약세 부담 요인으로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
     {
-      "title": "Rupee seen steady after holiday as Fed hike risk, hedging balance out RBI, oil relief",
+      "title": "COMMENTARY: TRADING DAY Tech on a tear, attention Fed chair",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOcTlTRmNvcFBna1YxbmsxeE81LXFEOE1YQXg1clpUYTloNU9CRFg2RlJmb01OVzk0clFWekVQZUM2NWd1bDBrQTZzNk1VU3RlMGNabTBNbkZBNXE2V3Z0cy1OSWFKWXFtbUkwTGR1N2JFTlpkQnJkaEhFSm9aNFhHbE5mVXM3ZHg4R2FsRDlNNFotZlB6bWFySDdQemRKZUtZU3VLWmVR?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-08-28 06:04 KST"
+    },
+    {
+      "title": "Six months of war: How the Middle East conflict has shaped financial markets",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQdzZPbXZOMTI2d1doSndZUnZ4VTVxV2hlUzFvRmJyUHpXRnlTNUV2bk13WS1rVTNnYmRLbzE4VkN0RlpiUG1MakRKUUpRNkNkYVg3d2s4aXhBaWpUb3ZYd0poN1BlRndYTVk5enNRckZmWS1lQklIRWtTMFBUdW5raDJUWTRzeUdCQTBCRDBpTkhVcDBnMlo4dTFPVXJqT3ExcTQ0aFUzV1pjak1YSzNYdkJDZ0h1UjhKRG91Qw?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-08-27 15:06 KST"
+    },
+    {
+      "title": "Gold ticks up; Warsh's Jackson Hole speech in focus",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOMGM2SVRyOV9XRkNJcmRFWGI4X0RiTW04QUNIMnpOM1l2MG1qZE1TbjVaTFgwWTNuWnY1MVdIT2pBYjJqajgzekhuaEs5MFdzdWRiUE9GS2Z1NjlhWTZJQTdndmQwbjhBaGJuLTlaS2dkZ1BiRkJYcWhPTTRreWQ2eExxcjUzYUNnOG5WNzlWNl9idGfSAZgBQVVfeXFMTTJyeXFndFAzdHlNZUJ5V3lnSERqbElfdWI2eW1DZVpsUkNwN2Z3MEpMQm9LVFFkc25aMFR4S19zSXZpek8zTjhLSlVXeTZERWJhSUE2YTNUUUxHQTZhbVBXTU9nSUNGcjhrMUZzVVlYSUR1QTZsVUc4U3lnU0VaV1drRzd4Z094em44VEt1eUtUU0U3RzJVS1U?oc=5",
+      "domain": "CNBC",
+      "seen": "2026-08-27 12:23 KST"
+    },
+    {
+      "title": "Rupee dips, reversing intraday gains, as importer dollar demand dominates",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQajRHZzM3ZloxRVktVDFfR290MDdxZDJIVWtvcVJtSUZ1WlVySEJ0aG0wZnJWWVRodVFZM1hCNjYzQ2htWnR0YzVfMU9jVGc1V3VnYXdteDVqbTNCMWd6X2hESnlwcTl5UUVEWVdJUF96X2szeUx2WWlDMkZiZ0pTSjFURThuZ1FaUHk5aF9nZ1QyVk1jSmpjanhvVnZwOXJBNWxpa2tUOGU4c2I2cmFrRFRURHFMTmRNampwSnNteHd0b09vWDhv?oc=5",
       "domain": "Reuters",
       "seen": "2026-08-27 11:58 KST"
     },
     {
-      "title": "Wall Street stocks end tad lower after hot inflation data ahead of Nvidia earnings",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNV3N4UlJubUVvNndNbHlFSTFtWlpoek1URGE5c3J4SDJEYlZ2aWYzaUNRWDluMnRua19BSENVRWdZZEFzZEh0VWFINF9Va3RPYVEtamhja1Rud3hVUFFWQUZBS1JlWE5wMk0yZUEyQ3lpV3pETVRMMnUxLWZ4Rm92OGZmVGpjY3BVZXl1dDBrR3RtX3RWZG9DOEFEMzFlV2NRSTVKYkxQb0hCZU0?oc=5",
+      "title": "Stock indexes gain as Nvidia boost offsets caution on Middle East, Fed events",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9Eb3kxVTFIckZUendTYkNLcXZNLWM4MWVtWjJoTGRYYXBCYmFKTnZ2UU5BM0UzTC12LVNtdkFfU0RIaklTZi0ySjh2MGhWNXBEaXhnUHNwZXg3VlhrSVRoZGM1djdpWFhkaEh5RTFCbmJSOEI5a243MnNHQQ?oc=5",
       "domain": "Reuters",
-      "seen": "2026-08-27 07:50 KST"
+      "seen": "2026-08-27 10:59 KST"
     },
     {
-      "title": "Anxious investors hope for clarity on Warsh's Fed plan at Jackson Hole",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNWZ3MGJLTko3T21vNS15UFBYZkktczAwVEwtNGV6WDEyN1MyTXpZMzhPVG9qYU5SdDVzMUYwWUVFcUh4VDlWY1F0TzF0dUkzWEtjcml1eGppZThOUV9TNE5lWjBic0FtX3BLTmdSeUJVamhNSm80eGI2T3EtazQyaGJlZ2p4YldqNHE2a0NDYXg4LTdLbjVpT2RHV2x4cW5pVGN5eWZUNA?oc=5",
+      "title": "Dollar flat after data as focus shifts to Jackson Hole",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxORFJtdUFWcVo1Rmx3WlU5cUtCY0FHZENhNlJ0bmY1bVRFbVA5ZFZ5MGRFMVRYTGtJanhiTlVQMGFOd0JlSmZHVms0UVg3RkJPbGdIc29Wa1pnQUF4SDV3Q3kxOC1jRkdsVXBUZmtGVHY0VGZ4c3lMWTJxS3FHdkt1NER0eW14Y1pONU1HQi1BYXFPLTBBejRtNm9zMlhOZl92MUNfNw?oc=5",
       "domain": "Reuters",
-      "seen": "2026-08-27 06:37 KST"
-    },
-    {
-      "title": "TRADING DAY Hot inflation cools sentiment",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOM29TQUdTYlVtSUNGVGNFdUxrQXY5X00xdFRJSDRDRWEtU18yR3dDTHE4ZjRnU0hRVTVicU5hZUx0V3ZkczZCcWVoSjU4bGdjNUpZcWtZNUdtYjV0ZlVJUVpDU3JXUUtBZzdXeDN1aS10NDZBMFEyXzJyTkJnUV8xYkFkS18zQXJ2bzJwVzcwOHc2X21feTBLS0VUQU84Z21HbGNwNEln?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-08-27 06:09 KST"
+      "seen": "2026-08-27 09:09 KST"
     }
   ],
-  "rate_source_time": "2026-08-27 13:53:59 KST",
+  "rate_source_time": "2026-08-28 08:01:38 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": -6.1,
-  "rate_change_pct": -0.44,
-  "smbs_base_rate": 1384.6,
-  "smbs_rate_date": "2026-08-27",
-  "smbs_rate_updated_at_kst": "2026-08-27 13:53:47 KST",
+  "rate_change": -4.5,
+  "rate_change_pct": -0.32,
+  "smbs_base_rate": 1380.3,
+  "smbs_rate_date": "2026-08-28",
+  "smbs_rate_updated_at_kst": "2026-08-28 08:01:27 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -51,5 +63,5 @@
     1390.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-08-27 13:53:47 KST"
+  "rate_job_checked_at_kst": "2026-08-28 08:01:27 KST"
 }

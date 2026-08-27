@@ -1,8 +1,9 @@
-name: Update KB STAR FX rate and market news
+name: Update hourly FX rate and market news
 
 on:
   schedule:
-    - cron: '3,18,33,48 * * * *'
+    # GitHub 예약 실행은 수 분 지연될 수 있어 매시 혼잡 시간대를 피합니다.
+    - cron: '7 * * * *'
   workflow_dispatch:
   push:
     branches: [main]
@@ -15,8 +16,8 @@ permissions:
   contents: write
 
 concurrency:
-  group: update-kb-star-fx
-  cancel-in-progress: false
+  group: update-hourly-fx
+  cancel-in-progress: true
 
 jobs:
   update-rate:
@@ -37,21 +38,21 @@ jobs:
           pip install playwright
           python -m playwright install --with-deps chromium
 
-      - name: Update KB STAR FX rate
+      - name: Update KB STAR FX rate and SMBS base rate
         run: python scripts/update_fx.py
 
       - name: Update market news and drivers
         continue-on-error: true
         run: python scripts/update_news.py
 
-      - name: Commit dashboard data and temporary network trace
+      - name: Commit dashboard data
         run: |
-          if git diff --quiet -- report.json kb_network_debug.json; then
+          if git diff --quiet -- report.json; then
             echo "No dashboard data change"
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add report.json kb_network_debug.json
-          git commit -m "Update FX dashboard data"
+          git add report.json
+          git commit -m "Update hourly FX dashboard data"
           git push

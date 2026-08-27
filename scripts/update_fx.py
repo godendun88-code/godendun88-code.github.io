@@ -94,7 +94,7 @@ def get_smbs_rate(old_rate):
         with sync_playwright() as p:
             browser = p.chromium.launch(headless=True, args=["--no-sandbox", "--disable-dev-shm-usage"])
             page = browser.new_page(viewport={"width": 1280, "height": 1000})
-            page.goto(SMBS_URL, wait_until="domcontentloaded", timeout=90000)
+            page.goto(SMBS_URL, wait_until="commit", timeout=45000)
             page.wait_for_timeout(5000)
             text = page.locator("body").inner_text(timeout=30000)
             browser.close()
@@ -186,90 +186,130 @@ def interesting_payload(text: str) -> bool:
 
 
 def get_kb_rate(old_rate):
-    debug = {"captured_at_kst": datetime.now(KST).strftime("%Y-%m-%d %H:%M:%S KST"), "http": [], "websocket": []}
+    debug = {
+        "captured_at_kst": datetime.now(KST).strftime("%Y-%m-%d %H:%M:%S KST"),
+        "attempts": [],
+        "http": [],
+        "websocket": [],
+    }
 
     with sync_playwright() as p:
         browser = p.chromium.launch(
             headless=True,
             args=["--no-sandbox", "--disable-dev-shm-usage"],
         )
-        page = browser.new_page(
-            viewport={"width": 1440, "height": 1200},
-            user_agent=(
-                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-                "AppleWebKit/537.36 (KHTML, like Gecko) "
-                "Chrome/151.0.0.0 Safari/537.36"
-            ),
-        )
+        errors = []
+        try:
+            for attempt in range(1, 4):
+                page = browser.new_page(
+                    viewport={"width": 1440, "height": 1200},
+                    user_agent=(
+                        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                        "AppleWebKit/537.36 (KHTML, like Gecko) "
+                        "Chrome/151.0.0.0 Safari/537.36"
+                    ),
+                )
 
-        def on_response(resp):
-            if len(debug["http"]) >= 60:
-                return
-            try:
-                ct = (resp.headers.get("content-type") or "").lower()
-                if not any(x in ct for x in ["json", "text", "javascript", "xml"]):
-                    return
-                body = resp.text()
-                if interesting_payload(body) or any(k in resp.url.lower() for k in ["fx", "rate", "quote", "market", "price"]):
-                    debug["http"].append({
-                        "url": resp.url,
-                        "status": resp.status,
-                        "content_type": ct,
-                        "body_preview": body[:3000],
-                    })
-            except Exception:
-                pass
+                def on_response(resp):
+                    if len(debug["http"]) >= 60:
+                        return
+                    try:
+                        ct = (resp.headers.get("content-type") or "").lower()
+                        if not any(x in ct for x in ["json", "text", "javascript", "xml"]):
+                            return
+                        body = resp.text()
+                        if interesting_payload(body) or any(
+                            k in resp.url.lower() for k in ["fx", "rate", "quote", "market", "price"]
+                        ):
+                            debug["http"].append({
+                                "url": resp.url,
+                                "status": resp.status,
+                                "content_type": ct,
+                                "body_preview": body[:3000],
+                            })
+                    except Exception:
+                        pass
 
-        def on_websocket(ws):
-            entry = {"url": ws.url, "frames": []}
-            debug["websocket"].append(entry)
+                def on_websocket(ws):
+                    entry = {"url": ws.url, "frames": []}
+                    debug["websocket"].append(entry)
 
-            def on_frame(payload):
-                if len(entry["frames"]) >= 40:
-                    return
+                    def on_frame(payload):
+                        if len(entry["frames"]) >= 40:
+                            return
+                        try:
+                            value = payload if isinstance(payload, str) else str(payload)
+                            if interesting_payload(value) or re.search(
+                                r"\b1[1-8][0-9]{2}(?:\.[0-9]+)?\b", value
+                            ):
+                                entry["frames"].append(value[:3000])
+                        except Exception:
+                            pass
+
+                    ws.on("framereceived", on_frame)
+
+                page.on("response", on_response)
+                page.on("websocket", on_websocket)
                 try:
-                    s = payload if isinstance(payload, str) else str(payload)
-                    if interesting_payload(s) or re.search(r"\b1[1-8][0-9]{2}(?:\.[0-9]+)?\b", s):
-                        entry["frames"].append(s[:3000])
-                except Exception:
-                    pass
-
-            ws.on("framereceived", on_frame)
-
-        page.on("response", on_response)
-        page.on("websocket", on_websocket)
-
-        page.goto(KB_URL, wait_until="domcontentloaded", timeout=90000)
-        page.wait_for_timeout(18000)
-        text = page.locator("body").inner_text(timeout=30000)
-        browser.close()
+                    # KB 페이지는 부가 리소스 때문에 DOMContentLoaded가 지연될 수 있어
+                    # 최초 응답(commit)까지만 기다린 뒤 본문을 별도로 읽습니다.
+                    page.goto(KB_URL, wait_until="commit", timeout=45000)
+                    page.wait_for_timeout(18000)
+                    text = page.locator("body").inner_text(timeout=25000)
+                    result = find_market_watch(text, old_rate)
+                    debug["attempts"].append({"attempt": attempt, "status": "success"})
+                    DEBUG_PATH.write_text(
+                        json.dumps(debug, ensure_ascii=False, indent=2) + "\n",
+                        encoding="utf-8",
+                    )
+                    return result
+                except Exception as error:
+                    message = f"{type(error).__name__}: {error}"
+                    errors.append(message)
+                    debug["attempts"].append({"attempt": attempt, "status": "failed", "error": message})
+                    print(f"KB STAR FX attempt {attempt}/3 failed: {message}")
+                finally:
+                    page.close()
+        finally:
+            browser.close()
 
     DEBUG_PATH.write_text(json.dumps(debug, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    return find_market_watch(text, old_rate)
+    raise RuntimeError("KB STAR FX 자동조회 3회 실패: " + " | ".join(errors))
 
 
 def main():
     report = load_report()
     old_rate = report.get("current_rate")
     now = datetime.now(KST)
+    forecast = None
+    rate = old_rate
+    delta = report.get("rate_change")
+    pct = report.get("rate_change_pct")
 
-    (rate, delta, pct, kb_time), forecast = get_kb_rate(old_rate)
+    try:
+        (rate, delta, pct, kb_time), forecast = get_kb_rate(old_rate)
+        previous_close = round(rate - delta, 4) if delta is not None else None
+        report["current_rate"] = rate
+        report["previous_close"] = previous_close
+        report["rate_updated_at_kst"] = (
+            kb_time.replace(".", "-").replace("/", "-") + " KST"
+            if kb_time else now.strftime("%Y-%m-%d %H:%M:%S KST")
+        )
+        report["rate_source"] = "KB STAR FX Market Watch"
+        report["rate_source_time"] = report["rate_updated_at_kst"]
+        report["rate_url"] = KB_URL
+        report["rate_change"] = delta
+        report["rate_change_pct"] = pct
+        report["rate_check_status"] = "success"
+        report.pop("rate_fetch_error", None)
+    except Exception as error:
+        # 이전 정상값은 보존하고 오류와 확인시각을 기록해 대시보드가
+        # '최신값'으로 오인하지 않도록 합니다.
+        report["rate_check_status"] = "failed"
+        report["rate_fetch_error"] = f"{type(error).__name__}: {error}"
+        print(f"KB STAR FX update failed; keeping previous rate: {error}")
 
-    previous_close = None
-    if delta is not None:
-        previous_close = round(rate - delta, 4)
-
-    report["current_rate"] = rate
-    report["previous_close"] = previous_close
-    report["rate_updated_at_kst"] = (
-        kb_time.replace(".", "-").replace("/", "-") + " KST"
-        if kb_time else now.strftime("%Y-%m-%d %H:%M:%S KST")
-    )
-    report["rate_source"] = "KB STAR FX Market Watch"
-    report["rate_source_time"] = report["rate_updated_at_kst"]
-    report["rate_url"] = KB_URL
-    report["rate_change"] = delta
-    report["rate_change_pct"] = pct
+    report["rate_job_checked_at_kst"] = now.strftime("%Y-%m-%d %H:%M:%S KST")
 
     try:
         smbs_rate, smbs_rate_date = get_smbs_rate(report.get("smbs_base_rate"))
@@ -292,7 +332,10 @@ def main():
         json.dumps(report, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",
     )
-    print(f"KB STAR FX USD/KRW updated: {rate} ({delta}, {pct})")
+    print(
+        f"KB STAR FX job completed: rate={report.get('current_rate')} "
+        f"status={report.get('rate_check_status')} checked={report['rate_job_checked_at_kst']}"
+    )
 
 
 if __name__ == "__main__":

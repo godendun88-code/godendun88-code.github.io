@@ -10,7 +10,7 @@ from zoneinfo import ZoneInfo
 from playwright.sync_api import sync_playwright
 
 KB_URL = "https://fx.kbstar.com/"
-SMBS_URL = "https://www.smbs.biz/ExRate/TodayExRate.jsp"
+SMBS_URL = "https://www.smbs.biz/ExRate/TodayExRatePop.jsp"
 REPORT_PATH = Path("report.json")
 DEBUG_PATH = Path("kb_network_debug.json")
 KST = ZoneInfo("Asia/Seoul")

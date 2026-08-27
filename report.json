@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-08-27 13:45 KST",
-  "current_rate": 1380.3,
+  "updated_at_kst": "2026-08-27 13:47 KST",
+  "current_rate": 1380.7,
   "previous_close": 1386.5,
-  "rate_updated_at_kst": "2026-08-27 13:45:05 KST",
+  "rate_updated_at_kst": "2026-08-27 13:47:37 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
@@ -43,10 +43,10 @@
       "seen": "2026-08-26 13:53 KST"
     }
   ],
-  "rate_source_time": "2026-08-27 13:45:05 KST",
+  "rate_source_time": "2026-08-27 13:47:37 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": -6.2,
-  "rate_change_pct": -0.45,
+  "rate_change": -5.8,
+  "rate_change_pct": -0.42,
   "smbs_base_rate": 1383.1,
   "smbs_rate_date": "2026-08-26",
   "smbs_rate_updated_at_kst": "2026-08-26 KST",
@@ -56,7 +56,7 @@
     1380.0,
     1390.0
   ],
-  "smbs_rate_error": "Error: Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://www.smbs.biz/ExRate/TodayExRatePop.jsp\nCall log:\n  - navigating to \"https://www.smbs.biz/ExRate/TodayExRatePop.jsp\", waiting until \"commit\"\n",
+  "smbs_rate_error": "RuntimeError: 서울외국환중개 페이지에서 USD 매매기준율을 찾지 못했습니다.",
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-08-27 13:44:49 KST"
+  "rate_job_checked_at_kst": "2026-08-27 13:47:26 KST"
 }

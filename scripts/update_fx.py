@@ -10,7 +10,7 @@ from zoneinfo import ZoneInfo
 from playwright.sync_api import sync_playwright
 
 KB_URL = "https://fx.kbstar.com/"
-SMBS_URL = "https://www.smbs.biz/ExRate/TodayExRatePop.jsp"
+SMBS_URL = "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp"
 REPORT_PATH = Path("report.json")
 DEBUG_PATH = Path("kb_network_debug.json")
 KST = ZoneInfo("Asia/Seoul")
@@ -44,6 +44,7 @@ def find_smbs_rate(text: str):
     patterns = [
         r"미국\s*달러\s*\(\s*USD\s*\)\s*([0-9,]+(?:\.[0-9]+)?)",
         r"USD\s*/\s*KRW[^0-9]{0,80}([0-9,]+(?:\.[0-9]+)?)",
+        r"\bUSD\b[^0-9]{0,80}([0-9,]+(?:\.[0-9]+)?)",
     ]
     rate = None
     for pattern in patterns:
@@ -54,9 +55,6 @@ def find_smbs_rate(text: str):
                 rate = candidate
                 break
     if rate is None:
-        print("----- SMBS BODY PREVIEW -----")
-        print(flat[:5000])
-        print("----- END SMBS PREVIEW -----")
         raise RuntimeError("서울외국환중개 페이지에서 USD 매매기준율을 찾지 못했습니다.")
 
     dates = []

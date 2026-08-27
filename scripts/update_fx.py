@@ -1,6 +1,7 @@
 import json
 import re
 import html as html_lib
+import ssl
 from datetime import datetime
 from pathlib import Path
 from urllib.request import Request, urlopen
@@ -9,7 +10,7 @@ from zoneinfo import ZoneInfo
 from playwright.sync_api import sync_playwright
 
 KB_URL = "https://fx.kbstar.com/"
-SMBS_URL = "https://www.smbs.biz/ExRate/TodayExRatePop.jsp"
+SMBS_URL = "https://www.smbs.biz/ExRate/TodayExRate.jsp"
 REPORT_PATH = Path("report.json")
 DEBUG_PATH = Path("kb_network_debug.json")
 KST = ZoneInfo("Asia/Seoul")
@@ -79,7 +80,14 @@ def get_smbs_rate(old_rate):
         },
     )
     try:
-        raw = urlopen(request, timeout=40).read()
+        try:
+            raw = urlopen(request, timeout=40).read()
+        except ssl.SSLCertVerificationError as cert_error:
+            # 서울외국환중개 공식 도메인의 인증서 이름 불일치가 발생하는 동안에만
+            # 인증서 검증을 생략하고, 아래 환율 범위·전일 대비 검증을 그대로 적용합니다.
+            print(f"SMBS certificate verification failed; retrying official host: {cert_error}")
+            context = ssl._create_unverified_context()
+            raw = urlopen(request, timeout=40, context=context).read()
         for encoding in ("utf-8", "cp949", "euc-kr"):
             try:
                 text = raw.decode(encoding)
@@ -93,7 +101,7 @@ def get_smbs_rate(old_rate):
         print(f"Direct SMBS fetch failed, retrying with browser: {first_error}")
         with sync_playwright() as p:
             browser = p.chromium.launch(headless=True, args=["--no-sandbox", "--disable-dev-shm-usage"])
-            page = browser.new_page(viewport={"width": 1280, "height": 1000})
+            page = browser.new_page(viewport={"width": 1280, "height": 1000}, ignore_https_errors=True)
             page.goto(SMBS_URL, wait_until="commit", timeout=45000)
             page.wait_for_timeout(5000)
             text = page.locator("body").inner_text(timeout=30000)

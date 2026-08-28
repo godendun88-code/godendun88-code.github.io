@@ -1,67 +1,67 @@
 {
-  "updated_at_kst": "2026-08-28 08:01 KST",
-  "current_rate": 1382.0,
-  "previous_close": 1386.5,
-  "rate_updated_at_kst": "2026-08-28 08:01:38 KST",
+  "updated_at_kst": "2026-08-28 15:45 KST",
+  "current_rate": 1374.0,
+  "previous_close": 1382.0,
+  "rate_updated_at_kst": "2026-08-28 15:45:10 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
-    "연준·금리 관련 최신 기사(\"COMMENTARY: TRADING DAY Tech on a tear, attention Fed chair\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
-    "글로벌 달러 강세 관련 보도가 이어지며 원/달러 환율에는 상승 압력으로 작용하고 있습니다.",
-    "유가 및 중동 지정학적 불확실성이 부각돼 에너지 수입 의존도가 높은 원화에는 약세 부담 요인으로 작용하고 있습니다."
+    "연준·금리 관련 최신 기사(\"Gold slips as Fed chief Warsh's Jackson Hole speech looms\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
+    "유가 및 중동 지정학적 불확실성이 부각돼 에너지 수입 의존도가 높은 원화에는 약세 부담 요인으로 작용하고 있습니다.",
+    "외환시장 관련 최신 기사(\"Summer's over, buckle up!\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
+    {
+      "title": "Summer's over, buckle up!",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOaVBSSzE1NlNIemZTN3paUGdCTlVuSTE4TGRvQkFIclpHd1hQR2ZhUDk2a1dBSDFGc3MxRUVMZzBtQW0yMFNDd3dILUNBN0gzTUFxR3FlVmJucGJ3SmwzZVl2WmFiaE5uS2pEdzlZcUFYQ0Z5Nlo4LXdGQ1NmNGpRblRJNVQ4VVRSVk1pNw?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-08-28 15:28 KST"
+    },
+    {
+      "title": "Dollar flat near one-week high as investors await Warsh's Jackson Hole debut",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOZTRZaFZxX1ZxcFJfZUs5OTl0c3lTVDJDWm55NWlHVG9CUmloOU9DWF91QXV1MGxVbTlGSTM2Zmp5MHlyUkJ4YjBiRHVMZGZLemlRcTV4N1ZiZ2Y1V0ZYelpGd3lROUNQSXYxNGFMYWoyWVFVMDQtWmt0RDgyemVtNm5lTDlXUVI4WGxzRWVxbmEtMXptWC02dWllNF9wRFR0anFYbG55TFhXVjRGSlRuQ0xJNFNvMXVDaVdMd09hdGg3VFpsMFE?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-08-28 11:36 KST"
+    },
+    {
+      "title": "Gold slips as Fed chief Warsh's Jackson Hole speech looms",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPWlR0QXlieWo3eENkM0t6U1djSVl3MzVYWXhqNm0zZzQwdlM3YWo1UW5lNk12RGFfYmVxY2xIVzRsa2NGRnJTVVZ5bGNGSFdoYjl1clctVDQ2Sy1mbUIydVFudDl3VjRGbE1ST3d3VlpFUm9oZkk2X3dYTkV0NVRvNEZOWWtQOGhRUEJsWVc5dFRtalZDRW05Sk9NbHIyTGttOTIw?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-08-28 11:20 KST"
+    },
+    {
+      "title": "Shares turn cautious ahead of Warsh's Jackson Hole debut; FX, bonds hold breath",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPd1RUYUM0TDhTNURUOVdtU1ZYc0p2YTZQZGhTREUtRkRNWms5UVN5LUVxelJjWVluQVJkQ0UteTAtMng0V2h1Z014d2xQZXBZUDZfSHdSM2ZXdWljRFBJT0lXR1VHVUo3N0djMVJmaHkzaVh4YWJpWlZtSFM3RjJLYUc0Zw?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-08-28 10:56 KST"
+    },
+    {
+      "title": "Bessent, Warsh diverge on who should set the price of money",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQaFNYemtDLVI0aVJranpORkVlX0ppenZITDhaMnRYU2xVV0VIajlPb1g0a1FXMXJENnByeEFYODExUUVZUWluUUZKU2FvRy1ZcFNTMm91azBEWmFvTU5fbUd4UnFjOTFPSC1GQjVVdG9NbnAySkstMkdtcXpZNWZXVThlX2FzQWN4ZmxZazZCNVd5NTF3MnkxNXlEV1hSWTQ2RkFn?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-08-28 06:05 KST"
+    },
     {
       "title": "COMMENTARY: TRADING DAY Tech on a tear, attention Fed chair",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOcTlTRmNvcFBna1YxbmsxeE81LXFEOE1YQXg1clpUYTloNU9CRFg2RlJmb01OVzk0clFWekVQZUM2NWd1bDBrQTZzNk1VU3RlMGNabTBNbkZBNXE2V3Z0cy1OSWFKWXFtbUkwTGR1N2JFTlpkQnJkaEhFSm9aNFhHbE5mVXM3ZHg4R2FsRDlNNFotZlB6bWFySDdQemRKZUtZU3VLWmVR?oc=5",
       "domain": "Reuters",
       "seen": "2026-08-28 06:04 KST"
-    },
-    {
-      "title": "Six months of war: How the Middle East conflict has shaped financial markets",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQdzZPbXZOMTI2d1doSndZUnZ4VTVxV2hlUzFvRmJyUHpXRnlTNUV2bk13WS1rVTNnYmRLbzE4VkN0RlpiUG1MakRKUUpRNkNkYVg3d2s4aXhBaWpUb3ZYd0poN1BlRndYTVk5enNRckZmWS1lQklIRWtTMFBUdW5raDJUWTRzeUdCQTBCRDBpTkhVcDBnMlo4dTFPVXJqT3ExcTQ0aFUzV1pjak1YSzNYdkJDZ0h1UjhKRG91Qw?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-08-27 15:06 KST"
-    },
-    {
-      "title": "Gold ticks up; Warsh's Jackson Hole speech in focus",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOMGM2SVRyOV9XRkNJcmRFWGI4X0RiTW04QUNIMnpOM1l2MG1qZE1TbjVaTFgwWTNuWnY1MVdIT2pBYjJqajgzekhuaEs5MFdzdWRiUE9GS2Z1NjlhWTZJQTdndmQwbjhBaGJuLTlaS2dkZ1BiRkJYcWhPTTRreWQ2eExxcjUzYUNnOG5WNzlWNl9idGfSAZgBQVVfeXFMTTJyeXFndFAzdHlNZUJ5V3lnSERqbElfdWI2eW1DZVpsUkNwN2Z3MEpMQm9LVFFkc25aMFR4S19zSXZpek8zTjhLSlVXeTZERWJhSUE2YTNUUUxHQTZhbVBXTU9nSUNGcjhrMUZzVVlYSUR1QTZsVUc4U3lnU0VaV1drRzd4Z094em44VEt1eUtUU0U3RzJVS1U?oc=5",
-      "domain": "CNBC",
-      "seen": "2026-08-27 12:23 KST"
-    },
-    {
-      "title": "Rupee dips, reversing intraday gains, as importer dollar demand dominates",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQajRHZzM3ZloxRVktVDFfR290MDdxZDJIVWtvcVJtSUZ1WlVySEJ0aG0wZnJWWVRodVFZM1hCNjYzQ2htWnR0YzVfMU9jVGc1V3VnYXdteDVqbTNCMWd6X2hESnlwcTl5UUVEWVdJUF96X2szeUx2WWlDMkZiZ0pTSjFURThuZ1FaUHk5aF9nZ1QyVk1jSmpjanhvVnZwOXJBNWxpa2tUOGU4c2I2cmFrRFRURHFMTmRNampwSnNteHd0b09vWDhv?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-08-27 11:58 KST"
-    },
-    {
-      "title": "Stock indexes gain as Nvidia boost offsets caution on Middle East, Fed events",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9Eb3kxVTFIckZUendTYkNLcXZNLWM4MWVtWjJoTGRYYXBCYmFKTnZ2UU5BM0UzTC12LVNtdkFfU0RIaklTZi0ySjh2MGhWNXBEaXhnUHNwZXg3VlhrSVRoZGM1djdpWFhkaEh5RTFCbmJSOEI5a243MnNHQQ?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-08-27 10:59 KST"
-    },
-    {
-      "title": "Dollar flat after data as focus shifts to Jackson Hole",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxORFJtdUFWcVo1Rmx3WlU5cUtCY0FHZENhNlJ0bmY1bVRFbVA5ZFZ5MGRFMVRYTGtJanhiTlVQMGFOd0JlSmZHVms0UVg3RkJPbGdIc29Wa1pnQUF4SDV3Q3kxOC1jRkdsVXBUZmtGVHY0VGZ4c3lMWTJxS3FHdkt1NER0eW14Y1pONU1HQi1BYXFPLTBBejRtNm9zMlhOZl92MUNfNw?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-08-27 09:09 KST"
     }
   ],
-  "rate_source_time": "2026-08-28 08:01:38 KST",
+  "rate_source_time": "2026-08-28 15:45:10 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": -4.5,
-  "rate_change_pct": -0.32,
+  "rate_change": -8.0,
+  "rate_change_pct": -0.58,
   "smbs_base_rate": 1380.3,
   "smbs_rate_date": "2026-08-28",
-  "smbs_rate_updated_at_kst": "2026-08-28 08:01:27 KST",
+  "smbs_rate_updated_at_kst": "2026-08-28 15:44:56 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
-    1380.0,
-    1390.0
+    1377.0,
+    1385.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-08-28 08:01:27 KST"
+  "rate_job_checked_at_kst": "2026-08-28 15:44:56 KST"
 }

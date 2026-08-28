@@ -54,6 +54,8 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add report.json
           git commit -m "Update frequent FX dashboard data"
+          # 수집 중 생성되는 디버그 파일 변경은 배포 대상이 아니므로 정리합니다.
+          git restore --worktree .
           git fetch origin main
           git rebase origin/main
           git push

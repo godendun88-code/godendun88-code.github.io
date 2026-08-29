@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-08-29 14:16 KST",
+  "updated_at_kst": "2026-08-29 14:46 KST",
   "current_rate": 1378.6,
   "previous_close": 1382.0,
-  "rate_updated_at_kst": "2026-08-29 14:16:23 KST",
+  "rate_updated_at_kst": "2026-08-29 14:46:16 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
@@ -16,7 +16,7 @@
       "title": "Investors heartened by Warsh inflation talk, still uncertain about Fed action",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPLW9HOXdFRGd4QWlJUHhlT0hzZEpqekl3UllCWkU2cW1BNmlzd0E4TGxSZVpIek5Vci1BM3RXNndHcGk4RWt3ZXVGV2NnMDBTQTJPNkNMUm1QVnpMdHRydXhwTFZqbTh2SDllNzdETEgydEhhWG1TVy1adWp5VDNDZEVMbWZnWWpxTGlLdEcxcm1oQ2YwenBaVy1KRUlsX1hVWS1BS0lhR21UNl93WFM4dVhWNEtHNHFZVWgtOGpUdUFITnBudmZhRA?oc=5",
       "domain": "Reuters",
-      "seen": "2026-08-29 04:17 KST"
+      "seen": "2026-08-29 04:09 KST"
     },
     {
       "title": "VIEW Rate-hike expectations rise on Warsh speech at Jackson Hole",
@@ -49,13 +49,13 @@
       "seen": "2026-08-28 15:28 KST"
     }
   ],
-  "rate_source_time": "2026-08-29 14:16:23 KST",
+  "rate_source_time": "2026-08-29 14:46:16 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": -3.4,
   "rate_change_pct": -0.25,
   "smbs_base_rate": 1380.3,
   "smbs_rate_date": "2026-08-29",
-  "smbs_rate_updated_at_kst": "2026-08-29 14:16:07 KST",
+  "smbs_rate_updated_at_kst": "2026-08-29 14:46:04 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1385.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-08-29 14:16:07 KST"
+  "rate_job_checked_at_kst": "2026-08-29 14:46:04 KST"
 }

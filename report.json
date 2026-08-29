@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-08-29 15:16 KST",
+  "updated_at_kst": "2026-08-29 15:46 KST",
   "current_rate": 1378.6,
   "previous_close": 1382.0,
-  "rate_updated_at_kst": "2026-08-29 15:16:33 KST",
+  "rate_updated_at_kst": "2026-08-29 15:46:20 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "상승 우세",
   "drivers": [
@@ -31,31 +31,19 @@
       "seen": "2026-08-29 01:10 KST"
     },
     {
-      "title": "Toronto futures subdued ahead of domestic GDP data, Warsh's speech",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWDhNcHZHX1pCdjlUZllGSmhzMWdPY2tIMll3RE9vTXBHSHpoblhjdENpQ3pwWlR4aFNMXzZFTXFKdmRIWXFlbTBkZWxOQUNOZjg2VmUtc3ZLMTJpczFCTGZpNTZrUTZnbjF1YlpLbm44bDdjMGNmd1ljMjV0LUstT2t0aVA5VlJLLTlEeWhfdS01a1ZKRXljQXkyX2RlNXoyMjNBRXJlcHhidw?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-08-28 20:07 KST"
-    },
-    {
       "title": "COMMENTARY: Morning Bid: Six months and counting",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxORFlTYWIzVk1oYkN0YnlyRS1Kcm1kTWxZcHFDcDcxNTNXU0tHZ25mZzNSWXp5VnNPTjZ6UTQzTjhZamx5clJEQ1FVSnR3MHo3ejJkN0JZVlZqWENaOEV0SlZPNGVlekg5ZW90Um5wN25BemljRGxoXzFIZ1hpSTNIX1lPZTVNYmpXMFZhTENwTUxDRzhKV3Bj?oc=5",
       "domain": "Reuters",
       "seen": "2026-08-28 19:35 KST"
-    },
-    {
-      "title": "Take Five: Summer's over, buckle up!",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOaVBSSzE1NlNIemZTN3paUGdCTlVuSTE4TGRvQkFIclpHd1hQR2ZhUDk2a1dBSDFGc3MxRUVMZzBtQW0yMFNDd3dILUNBN0gzTUFxR3FlVmJucGJ3SmwzZVl2WmFiaE5uS2pEdzlZcUFYQ0Z5Nlo4LXdGQ1NmNGpRblRJNVQ4VVRSVk1pNw?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-08-28 15:28 KST"
     }
   ],
-  "rate_source_time": "2026-08-29 15:16:33 KST",
+  "rate_source_time": "2026-08-29 15:46:20 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": -3.4,
   "rate_change_pct": -0.25,
   "smbs_base_rate": 1380.3,
   "smbs_rate_date": "2026-08-29",
-  "smbs_rate_updated_at_kst": "2026-08-29 15:16:21 KST",
+  "smbs_rate_updated_at_kst": "2026-08-29 15:46:08 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +51,5 @@
     1385.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-08-29 15:16:21 KST"
+  "rate_job_checked_at_kst": "2026-08-29 15:46:08 KST"
 }

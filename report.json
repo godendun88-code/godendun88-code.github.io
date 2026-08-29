@@ -1,14 +1,14 @@
 {
-  "updated_at_kst": "2026-08-29 09:46 KST",
+  "updated_at_kst": "2026-08-29 10:16 KST",
   "current_rate": 1378.6,
   "previous_close": 1382.0,
-  "rate_updated_at_kst": "2026-08-29 09:46:10 KST",
+  "rate_updated_at_kst": "2026-08-29 10:16:07 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
     "연준·금리 관련 최신 기사(\"COMMENTARY: Is Fed communication broken — and can Warsh fix it?\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
     "미국 물가 관련 최신 기사(\"Investors heartened by Warsh inflation talk, still uncertain about Fed action\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
-    "유가 및 중동 지정학적 불확실성이 부각돼 에너지 수입 의존도가 높은 원화에는 약세 부담 요인으로 작용하고 있습니다."
+    "미 국채금리 관련 최신 기사(\"GMF LENS Aggressive Treasury yield cap could weigh on dollar, says Citi's asset allocation head\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
@@ -23,6 +23,12 @@
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOSXBjd0lNNVhFZmdaUnNSRFVwa2F5X21TQmdickV5MmNQSjFtX2VjRHpPVzlYVWF2UWJieDY5RjFITTAxd2dOV2JQR0JZMXF6cVNFdmJER09lZHJ5TnBsN2YxMkZWM0ZVUnZ3YmNOdzIzYmV3WV9NU1VKZ2VCaldGVm1sX190VUVXTjMxOXdXa2RxZ0QwQmIxRHNHSjgxZEtzVjdTSG5R?oc=5",
       "domain": "Reuters",
       "seen": "2026-08-29 01:58 KST"
+    },
+    {
+      "title": "GMF LENS Aggressive Treasury yield cap could weigh on dollar, says Citi's asset allocation head",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNdGNTdU90Nk41clp6dmxSbEprM3ZFb25hTmxOSmFzdlRCbGh0eHVDOVZWM3RpWnNuMFBuLVpfLVctS1Bwa1h3cHVaSEY2NjFmMmlkeVFNR3cxRHhWc2NsQXZOSlIyMFhEQmNmODVJOGRtSUViVVlkTG1XR1N4VHdLOHE2UUtmM0pvdkNOanBJX2tqUkljbzVKV3lhNW44Z2hJYkJ4OF94TjVfMWVVVTRsQWJjQmZYc3ZNUldQcGxVRGhNVVE?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-08-29 01:10 KST"
     },
     {
       "title": "COMMENTARY: Is Fed communication broken — and can Warsh fix it?",
@@ -41,21 +47,15 @@
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxORFlTYWIzVk1oYkN0YnlyRS1Kcm1kTWxZcHFDcDcxNTNXU0tHZ25mZzNSWXp5VnNPTjZ6UTQzTjhZamx5clJEQ1FVSnR3MHo3ejJkN0JZVlZqWENaOEV0SlZPNGVlekg5ZW90Um5wN25BemljRGxoXzFIZ1hpSTNIX1lPZTVNYmpXMFZhTENwTUxDRzhKV3Bj?oc=5",
       "domain": "Reuters",
       "seen": "2026-08-28 19:35 KST"
-    },
-    {
-      "title": "Take Five: Summer's over, buckle up!",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOaVBSSzE1NlNIemZTN3paUGdCTlVuSTE4TGRvQkFIclpHd1hQR2ZhUDk2a1dBSDFGc3MxRUVMZzBtQW0yMFNDd3dILUNBN0gzTUFxR3FlVmJucGJ3SmwzZVl2WmFiaE5uS2pEdzlZcUFYQ0Z5Nlo4LXdGQ1NmNGpRblRJNVQ4VVRSVk1pNw?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-08-28 15:28 KST"
     }
   ],
-  "rate_source_time": "2026-08-29 09:46:10 KST",
+  "rate_source_time": "2026-08-29 10:16:07 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": -3.4,
   "rate_change_pct": -0.25,
   "smbs_base_rate": 1380.3,
   "smbs_rate_date": "2026-08-29",
-  "smbs_rate_updated_at_kst": "2026-08-29 09:45:56 KST",
+  "smbs_rate_updated_at_kst": "2026-08-29 10:15:51 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1385.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-08-29 09:45:56 KST"
+  "rate_job_checked_at_kst": "2026-08-29 10:15:51 KST"
 }

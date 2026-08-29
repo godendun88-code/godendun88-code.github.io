@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-08-29 19:16 KST",
+  "updated_at_kst": "2026-08-29 19:46 KST",
   "current_rate": 1378.6,
   "previous_close": 1382.0,
-  "rate_updated_at_kst": "2026-08-29 19:16:25 KST",
+  "rate_updated_at_kst": "2026-08-29 19:46:20 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
@@ -29,21 +29,15 @@
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNdGNTdU90Nk41clp6dmxSbEprM3ZFb25hTmxOSmFzdlRCbGh0eHVDOVZWM3RpWnNuMFBuLVpfLVctS1Bwa1h3cHVaSEY2NjFmMmlkeVFNR3cxRHhWc2NsQXZOSlIyMFhEQmNmODVJOGRtSUViVVlkTG1XR1N4VHdLOHE2UUtmM0pvdkNOanBJX2tqUkljbzVKV3lhNW44Z2hJYkJ4OF94TjVfMWVVVTRsQWJjQmZYc3ZNUldQcGxVRGhNVVE?oc=5",
       "domain": "Reuters",
       "seen": "2026-08-29 01:10 KST"
-    },
-    {
-      "title": "COMMENTARY: Morning Bid: Six months and counting",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxORFlTYWIzVk1oYkN0YnlyRS1Kcm1kTWxZcHFDcDcxNTNXU0tHZ25mZzNSWXp5VnNPTjZ6UTQzTjhZamx5clJEQ1FVSnR3MHo3ejJkN0JZVlZqWENaOEV0SlZPNGVlekg5ZW90Um5wN25BemljRGxoXzFIZ1hpSTNIX1lPZTVNYmpXMFZhTENwTUxDRzhKV3Bj?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-08-28 19:35 KST"
     }
   ],
-  "rate_source_time": "2026-08-29 19:16:25 KST",
+  "rate_source_time": "2026-08-29 19:46:20 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": -3.4,
   "rate_change_pct": -0.25,
   "smbs_base_rate": 1380.3,
   "smbs_rate_date": "2026-08-29",
-  "smbs_rate_updated_at_kst": "2026-08-29 19:16:10 KST",
+  "smbs_rate_updated_at_kst": "2026-08-29 19:46:09 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -51,5 +45,5 @@
     1385.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-08-29 19:16:10 KST"
+  "rate_job_checked_at_kst": "2026-08-29 19:46:09 KST"
 }

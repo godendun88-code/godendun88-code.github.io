@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-08-29 11:46 KST",
+  "updated_at_kst": "2026-08-29 12:16 KST",
   "current_rate": 1378.6,
   "previous_close": 1382.0,
-  "rate_updated_at_kst": "2026-08-29 11:45:54 KST",
+  "rate_updated_at_kst": "2026-08-29 12:16:24 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
@@ -17,6 +17,12 @@
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPLW9HOXdFRGd4QWlJUHhlT0hzZEpqekl3UllCWkU2cW1BNmlzd0E4TGxSZVpIek5Vci1BM3RXNndHcGk4RWt3ZXVGV2NnMDBTQTJPNkNMUm1QVnpMdHRydXhwTFZqbTh2SDllNzdETEgydEhhWG1TVy1adWp5VDNDZEVMbWZnWWpxTGlLdEcxcm1oQ2YwenBaVy1KRUlsX1hVWS1BS0lhR21UNl93WFM4dVhWNEtHNHFZVWgtOGpUdUFITnBudmZhRA?oc=5",
       "domain": "Reuters",
       "seen": "2026-08-29 04:17 KST"
+    },
+    {
+      "title": "VIEW Rate-hike expectations rise on Warsh speech at Jackson Hole",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOSXBjd0lNNVhFZmdaUnNSRFVwa2F5X21TQmdickV5MmNQSjFtX2VjRHpPVzlYVWF2UWJieDY5RjFITTAxd2dOV2JQR0JZMXF6cVNFdmJER09lZHJ5TnBsN2YxMkZWM0ZVUnZ3YmNOdzIzYmV3WV9NU1VKZ2VCaldGVm1sX190VUVXTjMxOXdXa2RxZ0QwQmIxRHNHSjgxZEtzVjdTSG5R?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-08-29 01:58 KST"
     },
     {
       "title": "GMF LENS Aggressive Treasury yield cap could weigh on dollar, says Citi's asset allocation head",
@@ -41,21 +47,15 @@
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOaVBSSzE1NlNIemZTN3paUGdCTlVuSTE4TGRvQkFIclpHd1hQR2ZhUDk2a1dBSDFGc3MxRUVMZzBtQW0yMFNDd3dILUNBN0gzTUFxR3FlVmJucGJ3SmwzZVl2WmFiaE5uS2pEdzlZcUFYQ0Z5Nlo4LXdGQ1NmNGpRblRJNVQ4VVRSVk1pNw?oc=5",
       "domain": "Reuters",
       "seen": "2026-08-28 15:28 KST"
-    },
-    {
-      "title": "Warsh signals Fed may need to hike rates if above-target inflation persists",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQZzBPdElUODB3ZXZsUG96Q1U0Mkp0bVhQcURGaFRQMWtDenpTSFZlU1NRd2F4RWdxRXZYejVZVXM2UDA1Q1BFaFRxd0hQMkgwLVIxME9LMmc5VjlQbk9HbGIyVkZDcnF1clU4TWd1UlE3dl9nUVVzY0tZcGhWYmtGOWpIMXVUZTlSZk9zSlNVMGh5di1COVYxeGdGXzF3MkJyZTE4dU9wRG9xbEk?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-08-28 14:03 KST"
     }
   ],
-  "rate_source_time": "2026-08-29 11:45:54 KST",
+  "rate_source_time": "2026-08-29 12:16:24 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": -3.4,
   "rate_change_pct": -0.25,
   "smbs_base_rate": 1380.3,
   "smbs_rate_date": "2026-08-29",
-  "smbs_rate_updated_at_kst": "2026-08-29 11:45:39 KST",
+  "smbs_rate_updated_at_kst": "2026-08-29 12:16:09 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1385.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-08-29 11:45:39 KST"
+  "rate_job_checked_at_kst": "2026-08-29 12:16:09 KST"
 }

@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-08-30 20:46 KST",
+  "updated_at_kst": "2026-08-30 21:16 KST",
   "current_rate": 1378.6,
   "previous_close": 1382.0,
-  "rate_updated_at_kst": "2026-08-30 20:46:37 KST",
+  "rate_updated_at_kst": "2026-08-30 21:16:22 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
@@ -15,7 +15,7 @@
       "title": "Europe's central bankers fear more turbulence in testy U.S. relations",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOTFd1SEtUeS1UNHY5aUFHVk9FeS1NRzROLUZUQjlDVk9pOGdBcmtuNTB5ZUVmR1QyOWRkTm9HRXBmT3Q1M3ZvUEk3MDBRajJLNVhYb09tS2xNeGVhUFRVa3N1TkxmWHVVNWpyT1pGQU1xQU9lTlU2aVBtU05tUUpSVnZNZnIwT29idFNwcHhvTFMxSTJvOWdMSUt3MkhUNGhrM1JJb0ZtMFpnYjlNcFg3aFZOMy1aQWM?oc=5",
       "domain": "Reuters",
-      "seen": "2026-08-30 14:07 KST"
+      "seen": "2026-08-30 14:06 KST"
     },
     {
       "title": "Bessent says disorderly yen moves can destabilize global markets",
@@ -24,13 +24,13 @@
       "seen": "2026-08-30 01:47 KST"
     }
   ],
-  "rate_source_time": "2026-08-30 20:46:37 KST",
+  "rate_source_time": "2026-08-30 21:16:22 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": -3.4,
   "rate_change_pct": -0.25,
   "smbs_base_rate": 1380.3,
   "smbs_rate_date": "2026-08-30",
-  "smbs_rate_updated_at_kst": "2026-08-30 20:46:20 KST",
+  "smbs_rate_updated_at_kst": "2026-08-30 21:16:10 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -38,5 +38,5 @@
     1385.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-08-30 20:46:20 KST"
+  "rate_job_checked_at_kst": "2026-08-30 21:16:10 KST"
 }

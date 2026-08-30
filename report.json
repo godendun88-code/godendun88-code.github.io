@@ -1,13 +1,12 @@
 {
-  "updated_at_kst": "2026-08-31 02:17 KST",
+  "updated_at_kst": "2026-08-31 02:46 KST",
   "current_rate": 1378.6,
   "previous_close": 1382.0,
-  "rate_updated_at_kst": "2026-08-28 23:48:04 KST",
+  "rate_updated_at_kst": "2026-08-31 02:46:17 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
-    "연준·금리 관련 최신 기사(\"Gulf stocks fall as Fed rate-hike bets rise after Warsh remarks\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
-    "외환시장 관련 최신 기사(\"Europe's central bankers fear more turbulence in testy U.S. relations\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다."
+    "연준·금리 관련 최신 기사(\"Gulf stocks fall as Fed rate-hike bets rise after Warsh remarks\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
@@ -16,21 +15,15 @@
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMUp0Y2RpUlUyc1ZQakFhRXB4TjZwTlIzb1FUTVFCdEVMNHp6LWdkdXc2ZkdCUVo0TmZyb25XWUYzS0dkLTJuVzAzcldNWnhRZTJLREotVi1pQUlOeS1QMmM3ZWhVeTZIOTg2UGMtNzhZQ1EzM3BydUVGMC0xdzdOMzNBZ2VxOTNncUJOT2ZQa0FGU2FrR1YxYUNNcU9va2VRTXJ6ZGFscUdSRmc3V3JtRDJHaXE?oc=5",
       "domain": "Reuters",
       "seen": "2026-08-30 22:15 KST"
-    },
-    {
-      "title": "Europe's central bankers fear more turbulence in testy U.S. relations",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOTFd1SEtUeS1UNHY5aUFHVk9FeS1NRzROLUZUQjlDVk9pOGdBcmtuNTB5ZUVmR1QyOWRkTm9HRXBmT3Q1M3ZvUEk3MDBRajJLNVhYb09tS2xNeGVhUFRVa3N1TkxmWHVVNWpyT1pGQU1xQU9lTlU2aVBtU05tUUpSVnZNZnIwT29idFNwcHhvTFMxSTJvOWdMSUt3MkhUNGhrM1JJb0ZtMFpnYjlNcFg3aFZOMy1aQWM?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-08-30 14:06 KST"
     }
   ],
-  "rate_source_time": "2026-08-28 23:48:04 KST",
+  "rate_source_time": "2026-08-31 02:46:17 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": -3.4,
   "rate_change_pct": -0.25,
   "smbs_base_rate": 1376.5,
   "smbs_rate_date": "2026-08-31",
-  "smbs_rate_updated_at_kst": "2026-08-31 01:46:09 KST",
+  "smbs_rate_updated_at_kst": "2026-08-31 02:46:01 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -38,6 +31,5 @@
     1385.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-08-31 02:16:21 KST",
-  "smbs_rate_error": "RuntimeError: 서울외국환중개 페이지에서 USD 매매기준율을 찾지 못했습니다."
+  "rate_job_checked_at_kst": "2026-08-31 02:46:01 KST"
 }

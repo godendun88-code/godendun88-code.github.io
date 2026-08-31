@@ -1,28 +1,28 @@
 {
-  "updated_at_kst": "2026-08-31 15:46 KST",
+  "updated_at_kst": "2026-08-31 16:18 KST",
   "current_rate": 1369.1,
   "previous_close": 1378.6,
   "rate_updated_at_kst": "2026-08-31 15:46:11 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
-    "연준·금리 관련 최신 기사(\"Rising Fed hike bets pressure rupee, oil worries linger\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
+    "연준·금리 관련 최신 기사(\"RBI back to rupee's rescue to counter oil, Fed headwinds; steps into swaps too\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
     "미 국채금리 상승 관련 보도가 확인돼 달러 수요를 지지하면서 원/달러 환율 상승 압력으로 작용하고 있습니다.",
     "유가·지정학 관련 최신 기사(\"Morning Bid: Oil climbs as missiles fly in the Gulf\")가 확인돼 원화 변동성 확대 요인으로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
     {
+      "title": "RBI back to rupee's rescue to counter oil, Fed headwinds; steps into swaps too",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUEFscm9ibG1XX3ZKcFdiTUZheGctLWxuUDR3NFR6Z2h3MWRBYTZ1VWctNjVLUE9JcWVnd1VqVkJtUFpRRDF1LVNRZHEwdGE1Ym1wR3Bwb3haR3QzdnEyS205VGN2VUt6ckdvNnI5aU14OS1XVXJYV2RYSTdSSnZhMWQ0WU5ZQXdBNGE4SmdMUWxZa1B3eW0wc0RfenJGS0MwYWRReg?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-08-31 15:20 KST"
+    },
+    {
       "title": "Morning Bid: Oil climbs as missiles fly in the Gulf",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBNbU0wNVdySEl6cVlUdjlVZWlFYmp2eDlTU200dDJkTFJZSk5YbnJmenZmRS1LaTVvcC1nVVdjX2NtNDZUNlA3YU1NQUY4QXBnNGVUTnJZVld3MUNfZjIweU0tYXRlZ2lrUldFUGVXNVBSdjl0RHY5aEN1dG50TFk?oc=5",
       "domain": "Reuters",
       "seen": "2026-08-31 13:32 KST"
-    },
-    {
-      "title": "Rising Fed hike bets pressure rupee, oil worries linger",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUEFscm9ibG1XX3ZKcFdiTUZheGctLWxuUDR3NFR6Z2h3MWRBYTZ1VWctNjVLUE9JcWVnd1VqVkJtUFpRRDF1LVNRZHEwdGE1Ym1wR3Bwb3haR3QzdnEyS205VGN2VUt6ckdvNnI5aU14OS1XVXJYV2RYSTdSSnZhMWQ0WU5ZQXdBNGE4SmdMUWxZa1B3eW0wc0RfenJGS0MwYWRReg?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-08-31 11:14 KST"
     },
     {
       "title": "Indian rupee under pressure from Fed, oil; bonds at risk of further selloff",
@@ -55,13 +55,14 @@
   "rate_change_pct": -0.69,
   "smbs_base_rate": 1376.5,
   "smbs_rate_date": "2026-08-31",
-  "smbs_rate_updated_at_kst": "2026-08-31 15:46:00 KST",
+  "smbs_rate_updated_at_kst": "2026-08-31 16:16:06 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
     1375.0,
     1388.0
   ],
-  "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-08-31 15:46:00 KST"
+  "rate_check_status": "failed",
+  "rate_job_checked_at_kst": "2026-08-31 16:16:06 KST",
+  "rate_fetch_error": "RuntimeError: KB STAR FX 자동조회 3회 실패: TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n | TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n | TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n"
 }

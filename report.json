@@ -1,16 +1,16 @@
 {
-  "updated_at_kst": "2026-08-31 20:46 KST",
-  "current_rate": 1367.5,
+  "updated_at_kst": "2026-08-31 21:16 KST",
+  "current_rate": 1368.4,
   "previous_close": 1378.6,
-  "rate_updated_at_kst": "2026-08-31 20:46:08 KST",
+  "rate_updated_at_kst": "2026-08-31 21:16:40 KST",
   "rate_source": "KB STAR FX Market Watch",
-  "market_bias": "상승 우세",
+  "market_bias": "하락 우세",
   "drivers": [
     "연준·금리 관련 최신 기사(\"Gold dips as Fed rate-hike bets rise, still heads for best month since January\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
     "미 국채금리 관련 최신 기사(\"Mapping the Market: US 10-year Treasury yields eye further gains\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다.",
-    "유가 및 중동 지정학적 불확실성이 부각돼 에너지 수입 의존도가 높은 원화에는 약세 부담 요인으로 작용하고 있습니다."
+    "연준·금리 관련 최신 기사(\"Dollar slips as markets weigh Fed rate outlook; yen hovers near 160\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다."
   ],
-  "outlook": "달러 강세·금리 상승 계열의 재료가 상대적으로 우세해 원/달러는 단기 상승 압력이 나타날 수 있으나, 국내 수급과 위험선호 회복 여부에 따라 변동성이 예상됩니다.",
+  "outlook": "달러 약세·금리 하락 계열의 재료가 상대적으로 우세해 원/달러는 단기 하락 압력이 이어질 가능성이 있으나, 유가와 지정학적 리스크는 하단을 제한할 수 있습니다.",
   "articles": [
     {
       "title": "Gold dips as Fed rate-hike bets rise, still heads for best month since January",
@@ -31,28 +31,22 @@
       "seen": "2026-08-31 17:42 KST"
     },
     {
-      "title": "Indian rupee under pressure from Fed, oil; bonds at risk of further selloff",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNblJ2YTFRQ3gwdmJPd1FmLXZUSi16TlpBb0lENndWMkI5elBMMzBrejRDUkhVd3pqb0xjRy1ZdWZGZk9yZEFWSzVaZWtpdTJiWVJ6QkR6QVIzZ1JnQUZGak9RMnpGSzVYZVZXcXowV1VUS1RUTDQ3T0lJcnJMSFRHSUNIeEIyOEd5cmVIOW5sSVEzV1B4QUFYYnRRVFk0aWFUOGVza0hmU0VZUUp5dnNB?oc=5",
+      "title": "RBI back to rupee's rescue to counter oil, Fed headwinds; steps into swaps too",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUEFscm9ibG1XX3ZKcFdiTUZheGctLWxuUDR3NFR6Z2h3MWRBYTZ1VWctNjVLUE9JcWVnd1VqVkJtUFpRRDF1LVNRZHEwdGE1Ym1wR3Bwb3haR3QzdnEyS205VGN2VUt6ckdvNnI5aU14OS1XVXJYV2RYSTdSSnZhMWQ0WU5ZQXdBNGE4SmdMUWxZa1B3eW0wc0RfenJGS0MwYWRReg?oc=5",
       "domain": "Reuters",
-      "seen": "2026-08-31 10:33 KST"
+      "seen": "2026-08-31 11:14 KST"
     },
     {
       "title": "Stocks cautious on US-Iran escalation, bond yields hit multi-year highs",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQa0dYVnlvTDVQRkF4YmQxMW9FUElDRmNweFlHclBUa1R5MmZsSHk5WEtnV3B5bFVFeFJhMGMtSWxsV0FqR0Jsc1ltUENJUEs4RWR0QlVnTFBBc2hIbzJmdl9hZVpOS2dGM2Q2ZFF1MmtLallPblc1ZGtJTFhzNTQzRGNhaw?oc=5",
       "domain": "Reuters",
       "seen": "2026-08-31 09:38 KST"
-    },
-    {
-      "title": "Oil rises as US, Iran resume military attacks",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSGRJUGVDenVxZzdzdXZ4aTJudWV6LS1adkVVMmVUNnc1QnMyNVNsLThHcG44U2p6SWoxYm9LbjJnUGdkZDAzTENhSDR2OW90cWV2aDJNZWpKRllRNUhselE2djRhQlI3ejVmUUl6cFNnVDN1UmU4QXVadDNmQloya3daeWVHSmtGNDh4QWktSk1fenV3czlkbnhwNjJ3VzNXWEhZelFCRTIzaWpR?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-08-31 07:12 KST"
     }
   ],
-  "rate_source_time": "2026-08-31 20:46:08 KST",
+  "rate_source_time": "2026-08-31 21:16:40 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": -11.1,
-  "rate_change_pct": -0.81,
+  "rate_change": -10.2,
+  "rate_change_pct": -0.74,
   "smbs_base_rate": 1376.5,
   "smbs_rate_date": "2026-08-31",
   "smbs_rate_updated_at_kst": "2026-08-31 20:45:55 KST",
@@ -63,5 +57,6 @@
     1388.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-08-31 20:45:55 KST"
+  "rate_job_checked_at_kst": "2026-08-31 21:16:23 KST",
+  "smbs_rate_error": "RuntimeError: 서울외국환중개 페이지에서 USD 매매기준율을 찾지 못했습니다."
 }

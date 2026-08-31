@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-08-31 09:46 KST",
-  "current_rate": 1379.3,
+  "updated_at_kst": "2026-08-31 10:16 KST",
+  "current_rate": 1376.4,
   "previous_close": 1378.6,
-  "rate_updated_at_kst": "2026-08-31 09:46:37 KST",
+  "rate_updated_at_kst": "2026-08-31 10:16:41 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
@@ -16,7 +16,7 @@
       "title": "Shares skid in Asia as oil, yields stay high",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQa0dYVnlvTDVQRkF4YmQxMW9FUElDRmNweFlHclBUa1R5MmZsSHk5WEtnV3B5bFVFeFJhMGMtSWxsV0FqR0Jsc1ltUENJUEs4RWR0QlVnTFBBc2hIbzJmdl9hZVpOS2dGM2Q2ZFF1MmtLallPblc1ZGtJTFhzNTQzRGNhaw?oc=5",
       "domain": "Reuters",
-      "seen": "2026-08-31 09:39 KST"
+      "seen": "2026-08-31 09:38 KST"
     },
     {
       "title": "Bessent says yen moves 'pretty contained' and not disorderly",
@@ -31,13 +31,13 @@
       "seen": "2026-08-31 08:08 KST"
     }
   ],
-  "rate_source_time": "2026-08-31 09:46:37 KST",
+  "rate_source_time": "2026-08-31 10:16:41 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 0.7,
-  "rate_change_pct": 0.05,
+  "rate_change": -2.2,
+  "rate_change_pct": -0.16,
   "smbs_base_rate": 1376.5,
   "smbs_rate_date": "2026-08-31",
-  "smbs_rate_updated_at_kst": "2026-08-31 09:46:21 KST",
+  "smbs_rate_updated_at_kst": "2026-08-31 10:16:26 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -45,5 +45,5 @@
     1388.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-08-31 09:46:21 KST"
+  "rate_job_checked_at_kst": "2026-08-31 10:16:26 KST"
 }

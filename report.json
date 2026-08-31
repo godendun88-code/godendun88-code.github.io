@@ -1,14 +1,14 @@
 {
-  "updated_at_kst": "2026-08-31 10:46 KST",
+  "updated_at_kst": "2026-08-31 11:16 KST",
   "current_rate": 1375.0,
   "previous_close": 1378.6,
-  "rate_updated_at_kst": "2026-08-31 10:46:33 KST",
+  "rate_updated_at_kst": "2026-08-31 11:16:17 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
     "연준·금리 관련 최신 기사(\"Indian rupee under pressure from Fed, oil; bonds at risk of further selloff\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
     "미 국채금리 관련 최신 기사(\"Shares skid in Asia as oil, yields stay high\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다.",
-    "외환시장 관련 최신 기사(\"G20 countries should consider more trade barriers with China to cut imbalances, Bessent says\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다."
+    "유가 및 중동 지정학적 불확실성이 부각돼 에너지 수입 의존도가 높은 원화에는 약세 부담 요인으로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
@@ -17,6 +17,12 @@
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNblJ2YTFRQ3gwdmJPd1FmLXZUSi16TlpBb0lENndWMkI5elBMMzBrejRDUkhVd3pqb0xjRy1ZdWZGZk9yZEFWSzVaZWtpdTJiWVJ6QkR6QVIzZ1JnQUZGak9RMnpGSzVYZVZXcXowV1VUS1RUTDQ3T0lJcnJMSFRHSUNIeEIyOEd5cmVIOW5sSVEzV1B4QUFYYnRRVFk0aWFUOGVza0hmU0VZUUp5dnNB?oc=5",
       "domain": "Reuters",
       "seen": "2026-08-31 10:33 KST"
+    },
+    {
+      "title": "Dollar near two-week high as Warsh boosts rate-hike bets; yen slips past 160",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNTzZFV05UVTZLQjh4TGh6S2xxU0xMU0w3c2lXNUd0am8tak9EV3p6NV84cVV0NDM2aXFrUkFpQUpVZ3dmdGNkYS1OaXRQbGhybm9lcHBfU2lLaVRwVGxiaXJKNnFRZW9ndFppTmp1TlhxeDJ2emxQLU5YWnVraXJFYzFHbldSU0pmVEtjeHFLdHJlUERTWjlkMmp0d25FSE1Wa3Q3SHpKbG1uNXBGa3FDRTg1cGxFX2VQZUkydHoxaWdHZUxER2c?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-08-31 10:32 KST"
     },
     {
       "title": "Shares skid in Asia as oil, yields stay high",
@@ -28,7 +34,7 @@
       "title": "G20 countries should consider more trade barriers with China to cut imbalances, Bessent says",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPenpidlpzUmlPS0hRbS1jaGotNFBZZHgxWVhlMER4NlRWYnh2d280dW1uMHYwZHlvZlgzNVJkNlZQNno1dndkQ1FZNTFNeTJ4eERKTkRlX29kUXhwX1lvTk5XLUZNWUhsdmwxUC04SU9RekVXUlBaRW5GWWhscWs4XzFVcmJlek5ULUFxdDh0ZzB6TlNqUDNYSUJSb2VJQ1RPVHJvS3hWNjY1UUlZaWhfMXI4RFAxaTQ0aldEZXBjbEk?oc=5",
       "domain": "Reuters",
-      "seen": "2026-08-31 08:07 KST"
+      "seen": "2026-08-31 08:08 KST"
     },
     {
       "title": "Bessent says yen moves 'pretty contained' and not disorderly",
@@ -37,13 +43,13 @@
       "seen": "2026-08-31 07:28 KST"
     }
   ],
-  "rate_source_time": "2026-08-31 10:46:33 KST",
+  "rate_source_time": "2026-08-31 11:16:17 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": -3.6,
   "rate_change_pct": -0.26,
   "smbs_base_rate": 1376.5,
   "smbs_rate_date": "2026-08-31",
-  "smbs_rate_updated_at_kst": "2026-08-31 10:46:17 KST",
+  "smbs_rate_updated_at_kst": "2026-08-31 11:16:04 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -51,5 +57,5 @@
     1388.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-08-31 10:46:17 KST"
+  "rate_job_checked_at_kst": "2026-08-31 11:16:04 KST"
 }

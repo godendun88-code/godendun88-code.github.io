@@ -1,22 +1,22 @@
 {
-  "updated_at_kst": "2026-08-31 19:18 KST",
-  "current_rate": 1368.2,
+  "updated_at_kst": "2026-08-31 19:46 KST",
+  "current_rate": 1368.4,
   "previous_close": 1378.6,
-  "rate_updated_at_kst": "2026-08-31 18:46:39 KST",
+  "rate_updated_at_kst": "2026-08-31 19:46:04 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
     "연준·금리 관련 최신 기사(\"Gold dips as Fed hike bets rise, still heads for best month since Jan\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
-    "미국 물가 관련 최신 기사(\"US stock index futures dip as Middle East strikes worsen inflation fears\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
-    "미 국채금리 관련 최신 기사(\"Stocks cautious on US-Iran escalation, bond yields hit multi-year highs\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다."
+    "미 국채금리 관련 최신 기사(\"Mapping the Market: US 10-year Treasury yields eye further gains\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다.",
+    "유가 및 중동 지정학적 불확실성이 부각돼 에너지 수입 의존도가 높은 원화에는 약세 부담 요인으로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
     {
-      "title": "US stock index futures dip as Middle East strikes worsen inflation fears",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSjdMVkl6Zld1cG16aFA3UUtRd2ozVHRERm1Sb1p0WGtVN2xsUEJVbnlaUWt6M2NiWERmaUo1d080c0hWeHFwVGY4UlpZMGJENG91NXJ4bzhMbXNjRVJRQlo1d0ppNlNPcjUtd2F1d2xheXhBaW5OYU43SDdkYk13R0Y0SGNzblZOOTFJcTM2SmJJV3VRbVNyWGZ1bVdzaGJSQ2lBMXZPOWdWb01VNmR1UGYxZGE?oc=5",
+      "title": "Mapping the Market: US 10-year Treasury yields eye further gains",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBiT1pDTWZPekR6Q0Zob25Jdk1jS3dNZUwxdVYyQTU1YlhISVFrS2Q5MXE3WG5wSnB4RC1iRGRJZEtyd0h1T1VCblp5OGcxQWh5OWFiT1UxcENVVHBaU1dLVG5pYnA4V2VTTnkzdzNUUW9EUHBTLVpLSmlWWUc?oc=5",
       "domain": "Reuters",
-      "seen": "2026-08-31 18:27 KST"
+      "seen": "2026-08-31 19:21 KST"
     },
     {
       "title": "Gold dips as Fed hike bets rise, still heads for best month since Jan",
@@ -49,20 +49,19 @@
       "seen": "2026-08-31 10:32 KST"
     }
   ],
-  "rate_source_time": "2026-08-31 18:46:39 KST",
+  "rate_source_time": "2026-08-31 19:46:04 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": -10.4,
-  "rate_change_pct": -0.75,
+  "rate_change": -10.2,
+  "rate_change_pct": -0.74,
   "smbs_base_rate": 1376.5,
   "smbs_rate_date": "2026-08-31",
-  "smbs_rate_updated_at_kst": "2026-08-31 19:16:09 KST",
+  "smbs_rate_updated_at_kst": "2026-08-31 19:45:51 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
     1375.0,
     1388.0
   ],
-  "rate_check_status": "failed",
-  "rate_job_checked_at_kst": "2026-08-31 19:16:09 KST",
-  "rate_fetch_error": "RuntimeError: KB STAR FX 자동조회 3회 실패: TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n | TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n | TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n"
+  "rate_check_status": "success",
+  "rate_job_checked_at_kst": "2026-08-31 19:45:51 KST"
 }

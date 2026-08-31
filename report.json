@@ -1,17 +1,23 @@
 {
-  "updated_at_kst": "2026-08-31 09:16 KST",
-  "current_rate": 1377.8,
+  "updated_at_kst": "2026-08-31 09:46 KST",
+  "current_rate": 1379.3,
   "previous_close": 1378.6,
-  "rate_updated_at_kst": "2026-08-31 09:16:31 KST",
+  "rate_updated_at_kst": "2026-08-31 09:46:37 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
+    "미 국채금리 관련 최신 기사(\"Shares skid in Asia as oil, yields stay high\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다.",
     "외환시장 관련 최신 기사(\"Bessent says yen moves 'pretty contained' and not disorderly\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다.",
-    "외환시장 관련 최신 기사(\"G20 countries should consider more trade barriers with China to cut imbalances, Bessent says\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다.",
-    "외환시장 관련 최신 기사(\"Europe's central bankers fear more turbulence in testy U.S. relations\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다."
+    "외환시장 관련 최신 기사(\"G20 countries should consider more trade barriers with China to cut imbalances, Bessent says\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
+    {
+      "title": "Shares skid in Asia as oil, yields stay high",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQa0dYVnlvTDVQRkF4YmQxMW9FUElDRmNweFlHclBUa1R5MmZsSHk5WEtnV3B5bFVFeFJhMGMtSWxsV0FqR0Jsc1ltUENJUEs4RWR0QlVnTFBBc2hIbzJmdl9hZVpOS2dGM2Q2ZFF1MmtLallPblc1ZGtJTFhzNTQzRGNhaw?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-08-31 09:39 KST"
+    },
     {
       "title": "Bessent says yen moves 'pretty contained' and not disorderly",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOemhvR29KUUI0VU1FYmFvbE9CWHhadUtxNWsxQU5uSWxkdVNVNVFDQjhFOHgyaXRnbUFvTjBGd1lwSEtaTGFua0lzQ3B6c1J5enpTQmNaVUlRZEx1VHRfR25qdnRMRlU4bGZzb1h4LTdpdnFqSVJPd1dhZHBvcnZYNTRVM2w0eWdteU52ejJQdzlNaDBsQ2lzQTdkeUZCNjAzSnJIZWRaMUxIWkR0WkE?oc=5",
@@ -23,21 +29,15 @@
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPenpidlpzUmlPS0hRbS1jaGotNFBZZHgxWVhlMER4NlRWYnh2d280dW1uMHYwZHlvZlgzNVJkNlZQNno1dndkQ1FZNTFNeTJ4eERKTkRlX29kUXhwX1lvTk5XLUZNWUhsdmwxUC04SU9RekVXUlBaRW5GWWhscWs4XzFVcmJlek5ULUFxdDh0ZzB6TlNqUDNYSUJSb2VJQ1RPVHJvS3hWNjY1UUlZaWhfMXI4RFAxaTQ0aldEZXBjbEk?oc=5",
       "domain": "Reuters",
       "seen": "2026-08-31 08:08 KST"
-    },
-    {
-      "title": "Europe's central bankers fear more turbulence in testy U.S. relations",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOTFd1SEtUeS1UNHY5aUFHVk9FeS1NRzROLUZUQjlDVk9pOGdBcmtuNTB5ZUVmR1QyOWRkTm9HRXBmT3Q1M3ZvUEk3MDBRajJLNVhYb09tS2xNeGVhUFRVa3N1TkxmWHVVNWpyT1pGQU1xQU9lTlU2aVBtU05tUUpSVnZNZnIwT29idFNwcHhvTFMxSTJvOWdMSUt3MkhUNGhrM1JJb0ZtMFpnYjlNcFg3aFZOMy1aQWM?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-08-30 14:06 KST"
     }
   ],
-  "rate_source_time": "2026-08-31 09:16:31 KST",
+  "rate_source_time": "2026-08-31 09:46:37 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": -0.8,
-  "rate_change_pct": -0.06,
+  "rate_change": 0.7,
+  "rate_change_pct": 0.05,
   "smbs_base_rate": 1376.5,
   "smbs_rate_date": "2026-08-31",
-  "smbs_rate_updated_at_kst": "2026-08-31 09:16:18 KST",
+  "smbs_rate_updated_at_kst": "2026-08-31 09:46:21 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -45,5 +45,5 @@
     1388.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-08-31 09:16:18 KST"
+  "rate_job_checked_at_kst": "2026-08-31 09:46:21 KST"
 }

@@ -1,22 +1,22 @@
 {
-  "updated_at_kst": "2026-09-01 03:16 KST",
+  "updated_at_kst": "2026-09-01 03:47 KST",
   "current_rate": 1367.9,
   "previous_close": 1378.6,
-  "rate_updated_at_kst": "2026-09-01 03:16:29 KST",
+  "rate_updated_at_kst": "2026-09-01 03:46:49 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
-    "연준의 추가 금리 인상 또는 매파적 기조 우려가 부각돼 달러 강세 압력이 높아지는 요인으로 작용하고 있습니다.",
+    "미국 물가 관련 최신 기사(\"Wall Street dips as spiking crude prices revive fears of inflation, rate hike\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
     "미 국채금리 관련 최신 기사(\"Mapping the Market: US 10-year Treasury yields eye further gains\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다.",
     "글로벌 달러 약세 관련 보도가 이어지며 원/달러 환율에는 하락 압력으로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
     {
-      "title": "Wall St dips as rising oil prices, hawkish Fed bets pressure stocks",
+      "title": "Wall Street dips as spiking crude prices revive fears of inflation, rate hike",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSjdMVkl6Zld1cG16aFA3UUtRd2ozVHRERm1Sb1p0WGtVN2xsUEJVbnlaUWt6M2NiWERmaUo1d080c0hWeHFwVGY4UlpZMGJENG91NXJ4bzhMbXNjRVJRQlo1d0ppNlNPcjUtd2F1d2xheXhBaW5OYU43SDdkYk13R0Y0SGNzblZOOTFJcTM2SmJJV3VRbVNyWGZ1bVdzaGJSQ2lBMXZPOWdWb01VNmR1UGYxZGE?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-01 00:40 KST"
+      "seen": "2026-09-01 03:29 KST"
     },
     {
       "title": "Oil to hold above $80 a barrel as Middle East supply risks persist",
@@ -49,13 +49,13 @@
       "seen": "2026-08-31 10:32 KST"
     }
   ],
-  "rate_source_time": "2026-09-01 03:16:29 KST",
+  "rate_source_time": "2026-09-01 03:46:49 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": -10.7,
   "rate_change_pct": -0.78,
   "smbs_base_rate": 1373.6,
   "smbs_rate_date": "2026-09-01",
-  "smbs_rate_updated_at_kst": "2026-09-01 03:16:14 KST",
+  "smbs_rate_updated_at_kst": "2026-09-01 03:46:35 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1388.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-01 03:16:14 KST"
+  "rate_job_checked_at_kst": "2026-09-01 03:46:35 KST"
 }

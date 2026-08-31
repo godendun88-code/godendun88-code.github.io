@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-08-31 15:16 KST",
-  "current_rate": 1369.8,
+  "updated_at_kst": "2026-08-31 15:46 KST",
+  "current_rate": 1369.1,
   "previous_close": 1378.6,
-  "rate_updated_at_kst": "2026-08-31 15:16:28 KST",
+  "rate_updated_at_kst": "2026-08-31 15:46:11 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
@@ -37,25 +37,25 @@
       "seen": "2026-08-31 10:32 KST"
     },
     {
-      "title": "Shares skid in Asia as oil climbs, yields stay high",
+      "title": "Shares ease in Asia as oil climbs, yields stay high",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQa0dYVnlvTDVQRkF4YmQxMW9FUElDRmNweFlHclBUa1R5MmZsSHk5WEtnV3B5bFVFeFJhMGMtSWxsV0FqR0Jsc1ltUENJUEs4RWR0QlVnTFBBc2hIbzJmdl9hZVpOS2dGM2Q2ZFF1MmtLallPblc1ZGtJTFhzNTQzRGNhaw?oc=5",
       "domain": "Reuters",
       "seen": "2026-08-31 09:38 KST"
     },
     {
-      "title": "Bessent expects new US secondary sanctions weekly, aiming to increase pressure on Iran",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNdWJLRHJBSlpLeHYxNEtndmNRX19YTG9GWENmSEdTZXRTbnZnUFJITUtYcV83YnlPWmlpbC00WnZic3FMYVowRlA4Zzk5V2NKc2ZSSkxtUXl6N1A2MmdQbTI3cWhqbWxfMXVNekZQWFYwY2hPcENiOXR1N1JjRU4ydTRGTWZoV0U2Ul9KdmVZZ1pBQzVFTnR1MUl5YXRpTV9DWXE1bEtOc0FkVTRpNkFHOV9XZ2JOUGJ2eUQ0WFFqRDdLdlZlWWdQdlpjSHY?oc=5",
+      "title": "Oil jumps more than 2% after US attack on Iran's Larak island",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSGRJUGVDenVxZzdzdXZ4aTJudWV6LS1adkVVMmVUNnc1QnMyNVNsLThHcG44U2p6SWoxYm9LbjJnUGdkZDAzTENhSDR2OW90cWV2aDJNZWpKRllRNUhselE2djRhQlI3ejVmUUl6cFNnVDN1UmU4QXVadDNmQloya3daeWVHSmtGNDh4QWktSk1fenV3czlkbnhwNjJ3VzNXWEhZelFCRTIzaWpR?oc=5",
       "domain": "Reuters",
-      "seen": "2026-08-31 08:52 KST"
+      "seen": "2026-08-31 07:12 KST"
     }
   ],
-  "rate_source_time": "2026-08-31 15:16:28 KST",
+  "rate_source_time": "2026-08-31 15:46:11 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": -8.8,
-  "rate_change_pct": -0.64,
+  "rate_change": -9.5,
+  "rate_change_pct": -0.69,
   "smbs_base_rate": 1376.5,
   "smbs_rate_date": "2026-08-31",
-  "smbs_rate_updated_at_kst": "2026-08-31 15:16:13 KST",
+  "smbs_rate_updated_at_kst": "2026-08-31 15:46:00 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1388.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-08-31 15:16:13 KST"
+  "rate_job_checked_at_kst": "2026-08-31 15:46:00 KST"
 }

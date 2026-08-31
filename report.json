@@ -1,28 +1,28 @@
 {
-  "updated_at_kst": "2026-08-31 14:16 KST",
-  "current_rate": 1375.6,
+  "updated_at_kst": "2026-08-31 14:46 KST",
+  "current_rate": 1373.7,
   "previous_close": 1378.6,
-  "rate_updated_at_kst": "2026-08-31 14:16:22 KST",
+  "rate_updated_at_kst": "2026-08-31 14:46:14 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
     "연준·금리 관련 최신 기사(\"Rising Fed hike bets pressure rupee, oil worries linger\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
     "미 국채금리 상승 관련 보도가 확인돼 달러 수요를 지지하면서 원/달러 환율 상승 압력으로 작용하고 있습니다.",
-    "유가 및 중동 지정학적 불확실성이 부각돼 에너지 수입 의존도가 높은 원화에는 약세 부담 요인으로 작용하고 있습니다."
+    "유가·지정학 관련 최신 기사(\"Morning Bid: Oil climbs as missiles fly in the Gulf\")가 확인돼 원화 변동성 확대 요인으로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
+    {
+      "title": "Morning Bid: Oil climbs as missiles fly in the Gulf",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBNbU0wNVdySEl6cVlUdjlVZWlFYmp2eDlTU200dDJkTFJZSk5YbnJmenZmRS1LaTVvcC1nVVdjX2NtNDZUNlA3YU1NQUY4QXBnNGVUTnJZVld3MUNfZjIweU0tYXRlZ2lrUldFUGVXNVBSdjl0RHY5aEN1dG50TFk?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-08-31 13:32 KST"
+    },
     {
       "title": "Rising Fed hike bets pressure rupee, oil worries linger",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUEFscm9ibG1XX3ZKcFdiTUZheGctLWxuUDR3NFR6Z2h3MWRBYTZ1VWctNjVLUE9JcWVnd1VqVkJtUFpRRDF1LVNRZHEwdGE1Ym1wR3Bwb3haR3QzdnEyS205VGN2VUt6ckdvNnI5aU14OS1XVXJYV2RYSTdSSnZhMWQ0WU5ZQXdBNGE4SmdMUWxZa1B3eW0wc0RfenJGS0MwYWRReg?oc=5",
       "domain": "Reuters",
       "seen": "2026-08-31 11:14 KST"
-    },
-    {
-      "title": "Dollar near two-week high as Warsh boosts rate-hike bets; yen slips past 160",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNTzZFV05UVTZLQjh4TGh6S2xxU0xMU0w3c2lXNUd0am8tak9EV3p6NV84cVV0NDM2aXFrUkFpQUpVZ3dmdGNkYS1OaXRQbGhybm9lcHBfU2lLaVRwVGxiaXJKNnFRZW9ndFppTmp1TlhxeDJ2emxQLU5YWnVraXJFYzFHbldSU0pmVEtjeHFLdHJlUERTWjlkMmp0d25FSE1Wa3Q3SHpKbG1uNXBGa3FDRTg1cGxFX2VQZUkydHoxaWdHZUxER2c?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-08-31 10:33 KST"
     },
     {
       "title": "Indian rupee under pressure from Fed, oil; bonds at risk of further selloff",
@@ -31,16 +31,16 @@
       "seen": "2026-08-31 10:33 KST"
     },
     {
+      "title": "Dollar near two-week high as Warsh boosts rate-hike bets; yen slips past 160",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNTzZFV05UVTZLQjh4TGh6S2xxU0xMU0w3c2lXNUd0am8tak9EV3p6NV84cVV0NDM2aXFrUkFpQUpVZ3dmdGNkYS1OaXRQbGhybm9lcHBfU2lLaVRwVGxiaXJKNnFRZW9ndFppTmp1TlhxeDJ2emxQLU5YWnVraXJFYzFHbldSU0pmVEtjeHFLdHJlUERTWjlkMmp0d25FSE1Wa3Q3SHpKbG1uNXBGa3FDRTg1cGxFX2VQZUkydHoxaWdHZUxER2c?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-08-31 10:32 KST"
+    },
+    {
       "title": "Shares skid in Asia as oil climbs, yields stay high",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQa0dYVnlvTDVQRkF4YmQxMW9FUElDRmNweFlHclBUa1R5MmZsSHk5WEtnV3B5bFVFeFJhMGMtSWxsV0FqR0Jsc1ltUENJUEs4RWR0QlVnTFBBc2hIbzJmdl9hZVpOS2dGM2Q2ZFF1MmtLallPblc1ZGtJTFhzNTQzRGNhaw?oc=5",
       "domain": "Reuters",
       "seen": "2026-08-31 09:38 KST"
-    },
-    {
-      "title": "G20 countries should consider more trade barriers with China to cut imbalances, Bessent says",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPenpidlpzUmlPS0hRbS1jaGotNFBZZHgxWVhlMER4NlRWYnh2d280dW1uMHYwZHlvZlgzNVJkNlZQNno1dndkQ1FZNTFNeTJ4eERKTkRlX29kUXhwX1lvTk5XLUZNWUhsdmwxUC04SU9RekVXUlBaRW5GWWhscWs4XzFVcmJlek5ULUFxdDh0ZzB6TlNqUDNYSUJSb2VJQ1RPVHJvS3hWNjY1UUlZaWhfMXI4RFAxaTQ0aldEZXBjbEk?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-08-31 08:08 KST"
     },
     {
       "title": "Oil jumps more than 2% after US attack on Iran's Larak island",
@@ -49,13 +49,13 @@
       "seen": "2026-08-31 07:12 KST"
     }
   ],
-  "rate_source_time": "2026-08-31 14:16:22 KST",
+  "rate_source_time": "2026-08-31 14:46:14 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": -3.0,
-  "rate_change_pct": -0.22,
+  "rate_change": -4.9,
+  "rate_change_pct": -0.36,
   "smbs_base_rate": 1376.5,
   "smbs_rate_date": "2026-08-31",
-  "smbs_rate_updated_at_kst": "2026-08-31 14:16:07 KST",
+  "smbs_rate_updated_at_kst": "2026-08-31 14:46:00 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1388.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-08-31 14:16:07 KST"
+  "rate_job_checked_at_kst": "2026-08-31 14:46:00 KST"
 }

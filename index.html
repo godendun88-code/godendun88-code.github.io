@@ -33,6 +33,7 @@
     @media(max-width:480px){.fx-form-grid,.scenario-summary{grid-template-columns:1fr}.fx-simulation-toolbar{align-items:stretch}}
   </style>
   <style>
+    #cashReconciliationPanel[hidden]{display:none!important}.current-plan-heading{grid-column:1/-1;padding:6px 2px 0}.current-plan-heading h2{margin:0 0 6px;font-size:18px}.current-plan-heading p{margin:0;color:var(--muted);font-size:12px;line-height:1.65}
     .cash-chart-stage{position:relative;isolation:isolate}.cash-chart-stage:has(.cash-hover-tooltip:not([hidden])){z-index:20}.cash-chart-stage canvas:focus-visible{outline:2px solid #2563eb;outline-offset:4px;border-radius:8px}
     .cash-hover-help{font-size:10px;line-height:1.6;color:var(--muted);margin-top:10px}.cash-hover-line{position:absolute;width:1px;border-left:1px dashed #667085;pointer-events:none;z-index:2}
     .cash-hover-tooltip{position:absolute;top:8px;left:8px;width:min(330px,calc(100% - 16px));padding:13px 14px;background:rgba(255,255,255,.98);border:1px solid #d0d5dd;border-radius:12px;box-shadow:0 10px 32px #17203328;z-index:4;pointer-events:none;color:#172033;font-size:11px;line-height:1.55;white-space:normal}
@@ -50,10 +51,10 @@
   </style>
 </head>
 <body class="auth-pending current-mode">
-		  <div class="auth-gate" id="authGate"><div class="auth-card"><div class="auth-mark">FX</div><h2>ACT GAMES 자금 대시보드</h2><p>`@actgames.co.kr` Google 회사계정으로 로그인한 사용자만 확인할 수 있습니다.</p><button id="loginBtn">회사 Google 계정으로 로그인</button><div class="auth-status" id="authStatus"></div><div class="auth-version">CASH WORKSPACE V5.12.0 2026.08.31</div></div></div>
+		  <div class="auth-gate" id="authGate"><div class="auth-card"><div class="auth-mark">FX</div><h2>ACT GAMES 자금 대시보드</h2><p>`@actgames.co.kr` Google 회사계정으로 로그인한 사용자만 확인할 수 있습니다.</p><button id="loginBtn">회사 Google 계정으로 로그인</button><div class="auth-status" id="authStatus"></div><div class="auth-version">CASH WORKSPACE V5.12.1 2026.08.31</div></div></div>
   <div class="wrap" id="appShell">
     <div class="top">
-		      <div><h1>ACT 자금 대시보드</h1><div class="sub">현재 자금상황 · 자금운용 · 환율 추세 · 매출 및 중국매출 시나리오</div><div class="version">회사계정 보호 · v5.12.0</div></div>
+		      <div><h1>ACT 자금 대시보드</h1><div class="sub">현재 자금상황 · 자금운용 · 환율 추세 · 매출 및 중국매출 시나리오</div><div class="version">회사계정 보호 · v5.12.1</div></div>
       <div class="actions">
         <input id="excelFile" type="file" accept=".xlsx,.xls" hidden />
         <div class="user-chip" id="userChip" hidden><span id="userEmail"></span></div>
@@ -80,6 +81,7 @@
             <div class="daily-note">계획은 매출 100%·중국 정상·환전 미적용의 동일 날짜 종료잔액입니다. 실제잔액으로 미래 계획을 자동 덮어쓰거나 월말을 확정하지 않습니다. 총 자금에는 예치금이 이미 포함되므로 운용내역 총액을 다시 더하지 않습니다.</div>
             <details><summary>날짜별 마감잔액·반영 시트 확인</summary><div class="table-wrap"><table><thead><tr><th>기준일</th><th>최종 시트</th><th>원화(억원)</th><th>USD</th><th>정기예금(억원)</th><th>총 자금(억원)</th><th>검사</th></tr></thead><tbody id="dailyBalanceHistoryBody"></tbody></table></div></details>
           </section>
+          <header class="current-plan-heading" id="currentPlanHeading"><h2>월별 자금현황 · 기본 계획</h2><p>과거 월말잔액과 향후 예상 흐름입니다. 예상은 매출 100%·중국 정상·환전 미적용 기준이며, 위 일일 실제잔액과는 별도입니다.</p></header>
 	        <div class="overview-kpis">
 	          <div class="overview-card"><div class="label">기준월 총 잔고</div><div class="overview-value" id="currentLatestTotal">-</div><div class="overview-detail" id="currentLatestMonth">엑셀 연결 확인 중</div></div>
 	          <div class="overview-card"><div class="label">원화 월말잔액</div><div class="overview-value" id="currentLatestKrw">-</div><div class="overview-detail">억원 단위</div></div>
@@ -91,8 +93,9 @@
 	        <div class="panel current-table-panel"><div class="current-table-head"><div><div class="title" style="margin-bottom:5px">자금변동내역</div><div class="small">2026년 1월부터 엑셀에 존재하는 최신 월 시트까지 표시합니다.</div></div><span class="rate-badge" id="currentTableRate">서울외국환중개 환율 확인 중</span></div><div class="current-table-wrap"><table><thead><tr><th>월</th><th>구분</th><th>원화 월말잔액(억원)</th><th>USD 월말잔액</th><th>USD 환산금액(억원)</th><th>총 잔고(억원)</th></tr></thead><tbody id="currentHistoryBody"><tr><td colspan="6" style="text-align:center;color:var(--muted)">연결된 자금계획을 확인하고 있습니다.</td></tr></tbody></table></div><div class="overview-note" id="currentHistoryNote">확정·예상은 각 월 시트의 상태값을 우선 적용합니다.</div>
           <details class="monthly-usd-editor" id="monthlyUsdEditor" hidden><summary>USD 월말잔액 보완 입력 · 관리자</summary><div class="input-help"><strong>과거 월:</strong> 은행에서 조회한 해당 월 마지막 날의 모든 USD 계좌 잔액 합계를 입력하세요. <strong>예상 월:</strong> 해당 월말 USD 예상잔액을 입력하세요.<br>달러 숫자만 입력합니다. 원화 환산액은 입력하지 않습니다. 빈칸은 미입력, <strong>0은 실제 잔액 0 USD</strong>입니다. Excel 자동값이 연결되면 자동값을 우선합니다.</div><div class="table-wrap"><table><thead><tr><th>월</th><th>구분</th><th>확인할 내용</th><th>USD 월말잔액 입력</th></tr></thead><tbody id="monthlyUsdInputBody"></tbody></table></div><div class="deposit-editor-actions"><button class="primary" id="monthlyUsdSaveBtn">USD 잔액 저장</button><span class="deposit-editor-status" id="monthlyUsdSaveStatus">입력값은 회사계정 보호 저장소에만 저장됩니다. 원본 Excel은 변경하지 않습니다.</span></div></details>
         </div>
-        <section class="panel reconcile-panel" id="cashReconciliationPanel" aria-labelledby="reconcileTitle">
-          <div class="reconcile-heading"><div><h2 id="reconcileTitle">자금 확정 및 검증</h2><div class="small">동일 월말 · 장부금액 기준 대조 · 관리자 승인 후 확정</div></div><span class="pill" id="reconcileSummary">재무제표 등록 대기</span></div>
+        <section class="panel cash-funds-summary"><div class="funds-table-head"><div><div class="title" style="margin-bottom:5px">자금운용 요약</div><div class="small">현재 자금운용내역 탭과 동일한 등록자료 기준</div></div><button onclick="setCashView('funds')">운용내역 보기 →</button></div><div class="cash-funds-cards"><div class="cash-funds-card"><div class="label">등록 예치금 총액</div><div class="cash-funds-value" id="currentDepositTotal">-</div><div class="cash-funds-detail" id="currentDepositCount">자료 등록 대기</div></div><div class="cash-funds-card"><div class="label">30일 내 만기 도래액</div><div class="cash-funds-value" id="currentDepositSoon">-</div><div class="cash-funds-detail">오늘부터 30일 이내 · 만기 경과분 제외</div></div><div class="cash-funds-card"><div class="label">가장 가까운 만기</div><div class="cash-funds-value" id="currentDepositNextDate">-</div><div class="cash-funds-detail" id="currentDepositNextDetail">자료 등록 대기</div></div></div><div class="overview-note" id="currentDepositNote">예치금은 위 자금변동내역의 총 잔고에 별도로 더하지 않습니다. 원본 잔고와의 중복 합산을 방지합니다.</div></section>
+        <section class="panel reconcile-panel" id="cashReconciliationPanel" aria-labelledby="reconcileTitle" hidden>
+          <div class="reconcile-heading"><div><h2 id="reconcileTitle">자금 확정 및 검증 · 관리자 전용</h2><div class="small">동일 월말 · 장부금액 기준 대조 · 조회 화면에는 월별 확정 상태만 표시</div></div><span class="pill" id="reconcileSummary">재무제표 등록 대기</span></div>
           <div class="table-wrap"><table><thead><tr><th>기준월</th><th>재무제표 보통예금(원)</th><th>자금 장부기준 합계(원)</th><th>차액(원)</th><th>마감·검증 상태</th></tr></thead><tbody id="reconcileHistoryBody"></tbody></table></div>
           <div class="reconcile-help">재무제표 보통예금에는 원화예금과 외화예금 장부금액이 포함됩니다. 현재환율 평가액·미래 시나리오는 대조에서 제외합니다. ‘확정’은 장부총액 대조 범위이며 USD 수량 검증 여부는 별도 표시합니다.</div>
           <details class="reconcile-editor" id="reconcileEditor" hidden>
@@ -119,7 +122,6 @@
             <div class="reconcile-help" id="reconcileSaveStatus" role="status" aria-live="polite"></div>
           </details>
         </section>
-        <section class="panel cash-funds-summary"><div class="funds-table-head"><div><div class="title" style="margin-bottom:5px">자금운용 요약</div><div class="small">현재 자금운용내역 탭과 동일한 등록자료 기준</div></div><button onclick="setCashView('funds')">운용내역 보기 →</button></div><div class="cash-funds-cards"><div class="cash-funds-card"><div class="label">등록 예치금 총액</div><div class="cash-funds-value" id="currentDepositTotal">-</div><div class="cash-funds-detail" id="currentDepositCount">자료 등록 대기</div></div><div class="cash-funds-card"><div class="label">30일 내 만기 도래액</div><div class="cash-funds-value" id="currentDepositSoon">-</div><div class="cash-funds-detail">오늘부터 30일 이내 · 만기 경과분 제외</div></div><div class="cash-funds-card"><div class="label">가장 가까운 만기</div><div class="cash-funds-value" id="currentDepositNextDate">-</div><div class="cash-funds-detail" id="currentDepositNextDetail">자료 등록 대기</div></div></div><div class="overview-note" id="currentDepositNote">예치금은 위 자금변동내역의 총 잔고에 별도로 더하지 않습니다. 원본 잔고와의 중복 합산을 방지합니다.</div></section>
 	      </section>
 	      <section class="funds-section funds-overview" id="fundsWorkspace">
 	        <div class="funds-summary">
@@ -460,8 +462,20 @@
     function reconciliationMonthStatus(month,model=cashModel){const record=cashReconciliations[month];if(!record)return month<currentMonthKey()?'미확정':'예상';const check=evaluateReconciliation(record,model);return check.confirmed?'확정':check.stale?'재검증 필요':month<currentMonthKey()?'미확정':'예상'}
     function reconciliationAmount(value,usd=false){return value==null?'—':fmt(value,usd?2:0)+(usd?' USD':'원')}
     function reconciliationStatusText(record,check){return(check.confirmed?'확정(장부총액)':check.stale?'재검증 필요':check.canConfirm?'일치 · 마감 승인 대기':'검증 필요')+' · '+(check.usdPass?'USD 수량 일치':check.usdDiff!=null?'USD 수량 불일치':'USD 수량 미검증')}
+    function clearReconciliationView(){
+      $('cashReconciliationPanel').hidden=true;$('reconcileEditor').hidden=true;$('reconcileEditor').open=false;
+      reconcileDraft=null;reconcileDirty=false;
+      for(const id of ['reconcileHistoryBody','reconcileDetailBody'])$(id).innerHTML='';
+      for(const id of ['reconcileSummary','reconcileFileInfo','reconcileResult','reconcileSaveStatus'])$(id).textContent='';
+      for(const id of ['reconcileMonth','reconcileFile','reconcileBalanceBasis','reconcileFxBook','reconcileShortBook','reconcileUsdEvidence','reconcileEvidenceNote'])$(id).value='';
+      $('reconcileUnit').value='1';$('reconcileUnitReviewed').checked=false;$('reconcileActualReviewed').checked=false;
+      for(const id of ['reconcileSaveBtn','reconcileConfirmBtn','reconcileReopenBtn'])$(id).disabled=true;
+      $('reconcileReopenBtn').hidden=true;
+    }
     function renderCashReconciliation(){
       const body=$('reconcileHistoryBody');if(!body)return;
+      if(!window.dashboardAuth?.isAdmin){clearReconciliationView();return}
+      $('cashReconciliationPanel').hidden=false;
       const months=[...new Set([...(cashModel?.monthlyHistory||[]).filter(r=>r.month<=currentMonthKey()).map(r=>r.month),...Object.keys(cashReconciliations)])].sort().reverse();let confirmed=0;
       body.innerHTML=months.length?months.map(month=>{const record=cashReconciliations[month],check=evaluateReconciliation(record||{month});if(check.confirmed)confirmed++;const status=record?reconciliationStatusText(record,check):'재무제표 미등록 · 미확정';return `<tr><td>${window.dashboardAuth?.isAdmin?`<button type="button" onclick="openReconciliationMonth('${month}')">${esc(month)}</button>`:esc(month)}</td><td>${esc(reconciliationAmount(record?.statement?.bankAmount))}</td><td>${esc(reconciliationAmount(check.bankActual))}</td><td class="${check.bankDiff===0?'good':check.bankDiff!=null?'bad':''}">${esc(reconciliationAmount(check.bankDiff))}</td><td>${esc(status)}</td></tr>`}).join(''):'<tr><td colspan="5" style="text-align:center">재무제표를 등록하면 월별 검증 결과가 표시됩니다.</td></tr>';
       $('reconcileSummary').textContent=`장부총액 확정 ${confirmed} / ${months.length}개월`;
@@ -470,6 +484,7 @@
       if(!reconcileDirty&&!reconcileBusy)loadReconciliationMonth($('reconcileMonth').value);else renderReconciliationDraft();
     }
     function loadReconciliationMonth(month){
+      if(!window.dashboardAuth?.isAdmin){clearReconciliationView();return}
       const record=cashReconciliations[month];reconcileDraft=record?JSON.parse(JSON.stringify(record)):{month,statement:null,inputs:reconciliationInputs(),revision:0};reconcileDirty=false;
       const inputs=reconciliationInputs(reconcileDraft.inputs);
       $('reconcileMonth').value=month;$('reconcileUnit').value=String(reconcileDraft.statement?.unit||1);
@@ -480,6 +495,7 @@
     function openReconciliationMonth(month){if(!window.dashboardAuth?.isAdmin)return;if(reconcileBusy)return;if(reconcileDirty&&!confirm('저장하지 않은 검증 입력을 버리고 다른 월을 여시겠습니까?'))return;loadReconciliationMonth(month);$('reconcileEditor').open=true;$('cashReconciliationPanel').scrollIntoView({behavior:'smooth',block:'start'})}
     function readReconciliationForm(){return reconciliationInputs({basis:$('reconcileBalanceBasis').value,fxBook:$('reconcileFxBook').value,shortBook:$('reconcileShortBook').value,usdEvidence:$('reconcileUsdEvidence').value,note:$('reconcileEvidenceNote').value,unitReviewed:$('reconcileUnitReviewed').checked,actualReviewed:$('reconcileActualReviewed').checked})}
     function renderReconciliationDraft(){
+      if(!window.dashboardAuth?.isAdmin){clearReconciliationView();return}
       if(!reconcileDraft)return;const r=reconcileDraft,s=r.statement,check=evaluateReconciliation(r);
       $('reconcileFileInfo').textContent=s?`${s.fileName} · ${s.sheet}!${s.bankCell} · 당기 ${s.startDate} ~ ${s.date} · 원본 단위 ${s.unit===1?'원':s.unit===1000?'천원':'백만원'} · 전기 금액 제외`:'재무상태표를 선택해 주세요. 파일명 대신 당기 기말일을 읽습니다.';
       $('reconcileFxBook').disabled=false;$('reconcileShortBook').disabled=!check.shortRequired;
@@ -513,7 +529,7 @@
       if(action==='confirm'&&!confirm(`${reconcileDraft.month} 장부총액을 월 마감 확정하시겠습니까?${check.usdPass?'':'\nUSD 수량은 미검증 상태로 별도 표시됩니다.'}`))return;
       if(action==='reopen'&&!confirm(`${reconcileDraft.month} 마감 확정을 해제하시겠습니까? 검증자료는 유지됩니다.`))return;
       reconcileBusy=true;renderReconciliationDraft();$('reconcileSaveStatus').textContent='검증자료를 보호 저장소에 저장 중입니다.';
-      try{const saved=await window.saveCashReconciliation(JSON.parse(JSON.stringify(reconcileDraft)),action,check.fingerprint);cashReconciliations[saved.month]=saved;reconcileDirty=false;loadReconciliationMonth(saved.month);if(cashModel)renderCurrentOverview(cashModel);$('reconcileSaveStatus').textContent=action==='confirm'?'장부총액 마감 확정 완료':action==='reopen'?'확정 해제 완료 · 원본·검증자료 유지':'검증자료 저장 완료 · 월 마감은 별도로 확정해 주세요.'}
+      try{const saved=await window.saveCashReconciliation(JSON.parse(JSON.stringify(reconcileDraft)),action,check.fingerprint);if(!window.dashboardAuth?.isAdmin)return;cashReconciliations[saved.month]=saved;reconcileDirty=false;loadReconciliationMonth(saved.month);if(cashModel)renderCurrentOverview(cashModel);$('reconcileSaveStatus').textContent=action==='confirm'?'장부총액 마감 확정 완료':action==='reopen'?'확정 해제 완료 · 원본·검증자료 유지':'검증자료 저장 완료 · 월 마감은 별도로 확정해 주세요.'}
       catch(error){$('reconcileSaveStatus').textContent='저장 실패: '+(error.message||error.code||String(error))}
       finally{reconcileBusy=false;renderCashReconciliation()}
     }
@@ -657,8 +673,8 @@
  if(past.length)notes.push(`${past.map(row=>row.month).join(', ')}: 월말 USD 잔액 보완 필요.`);
  if(unlinked.length)notes.push(`${unlinked.map(row=>row.month).join(', ')}: ${model.sourceSheet||'입출금'} 시트의 월별 USD 계획 잔액이 연결되지 않았습니다. 해당 월 계획을 원본에 추가하거나 관리자 입력란에서 월말 예상잔액을 보완하세요.`);
  const reconciled=series.filter(row=>Math.abs(row.sourceKrwDifference)>.5);notes.push('예상 구간은 매출 100%·중국 정상·환전 미적용의 일별 입출금 계획으로 통일합니다. 과거·확정 월은 월 시트 값을 유지합니다.');if(reconciled.length)notes.push('월 시트 잔고와 차이가 있는 '+reconciled.map(row=>row.month).join(', ')+'도 예상 잔액은 입출금 계획 기준입니다.');
- notes.push('확정은 재무제표 장부총액 검증 후 관리자 승인 기준입니다. USD 수량 검증은 아래 검증표에서 별도 확인합니다. USD 잔액이 없으면 환산금액·총 잔고를 계산하지 않습니다. 입력값은 달러 기준이며 0과 빈칸을 구분합니다.');
- if(series.some(row=>row.bookSplit))notes.push('검증된 장부총액 포함 월은 외화 장부금액을 차감해 원화예금만 분리 표시합니다. 검증표는 원본 장부합계 그대로 대조하며, 위 총 잔고는 현재환율 평가액이므로 검증표와 다를 수 있습니다.');
+ notes.push('확정은 월말 장부총액 검증 후 관리자 승인 기준이며, USD 수량 검증과는 별개입니다.'+(window.dashboardAuth?.isAdmin?' 상세 대조는 화면 맨 아래 관리자 검증표에서 확인하세요.':'')+' USD 잔액이 없으면 환산금액·총 잔고를 계산하지 않습니다. 입력값은 달러 기준이며 0과 빈칸을 구분합니다.');
+ if(series.some(row=>row.bookSplit))notes.push('검증된 장부총액 포함 월은 외화 장부금액을 차감해 원화예금만 분리 표시합니다. 위 총 잔고는 현재환율 평가액이므로 월말 장부금액과 다를 수 있습니다.');
  $('currentHistoryNote').textContent=notes.join(' ');renderMonthlyUsdEditor(series);
  const comment=$('currentFxComment');
  if(shortageMonth){
@@ -850,7 +866,7 @@
     $('reconcileMonth').addEventListener('change',()=>{const month=$('reconcileMonth').value;if(!reconciliationMonthPattern.test(month))return;if(reconcileDirty&&!confirm('저장하지 않은 검증 입력을 버리고 다른 월을 여시겠습니까?')){$('reconcileMonth').value=reconcileDraft?.month||'';return}loadReconciliationMonth(month)});
     $('reconcileFile').addEventListener('change',async event=>{const file=event.target.files?.[0];if(!file)return;reconcileBusy=true;renderReconciliationDraft();try{await importReconciliationFile(file)}catch(error){$('reconcileSaveStatus').textContent='파일 확인 필요: '+(error.message||String(error))}finally{reconcileBusy=false;event.target.value='';renderReconciliationDraft()}});
     $('reconcileUnit').addEventListener('change',()=>{if(reconcileDraft?.statement){reconcileDraft.statement=null;reconcileDraft.inputs.unitReviewed=false;$('reconcileUnitReviewed').checked=false;reconcileDirty=true;$('reconcileSaveStatus').textContent='단위가 변경되었습니다. 재무제표를 다시 선택해 주세요.';renderReconciliationDraft()}});
-    for(const id of ['reconcileBalanceBasis','reconcileFxBook','reconcileShortBook','reconcileUsdEvidence','reconcileEvidenceNote','reconcileUnitReviewed','reconcileActualReviewed'])$(id).addEventListener('input',()=>{if(!reconcileDraft)loadReconciliationMonth($('reconcileMonth').value);reconcileDraft.inputs=readReconciliationForm();reconcileDirty=true;renderReconciliationDraft()});
+    for(const id of ['reconcileBalanceBasis','reconcileFxBook','reconcileShortBook','reconcileUsdEvidence','reconcileEvidenceNote','reconcileUnitReviewed','reconcileActualReviewed'])$(id).addEventListener('input',()=>{if(!window.dashboardAuth?.isAdmin)return;if(!reconcileDraft)loadReconciliationMonth($('reconcileMonth').value);reconcileDraft.inputs=readReconciliationForm();reconcileDirty=true;renderReconciliationDraft()});
     $('reconcileSaveBtn').addEventListener('click',()=>persistReconciliation('save'));
     $('reconcileConfirmBtn').addEventListener('click',()=>persistReconciliation('confirm'));
     $('reconcileReopenBtn').addEventListener('click',()=>persistReconciliation('reopen'));
@@ -933,8 +949,8 @@
     const gate=document.getElementById('authGate'),status=document.getElementById('authStatus'),loginBtn=document.getElementById('loginBtn'),logoutBtn=document.getElementById('logoutBtn'),excelBtn=document.getElementById('excelBtn'),userChip=document.getElementById('userChip'),userEmail=document.getElementById('userEmail'),sourceTab=document.getElementById('sourceTab'),sourceAdminEditor=document.getElementById('sourceAdminEditor'),microsoftConnectBtn=document.getElementById('microsoftConnectBtn'),microsoftSyncStatus=document.getElementById('microsoftSyncStatus');
     let microsoftAuth=null,blockedMessage='',unsubscribeCashPlan=null,microsoftSyncTimer=null,microsoftSyncBusy=false,latestCashPlanUpdate=0;
     const getMicrosoftAuth=()=>{if(!microsoftAuth&&window.msal)microsoftAuth=new window.msal.PublicClientApplication({auth:{clientId:MICROSOFT_CLIENT_ID,authority:`https://login.microsoftonline.com/${MICROSOFT_TENANT_ID}`,redirectUri:'https://godendun88-code.github.io/',navigateToLoginRequestUrl:false},cache:{cacheLocation:'localStorage',storeAuthStateInCookie:false}});return microsoftAuth};
-    const showGate=message=>{window.dashboardAuth=null;delete window.saveDailyBalances;setDailyBalances(null,null,null);dailyAutoPaused=false;document.getElementById('dailyBalanceFile').value='';document.getElementById('dailySourceStatus').textContent='';delete window.saveCashReconciliation;cashReconciliations={};reconcileDraft=null;reconcileDirty=false;$('reconcileEditor').hidden=true;$('reconcileFile').value='';$('reconcileHistoryBody').innerHTML='';$('reconcileDetailBody').innerHTML='';$('reconcileFileInfo').textContent='';$('reconcileResult').textContent='';$('reconcileSaveStatus').textContent='';for(const id of ['reconcileFxBook','reconcileShortBook','reconcileUsdEvidence','reconcileEvidenceNote'])$(id).value='';closeFxSimulation();fxSimulationState.enabled=false;fxSimulationState.plan=null;hideCashChartHovers();document.body.classList.add('auth-pending');gate.hidden=false;gate.style.display='grid';status.textContent=message||'';excelBtn.hidden=true;userChip.hidden=true};
-    const showDashboard=(email,isAdmin)=>{gate.hidden=true;gate.style.display='none';document.body.classList.remove('auth-pending');userChip.hidden=false;userEmail.textContent=`${isAdmin?'관리자':'조회'} · ${email}`;excelBtn.hidden=!isAdmin;sourceTab.hidden=!isAdmin;sourceAdminEditor.hidden=!isAdmin;document.getElementById('monthlyUsdEditor').hidden=!isAdmin;$('reconcileEditor').hidden=!isAdmin;if(!isAdmin&&cashScenarioState.view==='source')setCashView('current');window.dashboardBridge?.refresh()};
+    const showGate=message=>{window.dashboardAuth=null;delete window.saveDailyBalances;setDailyBalances(null,null,null);dailyAutoPaused=false;document.getElementById('dailyBalanceFile').value='';document.getElementById('dailySourceStatus').textContent='';delete window.saveCashReconciliation;cashReconciliations={};clearReconciliationView();closeFxSimulation();fxSimulationState.enabled=false;fxSimulationState.plan=null;hideCashChartHovers();document.body.classList.add('auth-pending');gate.hidden=false;gate.style.display='grid';status.textContent=message||'';excelBtn.hidden=true;userChip.hidden=true};
+    const showDashboard=(email,isAdmin)=>{gate.hidden=true;gate.style.display='none';document.body.classList.remove('auth-pending');userChip.hidden=false;userEmail.textContent=`${isAdmin?'관리자':'조회'} · ${email}`;excelBtn.hidden=!isAdmin;sourceTab.hidden=!isAdmin;sourceAdminEditor.hidden=!isAdmin;document.getElementById('monthlyUsdEditor').hidden=!isAdmin;renderCashReconciliation();if(!isAdmin&&cashScenarioState.view==='source')setCashView('current');window.dashboardBridge?.refresh()};
     function applySharedCashPlan(snapshot){if(snapshot.exists()){const data=snapshot.data();window.dashboardBridge?.setDailyBalances(data.dailyBalanceData,data.dailyBalanceSource,data.dailyBalanceSync);window.dashboardBridge?.setCashReconciliations(data.cashReconciliations||[]);window.dashboardBridge?.setDepositProducts(data.depositProducts||[]);window.dashboardBridge?.setMonthlyUsdBalances(data.monthlyUsdBalances||[]);if(data.model?.points?.length){const updatedAt=data.updatedAt?.toDate?.()||new Date(data.model.importedAt||Date.now()),updatedMillis=updatedAt.getTime();if(updatedMillis<latestCashPlanUpdate)return;latestCashPlanUpdate=updatedMillis;window.dashboardBridge?.setCashModel(data.model,{updatedAt,updatedBy:data.updatedBy||'관리자',sourceUrl:data.sourceUrl||data.model.sourceUrl||''});return}}if(!latestCashPlanUpdate)window.dashboardBridge?.showNoSharedData()}
     async function loadSharedCashPlan(){try{applySharedCashPlan(await getDoc(doc(db,'dashboard','cashPlan')))}catch(error){window.dashboardBridge?.showNoSharedData();document.getElementById('cashFileMeta').textContent=`공유 데이터 확인 실패: ${error.code||error.message}`}}
     function watchSharedCashPlan(){unsubscribeCashPlan?.();unsubscribeCashPlan=onSnapshot(doc(db,'dashboard','cashPlan'),applySharedCashPlan,error=>{document.getElementById('cashFileMeta').textContent=`공유 데이터 실시간 확인 실패: ${error.code||error.message}`})}

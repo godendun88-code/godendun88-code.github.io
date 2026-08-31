@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-09-01 06:46 KST",
+  "updated_at_kst": "2026-09-01 07:16 KST",
   "current_rate": 1367.9,
   "previous_close": 1378.6,
-  "rate_updated_at_kst": "2026-09-01 06:46:38 KST",
+  "rate_updated_at_kst": "2026-09-01 07:16:18 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
@@ -17,12 +17,6 @@
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSjdMVkl6Zld1cG16aFA3UUtRd2ozVHRERm1Sb1p0WGtVN2xsUEJVbnlaUWt6M2NiWERmaUo1d080c0hWeHFwVGY4UlpZMGJENG91NXJ4bzhMbXNjRVJRQlo1d0ppNlNPcjUtd2F1d2xheXhBaW5OYU43SDdkYk13R0Y0SGNzblZOOTFJcTM2SmJJV3VRbVNyWGZ1bVdzaGJSQ2lBMXZPOWdWb01VNmR1UGYxZGE?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-01 03:29 KST"
-    },
-    {
-      "title": "Oil to hold above $80 a barrel as Middle East supply risks persist",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZm1UZWgzbTlVVzdIeFRJQWN1TEMtZGdwZFpaaUx6ZmhNU0RrakpicWtuNHNKb0JPc2VvbURJZzlYQkNzVk9Sc3NoMFBjcWZHQ0NoQ3hmaG1iZS0zdjJlbERFU25uN2VaNGp0Q3ZBb0JPRldfQjZLVDB5X25NdlBBT04tblFSdTFPTTVLUWxRMUNkM1NNSjE5X1A1WDlVUmtLZUs1bjItRmFqd1hEbHdzbDJn?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-08-31 20:08 KST"
     },
     {
       "title": "Mapping the Market: US 10-year Treasury yields eye further gains",
@@ -47,15 +41,21 @@
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNTzZFV05UVTZLQjh4TGh6S2xxU0xMU0w3c2lXNUd0am8tak9EV3p6NV84cVV0NDM2aXFrUkFpQUpVZ3dmdGNkYS1OaXRQbGhybm9lcHBfU2lLaVRwVGxiaXJKNnFRZW9ndFppTmp1TlhxeDJ2emxQLU5YWnVraXJFYzFHbldSU0pmVEtjeHFLdHJlUERTWjlkMmp0d25FSE1Wa3Q3SHpKbG1uNXBGa3FDRTg1cGxFX2VQZUkydHoxaWdHZUxER2c?oc=5",
       "domain": "Reuters",
       "seen": "2026-08-31 10:32 KST"
+    },
+    {
+      "title": "Yields rise, stocks ease, with oil gaining as US and Iran resume military attacks",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQa0dYVnlvTDVQRkF4YmQxMW9FUElDRmNweFlHclBUa1R5MmZsSHk5WEtnV3B5bFVFeFJhMGMtSWxsV0FqR0Jsc1ltUENJUEs4RWR0QlVnTFBBc2hIbzJmdl9hZVpOS2dGM2Q2ZFF1MmtLallPblc1ZGtJTFhzNTQzRGNhaw?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-08-31 09:38 KST"
     }
   ],
-  "rate_source_time": "2026-09-01 06:46:38 KST",
+  "rate_source_time": "2026-09-01 07:16:18 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": -10.7,
   "rate_change_pct": -0.78,
   "smbs_base_rate": 1373.6,
   "smbs_rate_date": "2026-09-01",
-  "smbs_rate_updated_at_kst": "2026-09-01 06:46:27 KST",
+  "smbs_rate_updated_at_kst": "2026-09-01 07:16:04 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1388.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-01 06:46:27 KST"
+  "rate_job_checked_at_kst": "2026-09-01 07:16:04 KST"
 }

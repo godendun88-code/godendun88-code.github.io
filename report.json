@@ -1,13 +1,13 @@
 {
-  "updated_at_kst": "2026-08-31 12:16 KST",
-  "current_rate": 1374.1,
+  "updated_at_kst": "2026-08-31 12:46 KST",
+  "current_rate": 1373.8,
   "previous_close": 1378.6,
-  "rate_updated_at_kst": "2026-08-31 12:16:14 KST",
+  "rate_updated_at_kst": "2026-08-31 12:46:07 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
     "연준·금리 관련 최신 기사(\"Rising Fed hike bets pressure rupee, oil worries linger\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
-    "미 국채금리 관련 최신 기사(\"Shares skid in Asia as oil, yields stay high\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다.",
+    "미 국채금리 상승 관련 보도가 확인돼 달러 수요를 지지하면서 원/달러 환율 상승 압력으로 작용하고 있습니다.",
     "유가 및 중동 지정학적 불확실성이 부각돼 에너지 수입 의존도가 높은 원화에는 약세 부담 요인으로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
@@ -31,6 +31,12 @@
       "seen": "2026-08-31 10:33 KST"
     },
     {
+      "title": "Shares skid in Asia as oil climbs, yields stay high",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQa0dYVnlvTDVQRkF4YmQxMW9FUElDRmNweFlHclBUa1R5MmZsSHk5WEtnV3B5bFVFeFJhMGMtSWxsV0FqR0Jsc1ltUENJUEs4RWR0QlVnTFBBc2hIbzJmdl9hZVpOS2dGM2Q2ZFF1MmtLallPblc1ZGtJTFhzNTQzRGNhaw?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-08-31 09:38 KST"
+    },
+    {
       "title": "Shares skid in Asia as oil, yields stay high",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQa0dYVnlvTDVQRkF4YmQxMW9FUElDRmNweFlHclBUa1R5MmZsSHk5WEtnV3B5bFVFeFJhMGMtSWxsV0FqR0Jsc1ltUENJUEs4RWR0QlVnTFBBc2hIbzJmdl9hZVpOS2dGM2Q2ZFF1MmtLallPblc1ZGtJTFhzNTQzRGNhaw?oc=5",
       "domain": "Reuters",
@@ -41,21 +47,15 @@
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPenpidlpzUmlPS0hRbS1jaGotNFBZZHgxWVhlMER4NlRWYnh2d280dW1uMHYwZHlvZlgzNVJkNlZQNno1dndkQ1FZNTFNeTJ4eERKTkRlX29kUXhwX1lvTk5XLUZNWUhsdmwxUC04SU9RekVXUlBaRW5GWWhscWs4XzFVcmJlek5ULUFxdDh0ZzB6TlNqUDNYSUJSb2VJQ1RPVHJvS3hWNjY1UUlZaWhfMXI4RFAxaTQ0aldEZXBjbEk?oc=5",
       "domain": "Reuters",
       "seen": "2026-08-31 08:08 KST"
-    },
-    {
-      "title": "Oil jumps more than 1% after US attack on Iran's Larak island",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSGRJUGVDenVxZzdzdXZ4aTJudWV6LS1adkVVMmVUNnc1QnMyNVNsLThHcG44U2p6SWoxYm9LbjJnUGdkZDAzTENhSDR2OW90cWV2aDJNZWpKRllRNUhselE2djRhQlI3ejVmUUl6cFNnVDN1UmU4QXVadDNmQloya3daeWVHSmtGNDh4QWktSk1fenV3czlkbnhwNjJ3VzNXWEhZelFCRTIzaWpR?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-08-31 07:12 KST"
     }
   ],
-  "rate_source_time": "2026-08-31 12:16:14 KST",
+  "rate_source_time": "2026-08-31 12:46:07 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": -4.5,
-  "rate_change_pct": -0.33,
+  "rate_change": -4.8,
+  "rate_change_pct": -0.35,
   "smbs_base_rate": 1376.5,
   "smbs_rate_date": "2026-08-31",
-  "smbs_rate_updated_at_kst": "2026-08-31 12:15:59 KST",
+  "smbs_rate_updated_at_kst": "2026-08-31 12:45:53 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1388.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-08-31 12:15:59 KST"
+  "rate_job_checked_at_kst": "2026-08-31 12:45:53 KST"
 }

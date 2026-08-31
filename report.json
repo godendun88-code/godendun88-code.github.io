@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-08-31 16:46 KST",
-  "current_rate": 1369.8,
+  "updated_at_kst": "2026-08-31 17:16 KST",
+  "current_rate": 1368.2,
   "previous_close": 1378.6,
-  "rate_updated_at_kst": "2026-08-31 16:46:29 KST",
+  "rate_updated_at_kst": "2026-08-31 17:16:23 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
@@ -17,6 +17,18 @@
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUEFscm9ibG1XX3ZKcFdiTUZheGctLWxuUDR3NFR6Z2h3MWRBYTZ1VWctNjVLUE9JcWVnd1VqVkJtUFpRRDF1LVNRZHEwdGE1Ym1wR3Bwb3haR3QzdnEyS205VGN2VUt6ckdvNnI5aU14OS1XVXJYV2RYSTdSSnZhMWQ0WU5ZQXdBNGE4SmdMUWxZa1B3eW0wc0RfenJGS0MwYWRReg?oc=5",
       "domain": "Reuters",
       "seen": "2026-08-31 15:20 KST"
+    },
+    {
+      "title": "Dollar near two-week high as Warsh boosts rate-hike bets; yen hovers near 160",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNTzZFV05UVTZLQjh4TGh6S2xxU0xMU0w3c2lXNUd0am8tak9EV3p6NV84cVV0NDM2aXFrUkFpQUpVZ3dmdGNkYS1OaXRQbGhybm9lcHBfU2lLaVRwVGxiaXJKNnFRZW9ndFppTmp1TlhxeDJ2emxQLU5YWnVraXJFYzFHbldSU0pmVEtjeHFLdHJlUERTWjlkMmp0d25FSE1Wa3Q3SHpKbG1uNXBGa3FDRTg1cGxFX2VQZUkydHoxaWdHZUxER2c?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-08-31 14:51 KST"
+    },
+    {
+      "title": "Morning Bid: Oil climbs as missiles fly in the Gulf",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBNbU0wNVdySEl6cVlUdjlVZWlFYmp2eDlTU200dDJkTFJZSk5YbnJmenZmRS1LaTVvcC1nVVdjX2NtNDZUNlA3YU1NQUY4QXBnNGVUTnJZVld3MUNfZjIweU0tYXRlZ2lrUldFUGVXNVBSdjl0RHY5aEN1dG50TFk?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-08-31 13:32 KST"
     },
     {
       "title": "Indian rupee under pressure from Fed, oil; bonds at risk of further selloff",
@@ -35,21 +47,15 @@
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQa0dYVnlvTDVQRkF4YmQxMW9FUElDRmNweFlHclBUa1R5MmZsSHk5WEtnV3B5bFVFeFJhMGMtSWxsV0FqR0Jsc1ltUENJUEs4RWR0QlVnTFBBc2hIbzJmdl9hZVpOS2dGM2Q2ZFF1MmtLallPblc1ZGtJTFhzNTQzRGNhaw?oc=5",
       "domain": "Reuters",
       "seen": "2026-08-31 09:38 KST"
-    },
-    {
-      "title": "US Treasury's Bessent faces G20 diplomacy test amid tariffs, Iran war, bond turmoil",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxORVlaS1VmZVF5Rjh3RFkwVk40ZGpBSU1LLXM3XzQ1REFxbnl0aHREWXhieU9vUnU0aUdkTWgtNmJrYk9BRDE3aEllamozWFJVMHZ5QTJUS0pkckpwbjFVQ2dxaEhBaWZWZXg3a05ISG1Fb3k4aWV0QmRSbGFiOHdsQ0x6QWZjUUN6b3lsc2c5MEZOc2RCWXZXcERhdkN4NFJGVHBGejVxbTBZWDdvczdJamxDQ3Jib29xS1lzcURfX05MQ1BET25r?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-08-30 19:04 KST"
     }
   ],
-  "rate_source_time": "2026-08-31 16:46:29 KST",
+  "rate_source_time": "2026-08-31 17:16:23 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": -8.8,
-  "rate_change_pct": -0.64,
+  "rate_change": -10.4,
+  "rate_change_pct": -0.75,
   "smbs_base_rate": 1376.5,
   "smbs_rate_date": "2026-08-31",
-  "smbs_rate_updated_at_kst": "2026-08-31 16:46:15 KST",
+  "smbs_rate_updated_at_kst": "2026-08-31 17:16:11 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -57,5 +63,5 @@
     1388.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-08-31 16:46:15 KST"
+  "rate_job_checked_at_kst": "2026-08-31 17:16:11 KST"
 }

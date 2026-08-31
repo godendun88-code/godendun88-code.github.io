@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-09-01 02:46 KST",
+  "updated_at_kst": "2026-09-01 03:16 KST",
   "current_rate": 1367.9,
   "previous_close": 1378.6,
-  "rate_updated_at_kst": "2026-09-01 02:46:23 KST",
+  "rate_updated_at_kst": "2026-09-01 03:16:29 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
@@ -12,12 +12,6 @@
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
-    {
-      "title": "Gold slips to near two-week low on Fed rate hike bets",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZ0RWUzI1UllwOTY2MWljS0syQ3hHRHQtZlVTV2g0WlNzalQ1eVdqSlVZb285NEZhck1VS1czbU1KUlF2azBfMkZ4X1JUdlNaZkNZdkF4bnczbS1jR0hVX01iaW1RZzRINkhjZDNuelJIa1JUY2pVWkFnMzlGRzh5Y1p1MUhEdlJ5N2lseVZ3X2RzV1Y3eUQ4YUtJN2NFQnNJVS1R?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-01 01:01 KST"
-    },
     {
       "title": "Wall St dips as rising oil prices, hawkish Fed bets pressure stocks",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSjdMVkl6Zld1cG16aFA3UUtRd2ozVHRERm1Sb1p0WGtVN2xsUEJVbnlaUWt6M2NiWERmaUo1d080c0hWeHFwVGY4UlpZMGJENG91NXJ4bzhMbXNjRVJRQlo1d0ppNlNPcjUtd2F1d2xheXhBaW5OYU43SDdkYk13R0Y0SGNzblZOOTFJcTM2SmJJV3VRbVNyWGZ1bVdzaGJSQ2lBMXZPOWdWb01VNmR1UGYxZGE?oc=5",
@@ -43,19 +37,25 @@
       "seen": "2026-08-31 13:32 KST"
     },
     {
-      "title": "Gold dips as Fed rate-hike bets rise, still heads for best month since January",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcGRDTjJlQVBDZkNfeW5WNWk4aWh2TllVWTJUUnlKTzBxNWxwcUxnZEUwNFVkOVBVUy11VTdrZy1henJZa0Y0ay1FRjA3TS1PWWRKOUFxdVQyWnVyZGR4MjdLbkpfX29Ddk9JNGVBZWFRTXFvclpYVUJkeVdQSkxmZkpRWnhwOEt5VFY4TEFWdnVRRVZmVE90Z9IBngFBVV95cUxOMjlpRXBWMGhPX2JndVEyWDdsTWZDSjhtMWtqMEE2NUVTMkhDZ3pSS2NwWjZHR2k2U0pCbWhxdlVTTjk5bng3X2pkNVpPbkttT2pIQVJWX3ZCTXBqM2dtd3JwcU1ZVEpIXzRFOTBJWnhuYWhQa3duSVlpZ0dhbTJITGkyWkF5VlFxb29NSnFnU2lya0hCZnh3MWxDRHB4QQ?oc=5",
-      "domain": "CNBC",
-      "seen": "2026-08-31 11:32 KST"
+      "title": "Dollar slips ahead of US jobs data",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNTzZFV05UVTZLQjh4TGh6S2xxU0xMU0w3c2lXNUd0am8tak9EV3p6NV84cVV0NDM2aXFrUkFpQUpVZ3dmdGNkYS1OaXRQbGhybm9lcHBfU2lLaVRwVGxiaXJKNnFRZW9ndFppTmp1TlhxeDJ2emxQLU5YWnVraXJFYzFHbldSU0pmVEtjeHFLdHJlUERTWjlkMmp0d25FSE1Wa3Q3SHpKbG1uNXBGa3FDRTg1cGxFX2VQZUkydHoxaWdHZUxER2c?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-08-31 10:32 KST"
+    },
+    {
+      "title": "Dollar near two-week high as Warsh boosts rate-hike bets; yen slips past 160",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNTzZFV05UVTZLQjh4TGh6S2xxU0xMU0w3c2lXNUd0am8tak9EV3p6NV84cVV0NDM2aXFrUkFpQUpVZ3dmdGNkYS1OaXRQbGhybm9lcHBfU2lLaVRwVGxiaXJKNnFRZW9ndFppTmp1TlhxeDJ2emxQLU5YWnVraXJFYzFHbldSU0pmVEtjeHFLdHJlUERTWjlkMmp0d25FSE1Wa3Q3SHpKbG1uNXBGa3FDRTg1cGxFX2VQZUkydHoxaWdHZUxER2c?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-08-31 10:32 KST"
     }
   ],
-  "rate_source_time": "2026-09-01 02:46:23 KST",
+  "rate_source_time": "2026-09-01 03:16:29 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": -10.7,
   "rate_change_pct": -0.78,
   "smbs_base_rate": 1373.6,
   "smbs_rate_date": "2026-09-01",
-  "smbs_rate_updated_at_kst": "2026-09-01 02:46:10 KST",
+  "smbs_rate_updated_at_kst": "2026-09-01 03:16:14 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1388.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-01 02:46:10 KST"
+  "rate_job_checked_at_kst": "2026-09-01 03:16:14 KST"
 }

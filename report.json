@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-09-02 07:47 KST",
+  "updated_at_kst": "2026-09-02 08:19 KST",
   "current_rate": 1371.9,
   "previous_close": 1367.9,
-  "rate_updated_at_kst": "2026-09-02 07:46:44 KST",
+  "rate_updated_at_kst": "2026-09-02 08:18:50 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
@@ -16,7 +16,7 @@
       "title": "Government borrowing costs rise anew, adding to pressure on global policymakers",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSl9GcExBdk5lb3U4c1NTalROY2NUNHE4SXdlbE5yemw4WkwteWNMdTZVTFdrcHhPUVF5Q181eTlxZ2xoUkV6Q3F4a19ldHJBdGFnaG9URjY3bXNTMDE0aV9mVDU1MUtxMTRXRl9pR2p2THVmc2JiWGlSb1prUElXTWtaNzBsb3Z5U2tCNXZlTlMtM3pHU3Y0dkVNWUhHWmVWUmJxbnZmVVFlNmVlMDR3?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-02 04:27 KST"
+      "seen": "2026-09-02 08:00 KST"
     },
     {
       "title": "Explainer: US Treasury yields are rising — Why does it matter?",
@@ -37,31 +37,31 @@
       "seen": "2026-09-02 01:40 KST"
     },
     {
-      "title": "London midcaps lead losses as rising gilt yields weigh; Reckitt gains",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPU0FHYXlGU1kwRUVTaEVxNExKYWZIMnRHYnpiQkR5OV9SYjkyaW5OcFFrUTJRMjlVYU5PU3NkU3ZIZEg1MzdFT005WmtpMzNhZ1JIMnlaX3RYZE9WNzdtU2dQd2NxTG9SX0FyNHFMTTdEeG9uMENrS3RSY2NKX0w1MHJtTmtNbTZWaElZVHBIYlRuSV91VUZ0Mi1yOWpmS3pQdWNOb0xR?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-02 01:14 KST"
-    },
-    {
       "title": "Iran defiant as Bessent says US likely to announce bank sanctions this week",
       "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNeGphY1VfUlRFSzBBQTd6Y2xNVTZrVnY2WUstZDJ3SFFCUTVqenhlMFEwQWl6SlRNSlFGV2NQLXdtTmV0eWFPbWpqbDQ2Q29sNnp0a2prNWhwQlJBdjFjRm85N1AxQ2VTbTc4S05aQlBYakZJcXAyR2s0YWJXelBvdEs3R01WeGNFb1BFVm5lX0JzZzN2akVqTW1nRlZOWlNxMHdVekJKOVJheWszbE96M3pGMUNZWmFWWF9CWm5zMGR4YWJKckZfWUZvM292RFViMjFYRjlYeUFnNVU?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-02 00:44 KST"
+    },
+    {
+      "title": "COMMENTARY: What’s really driving flows into the $13.5 trillion money market pool?",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPVmQ1NWhnRVI1MTBZdEFlQ0ZQX2VWOFJzU3JfTjRfWUhEbUtHY1E4bGdfbHBMNGUtdl83RFVzaFlzNDBIeXFxZllBbWFvMzdTbUlhdWhnNFZ6ZDZ4SVNCWEU5LVdnOHZFU1N5cE4zWUFFRFJjbGstY0V1aUpBYUhST2JEdFh5RWNuT2llTXVMRlFnSUJYek9OREhILUNzSGExcjdjVTlaSzM3RUhJZVdMMWhaOU14S3Flb3lUUFhYcFhKSGQ2c2dwcEZheFpGWnJsa2xrM0ZR?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-02 00:17 KST"
     }
   ],
-  "rate_source_time": "2026-09-02 07:46:44 KST",
+  "rate_source_time": "2026-09-02 08:18:50 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": 4.0,
   "rate_change_pct": 0.29,
   "smbs_base_rate": 1370.3,
   "smbs_rate_date": "2026-09-02",
-  "smbs_rate_updated_at_kst": "2026-09-02 07:46:31 KST",
+  "smbs_rate_updated_at_kst": "2026-09-02 08:18:39 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
-    1363.0,
-    1377.0
+    1368.0,
+    1380.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-02 07:46:31 KST"
+  "rate_job_checked_at_kst": "2026-09-02 08:18:39 KST"
 }

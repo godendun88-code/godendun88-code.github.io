@@ -1,14 +1,14 @@
 {
-  "updated_at_kst": "2026-09-01 14:22 KST",
-  "current_rate": 1371.3,
+  "updated_at_kst": "2026-09-01 14:48 KST",
+  "current_rate": 1369.1,
   "previous_close": 1367.9,
-  "rate_updated_at_kst": "2026-09-01 14:22:09 KST",
+  "rate_updated_at_kst": "2026-09-01 14:47:59 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "상승 우세",
   "drivers": [
     "미국 물가 관련 최신 기사(\"Bond selloff deepens as rising energy prices stoke inflation fears\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
     "미 국채금리 상승 관련 보도가 확인돼 달러 수요를 지지하면서 원/달러 환율 상승 압력으로 작용하고 있습니다.",
-    "유가·지정학 관련 최신 기사(\"Oil to hold above $80 a barrel as Middle East supply risks persist\")가 확인돼 원화 변동성 확대 요인으로 작용하고 있습니다."
+    "달러 관련 최신 기사(\"Yen hangs near 160 amid BOJ rate-hike bets, dollar wobbles\")가 확인돼 달러인덱스 방향성이 원/달러 환율의 핵심 변수로 작용하고 있습니다."
   ],
   "outlook": "달러 강세·금리 상승 계열의 재료가 상대적으로 우세해 원/달러는 단기 상승 압력이 나타날 수 있으나, 국내 수급과 위험선호 회복 여부에 따라 변동성이 예상됩니다.",
   "articles": [
@@ -16,13 +16,19 @@
       "title": "Bond selloff deepens as rising energy prices stoke inflation fears",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPUzRjcDczTGxqaGRleWZNeUwtZnpOTjRjNWhmSEt2YkQtY1ZwaDdhZ2RxX0hCWEZZdXpPSmlWZW45ZVBHM2lsMU9XalYtNEl1cGxpWjVhVTR2cDU1ajlNMzRJb3FZaGZ4akprMWhPNmd4cmJFOFI1Q29iWlI0ZnFXNXljcw?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-01 13:47 KST"
+      "seen": "2026-09-01 10:46 KST"
     },
     {
       "title": "Oil prices rise as latest fighting resurrects Middle East supply disruption risks",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNXzNva1pxcDRaVGJ0WkYwOFJ2Zm8wNFBiMmkxLUVIZVJZaUV4WlRGNVRZbk1JZHdpMUpXbXJ6VHZsVUtzS2haZ0M2bDd4d3RTa19vTHZTOWc3MFlGaW1jU3gwMG13cFhFY0hOR2tWSjM1cWQzd2pfUEZFRlpSRWdEcmJ3NHdlM3BydlNkQUgxY3lMYjBybFMwZ1Vxcjk2clc3cHZKdWxtMHlFWHBMNDREaEJoZlBIc2U5TGMyWF9GaEZhX0JlMlA4THpn?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-01 10:29 KST"
+    },
+    {
+      "title": "Yen hangs near 160 amid BOJ rate-hike bets, dollar wobbles",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUzR4b3dnajg5QUJSRUN0VHJXQkhXQWpUX2lLVU91dWgtZWJSNGNKcXRLSUpramxQeER0NHliVWZ2LU9xSjJYV25IRGpUMWlDODcxc2g4d0d1S3ZkSFhMLUxEdWlEV1NwNDZmaUhENDZVT1RpUFlQci1UUGlvWlVlX0xObzRJdlFFT09GMWtXQmNGN0xKM0xWUTd1TDBwQzdQaHRyTTJvRnM5TmpMQ0tSZVR3?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-01 10:24 KST"
     },
     {
       "title": "Yields rise, oil jumps; US and Iran resume military attacks",
@@ -43,13 +49,13 @@
       "seen": "2026-08-31 19:21 KST"
     }
   ],
-  "rate_source_time": "2026-09-01 14:22:09 KST",
+  "rate_source_time": "2026-09-01 14:47:59 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 3.4,
-  "rate_change_pct": 0.25,
+  "rate_change": 1.2,
+  "rate_change_pct": 0.09,
   "smbs_base_rate": 1373.6,
   "smbs_rate_date": "2026-09-01",
-  "smbs_rate_updated_at_kst": "2026-09-01 14:21:55 KST",
+  "smbs_rate_updated_at_kst": "2026-09-01 14:47:46 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -57,5 +63,5 @@
     1377.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-01 14:21:55 KST"
+  "rate_job_checked_at_kst": "2026-09-01 14:47:46 KST"
 }

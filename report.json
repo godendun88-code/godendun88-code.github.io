@@ -1,16 +1,16 @@
 {
-  "updated_at_kst": "2026-09-01 22:48 KST",
-  "current_rate": 1371.5,
+  "updated_at_kst": "2026-09-01 23:24 KST",
+  "current_rate": 1371.3,
   "previous_close": 1367.9,
-  "rate_updated_at_kst": "2026-09-01 22:48:41 KST",
+  "rate_updated_at_kst": "2026-09-01 23:23:58 KST",
   "rate_source": "KB STAR FX Market Watch",
-  "market_bias": "혼조",
+  "market_bias": "하락 우세",
   "drivers": [
     "미국 물가 관련 최신 기사(\"Bond selloff deepens and stocks drop as oil prices stoke inflation fears\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
     "미 국채금리 관련 최신 기사(\"Global bond rout deepens as Japan yield hits key milestone\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다.",
-    "유가 및 중동 지정학적 불확실성이 부각돼 에너지 수입 의존도가 높은 원화에는 약세 부담 요인으로 작용하고 있습니다."
+    "글로벌 달러 약세 관련 보도가 이어지며 원/달러 환율에는 하락 압력으로 작용하고 있습니다."
   ],
-  "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
+  "outlook": "달러 약세·금리 하락 계열의 재료가 상대적으로 우세해 원/달러는 단기 하락 압력이 이어질 가능성이 있으나, 유가와 지정학적 리스크는 하단을 제한할 수 있습니다.",
   "articles": [
     {
       "title": "COMMENTARY: What’s really driving flows into the $13.5 trillion money market pool?: Deborah Cunningham",
@@ -31,6 +31,12 @@
       "seen": "2026-09-01 21:28 KST"
     },
     {
+      "title": "Bond selloff deepens and stocks drop as oil prices stoke inflation fears",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPUzRjcDczTGxqaGRleWZNeUwtZnpOTjRjNWhmSEt2YkQtY1ZwaDdhZ2RxX0hCWEZZdXpPSmlWZW45ZVBHM2lsMU9XalYtNEl1cGxpWjVhVTR2cDU1ajlNMzRJb3FZaGZ4akprMWhPNmd4cmJFOFI1Q29iWlI0ZnFXNXljcw?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-01 21:27 KST"
+    },
+    {
       "title": "European stocks kick off September on gloomy note as bond yields rise",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNOGlSVGd0MGJiRU5TQ2M4VTMyVXdRX3I1N2w2dDd1dl9EUzlBVFlaNTRVaUMwYktrNFlUY0ZVc1ZPMGJvbzJhMjRVQUQ1S3BmM3pPZDZ0Yk9LVkhLdWhGWDU4XzRFWFluTlZlVGd3MEJ0Ylk5SnY2aTRLeGZtNnhIRFk1WjhseW9jYVg3S3VEMExHVno5ZC1iODJWMTBiS2x5VHdIeXlxT3RLSU5RUEE?oc=5",
       "domain": "Reuters",
@@ -41,21 +47,15 @@
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZTdTcHczWUFMU1k2OEF4b0tGRktKSk9YWW0ya1hOQkZiWmlFS3p5YjN1VUd5TUIzQmxJX2FuZER3TnFEVDA1YTFzeTJIVURtX2FOLU8tSFFGaHdvdGFNSm5fWDFEZUZNVEZQSEtjSHJLN3lHVWppNzRRVU5pQU44ZFJEMWc5Rkh2SEZ4Q1NZZzZJb2FzVzJr?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-01 20:12 KST"
-    },
-    {
-      "title": "Indian shares edge lower on higher crude prices, bond yields; banks, autos lead losses",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOTXRkdmRIdWdaMUpxYUIxQTQxeTRSZmNzaUVrcWxfSlU3LWFIMU5HbVVETmJjdndMYl96RXJLbkd0MTBlbHZhajlzbUdFOS1rX2UwT3FRYXRMVVNsS1RBZGxKMld5dU5TN3RtTkxwOHhzQk95a2p6VmZ3bGhFbzVXV3BDYW5QZUZWR2REZVNzNGZTMmYwS3d0RHFnZExvSk56WFh2ZkFzdGdaeDhfWTk0NEZFZUNpS2tQem05YVhDdnBiU2M?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-01 19:14 KST"
     }
   ],
-  "rate_source_time": "2026-09-01 22:48:41 KST",
+  "rate_source_time": "2026-09-01 23:23:58 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 3.6,
-  "rate_change_pct": 0.26,
+  "rate_change": 3.4,
+  "rate_change_pct": 0.25,
   "smbs_base_rate": 1373.6,
   "smbs_rate_date": "2026-09-01",
-  "smbs_rate_updated_at_kst": "2026-09-01 22:48:29 KST",
+  "smbs_rate_updated_at_kst": "2026-09-01 23:23:45 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1377.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-01 22:48:29 KST"
+  "rate_job_checked_at_kst": "2026-09-01 23:23:45 KST"
 }

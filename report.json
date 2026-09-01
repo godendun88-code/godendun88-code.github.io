@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-09-01 11:22 KST",
-  "current_rate": 1369.5,
+  "updated_at_kst": "2026-09-01 11:48 KST",
+  "current_rate": 1370.9,
   "previous_close": 1367.9,
-  "rate_updated_at_kst": "2026-09-01 11:22:16 KST",
+  "rate_updated_at_kst": "2026-09-01 11:47:56 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "상승 우세",
   "drivers": [
@@ -13,16 +13,16 @@
   "outlook": "달러 강세·금리 상승 계열의 재료가 상대적으로 우세해 원/달러는 단기 상승 압력이 나타날 수 있으나, 국내 수급과 위험선호 회복 여부에 따라 변동성이 예상됩니다.",
   "articles": [
     {
-      "title": "Bond selloff pressures stocks as oil crosses $91 a barrel",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPUzRjcDczTGxqaGRleWZNeUwtZnpOTjRjNWhmSEt2YkQtY1ZwaDdhZ2RxX0hCWEZZdXpPSmlWZW45ZVBHM2lsMU9XalYtNEl1cGxpWjVhVTR2cDU1ajlNMzRJb3FZaGZ4akprMWhPNmd4cmJFOFI1Q29iWlI0ZnFXNXljcw?oc=5",
+      "title": "Indian shares to open higher on strong growth data; Middle East jitters could temper optimism",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOTXRkdmRIdWdaMUpxYUIxQTQxeTRSZmNzaUVrcWxfSlU3LWFIMU5HbVVETmJjdndMYl96RXJLbkd0MTBlbHZhajlzbUdFOS1rX2UwT3FRYXRMVVNsS1RBZGxKMld5dU5TN3RtTkxwOHhzQk95a2p6VmZ3bGhFbzVXV3BDYW5QZUZWR2REZVNzNGZTMmYwS3d0RHFnZExvSk56WFh2ZkFzdGdaeDhfWTk0NEZFZUNpS2tQem05YVhDdnBiU2M?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-01 10:46 KST"
+      "seen": "2026-09-01 11:40 KST"
     },
     {
       "title": "Oil prices rise as latest fighting resurrects Middle East supply disruption risks",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNXzNva1pxcDRaVGJ0WkYwOFJ2Zm8wNFBiMmkxLUVIZVJZaUV4WlRGNVRZbk1JZHdpMUpXbXJ6VHZsVUtzS2haZ0M2bDd4d3RTa19vTHZTOWc3MFlGaW1jU3gwMG13cFhFY0hOR2tWSjM1cWQzd2pfUEZFRlpSRWdEcmJ3NHdlM3BydlNkQUgxY3lMYjBybFMwZ1Vxcjk2clc3cHZKdWxtMHlFWHBMNDREaEJoZlBIc2U5TGMyWF9GaEZhX0JlMlA4THpn?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-01 09:56 KST"
+      "seen": "2026-09-01 10:29 KST"
     },
     {
       "title": "Yields rise, oil jumps; US and Iran resume military attacks",
@@ -43,13 +43,13 @@
       "seen": "2026-08-31 19:21 KST"
     }
   ],
-  "rate_source_time": "2026-09-01 11:22:16 KST",
+  "rate_source_time": "2026-09-01 11:47:56 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 1.6,
-  "rate_change_pct": 0.12,
+  "rate_change": 3.0,
+  "rate_change_pct": 0.22,
   "smbs_base_rate": 1373.6,
   "smbs_rate_date": "2026-09-01",
-  "smbs_rate_updated_at_kst": "2026-09-01 11:22:05 KST",
+  "smbs_rate_updated_at_kst": "2026-09-01 11:47:44 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -57,5 +57,5 @@
     1377.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-01 11:22:05 KST"
+  "rate_job_checked_at_kst": "2026-09-01 11:47:44 KST"
 }

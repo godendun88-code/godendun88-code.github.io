@@ -1,16 +1,16 @@
 {
-  "updated_at_kst": "2026-09-01 18:24 KST",
-  "current_rate": 1373.6,
+  "updated_at_kst": "2026-09-01 18:50 KST",
+  "current_rate": 1373.1,
   "previous_close": 1367.9,
-  "rate_updated_at_kst": "2026-09-01 18:24:04 KST",
+  "rate_updated_at_kst": "2026-09-01 18:49:57 KST",
   "rate_source": "KB STAR FX Market Watch",
-  "market_bias": "상승 우세",
+  "market_bias": "혼조",
   "drivers": [
-    "연준의 추가 금리 인상 또는 매파적 기조 우려가 부각돼 달러 강세 압력이 높아지는 요인으로 작용하고 있습니다.",
     "미국 물가 관련 최신 기사(\"Bond selloff deepens as rising energy prices stoke inflation fears\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
-    "미 국채금리 관련 최신 기사(\"Global bond rout deepens as Japan yield hits key threshold\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다."
+    "미 국채금리 관련 최신 기사(\"Global bond rout deepens as Japan yield hits key threshold\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다.",
+    "유가 및 중동 지정학적 불확실성이 부각돼 에너지 수입 의존도가 높은 원화에는 약세 부담 요인으로 작용하고 있습니다."
   ],
-  "outlook": "달러 강세·금리 상승 계열의 재료가 상대적으로 우세해 원/달러는 단기 상승 압력이 나타날 수 있으나, 국내 수급과 위험선호 회복 여부에 따라 변동성이 예상됩니다.",
+  "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
     {
       "title": "Gulf stocks rise with oil as US-Iran fighting picks up",
@@ -31,10 +31,10 @@
       "seen": "2026-09-01 16:13 KST"
     },
     {
-      "title": "Bond selloff deepens as rising energy prices stoke inflation fears",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPUzRjcDczTGxqaGRleWZNeUwtZnpOTjRjNWhmSEt2YkQtY1ZwaDdhZ2RxX0hCWEZZdXpPSmlWZW45ZVBHM2lsMU9XalYtNEl1cGxpWjVhVTR2cDU1ajlNMzRJb3FZaGZ4akprMWhPNmd4cmJFOFI1Q29iWlI0ZnFXNXljcw?oc=5",
+      "title": "Analysts react to global bond selloff",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQcE5GVVlJWm5aOW52WTVPckN0MHY1aURiQjZrMFlVdl9oX2NMbWFqclp6MGdSclVfZldTU0tRWGpuTUcyVDh6RmhEU09OYTBLVHBSTVJqbXhQajlQaUxWdzc4MlFqS3pndHUtSGc3eXdmVTZTYTBKNzdpVU1mS1M2YVBCRXVIaXFmU3pWdA?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-01 16:09 KST"
+      "seen": "2026-09-01 14:50 KST"
     },
     {
       "title": "Gold drops over 1% as Treasury yields rise; investors eye US jobs data",
@@ -49,13 +49,13 @@
       "seen": "2026-09-01 11:27 KST"
     }
   ],
-  "rate_source_time": "2026-09-01 18:24:04 KST",
+  "rate_source_time": "2026-09-01 18:49:57 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 5.7,
-  "rate_change_pct": 0.42,
+  "rate_change": 5.2,
+  "rate_change_pct": 0.38,
   "smbs_base_rate": 1373.6,
   "smbs_rate_date": "2026-09-01",
-  "smbs_rate_updated_at_kst": "2026-09-01 18:23:47 KST",
+  "smbs_rate_updated_at_kst": "2026-09-01 18:49:42 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1377.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-01 18:23:47 KST"
+  "rate_job_checked_at_kst": "2026-09-01 18:49:42 KST"
 }

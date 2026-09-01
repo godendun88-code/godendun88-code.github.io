@@ -1,17 +1,23 @@
 {
-  "updated_at_kst": "2026-09-01 23:24 KST",
-  "current_rate": 1371.3,
+  "updated_at_kst": "2026-09-01 23:54 KST",
+  "current_rate": 1371.9,
   "previous_close": 1367.9,
-  "rate_updated_at_kst": "2026-09-01 23:23:58 KST",
+  "rate_updated_at_kst": "2026-09-01 23:54:05 KST",
   "rate_source": "KB STAR FX Market Watch",
-  "market_bias": "하락 우세",
+  "market_bias": "상승 우세",
   "drivers": [
+    "연준의 추가 금리 인상 또는 매파적 기조 우려가 부각돼 달러 강세 압력이 높아지는 요인으로 작용하고 있습니다.",
     "미국 물가 관련 최신 기사(\"Bond selloff deepens and stocks drop as oil prices stoke inflation fears\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
-    "미 국채금리 관련 최신 기사(\"Global bond rout deepens as Japan yield hits key milestone\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다.",
-    "글로벌 달러 약세 관련 보도가 이어지며 원/달러 환율에는 하락 압력으로 작용하고 있습니다."
+    "미 국채금리 관련 최신 기사(\"What's behind the selloff in world bond markets?\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다."
   ],
-  "outlook": "달러 약세·금리 하락 계열의 재료가 상대적으로 우세해 원/달러는 단기 하락 압력이 이어질 가능성이 있으나, 유가와 지정학적 리스크는 하단을 제한할 수 있습니다.",
+  "outlook": "달러 강세·금리 상승 계열의 재료가 상대적으로 우세해 원/달러는 단기 상승 압력이 나타날 수 있으나, 국내 수급과 위험선호 회복 여부에 따라 변동성이 예상됩니다.",
   "articles": [
+    {
+      "title": "What's behind the selloff in world bond markets?",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPN01sQ1RpX1dfMlY5bzVSbjc5RnMxb3I4RnZZQW1BZnJBM3R2S0Zkdk95dGNnWFNQOXo1Y0FqSlprVHZ5czZ5ZHdQMGtzM1FqUHpaUjV2bnBaVlYtdW9CRk9iT3hEYnFqc1VzbmFmZ3FUY2lXZnNoSFM2c0s3dGtOcXBmbnFfTUtULUk5WHhDbGY4THBfOVBZ?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-01 23:24 KST"
+    },
     {
       "title": "COMMENTARY: What’s really driving flows into the $13.5 trillion money market pool?: Deborah Cunningham",
       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPVmQ1NWhnRVI1MTBZdEFlQ0ZQX2VWOFJzU3JfTjRfWUhEbUtHY1E4bGdfbHBMNGUtdl83RFVzaFlzNDBIeXFxZllBbWFvMzdTbUlhdWhnNFZ6ZDZ4SVNCWEU5LVdnOHZFU1N5cE4zWUFFRFJjbGstY0V1aUpBYUhST2JEdFh5RWNuT2llTXVMRlFnSUJYek9OREhILUNzSGExcjdjVTlaSzM3RUhJZVdMMWhaOU14S3Flb3lUUFhYcFhKSGQ2c2dwcEZheFpGWnJsa2xrM0ZR?oc=5",
@@ -31,12 +37,6 @@
       "seen": "2026-09-01 21:28 KST"
     },
     {
-      "title": "Bond selloff deepens and stocks drop as oil prices stoke inflation fears",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPUzRjcDczTGxqaGRleWZNeUwtZnpOTjRjNWhmSEt2YkQtY1ZwaDdhZ2RxX0hCWEZZdXpPSmlWZW45ZVBHM2lsMU9XalYtNEl1cGxpWjVhVTR2cDU1ajlNMzRJb3FZaGZ4akprMWhPNmd4cmJFOFI1Q29iWlI0ZnFXNXljcw?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-01 21:27 KST"
-    },
-    {
       "title": "European stocks kick off September on gloomy note as bond yields rise",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNOGlSVGd0MGJiRU5TQ2M4VTMyVXdRX3I1N2w2dDd1dl9EUzlBVFlaNTRVaUMwYktrNFlUY0ZVc1ZPMGJvbzJhMjRVQUQ1S3BmM3pPZDZ0Yk9LVkhLdWhGWDU4XzRFWFluTlZlVGd3MEJ0Ylk5SnY2aTRLeGZtNnhIRFk1WjhseW9jYVg3S3VEMExHVno5ZC1iODJWMTBiS2x5VHdIeXlxT3RLSU5RUEE?oc=5",
       "domain": "Reuters",
@@ -49,13 +49,13 @@
       "seen": "2026-09-01 20:12 KST"
     }
   ],
-  "rate_source_time": "2026-09-01 23:23:58 KST",
+  "rate_source_time": "2026-09-01 23:54:05 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 3.4,
-  "rate_change_pct": 0.25,
+  "rate_change": 4.0,
+  "rate_change_pct": 0.29,
   "smbs_base_rate": 1373.6,
   "smbs_rate_date": "2026-09-01",
-  "smbs_rate_updated_at_kst": "2026-09-01 23:23:45 KST",
+  "smbs_rate_updated_at_kst": "2026-09-01 23:53:52 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1377.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-01 23:23:45 KST"
+  "rate_job_checked_at_kst": "2026-09-01 23:53:52 KST"
 }

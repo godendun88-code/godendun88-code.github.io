@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-09-01 15:29 KST",
-  "current_rate": 1369.7,
+  "updated_at_kst": "2026-09-01 15:52 KST",
+  "current_rate": 1371.4,
   "previous_close": 1367.9,
-  "rate_updated_at_kst": "2026-09-01 15:29:09 KST",
+  "rate_updated_at_kst": "2026-09-01 15:51:56 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
@@ -16,13 +16,7 @@
       "title": "Bond selloff deepens as rising energy prices stoke inflation fears",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPUzRjcDczTGxqaGRleWZNeUwtZnpOTjRjNWhmSEt2YkQtY1ZwaDdhZ2RxX0hCWEZZdXpPSmlWZW45ZVBHM2lsMU9XalYtNEl1cGxpWjVhVTR2cDU1ajlNMzRJb3FZaGZ4akprMWhPNmd4cmJFOFI1Q29iWlI0ZnFXNXljcw?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-01 10:46 KST"
-    },
-    {
-      "title": "Oil prices rise as latest fighting resurrects Middle East supply disruption risks",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNXzNva1pxcDRaVGJ0WkYwOFJ2Zm8wNFBiMmkxLUVIZVJZaUV4WlRGNVRZbk1JZHdpMUpXbXJ6VHZsVUtzS2haZ0M2bDd4d3RTa19vTHZTOWc3MFlGaW1jU3gwMG13cFhFY0hOR2tWSjM1cWQzd2pfUEZFRlpSRWdEcmJ3NHdlM3BydlNkQUgxY3lMYjBybFMwZ1Vxcjk2clc3cHZKdWxtMHlFWHBMNDREaEJoZlBIc2U5TGMyWF9GaEZhX0JlMlA4THpn?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-01 10:29 KST"
+      "seen": "2026-09-01 15:15 KST"
     },
     {
       "title": "Yen lingers near 160 as Bessent leans on BOJ, bonds sell off",
@@ -43,13 +37,13 @@
       "seen": "2026-08-31 19:21 KST"
     }
   ],
-  "rate_source_time": "2026-09-01 15:29:09 KST",
+  "rate_source_time": "2026-09-01 15:51:56 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 1.8,
-  "rate_change_pct": 0.13,
+  "rate_change": 3.5,
+  "rate_change_pct": 0.26,
   "smbs_base_rate": 1373.6,
   "smbs_rate_date": "2026-09-01",
-  "smbs_rate_updated_at_kst": "2026-09-01 15:28:55 KST",
+  "smbs_rate_updated_at_kst": "2026-09-01 15:51:44 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -57,5 +51,5 @@
     1377.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-01 15:28:55 KST"
+  "rate_job_checked_at_kst": "2026-09-01 15:51:44 KST"
 }

@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-09-01 08:46 KST",
-  "current_rate": 1367.5,
-  "previous_close": 1366.88,
-  "rate_updated_at_kst": "2026-09-01 08:46:18 KST",
+  "updated_at_kst": "2026-09-01 09:33 KST",
+  "current_rate": 1366.8,
+  "previous_close": 1366.03,
+  "rate_updated_at_kst": "2026-09-01 09:33:40 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "상승 우세",
   "drivers": [
@@ -37,25 +37,25 @@
       "seen": "2026-08-31 13:32 KST"
     },
     {
-      "title": "Dollar slips, with traders already eyeing Friday jobs data",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNTzZFV05UVTZLQjh4TGh6S2xxU0xMU0w3c2lXNUd0am8tak9EV3p6NV84cVV0NDM2aXFrUkFpQUpVZ3dmdGNkYS1OaXRQbGhybm9lcHBfU2lLaVRwVGxiaXJKNnFRZW9ndFppTmp1TlhxeDJ2emxQLU5YWnVraXJFYzFHbldSU0pmVEtjeHFLdHJlUERTWjlkMmp0d25FSE1Wa3Q3SHpKbG1uNXBGa3FDRTg1cGxFX2VQZUkydHoxaWdHZUxER2c?oc=5",
+      "title": "India rupee hits near four-week high on equity-related flows, RBI support; logs monthly rise",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUEFscm9ibG1XX3ZKcFdiTUZheGctLWxuUDR3NFR6Z2h3MWRBYTZ1VWctNjVLUE9JcWVnd1VqVkJtUFpRRDF1LVNRZHEwdGE1Ym1wR3Bwb3haR3QzdnEyS205VGN2VUt6ckdvNnI5aU14OS1XVXJYV2RYSTdSSnZhMWQ0WU5ZQXdBNGE4SmdMUWxZa1B3eW0wc0RfenJGS0MwYWRReg?oc=5",
       "domain": "Reuters",
-      "seen": "2026-08-31 10:32 KST"
+      "seen": "2026-08-31 11:14 KST"
     },
     {
-      "title": "Dollar near two-week high as Warsh boosts rate-hike bets; yen slips past 160",
+      "title": "Dollar slips, with traders already eyeing Friday jobs data",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNTzZFV05UVTZLQjh4TGh6S2xxU0xMU0w3c2lXNUd0am8tak9EV3p6NV84cVV0NDM2aXFrUkFpQUpVZ3dmdGNkYS1OaXRQbGhybm9lcHBfU2lLaVRwVGxiaXJKNnFRZW9ndFppTmp1TlhxeDJ2emxQLU5YWnVraXJFYzFHbldSU0pmVEtjeHFLdHJlUERTWjlkMmp0d25FSE1Wa3Q3SHpKbG1uNXBGa3FDRTg1cGxFX2VQZUkydHoxaWdHZUxER2c?oc=5",
       "domain": "Reuters",
       "seen": "2026-08-31 10:32 KST"
     }
   ],
-  "rate_source_time": "2026-09-01 08:46:18 KST",
+  "rate_source_time": "2026-09-01 09:33:40 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 0.62,
-  "rate_change_pct": 0.04,
+  "rate_change": 0.77,
+  "rate_change_pct": 0.05,
   "smbs_base_rate": 1373.6,
   "smbs_rate_date": "2026-09-01",
-  "smbs_rate_updated_at_kst": "2026-09-01 08:16:16 KST",
+  "smbs_rate_updated_at_kst": "2026-09-01 09:33:26 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,6 +63,5 @@
     1377.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-01 08:46:02 KST",
-  "smbs_rate_error": "RuntimeError: 서울외국환중개 페이지에서 USD 매매기준율을 찾지 못했습니다."
+  "rate_job_checked_at_kst": "2026-09-01 09:33:26 KST"
 }

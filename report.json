@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-09-01 11:48 KST",
-  "current_rate": 1370.9,
+  "updated_at_kst": "2026-09-01 12:23 KST",
+  "current_rate": 1371.1,
   "previous_close": 1367.9,
-  "rate_updated_at_kst": "2026-09-01 11:47:56 KST",
+  "rate_updated_at_kst": "2026-09-01 12:23:36 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "상승 우세",
   "drivers": [
@@ -16,7 +16,7 @@
       "title": "Indian shares to open higher on strong growth data; Middle East jitters could temper optimism",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOTXRkdmRIdWdaMUpxYUIxQTQxeTRSZmNzaUVrcWxfSlU3LWFIMU5HbVVETmJjdndMYl96RXJLbkd0MTBlbHZhajlzbUdFOS1rX2UwT3FRYXRMVVNsS1RBZGxKMld5dU5TN3RtTkxwOHhzQk95a2p6VmZ3bGhFbzVXV3BDYW5QZUZWR2REZVNzNGZTMmYwS3d0RHFnZExvSk56WFh2ZkFzdGdaeDhfWTk0NEZFZUNpS2tQem05YVhDdnBiU2M?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-01 11:40 KST"
+      "seen": "2026-09-01 11:41 KST"
     },
     {
       "title": "Oil prices rise as latest fighting resurrects Middle East supply disruption risks",
@@ -43,13 +43,13 @@
       "seen": "2026-08-31 19:21 KST"
     }
   ],
-  "rate_source_time": "2026-09-01 11:47:56 KST",
+  "rate_source_time": "2026-09-01 12:23:36 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 3.0,
-  "rate_change_pct": 0.22,
+  "rate_change": 3.2,
+  "rate_change_pct": 0.23,
   "smbs_base_rate": 1373.6,
   "smbs_rate_date": "2026-09-01",
-  "smbs_rate_updated_at_kst": "2026-09-01 11:47:44 KST",
+  "smbs_rate_updated_at_kst": "2026-09-01 12:23:22 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -57,5 +57,5 @@
     1377.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-01 11:47:44 KST"
+  "rate_job_checked_at_kst": "2026-09-01 12:23:22 KST"
 }

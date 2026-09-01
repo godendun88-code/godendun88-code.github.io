@@ -1,17 +1,23 @@
 {
-  "updated_at_kst": "2026-09-01 23:54 KST",
+  "updated_at_kst": "2026-09-02 00:41 KST",
   "current_rate": 1371.9,
   "previous_close": 1367.9,
-  "rate_updated_at_kst": "2026-09-01 23:54:05 KST",
+  "rate_updated_at_kst": "2026-09-02 00:40:58 KST",
   "rate_source": "KB STAR FX Market Watch",
-  "market_bias": "상승 우세",
+  "market_bias": "혼조",
   "drivers": [
-    "연준의 추가 금리 인상 또는 매파적 기조 우려가 부각돼 달러 강세 압력이 높아지는 요인으로 작용하고 있습니다.",
     "미국 물가 관련 최신 기사(\"Bond selloff deepens and stocks drop as oil prices stoke inflation fears\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
-    "미 국채금리 관련 최신 기사(\"What's behind the selloff in world bond markets?\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다."
+    "미 국채금리 관련 최신 기사(\"What's behind the selloff in world bond markets?\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다.",
+    "유가 및 중동 지정학적 불확실성이 부각돼 에너지 수입 의존도가 높은 원화에는 약세 부담 요인으로 작용하고 있습니다."
   ],
-  "outlook": "달러 강세·금리 상승 계열의 재료가 상대적으로 우세해 원/달러는 단기 상승 압력이 나타날 수 있으나, 국내 수급과 위험선호 회복 여부에 따라 변동성이 예상됩니다.",
+  "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
+    {
+      "title": "Iran defiant as Bessent says US likely to announce bank sanctions this week",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOYWVYQlZISm1jT2ZUaUZ4bDJ2ZE10ZEpaeXo5MnBPQTJYS0ZJNDFjNmdBNGlPQjdyRTIxMVJWeDYzTlFEZi1wVm55eUJTUjkxSjB2WnVVU3NLaEtjTWlMTFFXZlZuTDYyNzREc3hxWnpxRzdUV2MtRUdhei12TE9TQ0Rrc1hTMEN4alFnS1VFcVRzSEM1dmVxR2FYbzZXb1B2a254Y2FlVXlNMFBhQVlFRTAyNzdoaE1FN2Q5dFF0LS1PZDR3bm1PS2JR?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-02 00:35 KST"
+    },
     {
       "title": "What's behind the selloff in world bond markets?",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPN01sQ1RpX1dfMlY5bzVSbjc5RnMxb3I4RnZZQW1BZnJBM3R2S0Zkdk95dGNnWFNQOXo1Y0FqSlprVHZ5czZ5ZHdQMGtzM1FqUHpaUjV2bnBaVlYtdW9CRk9iT3hEYnFqc1VzbmFmZ3FUY2lXZnNoSFM2c0s3dGtOcXBmbnFfTUtULUk5WHhDbGY4THBfOVBZ?oc=5",
@@ -31,31 +37,25 @@
       "seen": "2026-09-01 21:28 KST"
     },
     {
-      "title": "Iran urges US to comply with interim deal after Trump threatens further strikes",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOYWVYQlZISm1jT2ZUaUZ4bDJ2ZE10ZEpaeXo5MnBPQTJYS0ZJNDFjNmdBNGlPQjdyRTIxMVJWeDYzTlFEZi1wVm55eUJTUjkxSjB2WnVVU3NLaEtjTWlMTFFXZlZuTDYyNzREc3hxWnpxRzdUV2MtRUdhei12TE9TQ0Rrc1hTMEN4alFnS1VFcVRzSEM1dmVxR2FYbzZXb1B2a254Y2FlVXlNMFBhQVlFRTAyNzdoaE1FN2Q5dFF0LS1PZDR3bm1PS2JR?oc=5",
+      "title": "Bond selloff deepens and stocks drop as oil prices stoke inflation fears",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPUzRjcDczTGxqaGRleWZNeUwtZnpOTjRjNWhmSEt2YkQtY1ZwaDdhZ2RxX0hCWEZZdXpPSmlWZW45ZVBHM2lsMU9XalYtNEl1cGxpWjVhVTR2cDU1ajlNMzRJb3FZaGZ4akprMWhPNmd4cmJFOFI1Q29iWlI0ZnFXNXljcw?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-01 21:28 KST"
+      "seen": "2026-09-01 21:27 KST"
     },
     {
       "title": "European stocks kick off September on gloomy note as bond yields rise",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNOGlSVGd0MGJiRU5TQ2M4VTMyVXdRX3I1N2w2dDd1dl9EUzlBVFlaNTRVaUMwYktrNFlUY0ZVc1ZPMGJvbzJhMjRVQUQ1S3BmM3pPZDZ0Yk9LVkhLdWhGWDU4XzRFWFluTlZlVGd3MEJ0Ylk5SnY2aTRLeGZtNnhIRFk1WjhseW9jYVg3S3VEMExHVno5ZC1iODJWMTBiS2x5VHdIeXlxT3RLSU5RUEE?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-01 21:20 KST"
-    },
-    {
-      "title": "COMMENTARY: Morning Bid: September storm",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZTdTcHczWUFMU1k2OEF4b0tGRktKSk9YWW0ya1hOQkZiWmlFS3p5YjN1VUd5TUIzQmxJX2FuZER3TnFEVDA1YTFzeTJIVURtX2FOLU8tSFFGaHdvdGFNSm5fWDFEZUZNVEZQSEtjSHJLN3lHVWppNzRRVU5pQU44ZFJEMWc5Rkh2SEZ4Q1NZZzZJb2FzVzJr?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-01 20:12 KST"
     }
   ],
-  "rate_source_time": "2026-09-01 23:54:05 KST",
+  "rate_source_time": "2026-09-02 00:40:58 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": 4.0,
   "rate_change_pct": 0.29,
-  "smbs_base_rate": 1373.6,
-  "smbs_rate_date": "2026-09-01",
-  "smbs_rate_updated_at_kst": "2026-09-01 23:53:52 KST",
+  "smbs_base_rate": 1370.3,
+  "smbs_rate_date": "2026-09-02",
+  "smbs_rate_updated_at_kst": "2026-09-02 00:40:42 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1377.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-01 23:53:52 KST"
+  "rate_job_checked_at_kst": "2026-09-02 00:40:42 KST"
 }

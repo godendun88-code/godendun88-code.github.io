@@ -1,16 +1,16 @@
 {
-  "updated_at_kst": "2026-09-01 14:48 KST",
-  "current_rate": 1369.1,
+  "updated_at_kst": "2026-09-01 15:29 KST",
+  "current_rate": 1369.7,
   "previous_close": 1367.9,
-  "rate_updated_at_kst": "2026-09-01 14:47:59 KST",
+  "rate_updated_at_kst": "2026-09-01 15:29:09 KST",
   "rate_source": "KB STAR FX Market Watch",
-  "market_bias": "상승 우세",
+  "market_bias": "혼조",
   "drivers": [
     "미국 물가 관련 최신 기사(\"Bond selloff deepens as rising energy prices stoke inflation fears\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
-    "미 국채금리 상승 관련 보도가 확인돼 달러 수요를 지지하면서 원/달러 환율 상승 압력으로 작용하고 있습니다.",
-    "달러 관련 최신 기사(\"Yen hangs near 160 amid BOJ rate-hike bets, dollar wobbles\")가 확인돼 달러인덱스 방향성이 원/달러 환율의 핵심 변수로 작용하고 있습니다."
+    "미 국채금리 관련 최신 기사(\"Mapping the Market: US 10-year Treasury yields eye further gains\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다.",
+    "유가·지정학 관련 최신 기사(\"Oil to hold above $80 a barrel as Middle East supply risks persist\")가 확인돼 원화 변동성 확대 요인으로 작용하고 있습니다."
   ],
-  "outlook": "달러 강세·금리 상승 계열의 재료가 상대적으로 우세해 원/달러는 단기 상승 압력이 나타날 수 있으나, 국내 수급과 위험선호 회복 여부에 따라 변동성이 예상됩니다.",
+  "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
     {
       "title": "Bond selloff deepens as rising energy prices stoke inflation fears",
@@ -25,16 +25,10 @@
       "seen": "2026-09-01 10:29 KST"
     },
     {
-      "title": "Yen hangs near 160 amid BOJ rate-hike bets, dollar wobbles",
+      "title": "Yen lingers near 160 as Bessent leans on BOJ, bonds sell off",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUzR4b3dnajg5QUJSRUN0VHJXQkhXQWpUX2lLVU91dWgtZWJSNGNKcXRLSUpramxQeER0NHliVWZ2LU9xSjJYV25IRGpUMWlDODcxc2g4d0d1S3ZkSFhMLUxEdWlEV1NwNDZmaUhENDZVT1RpUFlQci1UUGlvWlVlX0xObzRJdlFFT09GMWtXQmNGN0xKM0xWUTd1TDBwQzdQaHRyTTJvRnM5TmpMQ0tSZVR3?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-01 10:24 KST"
-    },
-    {
-      "title": "Yields rise, oil jumps; US and Iran resume military attacks",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQa0dYVnlvTDVQRkF4YmQxMW9FUElDRmNweFlHclBUa1R5MmZsSHk5WEtnV3B5bFVFeFJhMGMtSWxsV0FqR0Jsc1ltUENJUEs4RWR0QlVnTFBBc2hIbzJmdl9hZVpOS2dGM2Q2ZFF1MmtLallPblc1ZGtJTFhzNTQzRGNhaw?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-01 07:56 KST"
     },
     {
       "title": "Oil to hold above $80 a barrel as Middle East supply risks persist",
@@ -49,13 +43,13 @@
       "seen": "2026-08-31 19:21 KST"
     }
   ],
-  "rate_source_time": "2026-09-01 14:47:59 KST",
+  "rate_source_time": "2026-09-01 15:29:09 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 1.2,
-  "rate_change_pct": 0.09,
+  "rate_change": 1.8,
+  "rate_change_pct": 0.13,
   "smbs_base_rate": 1373.6,
   "smbs_rate_date": "2026-09-01",
-  "smbs_rate_updated_at_kst": "2026-09-01 14:47:46 KST",
+  "smbs_rate_updated_at_kst": "2026-09-01 15:28:55 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +57,5 @@
     1377.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-01 14:47:46 KST"
+  "rate_job_checked_at_kst": "2026-09-01 15:28:55 KST"
 }

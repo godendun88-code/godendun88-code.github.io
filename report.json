@@ -1,17 +1,23 @@
 {
-  "updated_at_kst": "2026-09-01 15:52 KST",
-  "current_rate": 1371.4,
+  "updated_at_kst": "2026-09-01 16:23 KST",
+  "current_rate": 1373.0,
   "previous_close": 1367.9,
-  "rate_updated_at_kst": "2026-09-01 15:51:56 KST",
+  "rate_updated_at_kst": "2026-09-01 16:23:07 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
+    "연준·금리 관련 최신 기사(\"South African rand muted as stronger dollar, softer metals and Fed rate concerns weigh\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
     "미국 물가 관련 최신 기사(\"Bond selloff deepens as rising energy prices stoke inflation fears\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
-    "미 국채금리 관련 최신 기사(\"Mapping the Market: US 10-year Treasury yields eye further gains\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다.",
-    "유가·지정학 관련 최신 기사(\"Oil to hold above $80 a barrel as Middle East supply risks persist\")가 확인돼 원화 변동성 확대 요인으로 작용하고 있습니다."
+    "미 국채금리 관련 최신 기사(\"Mapping the Market: US 10-year Treasury yields eye further gains\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
+    {
+      "title": "COMMENTARY: What’s really driving flows into the $13.5 trillion money market pool?",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPVmQ1NWhnRVI1MTBZdEFlQ0ZQX2VWOFJzU3JfTjRfWUhEbUtHY1E4bGdfbHBMNGUtdl83RFVzaFlzNDBIeXFxZllBbWFvMzdTbUlhdWhnNFZ6ZDZ4SVNCWEU5LVdnOHZFU1N5cE4zWUFFRFJjbGstY0V1aUpBYUhST2JEdFh5RWNuT2llTXVMRlFnSUJYek9OREhILUNzSGExcjdjVTlaSzM3RUhJZVdMMWhaOU14S3Flb3lUUFhYcFhKSGQ2c2dwcEZheFpGWnJsa2xrM0ZR?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-01 16:13 KST"
+    },
     {
       "title": "Bond selloff deepens as rising energy prices stoke inflation fears",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPUzRjcDczTGxqaGRleWZNeUwtZnpOTjRjNWhmSEt2YkQtY1ZwaDdhZ2RxX0hCWEZZdXpPSmlWZW45ZVBHM2lsMU9XalYtNEl1cGxpWjVhVTR2cDU1ajlNMzRJb3FZaGZ4akprMWhPNmd4cmJFOFI1Q29iWlI0ZnFXNXljcw?oc=5",
@@ -35,15 +41,21 @@
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBiT1pDTWZPekR6Q0Zob25Jdk1jS3dNZUwxdVYyQTU1YlhISVFrS2Q5MXE3WG5wSnB4RC1iRGRJZEtyd0h1T1VCblp5OGcxQWh5OWFiT1UxcENVVHBaU1dLVG5pYnA4V2VTTnkzdzNUUW9EUHBTLVpLSmlWWUc?oc=5",
       "domain": "Reuters",
       "seen": "2026-08-31 19:21 KST"
+    },
+    {
+      "title": "South African rand muted as stronger dollar, softer metals and Fed rate concerns weigh",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPR29xSFZ6cjh5NkFvdW1tMFIwYTFBSC1MeGVPX291dWQ0bU5aZ0dyenBVNVhDdnR0Z0E0UU5lZUh0bHVBaWg4YUNkaDcyZjcyeEFFU3drRmVhakZPMExzODMySlhzd1F1dTkxNjBwMjFjMjNpdjk4cGpvQ01iUl9yMGhjRldUcThMejM4YWE5T3hJdGhsRW1Qa1BBNzBXdEJPdkd3aFlFOC0td0dOMmt4cVpCUVBCSWFhWXhtaWFrVXdVOHlQSVE?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-08-31 17:56 KST"
     }
   ],
-  "rate_source_time": "2026-09-01 15:51:56 KST",
+  "rate_source_time": "2026-09-01 16:23:07 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 3.5,
-  "rate_change_pct": 0.26,
+  "rate_change": 5.1,
+  "rate_change_pct": 0.37,
   "smbs_base_rate": 1373.6,
   "smbs_rate_date": "2026-09-01",
-  "smbs_rate_updated_at_kst": "2026-09-01 15:51:44 KST",
+  "smbs_rate_updated_at_kst": "2026-09-01 16:22:54 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -51,5 +63,5 @@
     1377.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-01 15:51:44 KST"
+  "rate_job_checked_at_kst": "2026-09-01 16:22:54 KST"
 }

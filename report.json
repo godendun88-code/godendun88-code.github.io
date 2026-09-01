@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-09-01 16:49 KST",
-  "current_rate": 1373.3,
+  "updated_at_kst": "2026-09-01 17:25 KST",
+  "current_rate": 1373.5,
   "previous_close": 1367.9,
-  "rate_updated_at_kst": "2026-09-01 16:48:59 KST",
+  "rate_updated_at_kst": "2026-09-01 17:25:34 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
@@ -16,7 +16,7 @@
       "title": "Global bond rout deepens as Japan yield hits key threshold",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSl9GcExBdk5lb3U4c1NTalROY2NUNHE4SXdlbE5yemw4WkwteWNMdTZVTFdrcHhPUVF5Q181eTlxZ2xoUkV6Q3F4a19ldHJBdGFnaG9URjY3bXNTMDE0aV9mVDU1MUtxMTRXRl9pR2p2THVmc2JiWGlSb1prUElXTWtaNzBsb3Z5U2tCNXZlTlMtM3pHU3Y0dkVNWUhHWmVWUmJxbnZmVVFlNmVlMDR3?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-01 16:32 KST"
+      "seen": "2026-09-01 17:02 KST"
     },
     {
       "title": "COMMENTARY: What’s really driving flows into the $13.5 trillion money market pool?",
@@ -25,16 +25,16 @@
       "seen": "2026-09-01 16:13 KST"
     },
     {
-      "title": "Bond selloff deepens as rising energy prices stoke inflation fears",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPUzRjcDczTGxqaGRleWZNeUwtZnpOTjRjNWhmSEt2YkQtY1ZwaDdhZ2RxX0hCWEZZdXpPSmlWZW45ZVBHM2lsMU9XalYtNEl1cGxpWjVhVTR2cDU1ajlNMzRJb3FZaGZ4akprMWhPNmd4cmJFOFI1Q29iWlI0ZnFXNXljcw?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-01 15:15 KST"
-    },
-    {
       "title": "Japan, US agree to continue coordination on yen, Katayama says",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQWU1LemhhTkNyWnI0cXBSaDFxdWcxSkpFLXZqakwzZndNSUcyUVJNNjdRc1UwQVFGc2NYazNwclExenNGb0VINk5tNXVKaUtUellzdnZpNnVCdmVGLWhZeER6ajc3bGdMLVBrbHhhcllXeVM1QlI4bExNRFVuQkhxM0pRb3VxNDZMWUU1UFlDcy1qS0VoWVlYbGRqOXA0TXVmRHk3TUlQZ0RfSFR6MklzclNLaEk2ZkhMQlo4ZVk5NWRFdXdNT3VrUThpQWl0aGc?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-01 11:27 KST"
+    },
+    {
+      "title": "Bond selloff deepens as rising energy prices stoke inflation fears",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPUzRjcDczTGxqaGRleWZNeUwtZnpOTjRjNWhmSEt2YkQtY1ZwaDdhZ2RxX0hCWEZZdXpPSmlWZW45ZVBHM2lsMU9XalYtNEl1cGxpWjVhVTR2cDU1ajlNMzRJb3FZaGZ4akprMWhPNmd4cmJFOFI1Q29iWlI0ZnFXNXljcw?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-01 10:46 KST"
     },
     {
       "title": "Yen lingers near 160 as Bessent leans on BOJ, bonds sell off",
@@ -49,13 +49,13 @@
       "seen": "2026-08-31 20:08 KST"
     }
   ],
-  "rate_source_time": "2026-09-01 16:48:59 KST",
+  "rate_source_time": "2026-09-01 17:25:34 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 5.4,
-  "rate_change_pct": 0.39,
+  "rate_change": 5.6,
+  "rate_change_pct": 0.41,
   "smbs_base_rate": 1373.6,
   "smbs_rate_date": "2026-09-01",
-  "smbs_rate_updated_at_kst": "2026-09-01 16:48:47 KST",
+  "smbs_rate_updated_at_kst": "2026-09-01 17:25:22 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1377.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-01 16:48:47 KST"
+  "rate_job_checked_at_kst": "2026-09-01 17:25:22 KST"
 }

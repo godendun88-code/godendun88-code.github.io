@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-09-01 10:48 KST",
-  "current_rate": 1371.0,
+  "updated_at_kst": "2026-09-01 11:22 KST",
+  "current_rate": 1369.5,
   "previous_close": 1367.9,
-  "rate_updated_at_kst": "2026-09-01 10:48:12 KST",
+  "rate_updated_at_kst": "2026-09-01 11:22:16 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "상승 우세",
   "drivers": [
@@ -13,10 +13,16 @@
   "outlook": "달러 강세·금리 상승 계열의 재료가 상대적으로 우세해 원/달러는 단기 상승 압력이 나타날 수 있으나, 국내 수급과 위험선호 회복 여부에 따라 변동성이 예상됩니다.",
   "articles": [
     {
+      "title": "Bond selloff pressures stocks as oil crosses $91 a barrel",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPUzRjcDczTGxqaGRleWZNeUwtZnpOTjRjNWhmSEt2YkQtY1ZwaDdhZ2RxX0hCWEZZdXpPSmlWZW45ZVBHM2lsMU9XalYtNEl1cGxpWjVhVTR2cDU1ajlNMzRJb3FZaGZ4akprMWhPNmd4cmJFOFI1Q29iWlI0ZnFXNXljcw?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-01 10:46 KST"
+    },
+    {
       "title": "Oil prices rise as latest fighting resurrects Middle East supply disruption risks",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNXzNva1pxcDRaVGJ0WkYwOFJ2Zm8wNFBiMmkxLUVIZVJZaUV4WlRGNVRZbk1JZHdpMUpXbXJ6VHZsVUtzS2haZ0M2bDd4d3RTa19vTHZTOWc3MFlGaW1jU3gwMG13cFhFY0hOR2tWSjM1cWQzd2pfUEZFRlpSRWdEcmJ3NHdlM3BydlNkQUgxY3lMYjBybFMwZ1Vxcjk2clc3cHZKdWxtMHlFWHBMNDREaEJoZlBIc2U5TGMyWF9GaEZhX0JlMlA4THpn?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-01 10:29 KST"
+      "seen": "2026-09-01 09:56 KST"
     },
     {
       "title": "Yields rise, oil jumps; US and Iran resume military attacks",
@@ -35,27 +41,15 @@
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBiT1pDTWZPekR6Q0Zob25Jdk1jS3dNZUwxdVYyQTU1YlhISVFrS2Q5MXE3WG5wSnB4RC1iRGRJZEtyd0h1T1VCblp5OGcxQWh5OWFiT1UxcENVVHBaU1dLVG5pYnA4V2VTTnkzdzNUUW9EUHBTLVpLSmlWWUc?oc=5",
       "domain": "Reuters",
       "seen": "2026-08-31 19:21 KST"
-    },
-    {
-      "title": "Morning Bid: Oil climbs as missiles fly in the Gulf",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBNbU0wNVdySEl6cVlUdjlVZWlFYmp2eDlTU200dDJkTFJZSk5YbnJmenZmRS1LaTVvcC1nVVdjX2NtNDZUNlA3YU1NQUY4QXBnNGVUTnJZVld3MUNfZjIweU0tYXRlZ2lrUldFUGVXNVBSdjl0RHY5aEN1dG50TFk?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-08-31 13:32 KST"
-    },
-    {
-      "title": "India rupee hits near four-week high on equity-related flows, RBI support; logs monthly rise",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUEFscm9ibG1XX3ZKcFdiTUZheGctLWxuUDR3NFR6Z2h3MWRBYTZ1VWctNjVLUE9JcWVnd1VqVkJtUFpRRDF1LVNRZHEwdGE1Ym1wR3Bwb3haR3QzdnEyS205VGN2VUt6ckdvNnI5aU14OS1XVXJYV2RYSTdSSnZhMWQ0WU5ZQXdBNGE4SmdMUWxZa1B3eW0wc0RfenJGS0MwYWRReg?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-08-31 11:14 KST"
     }
   ],
-  "rate_source_time": "2026-09-01 10:48:12 KST",
+  "rate_source_time": "2026-09-01 11:22:16 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 3.1,
-  "rate_change_pct": 0.23,
+  "rate_change": 1.6,
+  "rate_change_pct": 0.12,
   "smbs_base_rate": 1373.6,
   "smbs_rate_date": "2026-09-01",
-  "smbs_rate_updated_at_kst": "2026-09-01 10:47:58 KST",
+  "smbs_rate_updated_at_kst": "2026-09-01 11:22:05 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +57,5 @@
     1377.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-01 10:47:58 KST"
+  "rate_job_checked_at_kst": "2026-09-01 11:22:05 KST"
 }

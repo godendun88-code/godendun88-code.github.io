@@ -1,28 +1,40 @@
 {
-  "updated_at_kst": "2026-09-02 19:49 KST",
-  "current_rate": 1365.9,
+  "updated_at_kst": "2026-09-02 20:22 KST",
+  "current_rate": 1363.9,
   "previous_close": 1371.9,
-  "rate_updated_at_kst": "2026-09-02 19:48:45 KST",
+  "rate_updated_at_kst": "2026-09-02 20:22:34 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
-    "미국 물가 관련 최신 기사(\"Bond selloff deepens as inflation risks, oil prices jolt markets\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
-    "미 국채금리 관련 최신 기사(\"Explainer: US Treasury yields are rising — Why does it matter?\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다.",
-    "달러 관련 최신 기사(\"RBI backstop keeps Indian rupee stable, blunting importer dollar demand impact\")가 확인돼 달러인덱스 방향성이 원/달러 환율의 핵심 변수로 작용하고 있습니다."
+    "미국 물가 관련 최신 기사(\"Warsh's Jackson Hole encore may put Trump's inflation record under a microscope\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
+    "미 국채금리 관련 최신 기사(\"Rising Treasury yields could rattle US stocks as earnings season ends\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다.",
+    "유가 및 중동 지정학적 불확실성이 부각돼 에너지 수입 의존도가 높은 원화에는 약세 부담 요인으로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
     {
-      "title": "Oil prices steady as traders weigh supply risks",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPLTRkVWlBVVJQeFBDbXB5UzFkd05qc05KVXhja1h2cC1aMUZxOTRGQTY4a0ZHeWpiSzl0UE50MjRTTjFVREhMUGJhd29Ka21tTTlISE9yd3pSSHFESEtVOTBzb2c0dEVFakx5eEJLamxsMUJxZ0NOSTBpNll2a2Z5eVBncmR6S3MtSW1ITE9hN01KbUljNlcwNlB3aw?oc=5",
+      "title": "Rising Treasury yields could rattle US stocks as earnings season ends",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQT0JPMlNBNHNJUVR2WWhfd0xOR3ZnWHAzampvY0tJRGFrN1NteWRFR28tekVYR0F1VW5GQ3I4M0FsR0dFalZzYUdERVlOSHJqOWRNNUFCVnFsaURzb0ZwWFZEZ3VHRTQ5czJaYkk2Ym9sOGROUEMxUHJzMzdFMnctMGZDbGRpUHdiOE1DSFI2VHhDNHdwWHlXTW13cG9FSUhOb0lrbEx5bXRaVzAyeVNsaGRYTWJYRnNqWjh1ZjFCcw?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-02 17:29 KST"
+      "seen": "2026-09-02 19:49 KST"
     },
     {
-      "title": "Bond selloff deepens as inflation risks, oil prices jolt markets",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPSkJqeC1yeWhxa0NETU9oT1R3YUdoYm9fNE4zamM3MlhJTUFkZ3gwWDliZmFZRHpXaEFOLW1JMHN4dEhkTTlfY282eG9yWlJZRVpaR281SlMtWkpuLTRXYnQ4dkt0VnlwckFQU0JUR21WM2VBZTRYb3VKM0M0Zlg3aF83SUY0WERMb2dWdWlLQ3U2ZmlON1pJdU5WMTdEVUZoNlowM0ZhZDJNeEdFcUE?oc=5",
+      "title": "Warsh's Jackson Hole encore may put Trump's inflation record under a microscope",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQR1R1MzRzd281NmluU3cyRUNUV1VRY2h0UFFKbU40ZVExWWVXdGIwNGltaEwyUXJ4UWVzU3owNXlsd3FFbTBYVTRxMW1SQlBvLTRpT1dSeE9TRG5qbmUwUmJSa3NYZ29IRGxFRmZLVzBKdjNpZXFPZGhEamJOWmRiX3VQNlBmNDJMM0ZTS0xBSks3Z2NfOUJURGZPU1pWWGJrVGRMT2o5dFczNXhxdVhCSXpBZ1VGT1FCazgzcg?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-02 17:07 KST"
+      "seen": "2026-09-02 19:31 KST"
+    },
+    {
+      "title": "UK's midcaps hit nearly a one-month low as gilt yields surge",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZ240Q0ItMU54WHVoWktIWk5aTl8yTEFsbmdTM3pZd2ZCUmhnU3dPa3AyUTVSREhHZENXQkdKc0tzVFplNTYyTF9acFJtNmhPX0lOQVFsMmg5bGZQdWVUaWZ2dVRfZklJTElhOVRvRlRKci1BWEJYVVhBSWZWTDVvMFBZVjhIUXJHenhlazJGZWxFRE1Oemc5aUFrNnd2Z1pv?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-02 19:22 KST"
+    },
+    {
+      "title": "COMMENTARY: The 'real' deal — world bonds grind towards higher neutral rates",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxObEk0Q09CTi14SmVKc3c5d3dSclpzM21pYkRoRXROd3g3MHgwWWxzaUFzV1VNTi10MG5xWXdycUJoTEdwTF81enZYZnl6azdoZHJVT3E1NEFXQ1NlUVBBOUVvRENSWGFOd05sYTdvZ3Q5eEU1emlaTWdlX1FXbXpSUE1Rdm9GVHJUS0ZJNjlTdEROMVpEV3lSdFdrc043S2xNX2hhXy12QUo0YU5GNUFBb1pBYkpkcTFEXzBNZmdZWEtqQVlWSTVHbXVtQzEwUDY0OEE?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-02 15:00 KST"
     },
     {
       "title": "The history of financing America, in six crisis episodes",
@@ -31,31 +43,19 @@
       "seen": "2026-09-02 14:02 KST"
     },
     {
-      "title": "RBI backstop keeps Indian rupee stable, blunting importer dollar demand impact",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNNldSQ0lyMXA4emh5cjBKR1lvcDg3ZXl1OGNoV3ItYTNJem4wQ0gycGtGd0lMdnFhNUtNTDR3czBPenBIbmItcEFtSlBib1hEQlpoR1ZBYlVYNTF4Tkx5VVdVM1BJZHNOWWVCaldmel9ha3FPOEppRUU1eFY3TUhIV2RBTUthWHhUeXFaZHR0TFdjNk93aks0OERPcE16cl90TFE?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-02 12:05 KST"
-    },
-    {
       "title": "Indian shares decline as oil prices surge on US-Iran strikes",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNd3NvTmc3Z2RhR2tVLUVxZjU4LTlUVjlTSHIybm13Z1YtQWxWdm5VOEs3enRCYnY3MEYtWkRNUnItaG5WOXE5cTdxamtmaGpTa3NBbVZ4anlZTkY1d2tDc0hKRlFVRDM5czBnNHpZV2FBWjBvUkNQWHpjaURwUnhIeVVDelZTWm1vc0hweGVtbVdPckstbHJaUFlxS09haU8tdGRNOE5ORVoxQQ?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-02 11:23 KST"
-    },
-    {
-      "title": "Dollar hits two-week high, Middle East conflict and rate paths in focus",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOeHBBNVNPZnJHaVhnTDlrMDVERUdjS2dCWXl2NmplVWJtYTFiLXk3amhnNkFoeEdFVzBuczBNZmdNWEc3bEFTaFBxb1RWazVjTW0tQ2NNM1RjUlljdnB6a3VaQXdGeDNUUE9WbGJxOVJzZk1Wb056eEJqcUp4allyS0FSZmpLbXQ2MmZWYWdmVUNxczFmdU5helZNQ3pQT3c?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-02 10:03 KST"
     }
   ],
-  "rate_source_time": "2026-09-02 19:48:45 KST",
+  "rate_source_time": "2026-09-02 20:22:34 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": -6.0,
-  "rate_change_pct": -0.44,
+  "rate_change": -8.0,
+  "rate_change_pct": -0.58,
   "smbs_base_rate": 1370.3,
   "smbs_rate_date": "2026-09-02",
-  "smbs_rate_updated_at_kst": "2026-09-02 19:48:34 KST",
+  "smbs_rate_updated_at_kst": "2026-09-02 20:22:23 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1380.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-02 19:48:34 KST"
+  "rate_job_checked_at_kst": "2026-09-02 20:22:23 KST"
 }

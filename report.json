@@ -1,17 +1,23 @@
 {
-  "updated_at_kst": "2026-09-02 09:51 KST",
-  "current_rate": 1370.5,
+  "updated_at_kst": "2026-09-02 10:20 KST",
+  "current_rate": 1370.9,
   "previous_close": 1371.9,
-  "rate_updated_at_kst": "2026-09-02 09:50:54 KST",
+  "rate_updated_at_kst": "2026-09-02 10:20:10 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
     "미국 물가 관련 최신 기사(\"Europe's STOXX 600 hits one-month low as inflation, rising yields pressure markets\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
-    "미 국채금리 관련 최신 기사(\"Explainer: US Treasury yields are rising — Why does it matter?\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다.",
-    "유가 및 중동 지정학적 불확실성이 부각돼 에너지 수입 의존도가 높은 원화에는 약세 부담 요인으로 작용하고 있습니다."
+    "미 국채금리 하락 관련 보도가 확인돼 달러의 금리 매력이 낮아지면서 원/달러 환율 하락 압력으로 작용하고 있습니다.",
+    "유가·지정학 관련 최신 기사(\"Dollar holds firm as Middle East hostilities lift oil\")가 확인돼 원화 변동성 확대 요인으로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
+    {
+      "title": "Dollar holds firm as Middle East hostilities lift oil",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOeHBBNVNPZnJHaVhnTDlrMDVERUdjS2dCWXl2NmplVWJtYTFiLXk3amhnNkFoeEdFVzBuczBNZmdNWEc3bEFTaFBxb1RWazVjTW0tQ2NNM1RjUlljdnB6a3VaQXdGeDNUUE9WbGJxOVJzZk1Wb056eEJqcUp4allyS0FSZmpLbXQ2MmZWYWdmVUNxczFmdU5helZNQ3pQT3c?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-02 10:03 KST"
+    },
     {
       "title": "Government borrowing costs rise anew, adding to pressure on global policymakers",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSl9GcExBdk5lb3U4c1NTalROY2NUNHE4SXdlbE5yemw4WkwteWNMdTZVTFdrcHhPUVF5Q181eTlxZ2xoUkV6Q3F4a19ldHJBdGFnaG9URjY3bXNTMDE0aV9mVDU1MUtxMTRXRl9pR2p2THVmc2JiWGlSb1prUElXTWtaNzBsb3Z5U2tCNXZlTlMtM3pHU3Y0dkVNWUhHWmVWUmJxbnZmVVFlNmVlMDR3?oc=5",
@@ -19,16 +25,16 @@
       "seen": "2026-09-02 08:00 KST"
     },
     {
-      "title": "Explainer: US Treasury yields are rising — Why does it matter?",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNWnItbnFodHQ0d1loUUlucU9LSmJKWWM1bWZlTXV5dmZnZ25Ub2FzZG5tWmRwREpkWTU4WUxFT0lFQ3RTZEJhUUFwOFh4bEZ1Z01fSUgwZXFUREZndGgxNklibXUtNC1meFNPaGNob0dGdUpQM3luRFo4RkdZUnYxakh0RUd2amU2bzJOMDRsM3JXanA4bWtmR3BaMl9fVHJqbllB?oc=5",
+      "title": "Wall Street ends lower as higher yields, rising oil prices mark shaky start to September",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWjZiWGhvamxJTzU5Ync5V2xObHhDRk1PRlZFRkZnZVNqQzM0dHhuUnBMeGJDYW9YWmgxc29fRTNUaTVRT2xLWFZUOGJMWDU4MTlhQVVXRmFOQ3VGQnlNME9tQ09nUW0yMGNUR1c2amZkSVBQbHcwWDNQY0tfZHZoREF4SzVqZ2pNYzlCQVFmSkJMNFFwMEptQi03WlZlZG82bDVNZWhnUm9KMnFDS1pqVWlHZDZ2MmE1?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-02 02:51 KST"
+      "seen": "2026-09-02 07:26 KST"
     },
     {
-      "title": "Explainer: What's behind the selloff in world bond markets?",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPN01sQ1RpX1dfMlY5bzVSbjc5RnMxb3I4RnZZQW1BZnJBM3R2S0Zkdk95dGNnWFNQOXo1Y0FqSlprVHZ5czZ5ZHdQMGtzM1FqUHpaUjV2bnBaVlYtdW9CRk9iT3hEYnFqc1VzbmFmZ3FUY2lXZnNoSFM2c0s3dGtOcXBmbnFfTUtULUk5WHhDbGY4THBfOVBZ?oc=5",
+      "title": "Global bonds extend selloff, oil prices surge on renewed US-Iran strikes",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPUzRjcDczTGxqaGRleWZNeUwtZnpOTjRjNWhmSEt2YkQtY1ZwaDdhZ2RxX0hCWEZZdXpPSmlWZW45ZVBHM2lsMU9XalYtNEl1cGxpWjVhVTR2cDU1ajlNMzRJb3FZaGZ4akprMWhPNmd4cmJFOFI1Q29iWlI0ZnFXNXljcw?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-02 02:50 KST"
+      "seen": "2026-09-02 07:22 KST"
     },
     {
       "title": "Europe's STOXX 600 hits one-month low as inflation, rising yields pressure markets",
@@ -41,18 +47,12 @@
       "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNeGphY1VfUlRFSzBBQTd6Y2xNVTZrVnY2WUstZDJ3SFFCUTVqenhlMFEwQWl6SlRNSlFGV2NQLXdtTmV0eWFPbWpqbDQ2Q29sNnp0a2prNWhwQlJBdjFjRm85N1AxQ2VTbTc4S05aQlBYakZJcXAyR2s0YWJXelBvdEs3R01WeGNFb1BFVm5lX0JzZzN2akVqTW1nRlZOWlNxMHdVekJKOVJheWszbE96M3pGMUNZWmFWWF9CWm5zMGR4YWJKckZfWUZvM292RFViMjFYRjlYeUFnNVU?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-02 00:44 KST"
-    },
-    {
-      "title": "COMMENTARY: What’s really driving flows into the $13.5 trillion money market pool?",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPVmQ1NWhnRVI1MTBZdEFlQ0ZQX2VWOFJzU3JfTjRfWUhEbUtHY1E4bGdfbHBMNGUtdl83RFVzaFlzNDBIeXFxZllBbWFvMzdTbUlhdWhnNFZ6ZDZ4SVNCWEU5LVdnOHZFU1N5cE4zWUFFRFJjbGstY0V1aUpBYUhST2JEdFh5RWNuT2llTXVMRlFnSUJYek9OREhILUNzSGExcjdjVTlaSzM3RUhJZVdMMWhaOU14S3Flb3lUUFhYcFhKSGQ2c2dwcEZheFpGWnJsa2xrM0ZR?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-02 00:17 KST"
     }
   ],
-  "rate_source_time": "2026-09-02 09:50:54 KST",
+  "rate_source_time": "2026-09-02 10:20:10 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": -1.4,
-  "rate_change_pct": -0.1,
+  "rate_change": -1.0,
+  "rate_change_pct": -0.07,
   "smbs_base_rate": 1370.3,
   "smbs_rate_date": "2026-09-02",
   "smbs_rate_updated_at_kst": "2026-09-02 09:31:12 KST",
@@ -63,6 +63,6 @@
     1380.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-02 09:50:36 KST",
+  "rate_job_checked_at_kst": "2026-09-02 10:19:57 KST",
   "smbs_rate_error": "RuntimeError: 서울외국환중개 페이지에서 USD 매매기준율을 찾지 못했습니다."
 }

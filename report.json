@@ -1,14 +1,14 @@
 {
-  "updated_at_kst": "2026-09-02 10:20 KST",
-  "current_rate": 1370.9,
+  "updated_at_kst": "2026-09-02 10:58 KST",
+  "current_rate": 1372.0,
   "previous_close": 1371.9,
-  "rate_updated_at_kst": "2026-09-02 10:20:10 KST",
+  "rate_updated_at_kst": "2026-09-02 10:57:58 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
-    "미국 물가 관련 최신 기사(\"Europe's STOXX 600 hits one-month low as inflation, rising yields pressure markets\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
     "미 국채금리 하락 관련 보도가 확인돼 달러의 금리 매력이 낮아지면서 원/달러 환율 하락 압력으로 작용하고 있습니다.",
-    "유가·지정학 관련 최신 기사(\"Dollar holds firm as Middle East hostilities lift oil\")가 확인돼 원화 변동성 확대 요인으로 작용하고 있습니다."
+    "유가·지정학 관련 최신 기사(\"Dollar holds firm as Middle East hostilities lift oil\")가 확인돼 원화 변동성 확대 요인으로 작용하고 있습니다.",
+    "외환시장 관련 최신 기사(\"Government borrowing costs rise anew, adding to pressure on global policymakers\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
@@ -17,6 +17,12 @@
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOeHBBNVNPZnJHaVhnTDlrMDVERUdjS2dCWXl2NmplVWJtYTFiLXk3amhnNkFoeEdFVzBuczBNZmdNWEc3bEFTaFBxb1RWazVjTW0tQ2NNM1RjUlljdnB6a3VaQXdGeDNUUE9WbGJxOVJzZk1Wb056eEJqcUp4allyS0FSZmpLbXQ2MmZWYWdmVUNxczFmdU5helZNQ3pQT3c?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-02 10:03 KST"
+    },
+    {
+      "title": "Oil up nearly 1% as US and Iran trade fresh strikes",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPLTRkVWlBVVJQeFBDbXB5UzFkd05qc05KVXhja1h2cC1aMUZxOTRGQTY4a0ZHeWpiSzl0UE50MjRTTjFVREhMUGJhd29Ka21tTTlISE9yd3pSSHFESEtVOTBzb2c0dEVFakx5eEJLamxsMUJxZ0NOSTBpNll2a2Z5eVBncmR6S3MtSW1ITE9hN01KbUljNlcwNlB3aw?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-02 09:55 KST"
     },
     {
       "title": "Government borrowing costs rise anew, adding to pressure on global policymakers",
@@ -37,22 +43,16 @@
       "seen": "2026-09-02 07:22 KST"
     },
     {
-      "title": "Europe's STOXX 600 hits one-month low as inflation, rising yields pressure markets",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNN0tJaWlVSUgwd2NQSTY3RElibnZuVUo3a3c0OE9fdlMzZ0czVTRCN1lncmpadzJRNlhEN21PeEVHbkVLbzA3N0d3LXRMdWxsS2lUeDNqc0lYb3ZQMUtDTmwzY1RXMTM0ak1malVkNW9qNGJETVpaS0dCZENwcXlaTzdPRW5pek00c3ZkN05BTDlXNm9sNnFYSVZIZm56NWZhOHRVTngteVh0MF9DbTZyQmZ5bEUtNDVDUFRBYWUxVQ?oc=5",
+      "title": "Explainer: US Treasury yields are rising — Why does it matter?",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNWnItbnFodHQ0d1loUUlucU9LSmJKWWM1bWZlTXV5dmZnZ25Ub2FzZG5tWmRwREpkWTU4WUxFT0lFQ3RTZEJhUUFwOFh4bEZ1Z01fSUgwZXFUREZndGgxNklibXUtNC1meFNPaGNob0dGdUpQM3luRFo4RkdZUnYxakh0RUd2amU2bzJOMDRsM3JXanA4bWtmR3BaMl9fVHJqbllB?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-02 01:40 KST"
-    },
-    {
-      "title": "Iran defiant as Bessent says US likely to announce bank sanctions this week",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNeGphY1VfUlRFSzBBQTd6Y2xNVTZrVnY2WUstZDJ3SFFCUTVqenhlMFEwQWl6SlRNSlFGV2NQLXdtTmV0eWFPbWpqbDQ2Q29sNnp0a2prNWhwQlJBdjFjRm85N1AxQ2VTbTc4S05aQlBYakZJcXAyR2s0YWJXelBvdEs3R01WeGNFb1BFVm5lX0JzZzN2akVqTW1nRlZOWlNxMHdVekJKOVJheWszbE96M3pGMUNZWmFWWF9CWm5zMGR4YWJKckZfWUZvM292RFViMjFYRjlYeUFnNVU?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-02 00:44 KST"
+      "seen": "2026-09-02 02:51 KST"
     }
   ],
-  "rate_source_time": "2026-09-02 10:20:10 KST",
+  "rate_source_time": "2026-09-02 10:57:58 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": -1.0,
-  "rate_change_pct": -0.07,
+  "rate_change": 0.1,
+  "rate_change_pct": 0.01,
   "smbs_base_rate": 1370.3,
   "smbs_rate_date": "2026-09-02",
   "smbs_rate_updated_at_kst": "2026-09-02 09:31:12 KST",
@@ -63,6 +63,6 @@
     1380.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-02 10:19:57 KST",
+  "rate_job_checked_at_kst": "2026-09-02 10:57:42 KST",
   "smbs_rate_error": "RuntimeError: 서울외국환중개 페이지에서 USD 매매기준율을 찾지 못했습니다."
 }

@@ -1,22 +1,22 @@
 {
-  "updated_at_kst": "2026-09-02 20:47 KST",
-  "current_rate": 1363.5,
+  "updated_at_kst": "2026-09-02 21:29 KST",
+  "current_rate": 1362.5,
   "previous_close": 1371.9,
-  "rate_updated_at_kst": "2026-09-02 20:47:23 KST",
+  "rate_updated_at_kst": "2026-09-02 21:29:06 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
     "미국 물가 관련 최신 기사(\"Warsh's Jackson Hole encore may put Trump's inflation record under a microscope\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
-    "미 국채금리 관련 최신 기사(\"Rising Treasury yields could rattle US stocks as earnings season ends\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다.",
-    "유가 및 중동 지정학적 불확실성이 부각돼 에너지 수입 의존도가 높은 원화에는 약세 부담 요인으로 작용하고 있습니다."
+    "미 국채금리 관련 최신 기사(\"Market Talk: Can the dollar survive soaring bond yields?\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다.",
+    "달러 관련 최신 기사(\"RBI backstop keeps Indian rupee stable, blunting importer dollar demand impact\")가 확인돼 달러인덱스 방향성이 원/달러 환율의 핵심 변수로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
     {
-      "title": "Rising Treasury yields could rattle US stocks as earnings season ends",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQT0JPMlNBNHNJUVR2WWhfd0xOR3ZnWHAzampvY0tJRGFrN1NteWRFR28tekVYR0F1VW5GQ3I4M0FsR0dFalZzYUdERVlOSHJqOWRNNUFCVnFsaURzb0ZwWFZEZ3VHRTQ5czJaYkk2Ym9sOGROUEMxUHJzMzdFMnctMGZDbGRpUHdiOE1DSFI2VHhDNHdwWHlXTW13cG9FSUhOb0lrbEx5bXRaVzAyeVNsaGRYTWJYRnNqWjh1ZjFCcw?oc=5",
+      "title": "Market Talk: Can the dollar survive soaring bond yields?",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5CNGw4cjkyOVFWMVNycDBBUVdjNGxkcDh0TmRjNUcxR3RTeFBTSE9LLWt4Qy04OV80bTR3VkVFaDdFOXVTclo0NVZGVXA0SXVzUDJRRlVjTHR5ejVXcFZrN21ObTlSVFU?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-02 19:49 KST"
+      "seen": "2026-09-02 19:43 KST"
     },
     {
       "title": "Warsh's Jackson Hole encore may put Trump's inflation record under a microscope",
@@ -31,16 +31,16 @@
       "seen": "2026-09-02 19:22 KST"
     },
     {
-      "title": "Rupee in narrow range after higher open, RBI support meets importer demand",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNNldSQ0lyMXA4emh5cjBKR1lvcDg3ZXl1OGNoV3ItYTNJem4wQ0gycGtGd0lMdnFhNUtNTDR3czBPenBIbmItcEFtSlBib1hEQlpoR1ZBYlVYNTF4Tkx5VVdVM1BJZHNOWWVCaldmel9ha3FPOEppRUU1eFY3TUhIV2RBTUthWHhUeXFaZHR0TFdjNk93aks0OERPcE16cl90TFE?oc=5",
+      "title": "Rising Treasury yields could rattle US stocks as earnings season ends",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQT0JPMlNBNHNJUVR2WWhfd0xOR3ZnWHAzampvY0tJRGFrN1NteWRFR28tekVYR0F1VW5GQ3I4M0FsR0dFalZzYUdERVlOSHJqOWRNNUFCVnFsaURzb0ZwWFZEZ3VHRTQ5czJaYkk2Ym9sOGROUEMxUHJzMzdFMnctMGZDbGRpUHdiOE1DSFI2VHhDNHdwWHlXTW13cG9FSUhOb0lrbEx5bXRaVzAyeVNsaGRYTWJYRnNqWjh1ZjFCcw?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-02 16:21 KST"
+      "seen": "2026-09-02 19:02 KST"
     },
     {
-      "title": "COMMENTARY: The 'real' deal — world bonds grind towards higher neutral rates",
+      "title": "COMMENTARY: The 'real' deal — world bonds grind towards higher neutral rates: Mike Dolan",
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxObEk0Q09CTi14SmVKc3c5d3dSclpzM21pYkRoRXROd3g3MHgwWWxzaUFzV1VNTi10MG5xWXdycUJoTEdwTF81enZYZnl6azdoZHJVT3E1NEFXQ1NlUVBBOUVvRENSWGFOd05sYTdvZ3Q5eEU1emlaTWdlX1FXbXpSUE1Rdm9GVHJUS0ZJNjlTdEROMVpEV3lSdFdrc043S2xNX2hhXy12QUo0YU5GNUFBb1pBYkpkcTFEXzBNZmdZWEtqQVlWSTVHbXVtQzEwUDY0OEE?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-02 15:00 KST"
+      "seen": "2026-09-02 19:01 KST"
     },
     {
       "title": "The history of financing America, in six crisis episodes",
@@ -49,13 +49,13 @@
       "seen": "2026-09-02 14:02 KST"
     }
   ],
-  "rate_source_time": "2026-09-02 20:47:23 KST",
+  "rate_source_time": "2026-09-02 21:29:06 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": -8.4,
-  "rate_change_pct": -0.61,
+  "rate_change": -9.4,
+  "rate_change_pct": -0.69,
   "smbs_base_rate": 1370.3,
   "smbs_rate_date": "2026-09-02",
-  "smbs_rate_updated_at_kst": "2026-09-02 20:47:10 KST",
+  "smbs_rate_updated_at_kst": "2026-09-02 21:28:54 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1380.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-02 20:47:10 KST"
+  "rate_job_checked_at_kst": "2026-09-02 21:28:54 KST"
 }

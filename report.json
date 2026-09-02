@@ -1,13 +1,13 @@
 {
-  "updated_at_kst": "2026-09-02 11:38 KST",
-  "current_rate": 1372.0,
+  "updated_at_kst": "2026-09-02 11:54 KST",
+  "current_rate": 1370.2,
   "previous_close": 1371.9,
-  "rate_updated_at_kst": "2026-09-02 10:57:58 KST",
+  "rate_updated_at_kst": "2026-09-02 11:54:03 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
     "미국 물가 관련 최신 기사(\"Europe's STOXX 600 hits one-month low as inflation, rising yields pressure markets\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
-    "미 국채금리 관련 최신 기사(\"Asian markets tumble as US-Iran fighting lifts oil and bond yields\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다.",
+    "미 국채금리 하락 관련 보도가 확인돼 달러의 금리 매력이 낮아지면서 원/달러 환율 하락 압력으로 작용하고 있습니다.",
     "유가 및 중동 지정학적 불확실성이 부각돼 에너지 수입 의존도가 높은 원화에는 약세 부담 요인으로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
@@ -19,50 +19,49 @@
       "seen": "2026-09-02 11:23 KST"
     },
     {
-      "title": "Asian markets tumble as US-Iran fighting lifts oil and bond yields",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB0WUhpSzJRLUpQRnRFZFhzQTlMckJ1alJaa1RQaGo0RjdoZ0h3Y0VQd1I0NkxvS3AzWElTTTJFSF9KMEQ1U1lWVlNDZ2lud19wMW85LWpyQWJoNzltaFctdkdtRzMyWVZDam5yZWtxRHlzcUJBR3R4VHNHWQ?oc=5",
+      "title": "Gold hits over 3-week low as MidEast tensions fan rate-hike fears",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQTHRQNlR5eU9VUm53X3dNNDg4MktpOFdWaGhGakVQXzBHb3NlLXdUVWpDSUFwem4tbS1vdHdRbFQtLWtpZEVHRm5sbGJlbmszMXJvU1FGMVNsRnktZUNEZ3pZV1Vka3hPSVBfUk1TM3VJdTFuc2JuZXpPMUFFeThKVU9TLXRkRXdmNEdnYVhyU1dzWUdfbTZwdVQyV0VIY3p2RGZPckt1M2pPQmJWcEpz?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-02 10:16 KST"
+      "seen": "2026-09-02 11:18 KST"
+    },
+    {
+      "title": "Dollar holds firm as Middle East hostilities lift oil",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOeHBBNVNPZnJHaVhnTDlrMDVERUdjS2dCWXl2NmplVWJtYTFiLXk3amhnNkFoeEdFVzBuczBNZmdNWEc3bEFTaFBxb1RWazVjTW0tQ2NNM1RjUlljdnB6a3VaQXdGeDNUUE9WbGJxOVJzZk1Wb056eEJqcUp4allyS0FSZmpLbXQ2MmZWYWdmVUNxczFmdU5helZNQ3pQT3c?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-02 10:03 KST"
+    },
+    {
+      "title": "Oil up nearly 1% as US and Iran trade fresh strikes",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPLTRkVWlBVVJQeFBDbXB5UzFkd05qc05KVXhja1h2cC1aMUZxOTRGQTY4a0ZHeWpiSzl0UE50MjRTTjFVREhMUGJhd29Ka21tTTlISE9yd3pSSHFESEtVOTBzb2c0dEVFakx5eEJLamxsMUJxZ0NOSTBpNll2a2Z5eVBncmR6S3MtSW1ITE9hN01KbUljNlcwNlB3aw?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-02 09:55 KST"
+    },
+    {
+      "title": "Government borrowing costs rise anew, adding to pressure on global policymakers",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSl9GcExBdk5lb3U4c1NTalROY2NUNHE4SXdlbE5yemw4WkwteWNMdTZVTFdrcHhPUVF5Q181eTlxZ2xoUkV6Q3F4a19ldHJBdGFnaG9URjY3bXNTMDE0aV9mVDU1MUtxMTRXRl9pR2p2THVmc2JiWGlSb1prUElXTWtaNzBsb3Z5U2tCNXZlTlMtM3pHU3Y0dkVNWUhHWmVWUmJxbnZmVVFlNmVlMDR3?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-02 08:00 KST"
     },
     {
       "title": "Wall Street ends lower as higher yields, rising oil prices mark shaky start to September",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWjZiWGhvamxJTzU5Ync5V2xObHhDRk1PRlZFRkZnZVNqQzM0dHhuUnBMeGJDYW9YWmgxc29fRTNUaTVRT2xLWFZUOGJMWDU4MTlhQVVXRmFOQ3VGQnlNME9tQ09nUW0yMGNUR1c2amZkSVBQbHcwWDNQY0tfZHZoREF4SzVqZ2pNYzlCQVFmSkJMNFFwMEptQi03WlZlZG82bDVNZWhnUm9KMnFDS1pqVWlHZDZ2MmE1?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-02 07:26 KST"
-    },
-    {
-      "title": "Global bonds extend selloff, oil prices surge on renewed US-Iran strikes",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPUzRjcDczTGxqaGRleWZNeUwtZnpOTjRjNWhmSEt2YkQtY1ZwaDdhZ2RxX0hCWEZZdXpPSmlWZW45ZVBHM2lsMU9XalYtNEl1cGxpWjVhVTR2cDU1ajlNMzRJb3FZaGZ4akprMWhPNmd4cmJFOFI1Q29iWlI0ZnFXNXljcw?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-02 07:22 KST"
-    },
-    {
-      "title": "Explainer: US Treasury yields are rising — Why does it matter?",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNWnItbnFodHQ0d1loUUlucU9LSmJKWWM1bWZlTXV5dmZnZ25Ub2FzZG5tWmRwREpkWTU4WUxFT0lFQ3RTZEJhUUFwOFh4bEZ1Z01fSUgwZXFUREZndGgxNklibXUtNC1meFNPaGNob0dGdUpQM3luRFo4RkdZUnYxakh0RUd2amU2bzJOMDRsM3JXanA4bWtmR3BaMl9fVHJqbllB?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-02 02:51 KST"
-    },
-    {
-      "title": "Explainer: What's behind the selloff in world bond markets?",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPN01sQ1RpX1dfMlY5bzVSbjc5RnMxb3I4RnZZQW1BZnJBM3R2S0Zkdk95dGNnWFNQOXo1Y0FqSlprVHZ5czZ5ZHdQMGtzM1FqUHpaUjV2bnBaVlYtdW9CRk9iT3hEYnFqc1VzbmFmZ3FUY2lXZnNoSFM2c0s3dGtOcXBmbnFfTUtULUk5WHhDbGY4THBfOVBZ?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-02 02:50 KST"
     }
   ],
-  "rate_source_time": "2026-09-02 10:57:58 KST",
+  "rate_source_time": "2026-09-02 11:54:03 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 0.1,
-  "rate_change_pct": 0.01,
+  "rate_change": -1.7,
+  "rate_change_pct": -0.12,
   "smbs_base_rate": 1370.3,
   "smbs_rate_date": "2026-09-02",
-  "smbs_rate_updated_at_kst": "2026-09-02 11:36:06 KST",
+  "smbs_rate_updated_at_kst": "2026-09-02 11:53:51 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
     1368.0,
     1380.0
   ],
-  "rate_check_status": "failed",
-  "rate_job_checked_at_kst": "2026-09-02 11:36:06 KST",
-  "rate_fetch_error": "RuntimeError: KB STAR FX 자동조회 3회 실패: TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n | TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n | TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n"
+  "rate_check_status": "success",
+  "rate_job_checked_at_kst": "2026-09-02 11:53:51 KST"
 }

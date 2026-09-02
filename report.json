@@ -1,14 +1,14 @@
 {
-  "updated_at_kst": "2026-09-02 15:52 KST",
+  "updated_at_kst": "2026-09-02 16:24 KST",
   "current_rate": 1367.9,
   "previous_close": 1367.66,
   "rate_updated_at_kst": "2026-09-02 15:52:22 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
-    "미 국채금리 관련 최신 기사(\"Asian markets tumble as US-Iran fighting lifts oil and bond yields\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다.",
-    "유가 및 중동 지정학적 불확실성이 부각돼 에너지 수입 의존도가 높은 원화에는 약세 부담 요인으로 작용하고 있습니다.",
-    "외환시장 관련 최신 기사(\"The history of financing America, in six crisis episodes\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다."
+    "미국 물가 관련 최신 기사(\"Bond selloff deepens as inflation, oil prices jolt markets\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
+    "미 국채금리 관련 최신 기사(\"No shortage of culprits in panic over long US Treasury yields\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다.",
+    "유가 및 중동 지정학적 불확실성이 부각돼 에너지 수입 의존도가 높은 원화에는 약세 부담 요인으로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
@@ -19,8 +19,20 @@
       "seen": "2026-09-02 15:00 KST"
     },
     {
+      "title": "No shortage of culprits in panic over long US Treasury yields",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVVczNWtaWmZ0TmRaZTk0UjJBaHBJb3ZmWVIwdEt4RnFwRTVLdnNQVEV6RmhJTmItdlFiR1pkTXZEUEZXZjk4elVNUE55TFJ4ckt1MHJzekhGVFhHRGNpby1Pel8xOGUydmRGdlV3REQtbFJ4VnRRc3U3c0pGaHZSTmhabDVqX0pyVWlBZzFOUWZ6dVJaNTA1QXctTm5xbnNTT3FNQ1gtckUwMnBpVEhFWg?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-02 14:10 KST"
+    },
+    {
       "title": "The history of financing America, in six crisis episodes",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNVUF1ajBUVU9iUzgwZFJFOW93MnJoam1Cd2hOZ2ZYTEpQQ0M5LTRyZkhJYzZNazJ0bXkwb1R6NTd4NTVDQkp4N0RWajRLOUh3SGRqRE01Qzd0SEM3TGpreTNKckVVY3k2Ty1nUlROZDNvZ1hFSzhKZHE2aFcydnJJXzVUUktxWGp3LXBpZDk0RjJYMjlWTTRSR0RqS1dmRkk?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-02 14:07 KST"
+    },
+    {
+      "title": "Bond selloff deepens as inflation, oil prices jolt markets",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPSkJqeC1yeWhxa0NETU9oT1R3YUdoYm9fNE4zamM3MlhJTUFkZ3gwWDliZmFZRHpXaEFOLW1JMHN4dEhkTTlfY282eG9yWlJZRVpaR281SlMtWkpuLTRXYnQ4dkt0VnlwckFQU0JUR21WM2VBZTRYb3VKM0M0Zlg3aF83SUY0WERMb2dWdWlLQ3U2ZmlON1pJdU5WMTdEVUZoNlowM0ZhZDJNeEdFcUE?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-02 14:02 KST"
     },
@@ -31,22 +43,10 @@
       "seen": "2026-09-02 12:48 KST"
     },
     {
-      "title": "Gold hits over 3-week low as Mideast tensions fan rate-hike fears",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQTHRQNlR5eU9VUm53X3dNNDg4MktpOFdWaGhGakVQXzBHb3NlLXdUVWpDSUFwem4tbS1vdHdRbFQtLWtpZEVHRm5sbGJlbmszMXJvU1FGMVNsRnktZUNEZ3pZV1Vka3hPSVBfUk1TM3VJdTFuc2JuZXpPMUFFeThKVU9TLXRkRXdmNEdnYVhyU1dzWUdfbTZwdVQyV0VIY3p2RGZPckt1M2pPQmJWcEpz?oc=5",
+      "title": "Asian markets tumble as US-Iran fighting lifts oil and bond yields",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB0WUhpSzJRLUpQRnRFZFhzQTlMckJ1alJaa1RQaGo0RjdoZ0h3Y0VQd1I0NkxvS3AzWElTTTJFSF9KMEQ1U1lWVlNDZ2lud19wMW85LWpyQWJoNzltaFctdkdtRzMyWVZDam5yZWtxRHlzcUJBR3R4VHNHWQ?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-02 11:18 KST"
-    },
-    {
-      "title": "Dollar steadies near two-week high as Middle East hostilities lift oil",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOeHBBNVNPZnJHaVhnTDlrMDVERUdjS2dCWXl2NmplVWJtYTFiLXk3amhnNkFoeEdFVzBuczBNZmdNWEc3bEFTaFBxb1RWazVjTW0tQ2NNM1RjUlljdnB6a3VaQXdGeDNUUE9WbGJxOVJzZk1Wb056eEJqcUp4allyS0FSZmpLbXQ2MmZWYWdmVUNxczFmdU5helZNQ3pQT3c?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-02 10:03 KST"
-    },
-    {
-      "title": "Oil prices extend gains as US and Iran trade fresh strikes",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPLTRkVWlBVVJQeFBDbXB5UzFkd05qc05KVXhja1h2cC1aMUZxOTRGQTY4a0ZHeWpiSzl0UE50MjRTTjFVREhMUGJhd29Ka21tTTlISE9yd3pSSHFESEtVOTBzb2c0dEVFakx5eEJLamxsMUJxZ0NOSTBpNll2a2Z5eVBncmR6S3MtSW1ITE9hN01KbUljNlcwNlB3aw?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-02 09:55 KST"
+      "seen": "2026-09-02 12:11 KST"
     }
   ],
   "rate_source_time": "2026-09-02 15:52:22 KST",
@@ -55,13 +55,14 @@
   "rate_change_pct": 0.03,
   "smbs_base_rate": 1370.3,
   "smbs_rate_date": "2026-09-02",
-  "smbs_rate_updated_at_kst": "2026-09-02 15:52:05 KST",
+  "smbs_rate_updated_at_kst": "2026-09-02 16:22:23 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
     1368.0,
     1380.0
   ],
-  "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-02 15:52:05 KST"
+  "rate_check_status": "failed",
+  "rate_job_checked_at_kst": "2026-09-02 16:22:23 KST",
+  "rate_fetch_error": "RuntimeError: KB STAR FX 자동조회 3회 실패: TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n | TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n | TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n"
 }

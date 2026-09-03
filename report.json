@@ -1,14 +1,14 @@
 {
-  "updated_at_kst": "2026-09-03 15:29 KST",
-  "current_rate": 1359.8,
-  "previous_close": 1358.5,
-  "rate_updated_at_kst": "2026-09-03 15:29:27 KST",
+  "updated_at_kst": "2026-09-03 15:52 KST",
+  "current_rate": 1357.0,
+  "previous_close": 1348.75,
+  "rate_updated_at_kst": "2026-09-03 15:52:13 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
     "연준·금리 관련 최신 기사(\"Shares, bonds rally as markets await Fed signals; yen jumps\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
     "미 국채금리 관련 최신 기사(\"London midcaps hit a nearly one-month low as gilt yields surge\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다.",
-    "글로벌 달러 약세 관련 보도가 이어지며 원/달러 환율에는 하락 압력으로 작용하고 있습니다."
+    "유가 및 중동 지정학적 불확실성이 부각돼 에너지 수입 의존도가 높은 원화에는 약세 부담 요인으로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
@@ -17,12 +17,6 @@
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZHUxMWV6alo1MWFYM191bnlDTlhjTlc0Y2t0UjE4TndrZW9PczcxTmg5a1M0ZWk5M2Fqb0RvVlNIQWFuNG1nb3BtbjhhM2NmbkhDVENZTF9qYU53UDBWR3ROTl9XSlFDVGNLUF9sN29rSlhZc0xfSGZKcWlFanB4b2R1bw?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-03 14:21 KST"
-    },
-    {
-      "title": "Indian rupee scales 2-month peak as $136 bln inflows bolster currency against global risks",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOMk85MmIyN2lmb0h4UDlRMDM0Ym1DaTkxdndhUW0tTUEtQ0Fmb1MtQi1QWEhSTDNKZ2d6TTd6NEQ2dmtJSWJxVGtsTmQ3bFhtU0pqS1ljbUpOS2hYRERrRDh4WWhiSkRST2oyUTNDcVB1ZUZSXzNtQlFmU1RJVWs1Qm9Kc2Z5RU1aU2JfYnZlbW43eEVya1U4RzNQMFJKXzRzaW00LTl3SnBmV2NVN0VCWTVvZE5MLUVERGl6YlZCMDh1dC04dVFB?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-03 13:42 KST"
     },
     {
       "title": "Oil edges down as investors weigh uncertainty over U.S.-Iran strikes",
@@ -47,15 +41,21 @@
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQT0JPMlNBNHNJUVR2WWhfd0xOR3ZnWHAzampvY0tJRGFrN1NteWRFR28tekVYR0F1VW5GQ3I4M0FsR0dFalZzYUdERVlOSHJqOWRNNUFCVnFsaURzb0ZwWFZEZ3VHRTQ5czJaYkk2Ym9sOGROUEMxUHJzMzdFMnctMGZDbGRpUHdiOE1DSFI2VHhDNHdwWHlXTW13cG9FSUhOb0lrbEx5bXRaVzAyeVNsaGRYTWJYRnNqWjh1ZjFCcw?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-03 00:55 KST"
+    },
+    {
+      "title": "Market Talk: Can the dollar survive soaring bond yields?",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE52R09vWFVJRGVYU0JBaHJ5RENnNHhMSFpHc0xFOVZUODNHV09oMmZtTUNPYVZKMUh4SkQ2eFhINEJDbm5OLXZuUzFTMjJKYW05UU9keDFMN2RuR0l2RkFGMUpLS0pzTlVGMEVjajMtVDZyM2UwUjlQWEZUNUpYQQ?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-02 19:43 KST"
     }
   ],
-  "rate_source_time": "2026-09-03 15:29:27 KST",
+  "rate_source_time": "2026-09-03 15:52:13 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 1.3,
-  "rate_change_pct": 0.1,
+  "rate_change": 8.25,
+  "rate_change_pct": 0.96,
   "smbs_base_rate": 1369.4,
   "smbs_rate_date": "2026-09-03",
-  "smbs_rate_updated_at_kst": "2026-09-03 15:29:15 KST",
+  "smbs_rate_updated_at_kst": "2026-09-03 15:52:02 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1364.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-03 15:29:15 KST"
+  "rate_job_checked_at_kst": "2026-09-03 15:52:02 KST"
 }

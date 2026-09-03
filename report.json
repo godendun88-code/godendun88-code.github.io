@@ -1,17 +1,23 @@
 {
-  "updated_at_kst": "2026-09-03 16:23 KST",
-  "current_rate": 1356.8,
-  "previous_close": 1346.48,
-  "rate_updated_at_kst": "2026-09-03 16:23:15 KST",
+  "updated_at_kst": "2026-09-03 16:49 KST",
+  "current_rate": 1358.1,
+  "previous_close": 1349.81,
+  "rate_updated_at_kst": "2026-09-03 16:49:08 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
+    "미국 고용 관련 최신 기사(\"Gold gains, with investors gearing up for US nonfarm payrolls report\")가 확인돼 고용지표가 연준 금리 기대와 달러 방향성을 좌우하는 변수로 부각되고 있습니다.",
     "미 국채금리 상승 관련 보도가 확인돼 달러 수요를 지지하면서 원/달러 환율 상승 압력으로 작용하고 있습니다.",
-    "글로벌 달러 강세 관련 보도가 이어지며 원/달러 환율에는 상승 압력으로 작용하고 있습니다.",
-    "미 국채금리 관련 최신 기사(\"Gold rebounds over 1% as US dollar, yields pull back from highs\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다."
+    "유가 및 중동 지정학적 불확실성이 부각돼 에너지 수입 의존도가 높은 원화에는 약세 부담 요인으로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
+    {
+      "title": "Gold gains, with investors gearing up for US nonfarm payrolls report",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNTUhNZ1JkRGozUnRmOFd3alQyWTVjNjd4WXp4SmV4anJuRndaaEVRdzlXajB2b1pWUjh5LTJscnFjY0l6QkhINE9MaXAtRVVWVkdrVXZTSlRudFlSU2cxVVlMT1pkN21TTG55MUxyZEkxalhRUGNwRkVNYXZOeWZuX3VsSWx4alNGeENzSzdfSFRvRzlwdHNZRUppTGdIcHMtTUdrU05KV2VoQmNiWTNfOS1kVjNFMzFDQzFR?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-03 11:41 KST"
+    },
     {
       "title": "Stocks climb and US yields ease; yen jumps against dollar",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB0WUhpSzJRLUpQRnRFZFhzQTlMckJ1alJaa1RQaGo0RjdoZ0h3Y0VQd1I0NkxvS3AzWElTTTJFSF9KMEQ1U1lWVlNDZ2lud19wMW85LWpyQWJoNzltaFctdkdtRzMyWVZDam5yZWtxRHlzcUJBR3R4VHNHWQ?oc=5",
@@ -19,10 +25,10 @@
       "seen": "2026-09-03 07:01 KST"
     },
     {
-      "title": "Yen gains sharply, dollar eases from two-week high",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOeHBBNVNPZnJHaVhnTDlrMDVERUdjS2dCWXl2NmplVWJtYTFiLXk3amhnNkFoeEdFVzBuczBNZmdNWEc3bEFTaFBxb1RWazVjTW0tQ2NNM1RjUlljdnB6a3VaQXdGeDNUUE9WbGJxOVJzZk1Wb056eEJqcUp4allyS0FSZmpLbXQ2MmZWYWdmVUNxczFmdU5helZNQ3pQT3c?oc=5",
+      "title": "COMMENTARY: Trading Day: Yen jumps, oil pumps",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQR0FHMEFfd2xEWjlNWjNZazN5b01VM0MwbW96M3Z0bDZ6cktHVGdXN3UzbjZ1RnZsYTNaWk15REIyRDdPQ190bklNVTFOWkFEclZGMm1WWlZ5TDBqRWlsUUZpbjROSHFnX3NWb3gyWWRaOGRUbWZyakZMVTNVc2tVWC0wWXlNN1RjMmJDVmtIZVRjdXMtRWFDOFBrdG1jVF9Ec0pVWlZn?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-03 04:29 KST"
+      "seen": "2026-09-03 06:00 KST"
     },
     {
       "title": "Gold rebounds over 1% as US dollar, yields pull back from highs",
@@ -38,18 +44,18 @@
     },
     {
       "title": "Market Talk: Can the dollar survive soaring bond yields?",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA0UVpfaTZ4VEhEeEVQLWVHSElkMG9WQkJNeWtienBiRlZlanNWcTlIczNjZXdOSEFSc29sWm1UWnlGNXdpRlZwVDJaYnFBU2g4UkJnRy1KcnlPeTZacHQ5YVFvX2Jld1l4NWVnS3dseHVfRWNz?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE52R09vWFVJRGVYU0JBaHJ5RENnNHhMSFpHc0xFOVZUODNHV09oMmZtTUNPYVZKMUh4SkQ2eFhINEJDbm5OLXZuUzFTMjJKYW05UU9keDFMN2RuR0l2RkFGMUpLS0pzTlVGMEVjajMtVDZyM2UwUjlQWEZUNUpYQQ?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-02 19:43 KST"
     }
   ],
-  "rate_source_time": "2026-09-03 16:23:15 KST",
+  "rate_source_time": "2026-09-03 16:49:08 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 10.32,
-  "rate_change_pct": 1.21,
+  "rate_change": 8.29,
+  "rate_change_pct": 0.97,
   "smbs_base_rate": 1369.4,
   "smbs_rate_date": "2026-09-03",
-  "smbs_rate_updated_at_kst": "2026-09-03 16:22:59 KST",
+  "smbs_rate_updated_at_kst": "2026-09-03 16:48:57 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -57,5 +63,5 @@
     1364.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-03 16:22:59 KST"
+  "rate_job_checked_at_kst": "2026-09-03 16:48:57 KST"
 }

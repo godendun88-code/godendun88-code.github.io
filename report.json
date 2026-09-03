@@ -1,28 +1,28 @@
 {
-  "updated_at_kst": "2026-09-03 21:52 KST",
-  "current_rate": 1355.8,
-  "previous_close": 1339.55,
-  "rate_updated_at_kst": "2026-09-03 21:52:04 KST",
+  "updated_at_kst": "2026-09-03 22:26 KST",
+  "current_rate": 1356.5,
+  "previous_close": 1340.58,
+  "rate_updated_at_kst": "2026-09-03 22:26:31 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
-    "미 국채금리 상승 관련 보도가 확인돼 달러 수요를 지지하면서 원/달러 환율 상승 압력으로 작용하고 있습니다.",
-    "달러 관련 최신 기사(\"India's $136 billion dollar haul aids rupee but raises future risks\")가 확인돼 달러인덱스 방향성이 원/달러 환율의 핵심 변수로 작용하고 있습니다.",
-    "유가 및 중동 지정학적 불확실성이 부각돼 에너지 수입 의존도가 높은 원화에는 약세 부담 요인으로 작용하고 있습니다."
+    "미 국채금리 관련 최신 기사(\"Rising Treasury yields could rattle US stocks as earnings season ends\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다.",
+    "글로벌 달러 약세 관련 보도가 이어지며 원/달러 환율에는 하락 압력으로 작용하고 있습니다.",
+    "유가·지정학 관련 최신 기사(\"Sterling ticks up from three-week low as yen rallies and oil cools\")가 확인돼 원화 변동성 확대 요인으로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
     {
-      "title": "Wall St futures tepid as Middle East tensions keep investors wary",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPUzRxMTJxTk80aFlHOHU2WkVVbjhCeDhJVGNiVXFqSUg0cGhIUjY3d2hBTWQtUGVvMTJXMUVjaVJwc1lnTW9OMUp1ZjhiUjFfVlVTbk44Z1c2WTdqOVYwUUMzbVhVbHk5Tnk4V3ZoVWtvdHdBMDJDV1V2dEVRanc1UGc1ZlExN3VFTUpTTzBDcUVRZWN6Qlh0STQzb0ZqUmVlbWk4YWwzOA?oc=5",
+      "title": "Bond selloff is likely amplified by obscure economic rate",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQd3hINFZzSVVjWVplYkpEeHgzVGxZSmxxTUlGQ2xYN3gzZXBneEkzN0Y1bjhIaUN3akRUcFQtcGpBODF5NUM3YWdkUkw1ZWRCcjMzQjNQN0pMbVZMRmtTZzRuU1lxZ3dJelZJcmw1TWtiZ2dTSVpDSmt6aXRhbGFUaXV6RXMzb1dJVEk2bm9RT2hFckFHb2hTRHhwRHBzU0tqQ3dVWU1xTEtLZVQycHZ4QmVhVFd2Rk1BUmc?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-03 20:45 KST"
+      "seen": "2026-09-03 20:56 KST"
     },
     {
-      "title": "India's $136 billion dollar haul aids rupee but raises future risks",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOMk85MmIyN2lmb0h4UDlRMDM0Ym1DaTkxdndhUW0tTUEtQ0Fmb1MtQi1QWEhSTDNKZ2d6TTd6NEQ2dmtJSWJxVGtsTmQ3bFhtU0pqS1ljbUpOS2hYRERrRDh4WWhiSkRST2oyUTNDcVB1ZUZSXzNtQlFmU1RJVWs1Qm9Kc2Z5RU1aU2JfYnZlbW43eEVya1U4RzNQMFJKXzRzaW00LTl3SnBmV2NVN0VCWTVvZE5MLUVERGl6YlZCMDh1dC04dVFB?oc=5",
+      "title": "Indian rupee hits 10-week closing high as RBI schemes draw hefty dollar inflows",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNZXBJSnozUXVWWHEwOThJZnplT19kTUNiUzZBTTVPbl9QV0lPTWpGWjNld2t1aG9GWk9HQm5zYlJ1R3ViY2JWVmQxUDFRZWJGQ0dpdVp2bERIVDI5ZHp4RVNNd08yYjJnWTR3VFFicWluclFEcXdOU0QyRFRMenE4Zmc0TGQ5WXROUFFRMWVxXzBDeEdrS0VidDRlZXZ1enFGVENBZUR6X0oyZEM0ZXd3QV9mWG5QUGtXcS12NUQ1b1hZR0NT?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-03 20:24 KST"
+      "seen": "2026-09-03 20:26 KST"
     },
     {
       "title": "Sterling ticks up from three-week low as yen rallies and oil cools",
@@ -37,25 +37,25 @@
       "seen": "2026-09-03 11:02 KST"
     },
     {
-      "title": "Stocks climb and US yields ease; yen jumps against dollar",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB0WUhpSzJRLUpQRnRFZFhzQTlMckJ1alJaa1RQaGo0RjdoZ0h3Y0VQd1I0NkxvS3AzWElTTTJFSF9KMEQ1U1lWVlNDZ2lud19wMW85LWpyQWJoNzltaFctdkdtRzMyWVZDam5yZWtxRHlzcUJBR3R4VHNHWQ?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-03 07:01 KST"
-    },
-    {
       "title": "Yen gains sharply, dollar eases from two-week high",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOeHBBNVNPZnJHaVhnTDlrMDVERUdjS2dCWXl2NmplVWJtYTFiLXk3amhnNkFoeEdFVzBuczBNZmdNWEc3bEFTaFBxb1RWazVjTW0tQ2NNM1RjUlljdnB6a3VaQXdGeDNUUE9WbGJxOVJzZk1Wb056eEJqcUp4allyS0FSZmpLbXQ2MmZWYWdmVUNxczFmdU5helZNQ3pQT3c?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-03 04:29 KST"
+    },
+    {
+      "title": "Rising Treasury yields could rattle US stocks as earnings season ends",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQT0JPMlNBNHNJUVR2WWhfd0xOR3ZnWHAzampvY0tJRGFrN1NteWRFR28tekVYR0F1VW5GQ3I4M0FsR0dFalZzYUdERVlOSHJqOWRNNUFCVnFsaURzb0ZwWFZEZ3VHRTQ5czJaYkk2Ym9sOGROUEMxUHJzMzdFMnctMGZDbGRpUHdiOE1DSFI2VHhDNHdwWHlXTW13cG9FSUhOb0lrbEx5bXRaVzAyeVNsaGRYTWJYRnNqWjh1ZjFCcw?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-03 00:55 KST"
     }
   ],
-  "rate_source_time": "2026-09-03 21:52:04 KST",
+  "rate_source_time": "2026-09-03 22:26:31 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 16.25,
-  "rate_change_pct": 1.9,
+  "rate_change": 15.92,
+  "rate_change_pct": 1.86,
   "smbs_base_rate": 1369.4,
   "smbs_rate_date": "2026-09-03",
-  "smbs_rate_updated_at_kst": "2026-09-03 21:51:50 KST",
+  "smbs_rate_updated_at_kst": "2026-09-03 22:26:18 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1364.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-03 21:51:50 KST"
+  "rate_job_checked_at_kst": "2026-09-03 22:26:18 KST"
 }

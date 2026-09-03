@@ -1,29 +1,36 @@
 {
-  "updated_at_kst": "2026-09-03 23:50 KST",
+  "updated_at_kst": "2026-09-04 00:26 KST",
   "current_rate": 1358.0,
   "previous_close": 1340.9,
-  "rate_updated_at_kst": "2026-09-03 23:50:42 KST",
+  "rate_updated_at_kst": "2026-09-04 00:26:13 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
-    "외환시장 관련 최신 기사(\"Yen jumps to one-month high as traders weigh chance of further intervention\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다."
+    "달러 관련 최신 기사(\"India's $136 billion dollar haul aids rupee but raises future risks\")가 확인돼 달러인덱스 방향성이 원/달러 환율의 핵심 변수로 작용하고 있습니다.",
+    "유가·지정학 관련 최신 기사(\"Sterling ticks up from three-week low as yen rallies and oil cools\")가 확인돼 원화 변동성 확대 요인으로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
     {
-      "title": "Yen jumps to one-month high as traders weigh chance of further intervention",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8xVmVaTGFTOURLLWx6bFhQemQ5SzVybDVTYUwxYU8xWjlwUzdOa0ZVLVNoUUdxQUJsamVEUTUtaFFMeEpXUU9Ha2dzOEpFcVliYV9WQWJFSG5sa0xtNXdyNTBWMlRpVDVKTm5YNzNDQUzSAXZBVV95cUxONDQ1RU5ibThWb2laYkZGd2tEdWhlNDJjNTQxR05vWGVIRU43YUV3NktFLVNEVGVNVWt4dkZNNTdIR0syLXA3X0JZMkEydTFoSDJ4djh3b09VU1pxS05DVzQ3YUtsN3pwMUh3Q0Y4a04zcFNleU5B?oc=5",
-      "domain": "CNBC",
-      "seen": "2026-09-03 18:41 KST"
+      "title": "India's $136 billion dollar haul aids rupee but raises future risks",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOMk85MmIyN2lmb0h4UDlRMDM0Ym1DaTkxdndhUW0tTUEtQ0Fmb1MtQi1QWEhSTDNKZ2d6TTd6NEQ2dmtJSWJxVGtsTmQ3bFhtU0pqS1ljbUpOS2hYRERrRDh4WWhiSkRST2oyUTNDcVB1ZUZSXzNtQlFmU1RJVWs1Qm9Kc2Z5RU1aU2JfYnZlbW43eEVya1U4RzNQMFJKXzRzaW00LTl3SnBmV2NVN0VCWTVvZE5MLUVERGl6YlZCMDh1dC04dVFB?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-03 20:24 KST"
+    },
+    {
+      "title": "Sterling ticks up from three-week low as yen rallies and oil cools",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOV1NGWTdEaERkeW00Z01zWTlKNlVBazh6ZnoxdkJtWHBWaUVDV3BPSnVRTFdodkszeFRfT0t5cElaRC1MWWc5X0N5ZTktWGt2LUktaXFnSkJoRkZ1VUY1TUlpMTQ4Zzd1M3hGZ2F6bjV5TXlzUU1SUEJGUkliUDBLQVNUcWl3U0E3NFBNYzZRMF9SNlhIVWYySnk1NEYxbHhw?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-03 17:37 KST"
     }
   ],
-  "rate_source_time": "2026-09-03 23:50:42 KST",
+  "rate_source_time": "2026-09-04 00:26:13 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": 17.1,
   "rate_change_pct": 2.0,
-  "smbs_base_rate": 1369.4,
-  "smbs_rate_date": "2026-09-03",
-  "smbs_rate_updated_at_kst": "2026-09-03 23:24:23 KST",
+  "smbs_base_rate": 1359.5,
+  "smbs_rate_date": "2026-09-04",
+  "smbs_rate_updated_at_kst": "2026-09-04 00:25:59 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -31,6 +38,5 @@
     1364.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-03 23:50:24 KST",
-  "smbs_rate_error": "RuntimeError: 서울외국환중개 페이지에서 USD 매매기준율을 찾지 못했습니다."
+  "rate_job_checked_at_kst": "2026-09-04 00:25:59 KST"
 }

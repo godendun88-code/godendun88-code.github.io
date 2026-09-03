@@ -1,61 +1,29 @@
 {
-  "updated_at_kst": "2026-09-04 05:21 KST",
+  "updated_at_kst": "2026-09-04 05:47 KST",
   "current_rate": 1358.0,
   "previous_close": 1340.9,
-  "rate_updated_at_kst": "2026-09-04 05:21:28 KST",
+  "rate_updated_at_kst": "2026-09-04 05:46:47 KST",
   "rate_source": "KB STAR FX Market Watch",
-  "market_bias": "상승 우세",
+  "market_bias": "혼조",
   "drivers": [
-    "연준의 추가 금리 인상 또는 매파적 기조 우려가 부각돼 달러 강세 압력이 높아지는 요인으로 작용하고 있습니다.",
-    "미 국채금리 상승 관련 보도가 확인돼 달러 수요를 지지하면서 원/달러 환율 상승 압력으로 작용하고 있습니다.",
-    "글로벌 달러 약세 관련 보도가 이어지며 원/달러 환율에는 하락 압력으로 작용하고 있습니다."
+    "외환시장 관련 최신 기사(\"Yen jumps to one-month high as traders weigh chance of further intervention\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다."
   ],
-  "outlook": "달러 강세·금리 상승 계열의 재료가 상대적으로 우세해 원/달러는 단기 상승 압력이 나타날 수 있으나, 국내 수급과 위험선호 회복 여부에 따라 변동성이 예상됩니다.",
+  "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
     {
-      "title": "Wall Street rallies as Fed's Waller eases rate hike fears",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPUzRxMTJxTk80aFlHOHU2WkVVbjhCeDhJVGNiVXFqSUg0cGhIUjY3d2hBTWQtUGVvMTJXMUVjaVJwc1lnTW9OMUp1ZjhiUjFfVlVTbk44Z1c2WTdqOVYwUUMzbVhVbHk5Tnk4V3ZoVWtvdHdBMDJDV1V2dEVRanc1UGc1ZlExN3VFTUpTTzBDcUVRZWN6Qlh0STQzb0ZqUmVlbWk4YWwzOA?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-04 03:26 KST"
-    },
-    {
-      "title": "Fed's Waller says safety premium for Treasuries is gone, pushing neutral rate higher",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQUVFaVFFacUdlWTV3R2pKeGRYSjR5WDlmQ1d1aTlPVmVEVTZVamxTa0gwMVdvUnJWRkY5MjczVTUxaTEwZHdtTHBqdk1fa1FTRHFnaTFVRWlKRk1EVUJGZzhxV1gxS0ZmdV9oNWVhZXI1eGg3VE80czNCUVdBYnY4ay1UTGNYWlg2bHRocUpUbUNhT2pQQlljUzhPdjBxOXg5OTVVamdSNWN2Z3RxdmJZSUlSN3BxQ2R1YmVGR3pkNWk?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-04 02:47 KST"
-    },
-    {
-      "title": "Bond selloff is likely amplified by obscure economic rate",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQd3hINFZzSVVjWVplYkpEeHgzVGxZSmxxTUlGQ2xYN3gzZXBneEkzN0Y1bjhIaUN3akRUcFQtcGpBODF5NUM3YWdkUkw1ZWRCcjMzQjNQN0pMbVZMRmtTZzRuU1lxZ3dJelZJcmw1TWtiZ2dTSVpDSmt6aXRhbGFUaXV6RXMzb1dJVEk2bm9RT2hFckFHb2hTRHhwRHBzU0tqQ3dVWU1xTEtLZVQycHZ4QmVhVFd2Rk1BUmc?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-04 01:51 KST"
-    },
-    {
-      "title": "US fixed 30-year mortgage rate rises to highest since July 2025",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNaDVqOUVUMnJZVEVoVXZjUHN5bDd2Z1ZUTEVQeGpJV2lHYWpacnhURW9YdWFKaVJHNk5kSVRPZWwzUFA3Ti1hYTFRS2theF9POE9aZ09EZVJyWjdtbXFvUk9DamhteE5KdEV4UmYxWDhQNGh6cFZjOF9PUjFFNUxSVTFaQTJBQ21VYTVITVptMWlfaTdQRDNRZGRzSmdyNEE5bWFNRlRmM3FXZWc?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-04 01:49 KST"
-    },
-    {
-      "title": "Wall St climbs after Fed's Waller says he could support rate hold",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPUzRxMTJxTk80aFlHOHU2WkVVbjhCeDhJVGNiVXFqSUg0cGhIUjY3d2hBTWQtUGVvMTJXMUVjaVJwc1lnTW9OMUp1ZjhiUjFfVlVTbk44Z1c2WTdqOVYwUUMzbVhVbHk5Tnk4V3ZoVWtvdHdBMDJDV1V2dEVRanc1UGc1ZlExN3VFTUpTTzBDcUVRZWN6Qlh0STQzb0ZqUmVlbWk4YWwzOA?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-04 00:57 KST"
-    },
-    {
-      "title": "Indian rupee hits 10-week closing high as RBI schemes draw hefty dollar inflows",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNZXBJSnozUXVWWHEwOThJZnplT19kTUNiUzZBTTVPbl9QV0lPTWpGWjNld2t1aG9GWk9HQm5zYlJ1R3ViY2JWVmQxUDFRZWJGQ0dpdVp2bERIVDI5ZHp4RVNNd08yYjJnWTR3VFFicWluclFEcXdOU0QyRFRMenE4Zmc0TGQ5WXROUFFRMWVxXzBDeEdrS0VidDRlZXZ1enFGVENBZUR6X0oyZEM0ZXd3QV9mWG5QUGtXcS12NUQ1b1hZR0NT?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-03 23:35 KST"
+      "title": "Yen jumps to one-month high as traders weigh chance of further intervention",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8xVmVaTGFTOURLLWx6bFhQemQ5SzVybDVTYUwxYU8xWjlwUzdOa0ZVLVNoUUdxQUJsamVEUTUtaFFMeEpXUU9Ha2dzOEpFcVliYV9WQWJFSG5sa0xtNXdyNTBWMlRpVDVKTm5YNzNDQUzSAXZBVV95cUxONDQ1RU5ibThWb2laYkZGd2tEdWhlNDJjNTQxR05vWGVIRU43YUV3NktFLVNEVGVNVWt4dkZNNTdIR0syLXA3X0JZMkEydTFoSDJ4djh3b09VU1pxS05DVzQ3YUtsN3pwMUh3Q0Y4a04zcFNleU5B?oc=5",
+      "domain": "CNBC",
+      "seen": "2026-09-03 18:41 KST"
     }
   ],
-  "rate_source_time": "2026-09-04 05:21:28 KST",
+  "rate_source_time": "2026-09-04 05:46:47 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": 17.1,
   "rate_change_pct": 2.0,
   "smbs_base_rate": 1359.5,
   "smbs_rate_date": "2026-09-04",
-  "smbs_rate_updated_at_kst": "2026-09-04 05:21:16 KST",
+  "smbs_rate_updated_at_kst": "2026-09-04 05:46:30 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +31,5 @@
     1364.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-04 05:21:16 KST"
+  "rate_job_checked_at_kst": "2026-09-04 05:46:30 KST"
 }

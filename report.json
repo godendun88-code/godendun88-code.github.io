@@ -1,14 +1,14 @@
 {
-  "updated_at_kst": "2026-09-03 09:33 KST",
-  "current_rate": 1361.6,
+  "updated_at_kst": "2026-09-03 09:52 KST",
+  "current_rate": 1358.6,
   "previous_close": 1358.5,
-  "rate_updated_at_kst": "2026-09-03 09:32:50 KST",
+  "rate_updated_at_kst": "2026-09-03 09:52:15 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
-    "연준·금리 관련 최신 기사(\"Dollar to hold gains, but stuck on sparse Fed rate guidance: Reuters poll\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
     "미국 물가 관련 최신 기사(\"Warsh's Jackson Hole encore may put Trump's inflation record under a microscope\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
-    "미 국채금리 관련 최신 기사(\"Rising Treasury yields could rattle US stocks as earnings season ends\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다."
+    "미 국채금리 관련 최신 기사(\"Rising Treasury yields could rattle US stocks as earnings season ends\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다.",
+    "달러 관련 최신 기사(\"RBI backstop keeps Indian rupee stable, blunting importer dollar demand impact\")가 확인돼 달러인덱스 방향성이 원/달러 환율의 핵심 변수로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
@@ -25,10 +25,16 @@
       "seen": "2026-09-03 06:04 KST"
     },
     {
-      "title": "Dollar to hold gains, but stuck on sparse Fed rate guidance: Reuters poll",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPYXlRdl9Td3JHLWRIX3R5U0ZSNm0yS0VVb09VcTdEWVpKM2Z1MUw2ai1nRGJwRnp0dWIwNDdMYlk2d3lnUzJBOE5aQnRzeU4tWHhQR3NuOTdzRklCYzJ2TGl1Q1dqMzRBVnlGbVJWNzN3Z3BHSTNnUU44bUprMnRtRW5taFZuVFlfWldxeEdFSDd0OFBQ?oc=5",
+      "title": "Oil settles 1% higher, as US-Iran strikes threaten supplies",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPLTRkVWlBVVJQeFBDbXB5UzFkd05qc05KVXhja1h2cC1aMUZxOTRGQTY4a0ZHeWpiSzl0UE50MjRTTjFVREhMUGJhd29Ka21tTTlISE9yd3pSSHFESEtVOTBzb2c0dEVFakx5eEJLamxsMUJxZ0NOSTBpNll2a2Z5eVBncmR6S3MtSW1ITE9hN01KbUljNlcwNlB3aw?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-03 03:52 KST"
+      "seen": "2026-09-03 04:30 KST"
+    },
+    {
+      "title": "India draws a bumper $136 billion in forex inflows, bolstering rupee defence",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQb05GRzZpQ2VFMXEyVTVCdzFLd2NtYVBqYUNldVo3WXhybzRZTXctUFEwSkxzWF9TcmE1d3hmM2JNMnkycndvLXJreW1XZkE1elp4QU5Sc25tbERmMVhaMktXUlNWQkQzMkF1VVl0YmFtQUo4c2hqZGhFX21HdFlmR3NsMVJwanZSaG12M3MxaUVvLUxyOGlzbE8tWjRQM0VVYjliWFR0ams?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-03 01:23 KST"
     },
     {
       "title": "Rising Treasury yields could rattle US stocks as earnings season ends",
@@ -41,21 +47,15 @@
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE52R09vWFVJRGVYU0JBaHJ5RENnNHhMSFpHc0xFOVZUODNHV09oMmZtTUNPYVZKMUh4SkQ2eFhINEJDbm5OLXZuUzFTMjJKYW05UU9keDFMN2RuR0l2RkFGMUpLS0pzTlVGMEVjajMtVDZyM2UwUjlQWEZUNUpYQQ?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-02 19:43 KST"
-    },
-    {
-      "title": "Warsh's Jackson Hole encore may put Trump's inflation record under a microscope",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQR1R1MzRzd281NmluU3cyRUNUV1VRY2h0UFFKbU40ZVExWWVXdGIwNGltaEwyUXJ4UWVzU3owNXlsd3FFbTBYVTRxMW1SQlBvLTRpT1dSeE9TRG5qbmUwUmJSa3NYZ29IRGxFRmZLVzBKdjNpZXFPZGhEamJOWmRiX3VQNlBmNDJMM0ZTS0xBSks3Z2NfOUJURGZPU1pWWGJrVGRMT2o5dFczNXhxdVhCSXpBZ1VGT1FCazgzcg?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-02 19:31 KST"
     }
   ],
-  "rate_source_time": "2026-09-03 09:32:50 KST",
+  "rate_source_time": "2026-09-03 09:52:15 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 3.1,
-  "rate_change_pct": 0.23,
+  "rate_change": 0.1,
+  "rate_change_pct": 0.01,
   "smbs_base_rate": 1369.4,
   "smbs_rate_date": "2026-09-03",
-  "smbs_rate_updated_at_kst": "2026-09-03 09:32:37 KST",
+  "smbs_rate_updated_at_kst": "2026-09-03 09:52:03 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1364.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-03 09:32:37 KST"
+  "rate_job_checked_at_kst": "2026-09-03 09:52:03 KST"
 }

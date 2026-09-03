@@ -1,27 +1,52 @@
 {
-  "updated_at_kst": "2026-09-04 00:26 KST",
+  "updated_at_kst": "2026-09-04 00:51 KST",
   "current_rate": 1358.0,
   "previous_close": 1340.9,
   "rate_updated_at_kst": "2026-09-04 00:26:13 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
+    "연준·금리 관련 최신 기사(\"Dollar to hold gains, but stuck on sparse Fed rate guidance: Reuters poll\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
     "달러 관련 최신 기사(\"India's $136 billion dollar haul aids rupee but raises future risks\")가 확인돼 달러인덱스 방향성이 원/달러 환율의 핵심 변수로 작용하고 있습니다.",
-    "유가·지정학 관련 최신 기사(\"Sterling ticks up from three-week low as yen rallies and oil cools\")가 확인돼 원화 변동성 확대 요인으로 작용하고 있습니다."
+    "외환시장 관련 최신 기사(\"Bond selloff is likely amplified by obscure economic rate\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
     {
+      "title": "Bond selloff is likely amplified by obscure economic rate",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQd3hINFZzSVVjWVplYkpEeHgzVGxZSmxxTUlGQ2xYN3gzZXBneEkzN0Y1bjhIaUN3akRUcFQtcGpBODF5NUM3YWdkUkw1ZWRCcjMzQjNQN0pMbVZMRmtTZzRuU1lxZ3dJelZJcmw1TWtiZ2dTSVpDSmt6aXRhbGFUaXV6RXMzb1dJVEk2bm9RT2hFckFHb2hTRHhwRHBzU0tqQ3dVWU1xTEtLZVQycHZ4QmVhVFd2Rk1BUmc?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-03 23:04 KST"
+    },
+    {
+      "title": "Yen jumps to one-month high as traders weigh chance of further intervention",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8xVmVaTGFTOURLLWx6bFhQemQ5SzVybDVTYUwxYU8xWjlwUzdOa0ZVLVNoUUdxQUJsamVEUTUtaFFMeEpXUU9Ha2dzOEpFcVliYV9WQWJFSG5sa0xtNXdyNTBWMlRpVDVKTm5YNzNDQUzSAXZBVV95cUxONDQ1RU5ibThWb2laYkZGd2tEdWhlNDJjNTQxR05vWGVIRU43YUV3NktFLVNEVGVNVWt4dkZNNTdIR0syLXA3X0JZMkEydTFoSDJ4djh3b09VU1pxS05DVzQ3YUtsN3pwMUh3Q0Y4a04zcFNleU5B?oc=5",
+      "domain": "CNBC",
+      "seen": "2026-09-03 18:41 KST"
+    },
+    {
       "title": "India's $136 billion dollar haul aids rupee but raises future risks",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOMk85MmIyN2lmb0h4UDlRMDM0Ym1DaTkxdndhUW0tTUEtQ0Fmb1MtQi1QWEhSTDNKZ2d6TTd6NEQ2dmtJSWJxVGtsTmQ3bFhtU0pqS1ljbUpOS2hYRERrRDh4WWhiSkRST2oyUTNDcVB1ZUZSXzNtQlFmU1RJVWs1Qm9Kc2Z5RU1aU2JfYnZlbW43eEVya1U4RzNQMFJKXzRzaW00LTl3SnBmV2NVN0VCWTVvZE5MLUVERGl6YlZCMDh1dC04dVFB?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-03 20:24 KST"
+      "seen": "2026-09-03 13:42 KST"
     },
     {
-      "title": "Sterling ticks up from three-week low as yen rallies and oil cools",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOV1NGWTdEaERkeW00Z01zWTlKNlVBazh6ZnoxdkJtWHBWaUVDV3BPSnVRTFdodkszeFRfT0t5cElaRC1MWWc5X0N5ZTktWGt2LUktaXFnSkJoRkZ1VUY1TUlpMTQ4Zzd1M3hGZ2F6bjV5TXlzUU1SUEJGUkliUDBLQVNUcWl3U0E3NFBNYzZRMF9SNlhIVWYySnk1NEYxbHhw?oc=5",
+      "title": "Trump pledged fiscal restraint. Instead, US debt topped $40 trillion",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9XaS1JNlJuMXRYbVZ1N24yTEU4UGVEcDZldS1iV3A4bkxsSDZPN05HMUo3M25pa1V1dDlxWVYxXy05ZU5LRnhWaTNsQ1gyZEtJM2xNQmdPZlBtY2N1cVB6aUJsWjRRQzVJS2JFbXBXcDQwRmVoUHV0NnF3?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-03 17:37 KST"
+      "seen": "2026-09-03 06:40 KST"
+    },
+    {
+      "title": "Yen gains sharply, dollar eases from two-week high",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOeHBBNVNPZnJHaVhnTDlrMDVERUdjS2dCWXl2NmplVWJtYTFiLXk3amhnNkFoeEdFVzBuczBNZmdNWEc3bEFTaFBxb1RWazVjTW0tQ2NNM1RjUlljdnB6a3VaQXdGeDNUUE9WbGJxOVJzZk1Wb056eEJqcUp4allyS0FSZmpLbXQ2MmZWYWdmVUNxczFmdU5helZNQ3pQT3c?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-03 04:29 KST"
+    },
+    {
+      "title": "Dollar to hold gains, but stuck on sparse Fed rate guidance: Reuters poll",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPYXlRdl9Td3JHLWRIX3R5U0ZSNm0yS0VVb09VcTdEWVpKM2Z1MUw2ai1nRGJwRnp0dWIwNDdMYlk2d3lnUzJBOE5aQnRzeU4tWHhQR3NuOTdzRklCYzJ2TGl1Q1dqMzRBVnlGbVJWNzN3Z3BHSTNnUU44bUprMnRtRW5taFZuVFlfWldxeEdFSDd0OFBQ?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-03 03:52 KST"
     }
   ],
   "rate_source_time": "2026-09-04 00:26:13 KST",
@@ -30,13 +55,14 @@
   "rate_change_pct": 2.0,
   "smbs_base_rate": 1359.5,
   "smbs_rate_date": "2026-09-04",
-  "smbs_rate_updated_at_kst": "2026-09-04 00:25:59 KST",
+  "smbs_rate_updated_at_kst": "2026-09-04 00:48:37 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
     1353.0,
     1364.0
   ],
-  "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-04 00:25:59 KST"
+  "rate_check_status": "failed",
+  "rate_job_checked_at_kst": "2026-09-04 00:48:37 KST",
+  "rate_fetch_error": "RuntimeError: KB STAR FX 자동조회 3회 실패: TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n | TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n | TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n"
 }

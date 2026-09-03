@@ -1,28 +1,28 @@
 {
-  "updated_at_kst": "2026-09-03 22:26 KST",
-  "current_rate": 1356.7,
-  "previous_close": 1340.6,
-  "rate_updated_at_kst": "2026-09-03 22:49:19 KST",
+  "updated_at_kst": "2026-09-03 23:24 KST",
+  "current_rate": 1356.9,
+  "previous_close": 1339.66,
+  "rate_updated_at_kst": "2026-09-03 23:24:34 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
-    "미 국채금리 관련 최신 기사(\"Rising Treasury yields could rattle US stocks as earnings season ends\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다.",
-    "글로벌 달러 약세 관련 보도가 이어지며 원/달러 환율에는 하락 압력으로 작용하고 있습니다.",
-    "유가·지정학 관련 최신 기사(\"Sterling ticks up from three-week low as yen rallies and oil cools\")가 확인돼 원화 변동성 확대 요인으로 작용하고 있습니다."
+    "연준·금리 관련 최신 기사(\"Dollar to hold gains, but stuck on sparse Fed rate guidance: Reuters poll\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
+    "미국 고용 관련 최신 기사(\"Gold advances on softer US dollar, bond yields ahead of payrolls report\")가 확인돼 고용지표가 연준 금리 기대와 달러 방향성을 좌우하는 변수로 부각되고 있습니다.",
+    "미 국채금리 상승 관련 보도가 확인돼 달러 수요를 지지하면서 원/달러 환율 상승 압력으로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
+    {
+      "title": "Stocks gain as bonds recover; rising Gulf tensions boost oil",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZHUxMWV6alo1MWFYM191bnlDTlhjTlc0Y2t0UjE4TndrZW9PczcxTmg5a1M0ZWk5M2Fqb0RvVlNIQWFuNG1nb3BtbjhhM2NmbkhDVENZTF9qYU53UDBWR3ROTl9XSlFDVGNLUF9sN29rSlhZc0xfSGZKcWlFanB4b2R1bw?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-03 21:04 KST"
+    },
     {
       "title": "Bond selloff is likely amplified by obscure economic rate",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQd3hINFZzSVVjWVplYkpEeHgzVGxZSmxxTUlGQ2xYN3gzZXBneEkzN0Y1bjhIaUN3akRUcFQtcGpBODF5NUM3YWdkUkw1ZWRCcjMzQjNQN0pMbVZMRmtTZzRuU1lxZ3dJelZJcmw1TWtiZ2dTSVpDSmt6aXRhbGFUaXV6RXMzb1dJVEk2bm9RT2hFckFHb2hTRHhwRHBzU0tqQ3dVWU1xTEtLZVQycHZ4QmVhVFd2Rk1BUmc?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-03 20:56 KST"
-    },
-    {
-      "title": "Indian rupee hits 10-week closing high as RBI schemes draw hefty dollar inflows",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNZXBJSnozUXVWWHEwOThJZnplT19kTUNiUzZBTTVPbl9QV0lPTWpGWjNld2t1aG9GWk9HQm5zYlJ1R3ViY2JWVmQxUDFRZWJGQ0dpdVp2bERIVDI5ZHp4RVNNd08yYjJnWTR3VFFicWluclFEcXdOU0QyRFRMenE4Zmc0TGQ5WXROUFFRMWVxXzBDeEdrS0VidDRlZXZ1enFGVENBZUR6X0oyZEM0ZXd3QV9mWG5QUGtXcS12NUQ1b1hZR0NT?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-03 20:26 KST"
     },
     {
       "title": "Sterling ticks up from three-week low as yen rallies and oil cools",
@@ -31,31 +31,31 @@
       "seen": "2026-09-03 17:37 KST"
     },
     {
-      "title": "Stocks gain as bonds recover; rising Gulf tensions boost oil",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZHUxMWV6alo1MWFYM191bnlDTlhjTlc0Y2t0UjE4TndrZW9PczcxTmg5a1M0ZWk5M2Fqb0RvVlNIQWFuNG1nb3BtbjhhM2NmbkhDVENZTF9qYU53UDBWR3ROTl9XSlFDVGNLUF9sN29rSlhZc0xfSGZKcWlFanB4b2R1bw?oc=5",
+      "title": "Indian rupee hits 10-week closing high as RBI schemes draw hefty dollar inflows",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNZXBJSnozUXVWWHEwOThJZnplT19kTUNiUzZBTTVPbl9QV0lPTWpGWjNld2t1aG9GWk9HQm5zYlJ1R3ViY2JWVmQxUDFRZWJGQ0dpdVp2bERIVDI5ZHp4RVNNd08yYjJnWTR3VFFicWluclFEcXdOU0QyRFRMenE4Zmc0TGQ5WXROUFFRMWVxXzBDeEdrS0VidDRlZXZ1enFGVENBZUR6X0oyZEM0ZXd3QV9mWG5QUGtXcS12NUQ1b1hZR0NT?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-03 11:02 KST"
+      "seen": "2026-09-03 12:00 KST"
     },
     {
-      "title": "Yen gains sharply, dollar eases from two-week high",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOeHBBNVNPZnJHaVhnTDlrMDVERUdjS2dCWXl2NmplVWJtYTFiLXk3amhnNkFoeEdFVzBuczBNZmdNWEc3bEFTaFBxb1RWazVjTW0tQ2NNM1RjUlljdnB6a3VaQXdGeDNUUE9WbGJxOVJzZk1Wb056eEJqcUp4allyS0FSZmpLbXQ2MmZWYWdmVUNxczFmdU5helZNQ3pQT3c?oc=5",
+      "title": "Gold advances on softer US dollar, bond yields ahead of payrolls report",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNTUhNZ1JkRGozUnRmOFd3alQyWTVjNjd4WXp4SmV4anJuRndaaEVRdzlXajB2b1pWUjh5LTJscnFjY0l6QkhINE9MaXAtRVVWVkdrVXZTSlRudFlSU2cxVVlMT1pkN21TTG55MUxyZEkxalhRUGNwRkVNYXZOeWZuX3VsSWx4alNGeENzSzdfSFRvRzlwdHNZRUppTGdIcHMtTUdrU05KV2VoQmNiWTNfOS1kVjNFMzFDQzFR?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-03 04:29 KST"
+      "seen": "2026-09-03 11:41 KST"
     },
     {
-      "title": "Rising Treasury yields could rattle US stocks as earnings season ends",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQT0JPMlNBNHNJUVR2WWhfd0xOR3ZnWHAzampvY0tJRGFrN1NteWRFR28tekVYR0F1VW5GQ3I4M0FsR0dFalZzYUdERVlOSHJqOWRNNUFCVnFsaURzb0ZwWFZEZ3VHRTQ5czJaYkk2Ym9sOGROUEMxUHJzMzdFMnctMGZDbGRpUHdiOE1DSFI2VHhDNHdwWHlXTW13cG9FSUhOb0lrbEx5bXRaVzAyeVNsaGRYTWJYRnNqWjh1ZjFCcw?oc=5",
+      "title": "Stocks climb and US yields ease; yen jumps against dollar",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB0WUhpSzJRLUpQRnRFZFhzQTlMckJ1alJaa1RQaGo0RjdoZ0h3Y0VQd1I0NkxvS3AzWElTTTJFSF9KMEQ1U1lWVlNDZ2lud19wMW85LWpyQWJoNzltaFctdkdtRzMyWVZDam5yZWtxRHlzcUJBR3R4VHNHWQ?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-03 00:55 KST"
+      "seen": "2026-09-03 07:01 KST"
     }
   ],
-  "rate_source_time": "2026-09-03 22:49:19 KST",
+  "rate_source_time": "2026-09-03 23:24:34 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 16.1,
-  "rate_change_pct": 1.88,
+  "rate_change": 17.24,
+  "rate_change_pct": 2.01,
   "smbs_base_rate": 1369.4,
   "smbs_rate_date": "2026-09-03",
-  "smbs_rate_updated_at_kst": "2026-09-03 22:49:07 KST",
+  "smbs_rate_updated_at_kst": "2026-09-03 23:24:23 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1364.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-03 22:49:07 KST"
+  "rate_job_checked_at_kst": "2026-09-03 23:24:23 KST"
 }

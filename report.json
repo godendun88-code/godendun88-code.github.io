@@ -1,40 +1,34 @@
 {
-  "updated_at_kst": "2026-09-03 15:52 KST",
-  "current_rate": 1357.0,
-  "previous_close": 1348.75,
-  "rate_updated_at_kst": "2026-09-03 15:52:13 KST",
+  "updated_at_kst": "2026-09-03 16:23 KST",
+  "current_rate": 1356.8,
+  "previous_close": 1346.48,
+  "rate_updated_at_kst": "2026-09-03 16:23:15 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
-    "연준·금리 관련 최신 기사(\"Shares, bonds rally as markets await Fed signals; yen jumps\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
-    "미 국채금리 관련 최신 기사(\"London midcaps hit a nearly one-month low as gilt yields surge\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다.",
-    "유가 및 중동 지정학적 불확실성이 부각돼 에너지 수입 의존도가 높은 원화에는 약세 부담 요인으로 작용하고 있습니다."
+    "미 국채금리 상승 관련 보도가 확인돼 달러 수요를 지지하면서 원/달러 환율 상승 압력으로 작용하고 있습니다.",
+    "글로벌 달러 강세 관련 보도가 이어지며 원/달러 환율에는 상승 압력으로 작용하고 있습니다.",
+    "미 국채금리 관련 최신 기사(\"Gold rebounds over 1% as US dollar, yields pull back from highs\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
     {
-      "title": "Shares, bonds rally as markets await Fed signals; yen jumps",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZHUxMWV6alo1MWFYM191bnlDTlhjTlc0Y2t0UjE4TndrZW9PczcxTmg5a1M0ZWk5M2Fqb0RvVlNIQWFuNG1nb3BtbjhhM2NmbkhDVENZTF9qYU53UDBWR3ROTl9XSlFDVGNLUF9sN29rSlhZc0xfSGZKcWlFanB4b2R1bw?oc=5",
+      "title": "Stocks climb and US yields ease; yen jumps against dollar",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB0WUhpSzJRLUpQRnRFZFhzQTlMckJ1alJaa1RQaGo0RjdoZ0h3Y0VQd1I0NkxvS3AzWElTTTJFSF9KMEQ1U1lWVlNDZ2lud19wMW85LWpyQWJoNzltaFctdkdtRzMyWVZDam5yZWtxRHlzcUJBR3R4VHNHWQ?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-03 14:21 KST"
+      "seen": "2026-09-03 07:01 KST"
     },
     {
-      "title": "Oil edges down as investors weigh uncertainty over U.S.-Iran strikes",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQVk5vakhhby03N0RCUHNMTU1jY1F4OGdsMmt2cThTLW5hU0VNM181YUVwYW1wSlJsbGoweDQtd3ROSTFfMDhUSGpWMHI5WG9qeTByTGJpVTRZaER0dGlwZ1BULXVRUzlPemRSOC1ranltaDQ0QjJ4OWMwWTRrNjJ6eDdkaExIMjFiVDJlbUxZcTU2Sk1DRE1uNTR5SkdPM0VJanktVUI1RkNpcXoxRkxBN1lkUDRnUQ?oc=5",
+      "title": "Yen gains sharply, dollar eases from two-week high",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOeHBBNVNPZnJHaVhnTDlrMDVERUdjS2dCWXl2NmplVWJtYTFiLXk3amhnNkFoeEdFVzBuczBNZmdNWEc3bEFTaFBxb1RWazVjTW0tQ2NNM1RjUlljdnB6a3VaQXdGeDNUUE9WbGJxOVJzZk1Wb056eEJqcUp4allyS0FSZmpLbXQ2MmZWYWdmVUNxczFmdU5helZNQ3pQT3c?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-03 09:46 KST"
+      "seen": "2026-09-03 04:29 KST"
     },
     {
-      "title": "COMMENTARY: TRADING DAY Yen jumps, oil pumps",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQR0FHMEFfd2xEWjlNWjNZazN5b01VM0MwbW96M3Z0bDZ6cktHVGdXN3UzbjZ1RnZsYTNaWk15REIyRDdPQ190bklNVTFOWkFEclZGMm1WWlZ5TDBqRWlsUUZpbjROSHFnX3NWb3gyWWRaOGRUbWZyakZMVTNVc2tVWC0wWXlNN1RjMmJDVmtIZVRjdXMtRWFDOFBrdG1jVF9Ec0pVWlZn?oc=5",
+      "title": "Gold rebounds over 1% as US dollar, yields pull back from highs",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQTHRQNlR5eU9VUm53X3dNNDg4MktpOFdWaGhGakVQXzBHb3NlLXdUVWpDSUFwem4tbS1vdHdRbFQtLWtpZEVHRm5sbGJlbmszMXJvU1FGMVNsRnktZUNEZ3pZV1Vka3hPSVBfUk1TM3VJdTFuc2JuZXpPMUFFeThKVU9TLXRkRXdmNEdnYVhyU1dzWUdfbTZwdVQyV0VIY3p2RGZPckt1M2pPQmJWcEpz?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-03 06:04 KST"
-    },
-    {
-      "title": "London midcaps hit a nearly one-month low as gilt yields surge",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZ240Q0ItMU54WHVoWktIWk5aTl8yTEFsbmdTM3pZd2ZCUmhnU3dPa3AyUTVSREhHZENXQkdKc0tzVFplNTYyTF9acFJtNmhPX0lOQVFsMmg5bGZQdWVUaWZ2dVRfZklJTElhOVRvRlRKci1BWEJYVVhBSWZWTDVvMFBZVjhIUXJHenhlazJGZWxFRE1Oemc5aUFrNnd2Z1pv?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-03 01:22 KST"
+      "seen": "2026-09-03 03:37 KST"
     },
     {
       "title": "Rising Treasury yields could rattle US stocks as earnings season ends",
@@ -44,18 +38,18 @@
     },
     {
       "title": "Market Talk: Can the dollar survive soaring bond yields?",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE52R09vWFVJRGVYU0JBaHJ5RENnNHhMSFpHc0xFOVZUODNHV09oMmZtTUNPYVZKMUh4SkQ2eFhINEJDbm5OLXZuUzFTMjJKYW05UU9keDFMN2RuR0l2RkFGMUpLS0pzTlVGMEVjajMtVDZyM2UwUjlQWEZUNUpYQQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA0UVpfaTZ4VEhEeEVQLWVHSElkMG9WQkJNeWtienBiRlZlanNWcTlIczNjZXdOSEFSc29sWm1UWnlGNXdpRlZwVDJaYnFBU2g4UkJnRy1KcnlPeTZacHQ5YVFvX2Jld1l4NWVnS3dseHVfRWNz?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-02 19:43 KST"
     }
   ],
-  "rate_source_time": "2026-09-03 15:52:13 KST",
+  "rate_source_time": "2026-09-03 16:23:15 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 8.25,
-  "rate_change_pct": 0.96,
+  "rate_change": 10.32,
+  "rate_change_pct": 1.21,
   "smbs_base_rate": 1369.4,
   "smbs_rate_date": "2026-09-03",
-  "smbs_rate_updated_at_kst": "2026-09-03 15:52:02 KST",
+  "smbs_rate_updated_at_kst": "2026-09-03 16:22:59 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +57,5 @@
     1364.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-03 15:52:02 KST"
+  "rate_job_checked_at_kst": "2026-09-03 16:22:59 KST"
 }

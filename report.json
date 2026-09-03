@@ -1,8 +1,8 @@
 {
   "updated_at_kst": "2026-09-03 22:26 KST",
-  "current_rate": 1356.5,
-  "previous_close": 1340.58,
-  "rate_updated_at_kst": "2026-09-03 22:26:31 KST",
+  "current_rate": 1356.7,
+  "previous_close": 1340.6,
+  "rate_updated_at_kst": "2026-09-03 22:49:19 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
@@ -49,13 +49,13 @@
       "seen": "2026-09-03 00:55 KST"
     }
   ],
-  "rate_source_time": "2026-09-03 22:26:31 KST",
+  "rate_source_time": "2026-09-03 22:49:19 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 15.92,
-  "rate_change_pct": 1.86,
+  "rate_change": 16.1,
+  "rate_change_pct": 1.88,
   "smbs_base_rate": 1369.4,
   "smbs_rate_date": "2026-09-03",
-  "smbs_rate_updated_at_kst": "2026-09-03 22:26:18 KST",
+  "smbs_rate_updated_at_kst": "2026-09-03 22:49:07 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1364.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-03 22:26:18 KST"
+  "rate_job_checked_at_kst": "2026-09-03 22:49:07 KST"
 }

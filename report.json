@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-09-04 09:51 KST",
-  "current_rate": 1357.1,
-  "previous_close": 1356.38,
-  "rate_updated_at_kst": "2026-09-04 09:51:13 KST",
+  "updated_at_kst": "2026-09-04 10:18 KST",
+  "current_rate": 1359.1,
+  "previous_close": 1358.0,
+  "rate_updated_at_kst": "2026-09-04 10:18:45 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
@@ -37,25 +37,25 @@
       "seen": "2026-09-04 06:52 KST"
     },
     {
-      "title": "Bond yields ease, stocks rally following Fed governor Waller comments",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZHUxMWV6alo1MWFYM191bnlDTlhjTlc0Y2t0UjE4TndrZW9PczcxTmg5a1M0ZWk5M2Fqb0RvVlNIQWFuNG1nb3BtbjhhM2NmbkhDVENZTF9qYU53UDBWR3ROTl9XSlFDVGNLUF9sN29rSlhZc0xfSGZKcWlFanB4b2R1bw?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-04 02:24 KST"
-    },
-    {
       "title": "How India's RBI could tackle a liquidity deluge triggered by dollar deposits",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOMW9CeXIzMnNDZjN2XzhIalNNX3RSMldzTEFqNnlOaFBiWVdPZjMtWGJFbjYyWXlraEQtSWZfMGtzUndlNHVzUUZzcXd0WUQ2andWSF9tUTIzQlo3eWxidVZETUZqcnNoRlB4NFhOM3FWTVRwUFhGaWhiaUlNWDAxbHd3UmVDU3l1QjBSWUZYNFVHaUxRdUtXRWsxZkdKYUZTejBENUIxRldYMW1ZTVdjdHM2MUVpckpoSEJuMWpB?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-03 21:35 KST"
+    },
+    {
+      "title": "India's $136 billion dollar haul aids rupee but raises future risks",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOMk85MmIyN2lmb0h4UDlRMDM0Ym1DaTkxdndhUW0tTUEtQ0Fmb1MtQi1QWEhSTDNKZ2d6TTd6NEQ2dmtJSWJxVGtsTmQ3bFhtU0pqS1ljbUpOS2hYRERrRDh4WWhiSkRST2oyUTNDcVB1ZUZSXzNtQlFmU1RJVWs1Qm9Kc2Z5RU1aU2JfYnZlbW43eEVya1U4RzNQMFJKXzRzaW00LTl3SnBmV2NVN0VCWTVvZE5MLUVERGl6YlZCMDh1dC04dVFB?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-03 20:24 KST"
     }
   ],
-  "rate_source_time": "2026-09-04 09:51:13 KST",
+  "rate_source_time": "2026-09-04 10:18:45 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 0.72,
-  "rate_change_pct": 0.05,
+  "rate_change": 1.1,
+  "rate_change_pct": 0.08,
   "smbs_base_rate": 1359.5,
   "smbs_rate_date": "2026-09-04",
-  "smbs_rate_updated_at_kst": "2026-09-04 09:50:56 KST",
+  "smbs_rate_updated_at_kst": "2026-09-04 10:18:29 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1362.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-04 09:50:56 KST"
+  "rate_job_checked_at_kst": "2026-09-04 10:18:29 KST"
 }

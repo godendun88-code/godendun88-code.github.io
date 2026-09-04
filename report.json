@@ -1,17 +1,23 @@
 {
-  "updated_at_kst": "2026-09-04 20:49 KST",
-  "current_rate": 1351.3,
+  "updated_at_kst": "2026-09-04 21:28 KST",
+  "current_rate": 1348.0,
   "previous_close": 1358.0,
-  "rate_updated_at_kst": "2026-09-04 20:22:27 KST",
+  "rate_updated_at_kst": "2026-09-04 21:28:15 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
-    "연준·금리 관련 최신 기사(\"Indian shares rise as traders trim Fed hike bets\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
-    "미국 고용 관련 최신 기사(\"US job growth expected to rebound in August; unemployment rate forecast steady at 4.1%\")가 확인돼 고용지표가 연준 금리 기대와 달러 방향성을 좌우하는 변수로 부각되고 있습니다.",
+    "연준·금리 관련 최신 기사(\"Traders brace for US jobs data after Fed's Waller soothes bond markets\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
+    "미국 고용 관련 최신 기사(\"Morning Bid: Seems payrolls isn't the data you are looking for\")가 확인돼 고용지표가 연준 금리 기대와 달러 방향성을 좌우하는 변수로 부각되고 있습니다.",
     "미국 물가 관련 최신 기사(\"Wall St Week Ahead Investors to pore over inflation data for signals on rate trajectory\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
+    {
+      "title": "Traders brace for US jobs data after Fed's Waller soothes bond markets",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9rcFlLejhNNm1fZ1hhM3NvLV8zZTJuOTE5QUVSUVR2V0IxQWpuLUZxVHFmRXpWVHd2OWU0cUR3eW9ZMFZKQnhwcFdrOHBZclNEZkF1X01MYmw4dUZTbU9zWGJPMEJ4N3FXNkY1MHAwSFZWenJGVWM4blVzbw?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-04 20:41 KST"
+    },
     {
       "title": "Yen's changing fortunes might finally be spooking the bears",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNYjNuenNBZEFnRFFvQk82SmxjeTV2Yk9DeUlRZzZFT05QdWZmSThJVTdtYkY4RFNQODhXcFdxMWxGV0xta0w4SEFzc3ZXVUtPNlRDcC02Zkdma2hDYXZqNHdmN3FEWHljaG1pdE5fRkZ5dmpXeDlRdmlLbkxIMlB4ZTFNWGhYeDRwSUtKc2tXbktob0JFaFVvU1JiSWlOaUZhVzhxZjF2YkpYTkpOYUE?oc=5",
@@ -37,32 +43,25 @@
       "seen": "2026-09-04 17:48 KST"
     },
     {
-      "title": "US job growth expected to rebound in August; unemployment rate forecast steady at 4.1%",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQbnNDVk8wamxUYWJTemR3ZERNWkQzOU85Z0tqY212MkJiQ3FMX0s0b1ktWUo4M3JVVUs0NzhyZXByVFUxOUFRNXB1ZW81WmZxTVlzcXBaMjNVVGV5aTRqQjlRby1BaHJMb2FHbmFlUl9tTnowUC1NdllUZjk1elhpZ3lWSDJ3eGZIWFRYeURpVHJsS0szREFBenltdDY2a2g1R0pXVkxpY1NSSVJsNy0xaWFpRm5PR0RhSzNn?oc=5",
+      "title": "Morning Bid: Seems payrolls isn't the data you are looking for",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBqWlkwaVVlVnBvSS1VMWlVUVFMRExNSC11UkttV2FaRHNJVVpOdEkwbHdidEdsLUdpR0hEV0JHVjVmOHllU3lyMGpkNmhlSFF6TEpDbkJkRVJPQ2NiQ0hKWV9GQ3NhMGZxSkllc1pRMV9odFNuY3ViMUFqdEVNRHM?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-04 13:01 KST"
-    },
-    {
-      "title": "Central bank reinforces its rupee hand with another intervention",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObzRGdllJNVhfR3FScC03Tk5XMk42bWdHcnR0b3U4QzZhUjRib2xzYmJkeHd0Mnhxdi1xX0xheThia1EyZTlBaHdmVHdwaW5fdUo2RV9OZl81SkRwRDNfRk51cHUxc1pYY3hocUlWaDBDdHlaVHdmNXVkV0tkcWxWWmFuZ3poMmVNdzZqTUpkY1BSU3VMWDd2QS11Znl3dWdnM1VKUlNn?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-04 11:55 KST"
+      "seen": "2026-09-04 13:32 KST"
     }
   ],
-  "rate_source_time": "2026-09-04 20:22:27 KST",
+  "rate_source_time": "2026-09-04 21:28:15 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": -6.7,
-  "rate_change_pct": -0.49,
+  "rate_change": -10.0,
+  "rate_change_pct": -0.74,
   "smbs_base_rate": 1359.5,
   "smbs_rate_date": "2026-09-04",
-  "smbs_rate_updated_at_kst": "2026-09-04 20:47:21 KST",
+  "smbs_rate_updated_at_kst": "2026-09-04 21:28:03 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
     1350.0,
     1362.0
   ],
-  "rate_check_status": "failed",
-  "rate_job_checked_at_kst": "2026-09-04 20:47:21 KST",
-  "rate_fetch_error": "RuntimeError: KB STAR FX 자동조회 3회 실패: TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n | TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n | TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n"
+  "rate_check_status": "success",
+  "rate_job_checked_at_kst": "2026-09-04 21:28:03 KST"
 }

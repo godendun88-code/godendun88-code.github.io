@@ -1,17 +1,23 @@
 {
-  "updated_at_kst": "2026-09-05 04:18 KST",
+  "updated_at_kst": "2026-09-05 05:22 KST",
   "current_rate": 1347.3,
   "previous_close": 1358.0,
-  "rate_updated_at_kst": "2026-09-05 04:46:24 KST",
+  "rate_updated_at_kst": "2026-09-05 05:21:56 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
     "연준·금리 관련 최신 기사(\"Strong job gains signal Fed hike as Trump levels new rate-cut demand\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
-    "미국 고용 강세 관련 보도가 확인돼 금리 인하 기대를 낮추고 달러 강세 요인으로 작용하고 있습니다.",
+    "미국 고용 관련 최신 기사(\"US nonfarm payrolls blow past expectations in August; unemployment rate steady at 4.1%\")가 확인돼 고용지표가 연준 금리 기대와 달러 방향성을 좌우하는 변수로 부각되고 있습니다.",
     "미국 물가 관련 최신 기사(\"Wall St Week Ahead Investors to pore over inflation data for signals on rate trajectory\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
+    {
+      "title": "US nonfarm payrolls blow past expectations in August; unemployment rate steady at 4.1%",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbUlhOGI2YkQzM0dqZll6Rm5VSDBReEZQMkZRODlvQkJBTGJfeDhVbjE1c2dXbEVBYmZieElLdEtLR1BZZlQ3NENYdUNSLUgyNnNCMHVJcEl3T2ZyUlVoYndDQ1pYOWhmRnlncUxZMUpjMTlvYTJET2kxMHpiSzN5WUJSMVc1VVkyVGxSRVVkQmRNQUJNVmRjX1lSdzdwbi1PUUhsRUthaUE?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-05 03:49 KST"
+    },
     {
       "title": "Strong job gains signal Fed hike as Trump levels new rate-cut demand",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOOF9yZEh3LUNwbXhOOE05b01rVHlLVld4OXkwYXdOczZxZF9DUTUxVU9Ta3pCTGRla0RfMXZTR1phZEx6aVU0VmRWcGVZZzlsd3dhZF9yYjc0UHFfaUZMNEoxaElSSE1YSzY5aEExTEMzNV9oOVpSSEc1SXlsZ0R5UkF4cFFMTWVxQi1SYk43cDlhU204aklNNzhB?oc=5",
@@ -41,21 +47,15 @@
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOSm4tQk9RbVZZMU1qVTF1Z3hxMmlDUjZwby1vWTlJdUstalo4WGdNVFB1UTZhMlhmZjRKN2pZcTNsLUlTWGZJYzJWTXpqODV3WU9xVjJaNkNramNSa25ROW1NU3ZnMm1Ma3ZidFQxQWhrODM4VFFkV2lsRzEzcTNhRnl4R3pOc0FCbEFmRHNLYlU3bFpTTWN2X0k2dDZsUnpyaWVVZzEwWTBjNnNwbHUtd2tNLVJ1Mm9TazhrZENISQ?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-04 21:48 KST"
-    },
-    {
-      "title": "US job growth expected to rebound in August; unemployment rate forecast steady at 4.1%",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQbnNDVk8wamxUYWJTemR3ZERNWkQzOU85Z0tqY212MkJiQ3FMX0s0b1ktWUo4M3JVVUs0NzhyZXByVFUxOUFRNXB1ZW81WmZxTVlzcXBaMjNVVGV5aTRqQjlRby1BaHJMb2FHbmFlUl9tTnowUC1NdllUZjk1elhpZ3lWSDJ3eGZIWFRYeURpVHJsS0szREFBenltdDY2a2g1R0pXVkxpY1NSSVJsNy0xaWFpRm5PR0RhSzNn?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-04 21:06 KST"
     }
   ],
-  "rate_source_time": "2026-09-05 04:46:24 KST",
+  "rate_source_time": "2026-09-05 05:21:56 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": -10.7,
   "rate_change_pct": -0.79,
   "smbs_base_rate": 1359.5,
   "smbs_rate_date": "2026-09-05",
-  "smbs_rate_updated_at_kst": "2026-09-05 04:46:09 KST",
+  "smbs_rate_updated_at_kst": "2026-09-05 05:21:42 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1362.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-05 04:46:09 KST"
+  "rate_job_checked_at_kst": "2026-09-05 05:21:42 KST"
 }

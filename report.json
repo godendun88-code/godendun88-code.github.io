@@ -1,28 +1,28 @@
 {
-  "updated_at_kst": "2026-09-04 15:52 KST",
-  "current_rate": 1351.1,
+  "updated_at_kst": "2026-09-04 16:22 KST",
+  "current_rate": 1351.8,
   "previous_close": 1358.0,
-  "rate_updated_at_kst": "2026-09-04 15:52:08 KST",
+  "rate_updated_at_kst": "2026-09-04 16:22:28 KST",
   "rate_source": "KB STAR FX Market Watch",
-  "market_bias": "상승 우세",
+  "market_bias": "혼조",
   "drivers": [
-    "연준의 추가 금리 인상 또는 매파적 기조 우려가 부각돼 달러 강세 압력이 높아지는 요인으로 작용하고 있습니다.",
+    "연준·금리 관련 최신 기사(\"Indian shares rise as traders trim Fed hike bets\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
     "미국 고용 관련 최신 기사(\"Morning Bid: Seems payrolls isn't the data you are looking for\")가 확인돼 고용지표가 연준 금리 기대와 달러 방향성을 좌우하는 변수로 부각되고 있습니다.",
     "달러 관련 최신 기사(\"How India's RBI could tackle a liquidity deluge triggered by dollar deposits\")가 확인돼 달러인덱스 방향성이 원/달러 환율의 핵심 변수로 작용하고 있습니다."
   ],
-  "outlook": "달러 강세·금리 상승 계열의 재료가 상대적으로 우세해 원/달러는 단기 상승 압력이 나타날 수 있으나, 국내 수급과 위험선호 회복 여부에 따라 변동성이 예상됩니다.",
+  "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
+    {
+      "title": "Indian shares rise as traders trim Fed hike bets",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNbDdCZUhpTGtQNldGdTlwaTU5UXdtLVpmc011S0kxMFUyeG9YSGFMY0FNUWYwSzMtNlJhUzhxOFdoLWZnTVJqblE5bndZVllfS3JMdVhJVlhlTGZSUjF2LUxUckdLTmN5TXJlMWdhM3dQMFhCTFhGRG9HbEkybkpoaTJVTDJBU3lWanlvTlBPRFNGcnZTZlhrdFdaandycGlqQm1BbTFPNA?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-04 13:36 KST"
+    },
     {
       "title": "Morning Bid: Seems payrolls isn't the data you are looking for",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBqWlkwaVVlVnBvSS1VMWlVUVFMRExNSC11UkttV2FaRHNJVVpOdEkwbHdidEdsLUdpR0hEV0JHVjVmOHllU3lyMGpkNmhlSFF6TEpDbkJkRVJPQ2NiQ0hKWV9GQ3NhMGZxSkllc1pRMV9odFNuY3ViMUFqdEVNRHM?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-04 13:32 KST"
-    },
-    {
-      "title": "US job growth expected to rebound in August; unemployment rate forecast steady at 4.1%",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQbnNDVk8wamxUYWJTemR3ZERNWkQzOU85Z0tqY212MkJiQ3FMX0s0b1ktWUo4M3JVVUs0NzhyZXByVFUxOUFRNXB1ZW81WmZxTVlzcXBaMjNVVGV5aTRqQjlRby1BaHJMb2FHbmFlUl9tTnowUC1NdllUZjk1elhpZ3lWSDJ3eGZIWFRYeURpVHJsS0szREFBenltdDY2a2g1R0pXVkxpY1NSSVJsNy0xaWFpRm5PR0RhSzNn?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-04 13:04 KST"
     },
     {
       "title": "Rupee's inflow-linked, RBI-backed optimism faces oil test",
@@ -37,25 +37,25 @@
       "seen": "2026-09-04 11:55 KST"
     },
     {
-      "title": "Oil set for steepest weekly gain since mid-July over intensifying US-Iran tensions",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOQVZJdUE0TzFvS2xtSUJLOVUxZUVRZVRpMi1aUlNuSFZzX3h5TW4zSGJya0w3SjFlSno4QUlvdU90cHBBOS1xRllCZjR2aVRnUW16ZmQyN3M1SlRVSl9BYlk2Z2dvWGIzdEo3cXdTZjdWZkIzYXRNRzk3ZkM2cWMwN2ZWMVh1T09pNnRKVVAwRDhNSnJnSTFwVi1MZXdMNUNwOFJTU215REpkR1V0X1pVa09vNkVHeG9oX2lpVjdoTVl1ajI5MzU0dUN3?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-04 10:28 KST"
-    },
-    {
       "title": "COMMENTARY: Hedge funds pose greater threat to US Treasuries than China ever did: McGeever",
       "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOZEpHcnd3MDQ0eHY2ak9GRTRoYkp5VERFOGVzOFRVX1BESWlHSnNHZjlrMGo4bGtnbDZ2QS1GcFhVNmM0YXlwVWZjNlY3cjVZbGNqWHdLaGMzRVFTRHFNdUxheVJZU1RqWVpJSGRkX3Jtdk84Y0YzaElGWU5MUVlnSlVlZjBsTGFOVjBDYUdtMkVWMm9ZdHJocVljamVuVVVlWDFUTWZYN2hvemVoQnhrN3BoWnZiZWJPU0VtaGUzZ2lwNDNuRzRDT2JaNWtZeERPV2tNeDdCemN4d0E?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-04 08:30 KST"
+    },
+    {
+      "title": "Wall Street ends sharply higher as Waller remarks ease rate hike fears",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPUzRxMTJxTk80aFlHOHU2WkVVbjhCeDhJVGNiVXFqSUg0cGhIUjY3d2hBTWQtUGVvMTJXMUVjaVJwc1lnTW9OMUp1ZjhiUjFfVlVTbk44Z1c2WTdqOVYwUUMzbVhVbHk5Tnk4V3ZoVWtvdHdBMDJDV1V2dEVRanc1UGc1ZlExN3VFTUpTTzBDcUVRZWN6Qlh0STQzb0ZqUmVlbWk4YWwzOA?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-04 07:48 KST"
     }
   ],
-  "rate_source_time": "2026-09-04 15:52:08 KST",
+  "rate_source_time": "2026-09-04 16:22:28 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": -6.9,
-  "rate_change_pct": -0.51,
+  "rate_change": -6.2,
+  "rate_change_pct": -0.46,
   "smbs_base_rate": 1359.5,
   "smbs_rate_date": "2026-09-04",
-  "smbs_rate_updated_at_kst": "2026-09-04 15:27:08 KST",
+  "smbs_rate_updated_at_kst": "2026-09-04 16:22:13 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,6 +63,5 @@
     1362.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-04 15:51:53 KST",
-  "smbs_rate_error": "RuntimeError: 서울외국환중개 페이지에서 USD 매매기준율을 찾지 못했습니다."
+  "rate_job_checked_at_kst": "2026-09-04 16:22:13 KST"
 }

@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-09-04 23:48 KST",
-  "current_rate": 1347.2,
+  "updated_at_kst": "2026-09-05 00:23 KST",
+  "current_rate": 1347.3,
   "previous_close": 1358.0,
-  "rate_updated_at_kst": "2026-09-04 23:48:36 KST",
+  "rate_updated_at_kst": "2026-09-05 00:23:10 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "상승 우세",
   "drivers": [
@@ -12,18 +12,6 @@
   ],
   "outlook": "달러 강세·금리 상승 계열의 재료가 상대적으로 우세해 원/달러는 단기 상승 압력이 나타날 수 있으나, 국내 수급과 위험선호 회복 여부에 따라 변동성이 예상됩니다.",
   "articles": [
-    {
-      "title": "Fed rate hike back in focus after strong jobs report",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOOF9yZEh3LUNwbXhOOE05b01rVHlLVld4OXkwYXdOczZxZF9DUTUxVU9Ta3pCTGRla0RfMXZTR1phZEx6aVU0VmRWcGVZZzlsd3dhZF9yYjc0UHFfaUZMNEoxaElSSE1YSzY5aEExTEMzNV9oOVpSSEc1SXlsZ0R5UkF4cFFMTWVxQi1SYk43cDlhU204aklNNzhB?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-04 23:34 KST"
-    },
-    {
-      "title": "Yields rise, stocks mostly ease after solid U.S. jobs report",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9rcFlLejhNNm1fZ1hhM3NvLV8zZTJuOTE5QUVSUVR2V0IxQWpuLUZxVHFmRXpWVHd2OWU0cUR3eW9ZMFZKQnhwcFdrOHBZclNEZkF1X01MYmw4dUZTbU9zWGJPMEJ4N3FXNkY1MHAwSFZWenJGVWM4blVzbw?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-04 23:30 KST"
-    },
     {
       "title": "Strong August jobs report sends yields higher",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNdTJNUkhrZnFtcjZwZmtHcGNSYTBCNkZKZFBlUy1IS3BiTlhBYzRNSm1VRWlLRFhHdmVjUEt4ajZmWFRHOGUzWHBKeFhWSlllYzdoc3g3dmFDVFpfLXQ5d19GRmtiT2UtT0gyV0d1cnpaQmY4RElYZzBBY0pfY2I5Q01HRjhxak1pOHo2c0JiUlJIWmdiX0NZX3Z1Zw?oc=5",
@@ -43,19 +31,31 @@
       "seen": "2026-09-04 20:12 KST"
     },
     {
+      "title": "Indian rupee logs best week in five as RBI muscle power, foreign deposits support",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObzRGdllJNVhfR3FScC03Tk5XMk42bWdHcnR0b3U4QzZhUjRib2xzYmJkeHd0Mnhxdi1xX0xheThia1EyZTlBaHdmVHdwaW5fdUo2RV9OZl81SkRwRDNfRk51cHUxc1pYY3hocUlWaDBDdHlaVHdmNXVkV0tkcWxWWmFuZ3poMmVNdzZqTUpkY1BSU3VMWDd2QS11Znl3dWdnM1VKUlNn?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-04 19:53 KST"
+    },
+    {
       "title": "COMMENTARY: Morning Bid: Bonds' reality check",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNaGdCTnowcWtGV3Y4bmJUbnRhNXVPTEFrWHBqVnQ5OG1tcVF5aC1ya2VvRHl6SWhJTlNrNGxPamtHbnRkT2xBX0F2bHJ2ck9HelE3OXVDejZSeXc3MENwaDgwbzlSaVd3VTNGNXhtc2NsR0pFeXdIdFYwRXJpTEZWdjlIck5BSmp5YWNfeTk1VjA5YW5NLWFr?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-04 19:39 KST"
+    },
+    {
+      "title": "Wall St Week Ahead Investors to pore over inflation data for signals on rate trajectory",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOSm4tQk9RbVZZMU1qVTF1Z3hxMmlDUjZwby1vWTlJdUstalo4WGdNVFB1UTZhMlhmZjRKN2pZcTNsLUlTWGZJYzJWTXpqODV3WU9xVjJaNkNramNSa25ROW1NU3ZnMm1Ma3ZidFQxQWhrODM4VFFkV2lsRzEzcTNhRnl4R3pOc0FCbEFmRHNLYlU3bFpTTWN2X0k2dDZsUnpyaWVVZzEwWTBjNnNwbHUtd2tNLVJ1Mm9TazhrZENISQ?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-04 19:06 KST"
     }
   ],
-  "rate_source_time": "2026-09-04 23:48:36 KST",
+  "rate_source_time": "2026-09-05 00:23:10 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": -10.8,
-  "rate_change_pct": -0.8,
+  "rate_change": -10.7,
+  "rate_change_pct": -0.79,
   "smbs_base_rate": 1359.5,
-  "smbs_rate_date": "2026-09-04",
-  "smbs_rate_updated_at_kst": "2026-09-04 23:22:06 KST",
+  "smbs_rate_date": "2026-09-05",
+  "smbs_rate_updated_at_kst": "2026-09-05 00:22:54 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,6 +63,5 @@
     1362.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-04 23:48:19 KST",
-  "smbs_rate_error": "RuntimeError: 서울외국환중개 페이지에서 USD 매매기준율을 찾지 못했습니다."
+  "rate_job_checked_at_kst": "2026-09-05 00:22:54 KST"
 }

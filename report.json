@@ -1,14 +1,14 @@
 {
-  "updated_at_kst": "2026-09-04 10:48 KST",
-  "current_rate": 1358.8,
-  "previous_close": 1358.0,
-  "rate_updated_at_kst": "2026-09-04 10:48:34 KST",
+  "updated_at_kst": "2026-09-04 11:22 KST",
+  "current_rate": 1357.7,
+  "previous_close": 1356.56,
+  "rate_updated_at_kst": "2026-09-04 11:22:23 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
     "연준의 추가 금리 인상 또는 매파적 기조 우려가 부각돼 달러 강세 압력이 높아지는 요인으로 작용하고 있습니다.",
     "달러 관련 최신 기사(\"How India's RBI could tackle a liquidity deluge triggered by dollar deposits\")가 확인돼 달러인덱스 방향성이 원/달러 환율의 핵심 변수로 작용하고 있습니다.",
-    "유가·지정학 관련 최신 기사(\"Sterling ticks up from three-week low as yen rallies and oil cools\")가 확인돼 원화 변동성 확대 요인으로 작용하고 있습니다."
+    "유가·지정학 관련 최신 기사(\"Oil prices mixed as investors weigh Middle East escalation, chance of Russia-Ukraine peace deal\")가 확인돼 원화 변동성 확대 요인으로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
@@ -37,25 +37,25 @@
       "seen": "2026-09-04 06:52 KST"
     },
     {
+      "title": "Oil prices mixed as investors weigh Middle East escalation, chance of Russia-Ukraine peace deal",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQUUpNcGxHMWt3cDdxdFVCZUNrdTBGRlZSUEpJOEg1ZENWVkRPN2lWbTZxMUU3WG56bkZScmlMM3hpOWtzOEtFcWJUaXNqUklwZU9KVlFxd2FxUEtVV2pwYnh3cXo2Y3dhZkJNUDBoSHcxN1dRM3ZCU25QdG02N1JCOHk2SjFzN2Z3UnhKc3hWbDNnWWFp?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-04 05:13 KST"
+    },
+    {
       "title": "How India's RBI could tackle a liquidity deluge triggered by dollar deposits",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOMW9CeXIzMnNDZjN2XzhIalNNX3RSMldzTEFqNnlOaFBiWVdPZjMtWGJFbjYyWXlraEQtSWZfMGtzUndlNHVzUUZzcXd0WUQ2andWSF9tUTIzQlo3eWxidVZETUZqcnNoRlB4NFhOM3FWTVRwUFhGaWhiaUlNWDAxbHd3UmVDU3l1QjBSWUZYNFVHaUxRdUtXRWsxZkdKYUZTejBENUIxRldYMW1ZTVdjdHM2MUVpckpoSEJuMWpB?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-03 21:35 KST"
-    },
-    {
-      "title": "India's $136 billion dollar haul aids rupee but raises future risks",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOMk85MmIyN2lmb0h4UDlRMDM0Ym1DaTkxdndhUW0tTUEtQ0Fmb1MtQi1QWEhSTDNKZ2d6TTd6NEQ2dmtJSWJxVGtsTmQ3bFhtU0pqS1ljbUpOS2hYRERrRDh4WWhiSkRST2oyUTNDcVB1ZUZSXzNtQlFmU1RJVWs1Qm9Kc2Z5RU1aU2JfYnZlbW43eEVya1U4RzNQMFJKXzRzaW00LTl3SnBmV2NVN0VCWTVvZE5MLUVERGl6YlZCMDh1dC04dVFB?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-03 20:24 KST"
     }
   ],
-  "rate_source_time": "2026-09-04 10:48:34 KST",
+  "rate_source_time": "2026-09-04 11:22:23 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 0.8,
-  "rate_change_pct": 0.06,
+  "rate_change": 1.14,
+  "rate_change_pct": 0.07,
   "smbs_base_rate": 1359.5,
   "smbs_rate_date": "2026-09-04",
-  "smbs_rate_updated_at_kst": "2026-09-04 10:48:18 KST",
+  "smbs_rate_updated_at_kst": "2026-09-04 11:22:08 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1362.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-04 10:48:18 KST"
+  "rate_job_checked_at_kst": "2026-09-04 11:22:08 KST"
 }

@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-09-04 16:49 KST",
-  "current_rate": 1352.8,
+  "updated_at_kst": "2026-09-04 17:24 KST",
+  "current_rate": 1352.6,
   "previous_close": 1358.0,
-  "rate_updated_at_kst": "2026-09-04 16:49:23 KST",
+  "rate_updated_at_kst": "2026-09-04 17:24:27 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
@@ -12,6 +12,12 @@
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
+    {
+      "title": "Yen's changing fortunes might finally be spooking the bears",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNYjNuenNBZEFnRFFvQk82SmxjeTV2Yk9DeUlRZzZFT05QdWZmSThJVTdtYkY4RFNQODhXcFdxMWxGV0xta0w4SEFzc3ZXVUtPNlRDcC02Zkdma2hDYXZqNHdmN3FEWHljaG1pdE5fRkZ5dmpXeDlRdmlLbkxIMlB4ZTFNWGhYeDRwSUtKc2tXbktob0JFaFVvU1JiSWlOaUZhVzhxZjF2YkpYTkpOYUE?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-04 16:52 KST"
+    },
     {
       "title": "Indian shares rise as traders trim Fed hike bets",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNbDdCZUhpTGtQNldGdTlwaTU5UXdtLVpmc011S0kxMFUyeG9YSGFMY0FNUWYwSzMtNlJhUzhxOFdoLWZnTVJqblE5bndZVllfS3JMdVhJVlhlTGZSUjF2LUxUckdLTmN5TXJlMWdhM3dQMFhCTFhGRG9HbEkybkpoaTJVTDJBU3lWanlvTlBPRFNGcnZTZlhrdFdaandycGlqQm1BbTFPNA?oc=5",
@@ -25,34 +31,28 @@
       "seen": "2026-09-04 13:32 KST"
     },
     {
-      "title": "Rupee's inflow-linked, RBI-backed optimism faces oil test",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObzRGdllJNVhfR3FScC03Tk5XMk42bWdHcnR0b3U4QzZhUjRib2xzYmJkeHd0Mnhxdi1xX0xheThia1EyZTlBaHdmVHdwaW5fdUo2RV9OZl81SkRwRDNfRk51cHUxc1pYY3hocUlWaDBDdHlaVHdmNXVkV0tkcWxWWmFuZ3poMmVNdzZqTUpkY1BSU3VMWDd2QS11Znl3dWdnM1VKUlNn?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-04 11:55 KST"
-    },
-    {
       "title": "Central bank reinforces its rupee hand with another intervention",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObzRGdllJNVhfR3FScC03Tk5XMk42bWdHcnR0b3U4QzZhUjRib2xzYmJkeHd0Mnhxdi1xX0xheThia1EyZTlBaHdmVHdwaW5fdUo2RV9OZl81SkRwRDNfRk51cHUxc1pYY3hocUlWaDBDdHlaVHdmNXVkV0tkcWxWWmFuZ3poMmVNdzZqTUpkY1BSU3VMWDd2QS11Znl3dWdnM1VKUlNn?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-04 11:55 KST"
     },
     {
-      "title": "COMMENTARY: Hedge funds pose greater threat to US Treasuries than China ever did: McGeever",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOZEpHcnd3MDQ0eHY2ak9GRTRoYkp5VERFOGVzOFRVX1BESWlHSnNHZjlrMGo4bGtnbDZ2QS1GcFhVNmM0YXlwVWZjNlY3cjVZbGNqWHdLaGMzRVFTRHFNdUxheVJZU1RqWVpJSGRkX3Jtdk84Y0YzaElGWU5MUVlnSlVlZjBsTGFOVjBDYUdtMkVWMm9ZdHJocVljamVuVVVlWDFUTWZYN2hvemVoQnhrN3BoWnZiZWJPU0VtaGUzZ2lwNDNuRzRDT2JaNWtZeERPV2tNeDdCemN4d0E?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-04 08:30 KST"
-    },
-    {
       "title": "Wall Street ends sharply higher as Waller remarks ease rate hike fears",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPUzRxMTJxTk80aFlHOHU2WkVVbjhCeDhJVGNiVXFqSUg0cGhIUjY3d2hBTWQtUGVvMTJXMUVjaVJwc1lnTW9OMUp1ZjhiUjFfVlVTbk44Z1c2WTdqOVYwUUMzbVhVbHk5Tnk4V3ZoVWtvdHdBMDJDV1V2dEVRanc1UGc1ZlExN3VFTUpTTzBDcUVRZWN6Qlh0STQzb0ZqUmVlbWk4YWwzOA?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-04 07:48 KST"
+    },
+    {
+      "title": "Bond selloff is likely amplified by obscure economic rate",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQd3hINFZzSVVjWVplYkpEeHgzVGxZSmxxTUlGQ2xYN3gzZXBneEkzN0Y1bjhIaUN3akRUcFQtcGpBODF5NUM3YWdkUkw1ZWRCcjMzQjNQN0pMbVZMRmtTZzRuU1lxZ3dJelZJcmw1TWtiZ2dTSVpDSmt6aXRhbGFUaXV6RXMzb1dJVEk2bm9RT2hFckFHb2hTRHhwRHBzU0tqQ3dVWU1xTEtLZVQycHZ4QmVhVFd2Rk1BUmc?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-04 06:52 KST"
     }
   ],
-  "rate_source_time": "2026-09-04 16:49:23 KST",
+  "rate_source_time": "2026-09-04 17:24:27 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": -5.2,
-  "rate_change_pct": -0.38,
+  "rate_change": -5.4,
+  "rate_change_pct": -0.4,
   "smbs_base_rate": 1359.5,
   "smbs_rate_date": "2026-09-04",
   "smbs_rate_updated_at_kst": "2026-09-04 16:49:09 KST",
@@ -63,5 +63,6 @@
     1362.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-04 16:49:09 KST"
+  "rate_job_checked_at_kst": "2026-09-04 17:24:11 KST",
+  "smbs_rate_error": "RuntimeError: 서울외국환중개 페이지에서 USD 매매기준율을 찾지 못했습니다."
 }

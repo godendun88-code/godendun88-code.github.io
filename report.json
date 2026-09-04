@@ -1,12 +1,12 @@
 {
-  "updated_at_kst": "2026-09-04 17:50 KST",
-  "current_rate": 1351.7,
+  "updated_at_kst": "2026-09-04 18:24 KST",
+  "current_rate": 1352.0,
   "previous_close": 1358.0,
-  "rate_updated_at_kst": "2026-09-04 17:50:14 KST",
+  "rate_updated_at_kst": "2026-09-04 18:23:46 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
-    "연준·금리 관련 최신 기사(\"Indian shares rise as traders trim Fed hike bets\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
+    "연준·금리 관련 최신 기사(\"Shares rally ahead of US jobs data, Fed's Waller soothes bonds\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
     "미국 고용 관련 최신 기사(\"Morning Bid: Seems payrolls isn't the data you are looking for\")가 확인돼 고용지표가 연준 금리 기대와 달러 방향성을 좌우하는 변수로 부각되고 있습니다.",
     "달러 관련 최신 기사(\"How India's RBI could tackle a liquidity deluge triggered by dollar deposits\")가 확인돼 달러인덱스 방향성이 원/달러 환율의 핵심 변수로 작용하고 있습니다."
   ],
@@ -28,7 +28,7 @@
       "title": "Morning Bid: Seems payrolls isn't the data you are looking for",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBqWlkwaVVlVnBvSS1VMWlVUVFMRExNSC11UkttV2FaRHNJVVpOdEkwbHdidEdsLUdpR0hEV0JHVjVmOHllU3lyMGpkNmhlSFF6TEpDbkJkRVJPQ2NiQ0hKWV9GQ3NhMGZxSkllc1pRMV9odFNuY3ViMUFqdEVNRHM?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-04 13:32 KST"
+      "seen": "2026-09-04 13:35 KST"
     },
     {
       "title": "Central bank reinforces its rupee hand with another intervention",
@@ -37,25 +37,25 @@
       "seen": "2026-09-04 11:55 KST"
     },
     {
+      "title": "Shares rally ahead of US jobs data, Fed's Waller soothes bonds",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9rcFlLejhNNm1fZ1hhM3NvLV8zZTJuOTE5QUVSUVR2V0IxQWpuLUZxVHFmRXpWVHd2OWU0cUR3eW9ZMFZKQnhwcFdrOHBZclNEZkF1X01MYmw4dUZTbU9zWGJPMEJ4N3FXNkY1MHAwSFZWenJGVWM4blVzbw?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-04 11:34 KST"
+    },
+    {
       "title": "Indian shares rise as traders trim Fed hike bets",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNbDdCZUhpTGtQNldGdTlwaTU5UXdtLVpmc011S0kxMFUyeG9YSGFMY0FNUWYwSzMtNlJhUzhxOFdoLWZnTVJqblE5bndZVllfS3JMdVhJVlhlTGZSUjF2LUxUckdLTmN5TXJlMWdhM3dQMFhCTFhGRG9HbEkybkpoaTJVTDJBU3lWanlvTlBPRFNGcnZTZlhrdFdaandycGlqQm1BbTFPNA?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-04 11:23 KST"
-    },
-    {
-      "title": "Wall Street ends sharply higher as Waller remarks ease rate hike fears",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPUzRxMTJxTk80aFlHOHU2WkVVbjhCeDhJVGNiVXFqSUg0cGhIUjY3d2hBTWQtUGVvMTJXMUVjaVJwc1lnTW9OMUp1ZjhiUjFfVlVTbk44Z1c2WTdqOVYwUUMzbVhVbHk5Tnk4V3ZoVWtvdHdBMDJDV1V2dEVRanc1UGc1ZlExN3VFTUpTTzBDcUVRZWN6Qlh0STQzb0ZqUmVlbWk4YWwzOA?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-04 07:48 KST"
     }
   ],
-  "rate_source_time": "2026-09-04 17:50:14 KST",
+  "rate_source_time": "2026-09-04 18:23:46 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": -6.3,
-  "rate_change_pct": -0.46,
+  "rate_change": -6.0,
+  "rate_change_pct": -0.44,
   "smbs_base_rate": 1359.5,
   "smbs_rate_date": "2026-09-04",
-  "smbs_rate_updated_at_kst": "2026-09-04 17:50:02 KST",
+  "smbs_rate_updated_at_kst": "2026-09-04 18:23:29 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1362.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-04 17:50:02 KST"
+  "rate_job_checked_at_kst": "2026-09-04 18:23:29 KST"
 }

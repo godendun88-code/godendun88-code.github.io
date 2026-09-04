@@ -1,22 +1,28 @@
 {
-  "updated_at_kst": "2026-09-04 08:46 KST",
-  "current_rate": 1357.0,
-  "previous_close": 1356.94,
-  "rate_updated_at_kst": "2026-09-04 08:46:21 KST",
+  "updated_at_kst": "2026-09-04 09:30 KST",
+  "current_rate": 1357.2,
+  "previous_close": 1356.77,
+  "rate_updated_at_kst": "2026-09-04 09:30:24 KST",
   "rate_source": "KB STAR FX Market Watch",
-  "market_bias": "상승 우세",
+  "market_bias": "혼조",
   "drivers": [
     "연준의 추가 금리 인상 또는 매파적 기조 우려가 부각돼 달러 강세 압력이 높아지는 요인으로 작용하고 있습니다.",
     "달러 관련 최신 기사(\"How India's RBI could tackle a liquidity deluge triggered by dollar deposits\")가 확인돼 달러인덱스 방향성이 원/달러 환율의 핵심 변수로 작용하고 있습니다.",
     "유가·지정학 관련 최신 기사(\"Sterling ticks up from three-week low as yen rallies and oil cools\")가 확인돼 원화 변동성 확대 요인으로 작용하고 있습니다."
   ],
-  "outlook": "달러 강세·금리 상승 계열의 재료가 상대적으로 우세해 원/달러는 단기 상승 압력이 나타날 수 있으나, 국내 수급과 위험선호 회복 여부에 따라 변동성이 예상됩니다.",
+  "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
     {
       "title": "COMMENTARY: Hedge funds pose greater threat to US Treasuries than China ever did: McGeever",
       "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOZEpHcnd3MDQ0eHY2ak9GRTRoYkp5VERFOGVzOFRVX1BESWlHSnNHZjlrMGo4bGtnbDZ2QS1GcFhVNmM0YXlwVWZjNlY3cjVZbGNqWHdLaGMzRVFTRHFNdUxheVJZU1RqWVpJSGRkX3Jtdk84Y0YzaElGWU5MUVlnSlVlZjBsTGFOVjBDYUdtMkVWMm9ZdHJocVljamVuVVVlWDFUTWZYN2hvemVoQnhrN3BoWnZiZWJPU0VtaGUzZ2lwNDNuRzRDT2JaNWtZeERPV2tNeDdCemN4d0E?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-04 08:30 KST"
+    },
+    {
+      "title": "Bond yields fall, stocks rally as Fed's Waller comments curb rate hike bets",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZHUxMWV6alo1MWFYM191bnlDTlhjTlc0Y2t0UjE4TndrZW9PczcxTmg5a1M0ZWk5M2Fqb0RvVlNIQWFuNG1nb3BtbjhhM2NmbkhDVENZTF9qYU53UDBWR3ROTl9XSlFDVGNLUF9sN29rSlhZc0xfSGZKcWlFanB4b2R1bw?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-04 07:58 KST"
     },
     {
       "title": "Wall Street ends sharply higher as Waller remarks ease rate hike fears",
@@ -37,25 +43,19 @@
       "seen": "2026-09-04 02:24 KST"
     },
     {
-      "title": "US fixed 30-year mortgage rate rises to highest since July 2025",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNaDVqOUVUMnJZVEVoVXZjUHN5bDd2Z1ZUTEVQeGpJV2lHYWpacnhURW9YdWFKaVJHNk5kSVRPZWwzUFA3Ti1hYTFRS2theF9POE9aZ09EZVJyWjdtbXFvUk9DamhteE5KdEV4UmYxWDhQNGh6cFZjOF9PUjFFNUxSVTFaQTJBQ21VYTVITVptMWlfaTdQRDNRZGRzSmdyNEE5bWFNRlRmM3FXZWc?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-04 01:49 KST"
-    },
-    {
       "title": "How India's RBI could tackle a liquidity deluge triggered by dollar deposits",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOMW9CeXIzMnNDZjN2XzhIalNNX3RSMldzTEFqNnlOaFBiWVdPZjMtWGJFbjYyWXlraEQtSWZfMGtzUndlNHVzUUZzcXd0WUQ2andWSF9tUTIzQlo3eWxidVZETUZqcnNoRlB4NFhOM3FWTVRwUFhGaWhiaUlNWDAxbHd3UmVDU3l1QjBSWUZYNFVHaUxRdUtXRWsxZkdKYUZTejBENUIxRldYMW1ZTVdjdHM2MUVpckpoSEJuMWpB?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-03 21:35 KST"
     }
   ],
-  "rate_source_time": "2026-09-04 08:46:21 KST",
+  "rate_source_time": "2026-09-04 09:30:24 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 0.06,
-  "rate_change_pct": 0.0,
+  "rate_change": 0.43,
+  "rate_change_pct": 0.03,
   "smbs_base_rate": 1359.5,
   "smbs_rate_date": "2026-09-04",
-  "smbs_rate_updated_at_kst": "2026-09-04 08:46:08 KST",
+  "smbs_rate_updated_at_kst": "2026-09-04 09:30:08 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1362.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-04 08:46:08 KST"
+  "rate_job_checked_at_kst": "2026-09-04 09:30:08 KST"
 }

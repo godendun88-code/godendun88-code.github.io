@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-09-04 15:27 KST",
-  "current_rate": 1351.5,
+  "updated_at_kst": "2026-09-04 15:52 KST",
+  "current_rate": 1351.1,
   "previous_close": 1358.0,
-  "rate_updated_at_kst": "2026-09-04 15:27:19 KST",
+  "rate_updated_at_kst": "2026-09-04 15:52:08 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "상승 우세",
   "drivers": [
@@ -31,10 +31,10 @@
       "seen": "2026-09-04 11:55 KST"
     },
     {
-      "title": "Yen headed for strongest week in a month, dollar flat ahead of payroll data",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPSUNQZU5RWWN5TXNDaU9CQkIyc1NPTE95RzBLc0lSMGQyRGRnT19DVldpRXF2TEVzYXdKUzRjR1RyNC1KZ3Rka2Z2ZS1HZUhyUkFYLTBYWE1JRXhXSDJBYWV5Tmpkc3psRy1TWHNlZUN1T1hrZnE5TVpkVTlObkdrZWRVSnA5MU41cWVhSEZSNVU2TlBjdG5SbDBSb3BTYTE3SmNGZU5wR3dDVlVDRXFMZkN0SllDUWVh?oc=5",
+      "title": "Central bank reinforces its rupee hand with another intervention",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObzRGdllJNVhfR3FScC03Tk5XMk42bWdHcnR0b3U4QzZhUjRib2xzYmJkeHd0Mnhxdi1xX0xheThia1EyZTlBaHdmVHdwaW5fdUo2RV9OZl81SkRwRDNfRk51cHUxc1pYY3hocUlWaDBDdHlaVHdmNXVkV0tkcWxWWmFuZ3poMmVNdzZqTUpkY1BSU3VMWDd2QS11Znl3dWdnM1VKUlNn?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-04 10:35 KST"
+      "seen": "2026-09-04 11:55 KST"
     },
     {
       "title": "Oil set for steepest weekly gain since mid-July over intensifying US-Iran tensions",
@@ -49,10 +49,10 @@
       "seen": "2026-09-04 08:30 KST"
     }
   ],
-  "rate_source_time": "2026-09-04 15:27:19 KST",
+  "rate_source_time": "2026-09-04 15:52:08 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": -6.5,
-  "rate_change_pct": -0.48,
+  "rate_change": -6.9,
+  "rate_change_pct": -0.51,
   "smbs_base_rate": 1359.5,
   "smbs_rate_date": "2026-09-04",
   "smbs_rate_updated_at_kst": "2026-09-04 15:27:08 KST",
@@ -63,5 +63,6 @@
     1362.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-04 15:27:08 KST"
+  "rate_job_checked_at_kst": "2026-09-04 15:51:53 KST",
+  "smbs_rate_error": "RuntimeError: 서울외국환중개 페이지에서 USD 매매기준율을 찾지 못했습니다."
 }

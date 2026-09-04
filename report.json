@@ -1,17 +1,23 @@
 {
-  "updated_at_kst": "2026-09-04 20:22 KST",
+  "updated_at_kst": "2026-09-04 20:49 KST",
   "current_rate": 1351.3,
   "previous_close": 1358.0,
   "rate_updated_at_kst": "2026-09-04 20:22:27 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
-    "연준·금리 관련 최신 기사(\"Shares inch higher ahead of US jobs data after Fed's Waller soothes bonds\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
+    "연준·금리 관련 최신 기사(\"Indian shares rise as traders trim Fed hike bets\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
     "미국 고용 관련 최신 기사(\"US job growth expected to rebound in August; unemployment rate forecast steady at 4.1%\")가 확인돼 고용지표가 연준 금리 기대와 달러 방향성을 좌우하는 변수로 부각되고 있습니다.",
     "미국 물가 관련 최신 기사(\"Wall St Week Ahead Investors to pore over inflation data for signals on rate trajectory\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
+    {
+      "title": "Yen's changing fortunes might finally be spooking the bears",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNYjNuenNBZEFnRFFvQk82SmxjeTV2Yk9DeUlRZzZFT05QdWZmSThJVTdtYkY4RFNQODhXcFdxMWxGV0xta0w4SEFzc3ZXVUtPNlRDcC02Zkdma2hDYXZqNHdmN3FEWHljaG1pdE5fRkZ5dmpXeDlRdmlLbkxIMlB4ZTFNWGhYeDRwSUtKc2tXbktob0JFaFVvU1JiSWlOaUZhVzhxZjF2YkpYTkpOYUE?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-04 20:12 KST"
+    },
     {
       "title": "COMMENTARY: Morning Bid: Bonds' reality check",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNaGdCTnowcWtGV3Y4bmJUbnRhNXVPTEFrWHBqVnQ5OG1tcVF5aC1ya2VvRHl6SWhJTlNrNGxPamtHbnRkT2xBX0F2bHJ2ck9HelE3OXVDejZSeXc3MENwaDgwbzlSaVd3VTNGNXhtc2NsR0pFeXdIdFYwRXJpTEZWdjlIck5BSmp5YWNfeTk1VjA5YW5NLWFr?oc=5",
@@ -29,12 +35,6 @@
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPb0steE9LaDhWRWV0MjJBYTNGcWJTVldmOXNsekxXZWw2b1Y2NzBTU1VWVE11elpWbGVwcTZlZ2lkSldqMUtkNXh4c2RSc0FKeW5CcjRrdjFqRnhJcG00OE5wdVR1UVctcWZuMVpKZ2ZyM245UGVjZElNRlUwNTBZVWxn?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-04 17:48 KST"
-    },
-    {
-      "title": "Yen's changing fortunes might finally be spooking the bears",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNYjNuenNBZEFnRFFvQk82SmxjeTV2Yk9DeUlRZzZFT05QdWZmSThJVTdtYkY4RFNQODhXcFdxMWxGV0xta0w4SEFzc3ZXVUtPNlRDcC02Zkdma2hDYXZqNHdmN3FEWHljaG1pdE5fRkZ5dmpXeDlRdmlLbkxIMlB4ZTFNWGhYeDRwSUtKc2tXbktob0JFaFVvU1JiSWlOaUZhVzhxZjF2YkpYTkpOYUE?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-04 17:08 KST"
     },
     {
       "title": "US job growth expected to rebound in August; unemployment rate forecast steady at 4.1%",
@@ -55,13 +55,14 @@
   "rate_change_pct": -0.49,
   "smbs_base_rate": 1359.5,
   "smbs_rate_date": "2026-09-04",
-  "smbs_rate_updated_at_kst": "2026-09-04 20:22:14 KST",
+  "smbs_rate_updated_at_kst": "2026-09-04 20:47:21 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
     1350.0,
     1362.0
   ],
-  "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-04 20:22:14 KST"
+  "rate_check_status": "failed",
+  "rate_job_checked_at_kst": "2026-09-04 20:47:21 KST",
+  "rate_fetch_error": "RuntimeError: KB STAR FX 자동조회 3회 실패: TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n | TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n | TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n"
 }

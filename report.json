@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-09-04 18:24 KST",
-  "current_rate": 1352.0,
+  "updated_at_kst": "2026-09-04 18:49 KST",
+  "current_rate": 1351.9,
   "previous_close": 1358.0,
-  "rate_updated_at_kst": "2026-09-04 18:23:46 KST",
+  "rate_updated_at_kst": "2026-09-04 18:49:18 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
@@ -16,13 +16,13 @@
       "title": "Take Five: Good evening, Mr Bond",
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPb0steE9LaDhWRWV0MjJBYTNGcWJTVldmOXNsekxXZWw2b1Y2NzBTU1VWVE11elpWbGVwcTZlZ2lkSldqMUtkNXh4c2RSc0FKeW5CcjRrdjFqRnhJcG00OE5wdVR1UVctcWZuMVpKZ2ZyM245UGVjZElNRlUwNTBZVWxn?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-04 17:29 KST"
+      "seen": "2026-09-04 17:48 KST"
     },
     {
       "title": "Yen's changing fortunes might finally be spooking the bears",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNYjNuenNBZEFnRFFvQk82SmxjeTV2Yk9DeUlRZzZFT05QdWZmSThJVTdtYkY4RFNQODhXcFdxMWxGV0xta0w4SEFzc3ZXVUtPNlRDcC02Zkdma2hDYXZqNHdmN3FEWHljaG1pdE5fRkZ5dmpXeDlRdmlLbkxIMlB4ZTFNWGhYeDRwSUtKc2tXbktob0JFaFVvU1JiSWlOaUZhVzhxZjF2YkpYTkpOYUE?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-04 16:52 KST"
+      "seen": "2026-09-04 17:08 KST"
     },
     {
       "title": "Morning Bid: Seems payrolls isn't the data you are looking for",
@@ -49,13 +49,13 @@
       "seen": "2026-09-04 11:23 KST"
     }
   ],
-  "rate_source_time": "2026-09-04 18:23:46 KST",
+  "rate_source_time": "2026-09-04 18:49:18 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": -6.0,
-  "rate_change_pct": -0.44,
+  "rate_change": -6.1,
+  "rate_change_pct": -0.45,
   "smbs_base_rate": 1359.5,
   "smbs_rate_date": "2026-09-04",
-  "smbs_rate_updated_at_kst": "2026-09-04 18:23:29 KST",
+  "smbs_rate_updated_at_kst": "2026-09-04 18:49:05 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1362.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-04 18:23:29 KST"
+  "rate_job_checked_at_kst": "2026-09-04 18:49:05 KST"
 }

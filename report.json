@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-09-05 12:21 KST",
+  "updated_at_kst": "2026-09-05 12:47 KST",
   "current_rate": 1347.3,
   "previous_close": 1358.0,
-  "rate_updated_at_kst": "2026-09-05 12:21:29 KST",
+  "rate_updated_at_kst": "2026-09-05 12:47:02 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
@@ -43,19 +43,19 @@
       "seen": "2026-09-05 00:38 KST"
     },
     {
-      "title": "Strong August jobs report sends yields higher",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNdTJNUkhrZnFtcjZwZmtHcGNSYTBCNkZKZFBlUy1IS3BiTlhBYzRNSm1VRWlLRFhHdmVjUEt4ajZmWFRHOGUzWHBKeFhWSlllYzdoc3g3dmFDVFpfLXQ5d19GRmtiT2UtT0gyV0d1cnpaQmY4RElYZzBBY0pfY2I5Q01HRjhxak1pOHo2c0JiUlJIWmdiX0NZX3Z1Zw?oc=5",
+      "title": "Bond yields fall, stocks rally as Fed's Waller comments curb rate hike bets",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZHUxMWV6alo1MWFYM191bnlDTlhjTlc0Y2t0UjE4TndrZW9PczcxTmg5a1M0ZWk5M2Fqb0RvVlNIQWFuNG1nb3BtbjhhM2NmbkhDVENZTF9qYU53UDBWR3ROTl9XSlFDVGNLUF9sN29rSlhZc0xfSGZKcWlFanB4b2R1bw?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-04 22:41 KST"
+      "seen": "2026-09-05 00:35 KST"
     }
   ],
-  "rate_source_time": "2026-09-05 12:21:29 KST",
+  "rate_source_time": "2026-09-05 12:47:02 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": -10.7,
   "rate_change_pct": -0.79,
   "smbs_base_rate": 1359.5,
   "smbs_rate_date": "2026-09-05",
-  "smbs_rate_updated_at_kst": "2026-09-05 12:21:17 KST",
+  "smbs_rate_updated_at_kst": "2026-09-05 12:46:45 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1362.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-05 12:21:17 KST"
+  "rate_job_checked_at_kst": "2026-09-05 12:46:45 KST"
 }

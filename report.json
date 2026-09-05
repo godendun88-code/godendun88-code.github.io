@@ -1,17 +1,23 @@
 {
-  "updated_at_kst": "2026-09-05 19:46 KST",
+  "updated_at_kst": "2026-09-05 20:22 KST",
   "current_rate": 1347.3,
   "previous_close": 1358.0,
   "rate_updated_at_kst": "2026-09-05 19:45:56 KST",
   "rate_source": "KB STAR FX Market Watch",
-  "market_bias": "혼조",
+  "market_bias": "상승 우세",
   "drivers": [
-    "연준·금리 관련 최신 기사(\"Strong job gains signal Fed hike as Trump levels new rate-cut demand\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
+    "연준의 추가 금리 인상 또는 매파적 기조 우려가 부각돼 달러 강세 압력이 높아지는 요인으로 작용하고 있습니다.",
     "미국 고용 강세 관련 보도가 확인돼 금리 인하 기대를 낮추고 달러 강세 요인으로 작용하고 있습니다.",
     "외환시장 관련 최신 기사(\"Yen's changing fortunes might finally be spooking the bears\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다."
   ],
-  "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
+  "outlook": "달러 강세·금리 상승 계열의 재료가 상대적으로 우세해 원/달러는 단기 상승 압력이 나타날 수 있으나, 국내 수급과 위험선호 회복 여부에 따라 변동성이 예상됩니다.",
   "articles": [
+    {
+      "title": "Wall Street ends lower as solid jobs data fuels hawkish Fed bets",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNeHN0dDlKUW5GZFotZml1LU1iRHB2dkFERDZDbVhFTUdZcFJtQmdqNFhDS0RsUk9PNEdCVGhTdVEydUZWd1FfM3dENlVFYV9QeXRNX2NWSjN2cS1NRVZ6YjU0WGRqQmJKMkZGOEczeHBzenpSS3Z4aEdZUms1a0RhcWUyOGdKM0ZrUk43N0J1aXBRUi1neE1rcFFR?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-05 07:57 KST"
+    },
     {
       "title": "Strong job gains signal Fed hike as Trump levels new rate-cut demand",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOOF9yZEh3LUNwbXhOOE05b01rVHlLVld4OXkwYXdOczZxZF9DUTUxVU9Ta3pCTGRla0RfMXZTR1phZEx6aVU0VmRWcGVZZzlsd3dhZF9yYjc0UHFfaUZMNEoxaElSSE1YSzY5aEExTEMzNV9oOVpSSEc1SXlsZ0R5UkF4cFFMTWVxQi1SYk43cDlhU204aklNNzhB?oc=5",
@@ -43,13 +49,14 @@
   "rate_change_pct": -0.79,
   "smbs_base_rate": 1359.5,
   "smbs_rate_date": "2026-09-05",
-  "smbs_rate_updated_at_kst": "2026-09-05 19:45:42 KST",
+  "smbs_rate_updated_at_kst": "2026-09-05 20:19:48 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
     1350.0,
     1362.0
   ],
-  "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-05 19:45:42 KST"
+  "rate_check_status": "failed",
+  "rate_job_checked_at_kst": "2026-09-05 20:19:48 KST",
+  "rate_fetch_error": "RuntimeError: KB STAR FX 자동조회 3회 실패: TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n | TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n | TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n"
 }

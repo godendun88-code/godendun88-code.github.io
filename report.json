@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-09-05 21:50 KST",
+  "updated_at_kst": "2026-09-05 22:20 KST",
   "current_rate": 1347.3,
   "previous_close": 1358.0,
-  "rate_updated_at_kst": "2026-09-05 21:49:58 KST",
+  "rate_updated_at_kst": "2026-09-05 22:20:07 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
@@ -25,25 +25,25 @@
       "seen": "2026-09-05 00:38 KST"
     },
     {
+      "title": "Indian rupee logs best week in five as RBI muscle power, foreign deposits support",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObzRGdllJNVhfR3FScC03Tk5XMk42bWdHcnR0b3U4QzZhUjRib2xzYmJkeHd0Mnhxdi1xX0xheThia1EyZTlBaHdmVHdwaW5fdUo2RV9OZl81SkRwRDNfRk51cHUxc1pYY3hocUlWaDBDdHlaVHdmNXVkV0tkcWxWWmFuZ3poMmVNdzZqTUpkY1BSU3VMWDd2QS11Znl3dWdnM1VKUlNn?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-05 00:10 KST"
+    },
+    {
       "title": "Strong August jobs report sends yields higher",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNdTJNUkhrZnFtcjZwZmtHcGNSYTBCNkZKZFBlUy1IS3BiTlhBYzRNSm1VRWlLRFhHdmVjUEt4ajZmWFRHOGUzWHBKeFhWSlllYzdoc3g3dmFDVFpfLXQ5d19GRmtiT2UtT0gyV0d1cnpaQmY4RElYZzBBY0pfY2I5Q01HRjhxak1pOHo2c0JiUlJIWmdiX0NZX3Z1Zw?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-04 22:41 KST"
-    },
-    {
-      "title": "Take Five: Good evening, Mr Bond",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPb0steE9LaDhWRWV0MjJBYTNGcWJTVldmOXNsekxXZWw2b1Y2NzBTU1VWVE11elpWbGVwcTZlZ2lkSldqMUtkNXh4c2RSc0FKeW5CcjRrdjFqRnhJcG00OE5wdVR1UVctcWZuMVpKZ2ZyM245UGVjZElNRlUwNTBZVWxn?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-04 22:06 KST"
     }
   ],
-  "rate_source_time": "2026-09-05 21:49:58 KST",
+  "rate_source_time": "2026-09-05 22:20:07 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": -10.7,
   "rate_change_pct": -0.79,
   "smbs_base_rate": 1359.5,
   "smbs_rate_date": "2026-09-05",
-  "smbs_rate_updated_at_kst": "2026-09-05 21:49:45 KST",
+  "smbs_rate_updated_at_kst": "2026-09-05 22:19:52 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -51,5 +51,5 @@
     1362.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-05 21:49:45 KST"
+  "rate_job_checked_at_kst": "2026-09-05 22:19:52 KST"
 }

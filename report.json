@@ -1,23 +1,17 @@
 {
-  "updated_at_kst": "2026-09-05 19:20 KST",
+  "updated_at_kst": "2026-09-05 19:46 KST",
   "current_rate": 1347.3,
   "previous_close": 1358.0,
-  "rate_updated_at_kst": "2026-09-05 19:20:31 KST",
+  "rate_updated_at_kst": "2026-09-05 19:45:56 KST",
   "rate_source": "KB STAR FX Market Watch",
-  "market_bias": "상승 우세",
+  "market_bias": "혼조",
   "drivers": [
-    "연준의 추가 금리 인상 또는 매파적 기조 우려가 부각돼 달러 강세 압력이 높아지는 요인으로 작용하고 있습니다.",
+    "연준·금리 관련 최신 기사(\"Strong job gains signal Fed hike as Trump levels new rate-cut demand\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
     "미국 고용 강세 관련 보도가 확인돼 금리 인하 기대를 낮추고 달러 강세 요인으로 작용하고 있습니다.",
     "외환시장 관련 최신 기사(\"Yen's changing fortunes might finally be spooking the bears\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다."
   ],
-  "outlook": "달러 강세·금리 상승 계열의 재료가 상대적으로 우세해 원/달러는 단기 상승 압력이 나타날 수 있으나, 국내 수급과 위험선호 회복 여부에 따라 변동성이 예상됩니다.",
+  "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
-    {
-      "title": "Wall Street ends lower as solid jobs data fuels hawkish Fed bets",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNeHN0dDlKUW5GZFotZml1LU1iRHB2dkFERDZDbVhFTUdZcFJtQmdqNFhDS0RsUk9PNEdCVGhTdVEydUZWd1FfM3dENlVFYV9QeXRNX2NWSjN2cS1NRVZ6YjU0WGRqQmJKMkZGOEczeHBzenpSS3Z4aEdZUms1a0RhcWUyOGdKM0ZrUk43N0J1aXBRUi1neE1rcFFR?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-05 07:57 KST"
-    },
     {
       "title": "Strong job gains signal Fed hike as Trump levels new rate-cut demand",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOOF9yZEh3LUNwbXhOOE05b01rVHlLVld4OXkwYXdOczZxZF9DUTUxVU9Ta3pCTGRla0RfMXZTR1phZEx6aVU0VmRWcGVZZzlsd3dhZF9yYjc0UHFfaUZMNEoxaElSSE1YSzY5aEExTEMzNV9oOVpSSEc1SXlsZ0R5UkF4cFFMTWVxQi1SYk43cDlhU204aklNNzhB?oc=5",
@@ -41,21 +35,15 @@
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPb0steE9LaDhWRWV0MjJBYTNGcWJTVldmOXNsekxXZWw2b1Y2NzBTU1VWVE11elpWbGVwcTZlZ2lkSldqMUtkNXh4c2RSc0FKeW5CcjRrdjFqRnhJcG00OE5wdVR1UVctcWZuMVpKZ2ZyM245UGVjZElNRlUwNTBZVWxn?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-04 22:06 KST"
-    },
-    {
-      "title": "COMMENTARY: Morning Bid: Bonds' reality check",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNaGdCTnowcWtGV3Y4bmJUbnRhNXVPTEFrWHBqVnQ5OG1tcVF5aC1ya2VvRHl6SWhJTlNrNGxPamtHbnRkT2xBX0F2bHJ2ck9HelE3OXVDejZSeXc3MENwaDgwbzlSaVd3VTNGNXhtc2NsR0pFeXdIdFYwRXJpTEZWdjlIck5BSmp5YWNfeTk1VjA5YW5NLWFr?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-04 19:39 KST"
     }
   ],
-  "rate_source_time": "2026-09-05 19:20:31 KST",
+  "rate_source_time": "2026-09-05 19:45:56 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": -10.7,
   "rate_change_pct": -0.79,
   "smbs_base_rate": 1359.5,
   "smbs_rate_date": "2026-09-05",
-  "smbs_rate_updated_at_kst": "2026-09-05 18:46:11 KST",
+  "smbs_rate_updated_at_kst": "2026-09-05 19:45:42 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,6 +51,5 @@
     1362.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-05 19:20:14 KST",
-  "smbs_rate_error": "RuntimeError: 서울외국환중개 페이지에서 USD 매매기준율을 찾지 못했습니다."
+  "rate_job_checked_at_kst": "2026-09-05 19:45:42 KST"
 }

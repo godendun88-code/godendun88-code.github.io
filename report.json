@@ -1,13 +1,13 @@
 {
-  "updated_at_kst": "2026-09-06 00:20 KST",
+  "updated_at_kst": "2026-09-06 00:46 KST",
   "current_rate": 1347.3,
   "previous_close": 1358.0,
-  "rate_updated_at_kst": "2026-09-06 00:20:41 KST",
+  "rate_updated_at_kst": "2026-09-06 00:46:23 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "상승 우세",
   "drivers": [
     "연준의 추가 금리 인상 또는 매파적 기조 우려가 부각돼 달러 강세 압력이 높아지는 요인으로 작용하고 있습니다.",
-    "외환시장 관련 최신 기사(\"Yen's changing fortunes might finally be spooking the bears\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다.",
+    "미국 고용 관련 최신 기사(\"US nonfarm payrolls blow past expectations in August; unemployment rate steady at 4.1%\")가 확인돼 고용지표가 연준 금리 기대와 달러 방향성을 좌우하는 변수로 부각되고 있습니다.",
     "연준·금리 관련 최신 기사(\"Strong job gains signal Fed hike as Trump levels new rate-cut demand\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다."
   ],
   "outlook": "달러 강세·금리 상승 계열의 재료가 상대적으로 우세해 원/달러는 단기 상승 압력이 나타날 수 있으나, 국내 수급과 위험선호 회복 여부에 따라 변동성이 예상됩니다.",
@@ -25,19 +25,19 @@
       "seen": "2026-09-05 07:26 KST"
     },
     {
-      "title": "Yen's changing fortunes might finally be spooking the bears",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNYjNuenNBZEFnRFFvQk82SmxjeTV2Yk9DeUlRZzZFT05QdWZmSThJVTdtYkY4RFNQODhXcFdxMWxGV0xta0w4SEFzc3ZXVUtPNlRDcC02Zkdma2hDYXZqNHdmN3FEWHljaG1pdE5fRkZ5dmpXeDlRdmlLbkxIMlB4ZTFNWGhYeDRwSUtKc2tXbktob0JFaFVvU1JiSWlOaUZhVzhxZjF2YkpYTkpOYUE?oc=5",
+      "title": "US nonfarm payrolls blow past expectations in August; unemployment rate steady at 4.1%",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbUlhOGI2YkQzM0dqZll6Rm5VSDBReEZQMkZRODlvQkJBTGJfeDhVbjE1c2dXbEVBYmZieElLdEtLR1BZZlQ3NENYdUNSLUgyNnNCMHVJcEl3T2ZyUlVoYndDQ1pYOWhmRnlncUxZMUpjMTlvYTJET2kxMHpiSzN5WUJSMVc1VVkyVGxSRVVkQmRNQUJNVmRjX1lSdzdwbi1PUUhsRUthaUE?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-05 00:38 KST"
+      "seen": "2026-09-05 03:49 KST"
     }
   ],
-  "rate_source_time": "2026-09-06 00:20:41 KST",
+  "rate_source_time": "2026-09-06 00:46:23 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": -10.7,
   "rate_change_pct": -0.79,
   "smbs_base_rate": 1359.5,
   "smbs_rate_date": "2026-09-06",
-  "smbs_rate_updated_at_kst": "2026-09-06 00:20:29 KST",
+  "smbs_rate_updated_at_kst": "2026-09-06 00:46:07 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -45,5 +45,5 @@
     1362.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-06 00:20:29 KST"
+  "rate_job_checked_at_kst": "2026-09-06 00:46:07 KST"
 }

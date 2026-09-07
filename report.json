@@ -1,5 +1,5 @@
 {
-  "updated_at_kst": "2026-09-07 21:29 KST",
+  "updated_at_kst": "2026-09-07 21:55 KST",
   "current_rate": 1348.4,
   "previous_close": 1347.3,
   "rate_updated_at_kst": "2026-09-07 21:29:42 KST",
@@ -8,7 +8,7 @@
   "drivers": [
     "연준·금리 관련 최신 기사(\"Rupee may withstand oil, Fed pressures with RBI support\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
     "미국 물가 관련 최신 기사(\"Stocks dented by inflation risk from rising oil, dicey geopolitics\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
-    "유가·지정학 관련 최신 기사(\"Rupee shrugs off oil strain as RBI intervention holds firm\")가 확인돼 원화 변동성 확대 요인으로 작용하고 있습니다."
+    "유가·지정학 관련 최신 기사(\"Indian stocks slip to six-week low as IT slides, oil worries mount\")가 확인돼 원화 변동성 확대 요인으로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
@@ -17,6 +17,12 @@
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOQkppSlJtNjIzeHN6TVJMam0yMGZSSGhrVFlnTDhqY2pIeHpmdS13RGc0bUQ0TUQwQjdaRHJyalp0bE9JN01oR2xPLUlzU0R4NDhvSHgwVHNPbWZjcEF0QU1IdFVtajhHS2ZwdzVuSENObEo3dkVtcHZGQ3RXZVY1ejdHOVlFSlE3SlJ1Q1VOQ0NFRTdwU0JNNlQ4dHBsWjd6ZER5cm5CYjlEbUdUUU5JRw?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-07 12:45 KST"
+    },
+    {
+      "title": "Indian stocks slip to six-week low as IT slides, oil worries mount",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPN28wNDdORG10X2Z2Tnl0OHduV3Q4T0IwNTJOWTlqUHhWQWxMa1RQYjE1ZDFfWkZhT3I4Z25yWXhHb1pseWNIYU85Nm9oM0dfZG9IYWNBeVcySDBfMnl2Tkd4aFdGWklMNDY1aDhPMnNrNTdMVl9vMWpvQlROUGtleDNBUHpYa1k4UzZCS2VFVGlxX0dnWjEwREYwUDNJYV9qbS1JdnZfU3NGZEFjOG1Bb1l6N1V6QQ?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-07 11:27 KST"
     },
     {
       "title": "Rupee shrugs off oil strain as RBI intervention holds firm",
@@ -49,13 +55,14 @@
   "rate_change_pct": 0.08,
   "smbs_base_rate": 1355.2,
   "smbs_rate_date": "2026-09-07",
-  "smbs_rate_updated_at_kst": "2026-09-07 21:29:27 KST",
+  "smbs_rate_updated_at_kst": "2026-09-07 21:52:52 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
     1343.0,
     1358.0
   ],
-  "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-07 21:29:27 KST"
+  "rate_check_status": "failed",
+  "rate_job_checked_at_kst": "2026-09-07 21:52:52 KST",
+  "rate_fetch_error": "RuntimeError: KB STAR FX 자동조회 3회 실패: TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n | TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n | TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n"
 }

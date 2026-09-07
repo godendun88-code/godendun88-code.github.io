@@ -1,16 +1,23 @@
 {
-  "updated_at_kst": "2026-09-08 05:50 KST",
+  "updated_at_kst": "2026-09-08 06:22 KST",
   "current_rate": 1345.5,
   "previous_close": 1337.61,
-  "rate_updated_at_kst": "2026-09-08 05:22:46 KST",
+  "rate_updated_at_kst": "2026-09-08 06:22:07 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
-    "미국 물가 관련 최신 기사(\"Stocks dented by inflation risk from rising oil, dicey geopolitics\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
-    "외환시장 관련 최신 기사(\"India rupee, bonds to be driven by RBI intervention, liquidity action\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다."
+    "미국 물가 관련 최신 기사(\"Oil prices rise to 6-week high after Iran and U.S. trade blows, Saudi Aramco facilities reportedly hit\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
+    "외환시장 관련 최신 기사(\"India rupee, bonds to be driven by RBI intervention, liquidity action\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다.",
+    "미국 물가 관련 최신 기사(\"Stocks dented by inflation risk from rising oil, dicey geopolitics\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
+    {
+      "title": "Oil prices rise to 6-week high after Iran and U.S. trade blows, Saudi Aramco facilities reportedly hit",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPNlNMZ01SajNOQlpod1U2Rlh1SmhBZjFxdnFTYVJFX09aQ3VfYnZDVVpGb0hoSm56ci0tLUw0VzlGQl9ZeUJqbG9fbkZuNjNieWpBN2hYSW84TmRKWV8zZFZoUDlSdm8xd3VPeEM4QkZkR0hHYmwzZzFXa0djM2h0bk5WUG44cFlGVktpV3JfdmxSLVQxUEpHeXE0U0xEUG9qWmJYQkJUWWRDSHRZempXTXNHcGtROGE2c1djcnhJcFY5NHV5aE1DdVNSNzFGbnRyVDJlcDdKc9IB1wFBVV95cUxPNlNMZ01SajNOQlpod1U2Rlh1SmhBZjFxdnFTYVJFX09aQ3VfYnZDVVpGb0hoSm56ci0tLUw0VzlGQl9ZeUJqbG9fbkZuNjNieWpBN2hYSW84TmRKWV8zZFZoUDlSdm8xd3VPeEM4QkZkR0hHYmwzZzFXa0djM2h0bk5WUG44cFlGVktpV3JfdmxSLVQxUEpHeXE0U0xEUG9qWmJYQkJUWWRDSHRZempXTXNHcGtROGE2c1djcnhJcFY5NHV5aE1DdVNSNzFGbnRyVDJlcDdKcw?oc=5",
+      "domain": "CNBC",
+      "seen": "2026-09-07 23:52 KST"
+    },
     {
       "title": "India rupee, bonds to be driven by RBI intervention, liquidity action",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxONGVCWHNJVzFoWXl0Z2VadkFsZU9pU1k0cll3WmtXUlJhdGt2Y0ZoUlZqT2pWYmF0TEJXVnMzTklod2g3b2FEWHlkOEE4M0MxbldQV0RNNE9sNVVaY21CR0NGdE8ySDZHN1czVHhDR0tNZ0xaaF8zMmJBZDNXR1RDaFQ1V1dKeWVJdHhRUmtjMkV0ZmxXdkhoR0ppOHdxd2paVmFxQjVCNUZrVWxKLTF4c1Jn?oc=5",
@@ -24,20 +31,19 @@
       "seen": "2026-09-07 10:06 KST"
     }
   ],
-  "rate_source_time": "2026-09-08 05:22:46 KST",
+  "rate_source_time": "2026-09-08 06:22:07 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": 7.89,
   "rate_change_pct": 0.91,
   "smbs_base_rate": 1342.6,
   "smbs_rate_date": "2026-09-08",
-  "smbs_rate_updated_at_kst": "2026-09-08 05:47:58 KST",
+  "smbs_rate_updated_at_kst": "2026-09-08 06:21:51 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
     1343.0,
     1358.0
   ],
-  "rate_check_status": "failed",
-  "rate_job_checked_at_kst": "2026-09-08 05:47:58 KST",
-  "rate_fetch_error": "RuntimeError: KB STAR FX 자동조회 3회 실패: TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n | TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n | TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n"
+  "rate_check_status": "success",
+  "rate_job_checked_at_kst": "2026-09-08 06:21:51 KST"
 }

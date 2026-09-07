@@ -1,17 +1,29 @@
 {
-  "updated_at_kst": "2026-09-07 14:22 KST",
+  "updated_at_kst": "2026-09-07 14:49 KST",
   "current_rate": 1345.7,
   "previous_close": 1347.3,
-  "rate_updated_at_kst": "2026-09-07 14:22:14 KST",
+  "rate_updated_at_kst": "2026-09-07 14:49:31 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "상승 우세",
   "drivers": [
+    "연준·금리 관련 최신 기사(\"Rupee may withstand oil, Fed pressures with RBI support\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
     "유가 및 중동 지정학적 불확실성이 부각돼 에너지 수입 의존도가 높은 원화에는 약세 부담 요인으로 작용하고 있습니다.",
-    "외환시장 관련 최신 기사(\"India rupee, bonds to be driven by RBI intervention, liquidity action\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다.",
-    "유가 및 중동 지정학적 불확실성이 부각돼 에너지 수입 의존도가 높은 원화에는 약세 부담 요인으로 작용하고 있습니다."
+    "외환시장 관련 최신 기사(\"Indian central bank likely intervened to support rupee, traders say\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다."
   ],
   "outlook": "달러 강세·금리 상승 계열의 재료가 상대적으로 우세해 원/달러는 단기 상승 압력이 나타날 수 있으나, 국내 수급과 위험선호 회복 여부에 따라 변동성이 예상됩니다.",
   "articles": [
+    {
+      "title": "Indian central bank likely intervened to support rupee, traders say",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOQkppSlJtNjIzeHN6TVJMam0yMGZSSGhrVFlnTDhqY2pIeHpmdS13RGc0bUQ0TUQwQjdaRHJyalp0bE9JN01oR2xPLUlzU0R4NDhvSHgwVHNPbWZjcEF0QU1IdFVtajhHS2ZwdzVuSENObEo3dkVtcHZGQ3RXZVY1ejdHOVlFSlE3SlJ1Q1VOQ0NFRTdwU0JNNlQ4dHBsWjd6ZER5cm5CYjlEbUdUUU5JRw?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-07 12:45 KST"
+    },
+    {
+      "title": "Rupee may withstand oil, Fed pressures with RBI support",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQYTBLY21ON1RJaktHeDh4TjNjTEEybTVsdmJDUjMyc0pTTTV0aUxtRXlDZ2Z0X1VLUWxXdGkyY1FKTkZWbUVabTVfZE9TM3BHS0gwaUJZREt0WUNVdnF1VjRWNG9oZm5DX2Q0SVpwMllLZFExZmJBWlZJZm9QdzFiTHhmWTFEUTI2QVBLZUhJWXBFU19JOEd3bGNnd0NBX2N0MjMtRg?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-07 11:16 KST"
+    },
     {
       "title": "India rupee, bonds to be driven by RBI intervention, liquidity action",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxONGVCWHNJVzFoWXl0Z2VadkFsZU9pU1k0cll3WmtXUlJhdGt2Y0ZoUlZqT2pWYmF0TEJXVnMzTklod2g3b2FEWHlkOEE4M0MxbldQV0RNNE9sNVVaY21CR0NGdE8ySDZHN1czVHhDR0tNZ0xaaF8zMmJBZDNXR1RDaFQ1V1dKeWVJdHhRUmtjMkV0ZmxXdkhoR0ppOHdxd2paVmFxQjVCNUZrVWxKLTF4c1Jn?oc=5",
@@ -23,33 +35,15 @@
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQa0pobHhGSWlxLVNZa2htLURrNldPaHUyOGVyQXVBeGtJOWJDUXpqMXFSTDBCaHNkeFI5Q0Y2NUdFNlJoWUZlVGQwR2pGZk5oc1R5TzFLbUdFMU1aY3NGTXVhOGFTeFZOenRpbUlNc0ZiTjQtMnNaRVUtTVNrWEpLeGprbw?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-07 10:06 KST"
-    },
-    {
-      "title": "Ship fuel shortage looms as refiners strained by war favour other products",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQcjJsRnYxdWplZmMxWnZxd2JBRjdaR2YtV0VrMEJCNmFTUjF1U1oyaVhiZk5XZ2Rvc1lXVEdhQjd0bWxxZ1R6Sl9Eckl0S3NXSXpjbGZ5QjJ6dnVkbG9tc2RtRl8tNy1heW1RVHh1VlZ2ZUVtQnJTREdYRlJsRFo5VjRoNUhRTEV2c0dwd01fNWphVkg4LW9oeExqdm1jQW9nRFdGYm16WTRkUjkxUmpaN2NPdDZpUVl2Tk1KQ0xZZWY?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-07 10:02 KST"
-    },
-    {
-      "title": "Oil extends gains after US and Iran strike ships",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNN2l5blJOWGZlTWtiTzJFdl80Vm9jb3QxSHp5YUpRR0l6THd2RmZ6cDd2OUtFakRhYkRXbWdSdUxUU0tYSVl1YTRTS1RzYTVQem1OOVFDR01ZRXNEeDBuWEwweHd0RDZnS1B0dE1PbFhXb3JMWjNGY1JLMHpvUkpGRDE0ZUtXZk10akVNOUhSVklQYjdHZ1JCS25ReUc?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-07 09:15 KST"
-    },
-    {
-      "title": "COMMENTARY: China's crude oil imports stayed weak in August. Can this continue?",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNjJvZmc3M0wteXQ1VzNhSUZHY3p4eGl4UjNUWC1BYi16ajFCbzZYUlBfV0tQajNaSVFvWVRWTmY5WlhpT1hPb0JwRUF4OHY2NG96bl9xTVppUTFyZUN3clpMLTJfNnRhenNsTVVuUXlXZmxxMDV6R00tQk1MWVBkOTlUdi1uOUxuV1l2WnZaODZESnNLWVdzM0RxSFlQZTF5ZWhiUkZtSExpWmQ5cGZ1M0dnTTdjNjNRR3hqV21pT3lOMlZlZEJRQ0lB?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-07 09:01 KST"
     }
   ],
-  "rate_source_time": "2026-09-07 14:22:14 KST",
+  "rate_source_time": "2026-09-07 14:49:31 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": -1.6,
   "rate_change_pct": -0.12,
   "smbs_base_rate": 1355.2,
   "smbs_rate_date": "2026-09-07",
-  "smbs_rate_updated_at_kst": "2026-09-07 14:21:58 KST",
+  "smbs_rate_updated_at_kst": "2026-09-07 14:49:14 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -57,5 +51,5 @@
     1358.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-07 14:21:58 KST"
+  "rate_job_checked_at_kst": "2026-09-07 14:49:14 KST"
 }

@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-09-07 20:49 KST",
-  "current_rate": 1347.1,
-  "previous_close": 1339.47,
-  "rate_updated_at_kst": "2026-09-07 20:49:28 KST",
+  "updated_at_kst": "2026-09-07 21:29 KST",
+  "current_rate": 1348.4,
+  "previous_close": 1347.3,
+  "rate_updated_at_kst": "2026-09-07 21:29:42 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
@@ -41,21 +41,15 @@
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQa0pobHhGSWlxLVNZa2htLURrNldPaHUyOGVyQXVBeGtJOWJDUXpqMXFSTDBCaHNkeFI5Q0Y2NUdFNlJoWUZlVGQwR2pGZk5oc1R5TzFLbUdFMU1aY3NGTXVhOGFTeFZOenRpbUlNc0ZiTjQtMnNaRVUtTVNrWEpLeGprbw?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-07 10:06 KST"
-    },
-    {
-      "title": "Ship fuel shortage looms as refiners strained by war favour other products",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQcjJsRnYxdWplZmMxWnZxd2JBRjdaR2YtV0VrMEJCNmFTUjF1U1oyaVhiZk5XZ2Rvc1lXVEdhQjd0bWxxZ1R6Sl9Eckl0S3NXSXpjbGZ5QjJ6dnVkbG9tc2RtRl8tNy1heW1RVHh1VlZ2ZUVtQnJTREdYRlJsRFo5VjRoNUhRTEV2c0dwd01fNWphVkg4LW9oeExqdm1jQW9nRFdGYm16WTRkUjkxUmpaN2NPdDZpUVl2Tk1KQ0xZZWY?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-07 10:02 KST"
     }
   ],
-  "rate_source_time": "2026-09-07 20:49:28 KST",
+  "rate_source_time": "2026-09-07 21:29:42 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 7.63,
-  "rate_change_pct": 0.88,
+  "rate_change": 1.1,
+  "rate_change_pct": 0.08,
   "smbs_base_rate": 1355.2,
   "smbs_rate_date": "2026-09-07",
-  "smbs_rate_updated_at_kst": "2026-09-07 20:49:16 KST",
+  "smbs_rate_updated_at_kst": "2026-09-07 21:29:27 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +57,5 @@
     1358.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-07 20:49:16 KST"
+  "rate_job_checked_at_kst": "2026-09-07 21:29:27 KST"
 }

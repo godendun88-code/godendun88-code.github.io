@@ -1,16 +1,16 @@
 {
-  "updated_at_kst": "2026-09-07 14:49 KST",
-  "current_rate": 1345.7,
+  "updated_at_kst": "2026-09-07 15:31 KST",
+  "current_rate": 1340.7,
   "previous_close": 1347.3,
-  "rate_updated_at_kst": "2026-09-07 14:49:31 KST",
+  "rate_updated_at_kst": "2026-09-07 15:30:54 KST",
   "rate_source": "KB STAR FX Market Watch",
-  "market_bias": "상승 우세",
+  "market_bias": "혼조",
   "drivers": [
-    "연준·금리 관련 최신 기사(\"Rupee may withstand oil, Fed pressures with RBI support\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
-    "유가 및 중동 지정학적 불확실성이 부각돼 에너지 수입 의존도가 높은 원화에는 약세 부담 요인으로 작용하고 있습니다.",
-    "외환시장 관련 최신 기사(\"Indian central bank likely intervened to support rupee, traders say\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다."
+    "유가·지정학 관련 최신 기사(\"Rupee shrugs off oil strain as RBI intervention holds firm\")가 확인돼 원화 변동성 확대 요인으로 작용하고 있습니다.",
+    "외환시장 관련 최신 기사(\"Indian central bank likely intervened to support rupee, traders say\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다.",
+    "외환시장 관련 최신 기사(\"India rupee, bonds to be driven by RBI intervention, liquidity action\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다."
   ],
-  "outlook": "달러 강세·금리 상승 계열의 재료가 상대적으로 우세해 원/달러는 단기 상승 압력이 나타날 수 있으나, 국내 수급과 위험선호 회복 여부에 따라 변동성이 예상됩니다.",
+  "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
     {
       "title": "Indian central bank likely intervened to support rupee, traders say",
@@ -19,7 +19,7 @@
       "seen": "2026-09-07 12:45 KST"
     },
     {
-      "title": "Rupee may withstand oil, Fed pressures with RBI support",
+      "title": "Rupee shrugs off oil strain as RBI intervention holds firm",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQYTBLY21ON1RJaktHeDh4TjNjTEEybTVsdmJDUjMyc0pTTTV0aUxtRXlDZ2Z0X1VLUWxXdGkyY1FKTkZWbUVabTVfZE9TM3BHS0gwaUJZREt0WUNVdnF1VjRWNG9oZm5DX2Q0SVpwMllLZFExZmJBWlZJZm9QdzFiTHhmWTFEUTI2QVBLZUhJWXBFU19JOEd3bGNnd0NBX2N0MjMtRg?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-07 11:16 KST"
@@ -37,13 +37,13 @@
       "seen": "2026-09-07 10:06 KST"
     }
   ],
-  "rate_source_time": "2026-09-07 14:49:31 KST",
+  "rate_source_time": "2026-09-07 15:30:54 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": -1.6,
-  "rate_change_pct": -0.12,
+  "rate_change": -6.6,
+  "rate_change_pct": -0.49,
   "smbs_base_rate": 1355.2,
   "smbs_rate_date": "2026-09-07",
-  "smbs_rate_updated_at_kst": "2026-09-07 14:49:14 KST",
+  "smbs_rate_updated_at_kst": "2026-09-07 15:30:41 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -51,5 +51,5 @@
     1358.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-07 14:49:14 KST"
+  "rate_job_checked_at_kst": "2026-09-07 15:30:41 KST"
 }

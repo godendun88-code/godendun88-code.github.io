@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-09-07 15:56 KST",
-  "current_rate": 1340.7,
+  "updated_at_kst": "2026-09-07 16:25 KST",
+  "current_rate": 1344.2,
   "previous_close": 1347.3,
-  "rate_updated_at_kst": "2026-09-07 15:30:54 KST",
+  "rate_updated_at_kst": "2026-09-07 16:24:54 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
@@ -37,26 +37,31 @@
       "seen": "2026-09-07 10:38 KST"
     },
     {
-      "title": "Asia tech shares rally, others hesitant as oil rises",
+      "title": "Asia tech shares rally, others hesitate as oil climbs",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQa0pobHhGSWlxLVNZa2htLURrNldPaHUyOGVyQXVBeGtJOWJDUXpqMXFSTDBCaHNkeFI5Q0Y2NUdFNlJoWUZlVGQwR2pGZk5oc1R5TzFLbUdFMU1aY3NGTXVhOGFTeFZOenRpbUlNc0ZiTjQtMnNaRVUtTVNrWEpLeGprbw?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-07 10:06 KST"
+    },
+    {
+      "title": "Ship fuel shortage looms as refiners strained by war favour other products",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQcjJsRnYxdWplZmMxWnZxd2JBRjdaR2YtV0VrMEJCNmFTUjF1U1oyaVhiZk5XZ2Rvc1lXVEdhQjd0bWxxZ1R6Sl9Eckl0S3NXSXpjbGZ5QjJ6dnVkbG9tc2RtRl8tNy1heW1RVHh1VlZ2ZUVtQnJTREdYRlJsRFo5VjRoNUhRTEV2c0dwd01fNWphVkg4LW9oeExqdm1jQW9nRFdGYm16WTRkUjkxUmpaN2NPdDZpUVl2Tk1KQ0xZZWY?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-07 10:02 KST"
     }
   ],
-  "rate_source_time": "2026-09-07 15:30:54 KST",
+  "rate_source_time": "2026-09-07 16:24:54 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": -6.6,
-  "rate_change_pct": -0.49,
+  "rate_change": -3.1,
+  "rate_change_pct": -0.23,
   "smbs_base_rate": 1355.2,
   "smbs_rate_date": "2026-09-07",
-  "smbs_rate_updated_at_kst": "2026-09-07 15:53:37 KST",
+  "smbs_rate_updated_at_kst": "2026-09-07 16:24:39 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
     1343.0,
     1358.0
   ],
-  "rate_check_status": "failed",
-  "rate_job_checked_at_kst": "2026-09-07 15:53:37 KST",
-  "rate_fetch_error": "RuntimeError: KB STAR FX 자동조회 3회 실패: TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n | TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n | TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n"
+  "rate_check_status": "success",
+  "rate_job_checked_at_kst": "2026-09-07 16:24:39 KST"
 }

@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-09-07 17:51 KST",
+  "updated_at_kst": "2026-09-07 18:51 KST",
   "current_rate": 1344.8,
-  "previous_close": 1337.14,
-  "rate_updated_at_kst": "2026-09-07 18:25:36 KST",
+  "previous_close": 1337.47,
+  "rate_updated_at_kst": "2026-09-07 18:50:46 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
@@ -37,7 +37,7 @@
       "seen": "2026-09-07 10:38 KST"
     },
     {
-      "title": "Asia tech shares rally, others hesitant as oil rises",
+      "title": "Asia tech shares rally, others hesitate as oil climbs",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQa0pobHhGSWlxLVNZa2htLURrNldPaHUyOGVyQXVBeGtJOWJDUXpqMXFSTDBCaHNkeFI5Q0Y2NUdFNlJoWUZlVGQwR2pGZk5oc1R5TzFLbUdFMU1aY3NGTXVhOGFTeFZOenRpbUlNc0ZiTjQtMnNaRVUtTVNrWEpLeGprbw?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-07 10:06 KST"
@@ -49,13 +49,13 @@
       "seen": "2026-09-07 10:06 KST"
     }
   ],
-  "rate_source_time": "2026-09-07 18:25:36 KST",
+  "rate_source_time": "2026-09-07 18:50:46 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 7.66,
-  "rate_change_pct": 0.89,
+  "rate_change": 7.33,
+  "rate_change_pct": 0.85,
   "smbs_base_rate": 1355.2,
   "smbs_rate_date": "2026-09-07",
-  "smbs_rate_updated_at_kst": "2026-09-07 18:25:24 KST",
+  "smbs_rate_updated_at_kst": "2026-09-07 18:50:34 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1358.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-07 18:25:24 KST"
+  "rate_job_checked_at_kst": "2026-09-07 18:50:34 KST"
 }

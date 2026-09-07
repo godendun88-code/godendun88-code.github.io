@@ -1,15 +1,22 @@
 {
-  "updated_at_kst": "2026-09-07 09:57 KST",
-  "current_rate": 1338.0,
+  "updated_at_kst": "2026-09-07 10:21 KST",
+  "current_rate": 1338.1,
   "previous_close": 1347.3,
-  "rate_updated_at_kst": "2026-09-07 09:34:26 KST",
+  "rate_updated_at_kst": "2026-09-07 10:21:30 KST",
   "rate_source": "KB STAR FX Market Watch",
-  "market_bias": "혼조",
+  "market_bias": "상승 우세",
   "drivers": [
+    "유가 및 중동 지정학적 불확실성이 부각돼 에너지 수입 의존도가 높은 원화에는 약세 부담 요인으로 작용하고 있습니다.",
     "유가 및 중동 지정학적 불확실성이 부각돼 에너지 수입 의존도가 높은 원화에는 약세 부담 요인으로 작용하고 있습니다."
   ],
-  "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
+  "outlook": "달러 강세·금리 상승 계열의 재료가 상대적으로 우세해 원/달러는 단기 상승 압력이 나타날 수 있으나, 국내 수급과 위험선호 회복 여부에 따라 변동성이 예상됩니다.",
   "articles": [
+    {
+      "title": "Asia shares bounce, others cautious as oil rises",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQa0pobHhGSWlxLVNZa2htLURrNldPaHUyOGVyQXVBeGtJOWJDUXpqMXFSTDBCaHNkeFI5Q0Y2NUdFNlJoWUZlVGQwR2pGZk5oc1R5TzFLbUdFMU1aY3NGTXVhOGFTeFZOenRpbUlNc0ZiTjQtMnNaRVUtTVNrWEpLeGprbw?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-07 10:06 KST"
+    },
     {
       "title": "Oil extends gains after US and Iran strike ships",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNN2l5blJOWGZlTWtiTzJFdl80Vm9jb3QxSHp5YUpRR0l6THd2RmZ6cDd2OUtFakRhYkRXbWdSdUxUU0tYSVl1YTRTS1RzYTVQem1OOVFDR01ZRXNEeDBuWEwweHd0RDZnS1B0dE1PbFhXb3JMWjNGY1JLMHpvUkpGRDE0ZUtXZk10akVNOUhSVklQYjdHZ1JCS25ReUc?oc=5",
@@ -17,20 +24,19 @@
       "seen": "2026-09-07 09:15 KST"
     }
   ],
-  "rate_source_time": "2026-09-07 09:34:26 KST",
+  "rate_source_time": "2026-09-07 10:21:30 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": -9.3,
-  "rate_change_pct": -0.69,
+  "rate_change": -9.2,
+  "rate_change_pct": -0.68,
   "smbs_base_rate": 1355.2,
   "smbs_rate_date": "2026-09-07",
-  "smbs_rate_updated_at_kst": "2026-09-07 09:55:05 KST",
+  "smbs_rate_updated_at_kst": "2026-09-07 10:21:14 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
     1343.0,
     1358.0
   ],
-  "rate_check_status": "failed",
-  "rate_job_checked_at_kst": "2026-09-07 09:55:05 KST",
-  "rate_fetch_error": "RuntimeError: KB STAR FX 자동조회 3회 실패: TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n | TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n | TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n"
+  "rate_check_status": "success",
+  "rate_job_checked_at_kst": "2026-09-07 10:21:14 KST"
 }

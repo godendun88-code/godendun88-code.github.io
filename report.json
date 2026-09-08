@@ -1,14 +1,14 @@
 {
-  "updated_at_kst": "2026-09-08 20:23 KST",
-  "current_rate": 1342.1,
+  "updated_at_kst": "2026-09-08 20:49 KST",
+  "current_rate": 1342.2,
   "previous_close": 1345.5,
-  "rate_updated_at_kst": "2026-09-08 20:23:01 KST",
+  "rate_updated_at_kst": "2026-09-08 20:49:11 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "상승 우세",
   "drivers": [
     "미 국채금리 관련 최신 기사(\"Five spots to watch as the bond market creeps up on 5%\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다.",
     "유가 및 중동 지정학적 불확실성이 부각돼 에너지 수입 의존도가 높은 원화에는 약세 부담 요인으로 작용하고 있습니다.",
-    "외환시장 관련 최신 기사(\"Indian central bank extends intervention streak to support rupee, traders say\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다."
+    "외환시장 관련 최신 기사(\"Yen climbs to seven-month high on hawkish BOJ bets\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다."
   ],
   "outlook": "달러 강세·금리 상승 계열의 재료가 상대적으로 우세해 원/달러는 단기 상승 압력이 나타날 수 있으나, 국내 수급과 위험선호 회복 여부에 따라 변동성이 예상됩니다.",
   "articles": [
@@ -22,13 +22,19 @@
       "title": "Five spots to watch as the bond market creeps up on 5%",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQTkQyZERqYnVfdnBjajUtTFJ6OE1YT3dZbkhfRHU0MHdRb003eFVnQjJpWHYwekJaR0NSLUdGWDVKZ0pVRzJZLXpXdjRmM2V2SVNpeVByQ3RsOHN6SEUxaV80WHFxZHp2bEJfS3hLUHFvbl9ENkFTWjZnWktvTzktOVk5enBfWkdMVFJldTJn?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-08 19:11 KST"
+      "seen": "2026-09-08 19:41 KST"
     },
     {
       "title": "Mapping the Market: Australian bond yields may have further to climb",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNMkwyZXl4dTJyMkhnSHpLYU5fMHpVWmFMX3pST01TNnVHVHl0WXlYdmxwSm9DaDlpYWZTeUdoN2tZVUtKZkNWREVfQUJ4ODN5dXRVZDUwZkxGRlczMzkxVmFBZ3c5WFBtWENHVUlDMTBRT2VtZmtDMDNCRVJIc0c2UlExMA?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-08 19:07 KST"
+    },
+    {
+      "title": "Yen climbs to seven-month high on hawkish BOJ bets",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNTzJTNlNmRkk4ZlAxN0diYXoyblUyaE41UTRRRFpZbURGSk9pZGlTVDc5QkpJSHpqWlRWY0ZjR1M1ZW1sdU5KNmJqUGZ6eTRleGRfektFaDFlMmprZW14T2RodGJMcVlfNG5fMmZTbFhqNERNeGZvVW1CcHQ5MUZ4R0pGbTF3WllEN2hqQkpTVUZrUmVlUnh2UWIwOTJSQU5IZ2pxRGJNelRPdU8wd0dYS0Q4QXB0bWNRSnc?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-08 18:07 KST"
     },
     {
       "title": "Indian central bank extends intervention streak to support rupee, traders say",
@@ -41,21 +47,15 @@
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNa05iLVFENGVBNnNsMDFGeFJfdFJOVXVGRFU5LUw1UUtLLXYzZ2gzZjBwaHkzZDN1SFRjNElJQnVvek9LOVpISW02UHpTRkk5ektMbXFYQ1VCTHI0QkRFY0kzSmtNZG52cTVpSjdEb3F1VlJ6RHI1YnVzNmMtZWNwSnA4ZTBtVlAwWXo0RG52dnQ4X0tQVVdrakpNS3UyeWhSZHJpLWVIR1NZdlAtaUpQMTA1MlU5NDVoNGk0RTBlVE8?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-08 11:56 KST"
-    },
-    {
-      "title": "Why isn't oil above $100 despite supply disruptions?",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbEwxQTVrUWVzenpNQVoxdkFTWDRCckVzNmNFR1B4bTJoSDhOVTZZZVlFb2FjMHdGWFU2WlpfbmE2eksxeXBSM1hhcnZwSDUyTVJ3M2dJaUtqejdmY3FBSWRvZmFkOVVGeVdZbmFrTUlpZ0lIWTdCYTdpcUx5MHV3ZFBnSFE3dGV4cG9JYWlpR2J5MDE0WjdueUV3V1FkaEc5ZUlR?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-08 11:00 KST"
     }
   ],
-  "rate_source_time": "2026-09-08 20:23:01 KST",
+  "rate_source_time": "2026-09-08 20:49:11 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": -3.4,
+  "rate_change": -3.3,
   "rate_change_pct": -0.25,
   "smbs_base_rate": 1342.6,
   "smbs_rate_date": "2026-09-08",
-  "smbs_rate_updated_at_kst": "2026-09-08 20:22:47 KST",
+  "smbs_rate_updated_at_kst": "2026-09-08 20:49:00 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1350.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-08 20:22:47 KST"
+  "rate_job_checked_at_kst": "2026-09-08 20:49:00 KST"
 }

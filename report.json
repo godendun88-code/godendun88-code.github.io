@@ -1,12 +1,12 @@
 {
-  "updated_at_kst": "2026-09-08 15:28 KST",
-  "current_rate": 1344.6,
-  "previous_close": 1341.1,
-  "rate_updated_at_kst": "2026-09-08 15:28:24 KST",
+  "updated_at_kst": "2026-09-08 16:24 KST",
+  "current_rate": 1345.6,
+  "previous_close": 1345.5,
+  "rate_updated_at_kst": "2026-09-08 16:24:16 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
-    "미국 물가 둔화 관련 보도가 확인돼 추가 긴축 필요성이 낮아지면서 달러 강세 압력을 완화하는 요인으로 작용하고 있습니다.",
+    "미국 물가 관련 최신 기사(\"Gold ticks up with US inflation data on radar\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
     "유가·지정학 관련 최신 기사(\"Rupee slips as oil nears six-week high, RBI intervention limits losses\")가 확인돼 원화 변동성 확대 요인으로 작용하고 있습니다.",
     "외환시장 관련 최신 기사(\"COMMENTARY: Asia's next leverage-driven market crash could be brewing\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다."
   ],
@@ -19,7 +19,7 @@
       "seen": "2026-09-08 11:56 KST"
     },
     {
-      "title": "Gold gains as dollar eases with US inflation data on radar",
+      "title": "Gold ticks up with US inflation data on radar",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPZVFOMG93MEp4ZjJ0VUtRcWQxVTRKYTJOb3RwbTZpMnNyZlJ5eFdCRGhNTXF4b2MyRGpXWTh0T1N1d28tUGRfSW80bmFNT1RNelFYMTlLU2ctZEZpYmsyNjZRb2ROTnVqMkVuX2Z3UU12UDlCV2cxSmd1MzR2dktuNUtOR3ZXdjR2YnAyUlJDYjFtWmwybURmNEdLMHk3SFBQNVE?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-08 11:28 KST"
@@ -29,12 +29,6 @@
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbEwxQTVrUWVzenpNQVoxdkFTWDRCckVzNmNFR1B4bTJoSDhOVTZZZVlFb2FjMHdGWFU2WlpfbmE2eksxeXBSM1hhcnZwSDUyTVJ3M2dJaUtqejdmY3FBSWRvZmFkOVVGeVdZbmFrTUlpZ0lIWTdCYTdpcUx5MHV3ZFBnSFE3dGV4cG9JYWlpR2J5MDE0WjdueUV3V1FkaEc5ZUlR?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-08 11:00 KST"
-    },
-    {
-      "title": "Asia stocks waver as yen surges, Iran warns of retaliation",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE82VU5LOUdHSU5uLWxoeWs1bi16RTM3dUozczYtZXhPUF9RRFEtUVNTQmphRjloY2k5dkxodEZ1eTZnRjF4NU90clpNZGZJTnk1SEJXME44NDIxT1JNNW5rWW80VGlNbDJXNDdjMHN4YXd4eTRLb3RJLW5Ybw?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-08 10:48 KST"
     },
     {
       "title": "Oil rises as risks of prolonged Mideast conflict fan supply worries",
@@ -47,12 +41,18 @@
       "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQcWgzTlRucDRKVzNYRU0xaEV2dHNLSFlsSTY1d2VNZEhCVTRNZTZ3LTg3eDkzWTgtREpoa3ViRDUwTXg5YkRiNjdKYU5VNjJkVm5mQlJKUDNmWjJhRk40VF9sUHI1bGc3Uk1NWEhYVXNwVUtlcjBBZDJORURya0xCTnJHYnN4ZWxibmthQ3FpUDcxZUxsYzBjblRlYXRWd2hXRS1BQTdfZ0dFTTdMUDZXbVNZMEEtUXZLbVN6TXJUNmNtXzU2MlBxT2kxWWt0TnkwbHRUY3E5dGN2Mk8weFlN?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-08 08:06 KST"
+    },
+    {
+      "title": "Oil prices rise to six-week highs on worsening Middle East conflict",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNN2l5blJOWGZlTWtiTzJFdl80Vm9jb3QxSHp5YUpRR0l6THd2RmZ6cDd2OUtFakRhYkRXbWdSdUxUU0tYSVl1YTRTS1RzYTVQem1OOVFDR01ZRXNEeDBuWEwweHd0RDZnS1B0dE1PbFhXb3JMWjNGY1JLMHpvUkpGRDE0ZUtXZk10akVNOUhSVklQYjdHZ1JCS25ReUc?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-08 02:57 KST"
     }
   ],
-  "rate_source_time": "2026-09-08 15:28:24 KST",
+  "rate_source_time": "2026-09-08 16:24:16 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 3.5,
-  "rate_change_pct": 0.4,
+  "rate_change": 0.1,
+  "rate_change_pct": 0.01,
   "smbs_base_rate": 1342.6,
   "smbs_rate_date": "2026-09-08",
   "smbs_rate_updated_at_kst": "2026-09-08 15:53:14 KST",
@@ -62,7 +62,7 @@
     1340.0,
     1350.0
   ],
-  "rate_check_status": "failed",
-  "rate_job_checked_at_kst": "2026-09-08 15:53:14 KST",
-  "rate_fetch_error": "RuntimeError: KB STAR FX 자동조회 3회 실패: TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n | TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n | TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n"
+  "rate_check_status": "success",
+  "rate_job_checked_at_kst": "2026-09-08 16:23:59 KST",
+  "smbs_rate_error": "RuntimeError: 서울외국환중개 페이지에서 USD 매매기준율을 찾지 못했습니다."
 }

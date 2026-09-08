@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-09-09 02:23 KST",
+  "updated_at_kst": "2026-09-09 02:48 KST",
   "current_rate": 1342.1,
   "previous_close": 1341.82,
-  "rate_updated_at_kst": "2026-09-09 02:23:24 KST",
+  "rate_updated_at_kst": "2026-09-09 02:47:50 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
@@ -12,6 +12,12 @@
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
+    {
+      "title": "Iran-backed Houthis attack four Saudi cities in expansion of Middle East war, 73 hurt",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNT2RnNWprQ01ScjN2Q05RSHRWdmRqVzh2U01LUVVPVmhiRDVYNER3anQxQlNWV24wS3RZR2ZqS1FxNnFKWFRqSmlYbnQwSFk1eU5Cbnh1SVpxbTZCWUwtelFqbFV6LTNLVHZZbGRaYTVucy1VT1JwNDZPM3gydkZRU2VCWHFoVnpTVU9ILXlfRHpKMnBsT3RJOUlkejRzT1FJa25YekFnMVl6dUJnbERxeXo1UnpOZTVaQ281aFJrbjFEWmN3T2c?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-09 02:00 KST"
+    },
     {
       "title": "Five spots to watch as the bond market creeps up on 5%",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQTkQyZERqYnVfdnBjajUtTFJ6OE1YT3dZbkhfRHU0MHdRb003eFVnQjJpWHYwekJaR0NSLUdGWDVKZ0pVRzJZLXpXdjRmM2V2SVNpeVByQ3RsOHN6SEUxaV80WHFxZHp2bEJfS3hLUHFvbl9ENkFTWjZnWktvTzktOVk5enBfWkdMVFJldTJn?oc=5",
@@ -25,37 +31,31 @@
       "seen": "2026-09-08 22:02 KST"
     },
     {
-      "title": "COMMENTARY: Trump's baffling Fed threat could be gift to Warsh: Mike Dolan",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOUlJyMEZjMzY1WGZkdzZwdlJ3c0NYc1RBOU9yZkRYb1FpNjBCUElLSWU1ejVfemROSmhWOVBUWkhGV1VNWU1XTVlJd3VNcmlXdDZfc01taXJVTnppazFSS05iQ1A4Smw0OVNPS3l0VWNZenBVT1JONkg4U2RsaUozR2xWR3ZubUo3XzVlZXptNEhJOHZGelJtRl92aWRhLS1sSXplRm5TdUQ3Mk1SMnlpdHRiT3JXTk5IMDREWll0dGlsanlNQ1VNTA?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-08 19:52 KST"
-    },
-    {
       "title": "TSX futures slip on weaker gold prices; oil rises on Middle East tensions",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZ2F2d2F2TkNLUzBKOFZFYlZuby12a3BhV3RTRXctUkZXSnNvb21ZSFM1Yjk5dWRRei15MmRLU293RWtfbW1JWjV6Vl84eTV5RzBVLWgtTjJhYjRQVnlTaDlPRlhxYmhSd1VrcjlYeVFUR3hPYVAxSHFPNzdROFJkOVhBbGZZR2ZTMEJORk8xR3VpY0VMalk4ZWZ3UF9OWUV1OXNVQThPOW12SXBvVlFJaA?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-08 19:45 KST"
     },
     {
-      "title": "Why isn't oil above $100 despite supply disruptions?",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbEwxQTVrUWVzenpNQVoxdkFTWDRCckVzNmNFR1B4bTJoSDhOVTZZZVlFb2FjMHdGWFU2WlpfbmE2eksxeXBSM1hhcnZwSDUyTVJ3M2dJaUtqejdmY3FBSWRvZmFkOVVGeVdZbmFrTUlpZ0lIWTdCYTdpcUx5MHV3ZFBnSFE3dGV4cG9JYWlpR2J5MDE0WjdueUV3V1FkaEc5ZUlR?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-08 19:22 KST"
-    },
-    {
       "title": "Mapping the Market: Australian bond yields may have further to climb",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNMkwyZXl4dTJyMkhnSHpLYU5fMHpVWmFMX3pST01TNnVHVHl0WXlYdmxwSm9DaDlpYWZTeUdoN2tZVUtKZkNWREVfQUJ4ODN5dXRVZDUwZkxGRlczMzkxVmFBZ3c5WFBtWENHVUlDMTBRT2VtZmtDMDNCRVJIc0c2UlExMA?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-08 19:07 KST"
+    },
+    {
+      "title": "Good evening, Mr Bond",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPb0steE9LaDhWRWV0MjJBYTNGcWJTVldmOXNsekxXZWw2b1Y2NzBTU1VWVE11elpWbGVwcTZlZ2lkSldqMUtkNXh4c2RSc0FKeW5CcjRrdjFqRnhJcG00OE5wdVR1UVctcWZuMVpKZ2ZyM245UGVjZElNRlUwNTBZVWxn?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-08 17:10 KST"
     }
   ],
-  "rate_source_time": "2026-09-09 02:23:24 KST",
+  "rate_source_time": "2026-09-09 02:47:50 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": 0.28,
   "rate_change_pct": 0.03,
   "smbs_base_rate": 1341.1,
   "smbs_rate_date": "2026-09-09",
-  "smbs_rate_updated_at_kst": "2026-09-09 02:23:10 KST",
+  "smbs_rate_updated_at_kst": "2026-09-09 02:47:36 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1350.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-09 02:23:10 KST"
+  "rate_job_checked_at_kst": "2026-09-09 02:47:36 KST"
 }

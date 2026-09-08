@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-09-08 18:24 KST",
-  "current_rate": 1344.6,
-  "previous_close": 1343.15,
-  "rate_updated_at_kst": "2026-09-08 18:24:31 KST",
+  "updated_at_kst": "2026-09-08 18:51 KST",
+  "current_rate": 1343.2,
+  "previous_close": 1341.58,
+  "rate_updated_at_kst": "2026-09-08 18:51:17 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
@@ -31,7 +31,7 @@
       "seen": "2026-09-08 11:28 KST"
     },
     {
-      "title": "Asia stocks fall as yen surges, Iran warns US of retaliation",
+      "title": "Stocks fall as yen surges; Gulf attacks drive oil near $100 a barrel",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE82VU5LOUdHSU5uLWxoeWs1bi16RTM3dUozczYtZXhPUF9RRFEtUVNTQmphRjloY2k5dkxodEZ1eTZnRjF4NU90clpNZGZJTnk1SEJXME44NDIxT1JNNW5rWW80VGlNbDJXNDdjMHN4YXd4eTRLb3RJLW5Ybw?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-08 10:48 KST"
@@ -49,13 +49,13 @@
       "seen": "2026-09-08 01:35 KST"
     }
   ],
-  "rate_source_time": "2026-09-08 18:24:31 KST",
+  "rate_source_time": "2026-09-08 18:51:17 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 1.45,
-  "rate_change_pct": 0.17,
+  "rate_change": 1.62,
+  "rate_change_pct": 0.19,
   "smbs_base_rate": 1342.6,
   "smbs_rate_date": "2026-09-08",
-  "smbs_rate_updated_at_kst": "2026-09-08 18:24:18 KST",
+  "smbs_rate_updated_at_kst": "2026-09-08 18:51:03 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1350.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-08 18:24:18 KST"
+  "rate_job_checked_at_kst": "2026-09-08 18:51:03 KST"
 }

@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-09-08 13:24 KST",
+  "updated_at_kst": "2026-09-08 13:50 KST",
   "current_rate": 1341.8,
-  "previous_close": 1338.42,
-  "rate_updated_at_kst": "2026-09-08 13:23:48 KST",
+  "previous_close": 1338.93,
+  "rate_updated_at_kst": "2026-09-08 13:50:06 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
@@ -22,7 +22,7 @@
       "title": "Gold gains as dollar eases with US inflation data on radar",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPZVFOMG93MEp4ZjJ0VUtRcWQxVTRKYTJOb3RwbTZpMnNyZlJ5eFdCRGhNTXF4b2MyRGpXWTh0T1N1d28tUGRfSW80bmFNT1RNelFYMTlLU2ctZEZpYmsyNjZRb2ROTnVqMkVuX2Z3UU12UDlCV2cxSmd1MzR2dktuNUtOR3ZXdjR2YnAyUlJDYjFtWmwybURmNEdLMHk3SFBQNVE?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-08 11:29 KST"
+      "seen": "2026-09-08 11:28 KST"
     },
     {
       "title": "Explainer: Why isn't oil above $100 despite supply disruptions?",
@@ -49,13 +49,13 @@
       "seen": "2026-09-08 09:50 KST"
     }
   ],
-  "rate_source_time": "2026-09-08 13:23:48 KST",
+  "rate_source_time": "2026-09-08 13:50:06 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 3.38,
-  "rate_change_pct": 0.39,
+  "rate_change": 2.87,
+  "rate_change_pct": 0.33,
   "smbs_base_rate": 1342.6,
   "smbs_rate_date": "2026-09-08",
-  "smbs_rate_updated_at_kst": "2026-09-08 13:23:37 KST",
+  "smbs_rate_updated_at_kst": "2026-09-08 13:49:54 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1350.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-08 13:23:37 KST"
+  "rate_job_checked_at_kst": "2026-09-08 13:49:54 KST"
 }

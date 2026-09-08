@@ -1,17 +1,23 @@
 {
-  "updated_at_kst": "2026-09-08 20:49 KST",
-  "current_rate": 1342.2,
-  "previous_close": 1345.5,
-  "rate_updated_at_kst": "2026-09-08 20:49:11 KST",
+  "updated_at_kst": "2026-09-08 21:29 KST",
+  "current_rate": 1341.7,
+  "previous_close": 1341.45,
+  "rate_updated_at_kst": "2026-09-08 21:29:25 KST",
   "rate_source": "KB STAR FX Market Watch",
-  "market_bias": "상승 우세",
+  "market_bias": "혼조",
   "drivers": [
     "미 국채금리 관련 최신 기사(\"Five spots to watch as the bond market creeps up on 5%\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다.",
     "유가 및 중동 지정학적 불확실성이 부각돼 에너지 수입 의존도가 높은 원화에는 약세 부담 요인으로 작용하고 있습니다.",
-    "외환시장 관련 최신 기사(\"Yen climbs to seven-month high on hawkish BOJ bets\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다."
+    "외환시장 관련 최신 기사(\"Good evening, Mr Bond\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다."
   ],
-  "outlook": "달러 강세·금리 상승 계열의 재료가 상대적으로 우세해 원/달러는 단기 상승 압력이 나타날 수 있으나, 국내 수급과 위험선호 회복 여부에 따라 변동성이 예상됩니다.",
+  "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
+    {
+      "title": "Iran-backed Houthis attack four Saudi cities in expansion of Middle East war, 73 hurt",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNT2RnNWprQ01ScjN2Q05RSHRWdmRqVzh2U01LUVVPVmhiRDVYNER3anQxQlNWV24wS3RZR2ZqS1FxNnFKWFRqSmlYbnQwSFk1eU5Cbnh1SVpxbTZCWUwtelFqbFV6LTNLVHZZbGRaYTVucy1VT1JwNDZPM3gydkZRU2VCWHFoVnpTVU9ILXlfRHpKMnBsT3RJOUlkejRzT1FJa25YekFnMVl6dUJnbERxeXo1UnpOZTVaQ281aFJrbjFEWmN3T2c?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-08 21:15 KST"
+    },
     {
       "title": "TSX futures slip on weaker gold prices; oil rises on Middle East tensions",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZ2F2d2F2TkNLUzBKOFZFYlZuby12a3BhV3RTRXctUkZXSnNvb21ZSFM1Yjk5dWRRei15MmRLU293RWtfbW1JWjV6Vl84eTV5RzBVLWgtTjJhYjRQVnlTaDlPRlhxYmhSd1VrcjlYeVFUR3hPYVAxSHFPNzdROFJkOVhBbGZZR2ZTMEJORk8xR3VpY0VMalk4ZWZ3UF9OWUV1OXNVQThPOW12SXBvVlFJaA?oc=5",
@@ -31,31 +37,25 @@
       "seen": "2026-09-08 19:07 KST"
     },
     {
-      "title": "Yen climbs to seven-month high on hawkish BOJ bets",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNTzJTNlNmRkk4ZlAxN0diYXoyblUyaE41UTRRRFpZbURGSk9pZGlTVDc5QkpJSHpqWlRWY0ZjR1M1ZW1sdU5KNmJqUGZ6eTRleGRfektFaDFlMmprZW14T2RodGJMcVlfNG5fMmZTbFhqNERNeGZvVW1CcHQ5MUZ4R0pGbTF3WllEN2hqQkpTVUZrUmVlUnh2UWIwOTJSQU5IZ2pxRGJNelRPdU8wd0dYS0Q4QXB0bWNRSnc?oc=5",
+      "title": "Good evening, Mr Bond",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPb0steE9LaDhWRWV0MjJBYTNGcWJTVldmOXNsekxXZWw2b1Y2NzBTU1VWVE11elpWbGVwcTZlZ2lkSldqMUtkNXh4c2RSc0FKeW5CcjRrdjFqRnhJcG00OE5wdVR1UVctcWZuMVpKZ2ZyM245UGVjZElNRlUwNTBZVWxn?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-08 18:07 KST"
+      "seen": "2026-09-08 17:10 KST"
     },
     {
       "title": "Indian central bank extends intervention streak to support rupee, traders say",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOWDc0QVVDRm5Ud0ZCWnhONzRDZ0JjZEhMWF9ocnVTS1JXNF9wbmtWcHdIR0pFSnh6ZnhaRXNQZ2x3MmFrUUdveFYxNGZnVlN0enFFRVVjSkZqaWJfQjdRdlNpaS04bmZtX0dPOUJHbTBsLURWeERyZkJpcWlxSG1oRDRkVFhQS0REUW9LS3FOWkFFVENhU3c5MGF5SUlIVmUtN0c5MTh0aHM3dnNBYnN5ZnFLLVBoMHg4dWFJd1RR?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-08 13:41 KST"
-    },
-    {
-      "title": "Rupee endures sharpest fall in over a month as Brent oil barrels towards $100",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNa05iLVFENGVBNnNsMDFGeFJfdFJOVXVGRFU5LUw1UUtLLXYzZ2gzZjBwaHkzZDN1SFRjNElJQnVvek9LOVpISW02UHpTRkk5ektMbXFYQ1VCTHI0QkRFY0kzSmtNZG52cTVpSjdEb3F1VlJ6RHI1YnVzNmMtZWNwSnA4ZTBtVlAwWXo0RG52dnQ4X0tQVVdrakpNS3UyeWhSZHJpLWVIR1NZdlAtaUpQMTA1MlU5NDVoNGk0RTBlVE8?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-08 11:56 KST"
     }
   ],
-  "rate_source_time": "2026-09-08 20:49:11 KST",
+  "rate_source_time": "2026-09-08 21:29:25 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": -3.3,
-  "rate_change_pct": -0.25,
+  "rate_change": 0.25,
+  "rate_change_pct": 0.03,
   "smbs_base_rate": 1342.6,
   "smbs_rate_date": "2026-09-08",
-  "smbs_rate_updated_at_kst": "2026-09-08 20:49:00 KST",
+  "smbs_rate_updated_at_kst": "2026-09-08 21:29:13 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1350.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-08 20:49:00 KST"
+  "rate_job_checked_at_kst": "2026-09-08 21:29:13 KST"
 }

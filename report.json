@@ -1,16 +1,35 @@
 {
-  "updated_at_kst": "2026-09-08 10:50 KST",
-  "current_rate": 1338.7,
-  "previous_close": 1338.36,
-  "rate_updated_at_kst": "2026-09-08 10:49:57 KST",
+  "updated_at_kst": "2026-09-08 11:23 KST",
+  "current_rate": 1338.0,
+  "previous_close": 1334.81,
+  "rate_updated_at_kst": "2026-09-08 11:23:38 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
     "미국 물가 관련 최신 기사(\"Oil prices rise to six-week highs on worsening Middle East conflict\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
+    "유가·지정학 관련 최신 기사(\"Explainer: Why isn't oil above $100 despite supply disruptions?\")가 확인돼 원화 변동성 확대 요인으로 작용하고 있습니다.",
     "외환시장 관련 최신 기사(\"COMMENTARY: Asia's next leverage-driven market crash could be brewing\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
+    {
+      "title": "Explainer: Why isn't oil above $100 despite supply disruptions?",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbEwxQTVrUWVzenpNQVoxdkFTWDRCckVzNmNFR1B4bTJoSDhOVTZZZVlFb2FjMHdGWFU2WlpfbmE2eksxeXBSM1hhcnZwSDUyTVJ3M2dJaUtqejdmY3FBSWRvZmFkOVVGeVdZbmFrTUlpZ0lIWTdCYTdpcUx5MHV3ZFBnSFE3dGV4cG9JYWlpR2J5MDE0WjdueUV3V1FkaEc5ZUlR?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-08 11:00 KST"
+    },
+    {
+      "title": "Asia stocks waver as yen surges, Iran warns of retaliation",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE82VU5LOUdHSU5uLWxoeWs1bi16RTM3dUozczYtZXhPUF9RRFEtUVNTQmphRjloY2k5dkxodEZ1eTZnRjF4NU90clpNZGZJTnk1SEJXME44NDIxT1JNNW5rWW80VGlNbDJXNDdjMHN4YXd4eTRLb3RJLW5Ybw?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-08 10:48 KST"
+    },
+    {
+      "title": "Oil rises as risks of prolonged Mideast conflict heighten supply worries",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNNTBHazRJMEhoZks2V2o5M2loY0UtV3pnUjMweXB6cXZuVjQtYmhTWV9oSnF0cDhRZGVybzBuNk9fYWRJU1diemp5VDFxZWdHYy16a0ctWG9ob0JfMUZqRTIwRnoyeHhxckI4NFZCVmM1MGVRaDFPeWh0MVFKTXYyVURKSWdJZGJ5ZWZWYzdHanhyQTBNTGYyRWF6bXVWSDRZdXdYN0pWdURYU0p6Z1lkVzlRWlF4UEIyY1E?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-08 09:50 KST"
+    },
     {
       "title": "COMMENTARY: Asia's next leverage-driven market crash could be brewing",
       "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQcWgzTlRucDRKVzNYRU0xaEV2dHNLSFlsSTY1d2VNZEhCVTRNZTZ3LTg3eDkzWTgtREpoa3ViRDUwTXg5YkRiNjdKYU5VNjJkVm5mQlJKUDNmWjJhRk40VF9sUHI1bGc3Uk1NWEhYVXNwVUtlcjBBZDJORURya0xCTnJHYnN4ZWxibmthQ3FpUDcxZUxsYzBjblRlYXRWd2hXRS1BQTdfZ0dFTTdMUDZXbVNZMEEtUXZLbVN6TXJUNmNtXzU2MlBxT2kxWWt0TnkwbHRUY3E5dGN2Mk8weFlN?oc=5",
@@ -24,13 +43,13 @@
       "seen": "2026-09-08 02:57 KST"
     }
   ],
-  "rate_source_time": "2026-09-08 10:49:57 KST",
+  "rate_source_time": "2026-09-08 11:23:38 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 0.34,
-  "rate_change_pct": 0.04,
+  "rate_change": 3.19,
+  "rate_change_pct": 0.37,
   "smbs_base_rate": 1342.6,
   "smbs_rate_date": "2026-09-08",
-  "smbs_rate_updated_at_kst": "2026-09-08 10:49:39 KST",
+  "smbs_rate_updated_at_kst": "2026-09-08 11:23:26 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -38,5 +57,5 @@
     1350.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-08 10:49:39 KST"
+  "rate_job_checked_at_kst": "2026-09-08 11:23:26 KST"
 }

@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-09-09 02:48 KST",
+  "updated_at_kst": "2026-09-09 03:27 KST",
   "current_rate": 1342.1,
   "previous_close": 1341.82,
-  "rate_updated_at_kst": "2026-09-09 02:47:50 KST",
+  "rate_updated_at_kst": "2026-09-09 03:26:52 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
@@ -43,19 +43,19 @@
       "seen": "2026-09-08 19:07 KST"
     },
     {
-      "title": "Good evening, Mr Bond",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPb0steE9LaDhWRWV0MjJBYTNGcWJTVldmOXNsekxXZWw2b1Y2NzBTU1VWVE11elpWbGVwcTZlZ2lkSldqMUtkNXh4c2RSc0FKeW5CcjRrdjFqRnhJcG00OE5wdVR1UVctcWZuMVpKZ2ZyM245UGVjZElNRlUwNTBZVWxn?oc=5",
+      "title": "COMMENTARY: Trump's baffling Fed threat could be gift to Warsh: Mike Dolan",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOUlJyMEZjMzY1WGZkdzZwdlJ3c0NYc1RBOU9yZkRYb1FpNjBCUElLSWU1ejVfemROSmhWOVBUWkhGV1VNWU1XTVlJd3VNcmlXdDZfc01taXJVTnppazFSS05iQ1A4Smw0OVNPS3l0VWNZenBVT1JONkg4U2RsaUozR2xWR3ZubUo3XzVlZXptNEhJOHZGelJtRl92aWRhLS1sSXplRm5TdUQ3Mk1SMnlpdHRiT3JXTk5IMDREWll0dGlsanlNQ1VNTA?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-08 17:10 KST"
+      "seen": "2026-09-08 15:00 KST"
     }
   ],
-  "rate_source_time": "2026-09-09 02:47:50 KST",
+  "rate_source_time": "2026-09-09 03:26:52 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": 0.28,
   "rate_change_pct": 0.03,
   "smbs_base_rate": 1341.1,
   "smbs_rate_date": "2026-09-09",
-  "smbs_rate_updated_at_kst": "2026-09-09 02:47:36 KST",
+  "smbs_rate_updated_at_kst": "2026-09-09 03:26:40 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1350.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-09 02:47:36 KST"
+  "rate_job_checked_at_kst": "2026-09-09 03:26:40 KST"
 }

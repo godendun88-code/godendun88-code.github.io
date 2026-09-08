@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-09-09 07:22 KST",
+  "updated_at_kst": "2026-09-09 07:47 KST",
   "current_rate": 1342.1,
   "previous_close": 1341.82,
-  "rate_updated_at_kst": "2026-09-09 07:22:03 KST",
+  "rate_updated_at_kst": "2026-09-09 07:47:15 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
@@ -25,16 +25,10 @@
       "seen": "2026-09-09 05:17 KST"
     },
     {
-      "title": "Iran-backed Houthis attack four Saudi cities in expansion of Middle East war, 73 hurt",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNT2RnNWprQ01ScjN2Q05RSHRWdmRqVzh2U01LUVVPVmhiRDVYNER3anQxQlNWV24wS3RZR2ZqS1FxNnFKWFRqSmlYbnQwSFk1eU5Cbnh1SVpxbTZCWUwtelFqbFV6LTNLVHZZbGRaYTVucy1VT1JwNDZPM3gydkZRU2VCWHFoVnpTVU9ILXlfRHpKMnBsT3RJOUlkejRzT1FJa25YekFnMVl6dUJnbERxeXo1UnpOZTVaQ281aFJrbjFEWmN3T2c?oc=5",
+      "title": "European shares muted as oil rally fuels caution; Novartis tumbles",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPTld0TDZ4T2dYWVFpajYzdEFURWNnM2l0eXZDWDVXRUs3RVVjUVZjWlpFaDZ6bTVNYUUwUEhvaDVfS3BUcVlhb09icnV4b3g5cVVUSEY4eURkUWRZU1dRTVh3VkktUmh4eDRlY1V4dDNHelZpblJJd3d0WlpqWWlkOWZ5MnMyeTJZU3E2SW9kaDRJS1gxcmJsaTVOekZzbXJMcU1wNG5ZSlpXTjl6Wk1YQ0VyZ3Y2dzJ5VE9aT3FoRzBMZw?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-09 02:00 KST"
-    },
-    {
-      "title": "Wall St slips as steep oil prices stoke inflation concerns ahead of CPI",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPNjZqc0tNY1VPMHZtRldqOUxwQzJYN0JtWEpoUVNoNGw4U3I5UnVCYXVjd0ZEUUw1SnZhc1JkWnFoTmFoYlVrZ0R3ZlFaQVQ3cmR6ZDVURG1vU1VoR09EcXI4Sl8wemY1RlU2WFJOQ1h6TXpSbUIzdS1WTDhXZnRONzFjRlI0UGIwQTVkeUxWN3YyMkhHeHd6ag?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-09 01:51 KST"
+      "seen": "2026-09-09 01:46 KST"
     },
     {
       "title": "COMMENTARY: Unloved, but unbroken — the US bond market is working as it should",
@@ -47,15 +41,21 @@
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNMkwyZXl4dTJyMkhnSHpLYU5fMHpVWmFMX3pST01TNnVHVHl0WXlYdmxwSm9DaDlpYWZTeUdoN2tZVUtKZkNWREVfQUJ4ODN5dXRVZDUwZkxGRlczMzkxVmFBZ3c5WFBtWENHVUlDMTBRT2VtZmtDMDNCRVJIc0c2UlExMA?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-08 19:07 KST"
+    },
+    {
+      "title": "COMMENTARY: Trump's baffling Fed threat could be gift to Warsh: Mike Dolan",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOUlJyMEZjMzY1WGZkdzZwdlJ3c0NYc1RBOU9yZkRYb1FpNjBCUElLSWU1ejVfemROSmhWOVBUWkhGV1VNWU1XTVlJd3VNcmlXdDZfc01taXJVTnppazFSS05iQ1A4Smw0OVNPS3l0VWNZenBVT1JONkg4U2RsaUozR2xWR3ZubUo3XzVlZXptNEhJOHZGelJtRl92aWRhLS1sSXplRm5TdUQ3Mk1SMnlpdHRiT3JXTk5IMDREWll0dGlsanlNQ1VNTA?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-08 15:00 KST"
     }
   ],
-  "rate_source_time": "2026-09-09 07:22:03 KST",
+  "rate_source_time": "2026-09-09 07:47:15 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": 0.28,
   "rate_change_pct": 0.03,
   "smbs_base_rate": 1341.1,
   "smbs_rate_date": "2026-09-09",
-  "smbs_rate_updated_at_kst": "2026-09-09 07:21:50 KST",
+  "smbs_rate_updated_at_kst": "2026-09-09 07:47:03 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1350.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-09 07:21:50 KST"
+  "rate_job_checked_at_kst": "2026-09-09 07:47:03 KST"
 }

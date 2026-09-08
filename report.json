@@ -1,17 +1,23 @@
 {
-  "updated_at_kst": "2026-09-08 11:50 KST",
-  "current_rate": 1339.1,
-  "previous_close": 1336.17,
-  "rate_updated_at_kst": "2026-09-08 11:50:03 KST",
+  "updated_at_kst": "2026-09-08 12:23 KST",
+  "current_rate": 1339.9,
+  "previous_close": 1337.19,
+  "rate_updated_at_kst": "2026-09-08 12:23:24 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
     "미국 물가 둔화 관련 보도가 확인돼 추가 긴축 필요성이 낮아지면서 달러 강세 압력을 완화하는 요인으로 작용하고 있습니다.",
-    "유가 및 중동 지정학적 불확실성이 부각돼 에너지 수입 의존도가 높은 원화에는 약세 부담 요인으로 작용하고 있습니다.",
+    "유가·지정학 관련 최신 기사(\"Indian rupee's familiar push-pull set to persist with oil pressure, RBI response\")가 확인돼 원화 변동성 확대 요인으로 작용하고 있습니다.",
     "외환시장 관련 최신 기사(\"COMMENTARY: Asia's next leverage-driven market crash could be brewing\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
+    {
+      "title": "Indian rupee's familiar push-pull set to persist with oil pressure, RBI response",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNa05iLVFENGVBNnNsMDFGeFJfdFJOVXVGRFU5LUw1UUtLLXYzZ2gzZjBwaHkzZDN1SFRjNElJQnVvek9LOVpISW02UHpTRkk5ektMbXFYQ1VCTHI0QkRFY0kzSmtNZG52cTVpSjdEb3F1VlJ6RHI1YnVzNmMtZWNwSnA4ZTBtVlAwWXo0RG52dnQ4X0tQVVdrakpNS3UyeWhSZHJpLWVIR1NZdlAtaUpQMTA1MlU5NDVoNGk0RTBlVE8?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-08 11:59 KST"
+    },
     {
       "title": "Gold gains as dollar eases with US inflation data on radar",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPZVFOMG93MEp4ZjJ0VUtRcWQxVTRKYTJOb3RwbTZpMnNyZlJ5eFdCRGhNTXF4b2MyRGpXWTh0T1N1d28tUGRfSW80bmFNT1RNelFYMTlLU2ctZEZpYmsyNjZRb2ROTnVqMkVuX2Z3UU12UDlCV2cxSmd1MzR2dktuNUtOR3ZXdjR2YnAyUlJDYjFtWmwybURmNEdLMHk3SFBQNVE?oc=5",
@@ -37,19 +43,19 @@
       "seen": "2026-09-08 08:06 KST"
     },
     {
-      "title": "European shares subdued as surging crude sharpens focus on ECB rate path",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOaFdCV21sS1A5UlVsWTAta1ozTXV0UWFwc3BjSVFnR1c4ZERIcjUtZnZ1ZjNwckw1RGhySmZPTnV6X1QwbXlBWmhDM0JYMEVUR1BRUjhWY0Q3MmdIM1drZGJvUWpxaDJZcUIyQldsR3lONWRZLUpYX0ppYVByRGdCQkd1TXk4eFZiOGx3cFhuYjZQRVdfRHpsdHN6T08yRU5mN0RsbFl4a21sdXNl?oc=5",
+      "title": "Oil prices rise to six-week highs on worsening Middle East conflict",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNN2l5blJOWGZlTWtiTzJFdl80Vm9jb3QxSHp5YUpRR0l6THd2RmZ6cDd2OUtFakRhYkRXbWdSdUxUU0tYSVl1YTRTS1RzYTVQem1OOVFDR01ZRXNEeDBuWEwweHd0RDZnS1B0dE1PbFhXb3JMWjNGY1JLMHpvUkpGRDE0ZUtXZk10akVNOUhSVklQYjdHZ1JCS25ReUc?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-08 01:35 KST"
+      "seen": "2026-09-08 02:57 KST"
     }
   ],
-  "rate_source_time": "2026-09-08 11:50:03 KST",
+  "rate_source_time": "2026-09-08 12:23:24 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 2.93,
-  "rate_change_pct": 0.34,
+  "rate_change": 2.71,
+  "rate_change_pct": 0.31,
   "smbs_base_rate": 1342.6,
   "smbs_rate_date": "2026-09-08",
-  "smbs_rate_updated_at_kst": "2026-09-08 11:49:48 KST",
+  "smbs_rate_updated_at_kst": "2026-09-08 12:23:09 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -57,5 +63,5 @@
     1350.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-08 11:49:48 KST"
+  "rate_job_checked_at_kst": "2026-09-08 12:23:09 KST"
 }

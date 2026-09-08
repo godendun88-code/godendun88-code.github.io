@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-09-08 14:24 KST",
-  "current_rate": 1341.8,
-  "previous_close": 1338.93,
-  "rate_updated_at_kst": "2026-09-08 13:50:06 KST",
+  "updated_at_kst": "2026-09-08 14:49 KST",
+  "current_rate": 1342.9,
+  "previous_close": 1339.14,
+  "rate_updated_at_kst": "2026-09-08 14:49:33 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
@@ -43,27 +43,25 @@
       "seen": "2026-09-08 10:48 KST"
     },
     {
-      "title": "Oil rises as risks of prolonged Mideast conflict heighten supply worries",
+      "title": "Oil rises as risks of prolonged Mideast conflict fan supply worries",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNNTBHazRJMEhoZks2V2o5M2loY0UtV3pnUjMweXB6cXZuVjQtYmhTWV9oSnF0cDhRZGVybzBuNk9fYWRJU1diemp5VDFxZWdHYy16a0ctWG9ob0JfMUZqRTIwRnoyeHhxckI4NFZCVmM1MGVRaDFPeWh0MVFKTXYyVURKSWdJZGJ5ZWZWYzdHanhyQTBNTGYyRWF6bXVWSDRZdXdYN0pWdURYU0p6Z1lkVzlRWlF4UEIyY1E?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-08 09:50 KST"
     }
   ],
-  "rate_source_time": "2026-09-08 13:50:06 KST",
+  "rate_source_time": "2026-09-08 14:49:33 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 2.87,
-  "rate_change_pct": 0.33,
+  "rate_change": 3.76,
+  "rate_change_pct": 0.43,
   "smbs_base_rate": 1342.6,
   "smbs_rate_date": "2026-09-08",
-  "smbs_rate_updated_at_kst": "2026-09-08 13:49:54 KST",
+  "smbs_rate_updated_at_kst": "2026-09-08 14:49:21 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
     1340.0,
     1350.0
   ],
-  "rate_check_status": "failed",
-  "rate_job_checked_at_kst": "2026-09-08 14:22:32 KST",
-  "rate_fetch_error": "RuntimeError: KB STAR FX 자동조회 3회 실패: TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n | TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n | TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n",
-  "smbs_rate_error": "RuntimeError: 서울외국환중개 페이지에서 USD 매매기준율을 찾지 못했습니다."
+  "rate_check_status": "success",
+  "rate_job_checked_at_kst": "2026-09-08 14:49:21 KST"
 }

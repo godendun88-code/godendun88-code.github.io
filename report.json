@@ -1,5 +1,5 @@
 {
-  "updated_at_kst": "2026-09-08 13:50 KST",
+  "updated_at_kst": "2026-09-08 14:24 KST",
   "current_rate": 1341.8,
   "previous_close": 1338.93,
   "rate_updated_at_kst": "2026-09-08 13:50:06 KST",
@@ -8,15 +8,21 @@
   "drivers": [
     "미국 물가 둔화 관련 보도가 확인돼 추가 긴축 필요성이 낮아지면서 달러 강세 압력을 완화하는 요인으로 작용하고 있습니다.",
     "유가·지정학 관련 최신 기사(\"Indian rupee's familiar push-pull set to persist with oil pressure, RBI response\")가 확인돼 원화 변동성 확대 요인으로 작용하고 있습니다.",
-    "외환시장 관련 최신 기사(\"COMMENTARY: Asia's next leverage-driven market crash could be brewing\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다."
+    "외환시장 관련 최신 기사(\"Indian central bank extends intervention streak to support rupee, traders say\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
     {
+      "title": "Indian central bank extends intervention streak to support rupee, traders say",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOWDc0QVVDRm5Ud0ZCWnhONzRDZ0JjZEhMWF9ocnVTS1JXNF9wbmtWcHdIR0pFSnh6ZnhaRXNQZ2x3MmFrUUdveFYxNGZnVlN0enFFRVVjSkZqaWJfQjdRdlNpaS04bmZtX0dPOUJHbTBsLURWeERyZkJpcWlxSG1oRDRkVFhQS0REUW9LS3FOWkFFVENhU3c5MGF5SUlIVmUtN0c5MTh0aHM3dnNBYnN5ZnFLLVBoMHg4dWFJd1RR?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-08 13:41 KST"
+    },
+    {
       "title": "Indian rupee's familiar push-pull set to persist with oil pressure, RBI response",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNa05iLVFENGVBNnNsMDFGeFJfdFJOVXVGRFU5LUw1UUtLLXYzZ2gzZjBwaHkzZDN1SFRjNElJQnVvek9LOVpISW02UHpTRkk5ektMbXFYQ1VCTHI0QkRFY0kzSmtNZG52cTVpSjdEb3F1VlJ6RHI1YnVzNmMtZWNwSnA4ZTBtVlAwWXo0RG52dnQ4X0tQVVdrakpNS3UyeWhSZHJpLWVIR1NZdlAtaUpQMTA1MlU5NDVoNGk0RTBlVE8?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-08 11:59 KST"
+      "seen": "2026-09-08 11:56 KST"
     },
     {
       "title": "Gold gains as dollar eases with US inflation data on radar",
@@ -25,7 +31,7 @@
       "seen": "2026-09-08 11:28 KST"
     },
     {
-      "title": "Explainer: Why isn't oil above $100 despite supply disruptions?",
+      "title": "Why isn't oil above $100 despite supply disruptions?",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbEwxQTVrUWVzenpNQVoxdkFTWDRCckVzNmNFR1B4bTJoSDhOVTZZZVlFb2FjMHdGWFU2WlpfbmE2eksxeXBSM1hhcnZwSDUyTVJ3M2dJaUtqejdmY3FBSWRvZmFkOVVGeVdZbmFrTUlpZ0lIWTdCYTdpcUx5MHV3ZFBnSFE3dGV4cG9JYWlpR2J5MDE0WjdueUV3V1FkaEc5ZUlR?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-08 11:00 KST"
@@ -35,12 +41,6 @@
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE82VU5LOUdHSU5uLWxoeWs1bi16RTM3dUozczYtZXhPUF9RRFEtUVNTQmphRjloY2k5dkxodEZ1eTZnRjF4NU90clpNZGZJTnk1SEJXME44NDIxT1JNNW5rWW80VGlNbDJXNDdjMHN4YXd4eTRLb3RJLW5Ybw?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-08 10:48 KST"
-    },
-    {
-      "title": "Yen extends rally to new seven-month high; dollar subdued ahead of CPI",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNTzJTNlNmRkk4ZlAxN0diYXoyblUyaE41UTRRRFpZbURGSk9pZGlTVDc5QkpJSHpqWlRWY0ZjR1M1ZW1sdU5KNmJqUGZ6eTRleGRfektFaDFlMmprZW14T2RodGJMcVlfNG5fMmZTbFhqNERNeGZvVW1CcHQ5MUZ4R0pGbTF3WllEN2hqQkpTVUZrUmVlUnh2UWIwOTJSQU5IZ2pxRGJNelRPdU8wd0dYS0Q4QXB0bWNRSnc?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-08 09:56 KST"
     },
     {
       "title": "Oil rises as risks of prolonged Mideast conflict heighten supply worries",
@@ -62,6 +62,8 @@
     1340.0,
     1350.0
   ],
-  "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-08 13:49:54 KST"
+  "rate_check_status": "failed",
+  "rate_job_checked_at_kst": "2026-09-08 14:22:32 KST",
+  "rate_fetch_error": "RuntimeError: KB STAR FX 자동조회 3회 실패: TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n | TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n | TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n",
+  "smbs_rate_error": "RuntimeError: 서울외국환중개 페이지에서 USD 매매기준율을 찾지 못했습니다."
 }

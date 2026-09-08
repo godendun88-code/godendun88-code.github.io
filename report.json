@@ -1,17 +1,23 @@
 {
-  "updated_at_kst": "2026-09-08 19:26 KST",
-  "current_rate": 1343.2,
-  "previous_close": 1341.58,
-  "rate_updated_at_kst": "2026-09-08 18:51:17 KST",
+  "updated_at_kst": "2026-09-08 19:50 KST",
+  "current_rate": 1342.3,
+  "previous_close": 1345.5,
+  "rate_updated_at_kst": "2026-09-08 19:50:13 KST",
   "rate_source": "KB STAR FX Market Watch",
-  "market_bias": "혼조",
+  "market_bias": "상승 우세",
   "drivers": [
     "미국 물가 관련 최신 기사(\"Gold ticks up with US inflation data on radar\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
     "미 국채금리 관련 최신 기사(\"Five spots to watch as the bond market creeps up on 5%\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다.",
-    "유가·지정학 관련 최신 기사(\"Rupee slips as oil nears six-week high, RBI intervention limits losses\")가 확인돼 원화 변동성 확대 요인으로 작용하고 있습니다."
+    "유가 및 중동 지정학적 불확실성이 부각돼 에너지 수입 의존도가 높은 원화에는 약세 부담 요인으로 작용하고 있습니다."
   ],
-  "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
+  "outlook": "달러 강세·금리 상승 계열의 재료가 상대적으로 우세해 원/달러는 단기 상승 압력이 나타날 수 있으나, 국내 수급과 위험선호 회복 여부에 따라 변동성이 예상됩니다.",
   "articles": [
+    {
+      "title": "TSX futures slip on weaker gold prices; oil rises on Middle East tensions",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZ2F2d2F2TkNLUzBKOFZFYlZuby12a3BhV3RTRXctUkZXSnNvb21ZSFM1Yjk5dWRRei15MmRLU293RWtfbW1JWjV6Vl84eTV5RzBVLWgtTjJhYjRQVnlTaDlPRlhxYmhSd1VrcjlYeVFUR3hPYVAxSHFPNzdROFJkOVhBbGZZR2ZTMEJORk8xR3VpY0VMalk4ZWZ3UF9OWUV1OXNVQThPOW12SXBvVlFJaA?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-08 19:45 KST"
+    },
     {
       "title": "Five spots to watch as the bond market creeps up on 5%",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQTkQyZERqYnVfdnBjajUtTFJ6OE1YT3dZbkhfRHU0MHdRb003eFVnQjJpWHYwekJaR0NSLUdGWDVKZ0pVRzJZLXpXdjRmM2V2SVNpeVByQ3RsOHN6SEUxaV80WHFxZHp2bEJfS3hLUHFvbl9ENkFTWjZnWktvTzktOVk5enBfWkdMVFJldTJn?oc=5",
@@ -31,7 +37,7 @@
       "seen": "2026-09-08 13:41 KST"
     },
     {
-      "title": "Rupee slips as oil nears six-week high, RBI intervention limits losses",
+      "title": "Rupee endures sharpest fall in over a month as Brent oil barrels towards $100",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNa05iLVFENGVBNnNsMDFGeFJfdFJOVXVGRFU5LUw1UUtLLXYzZ2gzZjBwaHkzZDN1SFRjNElJQnVvek9LOVpISW02UHpTRkk5ektMbXFYQ1VCTHI0QkRFY0kzSmtNZG52cTVpSjdEb3F1VlJ6RHI1YnVzNmMtZWNwSnA4ZTBtVlAwWXo0RG52dnQ4X0tQVVdrakpNS3UyeWhSZHJpLWVIR1NZdlAtaUpQMTA1MlU5NDVoNGk0RTBlVE8?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-08 11:56 KST"
@@ -41,28 +47,21 @@
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPZVFOMG93MEp4ZjJ0VUtRcWQxVTRKYTJOb3RwbTZpMnNyZlJ5eFdCRGhNTXF4b2MyRGpXWTh0T1N1d28tUGRfSW80bmFNT1RNelFYMTlLU2ctZEZpYmsyNjZRb2ROTnVqMkVuX2Z3UU12UDlCV2cxSmd1MzR2dktuNUtOR3ZXdjR2YnAyUlJDYjFtWmwybURmNEdLMHk3SFBQNVE?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-08 11:28 KST"
-    },
-    {
-      "title": "Stocks fall as yen surges; Gulf attacks drive oil near $100 a barrel",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE82VU5LOUdHSU5uLWxoeWs1bi16RTM3dUozczYtZXhPUF9RRFEtUVNTQmphRjloY2k5dkxodEZ1eTZnRjF4NU90clpNZGZJTnk1SEJXME44NDIxT1JNNW5rWW80VGlNbDJXNDdjMHN4YXd4eTRLb3RJLW5Ybw?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-08 10:48 KST"
     }
   ],
-  "rate_source_time": "2026-09-08 18:51:17 KST",
+  "rate_source_time": "2026-09-08 19:50:13 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 1.62,
-  "rate_change_pct": 0.19,
+  "rate_change": -3.2,
+  "rate_change_pct": -0.24,
   "smbs_base_rate": 1342.6,
   "smbs_rate_date": "2026-09-08",
-  "smbs_rate_updated_at_kst": "2026-09-08 19:24:31 KST",
+  "smbs_rate_updated_at_kst": "2026-09-08 19:50:02 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
     1340.0,
     1350.0
   ],
-  "rate_check_status": "failed",
-  "rate_job_checked_at_kst": "2026-09-08 19:24:31 KST",
-  "rate_fetch_error": "RuntimeError: KB STAR FX 자동조회 3회 실패: TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n | TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n | TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n"
+  "rate_check_status": "success",
+  "rate_job_checked_at_kst": "2026-09-08 19:50:02 KST"
 }

@@ -1,28 +1,28 @@
 {
-  "updated_at_kst": "2026-09-09 08:23 KST",
-  "current_rate": 1342.1,
-  "previous_close": 1341.82,
-  "rate_updated_at_kst": "2026-09-09 07:47:15 KST",
+  "updated_at_kst": "2026-09-09 08:46 KST",
+  "current_rate": 1340.6,
+  "previous_close": 1338.85,
+  "rate_updated_at_kst": "2026-09-09 08:46:42 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
     "연준·금리 관련 최신 기사(\"COMMENTARY: Trump's baffling Fed threat could be gift to Warsh: Mike Dolan\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
-    "미국 물가 관련 최신 기사(\"Wall Street slides, oil surges amid worries over inflation, Middle East\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
+    "미국 물가 관련 최신 기사(\"Wall Street down, oil up as inflation, Middle East worries persist\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
     "미 국채금리 관련 최신 기사(\"COMMENTARY: Unloved, but unbroken — the US bond market is working as it should\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
     {
+      "title": "COMMENTARY: Unloved, but unbroken — the US bond market is working as it should",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQY3ltQXNrazU1eW16ZGNyXzViRnZuMDhLbUFGV1JvQzl3RGEtbi1zeDY3SFFHZ3hOelRRZEFhVldhZUs3SlZrbVBBLVBLZldvd29WQTlZRE1SamYwY3p4MkE5cTJ5SGtpVGc0ZXFiU00yNWxtSmZ5aW80UXpDcGlIdzE3eGoxLXRXMVQ0QUpOLUl6RndXTFB6OHAwNDlBMzQzRUp1YmU0Y3J6RWdOeTM0WmJvRjI2eHRmanFvQUFn?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-09 08:30 KST"
+    },
+    {
       "title": "COMMENTARY: TRADING DAY Roll out the $100 barrel",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQeWhUQ1NpdmNLVzc0cWl4c0ZwUXZrV3dBeTBJVXF0ZnZQNDZlb3NXcnJlbUo3cUFQRV9nUE9VbGhfWXpzZTFaZGRMVkRrdUhhME5OYUs5Mm5PLWFmVTBvTk0teDdocVhhQXhNVVNWaXk0QmJpeXRTMDh5VzRTRTFjLTAxdkEwZDVPT3pxX2Zwd1N0RGdqVVhjVWI4bTVLZHotNjdwWHlB?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-09 06:08 KST"
-    },
-    {
-      "title": "Wall Street slides, oil surges amid worries over inflation, Middle East",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE82VU5LOUdHSU5uLWxoeWs1bi16RTM3dUozczYtZXhPUF9RRFEtUVNTQmphRjloY2k5dkxodEZ1eTZnRjF4NU90clpNZGZJTnk1SEJXME44NDIxT1JNNW5rWW80VGlNbDJXNDdjMHN4YXd4eTRLb3RJLW5Ybw?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-09 05:17 KST"
     },
     {
       "title": "European shares muted as oil rally fuels caution; Novartis tumbles",
@@ -31,38 +31,37 @@
       "seen": "2026-09-09 01:46 KST"
     },
     {
-      "title": "COMMENTARY: Unloved, but unbroken — the US bond market is working as it should",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQY3ltQXNrazU1eW16ZGNyXzViRnZuMDhLbUFGV1JvQzl3RGEtbi1zeDY3SFFHZ3hOelRRZEFhVldhZUs3SlZrbVBBLVBLZldvd29WQTlZRE1SamYwY3p4MkE5cTJ5SGtpVGc0ZXFiU00yNWxtSmZ5aW80UXpDcGlIdzE3eGoxLXRXMVQ0QUpOLUl6RndXTFB6OHAwNDlBMzQzRUp1YmU0Y3J6RWdOeTM0WmJvRjI2eHRmanFvQUFn?oc=5",
+      "title": "Sterling dips as traders await Bailey's remarks",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOaXdoa2JuMHZENmd5WTRzR0hicndLZmFucnI2Vk5GYWIzMmpMOFVfMFl4bXBwSGE3OU5RUXkzOWltTE9nUW04NDJ3YW10MDduMG5BX2Z2NjM0Z1QtX0ZFOFAyTVRXS3RFOHNDMFRYLUZqak5TNXBpS1gxNWRDdlpHQkNyOHM0SmJRdGs5dU4wY2xNdw?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-08 22:02 KST"
+      "seen": "2026-09-08 20:18 KST"
+    },
+    {
+      "title": "Why isn't oil above $100 despite supply disruptions?",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbEwxQTVrUWVzenpNQVoxdkFTWDRCckVzNmNFR1B4bTJoSDhOVTZZZVlFb2FjMHdGWFU2WlpfbmE2eksxeXBSM1hhcnZwSDUyTVJ3M2dJaUtqejdmY3FBSWRvZmFkOVVGeVdZbmFrTUlpZ0lIWTdCYTdpcUx5MHV3ZFBnSFE3dGV4cG9JYWlpR2J5MDE0WjdueUV3V1FkaEc5ZUlR?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-08 19:22 KST"
     },
     {
       "title": "Mapping the Market: Australian bond yields may have further to climb",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNMkwyZXl4dTJyMkhnSHpLYU5fMHpVWmFMX3pST01TNnVHVHl0WXlYdmxwSm9DaDlpYWZTeUdoN2tZVUtKZkNWREVfQUJ4ODN5dXRVZDUwZkxGRlczMzkxVmFBZ3c5WFBtWENHVUlDMTBRT2VtZmtDMDNCRVJIc0c2UlExMA?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-08 19:07 KST"
-    },
-    {
-      "title": "COMMENTARY: Trump's baffling Fed threat could be gift to Warsh: Mike Dolan",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOUlJyMEZjMzY1WGZkdzZwdlJ3c0NYc1RBOU9yZkRYb1FpNjBCUElLSWU1ejVfemROSmhWOVBUWkhGV1VNWU1XTVlJd3VNcmlXdDZfc01taXJVTnppazFSS05iQ1A4Smw0OVNPS3l0VWNZenBVT1JONkg4U2RsaUozR2xWR3ZubUo3XzVlZXptNEhJOHZGelJtRl92aWRhLS1sSXplRm5TdUQ3Mk1SMnlpdHRiT3JXTk5IMDREWll0dGlsanlNQ1VNTA?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-08 15:00 KST"
     }
   ],
-  "rate_source_time": "2026-09-09 07:47:15 KST",
+  "rate_source_time": "2026-09-09 08:46:42 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 0.28,
-  "rate_change_pct": 0.03,
+  "rate_change": 1.75,
+  "rate_change_pct": 0.2,
   "smbs_base_rate": 1341.1,
   "smbs_rate_date": "2026-09-09",
-  "smbs_rate_updated_at_kst": "2026-09-09 08:20:45 KST",
+  "smbs_rate_updated_at_kst": "2026-09-09 08:46:30 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
-    1340.0,
-    1350.0
+    1337.0,
+    1347.0
   ],
-  "rate_check_status": "failed",
-  "rate_job_checked_at_kst": "2026-09-09 08:20:45 KST",
-  "rate_fetch_error": "RuntimeError: KB STAR FX 자동조회 3회 실패: TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n | TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n | TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n"
+  "rate_check_status": "success",
+  "rate_job_checked_at_kst": "2026-09-09 08:46:30 KST"
 }

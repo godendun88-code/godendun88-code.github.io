@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-09-09 13:51 KST",
-  "current_rate": 1336.5,
-  "previous_close": 1336.45,
-  "rate_updated_at_kst": "2026-09-09 13:23:52 KST",
+  "updated_at_kst": "2026-09-09 14:22 KST",
+  "current_rate": 1335.9,
+  "previous_close": 1342.1,
+  "rate_updated_at_kst": "2026-09-09 14:22:28 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
@@ -17,6 +17,12 @@
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9pZExCdjRUZTV3SXBlS3pmdE81QndXdmxLbGpXVDdKOEVVNVJfUF9xTDB2T3pWMlFDR3hsMi1TaGJaN1FUMXhWZkExbEd2Q19jdmNiLS0wR3RzSzg5MHNmRURCNVZpLVhsd0FQQjFwUjRRc0ZTbER0THlSY2tnYVU?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-09 13:32 KST"
+    },
+    {
+      "title": "Oil nears $100 as fresh Middle East strikes raise supply risks",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNUzVwcURFOW5QT2VTVW5YdFV2a2NPRGh1YkFoaTV2VUE0MXhES2gwR1ptSldNN29OZUZOLUQ2NlFUZUNpYjRFV25nTTR5cW03ZEFmX1BzMzViNGI5VXhWMWhtZHU1SDNxQ1Iyc2lDcEZOYnVpU3JMUVE4Uk9IUkVyYUdjd2ppV01LbDZESEQzWDBaZHZyOEpCem9yRkw0YUhnTVpuSVlzc01jVWszdVJSWg?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-09 11:28 KST"
     },
     {
       "title": "S&P 500 falls as AI worries hit software makers",
@@ -37,22 +43,16 @@
       "seen": "2026-09-09 11:24 KST"
     },
     {
-      "title": "Indian shares eye muted start as oil climbs on intensifying Mideast tensions",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQUTJ5YTBDcXdScFdqQUJJNmpuSC1YYmZtQUJEbDdlV3dEazhPNWtIb3MwV2lqQTdqakNBZDhlZ21uMHMzNWp4ZFF2djRtZ3hnQnlnRnhzel9CbzJsXzJnSHg3aUlCUGZzZDc1RnpENVBQMEtUUXVYcThYUG1pU1dPdVpqR1BPWjlJSWYwRW02MU9nOVNxV3h5UTFRTHVaSnVPQmU1QW5mZGRWci1oZ2FqUG1TYU9fSGhzS1E?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-09 11:20 KST"
-    },
-    {
       "title": "Yen stands tall as dollar wobbles, oil's run towards $100 chills sentiment",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOSEotZFlXVDdDeG05cmdnOVhQN0xrYXBpeUhaNDg2ZkQxNkdEZ0k2aVp6ZThfRWMwaHk4TUVPcTh1NHJ2S2VmQk1hZWdqM1Y2cXpqeGwtdHgxN291b0F2OGc3SGZMV0F2RUktY2g3RE1uVzhLSXVQMWc1OE9hSXhjNmxSTktoY2o3Uy01SjRYUVg1NjUxVHRPMndmODlpWW5OdEpPaUFpQjd3MHhfcmIxWGpZWFFhRnBSeEtIRFdDTTI?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-09 10:59 KST"
     }
   ],
-  "rate_source_time": "2026-09-09 13:23:52 KST",
+  "rate_source_time": "2026-09-09 14:22:28 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 0.05,
-  "rate_change_pct": 0.01,
+  "rate_change": -6.2,
+  "rate_change_pct": -0.46,
   "smbs_base_rate": 1341.1,
   "smbs_rate_date": "2026-09-09",
   "smbs_rate_updated_at_kst": "2026-09-09 13:23:40 KST",
@@ -62,8 +62,7 @@
     1337.0,
     1347.0
   ],
-  "rate_check_status": "failed",
-  "rate_job_checked_at_kst": "2026-09-09 13:49:25 KST",
-  "rate_fetch_error": "RuntimeError: KB STAR FX 자동조회 3회 실패: TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n | TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n | TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n",
+  "rate_check_status": "success",
+  "rate_job_checked_at_kst": "2026-09-09 14:22:12 KST",
   "smbs_rate_error": "RuntimeError: 서울외국환중개 페이지에서 USD 매매기준율을 찾지 못했습니다."
 }

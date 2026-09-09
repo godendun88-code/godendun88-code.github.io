@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-09-09 09:54 KST",
-  "current_rate": 1339.4,
-  "previous_close": 1339.23,
-  "rate_updated_at_kst": "2026-09-09 09:53:46 KST",
+  "updated_at_kst": "2026-09-09 10:23 KST",
+  "current_rate": 1339.7,
+  "previous_close": 1342.1,
+  "rate_updated_at_kst": "2026-09-09 10:22:53 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
@@ -43,19 +43,19 @@
       "seen": "2026-09-08 19:22 KST"
     },
     {
-      "title": "Mapping the Market: Australian bond yields may have further to climb",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNMkwyZXl4dTJyMkhnSHpLYU5fMHpVWmFMX3pST01TNnVHVHl0WXlYdmxwSm9DaDlpYWZTeUdoN2tZVUtKZkNWREVfQUJ4ODN5dXRVZDUwZkxGRlczMzkxVmFBZ3c5WFBtWENHVUlDMTBRT2VtZmtDMDNCRVJIc0c2UlExMA?oc=5",
+      "title": "Rupee endures sharpest fall in over a month as Brent oil barrels towards $100",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNa05iLVFENGVBNnNsMDFGeFJfdFJOVXVGRFU5LUw1UUtLLXYzZ2gzZjBwaHkzZDN1SFRjNElJQnVvek9LOVpISW02UHpTRkk5ektMbXFYQ1VCTHI0QkRFY0kzSmtNZG52cTVpSjdEb3F1VlJ6RHI1YnVzNmMtZWNwSnA4ZTBtVlAwWXo0RG52dnQ4X0tQVVdrakpNS3UyeWhSZHJpLWVIR1NZdlAtaUpQMTA1MlU5NDVoNGk0RTBlVE8?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-08 19:07 KST"
+      "seen": "2026-09-08 19:08 KST"
     }
   ],
-  "rate_source_time": "2026-09-09 09:53:46 KST",
+  "rate_source_time": "2026-09-09 10:22:53 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 0.17,
-  "rate_change_pct": 0.02,
+  "rate_change": -2.4,
+  "rate_change_pct": -0.18,
   "smbs_base_rate": 1341.1,
   "smbs_rate_date": "2026-09-09",
-  "smbs_rate_updated_at_kst": "2026-09-09 09:53:30 KST",
+  "smbs_rate_updated_at_kst": "2026-09-09 10:22:41 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1347.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-09 09:53:30 KST"
+  "rate_job_checked_at_kst": "2026-09-09 10:22:41 KST"
 }

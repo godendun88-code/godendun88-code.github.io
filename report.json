@@ -1,14 +1,14 @@
 {
-  "updated_at_kst": "2026-09-09 21:54 KST",
-  "current_rate": 1336.9,
-  "previous_close": 1336.59,
-  "rate_updated_at_kst": "2026-09-09 21:53:45 KST",
+  "updated_at_kst": "2026-09-09 22:25 KST",
+  "current_rate": 1337.3,
+  "previous_close": 1336.73,
+  "rate_updated_at_kst": "2026-09-09 22:24:59 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
     "미국 물가 관련 최신 기사(\"TSX futures dip as escalating US-Iran tensions stoke inflation fears\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
-    "유가·지정학 관련 최신 기사(\"Japanese yen rallies; dollar rattled by oil topping $100\")가 확인돼 원화 변동성 확대 요인으로 작용하고 있습니다.",
-    "외환시장 관련 최신 기사(\"US fixed 30-year mortgage rate climbs to highest since June 2025\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다."
+    "미 국채금리 관련 최신 기사(\"COMMENTARY: Unloved, but unbroken — the US bond market is working as it should\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다.",
+    "유가·지정학 관련 최신 기사(\"Japanese yen rallies; dollar rattled by oil topping $100\")가 확인돼 원화 변동성 확대 요인으로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
@@ -43,19 +43,19 @@
       "seen": "2026-09-09 19:59 KST"
     },
     {
-      "title": "Oil tops $100, European stocks drop on fresh Gulf attacks",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNV3luYTZkUFBsUEhrV1ByVUg5eTcwT0c4ODVwXzJZTHNvVzlhR1hwNVpLSzJ5MmVCT3VqV2wzMTdXb0ZZM00wY194Z3VCV2R2TUNxcGpVNVJrSk9JSS1XMllpQ0hrbEtFTFhaazN6NzFEaGxELW1NUnFFUFVvR1NjWkRrbw?oc=5",
+      "title": "UK stocks decline as oil tops $100, fuels inflation fears",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNV1NxUm8tcFYzMExhTUdHdFdsbG1WemhPODZENVc3VWtiQjdoMEdJZFhvVzlDaVVMT054Q3JUdVJ1UTRzcDJiOHlvT3N5R1ZLbEdmZDJkY0szbFcxZFNURHd2c1pSZjFqdDVhc3hkd0pTeGFyTkdnWU51by10UEowWGpPMWh2ZW5oSjFDRlpwVWFjQzBuYjJudXN1Q1FRUQ?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-09 18:57 KST"
+      "seen": "2026-09-09 18:37 KST"
     }
   ],
-  "rate_source_time": "2026-09-09 21:53:45 KST",
+  "rate_source_time": "2026-09-09 22:24:59 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 0.31,
-  "rate_change_pct": 0.04,
+  "rate_change": 0.57,
+  "rate_change_pct": 0.07,
   "smbs_base_rate": 1341.1,
   "smbs_rate_date": "2026-09-09",
-  "smbs_rate_updated_at_kst": "2026-09-09 21:53:33 KST",
+  "smbs_rate_updated_at_kst": "2026-09-09 22:24:44 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1347.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-09 21:53:33 KST"
+  "rate_job_checked_at_kst": "2026-09-09 22:24:44 KST"
 }

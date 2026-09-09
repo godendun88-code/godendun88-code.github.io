@@ -1,22 +1,22 @@
 {
-  "updated_at_kst": "2026-09-09 11:23 KST",
-  "current_rate": 1340.6,
-  "previous_close": 1339.53,
-  "rate_updated_at_kst": "2026-09-09 11:23:23 KST",
+  "updated_at_kst": "2026-09-09 11:49 KST",
+  "current_rate": 1341.1,
+  "previous_close": 1339.02,
+  "rate_updated_at_kst": "2026-09-09 11:49:24 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
     "연준·금리 관련 최신 기사(\"COMMENTARY: Trump's baffling Fed threat could be gift to Warsh: Mike Dolan\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
     "미 국채금리 관련 최신 기사(\"COMMENTARY: Unloved, but unbroken — the US bond market is working as it should\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다.",
-    "유가 및 중동 지정학적 불확실성이 부각돼 에너지 수입 의존도가 높은 원화에는 약세 부담 요인으로 작용하고 있습니다."
+    "유가·지정학 관련 최신 기사(\"Indian shares eye muted start as oil climbs on intensifying Mideast tensions\")가 확인돼 원화 변동성 확대 요인으로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
     {
-      "title": "Iran retaliates against US allies after its oil tankers destroyed",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOY2RGeTJFWWV0eThDTWdDRWxDUHg4Xy1oMFFzaTlPNWtEd2hGak1ybi1UeXQyMy0xblVhekdLYzh2TFotVndGQWVNa0NvUFhmWW05emo4c0s5ZkRaM2Jic3BPellVaFI3d2VfU005aEVSTmxjZWJyUDlSRENBemN6c2k0bnlEc0VDYTNxcE13Z0NkdkoxZHBHUlRUYWsxVkF3QTZCT2t4dUpIa1I5MmfSAbMBQVVfeXFMTVBPQWtWUDBIUnlhRDlnRjhNU1RyT2dvcG5oWjNIUjRZblByVjJvWDJiUXJlOXlwT3FKZG1NOHdxRkl3OXVQMjBKbUs5XzE1UkZRTThuNDF6amVKQ1drbXR6U2pIbU1WOVF1bTdMQmtkZFRFejJiU0Zna0VQMVRVd2xtUjd1Si0zOVl5X0JmSTNsUUZXd2taNmRuOUlkT0xiUVVxc3Bwd2xnR3B1MTNwS2toM00?oc=5",
-      "domain": "The Korea Times",
-      "seen": "2026-09-09 11:07 KST"
+      "title": "Indian shares eye muted start as oil climbs on intensifying Mideast tensions",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQUTJ5YTBDcXdScFdqQUJJNmpuSC1YYmZtQUJEbDdlV3dEazhPNWtIb3MwV2lqQTdqakNBZDhlZ21uMHMzNWp4ZFF2djRtZ3hnQnlnRnhzel9CbzJsXzJnSHg3aUlCUGZzZDc1RnpENVBQMEtUUXVYcThYUG1pU1dPdVpqR1BPWjlJSWYwRW02MU9nOVNxV3h5UTFRTHVaSnVPQmU1QW5mZGRWci1oZ2FqUG1TYU9fSGhzS1E?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-09 11:20 KST"
     },
     {
       "title": "COMMENTARY: Unloved, but unbroken — the US bond market is working as it should",
@@ -31,10 +31,10 @@
       "seen": "2026-09-09 06:08 KST"
     },
     {
-      "title": "European shares muted as oil rally fuels caution; Novartis tumbles",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPTld0TDZ4T2dYWVFpajYzdEFURWNnM2l0eXZDWDVXRUs3RVVjUVZjWlpFaDZ6bTVNYUUwUEhvaDVfS3BUcVlhb09icnV4b3g5cVVUSEY4eURkUWRZU1dRTVh3VkktUmh4eDRlY1V4dDNHelZpblJJd3d0WlpqWWlkOWZ5MnMyeTJZU3E2SW9kaDRJS1gxcmJsaTVOekZzbXJMcU1wNG5ZSlpXTjl6Wk1YQ0VyZ3Y2dzJ5VE9aT3FoRzBMZw?oc=5",
+      "title": "Iran retaliates against US allies after its oil tankers destroyed",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNT2RnNWprQ01ScjN2Q05RSHRWdmRqVzh2U01LUVVPVmhiRDVYNER3anQxQlNWV24wS3RZR2ZqS1FxNnFKWFRqSmlYbnQwSFk1eU5Cbnh1SVpxbTZCWUwtelFqbFV6LTNLVHZZbGRaYTVucy1VT1JwNDZPM3gydkZRU2VCWHFoVnpTVU9ILXlfRHpKMnBsT3RJOUlkejRzT1FJa25YekFnMVl6dUJnbERxeXo1UnpOZTVaQ281aFJrbjFEWmN3T2c?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-09 01:46 KST"
+      "seen": "2026-09-09 05:21 KST"
     },
     {
       "title": "Five spots to watch as the bond market creeps up on 5%",
@@ -49,13 +49,13 @@
       "seen": "2026-09-08 19:52 KST"
     }
   ],
-  "rate_source_time": "2026-09-09 11:23:23 KST",
+  "rate_source_time": "2026-09-09 11:49:24 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 1.07,
-  "rate_change_pct": 0.12,
+  "rate_change": 2.08,
+  "rate_change_pct": 0.24,
   "smbs_base_rate": 1341.1,
   "smbs_rate_date": "2026-09-09",
-  "smbs_rate_updated_at_kst": "2026-09-09 11:23:09 KST",
+  "smbs_rate_updated_at_kst": "2026-09-09 11:49:09 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1347.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-09 11:23:09 KST"
+  "rate_job_checked_at_kst": "2026-09-09 11:49:09 KST"
 }

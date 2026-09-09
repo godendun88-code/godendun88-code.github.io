@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-09-09 18:24 KST",
-  "current_rate": 1337.7,
-  "previous_close": 1342.1,
-  "rate_updated_at_kst": "2026-09-09 18:50:33 KST",
+  "updated_at_kst": "2026-09-09 19:24 KST",
+  "current_rate": 1338.8,
+  "previous_close": 1338.62,
+  "rate_updated_at_kst": "2026-09-09 19:24:15 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
@@ -17,6 +17,12 @@
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNcV81aHB4Z3dteWpsZGxOM01KRFFXZ3hhZlBUUlJUb3Y0QXVXaWpfSXJxRGx0R2Z2LXRrb25jYWJBTUNxc3llTFNVdmRoQzkxRjlLc0czRUxKczdyYU8temtJbXJRUXNOUGpuRkdXenNZTFVLX3ZhUkFQZ191cjV3amlwZ0RocHBoUHNZYzVfZy1pSlFNNGlma0NMMFVvRFIxSXNUOTRyYnNDWU1qc0JxWmpDRHMyTmVj?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-09 18:10 KST"
+    },
+    {
+      "title": "COMMENTARY: Oil prices fly blind as the Hormuz enigma deepens",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPWHRWamh0dmRPM3B6NjlrWE5YbnVtMGxDVll0ZGdKalVwOXh2QzMyUmtmR0R6UWg1Sk4xRjV0MVlwb0c2bzJKYWwxVUU2VmszZnpYd2NSQ2U2OXRNZkgzZVc1N3Zaa05IV0hKX3pKSlM0d0JoUnFFdVlXUTE2dXdMaHZhdDdrd1RHcm5tTzlUaFI0VDBxMzNINkw2eEVSREowcmJaOTIzSlQ5ZHBzU3lScg?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-09 15:00 KST"
     },
     {
       "title": "Morning Bid: $100 Brent in sight, yen defies gravity",
@@ -41,18 +47,12 @@
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQUTJ5YTBDcXdScFdqQUJJNmpuSC1YYmZtQUJEbDdlV3dEazhPNWtIb3MwV2lqQTdqakNBZDhlZ21uMHMzNWp4ZFF2djRtZ3hnQnlnRnhzel9CbzJsXzJnSHg3aUlCUGZzZDc1RnpENVBQMEtUUXVYcThYUG1pU1dPdVpqR1BPWjlJSWYwRW02MU9nOVNxV3h5UTFRTHVaSnVPQmU1QW5mZGRWci1oZ2FqUG1TYU9fSGhzS1E?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-09 11:20 KST"
-    },
-    {
-      "title": "Yen gains on dollar; sentiment fragile as oil breaks $100",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOSEotZFlXVDdDeG05cmdnOVhQN0xrYXBpeUhaNDg2ZkQxNkdEZ0k2aVp6ZThfRWMwaHk4TUVPcTh1NHJ2S2VmQk1hZWdqM1Y2cXpqeGwtdHgxN291b0F2OGc3SGZMV0F2RUktY2g3RE1uVzhLSXVQMWc1OE9hSXhjNmxSTktoY2o3Uy01SjRYUVg1NjUxVHRPMndmODlpWW5OdEpPaUFpQjd3MHhfcmIxWGpZWFFhRnBSeEtIRFdDTTI?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-09 10:59 KST"
     }
   ],
-  "rate_source_time": "2026-09-09 18:50:33 KST",
+  "rate_source_time": "2026-09-09 19:24:15 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": -4.4,
-  "rate_change_pct": -0.33,
+  "rate_change": 0.18,
+  "rate_change_pct": 0.02,
   "smbs_base_rate": 1341.1,
   "smbs_rate_date": "2026-09-09",
   "smbs_rate_updated_at_kst": "2026-09-09 18:50:20 KST",
@@ -63,5 +63,6 @@
     1347.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-09 18:50:20 KST"
+  "rate_job_checked_at_kst": "2026-09-09 19:24:00 KST",
+  "smbs_rate_error": "RuntimeError: 서울외국환중개 페이지에서 USD 매매기준율을 찾지 못했습니다."
 }

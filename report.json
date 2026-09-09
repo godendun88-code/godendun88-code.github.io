@@ -1,13 +1,13 @@
 {
-  "updated_at_kst": "2026-09-09 22:51 KST",
-  "current_rate": 1337.2,
-  "previous_close": 1336.07,
-  "rate_updated_at_kst": "2026-09-09 22:51:02 KST",
+  "updated_at_kst": "2026-09-09 23:23 KST",
+  "current_rate": 1337.3,
+  "previous_close": 1335.99,
+  "rate_updated_at_kst": "2026-09-09 23:23:41 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "상승 우세",
   "drivers": [
+    "연준·금리 관련 최신 기사(\"US ETF investors favour shorter tenor bonds as interest rate risks rise\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
     "미국 물가 관련 최신 기사(\"TSX futures dip as escalating US-Iran tensions stoke inflation fears\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
-    "미 국채금리 관련 최신 기사(\"COMMENTARY: Unloved, but unbroken — the US bond market is working as it should\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다.",
     "유가 및 중동 지정학적 불확실성이 부각돼 에너지 수입 의존도가 높은 원화에는 약세 부담 요인으로 작용하고 있습니다."
   ],
   "outlook": "달러 강세·금리 상승 계열의 재료가 상대적으로 우세해 원/달러는 단기 상승 압력이 나타날 수 있으나, 국내 수급과 위험선호 회복 여부에 따라 변동성이 예상됩니다.",
@@ -16,19 +16,19 @@
       "title": "Brent crude oil rises above $100 a barrel as Middle East conflict intensifies",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNcV81aHB4Z3dteWpsZGxOM01KRFFXZ3hhZlBUUlJUb3Y0QXVXaWpfSXJxRGx0R2Z2LXRrb25jYWJBTUNxc3llTFNVdmRoQzkxRjlLc0czRUxKczdyYU8temtJbXJRUXNOUGpuRkdXenNZTFVLX3ZhUkFQZ191cjV3amlwZ0RocHBoUHNZYzVfZy1pSlFNNGlma0NMMFVvRFIxSXNUOTRyYnNDWU1qc0JxWmpDRHMyTmVj?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-09 22:34 KST"
-    },
-    {
-      "title": "Brent oil tops $100 as Middle East conflict intensifies, stoking supply fears",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQWk83eHNVQXFWUEdoZGxYdmRpdnhuMFFKM3JfMkRRNDMxWmM0c1JPVmpkRWhQVVBvX0VLdjlhZ296NHpDVDdUNS0xZl9jRXJEeWZ1N1ZWSnZGUjVueEc2MzdjNTAwUTNlUFEtZWZ5el9Jc3dBYjJzVzN6R080aFJLLVlYWEVqUTU0WHRGX1hMSXQ3cnFpaVNHeHM3enRkYjZDcEUyb0Vic1JhMExzU1BCZVBvZlh2dExCZ3dRTVBlNWxNZw?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-09 22:34 KST"
+      "seen": "2026-09-09 22:54 KST"
     },
     {
       "title": "Wall St set for lower open as oil hovers near $100",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZExkRWJ1dThFMjNOZWdHdkJuSFd4UENUUko1cUI2aWJNMkQzb3FtYm5kNWUza3hVRVQ2Qlk0WjFGRnlGZWRhbzVMckNacFc4NDRXbzRqTmdyWWxTdVZoQ3pYNjY2Nm9pNHJRTUo0dlhkNkFzN2NSZ3BYR2Rqb1dfYkFjWHI1eW5USFlQd200RzI1cVVYY0VsdEZMbDdNQnZrLThZ?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-09 21:49 KST"
+    },
+    {
+      "title": "US ETF investors favour shorter tenor bonds as interest rate risks rise",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNY0dPakFYU0VnTnBPQ2xCTVR4VTRBN21Rbk00S1VfSmxGS29hZTRTeVF4dlhIX0ZPMncybV9FamhXNTZJam91OVFIUkJMWEVIM2stZ2Rxd1JhbExLeHZaNEw5dFNGazM3dWhXN080OHNpcTRKeHRabHQwZXFfZDl5OV9sa3RMTDA0NEhJRlJKQUJuWVl5aEtnLVFYampLOGJRc0NidVhhakxhTzAxRl9tM2t4SQ?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-09 21:08 KST"
     },
     {
       "title": "Japanese yen rallies; dollar rattled by oil topping $100",
@@ -49,13 +49,13 @@
       "seen": "2026-09-09 19:59 KST"
     }
   ],
-  "rate_source_time": "2026-09-09 22:51:02 KST",
+  "rate_source_time": "2026-09-09 23:23:41 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 1.13,
-  "rate_change_pct": 0.13,
+  "rate_change": 1.31,
+  "rate_change_pct": 0.15,
   "smbs_base_rate": 1341.1,
   "smbs_rate_date": "2026-09-09",
-  "smbs_rate_updated_at_kst": "2026-09-09 22:50:50 KST",
+  "smbs_rate_updated_at_kst": "2026-09-09 23:23:27 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1347.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-09 22:50:50 KST"
+  "rate_job_checked_at_kst": "2026-09-09 23:23:27 KST"
 }

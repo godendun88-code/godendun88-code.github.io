@@ -1,14 +1,14 @@
 {
-  "updated_at_kst": "2026-09-09 10:23 KST",
-  "current_rate": 1339.7,
-  "previous_close": 1342.1,
-  "rate_updated_at_kst": "2026-09-09 10:22:53 KST",
+  "updated_at_kst": "2026-09-09 10:50 KST",
+  "current_rate": 1338.9,
+  "previous_close": 1338.77,
+  "rate_updated_at_kst": "2026-09-09 10:49:46 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
     "연준·금리 관련 최신 기사(\"COMMENTARY: Trump's baffling Fed threat could be gift to Warsh: Mike Dolan\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
-    "미국 물가 관련 최신 기사(\"Wall Street down, oil up as inflation, Middle East worries persist\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
-    "미 국채금리 관련 최신 기사(\"COMMENTARY: Unloved, but unbroken — the US bond market is working as it should\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다."
+    "미 국채금리 관련 최신 기사(\"COMMENTARY: Unloved, but unbroken — the US bond market is working as it should\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다.",
+    "유가·지정학 관련 최신 기사(\"European shares muted as oil rally fuels caution; Novartis tumbles\")가 확인돼 원화 변동성 확대 요인으로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
@@ -49,13 +49,13 @@
       "seen": "2026-09-08 19:08 KST"
     }
   ],
-  "rate_source_time": "2026-09-09 10:22:53 KST",
+  "rate_source_time": "2026-09-09 10:49:46 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": -2.4,
-  "rate_change_pct": -0.18,
+  "rate_change": 0.13,
+  "rate_change_pct": 0.01,
   "smbs_base_rate": 1341.1,
   "smbs_rate_date": "2026-09-09",
-  "smbs_rate_updated_at_kst": "2026-09-09 10:22:41 KST",
+  "smbs_rate_updated_at_kst": "2026-09-09 10:49:31 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1347.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-09 10:22:41 KST"
+  "rate_job_checked_at_kst": "2026-09-09 10:49:31 KST"
 }

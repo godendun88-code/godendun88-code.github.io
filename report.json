@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-09-09 08:46 KST",
-  "current_rate": 1340.6,
-  "previous_close": 1338.85,
-  "rate_updated_at_kst": "2026-09-09 08:46:42 KST",
+  "updated_at_kst": "2026-09-09 09:33 KST",
+  "current_rate": 1340.9,
+  "previous_close": 1338.5,
+  "rate_updated_at_kst": "2026-09-09 09:33:23 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
@@ -31,10 +31,10 @@
       "seen": "2026-09-09 01:46 KST"
     },
     {
-      "title": "Sterling dips as traders await Bailey's remarks",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOaXdoa2JuMHZENmd5WTRzR0hicndLZmFucnI2Vk5GYWIzMmpMOFVfMFl4bXBwSGE3OU5RUXkzOWltTE9nUW04NDJ3YW10MDduMG5BX2Z2NjM0Z1QtX0ZFOFAyTVRXS3RFOHNDMFRYLUZqak5TNXBpS1gxNWRDdlpHQkNyOHM0SmJRdGs5dU4wY2xNdw?oc=5",
+      "title": "Five spots to watch as the bond market creeps up on 5%",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQTkQyZERqYnVfdnBjajUtTFJ6OE1YT3dZbkhfRHU0MHdRb003eFVnQjJpWHYwekJaR0NSLUdGWDVKZ0pVRzJZLXpXdjRmM2V2SVNpeVByQ3RsOHN6SEUxaV80WHFxZHp2bEJfS3hLUHFvbl9ENkFTWjZnWktvTzktOVk5enBfWkdMVFJldTJn?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-08 20:18 KST"
+      "seen": "2026-09-09 01:20 KST"
     },
     {
       "title": "Why isn't oil above $100 despite supply disruptions?",
@@ -49,13 +49,13 @@
       "seen": "2026-09-08 19:07 KST"
     }
   ],
-  "rate_source_time": "2026-09-09 08:46:42 KST",
+  "rate_source_time": "2026-09-09 09:33:23 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 1.75,
-  "rate_change_pct": 0.2,
+  "rate_change": 2.4,
+  "rate_change_pct": 0.28,
   "smbs_base_rate": 1341.1,
   "smbs_rate_date": "2026-09-09",
-  "smbs_rate_updated_at_kst": "2026-09-09 08:46:30 KST",
+  "smbs_rate_updated_at_kst": "2026-09-09 09:33:09 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1347.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-09 08:46:30 KST"
+  "rate_job_checked_at_kst": "2026-09-09 09:33:09 KST"
 }

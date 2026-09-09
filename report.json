@@ -1,17 +1,23 @@
 {
-  "updated_at_kst": "2026-09-09 10:50 KST",
-  "current_rate": 1338.9,
-  "previous_close": 1338.77,
-  "rate_updated_at_kst": "2026-09-09 10:49:46 KST",
+  "updated_at_kst": "2026-09-09 11:23 KST",
+  "current_rate": 1340.6,
+  "previous_close": 1339.53,
+  "rate_updated_at_kst": "2026-09-09 11:23:23 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
     "연준·금리 관련 최신 기사(\"COMMENTARY: Trump's baffling Fed threat could be gift to Warsh: Mike Dolan\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
     "미 국채금리 관련 최신 기사(\"COMMENTARY: Unloved, but unbroken — the US bond market is working as it should\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다.",
-    "유가·지정학 관련 최신 기사(\"European shares muted as oil rally fuels caution; Novartis tumbles\")가 확인돼 원화 변동성 확대 요인으로 작용하고 있습니다."
+    "유가 및 중동 지정학적 불확실성이 부각돼 에너지 수입 의존도가 높은 원화에는 약세 부담 요인으로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
+    {
+      "title": "Iran retaliates against US allies after its oil tankers destroyed",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOY2RGeTJFWWV0eThDTWdDRWxDUHg4Xy1oMFFzaTlPNWtEd2hGak1ybi1UeXQyMy0xblVhekdLYzh2TFotVndGQWVNa0NvUFhmWW05emo4c0s5ZkRaM2Jic3BPellVaFI3d2VfU005aEVSTmxjZWJyUDlSRENBemN6c2k0bnlEc0VDYTNxcE13Z0NkdkoxZHBHUlRUYWsxVkF3QTZCT2t4dUpIa1I5MmfSAbMBQVVfeXFMTVBPQWtWUDBIUnlhRDlnRjhNU1RyT2dvcG5oWjNIUjRZblByVjJvWDJiUXJlOXlwT3FKZG1NOHdxRkl3OXVQMjBKbUs5XzE1UkZRTThuNDF6amVKQ1drbXR6U2pIbU1WOVF1bTdMQmtkZFRFejJiU0Zna0VQMVRVd2xtUjd1Si0zOVl5X0JmSTNsUUZXd2taNmRuOUlkT0xiUVVxc3Bwd2xnR3B1MTNwS2toM00?oc=5",
+      "domain": "The Korea Times",
+      "seen": "2026-09-09 11:07 KST"
+    },
     {
       "title": "COMMENTARY: Unloved, but unbroken — the US bond market is working as it should",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQY3ltQXNrazU1eW16ZGNyXzViRnZuMDhLbUFGV1JvQzl3RGEtbi1zeDY3SFFHZ3hOelRRZEFhVldhZUs3SlZrbVBBLVBLZldvd29WQTlZRE1SamYwY3p4MkE5cTJ5SGtpVGc0ZXFiU00yNWxtSmZ5aW80UXpDcGlIdzE3eGoxLXRXMVQ0QUpOLUl6RndXTFB6OHAwNDlBMzQzRUp1YmU0Y3J6RWdOeTM0WmJvRjI2eHRmanFvQUFn?oc=5",
@@ -37,25 +43,19 @@
       "seen": "2026-09-09 01:20 KST"
     },
     {
-      "title": "Why isn't oil above $100 despite supply disruptions?",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbEwxQTVrUWVzenpNQVoxdkFTWDRCckVzNmNFR1B4bTJoSDhOVTZZZVlFb2FjMHdGWFU2WlpfbmE2eksxeXBSM1hhcnZwSDUyTVJ3M2dJaUtqejdmY3FBSWRvZmFkOVVGeVdZbmFrTUlpZ0lIWTdCYTdpcUx5MHV3ZFBnSFE3dGV4cG9JYWlpR2J5MDE0WjdueUV3V1FkaEc5ZUlR?oc=5",
+      "title": "COMMENTARY: Trump's baffling Fed threat could be gift to Warsh: Mike Dolan",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOUlJyMEZjMzY1WGZkdzZwdlJ3c0NYc1RBOU9yZkRYb1FpNjBCUElLSWU1ejVfemROSmhWOVBUWkhGV1VNWU1XTVlJd3VNcmlXdDZfc01taXJVTnppazFSS05iQ1A4Smw0OVNPS3l0VWNZenBVT1JONkg4U2RsaUozR2xWR3ZubUo3XzVlZXptNEhJOHZGelJtRl92aWRhLS1sSXplRm5TdUQ3Mk1SMnlpdHRiT3JXTk5IMDREWll0dGlsanlNQ1VNTA?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-08 19:22 KST"
-    },
-    {
-      "title": "Rupee endures sharpest fall in over a month as Brent oil barrels towards $100",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNa05iLVFENGVBNnNsMDFGeFJfdFJOVXVGRFU5LUw1UUtLLXYzZ2gzZjBwaHkzZDN1SFRjNElJQnVvek9LOVpISW02UHpTRkk5ektMbXFYQ1VCTHI0QkRFY0kzSmtNZG52cTVpSjdEb3F1VlJ6RHI1YnVzNmMtZWNwSnA4ZTBtVlAwWXo0RG52dnQ4X0tQVVdrakpNS3UyeWhSZHJpLWVIR1NZdlAtaUpQMTA1MlU5NDVoNGk0RTBlVE8?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-08 19:08 KST"
+      "seen": "2026-09-08 19:52 KST"
     }
   ],
-  "rate_source_time": "2026-09-09 10:49:46 KST",
+  "rate_source_time": "2026-09-09 11:23:23 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 0.13,
-  "rate_change_pct": 0.01,
+  "rate_change": 1.07,
+  "rate_change_pct": 0.12,
   "smbs_base_rate": 1341.1,
   "smbs_rate_date": "2026-09-09",
-  "smbs_rate_updated_at_kst": "2026-09-09 10:49:31 KST",
+  "smbs_rate_updated_at_kst": "2026-09-09 11:23:09 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1347.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-09 10:49:31 KST"
+  "rate_job_checked_at_kst": "2026-09-09 11:23:09 KST"
 }

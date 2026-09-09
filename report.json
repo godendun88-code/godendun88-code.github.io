@@ -1,17 +1,23 @@
 {
-  "updated_at_kst": "2026-09-09 15:29 KST",
-  "current_rate": 1336.5,
-  "previous_close": 1334.97,
-  "rate_updated_at_kst": "2026-09-09 15:29:09 KST",
+  "updated_at_kst": "2026-09-09 15:53 KST",
+  "current_rate": 1336.6,
+  "previous_close": 1336.32,
+  "rate_updated_at_kst": "2026-09-09 15:52:50 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
     "미 국채금리 관련 최신 기사(\"COMMENTARY: Unloved, but unbroken — the US bond market is working as it should\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다.",
-    "유가·지정학 관련 최신 기사(\"Morning Bid: $100 Brent in sight, yen defies gravity\")가 확인돼 원화 변동성 확대 요인으로 작용하고 있습니다.",
+    "유가·지정학 관련 최신 기사(\"Rupee's RBI-backed rally falters, slips past 95 on oil, slowing intervention\")가 확인돼 원화 변동성 확대 요인으로 작용하고 있습니다.",
     "외환시장 관련 최신 기사(\"COMMENTARY: TRADING DAY Roll out the $100 barrel\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
+    {
+      "title": "Rupee's RBI-backed rally falters, slips past 95 on oil, slowing intervention",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQaGZoOW9hYjFNUzRKaHNXWjFESG9IX0tqU2JUcUpjeThENDd2Y0REbjY2VWdCY1lfM0laQkp0WUY1MjhFS21YcWlXU0NRd3pyYmFyX3lCMU1MaUVDcUxQa0l3anRZRVhqcWk5aHVKSGZpRmhUNTJLUmY4ZWc5eVlNRGJYcmlWMkxIRFM4SXROZDNmc1QzWVNTaG1ralhZN1c5NmZDS1NWOXQ4MHJlYjV2MTUtVnNyZw?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-09 15:34 KST"
+    },
     {
       "title": "Morning Bid: $100 Brent in sight, yen defies gravity",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9pZExCdjRUZTV3SXBlS3pmdE81QndXdmxLbGpXVDdKOEVVNVJfUF9xTDB2T3pWMlFDR3hsMi1TaGJaN1FUMXhWZkExbEd2Q19jdmNiLS0wR3RzSzg5MHNmRURCNVZpLVhsd0FQQjFwUjRRc0ZTbER0THlSY2tnYVU?oc=5",
@@ -23,12 +29,6 @@
       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE4wV0N6QWFMeHk4Q0ZrZHVUOHZoUnBibW9PRGg0TGlTTHlTemoxb1F5dHUzRmx3dGpTYWU3a3UzT1FoZ0dJMWRwNW9Odk9rUHZs?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-09 12:34 KST"
-    },
-    {
-      "title": "Oil nears $100 as fresh Middle East strikes raise supply risks",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNUzVwcURFOW5QT2VTVW5YdFV2a2NPRGh1YkFoaTV2VUE0MXhES2gwR1ptSldNN29OZUZOLUQ2NlFUZUNpYjRFV25nTTR5cW03ZEFmX1BzMzViNGI5VXhWMWhtZHU1SDNxQ1Iyc2lDcEZOYnVpU3JMUVE4Uk9IUkVyYUdjd2ppV01LbDZESEQzWDBaZHZyOEpCem9yRkw0YUhnTVpuSVlzc01jVWszdVJSWg?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-09 11:28 KST"
     },
     {
       "title": "Oil heads for $100, Asia stocks subdued as Middle East tensions escalate",
@@ -49,13 +49,13 @@
       "seen": "2026-09-09 11:20 KST"
     }
   ],
-  "rate_source_time": "2026-09-09 15:29:09 KST",
+  "rate_source_time": "2026-09-09 15:52:50 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 1.53,
-  "rate_change_pct": 0.18,
+  "rate_change": 0.28,
+  "rate_change_pct": 0.03,
   "smbs_base_rate": 1341.1,
   "smbs_rate_date": "2026-09-09",
-  "smbs_rate_updated_at_kst": "2026-09-09 15:28:54 KST",
+  "smbs_rate_updated_at_kst": "2026-09-09 15:52:34 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1347.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-09 15:28:54 KST"
+  "rate_job_checked_at_kst": "2026-09-09 15:52:34 KST"
 }

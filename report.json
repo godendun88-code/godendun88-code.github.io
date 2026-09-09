@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-09-10 07:21 KST",
+  "updated_at_kst": "2026-09-10 07:47 KST",
   "current_rate": 1337.6,
   "previous_close": 1336.38,
-  "rate_updated_at_kst": "2026-09-10 07:21:36 KST",
+  "rate_updated_at_kst": "2026-09-10 07:47:08 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
@@ -22,7 +22,7 @@
       "title": "S&P 500 ends down as oil tops $100 per barrel",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZExkRWJ1dThFMjNOZWdHdkJuSFd4UENUUko1cUI2aWJNMkQzb3FtYm5kNWUza3hVRVQ2Qlk0WjFGRnlGZWRhbzVMckNacFc4NDRXbzRqTmdyWWxTdVZoQ3pYNjY2Nm9pNHJRTUo0dlhkNkFzN2NSZ3BYR2Rqb1dfYkFjWHI1eW5USFlQd200RzI1cVVYY0VsdEZMbDdNQnZrLThZ?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-10 05:15 KST"
+      "seen": "2026-09-10 05:01 KST"
     },
     {
       "title": "Brent settles at over $100 a barrel as Middle East conflict intensifies",
@@ -49,13 +49,13 @@
       "seen": "2026-09-10 00:22 KST"
     }
   ],
-  "rate_source_time": "2026-09-10 07:21:36 KST",
+  "rate_source_time": "2026-09-10 07:47:08 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": 1.22,
   "rate_change_pct": 0.14,
   "smbs_base_rate": 1337.9,
   "smbs_rate_date": "2026-09-10",
-  "smbs_rate_updated_at_kst": "2026-09-10 07:21:24 KST",
+  "smbs_rate_updated_at_kst": "2026-09-10 07:46:56 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1347.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-10 07:21:24 KST"
+  "rate_job_checked_at_kst": "2026-09-10 07:46:56 KST"
 }

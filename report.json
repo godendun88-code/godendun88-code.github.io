@@ -1,14 +1,14 @@
 {
-  "updated_at_kst": "2026-09-09 16:50 KST",
-  "current_rate": 1335.6,
-  "previous_close": 1335.17,
-  "rate_updated_at_kst": "2026-09-09 16:50:22 KST",
+  "updated_at_kst": "2026-09-09 17:25 KST",
+  "current_rate": 1336.8,
+  "previous_close": 1342.1,
+  "rate_updated_at_kst": "2026-09-09 17:24:46 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
     "미 국채금리 관련 최신 기사(\"COMMENTARY: Unloved, but unbroken — the US bond market is working as it should\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다.",
-    "유가 및 중동 지정학적 불확실성이 부각돼 에너지 수입 의존도가 높은 원화에는 약세 부담 요인으로 작용하고 있습니다.",
-    "외환시장 관련 최신 기사(\"COMMENTARY: TRADING DAY Roll out the $100 barrel\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다."
+    "달러 관련 최신 기사(\"Yen holds near seven-month high as US dollar steadies\")가 확인돼 달러인덱스 방향성이 원/달러 환율의 핵심 변수로 작용하고 있습니다.",
+    "유가 및 중동 지정학적 불확실성이 부각돼 에너지 수입 의존도가 높은 원화에는 약세 부담 요인으로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
@@ -16,19 +16,13 @@
       "title": "Brent crude rises above $100 a barrel as Middle East conflict escalates",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNcV81aHB4Z3dteWpsZGxOM01KRFFXZ3hhZlBUUlJUb3Y0QXVXaWpfSXJxRGx0R2Z2LXRrb25jYWJBTUNxc3llTFNVdmRoQzkxRjlLc0czRUxKczdyYU8temtJbXJRUXNOUGpuRkdXenNZTFVLX3ZhUkFQZ191cjV3amlwZ0RocHBoUHNZYzVfZy1pSlFNNGlma0NMMFVvRFIxSXNUOTRyYnNDWU1qc0JxWmpDRHMyTmVj?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-09 16:41 KST"
+      "seen": "2026-09-09 16:42 KST"
     },
     {
       "title": "Morning Bid: $100 Brent in sight, yen defies gravity",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9pZExCdjRUZTV3SXBlS3pmdE81QndXdmxLbGpXVDdKOEVVNVJfUF9xTDB2T3pWMlFDR3hsMi1TaGJaN1FUMXhWZkExbEd2Q19jdmNiLS0wR3RzSzg5MHNmRURCNVZpLVhsd0FQQjFwUjRRc0ZTbER0THlSY2tnYVU?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-09 13:32 KST"
-    },
-    {
-      "title": "S&P 500 falls as AI worries hit software makers",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE4wV0N6QWFMeHk4Q0ZrZHVUOHZoUnBibW9PRGg0TGlTTHlTemoxb1F5dHUzRmx3dGpTYWU3a3UzT1FoZ0dJMWRwNW9Odk9rUHZs?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-09 12:34 KST"
     },
     {
       "title": "Oil heads for $100, Asia stocks subdued as Middle East tensions escalate",
@@ -40,19 +34,25 @@
       "title": "Indian rupee under pressure with Brent near $100 testing RBI defence",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQaGZoOW9hYjFNUzRKaHNXWjFESG9IX0tqU2JUcUpjeThENDd2Y0REbjY2VWdCY1lfM0laQkp0WUY1MjhFS21YcWlXU0NRd3pyYmFyX3lCMU1MaUVDcUxQa0l3anRZRVhqcWk5aHVKSGZpRmhUNTJLUmY4ZWc5eVlNRGJYcmlWMkxIRFM4SXROZDNmc1QzWVNTaG1ralhZN1c5NmZDS1NWOXQ4MHJlYjV2MTUtVnNyZw?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-09 11:25 KST"
+      "seen": "2026-09-09 11:24 KST"
     },
     {
       "title": "Indian shares decline on crude spike; Coforge tumbles after chairman's exit",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQUTJ5YTBDcXdScFdqQUJJNmpuSC1YYmZtQUJEbDdlV3dEazhPNWtIb3MwV2lqQTdqakNBZDhlZ21uMHMzNWp4ZFF2djRtZ3hnQnlnRnhzel9CbzJsXzJnSHg3aUlCUGZzZDc1RnpENVBQMEtUUXVYcThYUG1pU1dPdVpqR1BPWjlJSWYwRW02MU9nOVNxV3h5UTFRTHVaSnVPQmU1QW5mZGRWci1oZ2FqUG1TYU9fSGhzS1E?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-09 11:20 KST"
+    },
+    {
+      "title": "Yen stands tall as dollar drifts, oil's run towards $100 chills sentiment",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOSEotZFlXVDdDeG05cmdnOVhQN0xrYXBpeUhaNDg2ZkQxNkdEZ0k2aVp6ZThfRWMwaHk4TUVPcTh1NHJ2S2VmQk1hZWdqM1Y2cXpqeGwtdHgxN291b0F2OGc3SGZMV0F2RUktY2g3RE1uVzhLSXVQMWc1OE9hSXhjNmxSTktoY2o3Uy01SjRYUVg1NjUxVHRPMndmODlpWW5OdEpPaUFpQjd3MHhfcmIxWGpZWFFhRnBSeEtIRFdDTTI?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-09 10:59 KST"
     }
   ],
-  "rate_source_time": "2026-09-09 16:50:22 KST",
+  "rate_source_time": "2026-09-09 17:24:46 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 0.43,
-  "rate_change_pct": 0.05,
+  "rate_change": -5.3,
+  "rate_change_pct": -0.39,
   "smbs_base_rate": 1341.1,
   "smbs_rate_date": "2026-09-09",
   "smbs_rate_updated_at_kst": "2026-09-09 16:50:09 KST",
@@ -63,5 +63,6 @@
     1347.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-09 16:50:09 KST"
+  "rate_job_checked_at_kst": "2026-09-09 17:24:29 KST",
+  "smbs_rate_error": "RuntimeError: 서울외국환중개 페이지에서 USD 매매기준율을 찾지 못했습니다."
 }

@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-09-09 14:22 KST",
-  "current_rate": 1335.9,
-  "previous_close": 1342.1,
-  "rate_updated_at_kst": "2026-09-09 14:22:28 KST",
+  "updated_at_kst": "2026-09-09 14:49 KST",
+  "current_rate": 1337.5,
+  "previous_close": 1336.97,
+  "rate_updated_at_kst": "2026-09-09 14:49:05 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
@@ -19,16 +19,16 @@
       "seen": "2026-09-09 13:32 KST"
     },
     {
+      "title": "S&P 500 falls as AI worries hit software makers",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE4wV0N6QWFMeHk4Q0ZrZHVUOHZoUnBibW9PRGg0TGlTTHlTemoxb1F5dHUzRmx3dGpTYWU3a3UzT1FoZ0dJMWRwNW9Odk9rUHZs?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-09 12:15 KST"
+    },
+    {
       "title": "Oil nears $100 as fresh Middle East strikes raise supply risks",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNUzVwcURFOW5QT2VTVW5YdFV2a2NPRGh1YkFoaTV2VUE0MXhES2gwR1ptSldNN29OZUZOLUQ2NlFUZUNpYjRFV25nTTR5cW03ZEFmX1BzMzViNGI5VXhWMWhtZHU1SDNxQ1Iyc2lDcEZOYnVpU3JMUVE4Uk9IUkVyYUdjd2ppV01LbDZESEQzWDBaZHZyOEpCem9yRkw0YUhnTVpuSVlzc01jVWszdVJSWg?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-09 11:28 KST"
-    },
-    {
-      "title": "S&P 500 falls as AI worries hit software makers",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE4wV0N6QWFMeHk4Q0ZrZHVUOHZoUnBibW9PRGg0TGlTTHlTemoxb1F5dHUzRmx3dGpTYWU3a3UzT1FoZ0dJMWRwNW9Odk9rUHZs?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-09 11:27 KST"
     },
     {
       "title": "Oil heads for $100, Asia stocks subdued as Middle East tensions escalate",
@@ -40,22 +40,22 @@
       "title": "Indian rupee under pressure with Brent near $100 testing RBI defence",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQaGZoOW9hYjFNUzRKaHNXWjFESG9IX0tqU2JUcUpjeThENDd2Y0REbjY2VWdCY1lfM0laQkp0WUY1MjhFS21YcWlXU0NRd3pyYmFyX3lCMU1MaUVDcUxQa0l3anRZRVhqcWk5aHVKSGZpRmhUNTJLUmY4ZWc5eVlNRGJYcmlWMkxIRFM4SXROZDNmc1QzWVNTaG1ralhZN1c5NmZDS1NWOXQ4MHJlYjV2MTUtVnNyZw?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-09 11:24 KST"
+      "seen": "2026-09-09 11:25 KST"
     },
     {
-      "title": "Yen stands tall as dollar wobbles, oil's run towards $100 chills sentiment",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOSEotZFlXVDdDeG05cmdnOVhQN0xrYXBpeUhaNDg2ZkQxNkdEZ0k2aVp6ZThfRWMwaHk4TUVPcTh1NHJ2S2VmQk1hZWdqM1Y2cXpqeGwtdHgxN291b0F2OGc3SGZMV0F2RUktY2g3RE1uVzhLSXVQMWc1OE9hSXhjNmxSTktoY2o3Uy01SjRYUVg1NjUxVHRPMndmODlpWW5OdEpPaUFpQjd3MHhfcmIxWGpZWFFhRnBSeEtIRFdDTTI?oc=5",
+      "title": "Indian shares decline on crude spike; Coforge tumbles after chairman's exit",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQUTJ5YTBDcXdScFdqQUJJNmpuSC1YYmZtQUJEbDdlV3dEazhPNWtIb3MwV2lqQTdqakNBZDhlZ21uMHMzNWp4ZFF2djRtZ3hnQnlnRnhzel9CbzJsXzJnSHg3aUlCUGZzZDc1RnpENVBQMEtUUXVYcThYUG1pU1dPdVpqR1BPWjlJSWYwRW02MU9nOVNxV3h5UTFRTHVaSnVPQmU1QW5mZGRWci1oZ2FqUG1TYU9fSGhzS1E?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-09 10:59 KST"
+      "seen": "2026-09-09 11:20 KST"
     }
   ],
-  "rate_source_time": "2026-09-09 14:22:28 KST",
+  "rate_source_time": "2026-09-09 14:49:05 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": -6.2,
-  "rate_change_pct": -0.46,
+  "rate_change": 0.53,
+  "rate_change_pct": 0.06,
   "smbs_base_rate": 1341.1,
   "smbs_rate_date": "2026-09-09",
-  "smbs_rate_updated_at_kst": "2026-09-09 13:23:40 KST",
+  "smbs_rate_updated_at_kst": "2026-09-09 14:48:51 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,6 +63,5 @@
     1347.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-09 14:22:12 KST",
-  "smbs_rate_error": "RuntimeError: 서울외국환중개 페이지에서 USD 매매기준율을 찾지 못했습니다."
+  "rate_job_checked_at_kst": "2026-09-09 14:48:51 KST"
 }

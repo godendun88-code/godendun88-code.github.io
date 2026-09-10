@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-09-10 09:29 KST",
-  "current_rate": 1339.5,
+  "updated_at_kst": "2026-09-10 09:52 KST",
+  "current_rate": 1338.2,
   "previous_close": 1337.6,
-  "rate_updated_at_kst": "2026-09-10 09:29:18 KST",
+  "rate_updated_at_kst": "2026-09-10 09:52:18 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
@@ -17,12 +17,6 @@
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNX2JTdW9sQmN4V2h4TnFrb1MyM04ySnZUN012U2JERWNCaE1vMjBBeXR1SFJtQUxEalN0c1BrVWd5d1FyLUFJS0E5LXhYbzQyMUthaGNvUTE4dUt3cFlPMzNQN3BVSnkwXzVXSkN3YTFEdXJCVVBCekVPRXFwckxIYjU1ZHA?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-10 05:51 KST"
-    },
-    {
-      "title": "S&P 500 ends down as oil tops $100 per barrel",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZExkRWJ1dThFMjNOZWdHdkJuSFd4UENUUko1cUI2aWJNMkQzb3FtYm5kNWUza3hVRVQ2Qlk0WjFGRnlGZWRhbzVMckNacFc4NDRXbzRqTmdyWWxTdVZoQ3pYNjY2Nm9pNHJRTUo0dlhkNkFzN2NSZ3BYR2Rqb1dfYkFjWHI1eW5USFlQd200RzI1cVVYY0VsdEZMbDdNQnZrLThZ?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-10 05:01 KST"
     },
     {
       "title": "Brent settles at over $100 a barrel as Middle East conflict intensifies",
@@ -47,15 +41,21 @@
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQQXdXWHFzSk9XQ1hpQlJfSHpOYk1TLUFSZVNwcG5lQjlMMERtcHktWkkwbjdxbGYwak9JaEczNi1NVDMxc3I5OUNSb2dKM3hfbzNoWE9hZEdpMDlWbWRLdGVrWVFrSEk1X01HazZBSldiMG51ZDNCVGpBd1EwSkVrbVJnZlViWW1QYVlkVzZZbzZKTFBFQnZtcjBqdklTQTBsV2RvdFNIeUZZdnNnYjdmR2pNbW5RVUc1eEtzbXZVVHVqVmUyb1BFT093?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-10 00:22 KST"
+    },
+    {
+      "title": "Oil pushes past $100 as wave of US-Iran attacks exposes dwindling safety net",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQWk83eHNVQXFWUEdoZGxYdmRpdnhuMFFKM3JfMkRRNDMxWmM0c1JPVmpkRWhQVVBvX0VLdjlhZ296NHpDVDdUNS0xZl9jRXJEeWZ1N1ZWSnZGUjVueEc2MzdjNTAwUTNlUFEtZWZ5el9Jc3dBYjJzVzN6R080aFJLLVlYWEVqUTU0WHRGX1hMSXQ3cnFpaVNHeHM3enRkYjZDcEUyb0Vic1JhMExzU1BCZVBvZlh2dExCZ3dRTVBlNWxNZw?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-09 22:56 KST"
     }
   ],
-  "rate_source_time": "2026-09-10 09:29:18 KST",
+  "rate_source_time": "2026-09-10 09:52:18 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 1.9,
-  "rate_change_pct": 0.14,
+  "rate_change": 0.6,
+  "rate_change_pct": 0.04,
   "smbs_base_rate": 1337.9,
   "smbs_rate_date": "2026-09-10",
-  "smbs_rate_updated_at_kst": "2026-09-10 09:29:06 KST",
+  "smbs_rate_updated_at_kst": "2026-09-10 09:52:06 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1345.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-10 09:29:06 KST"
+  "rate_job_checked_at_kst": "2026-09-10 09:52:06 KST"
 }

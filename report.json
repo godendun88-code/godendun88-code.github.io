@@ -1,23 +1,17 @@
 {
-  "updated_at_kst": "2026-09-10 17:25 KST",
-  "current_rate": 1342.0,
+  "updated_at_kst": "2026-09-10 18:24 KST",
+  "current_rate": 1341.2,
   "previous_close": 1337.6,
-  "rate_updated_at_kst": "2026-09-10 17:51:15 KST",
+  "rate_updated_at_kst": "2026-09-10 18:23:58 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
-    "미국 물가 관련 최신 기사(\"Currency markets subdued as oil shock lifts global yields; ECB, US inflation eyed\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
+    "미국 물가 관련 최신 기사(\"Gold ticks up on softer dollar; US inflation data on tap\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
     "미 국채금리 관련 최신 기사(\"Asian stocks dip as Brent holds above $100, yields near 2023 peak\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다.",
     "달러 관련 최신 기사(\"COMMENTARY: Is the dollar policy 'mini Mar-a-Lagos' or Whac-A-Mole?\")가 확인돼 달러인덱스 방향성이 원/달러 환율의 핵심 변수로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
-    {
-      "title": "COMMENTARY: Asia's oil industry wants Trump to leave the Gulf, but expects he won't",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOMm1IdXZwdFBoY28xel9yZ3VNRGs3a0RTbDhTb3ZDWEw0VFZqZE5mNVJ6b2theVp3Q2p0emhIWmZwLXc4ako5eDl3UzVWZkRaQ3RHX05VbkNhVkVxbk9ISXhLMjVaLTRHc1FDdHAxb1QxN2hYSldJUzVGYVhmeWNiRVV0UjNtcHdubFpKWVFYWDZ4OVBJRFRSREhvcVlYVjV0YnFwUTNKeDBvU2hYMEE5SWFubFFCZlhSMTFaUnJMY19oYnI5?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-10 15:43 KST"
-    },
     {
       "title": "Trump says Iran war to end after US midterm elections, threatens to attack Pickaxe Mountain",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQX1VBYmFiQnhuQWRpWDFRNjQ3ZzBFUTEzUmxneFZQTmtfOHducTVIZlU3LXFwRjVSbS1EYTNjMVY1dGlzODdfblBPSzFqWm90bWhfeFBUVVlDdjN2YUFoS1VNekY4U1VHcW1WTXQzS1ZTYjI2YzZ1OFFaZzJMZm9DTEpWY25jMlJsOHNUYklSbkR3Z2pNc1ZUcUNhN3VnWHdIV2U5RklKVldodktsWE5rczRlMVFfZzJZV3VJSzlhdEpRV1VzLXc2Sw?oc=5",
@@ -31,31 +25,37 @@
       "seen": "2026-09-10 15:01 KST"
     },
     {
+      "title": "Asian stocks dip as Brent holds above $100, yields near 2023 peak",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9ydjJlYXlTVHhNV0k4Z3ZMb19VVFdUR2taM2lOVHhOUTN6enJSZVVhODdiSm04TnhTNGFJMDVOUjN4eVhsdGZtcFQ2RVloaFNFZzh4TkpvaUtfQTRFUXFkRmctMjFiRHFnWFE2VlBvQm4yZk5NMmdUZkNOdw?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-10 14:53 KST"
+    },
+    {
+      "title": "Gold ticks up on softer dollar; US inflation data on tap",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQU00zRjlwdjRLNzNsRDluVS1Rc0hCVmhNSTc0TThXMVUtMVgyYU1Mc3FVY1p4YlVIX0p2NzhYbEFCSkVUMEhHR2MtTlFRUHZlbXVGNkxINUVSc1FZNVB5S2hGOXdIUzMydEhHSllEcVVqbWM0VHlOajEzeHBQMlY4UW5nUnRNMm5NS1lvR3RYN2E5M1dIV3NMd3VuZDJOZDg2U0cxa1JR?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-10 11:56 KST"
+    },
+    {
+      "title": "COMMENTARY: Asia's oil industry wants Trump to leave the Gulf, but expects he won't",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOMm1IdXZwdFBoY28xel9yZ3VNRGs3a0RTbDhTb3ZDWEw0VFZqZE5mNVJ6b2theVp3Q2p0emhIWmZwLXc4ako5eDl3UzVWZkRaQ3RHX05VbkNhVkVxbk9ISXhLMjVaLTRHc1FDdHAxb1QxN2hYSldJUzVGYVhmeWNiRVV0UjNtcHdubFpKWVFYWDZ4OVBJRFRSREhvcVlYVjV0YnFwUTNKeDBvU2hYMEE5SWFubFFCZlhSMTFaUnJMY19oYnI5?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-10 11:26 KST"
+    },
+    {
       "title": "Euro firm ahead of ECB decision; $100 oil dampens activity",
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOYU50UmRVNmIyeFBOSmd6azlDeDMxNlh1S0cycHpnYjU4NERYWjhoN2diSmthTngzdWZScmFTdldrTGtUcTh3SDFKbVIySmU2TUx3cnMtOEdKMnFkV3J1d3pYRmdvZDVWb2VPSXNjcG52cEVPTGtLNF9UT1BFSnJ3WlUzOXNuU1FwZmNSdGVTdV9Na1h6M3dPVGVtU0ttYlBlRWc0S1Q0Rl9HSmVCNlZaZXhjMVc0OUduMk1mOGRqVkxjY0d2SGhRbWJsUQ?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-10 11:07 KST"
-    },
-    {
-      "title": "Currency markets subdued as oil shock lifts global yields; ECB, US inflation eyed",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOYU50UmRVNmIyeFBOSmd6azlDeDMxNlh1S0cycHpnYjU4NERYWjhoN2diSmthTngzdWZScmFTdldrTGtUcTh3SDFKbVIySmU2TUx3cnMtOEdKMnFkV3J1d3pYRmdvZDVWb2VPSXNjcG52cEVPTGtLNF9UT1BFSnJ3WlUzOXNuU1FwZmNSdGVTdV9Na1h6M3dPVGVtU0ttYlBlRWc0S1Q0Rl9HSmVCNlZaZXhjMVc0OUduMk1mOGRqVkxjY0d2SGhRbWJsUQ?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-10 11:07 KST"
-    },
-    {
-      "title": "Asian stocks dip as Brent holds above $100, yields near 2023 peak",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9ydjJlYXlTVHhNV0k4Z3ZMb19VVFdUR2taM2lOVHhOUTN6enJSZVVhODdiSm04TnhTNGFJMDVOUjN4eVhsdGZtcFQ2RVloaFNFZzh4TkpvaUtfQTRFUXFkRmctMjFiRHFnWFE2VlBvQm4yZk5NMmdUZkNOdw?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-10 11:06 KST"
     }
   ],
-  "rate_source_time": "2026-09-10 17:51:15 KST",
+  "rate_source_time": "2026-09-10 18:23:58 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 4.4,
-  "rate_change_pct": 0.33,
+  "rate_change": 3.6,
+  "rate_change_pct": 0.27,
   "smbs_base_rate": 1337.9,
   "smbs_rate_date": "2026-09-10",
-  "smbs_rate_updated_at_kst": "2026-09-10 17:51:00 KST",
+  "smbs_rate_updated_at_kst": "2026-09-10 18:23:46 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1345.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-10 17:51:00 KST"
+  "rate_job_checked_at_kst": "2026-09-10 18:23:46 KST"
 }

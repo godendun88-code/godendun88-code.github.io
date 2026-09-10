@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-09-10 15:53 KST",
-  "current_rate": 1341.6,
+  "updated_at_kst": "2026-09-10 16:24 KST",
+  "current_rate": 1341.1,
   "previous_close": 1337.6,
-  "rate_updated_at_kst": "2026-09-10 15:53:16 KST",
+  "rate_updated_at_kst": "2026-09-10 16:24:11 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
@@ -25,10 +25,10 @@
       "seen": "2026-09-10 15:01 KST"
     },
     {
-      "title": "Indian shares muted as Mideast conflict keeps oil above $100",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOREJVc1NJZXJ1VFBrdmpqalRvS0Fwd3FrSGtEOVd5Z1ZxWjh3Sld5UmtKVlZHOHNUeVZUQlRaVjEyZEtEa0hLMVpGeUFVM2l6R1dIR0YzbXBDU1RWQ1RzNVB5Ry1XMjdwdEtnQVJBT0lSMzNvSGdIUHIzMjBCS1lEZXYwODN2bDBBbUtMREJpMkVQQmlyNlloLTBlSWMzVnBaSjZvWTRwTTgxODRkWlE?oc=5",
+      "title": "COMMENTARY: Asia's oil industry wants Trump to leave the Gulf, but expects he won't",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOMm1IdXZwdFBoY28xel9yZ3VNRGs3a0RTbDhTb3ZDWEw0VFZqZE5mNVJ6b2theVp3Q2p0emhIWmZwLXc4ako5eDl3UzVWZkRaQ3RHX05VbkNhVkVxbk9ISXhLMjVaLTRHc1FDdHAxb1QxN2hYSldJUzVGYVhmeWNiRVV0UjNtcHdubFpKWVFYWDZ4OVBJRFRSREhvcVlYVjV0YnFwUTNKeDBvU2hYMEE5SWFubFFCZlhSMTFaUnJMY19oYnI5?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-10 11:20 KST"
+      "seen": "2026-09-10 14:57 KST"
     },
     {
       "title": "Currency markets subdued as oil shock lifts global yields; ECB, US inflation eyed",
@@ -49,13 +49,13 @@
       "seen": "2026-09-10 08:30 KST"
     }
   ],
-  "rate_source_time": "2026-09-10 15:53:16 KST",
+  "rate_source_time": "2026-09-10 16:24:11 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 4.0,
-  "rate_change_pct": 0.3,
+  "rate_change": 3.5,
+  "rate_change_pct": 0.26,
   "smbs_base_rate": 1337.9,
   "smbs_rate_date": "2026-09-10",
-  "smbs_rate_updated_at_kst": "2026-09-10 15:28:36 KST",
+  "smbs_rate_updated_at_kst": "2026-09-10 16:23:58 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,6 +63,5 @@
     1345.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-10 15:53:01 KST",
-  "smbs_rate_error": "RuntimeError: 서울외국환중개 페이지에서 USD 매매기준율을 찾지 못했습니다."
+  "rate_job_checked_at_kst": "2026-09-10 16:23:58 KST"
 }

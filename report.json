@@ -1,13 +1,13 @@
 {
-  "updated_at_kst": "2026-09-10 19:50 KST",
-  "current_rate": 1342.7,
+  "updated_at_kst": "2026-09-10 20:22 KST",
+  "current_rate": 1343.7,
   "previous_close": 1337.6,
-  "rate_updated_at_kst": "2026-09-10 19:49:57 KST",
+  "rate_updated_at_kst": "2026-09-10 20:22:44 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
     "미국 물가 관련 최신 기사(\"TSX futures hover near six-week low before US inflation data\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
-    "미 국채금리 관련 최신 기사(\"Asian stocks dip as Brent holds above $100, yields near 2023 peak\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다.",
+    "미 국채금리 관련 최신 기사(\"10-year yields highest since 2023\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다.",
     "달러 관련 최신 기사(\"COMMENTARY: Is the dollar policy 'mini Mar-a-Lagos' or Whac-A-Mole?\")가 확인돼 달러인덱스 방향성이 원/달러 환율의 핵심 변수로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
@@ -25,7 +25,7 @@
       "seen": "2026-09-10 18:29 KST"
     },
     {
-      "title": "Trump says Iran war to end after US midterm elections, threatens to attack Pickaxe Mountain",
+      "title": "Trump says Iran war to end after US midterm vote, Houthis close in on key Strait, sources say",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQX1VBYmFiQnhuQWRpWDFRNjQ3ZzBFUTEzUmxneFZQTmtfOHducTVIZlU3LXFwRjVSbS1EYTNjMVY1dGlzODdfblBPSzFqWm90bWhfeFBUVVlDdjN2YUFoS1VNekY4U1VHcW1WTXQzS1ZTYjI2YzZ1OFFaZzJMZm9DTEpWY25jMlJsOHNUYklSbkR3Z2pNc1ZUcUNhN3VnWHdIV2U5RklKVldodktsWE5rczRlMVFfZzJZV3VJSzlhdEpRV1VzLXc2Sw?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-10 15:13 KST"
@@ -43,16 +43,16 @@
       "seen": "2026-09-10 11:56 KST"
     },
     {
-      "title": "Euro firm ahead of ECB decision; $100 oil dampens activity",
+      "title": "Dollar crawls higher ahead of ECB, US inflation data; $100 oil spooks investors",
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOYU50UmRVNmIyeFBOSmd6azlDeDMxNlh1S0cycHpnYjU4NERYWjhoN2diSmthTngzdWZScmFTdldrTGtUcTh3SDFKbVIySmU2TUx3cnMtOEdKMnFkV3J1d3pYRmdvZDVWb2VPSXNjcG52cEVPTGtLNF9UT1BFSnJ3WlUzOXNuU1FwZmNSdGVTdV9Na1h6M3dPVGVtU0ttYlBlRWc0S1Q0Rl9HSmVCNlZaZXhjMVc0OUduMk1mOGRqVkxjY0d2SGhRbWJsUQ?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-10 11:07 KST"
     }
   ],
-  "rate_source_time": "2026-09-10 19:49:57 KST",
+  "rate_source_time": "2026-09-10 20:22:44 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 5.1,
-  "rate_change_pct": 0.38,
+  "rate_change": 6.1,
+  "rate_change_pct": 0.46,
   "smbs_base_rate": 1337.9,
   "smbs_rate_date": "2026-09-10",
   "smbs_rate_updated_at_kst": "2026-09-10 19:49:42 KST",
@@ -63,5 +63,6 @@
     1345.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-10 19:49:42 KST"
+  "rate_job_checked_at_kst": "2026-09-10 20:22:28 KST",
+  "smbs_rate_error": "RuntimeError: 서울외국환중개 페이지에서 USD 매매기준율을 찾지 못했습니다."
 }

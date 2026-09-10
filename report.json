@@ -1,12 +1,12 @@
 {
-  "updated_at_kst": "2026-09-11 01:23 KST",
+  "updated_at_kst": "2026-09-11 01:49 KST",
   "current_rate": 1346.4,
   "previous_close": 1337.6,
-  "rate_updated_at_kst": "2026-09-11 01:22:58 KST",
+  "rate_updated_at_kst": "2026-09-11 01:49:02 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
-    "미국 물가 관련 최신 기사(\"Wall St slips after hotter-than-expected producer inflation data\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
+    "미국 물가 관련 최신 기사(\"COMMENTARY: US CPI, where the significant meets the silly\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
     "미 국채금리 관련 최신 기사(\"10-year yields highest since 2023\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다.",
     "달러 관련 최신 기사(\"COMMENTARY: Is the dollar policy 'mini Mar-a-Lagos' or Whac-A-Mole?\")가 확인돼 달러인덱스 방향성이 원/달러 환율의 핵심 변수로 작용하고 있습니다."
   ],
@@ -19,10 +19,10 @@
       "seen": "2026-09-10 23:40 KST"
     },
     {
-      "title": "Wall St slips after hotter-than-expected producer inflation data",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPVUNZS2ZwczJmM0x1aEM5ZFJMbUhWckRSOE54a1NyTFZjb1NaNFNCZDFwOFJiMk40b1RJelZsVnhKOVNObGNGenNkZzVhUWtZRlktVzhTWk9Qc1EybkRweDk4RFRRUjh2bk1TU0lJazBncUFnUlcwcTlPVWY3NjBzdWVUd3JGTDlLeF9EMU1aTnEzSDctTVcxZVdzT1RZclZjanRhbkl3?oc=5",
+      "title": "South African rand slips as dollar, oil outweigh mixed economic data",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOMXdLYWZCSXR0akZDREdGclNTWjhHbkhDUE5wR3M2c0NJeXFDdHNDZDlBLXBOMEoteDJUZnZEOVhHZ00ySGFBYU05SDdkRWVaN0NMZF9VUzFXWEVaWnVETDkyT1FWX3Jnb3pyQkhocS1hX0tKZ3NMN0ViYTJIZHlJNzMyejBVQXEtdWM5eHp1d2FqOHlUelpYbG1sOGZIbDRiNEtDcw?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-10 23:38 KST"
+      "seen": "2026-09-10 22:20 KST"
     },
     {
       "title": "COMMENTARY: US CPI, where the significant meets the silly",
@@ -43,19 +43,19 @@
       "seen": "2026-09-10 15:52 KST"
     },
     {
-      "title": "South African rand slips as dollar, oil outweigh mixed economic data",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOMXdLYWZCSXR0akZDREdGclNTWjhHbkhDUE5wR3M2c0NJeXFDdHNDZDlBLXBOMEoteDJUZnZEOVhHZ00ySGFBYU05SDdkRWVaN0NMZF9VUzFXWEVaWnVETDkyT1FWX3Jnb3pyQkhocS1hX0tKZ3NMN0ViYTJIZHlJNzMyejBVQXEtdWM5eHp1d2FqOHlUelpYbG1sOGZIbDRiNEtDcw?oc=5",
+      "title": "COMMENTARY: Is the dollar policy 'mini Mar-a-Lagos' or Whac-A-Mole?",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPbDF5UUVDeU5EQ1l6YXFPaVc3SU9FdnpKTlFzY2hndG9UWnV0Q09WQk9NaTFYNFJTUjUwSjl3bVk4MHpGS2J0alhpQk5FSVVNdWRNVW50emM3aUQ0a0pUeDJTbkx2Ui1lVjhiMWZ4UHhtdUZTeFliZ0xuZE9CUDRJQmEzcm5ERWRNRkRwSkxPVE1PYy1qTFMxYkJEUFdnbnNHSGRiVEpYYXhYQ25faWZ2ZEozd2ZoaEYxSWFuX3JIYnBVTUg1amNZ?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-10 15:07 KST"
+      "seen": "2026-09-10 15:01 KST"
     }
   ],
-  "rate_source_time": "2026-09-11 01:22:58 KST",
+  "rate_source_time": "2026-09-11 01:49:02 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": 8.8,
   "rate_change_pct": 0.66,
   "smbs_base_rate": 1338.2,
   "smbs_rate_date": "2026-09-11",
-  "smbs_rate_updated_at_kst": "2026-09-11 01:22:44 KST",
+  "smbs_rate_updated_at_kst": "2026-09-11 01:48:46 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1345.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-11 01:22:44 KST"
+  "rate_job_checked_at_kst": "2026-09-11 01:48:46 KST"
 }

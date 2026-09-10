@@ -1,17 +1,35 @@
 {
-  "updated_at_kst": "2026-09-10 14:51 KST",
-  "current_rate": 1337.3,
+  "updated_at_kst": "2026-09-10 15:29 KST",
+  "current_rate": 1338.6,
   "previous_close": 1337.6,
-  "rate_updated_at_kst": "2026-09-10 13:50:10 KST",
+  "rate_updated_at_kst": "2026-09-10 15:28:49 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
-    "연준·금리 관련 최신 기사(\"Fed to hold rates steady in rest of 2026; rising number of analysts see at least one hike: Reuters poll\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
     "미국 물가 관련 최신 기사(\"Currency markets subdued as oil shock lifts global yields; ECB, US inflation eyed\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
-    "미 국채금리 관련 최신 기사(\"Asian stocks wilt as Brent holds above $100, yields near 2023 peak\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다."
+    "미 국채금리 관련 최신 기사(\"Asian stocks dip as Brent holds above $100, yields near 2023 peak\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다.",
+    "달러 관련 최신 기사(\"COMMENTARY: Is the dollar policy 'mini Mar-a-Lagos' or Whac-A-Mole?\")가 확인돼 달러인덱스 방향성이 원/달러 환율의 핵심 변수로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
+    {
+      "title": "Trump says Iran war to end after US midterm elections, threatens to attack Pickaxe Mountain",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQX1VBYmFiQnhuQWRpWDFRNjQ3ZzBFUTEzUmxneFZQTmtfOHducTVIZlU3LXFwRjVSbS1EYTNjMVY1dGlzODdfblBPSzFqWm90bWhfeFBUVVlDdjN2YUFoS1VNekY4U1VHcW1WTXQzS1ZTYjI2YzZ1OFFaZzJMZm9DTEpWY25jMlJsOHNUYklSbkR3Z2pNc1ZUcUNhN3VnWHdIV2U5RklKVldodktsWE5rczRlMVFfZzJZV3VJSzlhdEpRV1VzLXc2Sw?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-10 15:13 KST"
+    },
+    {
+      "title": "COMMENTARY: Is the dollar policy 'mini Mar-a-Lagos' or Whac-A-Mole?",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPbDF5UUVDeU5EQ1l6YXFPaVc3SU9FdnpKTlFzY2hndG9UWnV0Q09WQk9NaTFYNFJTUjUwSjl3bVk4MHpGS2J0alhpQk5FSVVNdWRNVW50emM3aUQ0a0pUeDJTbkx2Ui1lVjhiMWZ4UHhtdUZTeFliZ0xuZE9CUDRJQmEzcm5ERWRNRkRwSkxPVE1PYy1qTFMxYkJEUFdnbnNHSGRiVEpYYXhYQ25faWZ2ZEozd2ZoaEYxSWFuX3JIYnBVTUg1amNZ?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-10 15:01 KST"
+    },
+    {
+      "title": "Indian shares muted as Mideast conflict keeps oil above $100",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOREJVc1NJZXJ1VFBrdmpqalRvS0Fwd3FrSGtEOVd5Z1ZxWjh3Sld5UmtKVlZHOHNUeVZUQlRaVjEyZEtEa0hLMVpGeUFVM2l6R1dIR0YzbXBDU1RWQ1RzNVB5Ry1XMjdwdEtnQVJBT0lSMzNvSGdIUHIzMjBCS1lEZXYwODN2bDBBbUtMREJpMkVQQmlyNlloLTBlSWMzVnBaSjZvWTRwTTgxODRkWlE?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-10 11:20 KST"
+    },
     {
       "title": "Currency markets subdued as oil shock lifts global yields; ECB, US inflation eyed",
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOYU50UmRVNmIyeFBOSmd6azlDeDMxNlh1S0cycHpnYjU4NERYWjhoN2diSmthTngzdWZScmFTdldrTGtUcTh3SDFKbVIySmU2TUx3cnMtOEdKMnFkV3J1d3pYRmdvZDVWb2VPSXNjcG52cEVPTGtLNF9UT1BFSnJ3WlUzOXNuU1FwZmNSdGVTdV9Na1h6M3dPVGVtU0ttYlBlRWc0S1Q0Rl9HSmVCNlZaZXhjMVc0OUduMk1mOGRqVkxjY0d2SGhRbWJsUQ?oc=5",
@@ -19,7 +37,7 @@
       "seen": "2026-09-10 11:07 KST"
     },
     {
-      "title": "Asian stocks wilt as Brent holds above $100, yields near 2023 peak",
+      "title": "Asian stocks dip as Brent holds above $100, yields near 2023 peak",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9ydjJlYXlTVHhNV0k4Z3ZMb19VVFdUR2taM2lOVHhOUTN6enJSZVVhODdiSm04TnhTNGFJMDVOUjN4eVhsdGZtcFQ2RVloaFNFZzh4TkpvaUtfQTRFUXFkRmctMjFiRHFnWFE2VlBvQm4yZk5NMmdUZkNOdw?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-10 11:06 KST"
@@ -29,40 +47,21 @@
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPNE53NjhwUHUtUDByaWRncE9kM1F2WWpPcFNpNTMyWll5Yi13OFpmT0ZkTnN3TXRzWkZRU1lhdUdjVC1DOThWSHdBWnpTSWZrYlV2U2c3M2FOekxCVkxnYlVkV18tbFJGb1BVZmxIYzZEdklYRDJmQVg2dHpBTWdBV3R0U2J2X3JNRkFCQ2tVU3k2UXNRbkFoVFAyUl9LQ2RMWEZQMWtJMnZHQ252SFhBTi1VeU1mX25Sb3NHQWJLbmUwcE1ZbkdiaQ?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-10 08:30 KST"
-    },
-    {
-      "title": "S&P 500 ends down as oil tops $100 per barrel",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZExkRWJ1dThFMjNOZWdHdkJuSFd4UENUUko1cUI2aWJNMkQzb3FtYm5kNWUza3hVRVQ2Qlk0WjFGRnlGZWRhbzVMckNacFc4NDRXbzRqTmdyWWxTdVZoQ3pYNjY2Nm9pNHJRTUo0dlhkNkFzN2NSZ3BYR2Rqb1dfYkFjWHI1eW5USFlQd200RzI1cVVYY0VsdEZMbDdNQnZrLThZ?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-10 08:06 KST"
-    },
-    {
-      "title": "10-year yields highest since 2023",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNX2JTdW9sQmN4V2h4TnFrb1MyM04ySnZUN012U2JERWNCaE1vMjBBeXR1SFJtQUxEalN0c1BrVWd5d1FyLUFJS0E5LXhYbzQyMUthaGNvUTE4dUt3cFlPMzNQN3BVSnkwXzVXSkN3YTFEdXJCVVBCekVPRXFwckxIYjU1ZHA?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-10 05:51 KST"
-    },
-    {
-      "title": "Gold climbs on subdued US dollar as inflation data awaited amid oil rally",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPaWZnRkUxTUlfT1ZLS0tEcVFtTGFLZ2VmSElSal8tdTM3eTg2ZDI4TEJWYVV2eG1Xelc2ZVBmcE9fOThpM295OEtsQ1VWcURQNU1PSFVLa3BILVpqdXFFakdlRU5QeERQTEVpalRreE9tM3djQ1lrcl9fdm4zNWFOdFhjbHFwTWUyTHpuaDliVFZ3enpUYTlqSE5tWHUwQlpkdW9sMUZIakk1T2tjb1FXdE9yaWp4dw?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-10 04:01 KST"
     }
   ],
-  "rate_source_time": "2026-09-10 13:50:10 KST",
+  "rate_source_time": "2026-09-10 15:28:49 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": -0.3,
-  "rate_change_pct": -0.02,
+  "rate_change": 1.0,
+  "rate_change_pct": 0.07,
   "smbs_base_rate": 1337.9,
   "smbs_rate_date": "2026-09-10",
-  "smbs_rate_updated_at_kst": "2026-09-10 14:48:38 KST",
+  "smbs_rate_updated_at_kst": "2026-09-10 15:28:36 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
     1335.0,
     1345.0
   ],
-  "rate_check_status": "failed",
-  "rate_job_checked_at_kst": "2026-09-10 14:48:38 KST",
-  "rate_fetch_error": "RuntimeError: KB STAR FX 자동조회 3회 실패: TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n | TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n | TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n"
+  "rate_check_status": "success",
+  "rate_job_checked_at_kst": "2026-09-10 15:28:36 KST"
 }

@@ -1,22 +1,28 @@
 {
-  "updated_at_kst": "2026-09-10 19:24 KST",
-  "current_rate": 1342.1,
+  "updated_at_kst": "2026-09-10 19:50 KST",
+  "current_rate": 1342.7,
   "previous_close": 1337.6,
-  "rate_updated_at_kst": "2026-09-10 19:23:51 KST",
+  "rate_updated_at_kst": "2026-09-10 19:49:57 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
-    "미국 물가 관련 최신 기사(\"Gold ticks up on softer dollar; US inflation data on tap\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
+    "미국 물가 관련 최신 기사(\"TSX futures hover near six-week low before US inflation data\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
     "미 국채금리 관련 최신 기사(\"Asian stocks dip as Brent holds above $100, yields near 2023 peak\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다.",
     "달러 관련 최신 기사(\"COMMENTARY: Is the dollar policy 'mini Mar-a-Lagos' or Whac-A-Mole?\")가 확인돼 달러인덱스 방향성이 원/달러 환율의 핵심 변수로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
     {
+      "title": "TSX futures hover near six-week low before US inflation data",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQS1lCVlhiQ0gzUzc2dGgzaTJKWXFfOUhWWThaOURHUUdrcWc5bUllUXNtWkxGZUdQdTVaRE9HcklBS29qdjZWRWdzeW1JQzlZWW9aRy1ZUmhadEJaNmhPc2FOM04wWUlRTE9BWF9KWTlXM2FNdFFuelhONE95ZHhiSlBGVWVmeFZ0SGs1RWhJb2pyRzcxOHVoTHotQmdoeFppdzgyVVVVV3U?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-10 19:19 KST"
+    },
+    {
       "title": "COMMENTARY: Asia's oil industry wants Trump to leave the Gulf, but expects he won't",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOMm1IdXZwdFBoY28xel9yZ3VNRGs3a0RTbDhTb3ZDWEw0VFZqZE5mNVJ6b2theVp3Q2p0emhIWmZwLXc4ako5eDl3UzVWZkRaQ3RHX05VbkNhVkVxbk9ISXhLMjVaLTRHc1FDdHAxb1QxN2hYSldJUzVGYVhmeWNiRVV0UjNtcHdubFpKWVFYWDZ4OVBJRFRSREhvcVlYVjV0YnFwUTNKeDBvU2hYMEE5SWFubFFCZlhSMTFaUnJMY19oYnI5?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-10 17:59 KST"
+      "seen": "2026-09-10 18:29 KST"
     },
     {
       "title": "Trump says Iran war to end after US midterm elections, threatens to attack Pickaxe Mountain",
@@ -41,21 +47,15 @@
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOYU50UmRVNmIyeFBOSmd6azlDeDMxNlh1S0cycHpnYjU4NERYWjhoN2diSmthTngzdWZScmFTdldrTGtUcTh3SDFKbVIySmU2TUx3cnMtOEdKMnFkV3J1d3pYRmdvZDVWb2VPSXNjcG52cEVPTGtLNF9UT1BFSnJ3WlUzOXNuU1FwZmNSdGVTdV9Na1h6M3dPVGVtU0ttYlBlRWc0S1Q0Rl9HSmVCNlZaZXhjMVc0OUduMk1mOGRqVkxjY0d2SGhRbWJsUQ?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-10 11:07 KST"
-    },
-    {
-      "title": "Asian stocks dip as Brent holds above $100, yields near 2023 peak",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9ydjJlYXlTVHhNV0k4Z3ZMb19VVFdUR2taM2lOVHhOUTN6enJSZVVhODdiSm04TnhTNGFJMDVOUjN4eVhsdGZtcFQ2RVloaFNFZzh4TkpvaUtfQTRFUXFkRmctMjFiRHFnWFE2VlBvQm4yZk5NMmdUZkNOdw?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-10 11:06 KST"
     }
   ],
-  "rate_source_time": "2026-09-10 19:23:51 KST",
+  "rate_source_time": "2026-09-10 19:49:57 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 4.5,
-  "rate_change_pct": 0.34,
+  "rate_change": 5.1,
+  "rate_change_pct": 0.38,
   "smbs_base_rate": 1337.9,
   "smbs_rate_date": "2026-09-10",
-  "smbs_rate_updated_at_kst": "2026-09-10 19:23:35 KST",
+  "smbs_rate_updated_at_kst": "2026-09-10 19:49:42 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1345.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-10 19:23:35 KST"
+  "rate_job_checked_at_kst": "2026-09-10 19:49:42 KST"
 }

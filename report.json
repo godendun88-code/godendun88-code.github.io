@@ -1,14 +1,14 @@
 {
-  "updated_at_kst": "2026-09-11 02:47 KST",
+  "updated_at_kst": "2026-09-11 03:24 KST",
   "current_rate": 1346.4,
   "previous_close": 1337.6,
-  "rate_updated_at_kst": "2026-09-11 02:47:27 KST",
+  "rate_updated_at_kst": "2026-09-11 03:24:32 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
     "미국 물가 관련 최신 기사(\"Fed, eyeing inflation data, may lean toward a hike, traders bet\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
-    "달러 관련 최신 기사(\"COMMENTARY: Is the dollar policy 'mini Mar-a-Lagos' or Whac-A-Mole?\")가 확인돼 달러인덱스 방향성이 원/달러 환율의 핵심 변수로 작용하고 있습니다.",
-    "유가·지정학 관련 최신 기사(\"COMMENTARY: Asia's oil industry wants Trump to leave the Gulf, but expects he won't\")가 확인돼 원화 변동성 확대 요인으로 작용하고 있습니다."
+    "미 국채금리 하락 관련 보도가 확인돼 달러의 금리 매력이 낮아지면서 원/달러 환율 하락 압력으로 작용하고 있습니다.",
+    "달러 관련 최신 기사(\"COMMENTARY: Is the dollar policy 'mini Mar-a-Lagos' or Whac-A-Mole?\")가 확인돼 달러인덱스 방향성이 원/달러 환율의 핵심 변수로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
@@ -25,10 +25,10 @@
       "seen": "2026-09-11 01:53 KST"
     },
     {
-      "title": "COMMENTARY: Asia's oil industry wants Trump to leave the Gulf, but expects he won't",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOMm1IdXZwdFBoY28xel9yZ3VNRGs3a0RTbDhTb3ZDWEw0VFZqZE5mNVJ6b2theVp3Q2p0emhIWmZwLXc4ako5eDl3UzVWZkRaQ3RHX05VbkNhVkVxbk9ISXhLMjVaLTRHc1FDdHAxb1QxN2hYSldJUzVGYVhmeWNiRVV0UjNtcHdubFpKWVFYWDZ4OVBJRFRSREhvcVlYVjV0YnFwUTNKeDBvU2hYMEE5SWFubFFCZlhSMTFaUnJMY19oYnI5?oc=5",
+      "title": "Canadian dollar edges lower, bond yields jump as oil tops $100 a barrel",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQM2w4MmJZdFUwR3lQdDNMb3hqSUNvVldIdHdtdlBqM0JOb3lVOVRKbmUtaHhFRVFxX3ZTZzNUQnN6UXpLVnFjVm05X0UybHdTck9tTElLT2M0VHczZ0lYV2Q2MUJISkRlX1hvSFZXSHdCV0tZeXlUdnhETlQybUFRSDZXcW1CcEdvNHl2TDFQcS1lYlBReDk0WEFfQ1ctdmVGMWtVczhJVG1hS0tnV3pJd1ZB?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-11 01:29 KST"
+      "seen": "2026-09-11 01:49 KST"
     },
     {
       "title": "Wall St slips after hotter-than-expected producer inflation data",
@@ -49,13 +49,13 @@
       "seen": "2026-09-10 22:03 KST"
     }
   ],
-  "rate_source_time": "2026-09-11 02:47:27 KST",
+  "rate_source_time": "2026-09-11 03:24:32 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": 8.8,
   "rate_change_pct": 0.66,
   "smbs_base_rate": 1338.2,
   "smbs_rate_date": "2026-09-11",
-  "smbs_rate_updated_at_kst": "2026-09-11 02:47:15 KST",
+  "smbs_rate_updated_at_kst": "2026-09-11 03:24:20 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1345.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-11 02:47:15 KST"
+  "rate_job_checked_at_kst": "2026-09-11 03:24:20 KST"
 }

@@ -1,23 +1,17 @@
 {
-  "updated_at_kst": "2026-09-11 05:21 KST",
+  "updated_at_kst": "2026-09-11 05:48 KST",
   "current_rate": 1346.4,
   "previous_close": 1337.6,
-  "rate_updated_at_kst": "2026-09-11 05:21:40 KST",
+  "rate_updated_at_kst": "2026-09-11 05:48:20 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "상승 우세",
   "drivers": [
     "연준의 추가 금리 인상 또는 매파적 기조 우려가 부각돼 달러 강세 압력이 높아지는 요인으로 작용하고 있습니다.",
-    "미국 물가 관련 최신 기사(\"Wall Street dips as Treasury yields rise and investors fret about inflation\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
+    "미국 물가 관련 최신 기사(\"Fed, eyeing inflation data, may lean toward a hike, traders bet\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
     "미 국채금리 하락 관련 보도가 확인돼 달러의 금리 매력이 낮아지면서 원/달러 환율 하락 압력으로 작용하고 있습니다."
   ],
   "outlook": "달러 강세·금리 상승 계열의 재료가 상대적으로 우세해 원/달러는 단기 상승 압력이 나타날 수 있으나, 국내 수급과 위험선호 회복 여부에 따라 변동성이 예상됩니다.",
   "articles": [
-    {
-      "title": "Wall Street dips as Treasury yields rise and investors fret about inflation",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPVUNZS2ZwczJmM0x1aEM5ZFJMbUhWckRSOE54a1NyTFZjb1NaNFNCZDFwOFJiMk40b1RJelZsVnhKOVNObGNGenNkZzVhUWtZRlktVzhTWk9Qc1EybkRweDk4RFRRUjh2bk1TU0lJazBncUFnUlcwcTlPVWY3NjBzdWVUd3JGTDlLeF9EMU1aTnEzSDctTVcxZVdzT1RZclZjanRhbkl3?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-11 03:20 KST"
-    },
     {
       "title": "US producer prices increase as expected in August; but key details firmer",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQSllzbWpfQ2xZcDA5eExQYUxKdVRwdEdUdFFpMzJPWW1ib29Ocm85Z3ZDaVFpMkZGQnpUQ1Z2Zy1pelQ5Tk5TY0lKSUJ5RlZiUDhoeU5jWHpRX3dZQzFqcWtfT3J2UTM3Q2doaTdRUHEtczI1TDVkOE5jN2V1b2h1S01fYktSLV9yTERENnpxeHVLdw?oc=5",
@@ -29,6 +23,12 @@
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOMm1IdXZwdFBoY28xel9yZ3VNRGs3a0RTbDhTb3ZDWEw0VFZqZE5mNVJ6b2theVp3Q2p0emhIWmZwLXc4ako5eDl3UzVWZkRaQ3RHX05VbkNhVkVxbk9ISXhLMjVaLTRHc1FDdHAxb1QxN2hYSldJUzVGYVhmeWNiRVV0UjNtcHdubFpKWVFYWDZ4OVBJRFRSREhvcVlYVjV0YnFwUTNKeDBvU2hYMEE5SWFubFFCZlhSMTFaUnJMY19oYnI5?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-11 02:01 KST"
+    },
+    {
+      "title": "Fed, eyeing inflation data, may lean toward a hike, traders bet",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPQ2l2aklZZV9FVlF3OFZCeDU5UzBIZXdXVkhTRDR3VVZsZV9seEJRT3dVa29MUFd4eTdlcHNnMnBfZFhQVUVqcnloVXJ5VFRkd3VhYlRMeVVCMS05NFlJSU00bXd1UmEtTjlYSHFIVHJzT1ZtTHlUVEFIQzlFaWFsNTQxeDl2dTdPR0pXTVZCTV8yOVNUeDJzOHhMQTdRRWtkakdjR0oxSG8?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-11 01:53 KST"
     },
     {
       "title": "Euro slips as dollar rises after ECB rate hike",
@@ -49,13 +49,13 @@
       "seen": "2026-09-10 23:40 KST"
     }
   ],
-  "rate_source_time": "2026-09-11 05:21:40 KST",
+  "rate_source_time": "2026-09-11 05:48:20 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": 8.8,
   "rate_change_pct": 0.66,
   "smbs_base_rate": 1338.2,
   "smbs_rate_date": "2026-09-11",
-  "smbs_rate_updated_at_kst": "2026-09-11 05:21:24 KST",
+  "smbs_rate_updated_at_kst": "2026-09-11 05:48:08 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1345.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-11 05:21:24 KST"
+  "rate_job_checked_at_kst": "2026-09-11 05:48:08 KST"
 }

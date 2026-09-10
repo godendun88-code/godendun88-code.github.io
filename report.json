@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-09-10 09:52 KST",
-  "current_rate": 1338.2,
+  "updated_at_kst": "2026-09-10 10:22 KST",
+  "current_rate": 1338.7,
   "previous_close": 1337.6,
-  "rate_updated_at_kst": "2026-09-10 09:52:18 KST",
+  "rate_updated_at_kst": "2026-09-10 10:21:52 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
@@ -12,6 +12,12 @@
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
+    {
+      "title": "COMMENTARY: With yen surging, what will fund FX carry trades now?: McGeever​",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPNE53NjhwUHUtUDByaWRncE9kM1F2WWpPcFNpNTMyWll5Yi13OFpmT0ZkTnN3TXRzWkZRU1lhdUdjVC1DOThWSHdBWnpTSWZrYlV2U2c3M2FOekxCVkxnYlVkV18tbFJGb1BVZmxIYzZEdklYRDJmQVg2dHpBTWdBV3R0U2J2X3JNRkFCQ2tVU3k2UXNRbkFoVFAyUl9LQ2RMWEZQMWtJMnZHQ252SFhBTi1VeU1mX25Sb3NHQWJLbmUwcE1ZbkdiaQ?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-10 08:30 KST"
+    },
     {
       "title": "10-year yields highest since 2023",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNX2JTdW9sQmN4V2h4TnFrb1MyM04ySnZUN012U2JERWNCaE1vMjBBeXR1SFJtQUxEalN0c1BrVWd5d1FyLUFJS0E5LXhYbzQyMUthaGNvUTE4dUt3cFlPMzNQN3BVSnkwXzVXSkN3YTFEdXJCVVBCekVPRXFwckxIYjU1ZHA?oc=5",
@@ -31,31 +37,25 @@
       "seen": "2026-09-10 02:45 KST"
     },
     {
+      "title": "Canadian dollar edges lower as trade war with US intensifies",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNb21VT3psWXJQX0NjWG03eGdsUC1xVlJnbkxtMWhRU2ZOUWw4V1ZkX3lkNVRoM1BhT0phby1hbV9WRi1obWpIYXItQmxOeFp3ZlU1NDZZSFlNcW5wNjdSb1BvT3U2VEFUdmZOOXgzQllJcmxMTnpqXzk3eDRpOHF1QTBRNVg0YVZ4MlJrSTRwZXJjUGQySnNSNlVSX0phUU1RTmwxTA?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-10 01:33 KST"
+    },
+    {
       "title": "UK stocks drop to over one-month low as oil prices fuel inflation worries",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNV1NxUm8tcFYzMExhTUdHdFdsbG1WemhPODZENVc3VWtiQjdoMEdJZFhvVzlDaVVMT054Q3JUdVJ1UTRzcDJiOHlvT3N5R1ZLbEdmZDJkY0szbFcxZFNURHd2c1pSZjFqdDVhc3hkd0pTeGFyTkdnWU51by10UEowWGpPMWh2ZW5oSjFDRlpwVWFjQzBuYjJudXN1Q1FRUQ?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-10 01:12 KST"
-    },
-    {
-      "title": "Brent crude oil rises above $100 a barrel as Middle East conflict intensifies",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQQXdXWHFzSk9XQ1hpQlJfSHpOYk1TLUFSZVNwcG5lQjlMMERtcHktWkkwbjdxbGYwak9JaEczNi1NVDMxc3I5OUNSb2dKM3hfbzNoWE9hZEdpMDlWbWRLdGVrWVFrSEk1X01HazZBSldiMG51ZDNCVGpBd1EwSkVrbVJnZlViWW1QYVlkVzZZbzZKTFBFQnZtcjBqdklTQTBsV2RvdFNIeUZZdnNnYjdmR2pNbW5RVUc1eEtzbXZVVHVqVmUyb1BFT093?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-10 00:22 KST"
-    },
-    {
-      "title": "Oil pushes past $100 as wave of US-Iran attacks exposes dwindling safety net",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQWk83eHNVQXFWUEdoZGxYdmRpdnhuMFFKM3JfMkRRNDMxWmM0c1JPVmpkRWhQVVBvX0VLdjlhZ296NHpDVDdUNS0xZl9jRXJEeWZ1N1ZWSnZGUjVueEc2MzdjNTAwUTNlUFEtZWZ5el9Jc3dBYjJzVzN6R080aFJLLVlYWEVqUTU0WHRGX1hMSXQ3cnFpaVNHeHM3enRkYjZDcEUyb0Vic1JhMExzU1BCZVBvZlh2dExCZ3dRTVBlNWxNZw?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-09 22:56 KST"
     }
   ],
-  "rate_source_time": "2026-09-10 09:52:18 KST",
+  "rate_source_time": "2026-09-10 10:21:52 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 0.6,
-  "rate_change_pct": 0.04,
+  "rate_change": 1.1,
+  "rate_change_pct": 0.08,
   "smbs_base_rate": 1337.9,
   "smbs_rate_date": "2026-09-10",
-  "smbs_rate_updated_at_kst": "2026-09-10 09:52:06 KST",
+  "smbs_rate_updated_at_kst": "2026-09-10 10:21:40 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1345.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-10 09:52:06 KST"
+  "rate_job_checked_at_kst": "2026-09-10 10:21:40 KST"
 }

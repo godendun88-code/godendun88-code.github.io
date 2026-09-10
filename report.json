@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-09-10 12:24 KST",
-  "current_rate": 1339.2,
+  "updated_at_kst": "2026-09-10 12:50 KST",
+  "current_rate": 1337.8,
   "previous_close": 1337.6,
-  "rate_updated_at_kst": "2026-09-10 12:24:07 KST",
+  "rate_updated_at_kst": "2026-09-10 12:50:11 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
@@ -37,25 +37,25 @@
       "seen": "2026-09-10 05:51 KST"
     },
     {
+      "title": "Gold climbs on subdued US dollar as inflation data awaited amid oil rally",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPaWZnRkUxTUlfT1ZLS0tEcVFtTGFLZ2VmSElSal8tdTM3eTg2ZDI4TEJWYVV2eG1Xelc2ZVBmcE9fOThpM295OEtsQ1VWcURQNU1PSFVLa3BILVpqdXFFakdlRU5QeERQTEVpalRreE9tM3djQ1lrcl9fdm4zNWFOdFhjbHFwTWUyTHpuaDliVFZ3enpUYTlqSE5tWHUwQlpkdW9sMUZIakk1T2tjb1FXdE9yaWp4dw?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-10 04:01 KST"
+    },
+    {
       "title": "US EIA hikes oil price forecasts as Iran war drains global stockpile",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdHpwc09tV09ycWstSVJVekIxSmNUSzdkUFVxTjRzRTJ0V2szUkpNbzRrdnEyMzhfUXJyNHgzQUN6SjVKVHFmNEZqT3NWM1U5Nm5ZRWFQdk9KT29DXzg5YTlOQVEyVWNRMTFVcFpUdWhuUWdfVTR1aHMwZ29mbWJGRHl5SnJNdmp1bkU2R0dGWXFHY2paZlJGQWFPR3R2S3ZiV19rTTVFVHJlSU1PRkFHeUNaODJ3emVW?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-10 02:45 KST"
-    },
-    {
-      "title": "Canadian dollar edges lower as trade war with US intensifies",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNb21VT3psWXJQX0NjWG03eGdsUC1xVlJnbkxtMWhRU2ZOUWw4V1ZkX3lkNVRoM1BhT0phby1hbV9WRi1obWpIYXItQmxOeFp3ZlU1NDZZSFlNcW5wNjdSb1BvT3U2VEFUdmZOOXgzQllJcmxMTnpqXzk3eDRpOHF1QTBRNVg0YVZ4MlJrSTRwZXJjUGQySnNSNlVSX0phUU1RTmwxTA?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-10 01:33 KST"
     }
   ],
-  "rate_source_time": "2026-09-10 12:24:07 KST",
+  "rate_source_time": "2026-09-10 12:50:11 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 1.6,
-  "rate_change_pct": 0.12,
+  "rate_change": 0.2,
+  "rate_change_pct": 0.01,
   "smbs_base_rate": 1337.9,
   "smbs_rate_date": "2026-09-10",
-  "smbs_rate_updated_at_kst": "2026-09-10 12:23:55 KST",
+  "smbs_rate_updated_at_kst": "2026-09-10 12:49:54 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1345.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-10 12:23:55 KST"
+  "rate_job_checked_at_kst": "2026-09-10 12:49:54 KST"
 }

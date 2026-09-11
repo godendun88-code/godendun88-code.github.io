@@ -1,14 +1,14 @@
 {
-  "updated_at_kst": "2026-09-11 12:23 KST",
-  "current_rate": 1345.8,
+  "updated_at_kst": "2026-09-11 12:50 KST",
+  "current_rate": 1346.4,
   "previous_close": 1346.4,
-  "rate_updated_at_kst": "2026-09-11 12:22:48 KST",
+  "rate_updated_at_kst": "2026-09-11 12:49:54 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
     "미국 물가 관련 최신 기사(\"⁠Gold on track for third weekly loss as US inflation data looms​‌\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
     "미 국채금리 관련 최신 기사(\"Rupee to extend slide; oil rally, surging US yields chip away at RBI support\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다.",
-    "글로벌 달러 약세 관련 보도가 이어지며 원/달러 환율에는 하락 압력으로 작용하고 있습니다."
+    "유가·지정학 관련 최신 기사(\"Oil prices set to end week over $100 for first time in nearly 4 months\")가 확인돼 원화 변동성 확대 요인으로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
@@ -31,12 +31,6 @@
       "seen": "2026-09-11 10:13 KST"
     },
     {
-      "title": "Dollar holds gains, yen slips as Mideast energy shock deepens",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPTUI0bHIwbWRHUzNiQmxNam13azJMSHZvUzhkMThQSDJpOGZqOUpfYVMtMG5taXlrRGVBcGViVWpPT20xTm12RnJLT1BIR2luVmZWOEl0TFVyTC1UX25qZU00cTY5UEMyTWpXd3ctZnVCSXVQMEswa21hTl85ZExMMm9xNkNHRDlHQnVTSlZNMFV5U1l3am1BQVprSUJqQ1VONTBOb3dBSnQxTm9YXzU0aldn?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-11 10:08 KST"
-    },
-    {
       "title": "Global bonds buckle as surging oil prices inflame inflation risks",
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1rQ3pYNkdSYUhxbHl1RjJnc01XMWdUV2NHRFBXaTJhN0FzcUtqV3RFOU5EaUZyTnZYTVJ5ZlduWkJGTzB1Wm8xdmpLdXNBSzdubXRLbmxZRlQtTkh4YkRrbjUwQVFScUVBM3MxLTdITll1ZnZmUGljV1NtRXk?oc=5",
       "domain": "Reuters",
@@ -47,12 +41,18 @@
       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE4wV0N6QWFMeHk4Q0ZrZHVUOHZoUnBibW9PRGg0TGlTTHlTemoxb1F5dHUzRmx3dGpTYWU3a3UzT1FoZ0dJMWRwNW9Odk9rUHZs?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-11 09:19 KST"
+    },
+    {
+      "title": "US average diesel price passes $6 a gallon for the first time, GasBuddy says",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNS3FTSU5adzBIaU92QmVKNkt0UUVCV1FtbTZiN0Vqd0tseU1QeUxPal9NU1NLVVE4VnJDS1NkQUR6Y1NBaFp6RGVLSWg3Y0RjdFlHRnMzdFVFM0F6R2ZCSGdNZ0pLcExYYXh0dHdZRGl2Wkkwb2l4WWFiYUtxU2FnRjJ2OUh0QXlPcXlGcFhDRUEtdzNRRnZ4eS1hV3dRZlRHMGxhU09lZWZJU3RkX0Npei1xLWpkRFU?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-11 08:38 KST"
     }
   ],
-  "rate_source_time": "2026-09-11 12:22:48 KST",
+  "rate_source_time": "2026-09-11 12:49:54 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": -0.6,
-  "rate_change_pct": -0.04,
+  "rate_change": 0.0,
+  "rate_change_pct": 0.0,
   "smbs_base_rate": 1338.2,
   "smbs_rate_date": "2026-09-11",
   "smbs_rate_updated_at_kst": "2026-09-11 12:22:33 KST",
@@ -63,5 +63,6 @@
     1355.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-11 12:22:33 KST"
+  "rate_job_checked_at_kst": "2026-09-11 12:49:36 KST",
+  "smbs_rate_error": "RuntimeError: 서울외국환중개 페이지에서 USD 매매기준율을 찾지 못했습니다."
 }

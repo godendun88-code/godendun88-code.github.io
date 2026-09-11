@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-09-11 10:49 KST",
-  "current_rate": 1348.0,
+  "updated_at_kst": "2026-09-11 11:23 KST",
+  "current_rate": 1347.1,
   "previous_close": 1346.4,
-  "rate_updated_at_kst": "2026-09-11 10:49:02 KST",
+  "rate_updated_at_kst": "2026-09-11 11:23:10 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
@@ -31,28 +31,28 @@
       "seen": "2026-09-11 09:56 KST"
     },
     {
+      "title": "Wall St ends lower as yields rise, inflation concerns mount",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE4wV0N6QWFMeHk4Q0ZrZHVUOHZoUnBibW9PRGg0TGlTTHlTemoxb1F5dHUzRmx3dGpTYWU3a3UzT1FoZ0dJMWRwNW9Odk9rUHZs?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-11 09:19 KST"
+    },
+    {
       "title": "COMMENTARY: US CPI, where the significant and the silly collide",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNSmhLc3dLcnJOclBhYjVoYmZrWG5RRHBzQ1VramVqZmxoczVpUXBIQndSRWIzTGhBUW5lV3d5eGhrTEZRZTB6WkhpcDAyaEtRaHVIRXdXOW9SVFVnN2NoMThjN2I4NWtVYU9obGo4elJHZTRLbzdYUlhWZGV1TUNyTTU3VDJrUlRmRTRkNndKREdoSzBBVnFVV2pzejUwMXdvU21aOUtKaUQ?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-11 08:31 KST"
     },
     {
-      "title": "COMMENTARY: Trading Day: Inflation palpitations",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxONlRySVVwZW84bGFtUDkxRXpNY3QwckJXZVNYWW1iWjdMXzB0YlNCRnZGODA5c0lzYk96V2dSWjV1VlpyMk5KdmlveXA3ZGwwMG9ZQ1p5VVgwRDMyZVhKR1hGZGxBQUNxQXlQejlIa0F1dURjQmJoLThTZGdEQ0pxS2ZQYzNqMERfNGFmVDBzaUtMQnEweXFCaG91QUR4RENVdjFQYW5R?oc=5",
+      "title": "Fed, eyeing inflation data, may lean toward a hike, traders bet",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPQ2l2aklZZV9FVlF3OFZCeDU5UzBIZXdXVkhTRDR3VVZsZV9seEJRT3dVa29MUFd4eTdlcHNnMnBfZFhQVUVqcnloVXJ5VFRkd3VhYlRMeVVCMS05NFlJSU00bXd1UmEtTjlYSHFIVHJzT1ZtTHlUVEFIQzlFaWFsNTQxeDl2dTdPR0pXTVZCTV8yOVNUeDJzOHhMQTdRRWtkakdjR0oxSG8?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-11 06:05 KST"
-    },
-    {
-      "title": "US producer prices increase as expected in August; but key details firmer",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQSllzbWpfQ2xZcDA5eExQYUxKdVRwdEdUdFFpMzJPWW1ib29Ocm85Z3ZDaVFpMkZGQnpUQ1Z2Zy1pelQ5Tk5TY0lKSUJ5RlZiUDhoeU5jWHpRX3dZQzFqcWtfT3J2UTM3Q2doaTdRUHEtczI1TDVkOE5jN2V1b2h1S01fYktSLV9yTERENnpxeHVLdw?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-11 02:13 KST"
+      "seen": "2026-09-11 06:18 KST"
     }
   ],
-  "rate_source_time": "2026-09-11 10:49:02 KST",
+  "rate_source_time": "2026-09-11 11:23:10 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 1.6,
-  "rate_change_pct": 0.12,
+  "rate_change": 0.7,
+  "rate_change_pct": 0.05,
   "smbs_base_rate": 1338.2,
   "smbs_rate_date": "2026-09-11",
   "smbs_rate_updated_at_kst": "2026-09-11 10:48:47 KST",
@@ -63,5 +63,6 @@
     1355.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-11 10:48:47 KST"
+  "rate_job_checked_at_kst": "2026-09-11 11:22:54 KST",
+  "smbs_rate_error": "RuntimeError: 서울외국환중개 페이지에서 USD 매매기준율을 찾지 못했습니다."
 }

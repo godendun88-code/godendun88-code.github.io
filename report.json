@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-09-11 21:52 KST",
-  "current_rate": 1340.7,
+  "updated_at_kst": "2026-09-11 22:23 KST",
+  "current_rate": 1339.9,
   "previous_close": 1346.4,
-  "rate_updated_at_kst": "2026-09-11 21:52:36 KST",
+  "rate_updated_at_kst": "2026-09-11 22:23:25 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
@@ -16,7 +16,7 @@
       "title": "US consumer inflation picks up in August",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOdW10dVZWcHQ3MkdPRy1fRGN2VVUzeV8tV2tRSnRfVHdBbllhS0hfTzlWUy1tM0pHZWxmTl84b3loTVFqRHdUX3I2REFQQ1h5ZTZIcHBJTy1Jcmd1VUpPdDRtdVhvbVpHMEVCQmJkbnNqYXBCUGZiTjVmcTM5NUpEbFgwb08wQU92TFE?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-11 21:42 KST"
+      "seen": "2026-09-11 21:54 KST"
     },
     {
       "title": "COMMENTARY: Triple-digit oil, yen whiplash and a $2,000 iPhone: The financial week in five charts",
@@ -25,10 +25,10 @@
       "seen": "2026-09-11 20:07 KST"
     },
     {
-      "title": "India partially cancels debt sale for first time in a year as rates spike",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQSnUxNVNNQm1VUGtHaGgtbktvLVc2SmdvYV9aNk9LR1JoaUtKMDlub3pIWUdZLXlLLWhUbDE1ZnZUYnI5amxmRkRGT18tdF9EUTRfUGNGb01YMGVzT0Q4TlVCOWtjMXNTWE4zREpFVGhIcXlQbkQ5b01aNW9na19paEliTUxOWUlQVHc2X3g4NTNSWWRvQ2xiNFR5cVRpRGYwWW84c3NwblVFUFpFUGc?oc=5",
+      "title": "Dollar holds gains as traders await US price data after oil jumps",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPTUI0bHIwbWRHUzNiQmxNam13azJMSHZvUzhkMThQSDJpOGZqOUpfYVMtMG5taXlrRGVBcGViVWpPT20xTm12RnJLT1BIR2luVmZWOEl0TFVyTC1UX25qZU00cTY5UEMyTWpXd3ctZnVCSXVQMEswa21hTl85ZExMMm9xNkNHRDlHQnVTSlZNMFV5U1l3am1BQVprSUJqQ1VONTBOb3dBSnQxTm9YXzU0aldn?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-11 18:35 KST"
+      "seen": "2026-09-11 17:41 KST"
     },
     {
       "title": "US loosens Iran's grip on Strait of Hormuz but war is not over",
@@ -49,13 +49,13 @@
       "seen": "2026-09-11 14:11 KST"
     }
   ],
-  "rate_source_time": "2026-09-11 21:52:36 KST",
+  "rate_source_time": "2026-09-11 22:23:25 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": -5.7,
-  "rate_change_pct": -0.42,
+  "rate_change": -6.5,
+  "rate_change_pct": -0.48,
   "smbs_base_rate": 1338.2,
   "smbs_rate_date": "2026-09-11",
-  "smbs_rate_updated_at_kst": "2026-09-11 21:52:24 KST",
+  "smbs_rate_updated_at_kst": "2026-09-11 22:23:13 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1355.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-11 21:52:24 KST"
+  "rate_job_checked_at_kst": "2026-09-11 22:23:13 KST"
 }

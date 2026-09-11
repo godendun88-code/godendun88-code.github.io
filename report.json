@@ -1,29 +1,61 @@
 {
-  "updated_at_kst": "2026-09-11 23:50 KST",
+  "updated_at_kst": "2026-09-12 00:22 KST",
   "current_rate": 1340.3,
   "previous_close": 1346.4,
-  "rate_updated_at_kst": "2026-09-11 23:50:08 KST",
+  "rate_updated_at_kst": "2026-09-12 00:22:28 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
-    "글로벌 달러 약세 관련 보도가 이어지며 원/달러 환율에는 하락 압력으로 작용하고 있습니다."
+    "미국 물가 관련 최신 기사(\"US consumer inflation picks up in August\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
+    "글로벌 달러 약세 관련 보도가 이어지며 원/달러 환율에는 하락 압력으로 작용하고 있습니다.",
+    "유가·지정학 관련 최신 기사(\"COMMENTARY: Triple-digit oil, yen whiplash and a $2,000 iPhone: The financial week in five charts\")가 확인돼 원화 변동성 확대 요인으로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
     {
+      "title": "US consumer inflation picks up in August",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOdW10dVZWcHQ3MkdPRy1fRGN2VVUzeV8tV2tRSnRfVHdBbllhS0hfTzlWUy1tM0pHZWxmTl84b3loTVFqRHdUX3I2REFQQ1h5ZTZIcHBJTy1Jcmd1VUpPdDRtdVhvbVpHMEVCQmJkbnNqYXBCUGZiTjVmcTM5NUpEbFgwb08wQU92TFE?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-11 23:01 KST"
+    },
+    {
+      "title": "COMMENTARY: Triple-digit oil, yen whiplash and a $2,000 iPhone: The financial week in five charts",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQWjdWQXF6UU01aUpaT3N3bTdCaXRXSkRFelh4TlVxSUEwRzVPak1lbjdFR3VadlU5bC0wZmUwSU03OHNWR0RuY2xpZU10N2t3bS1qM0xKckVuN0ZLS0F0V0xFS2RsRTBpSHM1bEhxYzYtRUF2ME0zNC1jVnlOZU9TUGZRblVkZ1U3bDNwcGJWZ3Fld3UwWFZWUFlQSmJTb1hMSm9nZ2ZFUzNuMWF0UDhqVU1MMmRUbnYwdDdjZC1hZ085Z1BMWnVIR1FzMG9XVzVTWlFF?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-11 20:07 KST"
+    },
+    {
+      "title": "India stocks log fifth weekly loss as oil fears grip markets",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMEI5a2VhM0MzYVlMTWQwRWRxeWI2TjlIbkVLX0NteDdFbmg0c2JhRjl5dHczYzRySnF0Y0MwNzlhcnJSOFNpaHJORVROU2EtTGUyN21weTJvbzBqV3k2NFlLOHp0MTNuNDdTMjd6RU9OQVc5MXk2RUlWUldVSDZ4VVk1UXRkQTlhTWtNQWNpQnpGQkd5cXpUQU5mejZPTTNnYUVpNWd5RFc?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-11 19:37 KST"
+    },
+    {
+      "title": "US loosens Iran's grip on Strait of Hormuz but war is not over",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQbXB3TXpKZVZGS25GQXlUWUZKcUE5NUY4b3ZqU2ZydC1NQ01rdEVWQWhuQm01dkQ0Rlh2b01OZGVrdmt6dlJfYmNZb2tzVnpHMU5VeUFlVVpGWWJmeF9NdGZtLXBLRmE3QlRoVzdVMHhTNXZkRjlsZVctS0hocmZ4eFNTZjFnbjhaWXN1Rm5hd1ZSSVI3ZG9POXEyOEVZUVFhczVnanRlNWfSAa4BQVVfeXFMUFh0UWJhQWYySGxqN1IzR09lVTdDdDE1ckY1M2NjSmUzdTh4VjBPemU4WlRVbjJia0NBcmxBUGVfTFZKYjNRaDBxTjNZLVhWNnJpbkE4X0dFMkRzbnVTdmRTOUp1cWtIaEMxOHpiRTI1YXN5Y0JEOURBb2hISllNeDNnaGJFTkFpcG5EN0FRdHdYdDAtTld1c3ZtYmxJbk5GR19NbWlKUEdQSzI3dGZB?oc=5",
+      "domain": "The Korea Times",
+      "seen": "2026-09-11 16:54 KST"
+    },
+    {
       "title": "Dollar holds gains, yen slips as Mideast energy shock deepens",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNeklNQy1vU2pWRW53U0dnRjI5ZWhaZ1phTUtkZTRaaTJwa1VsQ1Q1Z1VQVE16Q3JyOG1lUTNQcG56Wkh6RTJsUUdKaDRHT1lha2JZVHczRk9hUGVucUMyYjdhZXkwQ1RXVnVIZlJKNTg0VWpaajVvbUtpa24xWmJ1cXcwdEpya1h0aGoxQmI4cExiVzNlanJDcmEybnB3WWxLNk9V0gGjAUFVX3lxTE16SU1DLW9TalZFbndTR2dGMjllaFpnWmFNS2RlNFppMnBrVWxDVDVnVVBUTXpDcnI4bWVRM1BwbnpaSHpFMmxRR0poNEdPWWFrYllUdzNGT2FQZW5xQzJiN2FleTBDVFdWdUhmUko1ODRValpqNW9tS2lrbjFaYnVxdzB0SnJrWHRoajFCYjhwTGJXM2VqckNyYTJucHdZbEs2T1U?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNUmd2RVVkOGlfUnlBMXFWMmtrTWlHY2lncVdKWjZ1OVE5R2xaU0dZRHdXdEVpbVNwM256RlpKVEZWXzk0cjZGeHQ1dHgtdmdmenJydjRvX1ByUzBES2VOX0NZSHNfQVlzaVFZRE9vY01Ma0l6dWMyV3NHZk5DX3h1bXhVOVFnQWRZZmdDc3p0S0ZTM0otRXUtOXQyZ1psZ9IBowFBVV95cUxNeklNQy1vU2pWRW53U0dnRjI5ZWhaZ1phTUtkZTRaaTJwa1VsQ1Q1Z1VQVE16Q3JyOG1lUTNQcG56Wkh6RTJsUUdKaDRHT1lha2JZVHczRk9hUGVucUMyYjdhZXkwQ1RXVnVIZlJKNTg0VWpaajVvbUtpa24xWmJ1cXcwdEpya1h0aGoxQmI4cExiVzNlanJDcmEybnB3WWxLNk9V?oc=5",
       "domain": "CNBC",
       "seen": "2026-09-11 14:11 KST"
+    },
+    {
+      "title": "Gasoline likely to boost US consumer prices in August",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNem1uNE5zeDZ0aDQ4c2dodkphSDNJUHpJMk81a0NhMFdVaFV4OS1mNk1mWDlEMjhENnZScVZHTTlZN2pWbFNmWlpfQ3YxWHI0TXduT2tnMDN1UmpubkJOQ1Nlcm1xV2thSFczZ3FjNGgzYjF1SW5vTHJWT0x6NllLUVdMMGk5VUJmTGpaMzhFamNQZ2ZqUW9n?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-11 13:05 KST"
     }
   ],
-  "rate_source_time": "2026-09-11 23:50:08 KST",
+  "rate_source_time": "2026-09-12 00:22:28 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": -6.1,
   "rate_change_pct": -0.45,
   "smbs_base_rate": 1338.2,
-  "smbs_rate_date": "2026-09-11",
-  "smbs_rate_updated_at_kst": "2026-09-11 23:49:56 KST",
+  "smbs_rate_date": "2026-09-12",
+  "smbs_rate_updated_at_kst": "2026-09-12 00:22:17 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -31,5 +63,5 @@
     1355.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-11 23:49:56 KST"
+  "rate_job_checked_at_kst": "2026-09-12 00:22:17 KST"
 }

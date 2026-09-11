@@ -1,17 +1,29 @@
 {
-  "updated_at_kst": "2026-09-12 02:48 KST",
+  "updated_at_kst": "2026-09-12 03:25 KST",
   "current_rate": 1340.3,
   "previous_close": 1346.4,
-  "rate_updated_at_kst": "2026-09-12 02:21:57 KST",
+  "rate_updated_at_kst": "2026-09-12 03:25:37 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
+    "연준의 추가 금리 인상 또는 매파적 기조 우려가 부각돼 달러 강세 압력이 높아지는 요인으로 작용하고 있습니다.",
     "미국 물가 관련 최신 기사(\"US consumer inflation picks up in August\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
-    "미 국채금리 관련 최신 기사(\"Bond yields near multi-year peaks, Wall Street surges on accelerating US prices\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다.",
-    "글로벌 달러 약세 관련 보도가 이어지며 원/달러 환율에는 하락 압력으로 작용하고 있습니다."
+    "미 국채금리 관련 최신 기사(\"Bond yields near multi-year peaks, Wall Street surges on accelerating US prices\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
+    {
+      "title": "Canadian dollar weakens to nine-day low on Fed rate hike bets",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQUVAya1BERG5MUmhVUjFuMXp4cXRPQ2dlRlVVX2hlb1hpdWcwUktjXzR3c2xoZXFEQ3AxNkNyWXRtZkwtQTBZLTVlSWIxU28xdnJGQy11eDlycHJkOHBVcVdHaWJZSG5GeEMyejQyaXlZUEFLUmxFRHBocUgzdEhtcnpRYkJ3ajhmRm9fTkdjdWlSMlVBTEQ0cVRTRVptN0FaVVE?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-12 02:46 KST"
+    },
+    {
+      "title": "US 10-year borrowing costs pull back from 5% in reprieve for Bessent",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNUXdFU1JwNmpyVFVfRzltQlQwcVJDUmFOWHVzNGdjWlZfZmJSd2FFQ2VpbFdOVTFQRHJtMlhremRVa2JSeWc5Smptc2J4Mmp0QnZoMTQ4NGdLaVBiekNRYlNqdWRtOTV2TUdIbmFkaTdCNmlRams2emVUc2Nsb244bW1hNHIwSHdDRm93M25LZGJlT3p0LTNaTE1kSTk5SHRSVFVkdXNuQjhHQ29UZm4yeHNqeEg2RkVwYVA3clpR?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-12 02:43 KST"
+    },
     {
       "title": "US consumer inflation picks up in August",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOdW10dVZWcHQ3MkdPRy1fRGN2VVUzeV8tV2tRSnRfVHdBbllhS0hfTzlWUy1tM0pHZWxmTl84b3loTVFqRHdUX3I2REFQQ1h5ZTZIcHBJTy1Jcmd1VUpPdDRtdVhvbVpHMEVCQmJkbnNqYXBCUGZiTjVmcTM5NUpEbFgwb08wQU92TFE?oc=5",
@@ -35,34 +47,21 @@
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQbXB3TXpKZVZGS25GQXlUWUZKcUE5NUY4b3ZqU2ZydC1NQ01rdEVWQWhuQm01dkQ0Rlh2b01OZGVrdmt6dlJfYmNZb2tzVnpHMU5VeUFlVVpGWWJmeF9NdGZtLXBLRmE3QlRoVzdVMHhTNXZkRjlsZVctS0hocmZ4eFNTZjFnbjhaWXN1Rm5hd1ZSSVI3ZG9POXEyOEVZUVFhczVnanRlNWfSAa4BQVVfeXFMUFh0UWJhQWYySGxqN1IzR09lVTdDdDE1ckY1M2NjSmUzdTh4VjBPemU4WlRVbjJia0NBcmxBUGVfTFZKYjNRaDBxTjNZLVhWNnJpbkE4X0dFMkRzbnVTdmRTOUp1cWtIaEMxOHpiRTI1YXN5Y0JEOURBb2hISllNeDNnaGJFTkFpcG5EN0FRdHdYdDAtTld1c3ZtYmxJbk5GR19NbWlKUEdQSzI3dGZB?oc=5",
       "domain": "The Korea Times",
       "seen": "2026-09-11 16:54 KST"
-    },
-    {
-      "title": "Dollar holds gains, yen slips as Mideast energy shock deepens",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNeklNQy1vU2pWRW53U0dnRjI5ZWhaZ1phTUtkZTRaaTJwa1VsQ1Q1Z1VQVE16Q3JyOG1lUTNQcG56Wkh6RTJsUUdKaDRHT1lha2JZVHczRk9hUGVucUMyYjdhZXkwQ1RXVnVIZlJKNTg0VWpaajVvbUtpa24xWmJ1cXcwdEpya1h0aGoxQmI4cExiVzNlanJDcmEybnB3WWxLNk9V0gGjAUFVX3lxTE16SU1DLW9TalZFbndTR2dGMjllaFpnWmFNS2RlNFppMnBrVWxDVDVnVVBUTXpDcnI4bWVRM1BwbnpaSHpFMmxRR0poNEdPWWFrYllUdzNGT2FQZW5xQzJiN2FleTBDVFdWdUhmUko1ODRValpqNW9tS2lrbjFaYnVxdzB0SnJrWHRoajFCYjhwTGJXM2VqckNyYTJucHdZbEs2T1U?oc=5",
-      "domain": "CNBC",
-      "seen": "2026-09-11 14:11 KST"
-    },
-    {
-      "title": "Gasoline likely to boost US consumer prices in August",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNem1uNE5zeDZ0aDQ4c2dodkphSDNJUHpJMk81a0NhMFdVaFV4OS1mNk1mWDlEMjhENnZScVZHTTlZN2pWbFNmWlpfQ3YxWHI0TXduT2tnMDN1UmpubkJOQ1Nlcm1xV2thSFczZ3FjNGgzYjF1SW5vTHJWT0x6NllLUVdMMGk5VUJmTGpaMzhFamNQZ2ZqUW9n?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-11 13:05 KST"
     }
   ],
-  "rate_source_time": "2026-09-12 02:21:57 KST",
+  "rate_source_time": "2026-09-12 03:25:37 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": -6.1,
   "rate_change_pct": -0.45,
   "smbs_base_rate": 1338.2,
   "smbs_rate_date": "2026-09-12",
-  "smbs_rate_updated_at_kst": "2026-09-12 02:46:20 KST",
+  "smbs_rate_updated_at_kst": "2026-09-12 03:25:25 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
     1345.0,
     1355.0
   ],
-  "rate_check_status": "failed",
-  "rate_job_checked_at_kst": "2026-09-12 02:46:20 KST",
-  "rate_fetch_error": "RuntimeError: KB STAR FX 자동조회 3회 실패: TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n | TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n | TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n"
+  "rate_check_status": "success",
+  "rate_job_checked_at_kst": "2026-09-12 03:25:25 KST"
 }

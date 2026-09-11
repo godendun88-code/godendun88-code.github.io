@@ -1,17 +1,35 @@
 {
-  "updated_at_kst": "2026-09-11 09:52 KST",
-  "current_rate": 1347.5,
+  "updated_at_kst": "2026-09-11 10:22 KST",
+  "current_rate": 1346.5,
   "previous_close": 1346.4,
-  "rate_updated_at_kst": "2026-09-11 09:30:05 KST",
+  "rate_updated_at_kst": "2026-09-11 10:21:46 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
-    "미국 물가 관련 최신 기사(\"COMMENTARY: US CPI, where the significant and the silly collide\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
+    "미국 물가 관련 최신 기사(\"Global bonds fall as surging oil prices inflame inflation risks\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
     "미 국채금리 하락 관련 보도가 확인돼 달러의 금리 매력이 낮아지면서 원/달러 환율 하락 압력으로 작용하고 있습니다.",
-    "달러 관련 최신 기사(\"COMMENTARY: Is the dollar policy 'mini Mar-a-Lagos' or Whac-A-Mole?\")가 확인돼 달러인덱스 방향성이 원/달러 환율의 핵심 변수로 작용하고 있습니다."
+    "글로벌 달러 약세 관련 보도가 이어지며 원/달러 환율에는 하락 압력으로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
+    {
+      "title": "Oil prices set to end week over $100 for first time in nearly 4 months",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxORWZtMHZyX3Z0UkY2T285M3E2bElVVXRpdVhIVnZLQ1N4UjhKMTQ0UmZLWDlrQmRlcHFtZkN1SUcxSmNvVWhyelh4ZUhpZER2N2N5REE2aFR6Nm52YWRKY0xQRk16cE0tMFpRdkNjQm5YTDZ2RWFhcld2aWVHWUJMcFdncU1FUWVNNTgtX2VKcmpfZUNWZE1LenhwWDlGQmxreVF3Zjk4WlJ0N3hqODIxSQ?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-11 10:13 KST"
+    },
+    {
+      "title": "Dollar holds gains, yen slips as Mideast energy shock deepens",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPTUI0bHIwbWRHUzNiQmxNam13azJMSHZvUzhkMThQSDJpOGZqOUpfYVMtMG5taXlrRGVBcGViVWpPT20xTm12RnJLT1BIR2luVmZWOEl0TFVyTC1UX25qZU00cTY5UEMyTWpXd3ctZnVCSXVQMEswa21hTl85ZExMMm9xNkNHRDlHQnVTSlZNMFV5U1l3am1BQVprSUJqQ1VONTBOb3dBSnQxTm9YXzU0aldn?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-11 10:08 KST"
+    },
+    {
+      "title": "Global bonds fall as surging oil prices inflame inflation risks",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1rQ3pYNkdSYUhxbHl1RjJnc01XMWdUV2NHRFBXaTJhN0FzcUtqV3RFOU5EaUZyTnZYTVJ5ZlduWkJGTzB1Wm8xdmpLdXNBSzdubXRLbmxZRlQtTkh4YkRrbjUwQVFScUVBM3MxLTdITll1ZnZmUGljV1NtRXk?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-11 09:56 KST"
+    },
     {
       "title": "COMMENTARY: US CPI, where the significant and the silly collide",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNSmhLc3dLcnJOclBhYjVoYmZrWG5RRHBzQ1VramVqZmxoczVpUXBIQndSRWIzTGhBUW5lV3d5eGhrTEZRZTB6WkhpcDAyaEtRaHVIRXdXOW9SVFVnN2NoMThjN2I4NWtVYU9obGo4elJHZTRLbzdYUlhWZGV1TUNyTTU3VDJrUlRmRTRkNndKREdoSzBBVnFVV2pzejUwMXdvU21aOUtKaUQ?oc=5",
@@ -29,40 +47,21 @@
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxONlRySVVwZW84bGFtUDkxRXpNY3QwckJXZVNYWW1iWjdMXzB0YlNCRnZGODA5c0lzYk96V2dSWjV1VlpyMk5KdmlveXA3ZGwwMG9ZQ1p5VVgwRDMyZVhKR1hGZGxBQUNxQXlQejlIa0F1dURjQmJoLThTZGdEQ0pxS2ZQYzNqMERfNGFmVDBzaUtMQnEweXFCaG91QUR4RENVdjFQYW5R?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-11 06:05 KST"
-    },
-    {
-      "title": "US producer prices increase as expected in August; but key details firmer",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQSllzbWpfQ2xZcDA5eExQYUxKdVRwdEdUdFFpMzJPWW1ib29Ocm85Z3ZDaVFpMkZGQnpUQ1Z2Zy1pelQ5Tk5TY0lKSUJ5RlZiUDhoeU5jWHpRX3dZQzFqcWtfT3J2UTM3Q2doaTdRUHEtczI1TDVkOE5jN2V1b2h1S01fYktSLV9yTERENnpxeHVLdw?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-11 02:13 KST"
-    },
-    {
-      "title": "COMMENTARY: Asia's oil industry wants Trump to leave the Gulf, but expects he won't",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOMm1IdXZwdFBoY28xel9yZ3VNRGs3a0RTbDhTb3ZDWEw0VFZqZE5mNVJ6b2theVp3Q2p0emhIWmZwLXc4ako5eDl3UzVWZkRaQ3RHX05VbkNhVkVxbk9ISXhLMjVaLTRHc1FDdHAxb1QxN2hYSldJUzVGYVhmeWNiRVV0UjNtcHdubFpKWVFYWDZ4OVBJRFRSREhvcVlYVjV0YnFwUTNKeDBvU2hYMEE5SWFubFFCZlhSMTFaUnJMY19oYnI5?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-11 02:01 KST"
-    },
-    {
-      "title": "Canadian dollar edges lower, bond yields jump as oil tops $100 a barrel",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQM2w4MmJZdFUwR3lQdDNMb3hqSUNvVldIdHdtdlBqM0JOb3lVOVRKbmUtaHhFRVFxX3ZTZzNUQnN6UXpLVnFjVm05X0UybHdTck9tTElLT2M0VHczZ0lYV2Q2MUJISkRlX1hvSFZXSHdCV0tZeXlUdnhETlQybUFRSDZXcW1CcEdvNHl2TDFQcS1lYlBReDk0WEFfQ1ctdmVGMWtVczhJVG1hS0tnV3pJd1ZB?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-11 01:49 KST"
     }
   ],
-  "rate_source_time": "2026-09-11 09:30:05 KST",
+  "rate_source_time": "2026-09-11 10:21:46 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 1.1,
-  "rate_change_pct": 0.08,
+  "rate_change": 0.1,
+  "rate_change_pct": 0.01,
   "smbs_base_rate": 1338.2,
   "smbs_rate_date": "2026-09-11",
-  "smbs_rate_updated_at_kst": "2026-09-11 09:49:57 KST",
+  "smbs_rate_updated_at_kst": "2026-09-11 10:21:32 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
     1345.0,
     1355.0
   ],
-  "rate_check_status": "failed",
-  "rate_job_checked_at_kst": "2026-09-11 09:49:57 KST",
-  "rate_fetch_error": "RuntimeError: KB STAR FX 자동조회 3회 실패: TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n | TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n | TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n"
+  "rate_check_status": "success",
+  "rate_job_checked_at_kst": "2026-09-11 10:21:32 KST"
 }

@@ -1,5 +1,5 @@
 {
-  "updated_at_kst": "2026-09-11 09:30 KST",
+  "updated_at_kst": "2026-09-11 09:52 KST",
   "current_rate": 1347.5,
   "previous_close": 1346.4,
   "rate_updated_at_kst": "2026-09-11 09:30:05 KST",
@@ -17,6 +17,12 @@
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNSmhLc3dLcnJOclBhYjVoYmZrWG5RRHBzQ1VramVqZmxoczVpUXBIQndSRWIzTGhBUW5lV3d5eGhrTEZRZTB6WkhpcDAyaEtRaHVIRXdXOW9SVFVnN2NoMThjN2I4NWtVYU9obGo4elJHZTRLbzdYUlhWZGV1TUNyTTU3VDJrUlRmRTRkNndKREdoSzBBVnFVV2pzejUwMXdvU21aOUtKaUQ?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-11 08:31 KST"
+    },
+    {
+      "title": "Fed, eyeing inflation data, may lean toward a hike, traders bet",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPQ2l2aklZZV9FVlF3OFZCeDU5UzBIZXdXVkhTRDR3VVZsZV9seEJRT3dVa29MUFd4eTdlcHNnMnBfZFhQVUVqcnloVXJ5VFRkd3VhYlRMeVVCMS05NFlJSU00bXd1UmEtTjlYSHFIVHJzT1ZtTHlUVEFIQzlFaWFsNTQxeDl2dTdPR0pXTVZCTV8yOVNUeDJzOHhMQTdRRWtkakdjR0oxSG8?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-11 06:18 KST"
     },
     {
       "title": "COMMENTARY: Trading Day: Inflation palpitations",
@@ -41,12 +47,6 @@
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQM2w4MmJZdFUwR3lQdDNMb3hqSUNvVldIdHdtdlBqM0JOb3lVOVRKbmUtaHhFRVFxX3ZTZzNUQnN6UXpLVnFjVm05X0UybHdTck9tTElLT2M0VHczZ0lYV2Q2MUJISkRlX1hvSFZXSHdCV0tZeXlUdnhETlQybUFRSDZXcW1CcEdvNHl2TDFQcS1lYlBReDk0WEFfQ1ctdmVGMWtVczhJVG1hS0tnV3pJd1ZB?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-11 01:49 KST"
-    },
-    {
-      "title": "NEWSLETTER: Playing the game",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1Kb0hhdTlrZkpERzB2Zkw3U19xQWJfT2VNeG1uRkpXQjRwRVh6Sm1kZXQ1TmlYbGxPdTFOT0dna0E1d0JBb2JiZHhRdE5CZG5lUFJ3RU5qYTNoNzIyNGdqNkM5Y1lqdnJqcUp1VllPc1dvVkJPNlE?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-10 23:40 KST"
     }
   ],
   "rate_source_time": "2026-09-11 09:30:05 KST",
@@ -55,13 +55,14 @@
   "rate_change_pct": 0.08,
   "smbs_base_rate": 1338.2,
   "smbs_rate_date": "2026-09-11",
-  "smbs_rate_updated_at_kst": "2026-09-11 09:29:53 KST",
+  "smbs_rate_updated_at_kst": "2026-09-11 09:49:57 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
     1345.0,
     1355.0
   ],
-  "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-11 09:29:53 KST"
+  "rate_check_status": "failed",
+  "rate_job_checked_at_kst": "2026-09-11 09:49:57 KST",
+  "rate_fetch_error": "RuntimeError: KB STAR FX 자동조회 3회 실패: TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n | TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n | TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n"
 }

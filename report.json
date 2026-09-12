@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-09-12 08:46 KST",
+  "updated_at_kst": "2026-09-12 09:28 KST",
   "current_rate": 1340.3,
   "previous_close": 1346.4,
-  "rate_updated_at_kst": "2026-09-12 08:46:20 KST",
+  "rate_updated_at_kst": "2026-09-12 09:28:33 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "상승 우세",
   "drivers": [
@@ -43,19 +43,19 @@
       "seen": "2026-09-11 19:37 KST"
     },
     {
-      "title": "US loosens Iran's grip on Strait of Hormuz but war is not over",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQbXB3TXpKZVZGS25GQXlUWUZKcUE5NUY4b3ZqU2ZydC1NQ01rdEVWQWhuQm01dkQ0Rlh2b01OZGVrdmt6dlJfYmNZb2tzVnpHMU5VeUFlVVpGWWJmeF9NdGZtLXBLRmE3QlRoVzdVMHhTNXZkRjlsZVctS0hocmZ4eFNTZjFnbjhaWXN1Rm5hd1ZSSVI3ZG9POXEyOEVZUVFhczVnanRlNWfSAa4BQVVfeXFMUFh0UWJhQWYySGxqN1IzR09lVTdDdDE1ckY1M2NjSmUzdTh4VjBPemU4WlRVbjJia0NBcmxBUGVfTFZKYjNRaDBxTjNZLVhWNnJpbkE4X0dFMkRzbnVTdmRTOUp1cWtIaEMxOHpiRTI1YXN5Y0JEOURBb2hISllNeDNnaGJFTkFpcG5EN0FRdHdYdDAtTld1c3ZtYmxJbk5GR19NbWlKUEdQSzI3dGZB?oc=5",
-      "domain": "The Korea Times",
-      "seen": "2026-09-11 16:54 KST"
+      "title": "Take Five: Rates, risks and rivalries",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQM1owMlVLU2hsX0lMaldUNngxVEhROWRiWF9hbG1tZEVzdFE5WVRKT1pjWXJMWEgwZXRQM1Nxd0pKeXZDR3AwRHFHQTBNaEtrWk56R1VUSVRZZDRnNi1vVE9mWlRkRnBmNGx5d01HYnhUZ2psYXQ5elB4cEN3ZU56MEpvcWM5M0xNQWZITg?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-11 18:23 KST"
     }
   ],
-  "rate_source_time": "2026-09-12 08:46:20 KST",
+  "rate_source_time": "2026-09-12 09:28:33 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": -6.1,
   "rate_change_pct": -0.45,
   "smbs_base_rate": 1338.2,
   "smbs_rate_date": "2026-09-12",
-  "smbs_rate_updated_at_kst": "2026-09-12 08:46:08 KST",
+  "smbs_rate_updated_at_kst": "2026-09-12 09:28:18 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1355.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-12 08:46:08 KST"
+  "rate_job_checked_at_kst": "2026-09-12 09:28:18 KST"
 }

@@ -1,14 +1,14 @@
 {
-  "updated_at_kst": "2026-09-12 19:46 KST",
+  "updated_at_kst": "2026-09-12 20:20 KST",
   "current_rate": 1340.3,
   "previous_close": 1346.4,
-  "rate_updated_at_kst": "2026-09-12 19:46:12 KST",
+  "rate_updated_at_kst": "2026-09-12 20:20:07 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "상승 우세",
   "drivers": [
     "연준의 추가 금리 인상 또는 매파적 기조 우려가 부각돼 달러 강세 압력이 높아지는 요인으로 작용하고 있습니다.",
     "미국 물가 상승 압력이 다시 부각되며 연준의 매파적 금리 경로 우려가 커져 달러 강세 요인으로 작용하고 있습니다.",
-    "유가·지정학 관련 최신 기사(\"COMMENTARY: Triple-digit oil, yen whiplash and a $2,000 iPhone: The financial week in five charts\")가 확인돼 원화 변동성 확대 요인으로 작용하고 있습니다."
+    "미국 물가 관련 최신 기사(\"European stocks rise, but log sharp weekly loss as inflation fears linger\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다."
   ],
   "outlook": "달러 강세·금리 상승 계열의 재료가 상대적으로 우세해 원/달러는 단기 상승 압력이 나타날 수 있으나, 국내 수급과 위험선호 회복 여부에 따라 변동성이 예상됩니다.",
   "articles": [
@@ -41,21 +41,15 @@
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOdW10dVZWcHQ3MkdPRy1fRGN2VVUzeV8tV2tRSnRfVHdBbllhS0hfTzlWUy1tM0pHZWxmTl84b3loTVFqRHdUX3I2REFQQ1h5ZTZIcHBJTy1Jcmd1VUpPdDRtdVhvbVpHMEVCQmJkbnNqYXBCUGZiTjVmcTM5NUpEbFgwb08wQU92TFE?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-11 21:37 KST"
-    },
-    {
-      "title": "COMMENTARY: Triple-digit oil, yen whiplash and a $2,000 iPhone: The financial week in five charts",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQWjdWQXF6UU01aUpaT3N3bTdCaXRXSkRFelh4TlVxSUEwRzVPak1lbjdFR3VadlU5bC0wZmUwSU03OHNWR0RuY2xpZU10N2t3bS1qM0xKckVuN0ZLS0F0V0xFS2RsRTBpSHM1bEhxYzYtRUF2ME0zNC1jVnlOZU9TUGZRblVkZ1U3bDNwcGJWZ3Fld3UwWFZWUFlQSmJTb1hMSm9nZ2ZFUzNuMWF0UDhqVU1MMmRUbnYwdDdjZC1hZ085Z1BMWnVIR1FzMG9XVzVTWlFF?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-11 20:07 KST"
     }
   ],
-  "rate_source_time": "2026-09-12 19:46:12 KST",
+  "rate_source_time": "2026-09-12 20:20:07 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": -6.1,
   "rate_change_pct": -0.45,
   "smbs_base_rate": 1338.2,
   "smbs_rate_date": "2026-09-12",
-  "smbs_rate_updated_at_kst": "2026-09-12 19:45:56 KST",
+  "smbs_rate_updated_at_kst": "2026-09-12 20:19:53 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +57,5 @@
     1355.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-12 19:45:56 KST"
+  "rate_job_checked_at_kst": "2026-09-12 20:19:53 KST"
 }

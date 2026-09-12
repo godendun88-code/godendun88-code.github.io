@@ -1,5 +1,5 @@
 {
-  "updated_at_kst": "2026-09-13 01:22 KST",
+  "updated_at_kst": "2026-09-13 01:48 KST",
   "current_rate": 1340.3,
   "previous_close": 1346.4,
   "rate_updated_at_kst": "2026-09-13 01:21:47 KST",
@@ -37,6 +37,8 @@
     1345.0,
     1355.0
   ],
-  "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-13 01:21:35 KST"
+  "rate_check_status": "failed",
+  "rate_job_checked_at_kst": "2026-09-13 01:45:59 KST",
+  "rate_fetch_error": "RuntimeError: KB STAR FX 자동조회 3회 실패: TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n | TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n | TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n",
+  "smbs_rate_error": "RuntimeError: 서울외국환중개 페이지에서 USD 매매기준율을 찾지 못했습니다."
 }

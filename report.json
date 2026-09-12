@@ -1,13 +1,13 @@
 {
-  "updated_at_kst": "2026-09-12 18:21 KST",
+  "updated_at_kst": "2026-09-12 18:46 KST",
   "current_rate": 1340.3,
   "previous_close": 1346.4,
-  "rate_updated_at_kst": "2026-09-12 18:21:12 KST",
+  "rate_updated_at_kst": "2026-09-12 18:46:38 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
     "연준의 추가 금리 인상 또는 매파적 기조 우려가 부각돼 달러 강세 압력이 높아지는 요인으로 작용하고 있습니다.",
-    "미국 물가 관련 최신 기사(\"VIEW Stocks, bonds rally after August inflation report\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
+    "미국 물가 관련 최신 기사(\"European stocks rise, but log sharp weekly loss as inflation fears linger\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
     "유가·지정학 관련 최신 기사(\"COMMENTARY: Triple-digit oil, yen whiplash and a $2,000 iPhone: The financial week in five charts\")가 확인돼 원화 변동성 확대 요인으로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
@@ -17,6 +17,12 @@
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQUVAya1BERG5MUmhVUjFuMXp4cXRPQ2dlRlVVX2hlb1hpdWcwUktjXzR3c2xoZXFEQ3AxNkNyWXRtZkwtQTBZLTVlSWIxU28xdnJGQy11eDlycHJkOHBVcVdHaWJZSG5GeEMyejQyaXlZUEFLUmxFRHBocUgzdEhtcnpRYkJ3ajhmRm9fTkdjdWlSMlVBTEQ0cVRTRVptN0FaVVE?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-12 02:46 KST"
+    },
+    {
+      "title": "European stocks rise, but log sharp weekly loss as inflation fears linger",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPWFdZRzBDV3lOWmV1UE90TVhNV0dNSzBxTlRINUQyaHphX0hjVVpORUZKY2N0ai1nX3h3RXBSVlV1aU9pMW1Zc3lZMHBjN0NhclFWMGhmNnRHTTZhclk3UWQ5LWhQekZZX2VsZmN6WTVMa0QyMU1ILVpWQTdmQkQ5VkNQNlQ3OEhaZGl4QkhuUXZKY0hrMzI3T2plMnJsNDQ?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-12 01:58 KST"
     },
     {
       "title": "VIEW Stocks, bonds rally after August inflation report",
@@ -41,21 +47,15 @@
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNSU9CbFZHQ3lERUYxd1YyMmdlY3kzSGZ4bFpDamVkMUhqZVRVdXRHX0thb3FLYWYwX2xhUDhsRjZHSDZTVEJ2SFE0UTg3U3V6eEhzYlZIemZFYUdxNE5wVGo5UktZMWt5WFo2cWdhSGhNa0RPY0twMDZUU09tY004THY1Ri1KQk5NNkJocF9HZWJYLXNPeHZr?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-11 19:45 KST"
-    },
-    {
-      "title": "India stocks log fifth weekly loss as oil fears grip markets",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMEI5a2VhM0MzYVlMTWQwRWRxeWI2TjlIbkVLX0NteDdFbmg0c2JhRjl5dHczYzRySnF0Y0MwNzlhcnJSOFNpaHJORVROU2EtTGUyN21weTJvbzBqV3k2NFlLOHp0MTNuNDdTMjd6RU9OQVc5MXk2RUlWUldVSDZ4VVk1UXRkQTlhTWtNQWNpQnpGQkd5cXpUQU5mejZPTTNnYUVpNWd5RFc?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-11 19:37 KST"
     }
   ],
-  "rate_source_time": "2026-09-12 18:21:12 KST",
+  "rate_source_time": "2026-09-12 18:46:38 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": -6.1,
   "rate_change_pct": -0.45,
   "smbs_base_rate": 1338.2,
   "smbs_rate_date": "2026-09-12",
-  "smbs_rate_updated_at_kst": "2026-09-12 18:20:56 KST",
+  "smbs_rate_updated_at_kst": "2026-09-12 18:46:24 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1355.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-12 18:20:56 KST"
+  "rate_job_checked_at_kst": "2026-09-12 18:46:24 KST"
 }

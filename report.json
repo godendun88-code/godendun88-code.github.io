@@ -1,61 +1,36 @@
 {
-  "updated_at_kst": "2026-09-12 11:23 KST",
+  "updated_at_kst": "2026-09-12 11:48 KST",
   "current_rate": 1340.3,
   "previous_close": 1346.4,
-  "rate_updated_at_kst": "2026-09-12 11:23:04 KST",
+  "rate_updated_at_kst": "2026-09-12 11:48:32 KST",
   "rate_source": "KB STAR FX Market Watch",
-  "market_bias": "상승 우세",
+  "market_bias": "혼조",
   "drivers": [
-    "연준·금리 관련 최신 기사(\"Wall Street jumps, oil lower ahead of Fed vote next week\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
-    "미국 물가 상승 압력이 다시 부각되며 연준의 매파적 금리 경로 우려가 커져 달러 강세 요인으로 작용하고 있습니다.",
-    "글로벌 달러 약세 관련 보도가 이어지며 원/달러 환율에는 하락 압력으로 작용하고 있습니다."
+    "글로벌 달러 약세 관련 보도가 이어지며 원/달러 환율에는 하락 압력으로 작용하고 있습니다.",
+    "유가 및 중동 지정학적 불확실성이 부각돼 에너지 수입 의존도가 높은 원화에는 약세 부담 요인으로 작용하고 있습니다."
   ],
-  "outlook": "달러 강세·금리 상승 계열의 재료가 상대적으로 우세해 원/달러는 단기 상승 압력이 나타날 수 있으나, 국내 수급과 위험선호 회복 여부에 따라 변동성이 예상됩니다.",
+  "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
     {
-      "title": "US 10-year borrowing costs pull back from 5% in reprieve for Bessent",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNUXdFU1JwNmpyVFVfRzltQlQwcVJDUmFOWHVzNGdjWlZfZmJSd2FFQ2VpbFdOVTFQRHJtMlhremRVa2JSeWc5Smptc2J4Mmp0QnZoMTQ4NGdLaVBiekNRYlNqdWRtOTV2TUdIbmFkaTdCNmlRams2emVUc2Nsb244bW1hNHIwSHdDRm93M25LZGJlT3p0LTNaTE1kSTk5SHRSVFVkdXNuQjhHQ29UZm4yeHNqeEg2RkVwYVA3clpR?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-12 08:48 KST"
+      "title": "US loosens Iran's grip on Strait of Hormuz but war is not over",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQbXB3TXpKZVZGS25GQXlUWUZKcUE5NUY4b3ZqU2ZydC1NQ01rdEVWQWhuQm01dkQ0Rlh2b01OZGVrdmt6dlJfYmNZb2tzVnpHMU5VeUFlVVpGWWJmeF9NdGZtLXBLRmE3QlRoVzdVMHhTNXZkRjlsZVctS0hocmZ4eFNTZjFnbjhaWXN1Rm5hd1ZSSVI3ZG9POXEyOEVZUVFhczVnanRlNWfSAa4BQVVfeXFMUFh0UWJhQWYySGxqN1IzR09lVTdDdDE1ckY1M2NjSmUzdTh4VjBPemU4WlRVbjJia0NBcmxBUGVfTFZKYjNRaDBxTjNZLVhWNnJpbkE4X0dFMkRzbnVTdmRTOUp1cWtIaEMxOHpiRTI1YXN5Y0JEOURBb2hISllNeDNnaGJFTkFpcG5EN0FRdHdYdDAtTld1c3ZtYmxJbk5GR19NbWlKUEdQSzI3dGZB?oc=5",
+      "domain": "The Korea Times",
+      "seen": "2026-09-11 16:54 KST"
     },
     {
-      "title": "Dollar rises against euro and Swiss franc after US inflation data",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPTUI0bHIwbWRHUzNiQmxNam13azJMSHZvUzhkMThQSDJpOGZqOUpfYVMtMG5taXlrRGVBcGViVWpPT20xTm12RnJLT1BIR2luVmZWOEl0TFVyTC1UX25qZU00cTY5UEMyTWpXd3ctZnVCSXVQMEswa21hTl85ZExMMm9xNkNHRDlHQnVTSlZNMFV5U1l3am1BQVprSUJqQ1VONTBOb3dBSnQxTm9YXzU0aldn?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-12 05:30 KST"
-    },
-    {
-      "title": "Wall Street jumps, oil lower ahead of Fed vote next week",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1rQ3pYNkdSYUhxbHl1RjJnc01XMWdUV2NHRFBXaTJhN0FzcUtqV3RFOU5EaUZyTnZYTVJ5ZlduWkJGTzB1Wm8xdmpLdXNBSzdubXRLbmxZRlQtTkh4YkRrbjUwQVFScUVBM3MxLTdITll1ZnZmUGljV1NtRXk?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-12 04:08 KST"
-    },
-    {
-      "title": "Canadian dollar weakens to nine-day low on Fed rate hike bets",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQUVAya1BERG5MUmhVUjFuMXp4cXRPQ2dlRlVVX2hlb1hpdWcwUktjXzR3c2xoZXFEQ3AxNkNyWXRtZkwtQTBZLTVlSWIxU28xdnJGQy11eDlycHJkOHBVcVdHaWJZSG5GeEMyejQyaXlZUEFLUmxFRHBocUgzdEhtcnpRYkJ3ajhmRm9fTkdjdWlSMlVBTEQ0cVRTRVptN0FaVVE?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-12 02:46 KST"
-    },
-    {
-      "title": "US consumer prices accelerate in August, push Fed closer to rate hike",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOdW10dVZWcHQ3MkdPRy1fRGN2VVUzeV8tV2tRSnRfVHdBbllhS0hfTzlWUy1tM0pHZWxmTl84b3loTVFqRHdUX3I2REFQQ1h5ZTZIcHBJTy1Jcmd1VUpPdDRtdVhvbVpHMEVCQmJkbnNqYXBCUGZiTjVmcTM5NUpEbFgwb08wQU92TFE?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-11 21:37 KST"
-    },
-    {
-      "title": "COMMENTARY: Triple-digit oil, yen whiplash and a $2,000 iPhone: The financial week in five charts",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQWjdWQXF6UU01aUpaT3N3bTdCaXRXSkRFelh4TlVxSUEwRzVPak1lbjdFR3VadlU5bC0wZmUwSU03OHNWR0RuY2xpZU10N2t3bS1qM0xKckVuN0ZLS0F0V0xFS2RsRTBpSHM1bEhxYzYtRUF2ME0zNC1jVnlOZU9TUGZRblVkZ1U3bDNwcGJWZ3Fld3UwWFZWUFlQSmJTb1hMSm9nZ2ZFUzNuMWF0UDhqVU1MMmRUbnYwdDdjZC1hZ085Z1BMWnVIR1FzMG9XVzVTWlFF?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-11 20:07 KST"
+      "title": "Dollar holds gains, yen slips as Mideast energy shock deepens",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNeklNQy1vU2pWRW53U0dnRjI5ZWhaZ1phTUtkZTRaaTJwa1VsQ1Q1Z1VQVE16Q3JyOG1lUTNQcG56Wkh6RTJsUUdKaDRHT1lha2JZVHczRk9hUGVucUMyYjdhZXkwQ1RXVnVIZlJKNTg0VWpaajVvbUtpa24xWmJ1cXcwdEpya1h0aGoxQmI4cExiVzNlanJDcmEybnB3WWxLNk9V0gGjAUFVX3lxTE16SU1DLW9TalZFbndTR2dGMjllaFpnWmFNS2RlNFppMnBrVWxDVDVnVVBUTXpDcnI4bWVRM1BwbnpaSHpFMmxRR0poNEdPWWFrYllUdzNGT2FQZW5xQzJiN2FleTBDVFdWdUhmUko1ODRValpqNW9tS2lrbjFaYnVxdzB0SnJrWHRoajFCYjhwTGJXM2VqckNyYTJucHdZbEs2T1U?oc=5",
+      "domain": "CNBC",
+      "seen": "2026-09-11 14:11 KST"
     }
   ],
-  "rate_source_time": "2026-09-12 11:23:04 KST",
+  "rate_source_time": "2026-09-12 11:48:32 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": -6.1,
   "rate_change_pct": -0.45,
   "smbs_base_rate": 1338.2,
   "smbs_rate_date": "2026-09-12",
-  "smbs_rate_updated_at_kst": "2026-09-12 11:22:51 KST",
+  "smbs_rate_updated_at_kst": "2026-09-12 11:48:14 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +38,5 @@
     1355.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-12 11:22:51 KST"
+  "rate_job_checked_at_kst": "2026-09-12 11:48:14 KST"
 }

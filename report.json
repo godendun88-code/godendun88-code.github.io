@@ -1,29 +1,29 @@
 {
-  "updated_at_kst": "2026-09-13 02:20 KST",
+  "updated_at_kst": "2026-09-13 12:22 KST",
   "current_rate": 1340.3,
   "previous_close": 1346.4,
-  "rate_updated_at_kst": "2026-09-13 11:47:59 KST",
+  "rate_updated_at_kst": "2026-09-13 12:22:16 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
-    "연준의 추가 금리 인상 또는 매파적 기조 우려가 부각돼 달러 강세 압력이 높아지는 요인으로 작용하고 있습니다."
+    "외환시장 관련 최신 기사(\"Teen rescued after spending days on capsized boat off Alaska\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
     {
-      "title": "Canadian dollar weakens to nine-day low on Fed rate hike bets",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQUVAya1BERG5MUmhVUjFuMXp4cXRPQ2dlRlVVX2hlb1hpdWcwUktjXzR3c2xoZXFEQ3AxNkNyWXRtZkwtQTBZLTVlSWIxU28xdnJGQy11eDlycHJkOHBVcVdHaWJZSG5GeEMyejQyaXlZUEFLUmxFRHBocUgzdEhtcnpRYkJ3ajhmRm9fTkdjdWlSMlVBTEQ0cVRTRVptN0FaVVE?oc=5",
+      "title": "Teen rescued after spending days on capsized boat off Alaska",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9yUGZEdklDMFVGeHNrY2xhVElyN1FqWW1la2FZeGVQNVl1R2IzeXIwSFFZRGI0SlJIb2xzX0duZlhmeGotaVlJVkVBcEo2aUE?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-12 02:46 KST"
+      "seen": "2026-09-13 12:08 KST"
     }
   ],
-  "rate_source_time": "2026-09-13 11:47:59 KST",
+  "rate_source_time": "2026-09-13 12:22:16 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": -6.1,
   "rate_change_pct": -0.45,
   "smbs_base_rate": 1338.2,
   "smbs_rate_date": "2026-09-13",
-  "smbs_rate_updated_at_kst": "2026-09-13 11:47:44 KST",
+  "smbs_rate_updated_at_kst": "2026-09-13 12:22:05 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -31,5 +31,5 @@
     1355.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-13 11:47:44 KST"
+  "rate_job_checked_at_kst": "2026-09-13 12:22:05 KST"
 }

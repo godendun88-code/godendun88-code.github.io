@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-09-13 18:46 KST",
+  "updated_at_kst": "2026-09-13 19:26 KST",
   "current_rate": 1340.3,
   "previous_close": 1346.4,
-  "rate_updated_at_kst": "2026-09-13 18:46:07 KST",
+  "rate_updated_at_kst": "2026-09-13 19:26:01 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
@@ -14,16 +14,16 @@
       "title": "New report of attack on Strait of Hormuz shipping fans fears of threats to oil supplies",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOUGctZFpGTW5Zd0h2OFl3V0FMR3o0MHVxNW5uSmN6cHpfNWRYRS1Sd0dibnUwUDRCY3VHejJlbUdNVkx6VmN3WTJQVGYtRjRHX1dWQllyQWl3TzEyWWoxY0JRaU45U0RMUTd0SHBvYmRLZmN4bjl3VF82emtKY1JiQzlsN3NqLThWcDk0UEdmaTlHWjJWd0k1b1VtVmVVUFpSZnFhSEZPUk9oeFlTeU5ZcTJKUlJUZjd6d3d2QWJiYmR2UQ?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-13 17:19 KST"
+      "seen": "2026-09-13 11:22 KST"
     }
   ],
-  "rate_source_time": "2026-09-13 18:46:07 KST",
+  "rate_source_time": "2026-09-13 19:26:01 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": -6.1,
   "rate_change_pct": -0.45,
   "smbs_base_rate": 1338.2,
   "smbs_rate_date": "2026-09-13",
-  "smbs_rate_updated_at_kst": "2026-09-13 18:45:51 KST",
+  "smbs_rate_updated_at_kst": "2026-09-13 19:25:48 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -31,5 +31,5 @@
     1355.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-13 18:45:51 KST"
+  "rate_job_checked_at_kst": "2026-09-13 19:25:48 KST"
 }

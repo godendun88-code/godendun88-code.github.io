@@ -1,16 +1,16 @@
 {
-  "updated_at_kst": "2026-09-15 04:23 KST",
+  "updated_at_kst": "2026-09-15 05:22 KST",
   "current_rate": 1347.6,
   "previous_close": 1340.3,
-  "rate_updated_at_kst": "2026-09-15 04:48:11 KST",
+  "rate_updated_at_kst": "2026-09-15 05:22:36 KST",
   "rate_source": "KB STAR FX Market Watch",
-  "market_bias": "상승 우세",
+  "market_bias": "혼조",
   "drivers": [
     "연준·금리 관련 최신 기사(\"Bitcoin's late summer rally set to face off against the Fed, Congress\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
-    "미국 물가 상승 압력이 다시 부각되며 연준의 매파적 금리 경로 우려가 커져 달러 강세 요인으로 작용하고 있습니다.",
-    "미 국채금리 관련 최신 기사(\"US 10-year yields reach 5%, highest since 2023\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다."
+    "미 국채금리 관련 최신 기사(\"US 10-year yields reach 5%, highest since 2023\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다.",
+    "유가 및 중동 지정학적 불확실성이 부각돼 에너지 수입 의존도가 높은 원화에는 약세 부담 요인으로 작용하고 있습니다."
   ],
-  "outlook": "달러 강세·금리 상승 계열의 재료가 상대적으로 우세해 원/달러는 단기 상승 압력이 나타날 수 있으나, 국내 수급과 위험선호 회복 여부에 따라 변동성이 예상됩니다.",
+  "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
     {
       "title": "Wall Street drops as AI worries pummel chipmakers",
@@ -31,31 +31,31 @@
       "seen": "2026-09-15 00:45 KST"
     },
     {
-      "title": "Fed rate hike on Wednesday now likely, say economists, and at least one more to follow: Reuters Poll",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPYmtGdWt3WFV1bmpCR2REM0NZMkZIOEE2c3BRdFhrc21CcUpVUEx6QTdOdDZOQ3dGV2pmYmxOVDA3WjJoclVnZlB2cXl5R3NfSDh6cy0zWGRoUFU1UjA4LTVFckZHWkVBUkJpdWtFaTFvTWNjM1IzVi1sSGhZNmNETzdJcUhOOF9MN2pGSXNyelRkSFlIUktUT1ZjX1VIY2MxQV80NWNLVi1hS0s0bEpaR2FGbzRzeVE?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-14 21:32 KST"
-    },
-    {
-      "title": "India inflation rises to 4.82% in August, strengthening case for rate hike",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOYjkzaUlTSVF5ekc4elYyR2p6NXNFYXJSVzFGdkhoTWxNTmlVRnBpV012SlRiVG5wUlY3aTRZUmpkQ1I0cmJvYWtlVHRZTnlwaUVvVVNMVk5YWFU2dVY3VnlDMmNuWFM3RTFwdzc1dkVBUDhtUGx1eE9YVGhRaFo3T1ZtNEVLMkVyUW5YSDhGNEZfVXdX?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-14 21:05 KST"
-    },
-    {
       "title": "Biggest risk for sinking bond market is Fed standing pat",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQQ2ZhcnB0a2xLd1ZoRXVlOGYtZ2prLUR4OWZLVXZfSkZKNFdhUGZ2d1ZXd2pGeUNSZE9sNkx1RTN3SlpzejVKVkhIVnFzbUNHSUd0T2NNY29nMENnRWxCUjBOUjJydXFXcWx4ZW10TkZzMFpScVhZbHdkUnU1bUM3bGFfZ3RfZ1FpcGpHZF9pczdNYUZ1QjZoa3dRR0Z2M3hKQlZhSnU0LU0?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-14 19:54 KST"
+    },
+    {
+      "title": "Asia's oil traders, seeing no quick end to Middle East war, stay bullish on prices",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQQjlwYUFLdF9Cc3lZbHQxSHlwT2Y4T3Yzd2ZfZUNwdmNWM1Y5d2M4azA3SUEyLUkzTWo1NEJVeVJSSFROXzJHM0tjdlBfWGpJUkY0MlJpSFFxSmlPcDgydF81R1BYekZyQklaNjNGRDFfUkZ2UVo4MmNKOUJkUDBSbEY3ZkUtM0FJajE4NWVDejk4XzFHb2F3ZzhiOEVRUHRxeElFWmlvOC1pc29LZXFEX25XZ3pHN3FhaUFjWnR1b21zb0E?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-14 19:46 KST"
+    },
+    {
+      "title": "Mapping the Market: Key US interest rate eyes 5% threshold",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNU2ozRUM2bkg4dkZEQl8xeVNKeDRUQnlYN2szZkN6c2hlYVh5RmFDR2ZoRDlNZl9rN0JSdVpfZ1JQV0o4VENLc1RWWmpJRlNJelM3TV9vbXU3V011cmE2TUtrRkdUTDVlZ1JQWWtwMEFjUW80QkhzcmtmemZiWnl4Wk9rcTRueG8?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-14 19:28 KST"
     }
   ],
-  "rate_source_time": "2026-09-15 04:48:11 KST",
+  "rate_source_time": "2026-09-15 05:22:36 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": 7.3,
   "rate_change_pct": 0.54,
   "smbs_base_rate": 1345.3,
   "smbs_rate_date": "2026-09-15",
-  "smbs_rate_updated_at_kst": "2026-09-15 04:47:59 KST",
+  "smbs_rate_updated_at_kst": "2026-09-15 05:22:15 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1350.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-15 04:47:59 KST"
+  "rate_job_checked_at_kst": "2026-09-15 05:22:15 KST"
 }

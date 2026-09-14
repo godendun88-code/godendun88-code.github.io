@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-09-15 06:49 KST",
+  "updated_at_kst": "2026-09-15 07:23 KST",
   "current_rate": 1347.6,
   "previous_close": 1340.3,
-  "rate_updated_at_kst": "2026-09-15 06:49:24 KST",
+  "rate_updated_at_kst": "2026-09-15 07:23:32 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
@@ -13,10 +13,10 @@
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
     {
-      "title": "COMMENTARY: TRADING DAY AI-pocalypse now",
+      "title": "COMMENTARY: Trading Day: AI-pocalypse now",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNcXlMcDd2a09vanQ5eW1fdVU1d1kzUzU1ck0xQ29mX2Jtb0pmRk5fa29JZ3JrNHRHbGUzUXI1cHJPUnVqeHNEcGFGRkhqcXlyQ2t1NmppZm94c0tGRlZWUnRreHlTdU8yWWNVcEJXUjYzdEV5WW1GSFJJd3pDQkZid1R4aTdHaDJUVk94amYtZGR0aXlBdTFKRFp2WWQ3MGlONWQ4eEV3?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-15 06:10 KST"
+      "seen": "2026-09-15 06:23 KST"
     },
     {
       "title": "Bond market is telling the Fed to 'do some work' on inflation, analyst says",
@@ -25,10 +25,10 @@
       "seen": "2026-09-15 05:52 KST"
     },
     {
-      "title": "Wall Street ends down, calls for AI slowdown pummel chipmakers",
+      "title": "Wall Street drops as AI worries pummel chipmakers",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQYVB5TUc4VTc5MGdNMjVWcVYxUUszYjdXU3hrVnZXbVRCRm40Z3JBX3BhTElKaXVFQmU4SW82WWRwLVdxcGFTVVhPclllM25kSzR0MWdqUmU5YjQydl9MZDhLZ1MzQmF0b01UY3MxaWx0VkxOMjJUQzhmbHJPQjQzdXJMWkJ2OGs5R0ZQc2FjeVpEdjZkM2VqMC1aeGhXSm8?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-15 05:45 KST"
+      "seen": "2026-09-15 03:23 KST"
     },
     {
       "title": "US 10-year yields reach 5%, highest since 2023",
@@ -43,19 +43,19 @@
       "seen": "2026-09-15 00:45 KST"
     },
     {
-      "title": "Mapping the Market: Key US interest rate eyes 5% threshold",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNU2ozRUM2bkg4dkZEQl8xeVNKeDRUQnlYN2szZkN6c2hlYVh5RmFDR2ZoRDlNZl9rN0JSdVpfZ1JQV0o4VENLc1RWWmpJRlNJelM3TV9vbXU3V011cmE2TUtrRkdUTDVlZ1JQWWtwMEFjUW80QkhzcmtmemZiWnl4Wk9rcTRueG8?oc=5",
+      "title": "Sterling hits one-month low as oil price jump boosts dollar",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZ18zOFNiOFlkdF9jNUJvR3RGbXpoQmZ5YVl1ZEprUWNBTlY5QXpvTTZzOHBiT1UtQW1SU0J0aFdzWC1uR3hLQ1ZxcXNyaUtsYjZlWjZHeHNsVHlWdnlzNEQ2YlBmaHFIa2g5S0w1bzllTDBQUDZBUjJLeElfX3BpaDFjbE9JdnJxYllzeUE3bFVYbkNrcmxnODRfLVhTMXJNNnFZ?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-14 19:28 KST"
+      "seen": "2026-09-14 19:10 KST"
     }
   ],
-  "rate_source_time": "2026-09-15 06:49:24 KST",
+  "rate_source_time": "2026-09-15 07:23:32 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": 7.3,
   "rate_change_pct": 0.54,
   "smbs_base_rate": 1345.3,
   "smbs_rate_date": "2026-09-15",
-  "smbs_rate_updated_at_kst": "2026-09-15 06:49:09 KST",
+  "smbs_rate_updated_at_kst": "2026-09-15 07:23:20 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1350.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-15 06:49:09 KST"
+  "rate_job_checked_at_kst": "2026-09-15 07:23:20 KST"
 }

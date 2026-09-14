@@ -1,12 +1,12 @@
 {
-  "updated_at_kst": "2026-09-15 00:52 KST",
+  "updated_at_kst": "2026-09-15 01:52 KST",
   "current_rate": 1347.6,
   "previous_close": 1340.3,
-  "rate_updated_at_kst": "2026-09-15 00:51:50 KST",
+  "rate_updated_at_kst": "2026-09-15 01:52:39 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "상승 우세",
   "drivers": [
-    "연준·금리 관련 최신 기사(\"South African rand falls over 1% as oil jumps and investors await Fed meeting\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
+    "연준·금리 관련 최신 기사(\"Bitcoin's late summer rally set to face off against the Fed, Congress\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
     "미국 물가 상승 압력이 다시 부각되며 연준의 매파적 금리 경로 우려가 커져 달러 강세 요인으로 작용하고 있습니다.",
     "미 국채금리 관련 최신 기사(\"US 10-year yields reach 5%, highest since 2023\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다."
   ],
@@ -16,7 +16,13 @@
       "title": "US 10-year yields reach 5%, highest since 2023",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNSEVEbDgzNEZ0Ri1EVEo0el9wd0lZZFh1TExjMU16amxsbzluZG5fVXFhemhldzhYSVVFd2ZvWlJXMElMQU8tM1FhMTBDbm5GS0tkcU44aGZFVDNoUmlpQ0owN0R5dXdsZ042UGZ3Y0Y2YzQyczRoajRhYjFDSFFvVW1qdWoyeDg3V25MdkowbDdxeWM?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-15 00:15 KST"
+      "seen": "2026-09-15 01:02 KST"
+    },
+    {
+      "title": "Bitcoin's late summer rally set to face off against the Fed, Congress",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZEV1dXlZWDh3VTJpMHVvclNtOWY1WVZXSGFIM3JZa1h0bDYyNVUzd0lvcUFpdVJtVjFZemVZSGotMnJmR3Q5aDN5MzVaenluWUhseElqVEltb2RBQU8zTnktd3hOaWZnQ20yTG5OY3ltMjlXZU9ta0tvTkpnTlhncW1DcEg0bl9BNWdnVEdJOFc5THpPZmZYNjFNZEhPdEVvU1ZtWW5vWUlVMFp5VDd2RXpBcw?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-15 00:45 KST"
     },
     {
       "title": "South African rand falls over 1% as oil jumps and investors await Fed meeting",
@@ -37,32 +43,25 @@
       "seen": "2026-09-14 21:05 KST"
     },
     {
-      "title": "Bitcoin's late summer rally set to face off against the Fed, Congress",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZEV1dXlZWDh3VTJpMHVvclNtOWY1WVZXSGFIM3JZa1h0bDYyNVUzd0lvcUFpdVJtVjFZemVZSGotMnJmR3Q5aDN5MzVaenluWUhseElqVEltb2RBQU8zTnktd3hOaWZnQ20yTG5OY3ltMjlXZU9ta0tvTkpnTlhncW1DcEg0bl9BNWdnVEdJOFc5THpPZmZYNjFNZEhPdEVvU1ZtWW5vWUlVMFp5VDd2RXpBcw?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-14 20:16 KST"
-    },
-    {
       "title": "Syria fuel price hikes trigger widest protests since Assad fall",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdVRQSVoxOWU2azRFeC0zZmpXWDktNzRrTjhvQzgyRWtFVmtOb3doanREbmdpRldIWWlDSE1CeTVNWnpMZlVkQlZycmNSaHZXLWliYjVHekxXa2RrSVdwYU5ucExKbTU2aTQ4c01TV3ctU2JWWFJUR2hPb21INWZiZHYtb3JYa2lNS04yMUdENk51YVY1RHl5VTVhalNKWmFfUS0tUUlZYkhULVZ4OTZHT2g4bVcxb3ND?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-14 20:11 KST"
     }
   ],
-  "rate_source_time": "2026-09-15 00:51:50 KST",
+  "rate_source_time": "2026-09-15 01:52:39 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": 7.3,
   "rate_change_pct": 0.54,
   "smbs_base_rate": 1345.3,
   "smbs_rate_date": "2026-09-15",
-  "smbs_rate_updated_at_kst": "2026-09-15 01:23:27 KST",
+  "smbs_rate_updated_at_kst": "2026-09-15 01:52:25 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
     1338.0,
     1350.0
   ],
-  "rate_check_status": "failed",
-  "rate_job_checked_at_kst": "2026-09-15 01:23:27 KST",
-  "rate_fetch_error": "RuntimeError: KB STAR FX 자동조회 3회 실패: TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n | TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n | TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n"
+  "rate_check_status": "success",
+  "rate_job_checked_at_kst": "2026-09-15 01:52:25 KST"
 }

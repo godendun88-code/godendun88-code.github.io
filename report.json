@@ -1,14 +1,14 @@
 {
-  "updated_at_kst": "2026-09-14 14:49 KST",
-  "current_rate": 1345.3,
+  "updated_at_kst": "2026-09-14 15:30 KST",
+  "current_rate": 1347.2,
   "previous_close": 1340.3,
-  "rate_updated_at_kst": "2026-09-14 14:49:23 KST",
+  "rate_updated_at_kst": "2026-09-14 15:30:28 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "상승 우세",
   "drivers": [
     "연준의 추가 금리 인상 또는 매파적 기조 우려가 부각돼 달러 강세 압력이 높아지는 요인으로 작용하고 있습니다.",
-    "연준·금리 관련 최신 기사(\"Dollar grinds higher, yen near 7-month high ahead of Fed, BOJ meetings\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
-    "연준의 추가 금리 인상 또는 매파적 기조 우려가 부각돼 달러 강세 압력이 높아지는 요인으로 작용하고 있습니다."
+    "유가·지정학 관련 최신 기사(\"COMMENTARY: When it comes to crude oil prices, it's location, location, location\")가 확인돼 원화 변동성 확대 요인으로 작용하고 있습니다.",
+    "연준·금리 관련 최신 기사(\"Dollar grinds higher, yen near 7-month high ahead of Fed, BOJ meetings\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다."
   ],
   "outlook": "달러 강세·금리 상승 계열의 재료가 상대적으로 우세해 원/달러는 단기 상승 압력이 나타날 수 있으나, 국내 수급과 위험선호 회복 여부에 따라 변동성이 예상됩니다.",
   "articles": [
@@ -25,19 +25,37 @@
       "seen": "2026-09-14 09:29 KST"
     },
     {
+      "title": "COMMENTARY: When it comes to crude oil prices, it's location, location, location",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPRUMzTG56enVWUS00T2RJOEFGcVc4d3lmUldyM1RVUlJMX0d4Q2sxZnd5NHFYSlVidnFyejJqMk5zZGM4a3JBUXNaaWxmZThhcEtCMnIteXNFTklLR3l5dTZGSzBVU1Fyd3dQRDdfVy1hX2Yza1QtcmxfbUlvWEJQalBLUEpPbml1VWxFWFlVRG82UDFDVkJuZzkxeDlvSG04VzR4RkUzOUtZbkxET29sMFRfaWJhVXp2QkZKQzBhSUdKS29YdjRjbkx3?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-14 09:10 KST"
+    },
+    {
       "title": "Shares drop in Asia as oil rises, rate hikes loom",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOXzFkaEptQk9Gc2REWUZ3MHpYU1ZjbFpqSVp2cFV6b21TMU9pSUNnRWlqajdrYnAwN2FZTzRvNzJvUVlSTkYzcWxDMFlVZ1Ftb2V6OVhURC1haHFyS0NLcnRZUHhpSFRCb3VuQUt4SFFGTHJnVEg4eW0wSHgxcVlmR0JoRQ?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-14 08:11 KST"
+    },
+    {
+      "title": "Shares skid in Asia as oil climbs, rate hikes loom",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOXzFkaEptQk9Gc2REWUZ3MHpYU1ZjbFpqSVp2cFV6b21TMU9pSUNnRWlqajdrYnAwN2FZTzRvNzJvUVlSTkYzcWxDMFlVZ1Ftb2V6OVhURC1haHFyS0NLcnRZUHhpSFRCb3VuQUt4SFFGTHJnVEg4eW0wSHgxcVlmR0JoRQ?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-14 08:11 KST"
+    },
+    {
+      "title": "Oil prices jump more than 2% after new strikes on Saudi, Strait of Hormuz",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOcXNvWlpHUEh2bzNITUYtX04zUG1vclFCeDZ1NVdQTkNXUk5OTmRESElsUXUyQjNsYVU1d2tEMFlNRjB1VXVnenR4UHZzd3F3dEZWR2tWSVZMREFiZXF6NjR5SlB5VmdaNXpTWHQ3UF9POFRGanpoR0NxZUV3ZUU4alAycW9mcGdLak5lQ2NXdlpHQ3I3eDVRM3JDWmI3SGdYUjZsbnJSaUVySHk3UFl4Y3AxVGFZbmg5?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-14 07:23 KST"
     }
   ],
-  "rate_source_time": "2026-09-14 14:49:23 KST",
+  "rate_source_time": "2026-09-14 15:30:28 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 5.0,
-  "rate_change_pct": 0.37,
+  "rate_change": 6.9,
+  "rate_change_pct": 0.51,
   "smbs_base_rate": 1346.4,
   "smbs_rate_date": "2026-09-14",
-  "smbs_rate_updated_at_kst": "2026-09-14 14:49:08 KST",
+  "smbs_rate_updated_at_kst": "2026-09-14 15:30:13 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -45,5 +63,5 @@
     1350.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-14 14:49:08 KST"
+  "rate_job_checked_at_kst": "2026-09-14 15:30:13 KST"
 }

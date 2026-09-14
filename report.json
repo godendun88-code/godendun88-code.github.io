@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-09-14 23:53 KST",
+  "updated_at_kst": "2026-09-15 00:26 KST",
   "current_rate": 1347.6,
   "previous_close": 1340.3,
-  "rate_updated_at_kst": "2026-09-14 23:53:13 KST",
+  "rate_updated_at_kst": "2026-09-15 00:26:03 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "상승 우세",
   "drivers": [
@@ -37,25 +37,25 @@
       "seen": "2026-09-14 21:05 KST"
     },
     {
+      "title": "Bitcoin's late summer rally set to face off against the Fed, Congress",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZEV1dXlZWDh3VTJpMHVvclNtOWY1WVZXSGFIM3JZa1h0bDYyNVUzd0lvcUFpdVJtVjFZemVZSGotMnJmR3Q5aDN5MzVaenluWUhseElqVEltb2RBQU8zTnktd3hOaWZnQ20yTG5OY3ltMjlXZU9ta0tvTkpnTlhncW1DcEg0bl9BNWdnVEdJOFc5THpPZmZYNjFNZEhPdEVvU1ZtWW5vWUlVMFp5VDd2RXpBcw?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-14 20:16 KST"
+    },
+    {
       "title": "Syria fuel price hikes trigger widest protests since Assad fall",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdVRQSVoxOWU2azRFeC0zZmpXWDktNzRrTjhvQzgyRWtFVmtOb3doanREbmdpRldIWWlDSE1CeTVNWnpMZlVkQlZycmNSaHZXLWliYjVHekxXa2RrSVdwYU5ucExKbTU2aTQ4c01TV3ctU2JWWFJUR2hPb21INWZiZHYtb3JYa2lNS04yMUdENk51YVY1RHl5VTVhalNKWmFfUS0tUUlZYkhULVZ4OTZHT2g4bVcxb3ND?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-14 20:11 KST"
-    },
-    {
-      "title": "Sterling hits one-month low as oil price jump boosts dollar",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZ18zOFNiOFlkdF9jNUJvR3RGbXpoQmZ5YVl1ZEprUWNBTlY5QXpvTTZzOHBiT1UtQW1SU0J0aFdzWC1uR3hLQ1ZxcXNyaUtsYjZlWjZHeHNsVHlWdnlzNEQ2YlBmaHFIa2g5S0w1bzllTDBQUDZBUjJLeElfX3BpaDFjbE9JdnJxYllzeUE3bFVYbkNrcmxnODRfLVhTMXJNNnFZ?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-14 19:10 KST"
     }
   ],
-  "rate_source_time": "2026-09-14 23:53:13 KST",
+  "rate_source_time": "2026-09-15 00:26:03 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": 7.3,
   "rate_change_pct": 0.54,
-  "smbs_base_rate": 1346.4,
-  "smbs_rate_date": "2026-09-14",
-  "smbs_rate_updated_at_kst": "2026-09-14 23:53:00 KST",
+  "smbs_base_rate": 1345.3,
+  "smbs_rate_date": "2026-09-15",
+  "smbs_rate_updated_at_kst": "2026-09-15 00:25:51 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1350.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-14 23:53:00 KST"
+  "rate_job_checked_at_kst": "2026-09-15 00:25:51 KST"
 }

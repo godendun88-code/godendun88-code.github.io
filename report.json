@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-09-14 17:53 KST",
-  "current_rate": 1345.2,
+  "updated_at_kst": "2026-09-14 18:25 KST",
+  "current_rate": 1345.6,
   "previous_close": 1340.3,
-  "rate_updated_at_kst": "2026-09-14 17:25:42 KST",
+  "rate_updated_at_kst": "2026-09-14 18:25:34 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "상승 우세",
   "drivers": [
@@ -13,16 +13,16 @@
   "outlook": "달러 강세·금리 상승 계열의 재료가 상대적으로 우세해 원/달러는 단기 상승 압력이 나타날 수 있으나, 국내 수급과 위험선호 회복 여부에 따라 변동성이 예상됩니다.",
   "articles": [
     {
-      "title": "COMMENTARY: When it comes to crude oil prices, it's location, location, location",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPRUMzTG56enVWUS00T2RJOEFGcVc4d3lmUldyM1RVUlJMX0d4Q2sxZnd5NHFYSlVidnFyejJqMk5zZGM4a3JBUXNaaWxmZThhcEtCMnIteXNFTklLR3l5dTZGSzBVU1Fyd3dQRDdfVy1hX2Yza1QtcmxfbUlvWEJQalBLUEpPbml1VWxFWFlVRG82UDFDVkJuZzkxeDlvSG04VzR4RkUzOUtZbkxET29sMFRfaWJhVXp2QkZKQzBhSUdKS29YdjRjbkx3?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-14 11:16 KST"
-    },
-    {
       "title": "Dollar firms, yen wobbles near 7-month high ahead of Fed, BOJ decisions",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPQzNkV09NNEdQWTNoSFp6dGI0bWxzUU82ZWQ4TjZfWVI4bWZibFBJNVVBRmZpMC00WWVKdExyZUhKTEttU3pRTWczSEhMbVR4RzdSeHhBd0tnQy04aGVzMTcwZEJjenRKNGRhcDZQeWx3YTVhTkUxZC1tbnNud3ZyS1JYTmpFTDU4OXRjcWdaeTd0ZXRzaUxMM2VQUy11YXZidmRHVDU4VkJQbHExRHVXUUh5dw?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-14 09:29 KST"
+    },
+    {
+      "title": "COMMENTARY: When it comes to crude oil prices, it's location, location, location",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPRUMzTG56enVWUS00T2RJOEFGcVc4d3lmUldyM1RVUlJMX0d4Q2sxZnd5NHFYSlVidnFyejJqMk5zZGM4a3JBUXNaaWxmZThhcEtCMnIteXNFTklLR3l5dTZGSzBVU1Fyd3dQRDdfVy1hX2Yza1QtcmxfbUlvWEJQalBLUEpPbml1VWxFWFlVRG82UDFDVkJuZzkxeDlvSG04VzR4RkUzOUtZbkxET29sMFRfaWJhVXp2QkZKQzBhSUdKS29YdjRjbkx3?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-14 09:10 KST"
     },
     {
       "title": "Shares skid in Asia as oil climbs, rate hikes loom",
@@ -31,20 +31,19 @@
       "seen": "2026-09-14 08:11 KST"
     }
   ],
-  "rate_source_time": "2026-09-14 17:25:42 KST",
+  "rate_source_time": "2026-09-14 18:25:34 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 4.9,
-  "rate_change_pct": 0.37,
+  "rate_change": 5.3,
+  "rate_change_pct": 0.4,
   "smbs_base_rate": 1346.4,
   "smbs_rate_date": "2026-09-14",
-  "smbs_rate_updated_at_kst": "2026-09-14 17:51:28 KST",
+  "smbs_rate_updated_at_kst": "2026-09-14 18:25:22 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
     1338.0,
     1350.0
   ],
-  "rate_check_status": "failed",
-  "rate_job_checked_at_kst": "2026-09-14 17:51:28 KST",
-  "rate_fetch_error": "RuntimeError: KB STAR FX 자동조회 3회 실패: TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n | TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n | TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n"
+  "rate_check_status": "success",
+  "rate_job_checked_at_kst": "2026-09-14 18:25:22 KST"
 }

@@ -1,34 +1,28 @@
 {
-  "updated_at_kst": "2026-09-14 17:25 KST",
+  "updated_at_kst": "2026-09-14 17:53 KST",
   "current_rate": 1345.2,
   "previous_close": 1340.3,
   "rate_updated_at_kst": "2026-09-14 17:25:42 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "상승 우세",
   "drivers": [
-    "연준의 추가 금리 인상 또는 매파적 기조 우려가 부각돼 달러 강세 압력이 높아지는 요인으로 작용하고 있습니다.",
+    "연준·금리 관련 최신 기사(\"Dollar firms, yen wobbles near 7-month high ahead of Fed, BOJ decisions\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
     "유가·지정학 관련 최신 기사(\"COMMENTARY: When it comes to crude oil prices, it's location, location, location\")가 확인돼 원화 변동성 확대 요인으로 작용하고 있습니다.",
-    "연준·금리 관련 최신 기사(\"Dollar firms, yen wobbles near 7-month high ahead of Fed, BOJ decisions\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다."
+    "연준의 추가 금리 인상 또는 매파적 기조 우려가 부각돼 달러 강세 압력이 높아지는 요인으로 작용하고 있습니다."
   ],
   "outlook": "달러 강세·금리 상승 계열의 재료가 상대적으로 우세해 원/달러는 단기 상승 압력이 나타날 수 있으나, 국내 수급과 위험선호 회복 여부에 따라 변동성이 예상됩니다.",
   "articles": [
     {
-      "title": "Goldman Sachs flips forecast, now sees September Fed rate hike",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNTnlqS1c0ZUI3VGExTWl4c3VCbXVLUi1NMFZZNUNaMmdLYzR2RnRDZjFPbGhPVG83M2ZBSms4YTc0b04wMUtNTG9GWmJnM29BU1ZzOWpHTjVxWXhjNHd6TmhndFV0VWJEc2ZkVm45OWtTMEktQ2NBMEdsd3J0XzNTWE1SNXVUQ3hKWFQ1WUJKLVc1bjRVWlg5NnFyaw?oc=5",
+      "title": "COMMENTARY: When it comes to crude oil prices, it's location, location, location",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPRUMzTG56enVWUS00T2RJOEFGcVc4d3lmUldyM1RVUlJMX0d4Q2sxZnd5NHFYSlVidnFyejJqMk5zZGM4a3JBUXNaaWxmZThhcEtCMnIteXNFTklLR3l5dTZGSzBVU1Fyd3dQRDdfVy1hX2Yza1QtcmxfbUlvWEJQalBLUEpPbml1VWxFWFlVRG82UDFDVkJuZzkxeDlvSG04VzR4RkUzOUtZbkxET29sMFRfaWJhVXp2QkZKQzBhSUdKS29YdjRjbkx3?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-14 11:49 KST"
+      "seen": "2026-09-14 11:16 KST"
     },
     {
       "title": "Dollar firms, yen wobbles near 7-month high ahead of Fed, BOJ decisions",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPQzNkV09NNEdQWTNoSFp6dGI0bWxzUU82ZWQ4TjZfWVI4bWZibFBJNVVBRmZpMC00WWVKdExyZUhKTEttU3pRTWczSEhMbVR4RzdSeHhBd0tnQy04aGVzMTcwZEJjenRKNGRhcDZQeWx3YTVhTkUxZC1tbnNud3ZyS1JYTmpFTDU4OXRjcWdaeTd0ZXRzaUxMM2VQUy11YXZidmRHVDU4VkJQbHExRHVXUUh5dw?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-14 09:29 KST"
-    },
-    {
-      "title": "COMMENTARY: When it comes to crude oil prices, it's location, location, location",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPRUMzTG56enVWUS00T2RJOEFGcVc4d3lmUldyM1RVUlJMX0d4Q2sxZnd5NHFYSlVidnFyejJqMk5zZGM4a3JBUXNaaWxmZThhcEtCMnIteXNFTklLR3l5dTZGSzBVU1Fyd3dQRDdfVy1hX2Yza1QtcmxfbUlvWEJQalBLUEpPbml1VWxFWFlVRG82UDFDVkJuZzkxeDlvSG04VzR4RkUzOUtZbkxET29sMFRfaWJhVXp2QkZKQzBhSUdKS29YdjRjbkx3?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-14 09:10 KST"
     },
     {
       "title": "Shares skid in Asia as oil climbs, rate hikes loom",
@@ -43,14 +37,14 @@
   "rate_change_pct": 0.37,
   "smbs_base_rate": 1346.4,
   "smbs_rate_date": "2026-09-14",
-  "smbs_rate_updated_at_kst": "2026-09-14 16:51:06 KST",
+  "smbs_rate_updated_at_kst": "2026-09-14 17:51:28 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
     1338.0,
     1350.0
   ],
-  "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-14 17:25:26 KST",
-  "smbs_rate_error": "RuntimeError: 서울외국환중개 페이지에서 USD 매매기준율을 찾지 못했습니다."
+  "rate_check_status": "failed",
+  "rate_job_checked_at_kst": "2026-09-14 17:51:28 KST",
+  "rate_fetch_error": "RuntimeError: KB STAR FX 자동조회 3회 실패: TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n | TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n | TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n"
 }

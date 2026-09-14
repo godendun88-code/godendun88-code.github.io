@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-09-15 08:20 KST",
-  "current_rate": 1347.6,
-  "previous_close": 1340.3,
-  "rate_updated_at_kst": "2026-09-15 08:20:40 KST",
+  "updated_at_kst": "2026-09-15 08:47 KST",
+  "current_rate": 1347.5,
+  "previous_close": 1345.82,
+  "rate_updated_at_kst": "2026-09-15 08:47:20 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
@@ -19,6 +19,12 @@
       "seen": "2026-09-15 07:19 KST"
     },
     {
+      "title": "US 10-year yields reach 5%, highest since 2023",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNSEVEbDgzNEZ0Ri1EVEo0el9wd0lZZFh1TExjMU16amxsbzluZG5fVXFhemhldzhYSVVFd2ZvWlJXMElMQU8tM1FhMTBDbm5GS0tkcU44aGZFVDNoUmlpQ0owN0R5dXdsZ042UGZ3Y0Y2YzQyczRoajRhYjFDSFFvVW1qdWoyeDg3V25MdkowbDdxeWM?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-15 07:17 KST"
+    },
+    {
       "title": "COMMENTARY: Trading Day: AI-pocalypse now",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNcXlMcDd2a09vanQ5eW1fdVU1d1kzUzU1ck0xQ29mX2Jtb0pmRk5fa29JZ3JrNHRHbGUzUXI1cHJPUnVqeHNEcGFGRkhqcXlyQ2t1NmppZm94c0tGRlZWUnRreHlTdU8yWWNVcEJXUjYzdEV5WW1GSFJJd3pDQkZid1R4aTdHaDJUVk94amYtZGR0aXlBdTFKRFp2WWQ3MGlONWQ4eEV3?oc=5",
       "domain": "Reuters",
@@ -29,12 +35,6 @@
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1hYkJpOUV3WUgxeHNKOExXNlk0elNMTjlXZGxROXZkTDFOT05NczBtY3FxR1p3Q3dsSmo0UDFFcnZEcFRtdFQxdWJpdkk4V1EwbDFKZEwxVFVhZEd1bUl5N1lCMHRRWG8?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-15 05:52 KST"
-    },
-    {
-      "title": "US 10-year yields reach 5%, highest since 2023",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNSEVEbDgzNEZ0Ri1EVEo0el9wd0lZZFh1TExjMU16amxsbzluZG5fVXFhemhldzhYSVVFd2ZvWlJXMElMQU8tM1FhMTBDbm5GS0tkcU44aGZFVDNoUmlpQ0owN0R5dXdsZ042UGZ3Y0Y2YzQyczRoajRhYjFDSFFvVW1qdWoyeDg3V25MdkowbDdxeWM?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-15 01:02 KST"
     },
     {
       "title": "Bitcoin's late summer rally set to face off against the Fed, Congress",
@@ -49,13 +49,13 @@
       "seen": "2026-09-14 19:10 KST"
     }
   ],
-  "rate_source_time": "2026-09-15 08:20:40 KST",
+  "rate_source_time": "2026-09-15 08:47:20 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 7.3,
-  "rate_change_pct": 0.54,
+  "rate_change": 1.68,
+  "rate_change_pct": 0.19,
   "smbs_base_rate": 1345.3,
   "smbs_rate_date": "2026-09-15",
-  "smbs_rate_updated_at_kst": "2026-09-15 08:20:29 KST",
+  "smbs_rate_updated_at_kst": "2026-09-15 08:47:08 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1354.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-15 08:20:29 KST"
+  "rate_job_checked_at_kst": "2026-09-15 08:47:08 KST"
 }

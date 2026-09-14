@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-09-15 02:21 KST",
+  "updated_at_kst": "2026-09-15 02:50 KST",
   "current_rate": 1347.6,
   "previous_close": 1340.3,
-  "rate_updated_at_kst": "2026-09-15 02:21:45 KST",
+  "rate_updated_at_kst": "2026-09-15 02:49:47 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "상승 우세",
   "drivers": [
@@ -25,12 +25,6 @@
       "seen": "2026-09-15 00:45 KST"
     },
     {
-      "title": "South African rand falls over 1% as oil jumps and investors await Fed meeting",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPbmRDNjZiUTA5ZjFZMWV2T193ZjhkRkphXzE3cno5M3A2N0dmVlo1YzFaQnFaRDh3a25uVmUteWRiR01ORmtpMVVDSi03Ti1MUW83U0FWX2Z2dS11RmdoNDd0Zm5nYWN0RHVSNnozNFk4RDZPc2JaRmw4QVktZkdvUEJwU2Z6U0d1MWZpLW92RWFBZG50RG8wNjF6Mk12ajRnMDRuLXBFZ2FKYW1nekpnUA?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-14 22:43 KST"
-    },
-    {
       "title": "Fed rate hike on Wednesday now likely, say economists, and at least one more to follow: Reuters Poll",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPYmtGdWt3WFV1bmpCR2REM0NZMkZIOEE2c3BRdFhrc21CcUpVUEx6QTdOdDZOQ3dGV2pmYmxOVDA3WjJoclVnZlB2cXl5R3NfSDh6cy0zWGRoUFU1UjA4LTVFckZHWkVBUkJpdWtFaTFvTWNjM1IzVi1sSGhZNmNETzdJcUhOOF9MN2pGSXNyelRkSFlIUktUT1ZjX1VIY2MxQV80NWNLVi1hS0s0bEpaR2FGbzRzeVE?oc=5",
       "domain": "Reuters",
@@ -47,15 +41,21 @@
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdVRQSVoxOWU2azRFeC0zZmpXWDktNzRrTjhvQzgyRWtFVmtOb3doanREbmdpRldIWWlDSE1CeTVNWnpMZlVkQlZycmNSaHZXLWliYjVHekxXa2RrSVdwYU5ucExKbTU2aTQ4c01TV3ctU2JWWFJUR2hPb21INWZiZHYtb3JYa2lNS04yMUdENk51YVY1RHl5VTVhalNKWmFfUS0tUUlZYkhULVZ4OTZHT2g4bVcxb3ND?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-14 20:11 KST"
+    },
+    {
+      "title": "ECB's attention shifting to natural gas as prices soar",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxObHJuaXlsQ01rYzJ5aUp3U1JBaDhnZ1J5TkZzT0JGRGVPWXlGMU0zSkpXc0RZYUVfbHMtMmdIclpnNjQ1QWNaUlhrWl9xS1NqZmRra3dhMU1sbGpRRG0wckhzZjFGSjB1VlpORjRjcFRrT2QzSUtVa1JZdDFpU0Zxcjg1Z3BNVnlBSnNBU0VvdkJLdFhsYkZ1RlJBQnM2WU5NWEJlMWE0SFBQLW00WnFkM1ZR?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-14 20:00 KST"
     }
   ],
-  "rate_source_time": "2026-09-15 02:21:45 KST",
+  "rate_source_time": "2026-09-15 02:49:47 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": 7.3,
   "rate_change_pct": 0.54,
   "smbs_base_rate": 1345.3,
   "smbs_rate_date": "2026-09-15",
-  "smbs_rate_updated_at_kst": "2026-09-15 02:21:29 KST",
+  "smbs_rate_updated_at_kst": "2026-09-15 02:49:32 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1350.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-15 02:21:29 KST"
+  "rate_job_checked_at_kst": "2026-09-15 02:49:32 KST"
 }

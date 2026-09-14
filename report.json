@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-09-15 05:22 KST",
+  "updated_at_kst": "2026-09-15 05:49 KST",
   "current_rate": 1347.6,
   "previous_close": 1340.3,
-  "rate_updated_at_kst": "2026-09-15 05:22:36 KST",
+  "rate_updated_at_kst": "2026-09-15 05:49:33 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
@@ -31,31 +31,31 @@
       "seen": "2026-09-15 00:45 KST"
     },
     {
+      "title": "Fed rate hike on Wednesday now likely, say economists, and at least one more to follow: Reuters Poll",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPYmtGdWt3WFV1bmpCR2REM0NZMkZIOEE2c3BRdFhrc21CcUpVUEx6QTdOdDZOQ3dGV2pmYmxOVDA3WjJoclVnZlB2cXl5R3NfSDh6cy0zWGRoUFU1UjA4LTVFckZHWkVBUkJpdWtFaTFvTWNjM1IzVi1sSGhZNmNETzdJcUhOOF9MN2pGSXNyelRkSFlIUktUT1ZjX1VIY2MxQV80NWNLVi1hS0s0bEpaR2FGbzRzeVE?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-14 21:32 KST"
+    },
+    {
       "title": "Biggest risk for sinking bond market is Fed standing pat",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQQ2ZhcnB0a2xLd1ZoRXVlOGYtZ2prLUR4OWZLVXZfSkZKNFdhUGZ2d1ZXd2pGeUNSZE9sNkx1RTN3SlpzejVKVkhIVnFzbUNHSUd0T2NNY29nMENnRWxCUjBOUjJydXFXcWx4ZW10TkZzMFpScVhZbHdkUnU1bUM3bGFfZ3RfZ1FpcGpHZF9pczdNYUZ1QjZoa3dRR0Z2M3hKQlZhSnU0LU0?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-14 19:54 KST"
     },
     {
-      "title": "Asia's oil traders, seeing no quick end to Middle East war, stay bullish on prices",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQQjlwYUFLdF9Cc3lZbHQxSHlwT2Y4T3Yzd2ZfZUNwdmNWM1Y5d2M4azA3SUEyLUkzTWo1NEJVeVJSSFROXzJHM0tjdlBfWGpJUkY0MlJpSFFxSmlPcDgydF81R1BYekZyQklaNjNGRDFfUkZ2UVo4MmNKOUJkUDBSbEY3ZkUtM0FJajE4NWVDejk4XzFHb2F3ZzhiOEVRUHRxeElFWmlvOC1pc29LZXFEX25XZ3pHN3FhaUFjWnR1b21zb0E?oc=5",
+      "title": "Sterling hits one-month low as oil price jump boosts dollar",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZ18zOFNiOFlkdF9jNUJvR3RGbXpoQmZ5YVl1ZEprUWNBTlY5QXpvTTZzOHBiT1UtQW1SU0J0aFdzWC1uR3hLQ1ZxcXNyaUtsYjZlWjZHeHNsVHlWdnlzNEQ2YlBmaHFIa2g5S0w1bzllTDBQUDZBUjJLeElfX3BpaDFjbE9JdnJxYllzeUE3bFVYbkNrcmxnODRfLVhTMXJNNnFZ?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-14 19:46 KST"
-    },
-    {
-      "title": "Mapping the Market: Key US interest rate eyes 5% threshold",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNU2ozRUM2bkg4dkZEQl8xeVNKeDRUQnlYN2szZkN6c2hlYVh5RmFDR2ZoRDlNZl9rN0JSdVpfZ1JQV0o4VENLc1RWWmpJRlNJelM3TV9vbXU3V011cmE2TUtrRkdUTDVlZ1JQWWtwMEFjUW80QkhzcmtmemZiWnl4Wk9rcTRueG8?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-14 19:28 KST"
+      "seen": "2026-09-14 19:10 KST"
     }
   ],
-  "rate_source_time": "2026-09-15 05:22:36 KST",
+  "rate_source_time": "2026-09-15 05:49:33 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": 7.3,
   "rate_change_pct": 0.54,
   "smbs_base_rate": 1345.3,
   "smbs_rate_date": "2026-09-15",
-  "smbs_rate_updated_at_kst": "2026-09-15 05:22:15 KST",
+  "smbs_rate_updated_at_kst": "2026-09-15 05:49:19 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1350.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-15 05:22:15 KST"
+  "rate_job_checked_at_kst": "2026-09-15 05:49:19 KST"
 }

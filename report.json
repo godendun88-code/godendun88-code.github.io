@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-09-15 03:26 KST",
+  "updated_at_kst": "2026-09-15 04:23 KST",
   "current_rate": 1347.6,
   "previous_close": 1340.3,
-  "rate_updated_at_kst": "2026-09-15 03:53:20 KST",
+  "rate_updated_at_kst": "2026-09-15 04:23:16 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "상승 우세",
   "drivers": [
@@ -12,6 +12,12 @@
   ],
   "outlook": "달러 강세·금리 상승 계열의 재료가 상대적으로 우세해 원/달러는 단기 상승 압력이 나타날 수 있으나, 국내 수급과 위험선호 회복 여부에 따라 변동성이 예상됩니다.",
   "articles": [
+    {
+      "title": "Wall Street drops as AI worries pummel chipmakers",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQYVB5TUc4VTc5MGdNMjVWcVYxUUszYjdXU3hrVnZXbVRCRm40Z3JBX3BhTElKaXVFQmU4SW82WWRwLVdxcGFTVVhPclllM25kSzR0MWdqUmU5YjQydl9MZDhLZ1MzQmF0b01UY3MxaWx0VkxOMjJUQzhmbHJPQjQzdXJMWkJ2OGs5R0ZQc2FjeVpEdjZkM2VqMC1aeGhXSm8?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-15 03:23 KST"
+    },
     {
       "title": "US 10-year yields reach 5%, highest since 2023",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNSEVEbDgzNEZ0Ri1EVEo0el9wd0lZZFh1TExjMU16amxsbzluZG5fVXFhemhldzhYSVVFd2ZvWlJXMElMQU8tM1FhMTBDbm5GS0tkcU44aGZFVDNoUmlpQ0owN0R5dXdsZ042UGZ3Y0Y2YzQyczRoajRhYjFDSFFvVW1qdWoyeDg3V25MdkowbDdxeWM?oc=5",
@@ -37,25 +43,19 @@
       "seen": "2026-09-14 21:05 KST"
     },
     {
-      "title": "Syria fuel price hikes trigger widest protests since Assad fall",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdVRQSVoxOWU2azRFeC0zZmpXWDktNzRrTjhvQzgyRWtFVmtOb3doanREbmdpRldIWWlDSE1CeTVNWnpMZlVkQlZycmNSaHZXLWliYjVHekxXa2RrSVdwYU5ucExKbTU2aTQ4c01TV3ctU2JWWFJUR2hPb21INWZiZHYtb3JYa2lNS04yMUdENk51YVY1RHl5VTVhalNKWmFfUS0tUUlZYkhULVZ4OTZHT2g4bVcxb3ND?oc=5",
+      "title": "Biggest risk for sinking bond market is Fed standing pat",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQQ2ZhcnB0a2xLd1ZoRXVlOGYtZ2prLUR4OWZLVXZfSkZKNFdhUGZ2d1ZXd2pGeUNSZE9sNkx1RTN3SlpzejVKVkhIVnFzbUNHSUd0T2NNY29nMENnRWxCUjBOUjJydXFXcWx4ZW10TkZzMFpScVhZbHdkUnU1bUM3bGFfZ3RfZ1FpcGpHZF9pczdNYUZ1QjZoa3dRR0Z2M3hKQlZhSnU0LU0?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-14 20:11 KST"
-    },
-    {
-      "title": "ECB's attention shifting to natural gas as prices soar",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxObHJuaXlsQ01rYzJ5aUp3U1JBaDhnZ1J5TkZzT0JGRGVPWXlGMU0zSkpXc0RZYUVfbHMtMmdIclpnNjQ1QWNaUlhrWl9xS1NqZmRra3dhMU1sbGpRRG0wckhzZjFGSjB1VlpORjRjcFRrT2QzSUtVa1JZdDFpU0Zxcjg1Z3BNVnlBSnNBU0VvdkJLdFhsYkZ1RlJBQnM2WU5NWEJlMWE0SFBQLW00WnFkM1ZR?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-14 20:00 KST"
+      "seen": "2026-09-14 19:54 KST"
     }
   ],
-  "rate_source_time": "2026-09-15 03:53:20 KST",
+  "rate_source_time": "2026-09-15 04:23:16 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": 7.3,
   "rate_change_pct": 0.54,
   "smbs_base_rate": 1345.3,
   "smbs_rate_date": "2026-09-15",
-  "smbs_rate_updated_at_kst": "2026-09-15 03:53:09 KST",
+  "smbs_rate_updated_at_kst": "2026-09-15 04:23:03 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1350.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-15 03:53:09 KST"
+  "rate_job_checked_at_kst": "2026-09-15 04:23:03 KST"
 }

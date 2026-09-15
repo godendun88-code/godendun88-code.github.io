@@ -1,23 +1,17 @@
 {
-  "updated_at_kst": "2026-09-15 08:47 KST",
-  "current_rate": 1347.5,
-  "previous_close": 1345.82,
-  "rate_updated_at_kst": "2026-09-15 08:47:20 KST",
+  "updated_at_kst": "2026-09-15 09:31 KST",
+  "current_rate": 1348.7,
+  "previous_close": 1347.6,
+  "rate_updated_at_kst": "2026-09-15 09:31:21 KST",
   "rate_source": "KB STAR FX Market Watch",
-  "market_bias": "혼조",
+  "market_bias": "상승 우세",
   "drivers": [
-    "연준·금리 관련 최신 기사(\"Bitcoin's late summer rally set to face off against the Fed, Congress\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
+    "연준·금리 관련 최신 기사(\"Dollar rises as Middle East conflict lifts oil, Fed hike looms\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
     "미국 물가 관련 최신 기사(\"Bond market is telling the Fed to 'do some work' on inflation, analyst says\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
     "미 국채금리 관련 최신 기사(\"US 10-year yields reach 5%, highest since 2023\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다."
   ],
-  "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
+  "outlook": "달러 강세·금리 상승 계열의 재료가 상대적으로 우세해 원/달러는 단기 상승 압력이 나타날 수 있으나, 국내 수급과 위험선호 회복 여부에 따라 변동성이 예상됩니다.",
   "articles": [
-    {
-      "title": "Wall Street ends down, calls for AI slowdown pummel chipmakers",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQYVB5TUc4VTc5MGdNMjVWcVYxUUszYjdXU3hrVnZXbVRCRm40Z3JBX3BhTElKaXVFQmU4SW82WWRwLVdxcGFTVVhPclllM25kSzR0MWdqUmU5YjQydl9MZDhLZ1MzQmF0b01UY3MxaWx0VkxOMjJUQzhmbHJPQjQzdXJMWkJ2OGs5R0ZQc2FjeVpEdjZkM2VqMC1aeGhXSm8?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-15 07:19 KST"
-    },
     {
       "title": "US 10-year yields reach 5%, highest since 2023",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNSEVEbDgzNEZ0Ri1EVEo0el9wd0lZZFh1TExjMU16amxsbzluZG5fVXFhemhldzhYSVVFd2ZvWlJXMElMQU8tM1FhMTBDbm5GS0tkcU44aGZFVDNoUmlpQ0owN0R5dXdsZ042UGZ3Y0Y2YzQyczRoajRhYjFDSFFvVW1qdWoyeDg3V25MdkowbDdxeWM?oc=5",
@@ -37,25 +31,31 @@
       "seen": "2026-09-15 05:52 KST"
     },
     {
+      "title": "Dollar rises as Middle East conflict lifts oil, Fed hike looms",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPQzNkV09NNEdQWTNoSFp6dGI0bWxzUU82ZWQ4TjZfWVI4bWZibFBJNVVBRmZpMC00WWVKdExyZUhKTEttU3pRTWczSEhMbVR4RzdSeHhBd0tnQy04aGVzMTcwZEJjenRKNGRhcDZQeWx3YTVhTkUxZC1tbnNud3ZyS1JYTmpFTDU4OXRjcWdaeTd0ZXRzaUxMM2VQUy11YXZidmRHVDU4VkJQbHExRHVXUUh5dw?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-15 04:01 KST"
+    },
+    {
       "title": "Bitcoin's late summer rally set to face off against the Fed, Congress",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZEV1dXlZWDh3VTJpMHVvclNtOWY1WVZXSGFIM3JZa1h0bDYyNVUzd0lvcUFpdVJtVjFZemVZSGotMnJmR3Q5aDN5MzVaenluWUhseElqVEltb2RBQU8zTnktd3hOaWZnQ20yTG5OY3ltMjlXZU9ta0tvTkpnTlhncW1DcEg0bl9BNWdnVEdJOFc5THpPZmZYNjFNZEhPdEVvU1ZtWW5vWUlVMFp5VDd2RXpBcw?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-15 00:45 KST"
     },
     {
-      "title": "Sterling hits one-month low as oil price jump boosts dollar",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZ18zOFNiOFlkdF9jNUJvR3RGbXpoQmZ5YVl1ZEprUWNBTlY5QXpvTTZzOHBiT1UtQW1SU0J0aFdzWC1uR3hLQ1ZxcXNyaUtsYjZlWjZHeHNsVHlWdnlzNEQ2YlBmaHFIa2g5S0w1bzllTDBQUDZBUjJLeElfX3BpaDFjbE9JdnJxYllzeUE3bFVYbkNrcmxnODRfLVhTMXJNNnFZ?oc=5",
+      "title": "ECB's attention shifting to natural gas as prices soar",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxObHJuaXlsQ01rYzJ5aUp3U1JBaDhnZ1J5TkZzT0JGRGVPWXlGMU0zSkpXc0RZYUVfbHMtMmdIclpnNjQ1QWNaUlhrWl9xS1NqZmRra3dhMU1sbGpRRG0wckhzZjFGSjB1VlpORjRjcFRrT2QzSUtVa1JZdDFpU0Zxcjg1Z3BNVnlBSnNBU0VvdkJLdFhsYkZ1RlJBQnM2WU5NWEJlMWE0SFBQLW00WnFkM1ZR?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-14 19:10 KST"
+      "seen": "2026-09-14 20:00 KST"
     }
   ],
-  "rate_source_time": "2026-09-15 08:47:20 KST",
+  "rate_source_time": "2026-09-15 09:31:21 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 1.68,
-  "rate_change_pct": 0.19,
+  "rate_change": 1.1,
+  "rate_change_pct": 0.08,
   "smbs_base_rate": 1345.3,
   "smbs_rate_date": "2026-09-15",
-  "smbs_rate_updated_at_kst": "2026-09-15 08:47:08 KST",
+  "smbs_rate_updated_at_kst": "2026-09-15 09:31:09 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1354.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-15 08:47:08 KST"
+  "rate_job_checked_at_kst": "2026-09-15 09:31:09 KST"
 }

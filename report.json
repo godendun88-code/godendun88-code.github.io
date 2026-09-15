@@ -1,17 +1,23 @@
 {
-  "updated_at_kst": "2026-09-15 15:30 KST",
-  "current_rate": 1359.2,
+  "updated_at_kst": "2026-09-15 15:54 KST",
+  "current_rate": 1360.1,
   "previous_close": 1347.6,
-  "rate_updated_at_kst": "2026-09-15 15:30:05 KST",
+  "rate_updated_at_kst": "2026-09-15 15:54:22 KST",
   "rate_source": "KB STAR FX Market Watch",
-  "market_bias": "혼조",
+  "market_bias": "상승 우세",
   "drivers": [
-    "연준·금리 관련 최신 기사(\"Dollar near two-week high as oil surge lifts yields, Fed hike bets\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
+    "연준·금리 관련 최신 기사(\"Indian rupee, bonds eye Fed decision, rate outlook\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
     "미국 물가 관련 최신 기사(\"Bond market is telling the Fed to 'do some work' on inflation, analyst says\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
-    "미 국채금리 관련 최신 기사(\"Rupee poised to test RBI support at 95.80 in face of oil, US yields pressure\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다."
+    "미 국채금리 상승 관련 보도가 확인돼 달러 수요를 지지하면서 원/달러 환율 상승 압력으로 작용하고 있습니다."
   ],
-  "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
+  "outlook": "달러 강세·금리 상승 계열의 재료가 상대적으로 우세해 원/달러는 단기 상승 압력이 나타날 수 있으나, 국내 수급과 위험선호 회복 여부에 따라 변동성이 예상됩니다.",
   "articles": [
+    {
+      "title": "Dollar inches higher as 10-year Treasury yield climbs to highest since 2007",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOeGtqRlJ4LWF3TVM5VklxS09fMU16eHE3bWRLZ3lRS3NuS18wWGcyY3cwRWg2eEtzS3dFRVZGWHB6Z21NNGpzUUcydm10VXpIU29Ca3RnRDRrRUxsVWlNbE5yV0x6ejVQUTZXR1FHRHgtTUExOC1VazhaaGo0b3p0dTNVcDJ5YWdjeWkyQVZRRlhOUUZYUkpmdWsyeHJjNTF6QjlYdEtRcy1NVUg2RWNmOA?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-15 15:10 KST"
+    },
     {
       "title": "Yen rally faces moment of truth as BOJ risks disappointing markets",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOMHRDcVNPazNUNW5RQTRlNnVrcjRMekZJb3VBbWJFcFdJcDlrcFNtNFFPaV9VS0s0a3Y3YnpNXzczU0hMTGN6ZkNYU2VxZEVwSUtmZjI5dEw5dUNqSU1GMGZXaEJfbnB6LVEtT242MjVCUDVaaHhOcUhzT2JheHZIckRXclZzaUVBLUhqRW1zN21tY3Y4Z0Nua2FYdDlFWl92SGVQU3NPWElmT0pkZjNJSEl4V2VEdw?oc=5",
@@ -23,12 +29,6 @@
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPemNGYkhOS0cydFdsTlVhN0NjNy1GNzJ6cmh3Um5lTWxobnpWQlgtbUpnd2tRSl91R3lpbUJfd2NsSV9mUFR0YkVZR1R3dFhwamFKVW9TLTFqcmJqQUFXQWlSaXRiUG5MS2pnTTRuSWZCSDhUNy03aTVNd1ZWaEZIX21UR1dLS1pCT2Ftc0czaExLRmZEVTFOQXJiWHNmUXJqbGZ1bkdRbXFWT3JOWWNV?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-15 11:56 KST"
-    },
-    {
-      "title": "Dollar near two-week high as oil surge lifts yields, Fed hike bets",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOeGtqRlJ4LWF3TVM5VklxS09fMU16eHE3bWRLZ3lRS3NuS18wWGcyY3cwRWg2eEtzS3dFRVZGWHB6Z21NNGpzUUcydm10VXpIU29Ca3RnRDRrRUxsVWlNbE5yV0x6ejVQUTZXR1FHRHgtTUExOC1VazhaaGo0b3p0dTNVcDJ5YWdjeWkyQVZRRlhOUUZYUkpmdWsyeHJjNTF6QjlYdEtRcy1NVUg2RWNmOA?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-15 10:58 KST"
     },
     {
       "title": "Bonds slump as US 10-year Treasury yields hit highest since 2007",
@@ -49,13 +49,13 @@
       "seen": "2026-09-15 10:31 KST"
     }
   ],
-  "rate_source_time": "2026-09-15 15:30:05 KST",
+  "rate_source_time": "2026-09-15 15:54:22 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 11.6,
-  "rate_change_pct": 0.86,
+  "rate_change": 12.5,
+  "rate_change_pct": 0.93,
   "smbs_base_rate": 1345.3,
   "smbs_rate_date": "2026-09-15",
-  "smbs_rate_updated_at_kst": "2026-09-15 15:29:50 KST",
+  "smbs_rate_updated_at_kst": "2026-09-15 15:54:10 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1354.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-15 15:29:50 KST"
+  "rate_job_checked_at_kst": "2026-09-15 15:54:10 KST"
 }

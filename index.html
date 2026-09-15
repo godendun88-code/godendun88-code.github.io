@@ -17,8 +17,11 @@
       const response=await fetch(base,{cache:'no-store'});
       if(!response.ok)throw new Error('기본 대시보드 로드 실패 ('+response.status+')');
       let html=await response.text();
-      const patch='<script src="./monthly-usd-patch.js?v=20260915-1"><\/script>';
-      html=html.includes('</body>')?html.replace('</body>',patch+'\n</body>'):html+patch;
+      const patches=[
+        '<script src="./monthly-usd-patch.js?v=20260915-1"><\\/script>',
+        '<script src="./reconciliation-xls-patch.js?v=20260915-1"><\\/script>'
+      ].join('\n');
+      html=html.includes('</body>')?html.replace('</body>',patches+'\n</body>'):html+patches;
       document.open();
       document.write(html);
       document.close();

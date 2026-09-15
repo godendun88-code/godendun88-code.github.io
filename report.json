@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-09-15 15:54 KST",
-  "current_rate": 1360.1,
+  "updated_at_kst": "2026-09-15 16:26 KST",
+  "current_rate": 1360.4,
   "previous_close": 1347.6,
-  "rate_updated_at_kst": "2026-09-15 15:54:22 KST",
+  "rate_updated_at_kst": "2026-09-15 16:25:51 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "상승 우세",
   "drivers": [
@@ -31,12 +31,6 @@
       "seen": "2026-09-15 11:56 KST"
     },
     {
-      "title": "Bonds slump as US 10-year Treasury yields hit highest since 2007",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNa2swZ0ZXMUlmM25iamJCQWM5NWV1OG1yUHA0MWZwVkVyempxRGlyWGdXeDRuN25IYXdGb1J0a05HazdLSEtsZUNBNzlBWVA3cmtJVElCREdQeWx2amlXZnAxNHBFN1pZdnFVQ3NhYTBrbF9sMVhZM1Z2djlBUWdCcnkxNHJMMFJTOHJRSQ?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-15 10:44 KST"
-    },
-    {
       "title": "Bond market is telling the Fed to 'do some work' on inflation, analyst says",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1hYkJpOUV3WUgxeHNKOExXNlk0elNMTjlXZGxROXZkTDFOT05NczBtY3FxR1p3Q3dsSmo0UDFFcnZEcFRtdFQxdWJpdkk4V1EwbDFKZEwxVFVhZEd1bUl5N1lCMHRRWG8?oc=5",
       "domain": "Reuters",
@@ -47,15 +41,21 @@
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPOVlScl92S19PTzRxcUZnRjVUcTU2dUJ5a1FZQjY1dVlhRkt0Uk1MOXJjU0ZvblpLX2tqemFDMGhIbEZkMnRHMGtzanNzdjFTSF9CaE9IQkNsb1BXQ0VuT01oOXBoOEtHNmJZamhXb0xnaDBhMW5CaS1lUVU1NXd6YjFaczdpNDRpZmxqUlhiMXhpWm5VbmR3cU9XUUs?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-15 10:31 KST"
+    },
+    {
+      "title": "US 10-year yields reach 5%, highest since 2023",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNSEVEbDgzNEZ0Ri1EVEo0el9wd0lZZFh1TExjMU16amxsbzluZG5fVXFhemhldzhYSVVFd2ZvWlJXMElMQU8tM1FhMTBDbm5GS0tkcU44aGZFVDNoUmlpQ0owN0R5dXdsZ042UGZ3Y0Y2YzQyczRoajRhYjFDSFFvVW1qdWoyeDg3V25MdkowbDdxeWM?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-15 07:17 KST"
     }
   ],
-  "rate_source_time": "2026-09-15 15:54:22 KST",
+  "rate_source_time": "2026-09-15 16:25:51 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 12.5,
-  "rate_change_pct": 0.93,
+  "rate_change": 12.8,
+  "rate_change_pct": 0.95,
   "smbs_base_rate": 1345.3,
   "smbs_rate_date": "2026-09-15",
-  "smbs_rate_updated_at_kst": "2026-09-15 15:54:10 KST",
+  "smbs_rate_updated_at_kst": "2026-09-15 16:25:37 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1354.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-15 15:54:10 KST"
+  "rate_job_checked_at_kst": "2026-09-15 16:25:37 KST"
 }

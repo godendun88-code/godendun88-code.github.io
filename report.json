@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-09-15 17:26 KST",
-  "current_rate": 1362.0,
+  "updated_at_kst": "2026-09-15 17:54 KST",
+  "current_rate": 1363.1,
   "previous_close": 1347.6,
-  "rate_updated_at_kst": "2026-09-15 17:26:37 KST",
+  "rate_updated_at_kst": "2026-09-15 17:53:48 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
@@ -12,12 +12,6 @@
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
-    {
-      "title": "Yen rally faces moment of truth as BOJ risks disappointing markets",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOMHRDcVNPazNUNW5RQTRlNnVrcjRMekZJb3VBbWJFcFdJcDlrcFNtNFFPaV9VS0s0a3Y3YnpNXzczU0hMTGN6ZkNYU2VxZEVwSUtmZjI5dEw5dUNqSU1GMGZXaEJfbnB6LVEtT242MjVCUDVaaHhOcUhzT2JheHZIckRXclZzaUVBLUhqRW1zN21tY3Y4Z0Nua2FYdDlFWl92SGVQU3NPWElmT0pkZjNJSEl4V2VEdw?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-15 15:03 KST"
-    },
     {
       "title": "Rupee poised to test RBI support at 95.80 in face of oil, US yields pressure",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPemNGYkhOS0cydFdsTlVhN0NjNy1GNzJ6cmh3Um5lTWxobnpWQlgtbUpnd2tRSl91R3lpbUJfd2NsSV9mUFR0YkVZR1R3dFhwamFKVW9TLTFqcmJqQUFXQWlSaXRiUG5MS2pnTTRuSWZCSDhUNy03aTVNd1ZWaEZIX21UR1dLS1pCT2Ftc0czaExLRmZEVTFOQXJiWHNmUXJqbGZ1bkdRbXFWT3JOWWNV?oc=5",
@@ -29,6 +23,12 @@
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOeGtqRlJ4LWF3TVM5VklxS09fMU16eHE3bWRLZ3lRS3NuS18wWGcyY3cwRWg2eEtzS3dFRVZGWHB6Z21NNGpzUUcydm10VXpIU29Ca3RnRDRrRUxsVWlNbE5yV0x6ejVQUTZXR1FHRHgtTUExOC1VazhaaGo0b3p0dTNVcDJ5YWdjeWkyQVZRRlhOUUZYUkpmdWsyeHJjNTF6QjlYdEtRcy1NVUg2RWNmOA?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-15 10:58 KST"
+    },
+    {
+      "title": "Stocks down on energy shock concerns, global yields hit fresh highs",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNa2swZ0ZXMUlmM25iamJCQWM5NWV1OG1yUHA0MWZwVkVyempxRGlyWGdXeDRuN25IYXdGb1J0a05HazdLSEtsZUNBNzlBWVA3cmtJVElCREdQeWx2amlXZnAxNHBFN1pZdnFVQ3NhYTBrbF9sMVhZM1Z2djlBUWdCcnkxNHJMMFJTOHJRSQ?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-15 10:44 KST"
     },
     {
       "title": "Bond market is telling the Fed to 'do some work' on inflation, analyst says",
@@ -49,13 +49,13 @@
       "seen": "2026-09-15 07:17 KST"
     }
   ],
-  "rate_source_time": "2026-09-15 17:26:37 KST",
+  "rate_source_time": "2026-09-15 17:53:48 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 14.4,
-  "rate_change_pct": 1.07,
+  "rate_change": 15.5,
+  "rate_change_pct": 1.15,
   "smbs_base_rate": 1345.3,
   "smbs_rate_date": "2026-09-15",
-  "smbs_rate_updated_at_kst": "2026-09-15 17:26:25 KST",
+  "smbs_rate_updated_at_kst": "2026-09-15 17:53:35 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1354.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-15 17:26:25 KST"
+  "rate_job_checked_at_kst": "2026-09-15 17:53:35 KST"
 }

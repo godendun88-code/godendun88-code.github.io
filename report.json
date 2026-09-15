@@ -1,12 +1,12 @@
 {
-  "updated_at_kst": "2026-09-15 14:23 KST",
-  "current_rate": 1356.7,
+  "updated_at_kst": "2026-09-15 14:51 KST",
+  "current_rate": 1356.3,
   "previous_close": 1347.6,
-  "rate_updated_at_kst": "2026-09-15 14:23:42 KST",
+  "rate_updated_at_kst": "2026-09-15 14:51:37 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
-    "연준·금리 관련 최신 기사(\"Dollar near two-week high as oil surge lifts yields, Fed hike bets\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
+    "연준·금리 관련 최신 기사(\"Indian rupee, bonds eye Fed decision, rate outlook\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
     "미국 물가 관련 최신 기사(\"Bond market is telling the Fed to 'do some work' on inflation, analyst says\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
     "미 국채금리 관련 최신 기사(\"Rupee poised to test RBI support at 95.80 in face of oil, US yields pressure\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다."
   ],
@@ -17,12 +17,6 @@
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPemNGYkhOS0cydFdsTlVhN0NjNy1GNzJ6cmh3Um5lTWxobnpWQlgtbUpnd2tRSl91R3lpbUJfd2NsSV9mUFR0YkVZR1R3dFhwamFKVW9TLTFqcmJqQUFXQWlSaXRiUG5MS2pnTTRuSWZCSDhUNy03aTVNd1ZWaEZIX21UR1dLS1pCT2Ftc0czaExLRmZEVTFOQXJiWHNmUXJqbGZ1bkdRbXFWT3JOWWNV?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-15 11:56 KST"
-    },
-    {
-      "title": "Dollar near two-week high as oil surge lifts yields, Fed hike bets",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOeGtqRlJ4LWF3TVM5VklxS09fMU16eHE3bWRLZ3lRS3NuS18wWGcyY3cwRWg2eEtzS3dFRVZGWHB6Z21NNGpzUUcydm10VXpIU29Ca3RnRDRrRUxsVWlNbE5yV0x6ejVQUTZXR1FHRHgtTUExOC1VazhaaGo0b3p0dTNVcDJ5YWdjeWkyQVZRRlhOUUZYUkpmdWsyeHJjNTF6QjlYdEtRcy1NVUg2RWNmOA?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-15 10:58 KST"
     },
     {
       "title": "Bond market is telling the Fed to 'do some work' on inflation, analyst says",
@@ -47,15 +41,21 @@
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZEV1dXlZWDh3VTJpMHVvclNtOWY1WVZXSGFIM3JZa1h0bDYyNVUzd0lvcUFpdVJtVjFZemVZSGotMnJmR3Q5aDN5MzVaenluWUhseElqVEltb2RBQU8zTnktd3hOaWZnQ20yTG5OY3ltMjlXZU9ta0tvTkpnTlhncW1DcEg0bl9BNWdnVEdJOFc5THpPZmZYNjFNZEhPdEVvU1ZtWW5vWUlVMFp5VDd2RXpBcw?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-15 00:45 KST"
+    },
+    {
+      "title": "India inflation rises to 4.82% in August, strengthening case for rate hike",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOYjkzaUlTSVF5ekc4elYyR2p6NXNFYXJSVzFGdkhoTWxNTmlVRnBpV012SlRiVG5wUlY3aTRZUmpkQ1I0cmJvYWtlVHRZTnlwaUVvVVNMVk5YWFU2dVY3VnlDMmNuWFM3RTFwdzc1dkVBUDhtUGx1eE9YVGhRaFo3T1ZtNEVLMkVyUW5YSDhGNEZfVXdX?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-14 21:05 KST"
     }
   ],
-  "rate_source_time": "2026-09-15 14:23:42 KST",
+  "rate_source_time": "2026-09-15 14:51:37 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 9.1,
-  "rate_change_pct": 0.68,
+  "rate_change": 8.7,
+  "rate_change_pct": 0.65,
   "smbs_base_rate": 1345.3,
   "smbs_rate_date": "2026-09-15",
-  "smbs_rate_updated_at_kst": "2026-09-15 14:23:28 KST",
+  "smbs_rate_updated_at_kst": "2026-09-15 14:51:22 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1354.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-15 14:23:28 KST"
+  "rate_job_checked_at_kst": "2026-09-15 14:51:22 KST"
 }

@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-09-16 08:21 KST",
-  "current_rate": 1360.7,
-  "previous_close": 1347.6,
-  "rate_updated_at_kst": "2026-09-16 08:20:58 KST",
+  "updated_at_kst": "2026-09-16 08:46 KST",
+  "current_rate": 1364.2,
+  "previous_close": 1360.7,
+  "rate_updated_at_kst": "2026-09-16 08:46:16 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "상승 우세",
   "drivers": [
@@ -31,16 +31,16 @@
       "seen": "2026-09-15 14:29 KST"
     },
     {
-      "title": "Indian rupee drops to weakest level in over a month on oil worries",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPemNGYkhOS0cydFdsTlVhN0NjNy1GNzJ6cmh3Um5lTWxobnpWQlgtbUpnd2tRSl91R3lpbUJfd2NsSV9mUFR0YkVZR1R3dFhwamFKVW9TLTFqcmJqQUFXQWlSaXRiUG5MS2pnTTRuSWZCSDhUNy03aTVNd1ZWaEZIX21UR1dLS1pCT2Ftc0czaExLRmZEVTFOQXJiWHNmUXJqbGZ1bkdRbXFWT3JOWWNV?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-15 11:56 KST"
-    },
-    {
       "title": "Dollar higher as oil lifts yields and Fed hike looms",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOeGtqRlJ4LWF3TVM5VklxS09fMU16eHE3bWRLZ3lRS3NuS18wWGcyY3cwRWg2eEtzS3dFRVZGWHB6Z21NNGpzUUcydm10VXpIU29Ca3RnRDRrRUxsVWlNbE5yV0x6ejVQUTZXR1FHRHgtTUExOC1VazhaaGo0b3p0dTNVcDJ5YWdjeWkyQVZRRlhOUUZYUkpmdWsyeHJjNTF6QjlYdEtRcy1NVUg2RWNmOA?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-15 10:58 KST"
+    },
+    {
+      "title": "Government bond yields rise, oil gains again as stocks dip",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNa2swZ0ZXMUlmM25iamJCQWM5NWV1OG1yUHA0MWZwVkVyempxRGlyWGdXeDRuN25IYXdGb1J0a05HazdLSEtsZUNBNzlBWVA3cmtJVElCREdQeWx2amlXZnAxNHBFN1pZdnFVQ3NhYTBrbF9sMVhZM1Z2djlBUWdCcnkxNHJMMFJTOHJRSQ?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-15 10:44 KST"
     },
     {
       "title": "Global shares fall as Treasury yields scale fresh peaks",
@@ -49,13 +49,13 @@
       "seen": "2026-09-15 10:44 KST"
     }
   ],
-  "rate_source_time": "2026-09-16 08:20:58 KST",
+  "rate_source_time": "2026-09-16 08:46:16 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 13.1,
-  "rate_change_pct": 0.97,
+  "rate_change": 3.5,
+  "rate_change_pct": 0.26,
   "smbs_base_rate": 1353.3,
   "smbs_rate_date": "2026-09-16",
-  "smbs_rate_updated_at_kst": "2026-09-16 08:20:46 KST",
+  "smbs_rate_updated_at_kst": "2026-09-16 08:46:02 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1370.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-16 08:20:46 KST"
+  "rate_job_checked_at_kst": "2026-09-16 08:46:02 KST"
 }

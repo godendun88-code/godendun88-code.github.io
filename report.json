@@ -1,23 +1,17 @@
 {
-  "updated_at_kst": "2026-09-15 16:26 KST",
-  "current_rate": 1360.4,
+  "updated_at_kst": "2026-09-15 16:52 KST",
+  "current_rate": 1360.0,
   "previous_close": 1347.6,
-  "rate_updated_at_kst": "2026-09-15 16:25:51 KST",
+  "rate_updated_at_kst": "2026-09-15 16:52:26 KST",
   "rate_source": "KB STAR FX Market Watch",
-  "market_bias": "상승 우세",
+  "market_bias": "혼조",
   "drivers": [
     "연준·금리 관련 최신 기사(\"Indian rupee, bonds eye Fed decision, rate outlook\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
     "미국 물가 관련 최신 기사(\"Bond market is telling the Fed to 'do some work' on inflation, analyst says\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
-    "미 국채금리 상승 관련 보도가 확인돼 달러 수요를 지지하면서 원/달러 환율 상승 압력으로 작용하고 있습니다."
+    "미 국채금리 관련 최신 기사(\"Rupee poised to test RBI support at 95.80 in face of oil, US yields pressure\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다."
   ],
-  "outlook": "달러 강세·금리 상승 계열의 재료가 상대적으로 우세해 원/달러는 단기 상승 압력이 나타날 수 있으나, 국내 수급과 위험선호 회복 여부에 따라 변동성이 예상됩니다.",
+  "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
-    {
-      "title": "Dollar inches higher as 10-year Treasury yield climbs to highest since 2007",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOeGtqRlJ4LWF3TVM5VklxS09fMU16eHE3bWRLZ3lRS3NuS18wWGcyY3cwRWg2eEtzS3dFRVZGWHB6Z21NNGpzUUcydm10VXpIU29Ca3RnRDRrRUxsVWlNbE5yV0x6ejVQUTZXR1FHRHgtTUExOC1VazhaaGo0b3p0dTNVcDJ5YWdjeWkyQVZRRlhOUUZYUkpmdWsyeHJjNTF6QjlYdEtRcy1NVUg2RWNmOA?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-15 15:10 KST"
-    },
     {
       "title": "Yen rally faces moment of truth as BOJ risks disappointing markets",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOMHRDcVNPazNUNW5RQTRlNnVrcjRMekZJb3VBbWJFcFdJcDlrcFNtNFFPaV9VS0s0a3Y3YnpNXzczU0hMTGN6ZkNYU2VxZEVwSUtmZjI5dEw5dUNqSU1GMGZXaEJfbnB6LVEtT242MjVCUDVaaHhOcUhzT2JheHZIckRXclZzaUVBLUhqRW1zN21tY3Y4Z0Nua2FYdDlFWl92SGVQU3NPWElmT0pkZjNJSEl4V2VEdw?oc=5",
@@ -31,6 +25,18 @@
       "seen": "2026-09-15 11:56 KST"
     },
     {
+      "title": "Dollar inches higher as 10-year Treasury yield climbs to highest since 2007",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOeGtqRlJ4LWF3TVM5VklxS09fMU16eHE3bWRLZ3lRS3NuS18wWGcyY3cwRWg2eEtzS3dFRVZGWHB6Z21NNGpzUUcydm10VXpIU29Ca3RnRDRrRUxsVWlNbE5yV0x6ejVQUTZXR1FHRHgtTUExOC1VazhaaGo0b3p0dTNVcDJ5YWdjeWkyQVZRRlhOUUZYUkpmdWsyeHJjNTF6QjlYdEtRcy1NVUg2RWNmOA?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-15 10:58 KST"
+    },
+    {
+      "title": "Bonds slump as US 10-year Treasury yields hit highest since 2007",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNa2swZ0ZXMUlmM25iamJCQWM5NWV1OG1yUHA0MWZwVkVyempxRGlyWGdXeDRuN25IYXdGb1J0a05HazdLSEtsZUNBNzlBWVA3cmtJVElCREdQeWx2amlXZnAxNHBFN1pZdnFVQ3NhYTBrbF9sMVhZM1Z2djlBUWdCcnkxNHJMMFJTOHJRSQ?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-15 10:44 KST"
+    },
+    {
       "title": "Bond market is telling the Fed to 'do some work' on inflation, analyst says",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1hYkJpOUV3WUgxeHNKOExXNlk0elNMTjlXZGxROXZkTDFOT05NczBtY3FxR1p3Q3dsSmo0UDFFcnZEcFRtdFQxdWJpdkk4V1EwbDFKZEwxVFVhZEd1bUl5N1lCMHRRWG8?oc=5",
       "domain": "Reuters",
@@ -41,21 +47,15 @@
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPOVlScl92S19PTzRxcUZnRjVUcTU2dUJ5a1FZQjY1dVlhRkt0Uk1MOXJjU0ZvblpLX2tqemFDMGhIbEZkMnRHMGtzanNzdjFTSF9CaE9IQkNsb1BXQ0VuT01oOXBoOEtHNmJZamhXb0xnaDBhMW5CaS1lUVU1NXd6YjFaczdpNDRpZmxqUlhiMXhpWm5VbmR3cU9XUUs?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-15 10:31 KST"
-    },
-    {
-      "title": "US 10-year yields reach 5%, highest since 2023",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNSEVEbDgzNEZ0Ri1EVEo0el9wd0lZZFh1TExjMU16amxsbzluZG5fVXFhemhldzhYSVVFd2ZvWlJXMElMQU8tM1FhMTBDbm5GS0tkcU44aGZFVDNoUmlpQ0owN0R5dXdsZ042UGZ3Y0Y2YzQyczRoajRhYjFDSFFvVW1qdWoyeDg3V25MdkowbDdxeWM?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-15 07:17 KST"
     }
   ],
-  "rate_source_time": "2026-09-15 16:25:51 KST",
+  "rate_source_time": "2026-09-15 16:52:26 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 12.8,
-  "rate_change_pct": 0.95,
+  "rate_change": 12.4,
+  "rate_change_pct": 0.92,
   "smbs_base_rate": 1345.3,
   "smbs_rate_date": "2026-09-15",
-  "smbs_rate_updated_at_kst": "2026-09-15 16:25:37 KST",
+  "smbs_rate_updated_at_kst": "2026-09-15 16:52:11 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1354.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-15 16:25:37 KST"
+  "rate_job_checked_at_kst": "2026-09-15 16:52:11 KST"
 }

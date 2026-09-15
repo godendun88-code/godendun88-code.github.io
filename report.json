@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-09-15 13:25 KST",
-  "current_rate": 1354.6,
+  "updated_at_kst": "2026-09-15 13:52 KST",
+  "current_rate": 1353.6,
   "previous_close": 1347.6,
-  "rate_updated_at_kst": "2026-09-15 13:24:56 KST",
+  "rate_updated_at_kst": "2026-09-15 13:52:06 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
@@ -43,19 +43,19 @@
       "seen": "2026-09-15 07:17 KST"
     },
     {
-      "title": "COMMENTARY: Trading Day: AI-pocalypse now",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNcXlMcDd2a09vanQ5eW1fdVU1d1kzUzU1ck0xQ29mX2Jtb0pmRk5fa29JZ3JrNHRHbGUzUXI1cHJPUnVqeHNEcGFGRkhqcXlyQ2t1NmppZm94c0tGRlZWUnRreHlTdU8yWWNVcEJXUjYzdEV5WW1GSFJJd3pDQkZid1R4aTdHaDJUVk94amYtZGR0aXlBdTFKRFp2WWQ3MGlONWQ4eEV3?oc=5",
+      "title": "Bitcoin's late summer rally set to face off against the Fed, Congress",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZEV1dXlZWDh3VTJpMHVvclNtOWY1WVZXSGFIM3JZa1h0bDYyNVUzd0lvcUFpdVJtVjFZemVZSGotMnJmR3Q5aDN5MzVaenluWUhseElqVEltb2RBQU8zTnktd3hOaWZnQ20yTG5OY3ltMjlXZU9ta0tvTkpnTlhncW1DcEg0bl9BNWdnVEdJOFc5THpPZmZYNjFNZEhPdEVvU1ZtWW5vWUlVMFp5VDd2RXpBcw?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-15 06:23 KST"
+      "seen": "2026-09-15 00:45 KST"
     }
   ],
-  "rate_source_time": "2026-09-15 13:24:56 KST",
+  "rate_source_time": "2026-09-15 13:52:06 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 7.0,
-  "rate_change_pct": 0.52,
+  "rate_change": 6.0,
+  "rate_change_pct": 0.45,
   "smbs_base_rate": 1345.3,
   "smbs_rate_date": "2026-09-15",
-  "smbs_rate_updated_at_kst": "2026-09-15 13:24:40 KST",
+  "smbs_rate_updated_at_kst": "2026-09-15 13:51:55 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1354.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-15 13:24:40 KST"
+  "rate_job_checked_at_kst": "2026-09-15 13:51:55 KST"
 }

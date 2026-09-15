@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-09-15 21:29 KST",
-  "current_rate": 1359.7,
+  "updated_at_kst": "2026-09-15 21:53 KST",
+  "current_rate": 1357.9,
   "previous_close": 1347.6,
-  "rate_updated_at_kst": "2026-09-15 21:25:53 KST",
+  "rate_updated_at_kst": "2026-09-15 21:53:14 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
@@ -31,7 +31,13 @@
       "seen": "2026-09-15 14:29 KST"
     },
     {
-      "title": "FOREX Dollar ticks higher as oil prices climb, Fed rate hike chances firm",
+      "title": "India's Nifty 50 closes at 5-month low on elevated oil prices, bond yields",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPN2s4aTJpYklfMHNQSW1pWWtPcGhCajI1eGE1RU5RRm0yWTJvNmkzZ2VZQURjbVBnZHlOSVJJdG1BanlVc1FXV2tYNUpCMXVVZ2g5dlVxYjdaQlViZXk2c1pMVEx3WEc2bHhOMjl3a0hUcXBjX0FXUGVSV3FpM0E5Y2dkRkRZTGtxOU81djBYYVY4Y1NvUlFmdW9BVWViQQ?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-15 11:35 KST"
+    },
+    {
+      "title": "Dollar ticks up as oil prices climb, Fed rate hike chances firm",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOeGtqRlJ4LWF3TVM5VklxS09fMU16eHE3bWRLZ3lRS3NuS18wWGcyY3cwRWg2eEtzS3dFRVZGWHB6Z21NNGpzUUcydm10VXpIU29Ca3RnRDRrRUxsVWlNbE5yV0x6ejVQUTZXR1FHRHgtTUExOC1VazhaaGo0b3p0dTNVcDJ5YWdjeWkyQVZRRlhOUUZYUkpmdWsyeHJjNTF6QjlYdEtRcy1NVUg2RWNmOA?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-15 10:58 KST"
@@ -41,21 +47,15 @@
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNa2swZ0ZXMUlmM25iamJCQWM5NWV1OG1yUHA0MWZwVkVyempxRGlyWGdXeDRuN25IYXdGb1J0a05HazdLSEtsZUNBNzlBWVA3cmtJVElCREdQeWx2amlXZnAxNHBFN1pZdnFVQ3NhYTBrbF9sMVhZM1Z2djlBUWdCcnkxNHJMMFJTOHJRSQ?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-15 10:44 KST"
-    },
-    {
-      "title": "Bond market is telling the Fed to 'do some work' on inflation, analyst says",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1hYkJpOUV3WUgxeHNKOExXNlk0elNMTjlXZGxROXZkTDFOT05NczBtY3FxR1p3Q3dsSmo0UDFFcnZEcFRtdFQxdWJpdkk4V1EwbDFKZEwxVFVhZEd1bUl5N1lCMHRRWG8?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-15 10:42 KST"
     }
   ],
-  "rate_source_time": "2026-09-15 21:25:53 KST",
+  "rate_source_time": "2026-09-15 21:53:14 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 12.1,
-  "rate_change_pct": 0.9,
+  "rate_change": 10.3,
+  "rate_change_pct": 0.76,
   "smbs_base_rate": 1345.3,
   "smbs_rate_date": "2026-09-15",
-  "smbs_rate_updated_at_kst": "2026-09-15 20:47:54 KST",
+  "smbs_rate_updated_at_kst": "2026-09-15 21:53:02 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,6 +63,5 @@
     1354.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-15 21:27:58 KST",
-  "smbs_rate_error": "RuntimeError: 서울외국환중개 페이지에서 USD 매매기준율을 찾지 못했습니다."
+  "rate_job_checked_at_kst": "2026-09-15 21:53:02 KST"
 }

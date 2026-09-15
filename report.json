@@ -1,5 +1,5 @@
 {
-  "updated_at_kst": "2026-09-15 22:24 KST",
+  "updated_at_kst": "2026-09-15 22:53 KST",
   "current_rate": 1359.1,
   "previous_close": 1347.6,
   "rate_updated_at_kst": "2026-09-15 22:24:37 KST",
@@ -37,16 +37,16 @@
       "seen": "2026-09-15 14:29 KST"
     },
     {
+      "title": "Indian rupee drops to weakest level in over a month on oil worries",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPemNGYkhOS0cydFdsTlVhN0NjNy1GNzJ6cmh3Um5lTWxobnpWQlgtbUpnd2tRSl91R3lpbUJfd2NsSV9mUFR0YkVZR1R3dFhwamFKVW9TLTFqcmJqQUFXQWlSaXRiUG5MS2pnTTRuSWZCSDhUNy03aTVNd1ZWaEZIX21UR1dLS1pCT2Ftc0czaExLRmZEVTFOQXJiWHNmUXJqbGZ1bkdRbXFWT3JOWWNV?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-15 11:56 KST"
+    },
+    {
       "title": "Dollar ticks up as oil prices climb, Fed rate hike chances firm",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOeGtqRlJ4LWF3TVM5VklxS09fMU16eHE3bWRLZ3lRS3NuS18wWGcyY3cwRWg2eEtzS3dFRVZGWHB6Z21NNGpzUUcydm10VXpIU29Ca3RnRDRrRUxsVWlNbE5yV0x6ejVQUTZXR1FHRHgtTUExOC1VazhaaGo0b3p0dTNVcDJ5YWdjeWkyQVZRRlhOUUZYUkpmdWsyeHJjNTF6QjlYdEtRcy1NVUg2RWNmOA?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-15 10:58 KST"
-    },
-    {
-      "title": "Stocks slightly lower after selloff, global yields hit fresh highs",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNa2swZ0ZXMUlmM25iamJCQWM5NWV1OG1yUHA0MWZwVkVyempxRGlyWGdXeDRuN25IYXdGb1J0a05HazdLSEtsZUNBNzlBWVA3cmtJVElCREdQeWx2amlXZnAxNHBFN1pZdnFVQ3NhYTBrbF9sMVhZM1Z2djlBUWdCcnkxNHJMMFJTOHJRSQ?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-15 10:44 KST"
     }
   ],
   "rate_source_time": "2026-09-15 22:24:37 KST",
@@ -55,13 +55,14 @@
   "rate_change_pct": 0.85,
   "smbs_base_rate": 1345.3,
   "smbs_rate_date": "2026-09-15",
-  "smbs_rate_updated_at_kst": "2026-09-15 22:24:20 KST",
+  "smbs_rate_updated_at_kst": "2026-09-15 22:50:44 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
     1342.0,
     1354.0
   ],
-  "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-15 22:24:20 KST"
+  "rate_check_status": "failed",
+  "rate_job_checked_at_kst": "2026-09-15 22:50:44 KST",
+  "rate_fetch_error": "RuntimeError: KB STAR FX 자동조회 3회 실패: TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n | TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n | TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n"
 }

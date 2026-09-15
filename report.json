@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-09-16 07:46 KST",
+  "updated_at_kst": "2026-09-16 08:21 KST",
   "current_rate": 1360.7,
   "previous_close": 1347.6,
-  "rate_updated_at_kst": "2026-09-16 07:46:36 KST",
+  "rate_updated_at_kst": "2026-09-16 08:20:58 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "상승 우세",
   "drivers": [
@@ -12,12 +12,6 @@
   ],
   "outlook": "달러 강세·금리 상승 계열의 재료가 상대적으로 우세해 원/달러는 단기 상승 압력이 나타날 수 있으나, 국내 수급과 위험선호 회복 여부에 따라 변동성이 예상됩니다.",
   "articles": [
-    {
-      "title": "COMMENTARY: Trading Day: No hiding place",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNjJDU2NhMjQxcG9ZTk0wanh3Qk5CMktRb0U3WTU1VjNLQ3ZhUDVuTGVIU1N4MFBXQi1NdmRKUERSa3R6MTRsa1g1Ql9LQlFxak50ZXliQS1ZUVJGWk1BeGtGcm1SX05IX3M5VEk4cTRIVkk1ZDZlVFZ5ZkdBNVl4bS1NRXprbXpoYjZwbHNPUnZmTktQTVRWM3JUZzRNYmhDVVZSamtn?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-16 06:14 KST"
-    },
     {
       "title": "Canadian dollar extends daily losing streak ahead of expected Fed rate hike",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOZE94ZDQxOElPYS1hNUtxeXdtTzdhcFI0LW41VWJrVWNBOFdvZVY2UVg0MHg3NFRHNU02bFNJY3R1S1gtMTNXTldnNklOekY5Q2JSTmNGdEdkTUdWdWhfbWVKLThmU0E2TmVEcVNwbFF1c2w1Q2FTT0VULTBIbjA0cnJKZjJyMEJsRHdxTVVUQWdpNlExRW9wLWFoS3BzOEhNOUJ3YU5raXZmNzlsbk00NUNHeFBndGVh?oc=5",
@@ -47,21 +41,27 @@
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOeGtqRlJ4LWF3TVM5VklxS09fMU16eHE3bWRLZ3lRS3NuS18wWGcyY3cwRWg2eEtzS3dFRVZGWHB6Z21NNGpzUUcydm10VXpIU29Ca3RnRDRrRUxsVWlNbE5yV0x6ejVQUTZXR1FHRHgtTUExOC1VazhaaGo0b3p0dTNVcDJ5YWdjeWkyQVZRRlhOUUZYUkpmdWsyeHJjNTF6QjlYdEtRcy1NVUg2RWNmOA?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-15 10:58 KST"
+    },
+    {
+      "title": "Global shares fall as Treasury yields scale fresh peaks",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNa2swZ0ZXMUlmM25iamJCQWM5NWV1OG1yUHA0MWZwVkVyempxRGlyWGdXeDRuN25IYXdGb1J0a05HazdLSEtsZUNBNzlBWVA3cmtJVElCREdQeWx2amlXZnAxNHBFN1pZdnFVQ3NhYTBrbF9sMVhZM1Z2djlBUWdCcnkxNHJMMFJTOHJRSQ?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-15 10:44 KST"
     }
   ],
-  "rate_source_time": "2026-09-16 07:46:36 KST",
+  "rate_source_time": "2026-09-16 08:20:58 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": 13.1,
   "rate_change_pct": 0.97,
   "smbs_base_rate": 1353.3,
   "smbs_rate_date": "2026-09-16",
-  "smbs_rate_updated_at_kst": "2026-09-16 07:46:24 KST",
+  "smbs_rate_updated_at_kst": "2026-09-16 08:20:46 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
-    1342.0,
-    1354.0
+    1358.0,
+    1370.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-16 07:46:24 KST"
+  "rate_job_checked_at_kst": "2026-09-16 08:20:46 KST"
 }

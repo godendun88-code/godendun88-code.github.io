@@ -4,10 +4,12 @@ import re
 path = Path('index.html')
 text = path.read_text(encoding='utf-8')
 
-start = text.find('    function parseReconciliationWorkbook(workbook,file,unit=1){')
-end = text.find('    function reconciliationInputs(values={})', start)
-if start < 0 or end < 0:
+start_match = re.search(r'(?m)^\s*function\s+parseReconciliationWorkbook\s*\(workbook\s*,\s*file\s*,\s*unit\s*=\s*1\s*\)\s*\{', text)
+end_match = re.search(r'(?m)^\s*function\s+reconciliationInputs\s*\(values\s*=\s*\{\}\s*\)', text[start_match.start():] if start_match else '')
+if not start_match or not end_match:
     raise SystemExit('parseReconciliationWorkbook block not found')
+start = start_match.start()
+end = start_match.start() + end_match.start()
 
 replacement = r'''    function parseReconciliationWorkbook(workbook,file,unit=1){
       if(![1,1000,1000000].includes(unit))throw new Error('원본 금액 단위를 확인해 주세요.');
@@ -32,23 +34,17 @@ replacement = r'''    function parseReconciliationWorkbook(workbook,file,unit=1)
           if(!currentCols.length)continue;
           const current=currentCols[0];
 
-          // Some accounting exports (.xls) put the current/prior dates on separate rows
-          // above the '당기/전기' header instead of inside the period header cell.
+          // Legacy accounting .xls files often keep the dates on separate rows above 당기/전기.
           const headerDates=[];
           for(let hr=0;hr<=Math.min(r+1,20);hr++)for(const cell of rows[hr]||[]){const d=parseHeaderDate(cell);if(d)headerDates.push(d)}
           const uniqueDates=[...new Set(headerDates)].sort();
-          let date=uniqueDates.at(-1)||null;
-          if(!date){
-            const inline=(String(row[current.c]??'').match(/20\d{2}[/.\-]\d{1,2}[/.\-]\d{1,2}/g)||[]).map(parseHeaderDate).filter(Boolean).sort();
-            date=inline.at(-1)||null;
-          }
+          const date=uniqueDates.at(-1)||null;
           if(!date)throw new Error('당기 기말일을 읽을 수 없습니다. 재무상태표 상단의 기준일(예: 2026년 01월 31일)을 확인해 주세요.');
           const month=date.slice(0,7);if(month<'2026-01'||date!==reconciliationMonthEnd(month))throw new Error('2026년 이후 월말 기준 재무제표를 선택해 주세요.');
           const startDate=date;
 
           const nextPeriod=row.findIndex((v,c)=>c>current.c&&(/\(전\)기|전기/.test(normalize(v))||/20\d{2}/.test(String(v??''))));
           const merged=(sheet['!merges']||[]).find(m=>m.s.r===r&&m.s.c===current.c);
-          // Typical legacy .xls reports use B:C for current period and D:E for prior period.
           const endCol=nextPeriod>=0?nextPeriod-1:merged?merged.e.c:Math.min(range.e.c,current.c+2);
 
           const topText=rows.slice(0,Math.min(r+4,rows.length)).flat().map(v=>String(v??'')).join(' ');
@@ -58,7 +54,6 @@ replacement = r'''    function parseReconciliationWorkbook(workbook,file,unit=1)
           const amounts={},refs={},unsupported=[];
           for(let i=r+1;i<rows.length;i++){
             const label=normalize(rows[i]?.[accountCol]);if(!label)continue;
-            const canonical=label.replace(/^[\dIVXⅠⅡⅢⅣⅤⅥⅦⅧⅨⅩ.()가-힣]*[.)]?/,'');
             const target=['보통예금','기타단기금융상품'].find(key=>label===key||label.endsWith(key));
             if(!target){
               if(/^(현금|현금및현금성자산|당좌예금|정기예금|정기적금|외화예금|단기금융상품|단기금융자산|장기금융상품|장기금융자산)$/.test(label))unsupported.push(label);

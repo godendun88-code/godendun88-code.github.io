@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-09-15 19:26 KST",
-  "current_rate": 1362.0,
+  "updated_at_kst": "2026-09-15 19:50 KST",
+  "current_rate": 1361.3,
   "previous_close": 1347.6,
-  "rate_updated_at_kst": "2026-09-15 18:51:43 KST",
+  "rate_updated_at_kst": "2026-09-15 19:50:06 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "상승 우세",
   "drivers": [
@@ -12,6 +12,12 @@
   ],
   "outlook": "달러 강세·금리 상승 계열의 재료가 상대적으로 우세해 원/달러는 단기 상승 압력이 나타날 수 있으나, 국내 수급과 위험선호 회복 여부에 따라 변동성이 예상됩니다.",
   "articles": [
+    {
+      "title": "Bond selloff drives US benchmark beyond 5%; stocks rattled",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNeThNUUotQTJlelBLMUoySDNIZnR5dlBReWhadGo3VWF6YTBDMG9aYW5JREJhMG9OdXFmMC1OQ1F1VGs5bkxxeXAwY0gweVFkZmpkMHYxelhsbVAta1AyUEk0bEluNWc0UnVTQ0JIZVVuTS1oQVZQdjNqazFKREV2b2RRU3dQanl0N2JvY052QTVSczVVck1YZW1uY1RVem1iNDJzQ1FEbXZwc3UzamZmTA?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-15 18:20 KST"
+    },
     {
       "title": "Gold eases on stronger US rate hike odds",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNVUtaVGZLb1VLWXI1QlhvSGNHeThxbkxfa3NIdk1SZFA3LWZta2JmdnBUTEtKV0dUSGg4OGVQSHYyV0w5RGY1QXEwaG02OVVoVlJmRG9xc3VwQ2RZSFh2V25neWVqS01jVm9pTFg0U29TcXdueHBXbnRuTmRuOFA0TzlyNEppVUJldE9KVFE4c3FlS04zRXRsaXNCQWhqQQ?oc=5",
@@ -41,28 +47,21 @@
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1hYkJpOUV3WUgxeHNKOExXNlk0elNMTjlXZGxROXZkTDFOT05NczBtY3FxR1p3Q3dsSmo0UDFFcnZEcFRtdFQxdWJpdkk4V1EwbDFKZEwxVFVhZEd1bUl5N1lCMHRRWG8?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-15 10:42 KST"
-    },
-    {
-      "title": "Indian rupee, bonds eye Fed decision, rate outlook",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPOVlScl92S19PTzRxcUZnRjVUcTU2dUJ5a1FZQjY1dVlhRkt0Uk1MOXJjU0ZvblpLX2tqemFDMGhIbEZkMnRHMGtzanNzdjFTSF9CaE9IQkNsb1BXQ0VuT01oOXBoOEtHNmJZamhXb0xnaDBhMW5CaS1lUVU1NXd6YjFaczdpNDRpZmxqUlhiMXhpWm5VbmR3cU9XUUs?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-15 10:31 KST"
     }
   ],
-  "rate_source_time": "2026-09-15 18:51:43 KST",
+  "rate_source_time": "2026-09-15 19:50:06 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 14.4,
-  "rate_change_pct": 1.07,
+  "rate_change": 13.7,
+  "rate_change_pct": 1.02,
   "smbs_base_rate": 1345.3,
   "smbs_rate_date": "2026-09-15",
-  "smbs_rate_updated_at_kst": "2026-09-15 19:23:41 KST",
+  "smbs_rate_updated_at_kst": "2026-09-15 19:49:53 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
     1342.0,
     1354.0
   ],
-  "rate_check_status": "failed",
-  "rate_job_checked_at_kst": "2026-09-15 19:23:41 KST",
-  "rate_fetch_error": "RuntimeError: KB STAR FX 자동조회 3회 실패: TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n | TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n | TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n"
+  "rate_check_status": "success",
+  "rate_job_checked_at_kst": "2026-09-15 19:49:53 KST"
 }

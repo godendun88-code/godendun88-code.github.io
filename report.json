@@ -1,13 +1,13 @@
 {
-  "updated_at_kst": "2026-09-15 21:53 KST",
-  "current_rate": 1357.9,
+  "updated_at_kst": "2026-09-15 22:24 KST",
+  "current_rate": 1359.1,
   "previous_close": 1347.6,
-  "rate_updated_at_kst": "2026-09-15 21:53:14 KST",
+  "rate_updated_at_kst": "2026-09-15 22:24:37 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
     "연준·금리 관련 최신 기사(\"TSX futures retreat as bond selloff deepens; Fed decision in focus\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
-    "미국 물가 관련 최신 기사(\"Bond market is telling the Fed to 'do some work' on inflation, analyst says\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
+    "미국 물가 관련 최신 기사(\"Rupee drops with stocks, bonds as oil, inflation and Fed worries mount\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
     "미 국채금리 관련 최신 기사(\"Global bond yields hit 2008 highs, raising stakes for big borrowers\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
@@ -17,6 +17,12 @@
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNeThNUUotQTJlelBLMUoySDNIZnR5dlBReWhadGo3VWF6YTBDMG9aYW5JREJhMG9OdXFmMC1OQ1F1VGs5bkxxeXAwY0gweVFkZmpkMHYxelhsbVAta1AyUEk0bEluNWc0UnVTQ0JIZVVuTS1oQVZQdjNqazFKREV2b2RRU3dQanl0N2JvY052QTVSczVVck1YZW1uY1RVem1iNDJzQ1FEbXZwc3UzamZmTA?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-15 20:47 KST"
+    },
+    {
+      "title": "Rupee drops with stocks, bonds as oil, inflation and Fed worries mount",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxONFNJS3dyOHd2elVwMkRlLVp6VkY3WXZlOHBMcWMtSmhCRjZQWXY5TEZ5SHd4cmVsU0o4Q3VoNjBHaEZCWVpPZ0g2R191WE5nNUZYd0RwOFpBXy16S1MzbS0xU1J6OE5Qbm1DdndtNmE1RTZWUzVCRWxrXzIzWGRDVXRIWGRaOHF2U2xjQ3dGeUdfVTlfMDdTV1Y2SVI2c3RZN1ZmUUp6VlBJWjVMTUE?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-15 19:37 KST"
     },
     {
       "title": "TSX futures retreat as bond selloff deepens; Fed decision in focus",
@@ -31,12 +37,6 @@
       "seen": "2026-09-15 14:29 KST"
     },
     {
-      "title": "India's Nifty 50 closes at 5-month low on elevated oil prices, bond yields",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPN2s4aTJpYklfMHNQSW1pWWtPcGhCajI1eGE1RU5RRm0yWTJvNmkzZ2VZQURjbVBnZHlOSVJJdG1BanlVc1FXV2tYNUpCMXVVZ2g5dlVxYjdaQlViZXk2c1pMVEx3WEc2bHhOMjl3a0hUcXBjX0FXUGVSV3FpM0E5Y2dkRkRZTGtxOU81djBYYVY4Y1NvUlFmdW9BVWViQQ?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-15 11:35 KST"
-    },
-    {
       "title": "Dollar ticks up as oil prices climb, Fed rate hike chances firm",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOeGtqRlJ4LWF3TVM5VklxS09fMU16eHE3bWRLZ3lRS3NuS18wWGcyY3cwRWg2eEtzS3dFRVZGWHB6Z21NNGpzUUcydm10VXpIU29Ca3RnRDRrRUxsVWlNbE5yV0x6ejVQUTZXR1FHRHgtTUExOC1VazhaaGo0b3p0dTNVcDJ5YWdjeWkyQVZRRlhOUUZYUkpmdWsyeHJjNTF6QjlYdEtRcy1NVUg2RWNmOA?oc=5",
       "domain": "Reuters",
@@ -49,13 +49,13 @@
       "seen": "2026-09-15 10:44 KST"
     }
   ],
-  "rate_source_time": "2026-09-15 21:53:14 KST",
+  "rate_source_time": "2026-09-15 22:24:37 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 10.3,
-  "rate_change_pct": 0.76,
+  "rate_change": 11.5,
+  "rate_change_pct": 0.85,
   "smbs_base_rate": 1345.3,
   "smbs_rate_date": "2026-09-15",
-  "smbs_rate_updated_at_kst": "2026-09-15 21:53:02 KST",
+  "smbs_rate_updated_at_kst": "2026-09-15 22:24:20 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1354.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-15 21:53:02 KST"
+  "rate_job_checked_at_kst": "2026-09-15 22:24:20 KST"
 }

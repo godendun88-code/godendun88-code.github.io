@@ -1,14 +1,14 @@
 {
-  "updated_at_kst": "2026-09-16 19:24 KST",
+  "updated_at_kst": "2026-09-16 19:50 KST",
   "current_rate": 1368.6,
   "previous_close": 1360.7,
-  "rate_updated_at_kst": "2026-09-16 19:24:13 KST",
+  "rate_updated_at_kst": "2026-09-16 19:50:07 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
     "연준·금리 관련 최신 기사(\"Rupee pinned near 96 after RBI steps in, Fed test ahead\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
-    "미국 물가 관련 최신 기사(\"Rupee drops with stocks, bonds as oil, inflation and Fed worries mount\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
-    "달러 관련 최신 기사(\"Dollar girded by bets on a US hiking cycle\")가 확인돼 달러인덱스 방향성이 원/달러 환율의 핵심 변수로 작용하고 있습니다."
+    "달러 관련 최신 기사(\"Dollar girded by bets on a US hiking cycle\")가 확인돼 달러인덱스 방향성이 원/달러 환율의 핵심 변수로 작용하고 있습니다.",
+    "유가·지정학 관련 최신 기사(\"Oil slips as Saudi Arabia offers more crude via Oman; diesel near record high\")가 확인돼 원화 변동성 확대 요인으로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
@@ -19,7 +19,7 @@
       "seen": "2026-09-16 12:01 KST"
     },
     {
-      "title": "Asian markets make shaky gains ahead of Fed decision, oil slips",
+      "title": "Stocks tick up as oil falls, bonds stabilise ahead of Fed decision",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1EZTFQYXAzY01LTC1UX2J5X2FjVEgta19TLV9QZF9LNXFQYm9CTjNkOV9YOFJ6aXJpQzFqYUc4c2JzVHpzUlFzYjBNbEthX0kxcDJWazgxR3R5TjNUQl9xcXY5ano5Wl9ETEw2VDJZOFpndVBVMFY1VElhZw?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-16 10:23 KST"
@@ -37,25 +37,25 @@
       "seen": "2026-09-16 09:41 KST"
     },
     {
+      "title": "Fed may raise rates by 1% in coming months, market strategist says",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5wMnlFVXFjVkVPX3p3c2tsSElUN241S0VKd2Z2UEJyaW5BUGxXTFhPeDBDb3JEM2dxT2ZiYjJKSkwxQkE0RExhM1B0MXd2RkZEOTFTQmROSGJwdWYtYkpwUEwwN1ViZw?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-16 05:44 KST"
+    },
+    {
       "title": "TSX falls as rising bond yields alarm investors ahead of Fed decision",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQTk1XQlZyM2JQZmNzeWVwbzB1dE43ZEd2RldMb3lwZzEyalVUb1JyaVE5NFJGUzF2cWpObjdJdkVFRmRWQkdvbU5uYXdhOVVHZ2c3enRlbzl5dUNKNW1fYlFGWnZ6YkFIaEx4ZG1UTkh2X21mTjJKVENnTWpnWWI0UEhWZDlEWlRYeWZfMmhwV05BS05fYTFQR1ljdXJUMDlwd0R0TnpoSQ?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-16 05:40 KST"
-    },
-    {
-      "title": "Canadian dollar extends daily losing streak ahead of expected Fed rate hike",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOZE94ZDQxOElPYS1hNUtxeXdtTzdhcFI0LW41VWJrVWNBOFdvZVY2UVg0MHg3NFRHNU02bFNJY3R1S1gtMTNXTldnNklOekY5Q2JSTmNGdEdkTUdWdWhfbWVKLThmU0E2TmVEcVNwbFF1c2w1Q2FTT0VULTBIbjA0cnJKZjJyMEJsRHdxTVVUQWdpNlExRW9wLWFoS3BzOEhNOUJ3YU5raXZmNzlsbk00NUNHeFBndGVh?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-16 01:28 KST"
     }
   ],
-  "rate_source_time": "2026-09-16 19:24:13 KST",
+  "rate_source_time": "2026-09-16 19:50:07 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": 7.9,
   "rate_change_pct": 0.58,
   "smbs_base_rate": 1353.3,
   "smbs_rate_date": "2026-09-16",
-  "smbs_rate_updated_at_kst": "2026-09-16 19:24:01 KST",
+  "smbs_rate_updated_at_kst": "2026-09-16 19:49:52 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1370.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-16 19:24:01 KST"
+  "rate_job_checked_at_kst": "2026-09-16 19:49:52 KST"
 }

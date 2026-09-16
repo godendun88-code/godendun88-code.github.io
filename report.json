@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-09-16 21:54 KST",
-  "current_rate": 1368.2,
+  "updated_at_kst": "2026-09-16 22:25 KST",
+  "current_rate": 1368.6,
   "previous_close": 1360.7,
-  "rate_updated_at_kst": "2026-09-16 21:54:00 KST",
+  "rate_updated_at_kst": "2026-09-16 22:25:02 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "하락 우세",
   "drivers": [
@@ -19,13 +19,19 @@
       "seen": "2026-09-16 19:47 KST"
     },
     {
-      "title": "Rupee pinned near 96 after RBI steps in, Fed test ahead",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPYTNHZzhkRVBIcG5pMzFjS19PTFBKVmlWa1RfelIzd3ZNeTF6Qm10T1N1TDhTZlowUURMSkRreFRZMnJDVmRqUGJ1bkhKTUJwa0g5RFhzU1Q1X3Y5VUpZYVlMREVrWDBveVl2SEEzQldXUTVmQXdPeURXaENtaWZfQmhQcWJqOEkwUHlYLTdnc1RhRFE2ZW40MTdvODFiUTRuWkJuRmNEQ1NNTXFmTUVSZllSSWxjNWw4OXZRWQ?oc=5",
+      "title": "Indian shares edge higher after selloff; oil, US rate worries cap gains",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQTGZwNnhJd2VnRFVFRzkxTlFVSl9CM2NDVXduY3V6c21DMnFjNThSTkR2OFFTNUR6aVdabVBybkZ0TEVCTS1yR0p5YlZCYlR6dTl2NnhVRnRvcVJPeXU1NWFNVWNESW8yRld2c1JLanJsdXh2d1V1R0lId2RuQXU0cUVIb1g4RW1rMUJHZ1hSMGM1Y2JXTnhnLURBTkRKNlFzM3JqVmlZU21xRXlReG5GdG5sMFhCX0czb2ZNSmlsT0ZKX3lfNVVn?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-16 12:01 KST"
+      "seen": "2026-09-16 11:32 KST"
     },
     {
       "title": "Stocks rise as oil falls, bonds steady ahead of Fed decision",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1EZTFQYXAzY01LTC1UX2J5X2FjVEgta19TLV9QZF9LNXFQYm9CTjNkOV9YOFJ6aXJpQzFqYUc4c2JzVHpzUlFzYjBNbEthX0kxcDJWazgxR3R5TjNUQl9xcXY5ano5Wl9ETEw2VDJZOFpndVBVMFY1VElhZw?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-16 10:23 KST"
+    },
+    {
+      "title": "Stocks tick up as oil falls, bonds stabilise ahead of Fed decision",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1EZTFQYXAzY01LTC1UX2J5X2FjVEgta19TLV9QZF9LNXFQYm9CTjNkOV9YOFJ6aXJpQzFqYUc4c2JzVHpzUlFzYjBNbEthX0kxcDJWazgxR3R5TjNUQl9xcXY5ano5Wl9ETEw2VDJZOFpndVBVMFY1VElhZw?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-16 10:23 KST"
@@ -37,25 +43,19 @@
       "seen": "2026-09-16 09:58 KST"
     },
     {
-      "title": "Fed may raise rates by 1% in coming months, market strategist says",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5wMnlFVXFjVkVPX3p3c2tsSElUN241S0VKd2Z2UEJyaW5BUGxXTFhPeDBDb3JEM2dxT2ZiYjJKSkwxQkE0RExhM1B0MXd2RkZEOTFTQmROSGJwdWYtYkpwUEwwN1ViZw?oc=5",
+      "title": "COMMENTARY: Trading Day: No hiding place",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNjJDU2NhMjQxcG9ZTk0wanh3Qk5CMktRb0U3WTU1VjNLQ3ZhUDVuTGVIU1N4MFBXQi1NdmRKUERSa3R6MTRsa1g1Ql9LQlFxak50ZXliQS1ZUVJGWk1BeGtGcm1SX05IX3M5VEk4cTRIVkk1ZDZlVFZ5ZkdBNVl4bS1NRXprbXpoYjZwbHNPUnZmTktQTVRWM3JUZzRNYmhDVVZSamtn?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-16 05:44 KST"
-    },
-    {
-      "title": "European shares hit three-month low as oil spike revives inflation and rate worries",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQSkxiZ002M0JSRVRUejBnMGxhRFA4OG9KRWxHWWxuaEtSclhHOTg3MDVMTm5SZEY4YUtuQ1ZtZGYyQWR6d1FRSmtLV093c1hsVy1pS09POEt1Zk40WmRjc0xFcnlwZHZPUzQ0d25hZWVYZnRmLXpXZzFGVzBoYS1jbWRQWVR2RmF4d2NvRjBUc09qclgybW9NbDRDdjE4a2NZZjRTR29sYnJXZ0RMajNlUTBFQQ?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-16 01:30 KST"
+      "seen": "2026-09-16 06:14 KST"
     }
   ],
-  "rate_source_time": "2026-09-16 21:54:00 KST",
+  "rate_source_time": "2026-09-16 22:25:02 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 7.5,
-  "rate_change_pct": 0.55,
+  "rate_change": 7.9,
+  "rate_change_pct": 0.58,
   "smbs_base_rate": 1353.3,
   "smbs_rate_date": "2026-09-16",
-  "smbs_rate_updated_at_kst": "2026-09-16 21:53:44 KST",
+  "smbs_rate_updated_at_kst": "2026-09-16 22:24:50 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1370.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-16 21:53:44 KST"
+  "rate_job_checked_at_kst": "2026-09-16 22:24:50 KST"
 }

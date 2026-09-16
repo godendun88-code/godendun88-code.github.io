@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-09-16 21:28 KST",
-  "current_rate": 1367.7,
+  "updated_at_kst": "2026-09-16 21:54 KST",
+  "current_rate": 1368.2,
   "previous_close": 1360.7,
-  "rate_updated_at_kst": "2026-09-16 21:28:41 KST",
+  "rate_updated_at_kst": "2026-09-16 21:54:00 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "하락 우세",
   "drivers": [
@@ -31,31 +31,31 @@
       "seen": "2026-09-16 10:23 KST"
     },
     {
-      "title": "Stocks tick up as oil falls, bonds stabilise ahead of Fed decision",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1EZTFQYXAzY01LTC1UX2J5X2FjVEgta19TLV9QZF9LNXFQYm9CTjNkOV9YOFJ6aXJpQzFqYUc4c2JzVHpzUlFzYjBNbEthX0kxcDJWazgxR3R5TjNUQl9xcXY5ano5Wl9ETEw2VDJZOFpndVBVMFY1VElhZw?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-16 10:23 KST"
-    },
-    {
       "title": "Dollar girded by bets on a US hiking cycle",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNMWFHQ1hoSVRaSzc4anZCS1Rpekx5UTA2d2d2VmRfeXRGaWpGS2tTNi1YaDBRRlhKZmNjcldfdVhOVU9sRG9yMlg4TVB5SkhzTHIzaGFLZFVRWlkwOFg0QVROVnVIcGlCMkM2YVNTUlc4WU9sMkhnSF9mUVd3S0lUS210by1uSWlaUE9iRjQ3ZkVQMDhOWmhN?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-16 09:58 KST"
     },
     {
-      "title": "Oil slips as Saudi Arabia offers more crude via Oman; diesel near record high",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPSUw2WF9wc1NsbDZJRTlsTzlIOFYzZWtQMEJUS0tNT3VPUEhJUnhIZTZBTlJTcG50M0IxOXNLYTFSQVZRb2VIWllBT2ZzNC14RnAwUkhWYW91MlJrVm5TX3BZR3RSeVU3dUtjZmJuWm1hZWNyd29LLUUyY3BIekxROHllS0xoME02UUNDWnJlakRUU3hnOFg2aUV3X0FVVWd3SUpkRkZUTjdoX3VTRm95UE5CTWQxVXk1?oc=5",
+      "title": "Fed may raise rates by 1% in coming months, market strategist says",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5wMnlFVXFjVkVPX3p3c2tsSElUN241S0VKd2Z2UEJyaW5BUGxXTFhPeDBDb3JEM2dxT2ZiYjJKSkwxQkE0RExhM1B0MXd2RkZEOTFTQmROSGJwdWYtYkpwUEwwN1ViZw?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-16 09:41 KST"
+      "seen": "2026-09-16 05:44 KST"
+    },
+    {
+      "title": "European shares hit three-month low as oil spike revives inflation and rate worries",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQSkxiZ002M0JSRVRUejBnMGxhRFA4OG9KRWxHWWxuaEtSclhHOTg3MDVMTm5SZEY4YUtuQ1ZtZGYyQWR6d1FRSmtLV093c1hsVy1pS09POEt1Zk40WmRjc0xFcnlwZHZPUzQ0d25hZWVYZnRmLXpXZzFGVzBoYS1jbWRQWVR2RmF4d2NvRjBUc09qclgybW9NbDRDdjE4a2NZZjRTR29sYnJXZ0RMajNlUTBFQQ?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-16 01:30 KST"
     }
   ],
-  "rate_source_time": "2026-09-16 21:28:41 KST",
+  "rate_source_time": "2026-09-16 21:54:00 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 7.0,
-  "rate_change_pct": 0.51,
+  "rate_change": 7.5,
+  "rate_change_pct": 0.55,
   "smbs_base_rate": 1353.3,
   "smbs_rate_date": "2026-09-16",
-  "smbs_rate_updated_at_kst": "2026-09-16 21:28:26 KST",
+  "smbs_rate_updated_at_kst": "2026-09-16 21:53:44 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1370.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-16 21:28:26 KST"
+  "rate_job_checked_at_kst": "2026-09-16 21:53:44 KST"
 }

@@ -1,23 +1,17 @@
 {
-  "updated_at_kst": "2026-09-16 19:50 KST",
-  "current_rate": 1368.6,
+  "updated_at_kst": "2026-09-16 20:23 KST",
+  "current_rate": 1368.5,
   "previous_close": 1360.7,
-  "rate_updated_at_kst": "2026-09-16 19:50:07 KST",
+  "rate_updated_at_kst": "2026-09-16 20:23:22 KST",
   "rate_source": "KB STAR FX Market Watch",
-  "market_bias": "혼조",
+  "market_bias": "하락 우세",
   "drivers": [
-    "연준·금리 관련 최신 기사(\"Rupee pinned near 96 after RBI steps in, Fed test ahead\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
-    "달러 관련 최신 기사(\"Dollar girded by bets on a US hiking cycle\")가 확인돼 달러인덱스 방향성이 원/달러 환율의 핵심 변수로 작용하고 있습니다.",
-    "유가·지정학 관련 최신 기사(\"Oil slips as Saudi Arabia offers more crude via Oman; diesel near record high\")가 확인돼 원화 변동성 확대 요인으로 작용하고 있습니다."
+    "연준·금리 관련 최신 기사(\"Stocks tick up as oil falls, bonds stabilise ahead of Fed decision\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
+    "미국 물가 관련 최신 기사(\"European shares hit three-month low as oil spike revives inflation and rate worries\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
+    "달러 관련 최신 기사(\"Dollar girded by bets on a US hiking cycle\")가 확인돼 달러인덱스 방향성이 원/달러 환율의 핵심 변수로 작용하고 있습니다."
   ],
-  "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
+  "outlook": "달러 약세·금리 하락 계열의 재료가 상대적으로 우세해 원/달러는 단기 하락 압력이 이어질 가능성이 있으나, 유가와 지정학적 리스크는 하단을 제한할 수 있습니다.",
   "articles": [
-    {
-      "title": "Rupee pinned near 96 after RBI steps in, Fed test ahead",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPYTNHZzhkRVBIcG5pMzFjS19PTFBKVmlWa1RfelIzd3ZNeTF6Qm10T1N1TDhTZlowUURMSkRreFRZMnJDVmRqUGJ1bkhKTUJwa0g5RFhzU1Q1X3Y5VUpZYVlMREVrWDBveVl2SEEzQldXUTVmQXdPeURXaENtaWZfQmhQcWJqOEkwUHlYLTdnc1RhRFE2ZW40MTdvODFiUTRuWkJuRmNEQ1NNTXFmTUVSZllSSWxjNWw4OXZRWQ?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-16 12:01 KST"
-    },
     {
       "title": "Stocks tick up as oil falls, bonds stabilise ahead of Fed decision",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1EZTFQYXAzY01LTC1UX2J5X2FjVEgta19TLV9QZF9LNXFQYm9CTjNkOV9YOFJ6aXJpQzFqYUc4c2JzVHpzUlFzYjBNbEthX0kxcDJWazgxR3R5TjNUQl9xcXY5ano5Wl9ETEw2VDJZOFpndVBVMFY1VElhZw?oc=5",
@@ -31,10 +25,10 @@
       "seen": "2026-09-16 09:58 KST"
     },
     {
-      "title": "Oil slips as Saudi Arabia offers more crude via Oman; diesel near record high",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPSUw2WF9wc1NsbDZJRTlsTzlIOFYzZWtQMEJUS0tNT3VPUEhJUnhIZTZBTlJTcG50M0IxOXNLYTFSQVZRb2VIWllBT2ZzNC14RnAwUkhWYW91MlJrVm5TX3BZR3RSeVU3dUtjZmJuWm1hZWNyd29LLUUyY3BIekxROHllS0xoME02UUNDWnJlakRUU3hnOFg2aUV3X0FVVWd3SUpkRkZUTjdoX3VTRm95UE5CTWQxVXk1?oc=5",
+      "title": "COMMENTARY: Trading Day: No hiding place",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNjJDU2NhMjQxcG9ZTk0wanh3Qk5CMktRb0U3WTU1VjNLQ3ZhUDVuTGVIU1N4MFBXQi1NdmRKUERSa3R6MTRsa1g1Ql9LQlFxak50ZXliQS1ZUVJGWk1BeGtGcm1SX05IX3M5VEk4cTRIVkk1ZDZlVFZ5ZkdBNVl4bS1NRXprbXpoYjZwbHNPUnZmTktQTVRWM3JUZzRNYmhDVVZSamtn?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-16 09:41 KST"
+      "seen": "2026-09-16 06:14 KST"
     },
     {
       "title": "Fed may raise rates by 1% in coming months, market strategist says",
@@ -47,15 +41,21 @@
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQTk1XQlZyM2JQZmNzeWVwbzB1dE43ZEd2RldMb3lwZzEyalVUb1JyaVE5NFJGUzF2cWpObjdJdkVFRmRWQkdvbU5uYXdhOVVHZ2c3enRlbzl5dUNKNW1fYlFGWnZ6YkFIaEx4ZG1UTkh2X21mTjJKVENnTWpnWWI0UEhWZDlEWlRYeWZfMmhwV05BS05fYTFQR1ljdXJUMDlwd0R0TnpoSQ?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-16 05:40 KST"
+    },
+    {
+      "title": "European shares hit three-month low as oil spike revives inflation and rate worries",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQSkxiZ002M0JSRVRUejBnMGxhRFA4OG9KRWxHWWxuaEtSclhHOTg3MDVMTm5SZEY4YUtuQ1ZtZGYyQWR6d1FRSmtLV093c1hsVy1pS09POEt1Zk40WmRjc0xFcnlwZHZPUzQ0d25hZWVYZnRmLXpXZzFGVzBoYS1jbWRQWVR2RmF4d2NvRjBUc09qclgybW9NbDRDdjE4a2NZZjRTR29sYnJXZ0RMajNlUTBFQQ?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-16 01:30 KST"
     }
   ],
-  "rate_source_time": "2026-09-16 19:50:07 KST",
+  "rate_source_time": "2026-09-16 20:23:22 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 7.9,
-  "rate_change_pct": 0.58,
+  "rate_change": 7.8,
+  "rate_change_pct": 0.57,
   "smbs_base_rate": 1353.3,
   "smbs_rate_date": "2026-09-16",
-  "smbs_rate_updated_at_kst": "2026-09-16 19:49:52 KST",
+  "smbs_rate_updated_at_kst": "2026-09-16 20:23:10 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1370.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-16 19:49:52 KST"
+  "rate_job_checked_at_kst": "2026-09-16 20:23:10 KST"
 }

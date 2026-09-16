@@ -1,22 +1,34 @@
 {
-  "updated_at_kst": "2026-09-17 03:51 KST",
+  "updated_at_kst": "2026-09-17 04:21 KST",
   "current_rate": 1368.2,
   "previous_close": 1360.7,
-  "rate_updated_at_kst": "2026-09-17 03:51:33 KST",
+  "rate_updated_at_kst": "2026-09-17 04:21:40 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
-    "연준·금리 관련 최신 기사(\"VIEW Markets steady after Fed raises rates, points to another hike this year\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
-    "달러 관련 최신 기사(\"Dollar girded by bets on a US hiking cycle\")가 확인돼 달러인덱스 방향성이 원/달러 환율의 핵심 변수로 작용하고 있습니다.",
-    "유가 및 중동 지정학적 불확실성이 부각돼 에너지 수입 의존도가 높은 원화에는 약세 부담 요인으로 작용하고 있습니다."
+    "연준·금리 관련 최신 기사(\"VIEW Stocks pull back after Fed raises rates, points to another hike this year\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
+    "미국 물가 관련 최신 기사(\"Fed hikes rates in search of 'timelier' drop in inflation, sees more tightening ahead\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
+    "달러 관련 최신 기사(\"Dollar girded by bets on a US hiking cycle\")가 확인돼 달러인덱스 방향성이 원/달러 환율의 핵심 변수로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
     {
-      "title": "VIEW Markets steady after Fed raises rates, points to another hike this year",
+      "title": "VIEW Stocks pull back after Fed raises rates, points to another hike this year",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPcHE5d2RsZk5YWi1pLWw0M0tWX0pGZl81OEcwZVJtUlJsbTVoUnpQWUxJYjZGSjhvMmlDd0JrcVVFQjJ0aFRJRkh1cTFteld2Y0lSeXhyMFllMU5vSGthbExhbzc5MVNSRTFHOS1JWVcwZ09jSllmTDJoeHBEUEFJanI2aEZqQm1PbXZJZHpwRHpRU2FoMG9EMmVoVmxiZ0h1YV8xTk12QjRMVm1LQ1Zfcm1qUGhUWkFH?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-17 03:26 KST"
+      "seen": "2026-09-17 04:05 KST"
+    },
+    {
+      "title": "Fed hikes rates in search of 'timelier' drop in inflation, sees more tightening ahead",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPd0VZMTZPMGRVWVVTY0lVRERxMHhQdlNnb2NBOHROMDJETXBLVmJFTW12SmFybUloWGRfYm1ueDhEZHJuOWNPQXh3RHpDVllhRVpSUVFVeDJmMGFNNTM2RTRqMkVFaXdwTmM1eG1UeVhqLXNuYW5LMjZGYUFCYUV0djFqUTUxRkF2Vk9NeTh5VU44bENZYi1kaTBnS1NuVngtX1dIeEVtaw?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-17 03:49 KST"
+    },
+    {
+      "title": "What do higher rates mean for borrowers and savers?",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPa2o3aURpZERkdnhlVFVIUE0xdHlycUNDaXFJV2pib1ZRa3FabTY3QUxOUi1yY1RFYmtLTEZxcXN4ZVV3SUhNX1F4U2lRanpuUnhJVEVzVXBmdlF0Q1FUNkd6WFI0WEdIMXdQdTdVUFZDTFhFTERUeTJ5NG5PVE9Oa0NFMWZ4WmxKeVVuQ3VSRXlpTmxTZURJNVhENW5jYkU4X0hPYlJB?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-17 03:47 KST"
     },
     {
       "title": "Bund yields dip from 17-year highs as oil falls, with Fed in focus",
@@ -35,27 +47,15 @@
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQTGZwNnhJd2VnRFVFRzkxTlFVSl9CM2NDVXduY3V6c21DMnFjNThSTkR2OFFTNUR6aVdabVBybkZ0TEVCTS1yR0p5YlZCYlR6dTl2NnhVRnRvcVJPeXU1NWFNVWNESW8yRld2c1JLanJsdXh2d1V1R0lId2RuQXU0cUVIb1g4RW1rMUJHZ1hSMGM1Y2JXTnhnLURBTkRKNlFzM3JqVmlZU21xRXlReG5GdG5sMFhCX0czb2ZNSmlsT0ZKX3lfNVVn?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-16 11:32 KST"
-    },
-    {
-      "title": "Gold gains over 1% as oil, yields slip ahead of Fed rate decision",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQdEVwMWpILUF1dnhqajU0di1FMVRLWGNScTJKdTR2NUl2VWZSUXpWNF9UQ3h2M0ZuMUYxZzJab09IcUMwN0RQSlRtcC1HSGdQM2poNXptR1BCeklERXdjcmE5N2tzNmdHczY1SkdnSXE0Q3dJNV9TYkNjVDdNUFZjLUhDMkRWcHlsNVF5V19sS1MwX3lnNG13?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-16 11:07 KST"
-    },
-    {
-      "title": "Stocks gain as yields retreat ahead of Fed rate decision",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1EZTFQYXAzY01LTC1UX2J5X2FjVEgta19TLV9QZF9LNXFQYm9CTjNkOV9YOFJ6aXJpQzFqYUc4c2JzVHpzUlFzYjBNbEthX0kxcDJWazgxR3R5TjNUQl9xcXY5ano5Wl9ETEw2VDJZOFpndVBVMFY1VElhZw?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-16 10:23 KST"
     }
   ],
-  "rate_source_time": "2026-09-17 03:51:33 KST",
+  "rate_source_time": "2026-09-17 04:21:40 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": 7.5,
   "rate_change_pct": 0.55,
   "smbs_base_rate": 1368.3,
   "smbs_rate_date": "2026-09-17",
-  "smbs_rate_updated_at_kst": "2026-09-17 03:51:21 KST",
+  "smbs_rate_updated_at_kst": "2026-09-17 04:21:25 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1370.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-17 03:51:21 KST"
+  "rate_job_checked_at_kst": "2026-09-17 04:21:25 KST"
 }

@@ -1,22 +1,28 @@
 {
-  "updated_at_kst": "2026-09-17 02:48 KST",
+  "updated_at_kst": "2026-09-17 03:25 KST",
   "current_rate": 1368.2,
   "previous_close": 1360.7,
-  "rate_updated_at_kst": "2026-09-17 02:48:28 KST",
+  "rate_updated_at_kst": "2026-09-17 03:25:11 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
-    "연준·금리 관련 최신 기사(\"Nasdaq, S&P 500 climb ahead of keenly awaited Fed decision\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
+    "연준·금리 관련 최신 기사(\"VIEW Markets steady after Fed raises rates, points to another hike this year\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
     "달러 관련 최신 기사(\"Dollar girded by bets on a US hiking cycle\")가 확인돼 달러인덱스 방향성이 원/달러 환율의 핵심 변수로 작용하고 있습니다.",
     "유가 및 중동 지정학적 불확실성이 부각돼 에너지 수입 의존도가 높은 원화에는 약세 부담 요인으로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
     {
-      "title": "Nasdaq, S&P 500 climb ahead of keenly awaited Fed decision",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSUtqeWNnZEJZT0IyaHpTajZTM3hWV0gwZUV1VkhQV21PUzJBQ0kzLWhxTk5iWUtNbTI1eUVWQnN1b2Y4T2RQSnhmc1pDcVVWYldOc19HSzRId2pZMHZFWHZrNHhnMVh3VGd4RkRSdDJGZ2ZJSzd6TWhiWWtUd1lWRkxzcklsRmJhOS1TcEZYMkRTQjhmakMyVDFtQQ?oc=5",
+      "title": "VIEW Markets steady after Fed raises rates, points to another hike this year",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPcHE5d2RsZk5YWi1pLWw0M0tWX0pGZl81OEcwZVJtUlJsbTVoUnpQWUxJYjZGSjhvMmlDd0JrcVVFQjJ0aFRJRkh1cTFteld2Y0lSeXhyMFllMU5vSGthbExhbzc5MVNSRTFHOS1JWVcwZ09jSllmTDJoeHBEUEFJanI2aEZqQm1PbXZJZHpwRHpRU2FoMG9EMmVoVmxiZ0h1YV8xTk12QjRMVm1LQ1Zfcm1qUGhUWkFH?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-16 23:09 KST"
+      "seen": "2026-09-17 03:19 KST"
+    },
+    {
+      "title": "Bund yields close to 17-year highs on mixed energy prices, Fed in focus",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPN2NoOEo3YlUzRXVFUkkzdUdIclM5bnhaYWFSSUdRTlQ2MWJZWUdsdzRlcXY1WnRDMmhsVVJ5c0hkMzIzSU9vVWlWb2d3N3NVMTc1QjhmMGIxa0NaVEdzVkZPV2tQY0p4VWtCY3NjTVlPbW5IUlRIcG1fd2tpcnFTRWIzUzRhVUN6dVhITElnM0FnUW44dlAtWnN0aDFpUnBCUExwM3BZYjAyZw?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-16 20:36 KST"
     },
     {
       "title": "TSX futures inch up ahead of US Fed decision",
@@ -41,21 +47,15 @@
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1EZTFQYXAzY01LTC1UX2J5X2FjVEgta19TLV9QZF9LNXFQYm9CTjNkOV9YOFJ6aXJpQzFqYUc4c2JzVHpzUlFzYjBNbEthX0kxcDJWazgxR3R5TjNUQl9xcXY5ano5Wl9ETEw2VDJZOFpndVBVMFY1VElhZw?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-16 10:23 KST"
-    },
-    {
-      "title": "Stocks rise as oil falls, bonds steady ahead of Fed decision",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1EZTFQYXAzY01LTC1UX2J5X2FjVEgta19TLV9QZF9LNXFQYm9CTjNkOV9YOFJ6aXJpQzFqYUc4c2JzVHpzUlFzYjBNbEthX0kxcDJWazgxR3R5TjNUQl9xcXY5ano5Wl9ETEw2VDJZOFpndVBVMFY1VElhZw?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-16 10:23 KST"
     }
   ],
-  "rate_source_time": "2026-09-17 02:48:28 KST",
+  "rate_source_time": "2026-09-17 03:25:11 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": 7.5,
   "rate_change_pct": 0.55,
   "smbs_base_rate": 1368.3,
   "smbs_rate_date": "2026-09-17",
-  "smbs_rate_updated_at_kst": "2026-09-17 02:48:12 KST",
+  "smbs_rate_updated_at_kst": "2026-09-17 03:24:58 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1370.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-17 02:48:12 KST"
+  "rate_job_checked_at_kst": "2026-09-17 03:24:58 KST"
 }

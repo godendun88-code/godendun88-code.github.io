@@ -1,14 +1,14 @@
 {
-  "updated_at_kst": "2026-09-16 16:51 KST",
-  "current_rate": 1366.1,
+  "updated_at_kst": "2026-09-16 17:25 KST",
+  "current_rate": 1368.0,
   "previous_close": 1360.7,
-  "rate_updated_at_kst": "2026-09-16 16:24:06 KST",
+  "rate_updated_at_kst": "2026-09-16 17:24:58 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
     "연준·금리 관련 최신 기사(\"Rupee pinned near 96 after RBI steps in, Fed test ahead\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
     "미국 물가 관련 최신 기사(\"Rupee drops with stocks, bonds as oil, inflation and Fed worries mount\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
-    "미 국채금리 관련 최신 기사(\"Global bond yields hit fresh highs, raising stakes for big borrowers\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다."
+    "달러 관련 최신 기사(\"Dollar girded by bets on a US hiking cycle\")가 확인돼 달러인덱스 방향성이 원/달러 환율의 핵심 변수로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
@@ -31,12 +31,6 @@
       "seen": "2026-09-16 09:58 KST"
     },
     {
-      "title": "COMMENTARY: Trading Day: No hiding place",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNjJDU2NhMjQxcG9ZTk0wanh3Qk5CMktRb0U3WTU1VjNLQ3ZhUDVuTGVIU1N4MFBXQi1NdmRKUERSa3R6MTRsa1g1Ql9LQlFxak50ZXliQS1ZUVJGWk1BeGtGcm1SX05IX3M5VEk4cTRIVkk1ZDZlVFZ5ZkdBNVl4bS1NRXprbXpoYjZwbHNPUnZmTktQTVRWM3JUZzRNYmhDVVZSamtn?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-16 06:14 KST"
-    },
-    {
       "title": "Fed may raise rates by 1% in coming months, market strategist says",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9PUFN0TkhuMVhpcDlUdWJWSk93UFpMbm1JUDFzWDRpay1rR09YSGJLSmdqUUlDc2dvZlh2c2pMXzZlTFdJSGQzS2ZYRjQxN1JwNndNVjI4aDFXX3BUV1A3aTFlTzhTU1U?oc=5",
       "domain": "Reuters",
@@ -47,22 +41,27 @@
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQTk1XQlZyM2JQZmNzeWVwbzB1dE43ZEd2RldMb3lwZzEyalVUb1JyaVE5NFJGUzF2cWpObjdJdkVFRmRWQkdvbU5uYXdhOVVHZ2c3enRlbzl5dUNKNW1fYlFGWnZ6YkFIaEx4ZG1UTkh2X21mTjJKVENnTWpnWWI0UEhWZDlEWlRYeWZfMmhwV05BS05fYTFQR1ljdXJUMDlwd0R0TnpoSQ?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-16 05:40 KST"
+    },
+    {
+      "title": "Canadian dollar extends daily losing streak ahead of expected Fed rate hike",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOZE94ZDQxOElPYS1hNUtxeXdtTzdhcFI0LW41VWJrVWNBOFdvZVY2UVg0MHg3NFRHNU02bFNJY3R1S1gtMTNXTldnNklOekY5Q2JSTmNGdEdkTUdWdWhfbWVKLThmU0E2TmVEcVNwbFF1c2w1Q2FTT0VULTBIbjA0cnJKZjJyMEJsRHdxTVVUQWdpNlExRW9wLWFoS3BzOEhNOUJ3YU5raXZmNzlsbk00NUNHeFBndGVh?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-16 01:28 KST"
     }
   ],
-  "rate_source_time": "2026-09-16 16:24:06 KST",
+  "rate_source_time": "2026-09-16 17:24:58 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 5.4,
-  "rate_change_pct": 0.4,
+  "rate_change": 7.3,
+  "rate_change_pct": 0.54,
   "smbs_base_rate": 1353.3,
   "smbs_rate_date": "2026-09-16",
-  "smbs_rate_updated_at_kst": "2026-09-16 16:49:29 KST",
+  "smbs_rate_updated_at_kst": "2026-09-16 17:24:43 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
     1358.0,
     1370.0
   ],
-  "rate_check_status": "failed",
-  "rate_job_checked_at_kst": "2026-09-16 16:49:29 KST",
-  "rate_fetch_error": "RuntimeError: KB STAR FX 자동조회 3회 실패: TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n | TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n | TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n"
+  "rate_check_status": "success",
+  "rate_job_checked_at_kst": "2026-09-16 17:24:43 KST"
 }

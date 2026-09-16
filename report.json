@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-09-16 18:50 KST",
-  "current_rate": 1368.7,
+  "updated_at_kst": "2026-09-16 19:24 KST",
+  "current_rate": 1368.6,
   "previous_close": 1360.7,
-  "rate_updated_at_kst": "2026-09-16 18:49:59 KST",
+  "rate_updated_at_kst": "2026-09-16 19:24:13 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
@@ -31,10 +31,10 @@
       "seen": "2026-09-16 09:58 KST"
     },
     {
-      "title": "Fed may raise rates by 1% in coming months, market strategist says",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9PUFN0TkhuMVhpcDlUdWJWSk93UFpMbm1JUDFzWDRpay1rR09YSGJLSmdqUUlDc2dvZlh2c2pMXzZlTFdJSGQzS2ZYRjQxN1JwNndNVjI4aDFXX3BUV1A3aTFlTzhTU1U?oc=5",
+      "title": "Oil slips as Saudi Arabia offers more crude via Oman; diesel near record high",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPSUw2WF9wc1NsbDZJRTlsTzlIOFYzZWtQMEJUS0tNT3VPUEhJUnhIZTZBTlJTcG50M0IxOXNLYTFSQVZRb2VIWllBT2ZzNC14RnAwUkhWYW91MlJrVm5TX3BZR3RSeVU3dUtjZmJuWm1hZWNyd29LLUUyY3BIekxROHllS0xoME02UUNDWnJlakRUU3hnOFg2aUV3X0FVVWd3SUpkRkZUTjdoX3VTRm95UE5CTWQxVXk1?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-16 05:43 KST"
+      "seen": "2026-09-16 09:41 KST"
     },
     {
       "title": "TSX falls as rising bond yields alarm investors ahead of Fed decision",
@@ -49,13 +49,13 @@
       "seen": "2026-09-16 01:28 KST"
     }
   ],
-  "rate_source_time": "2026-09-16 18:49:59 KST",
+  "rate_source_time": "2026-09-16 19:24:13 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 8.0,
-  "rate_change_pct": 0.59,
+  "rate_change": 7.9,
+  "rate_change_pct": 0.58,
   "smbs_base_rate": 1353.3,
   "smbs_rate_date": "2026-09-16",
-  "smbs_rate_updated_at_kst": "2026-09-16 18:49:46 KST",
+  "smbs_rate_updated_at_kst": "2026-09-16 19:24:01 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1370.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-16 18:49:46 KST"
+  "rate_job_checked_at_kst": "2026-09-16 19:24:01 KST"
 }

@@ -1,17 +1,23 @@
 {
-  "updated_at_kst": "2026-09-17 05:23 KST",
+  "updated_at_kst": "2026-09-17 06:23 KST",
   "current_rate": 1368.2,
   "previous_close": 1360.7,
-  "rate_updated_at_kst": "2026-09-17 05:49:41 KST",
+  "rate_updated_at_kst": "2026-09-17 06:23:06 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "상승 우세",
   "drivers": [
     "연준의 추가 금리 인상 또는 매파적 기조 우려가 부각돼 달러 강세 압력이 높아지는 요인으로 작용하고 있습니다.",
-    "달러 관련 최신 기사(\"Dollar girded by bets on a US hiking cycle\")가 확인돼 달러인덱스 방향성이 원/달러 환율의 핵심 변수로 작용하고 있습니다.",
-    "외환시장 관련 최신 기사(\"What do higher rates mean for borrowers and savers?\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다."
+    "외환시장 관련 최신 기사(\"COMMENTARY: TRADING DAY Lift off!\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다.",
+    "연준·금리 관련 최신 기사(\"VIEW Stocks pull back after Fed raises rates, points to another hike this year\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다."
   ],
   "outlook": "달러 강세·금리 상승 계열의 재료가 상대적으로 우세해 원/달러는 단기 상승 압력이 나타날 수 있으나, 국내 수급과 위험선호 회복 여부에 따라 변동성이 예상됩니다.",
   "articles": [
+    {
+      "title": "COMMENTARY: TRADING DAY Lift off!",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPRnVEVW9JZ2tKNmNES3RWYUlXTjJhOVFad0JhMjJXM1JsbHJwTVpUNmltQ3l3Z1dLclFEOTkwNXQwVG1mZjFwRE1lcjZDWl90VF83YkllMElYRU1aNXhWYVQyZWlENERVa2xRNmNLR1pOMmx5ZnZfUVNqSTBXT0VYdm9ocEtESEVPRHpsVFoyVVJaMnVTYlpBMm1RdkdDZ2VkQ2htYmpB?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-17 06:07 KST"
+    },
     {
       "title": "Canadian dollar hits six-week low as investors bet on additional Fed rate hikes",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQb2I2b2NPdWRUM3FfUGJiM054bU5RakpGdnc5NzhIZ0dZaENwc3JjbGpmRDB5WFZmZkoxWVlBM3lIc0lWNFVTYkFGTURVdnR4TmVrdHlsdlMwY21XV2RNRm9GcmhrTklualJxZW81VmJPYnFaRXpBRGhRSUxLZkFtVTRfaFVoeDRyTWIwOGZKLXRJUG44WTdSQl9HRVdSckd2NlpFeVlod3lQVmUxbU9UdXVGdTMwdzVubVE?oc=5",
@@ -41,21 +47,15 @@
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPN2NoOEo3YlUzRXVFUkkzdUdIclM5bnhaYWFSSUdRTlQ2MWJZWUdsdzRlcXY1WnRDMmhsVVJ5c0hkMzIzSU9vVWlWb2d3N3NVMTc1QjhmMGIxa0NaVEdzVkZPV2tQY0p4VWtCY3NjTVlPbW5IUlRIcG1fd2tpcnFTRWIzUzRhVUN6dVhITElnM0FnUW44dlAtWnN0aDFpUnBCUExwM3BZYjAyZw?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-17 00:40 KST"
-    },
-    {
-      "title": "TSX futures inch up ahead of US Fed decision",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNbU9rMGo4amQzcjE0Rzl5aHlKUXF2aFNsV1Y1VHFxRFFyTXU4MjlYY2dfSWpsVWxzSGVsWnh6bUpVdno1T1dRaF9WdkJ5M2JmenhubFBmazFLVnBvZ3Q1QTg3TUxwOFVOZTN2VmYzWFB5N0JMWTBiTTZlaGlXaVV6RWVGVkZnbnp5aHEzQXpaZw?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-16 19:47 KST"
     }
   ],
-  "rate_source_time": "2026-09-17 05:49:41 KST",
+  "rate_source_time": "2026-09-17 06:23:06 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": 7.5,
   "rate_change_pct": 0.55,
   "smbs_base_rate": 1368.3,
   "smbs_rate_date": "2026-09-17",
-  "smbs_rate_updated_at_kst": "2026-09-17 05:49:29 KST",
+  "smbs_rate_updated_at_kst": "2026-09-17 06:22:51 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1370.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-17 05:49:29 KST"
+  "rate_job_checked_at_kst": "2026-09-17 06:22:51 KST"
 }

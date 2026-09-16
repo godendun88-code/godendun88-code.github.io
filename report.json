@@ -1,28 +1,28 @@
 {
-  "updated_at_kst": "2026-09-17 01:23 KST",
+  "updated_at_kst": "2026-09-17 01:50 KST",
   "current_rate": 1368.2,
   "previous_close": 1360.7,
-  "rate_updated_at_kst": "2026-09-17 01:23:24 KST",
+  "rate_updated_at_kst": "2026-09-17 01:50:09 KST",
   "rate_source": "KB STAR FX Market Watch",
-  "market_bias": "하락 우세",
+  "market_bias": "혼조",
   "drivers": [
-    "연준·금리 관련 최신 기사(\"TSX futures inch up ahead of US Fed decision\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
-    "미국 물가 관련 최신 기사(\"European shares hit three-month low as oil spike revives inflation and rate worries\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
-    "달러 관련 최신 기사(\"Dollar girded by bets on a US hiking cycle\")가 확인돼 달러인덱스 방향성이 원/달러 환율의 핵심 변수로 작용하고 있습니다."
+    "연준·금리 관련 최신 기사(\"Nasdaq, S&P 500 climb ahead of keenly awaited Fed decision\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
+    "달러 관련 최신 기사(\"Dollar girded by bets on a US hiking cycle\")가 확인돼 달러인덱스 방향성이 원/달러 환율의 핵심 변수로 작용하고 있습니다.",
+    "유가 및 중동 지정학적 불확실성이 부각돼 에너지 수입 의존도가 높은 원화에는 약세 부담 요인으로 작용하고 있습니다."
   ],
-  "outlook": "달러 약세·금리 하락 계열의 재료가 상대적으로 우세해 원/달러는 단기 하락 압력이 이어질 가능성이 있으나, 유가와 지정학적 리스크는 하단을 제한할 수 있습니다.",
+  "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
+    {
+      "title": "Nasdaq, S&P 500 climb ahead of keenly awaited Fed decision",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSUtqeWNnZEJZT0IyaHpTajZTM3hWV0gwZUV1VkhQV21PUzJBQ0kzLWhxTk5iWUtNbTI1eUVWQnN1b2Y4T2RQSnhmc1pDcVVWYldOc19HSzRId2pZMHZFWHZrNHhnMVh3VGd4RkRSdDJGZ2ZJSzd6TWhiWWtUd1lWRkxzcklsRmJhOS1TcEZYMkRTQjhmakMyVDFtQQ?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-16 23:09 KST"
+    },
     {
       "title": "TSX futures inch up ahead of US Fed decision",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNbU9rMGo4amQzcjE0Rzl5aHlKUXF2aFNsV1Y1VHFxRFFyTXU4MjlYY2dfSWpsVWxzSGVsWnh6bUpVdno1T1dRaF9WdkJ5M2JmenhubFBmazFLVnBvZ3Q1QTg3TUxwOFVOZTN2VmYzWFB5N0JMWTBiTTZlaGlXaVV6RWVGVkZnbnp5aHEzQXpaZw?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-16 19:47 KST"
-    },
-    {
-      "title": "Rupee languishes at six-week low ahead of Fed outcome, RBI limits losses",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPYTNHZzhkRVBIcG5pMzFjS19PTFBKVmlWa1RfelIzd3ZNeTF6Qm10T1N1TDhTZlowUURMSkRreFRZMnJDVmRqUGJ1bkhKTUJwa0g5RFhzU1Q1X3Y5VUpZYVlMREVrWDBveVl2SEEzQldXUTVmQXdPeURXaENtaWZfQmhQcWJqOEkwUHlYLTdnc1RhRFE2ZW40MTdvODFiUTRuWkJuRmNEQ1NNTXFmTUVSZllSSWxjNWw4OXZRWQ?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-16 12:01 KST"
     },
     {
       "title": "Indian shares edge higher after selloff; oil, US rate worries cap gains",
@@ -49,13 +49,13 @@
       "seen": "2026-09-16 09:58 KST"
     }
   ],
-  "rate_source_time": "2026-09-17 01:23:24 KST",
+  "rate_source_time": "2026-09-17 01:50:09 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": 7.5,
   "rate_change_pct": 0.55,
   "smbs_base_rate": 1368.3,
   "smbs_rate_date": "2026-09-17",
-  "smbs_rate_updated_at_kst": "2026-09-17 01:23:13 KST",
+  "smbs_rate_updated_at_kst": "2026-09-17 01:49:53 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1370.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-17 01:23:13 KST"
+  "rate_job_checked_at_kst": "2026-09-17 01:49:53 KST"
 }

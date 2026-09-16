@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-09-17 04:21 KST",
+  "updated_at_kst": "2026-09-17 04:46 KST",
   "current_rate": 1368.2,
   "previous_close": 1360.7,
-  "rate_updated_at_kst": "2026-09-17 04:21:40 KST",
+  "rate_updated_at_kst": "2026-09-17 04:46:23 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
@@ -19,16 +19,16 @@
       "seen": "2026-09-17 04:05 KST"
     },
     {
+      "title": "What do higher rates mean for borrowers and savers?",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPa2o3aURpZERkdnhlVFVIUE0xdHlycUNDaXFJV2pib1ZRa3FabTY3QUxOUi1yY1RFYmtLTEZxcXN4ZVV3SUhNX1F4U2lRanpuUnhJVEVzVXBmdlF0Q1FUNkd6WFI0WEdIMXdQdTdVUFZDTFhFTERUeTJ5NG5PVE9Oa0NFMWZ4WmxKeVVuQ3VSRXlpTmxTZURJNVhENW5jYkU4X0hPYlJB?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-17 03:55 KST"
+    },
+    {
       "title": "Fed hikes rates in search of 'timelier' drop in inflation, sees more tightening ahead",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPd0VZMTZPMGRVWVVTY0lVRERxMHhQdlNnb2NBOHROMDJETXBLVmJFTW12SmFybUloWGRfYm1ueDhEZHJuOWNPQXh3RHpDVllhRVpSUVFVeDJmMGFNNTM2RTRqMkVFaXdwTmM1eG1UeVhqLXNuYW5LMjZGYUFCYUV0djFqUTUxRkF2Vk9NeTh5VU44bENZYi1kaTBnS1NuVngtX1dIeEVtaw?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-17 03:49 KST"
-    },
-    {
-      "title": "What do higher rates mean for borrowers and savers?",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPa2o3aURpZERkdnhlVFVIUE0xdHlycUNDaXFJV2pib1ZRa3FabTY3QUxOUi1yY1RFYmtLTEZxcXN4ZVV3SUhNX1F4U2lRanpuUnhJVEVzVXBmdlF0Q1FUNkd6WFI0WEdIMXdQdTdVUFZDTFhFTERUeTJ5NG5PVE9Oa0NFMWZ4WmxKeVVuQ3VSRXlpTmxTZURJNVhENW5jYkU4X0hPYlJB?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-17 03:47 KST"
     },
     {
       "title": "Bund yields dip from 17-year highs as oil falls, with Fed in focus",
@@ -43,19 +43,19 @@
       "seen": "2026-09-16 19:47 KST"
     },
     {
-      "title": "Indian shares edge higher after selloff; oil, US rate worries cap gains",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQTGZwNnhJd2VnRFVFRzkxTlFVSl9CM2NDVXduY3V6c21DMnFjNThSTkR2OFFTNUR6aVdabVBybkZ0TEVCTS1yR0p5YlZCYlR6dTl2NnhVRnRvcVJPeXU1NWFNVWNESW8yRld2c1JLanJsdXh2d1V1R0lId2RuQXU0cUVIb1g4RW1rMUJHZ1hSMGM1Y2JXTnhnLURBTkRKNlFzM3JqVmlZU21xRXlReG5GdG5sMFhCX0czb2ZNSmlsT0ZKX3lfNVVn?oc=5",
+      "title": "Rupee languishes at six-week low ahead of Fed outcome, RBI limits losses",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPYTNHZzhkRVBIcG5pMzFjS19PTFBKVmlWa1RfelIzd3ZNeTF6Qm10T1N1TDhTZlowUURMSkRreFRZMnJDVmRqUGJ1bkhKTUJwa0g5RFhzU1Q1X3Y5VUpZYVlMREVrWDBveVl2SEEzQldXUTVmQXdPeURXaENtaWZfQmhQcWJqOEkwUHlYLTdnc1RhRFE2ZW40MTdvODFiUTRuWkJuRmNEQ1NNTXFmTUVSZllSSWxjNWw4OXZRWQ?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-16 11:32 KST"
+      "seen": "2026-09-16 12:01 KST"
     }
   ],
-  "rate_source_time": "2026-09-17 04:21:40 KST",
+  "rate_source_time": "2026-09-17 04:46:23 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": 7.5,
   "rate_change_pct": 0.55,
   "smbs_base_rate": 1368.3,
   "smbs_rate_date": "2026-09-17",
-  "smbs_rate_updated_at_kst": "2026-09-17 04:21:25 KST",
+  "smbs_rate_updated_at_kst": "2026-09-17 04:46:11 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1370.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-17 04:21:25 KST"
+  "rate_job_checked_at_kst": "2026-09-17 04:46:11 KST"
 }

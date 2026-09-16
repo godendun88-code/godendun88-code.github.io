@@ -1,16 +1,16 @@
 {
-  "updated_at_kst": "2026-09-16 22:51 KST",
-  "current_rate": 1369.0,
+  "updated_at_kst": "2026-09-16 23:24 KST",
+  "current_rate": 1368.9,
   "previous_close": 1360.7,
-  "rate_updated_at_kst": "2026-09-16 22:51:32 KST",
+  "rate_updated_at_kst": "2026-09-16 23:24:14 KST",
   "rate_source": "KB STAR FX Market Watch",
-  "market_bias": "하락 우세",
+  "market_bias": "혼조",
   "drivers": [
     "연준·금리 관련 최신 기사(\"TSX futures inch up ahead of US Fed decision\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
-    "미국 물가 관련 최신 기사(\"European shares hit three-month low as oil spike revives inflation and rate worries\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
-    "달러 관련 최신 기사(\"Dollar girded by bets on a US hiking cycle\")가 확인돼 달러인덱스 방향성이 원/달러 환율의 핵심 변수로 작용하고 있습니다."
+    "달러 관련 최신 기사(\"Dollar girded by bets on a US hiking cycle\")가 확인돼 달러인덱스 방향성이 원/달러 환율의 핵심 변수로 작용하고 있습니다.",
+    "유가 및 중동 지정학적 불확실성이 부각돼 에너지 수입 의존도가 높은 원화에는 약세 부담 요인으로 작용하고 있습니다."
   ],
-  "outlook": "달러 약세·금리 하락 계열의 재료가 상대적으로 우세해 원/달러는 단기 하락 압력이 이어질 가능성이 있으나, 유가와 지정학적 리스크는 하단을 제한할 수 있습니다.",
+  "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
     {
       "title": "TSX futures inch up ahead of US Fed decision",
@@ -43,16 +43,16 @@
       "seen": "2026-09-16 09:58 KST"
     },
     {
-      "title": "COMMENTARY: Trading Day: No hiding place",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNjJDU2NhMjQxcG9ZTk0wanh3Qk5CMktRb0U3WTU1VjNLQ3ZhUDVuTGVIU1N4MFBXQi1NdmRKUERSa3R6MTRsa1g1Ql9LQlFxak50ZXliQS1ZUVJGWk1BeGtGcm1SX05IX3M5VEk4cTRIVkk1ZDZlVFZ5ZkdBNVl4bS1NRXprbXpoYjZwbHNPUnZmTktQTVRWM3JUZzRNYmhDVVZSamtn?oc=5",
+      "title": "Canadian dollar extends daily losing streak ahead of expected Fed rate hike",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOZE94ZDQxOElPYS1hNUtxeXdtTzdhcFI0LW41VWJrVWNBOFdvZVY2UVg0MHg3NFRHNU02bFNJY3R1S1gtMTNXTldnNklOekY5Q2JSTmNGdEdkTUdWdWhfbWVKLThmU0E2TmVEcVNwbFF1c2w1Q2FTT0VULTBIbjA0cnJKZjJyMEJsRHdxTVVUQWdpNlExRW9wLWFoS3BzOEhNOUJ3YU5raXZmNzlsbk00NUNHeFBndGVh?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-16 06:14 KST"
+      "seen": "2026-09-16 01:28 KST"
     }
   ],
-  "rate_source_time": "2026-09-16 22:51:32 KST",
+  "rate_source_time": "2026-09-16 23:24:14 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 8.3,
-  "rate_change_pct": 0.61,
+  "rate_change": 8.2,
+  "rate_change_pct": 0.6,
   "smbs_base_rate": 1353.3,
   "smbs_rate_date": "2026-09-16",
   "smbs_rate_updated_at_kst": "2026-09-16 22:51:19 KST",
@@ -63,5 +63,6 @@
     1370.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-16 22:51:19 KST"
+  "rate_job_checked_at_kst": "2026-09-16 23:23:58 KST",
+  "smbs_rate_error": "RuntimeError: 서울외국환중개 페이지에서 USD 매매기준율을 찾지 못했습니다."
 }

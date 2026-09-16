@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-09-16 15:53 KST",
-  "current_rate": 1368.1,
+  "updated_at_kst": "2026-09-16 16:24 KST",
+  "current_rate": 1366.1,
   "previous_close": 1360.7,
-  "rate_updated_at_kst": "2026-09-16 15:53:28 KST",
+  "rate_updated_at_kst": "2026-09-16 16:24:06 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
@@ -37,25 +37,25 @@
       "seen": "2026-09-16 06:14 KST"
     },
     {
+      "title": "Fed may raise rates by 1% in coming months, market strategist says",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9PUFN0TkhuMVhpcDlUdWJWSk93UFpMbm1JUDFzWDRpay1rR09YSGJLSmdqUUlDc2dvZlh2c2pMXzZlTFdJSGQzS2ZYRjQxN1JwNndNVjI4aDFXX3BUV1A3aTFlTzhTU1U?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-16 05:43 KST"
+    },
+    {
       "title": "TSX falls as rising bond yields alarm investors ahead of Fed decision",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQTk1XQlZyM2JQZmNzeWVwbzB1dE43ZEd2RldMb3lwZzEyalVUb1JyaVE5NFJGUzF2cWpObjdJdkVFRmRWQkdvbU5uYXdhOVVHZ2c3enRlbzl5dUNKNW1fYlFGWnZ6YkFIaEx4ZG1UTkh2X21mTjJKVENnTWpnWWI0UEhWZDlEWlRYeWZfMmhwV05BS05fYTFQR1ljdXJUMDlwd0R0TnpoSQ?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-16 05:40 KST"
-    },
-    {
-      "title": "Canadian dollar extends daily losing streak ahead of expected Fed rate hike",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOZE94ZDQxOElPYS1hNUtxeXdtTzdhcFI0LW41VWJrVWNBOFdvZVY2UVg0MHg3NFRHNU02bFNJY3R1S1gtMTNXTldnNklOekY5Q2JSTmNGdEdkTUdWdWhfbWVKLThmU0E2TmVEcVNwbFF1c2w1Q2FTT0VULTBIbjA0cnJKZjJyMEJsRHdxTVVUQWdpNlExRW9wLWFoS3BzOEhNOUJ3YU5raXZmNzlsbk00NUNHeFBndGVh?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-16 01:28 KST"
     }
   ],
-  "rate_source_time": "2026-09-16 15:53:28 KST",
+  "rate_source_time": "2026-09-16 16:24:06 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 7.4,
-  "rate_change_pct": 0.54,
+  "rate_change": 5.4,
+  "rate_change_pct": 0.4,
   "smbs_base_rate": 1353.3,
   "smbs_rate_date": "2026-09-16",
-  "smbs_rate_updated_at_kst": "2026-09-16 15:53:14 KST",
+  "smbs_rate_updated_at_kst": "2026-09-16 16:23:50 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1370.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-16 15:53:14 KST"
+  "rate_job_checked_at_kst": "2026-09-16 16:23:50 KST"
 }

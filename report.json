@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-09-17 01:50 KST",
+  "updated_at_kst": "2026-09-17 02:21 KST",
   "current_rate": 1368.2,
   "previous_close": 1360.7,
-  "rate_updated_at_kst": "2026-09-17 01:50:09 KST",
+  "rate_updated_at_kst": "2026-09-17 02:20:58 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
@@ -37,25 +37,25 @@
       "seen": "2026-09-16 11:07 KST"
     },
     {
-      "title": "Stocks rise as oil falls, bonds steady ahead of Fed decision",
+      "title": "Stocks gain as yields retreat ahead of Fed rate decision",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1EZTFQYXAzY01LTC1UX2J5X2FjVEgta19TLV9QZF9LNXFQYm9CTjNkOV9YOFJ6aXJpQzFqYUc4c2JzVHpzUlFzYjBNbEthX0kxcDJWazgxR3R5TjNUQl9xcXY5ano5Wl9ETEw2VDJZOFpndVBVMFY1VElhZw?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-16 10:23 KST"
     },
     {
-      "title": "Dollar girded by bets on a US hiking cycle",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNMWFHQ1hoSVRaSzc4anZCS1Rpekx5UTA2d2d2VmRfeXRGaWpGS2tTNi1YaDBRRlhKZmNjcldfdVhOVU9sRG9yMlg4TVB5SkhzTHIzaGFLZFVRWlkwOFg0QVROVnVIcGlCMkM2YVNTUlc4WU9sMkhnSF9mUVd3S0lUS210by1uSWlaUE9iRjQ3ZkVQMDhOWmhN?oc=5",
+      "title": "Stocks rise as oil falls, bonds steady ahead of Fed decision",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1EZTFQYXAzY01LTC1UX2J5X2FjVEgta19TLV9QZF9LNXFQYm9CTjNkOV9YOFJ6aXJpQzFqYUc4c2JzVHpzUlFzYjBNbEthX0kxcDJWazgxR3R5TjNUQl9xcXY5ano5Wl9ETEw2VDJZOFpndVBVMFY1VElhZw?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-16 09:58 KST"
+      "seen": "2026-09-16 10:23 KST"
     }
   ],
-  "rate_source_time": "2026-09-17 01:50:09 KST",
+  "rate_source_time": "2026-09-17 02:20:58 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": 7.5,
   "rate_change_pct": 0.55,
   "smbs_base_rate": 1368.3,
   "smbs_rate_date": "2026-09-17",
-  "smbs_rate_updated_at_kst": "2026-09-17 01:49:53 KST",
+  "smbs_rate_updated_at_kst": "2026-09-17 02:20:43 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1370.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-17 01:49:53 KST"
+  "rate_job_checked_at_kst": "2026-09-17 02:20:43 KST"
 }

@@ -1,13 +1,13 @@
 {
-  "updated_at_kst": "2026-09-16 11:23 KST",
-  "current_rate": 1369.7,
+  "updated_at_kst": "2026-09-16 11:49 KST",
+  "current_rate": 1367.0,
   "previous_close": 1360.7,
-  "rate_updated_at_kst": "2026-09-16 11:23:10 KST",
+  "rate_updated_at_kst": "2026-09-16 11:49:26 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
     "연준·금리 관련 최신 기사(\"Asian markets make nervous start ahead of Fed decision\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
-    "미국 물가 관련 최신 기사(\"Gold edges down as oil-driven inflation fears lift rate-hike bets\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
+    "미국 물가 관련 최신 기사(\"Rupee drops with stocks, bonds as oil, inflation and Fed worries mount\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
     "미 국채금리 하락 관련 보도가 확인돼 달러의 금리 매력이 낮아지면서 원/달러 환율 하락 압력으로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
@@ -49,13 +49,13 @@
       "seen": "2026-09-16 01:28 KST"
     }
   ],
-  "rate_source_time": "2026-09-16 11:23:10 KST",
+  "rate_source_time": "2026-09-16 11:49:26 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 9.0,
-  "rate_change_pct": 0.66,
+  "rate_change": 6.3,
+  "rate_change_pct": 0.46,
   "smbs_base_rate": 1353.3,
   "smbs_rate_date": "2026-09-16",
-  "smbs_rate_updated_at_kst": "2026-09-16 11:22:54 KST",
+  "smbs_rate_updated_at_kst": "2026-09-16 11:49:09 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1370.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-16 11:22:54 KST"
+  "rate_job_checked_at_kst": "2026-09-16 11:49:09 KST"
 }

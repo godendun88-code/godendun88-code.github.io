@@ -1,5 +1,5 @@
 {
-  "updated_at_kst": "2026-09-16 16:24 KST",
+  "updated_at_kst": "2026-09-16 16:51 KST",
   "current_rate": 1366.1,
   "previous_close": 1360.7,
   "rate_updated_at_kst": "2026-09-16 16:24:06 KST",
@@ -55,13 +55,14 @@
   "rate_change_pct": 0.4,
   "smbs_base_rate": 1353.3,
   "smbs_rate_date": "2026-09-16",
-  "smbs_rate_updated_at_kst": "2026-09-16 16:23:50 KST",
+  "smbs_rate_updated_at_kst": "2026-09-16 16:49:29 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
     1358.0,
     1370.0
   ],
-  "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-16 16:23:50 KST"
+  "rate_check_status": "failed",
+  "rate_job_checked_at_kst": "2026-09-16 16:49:29 KST",
+  "rate_fetch_error": "RuntimeError: KB STAR FX 자동조회 3회 실패: TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n | TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n | TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n"
 }

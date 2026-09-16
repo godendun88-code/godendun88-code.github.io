@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-09-16 12:23 KST",
+  "updated_at_kst": "2026-09-16 12:50 KST",
   "current_rate": 1367.3,
   "previous_close": 1360.7,
-  "rate_updated_at_kst": "2026-09-16 12:23:17 KST",
+  "rate_updated_at_kst": "2026-09-16 12:49:50 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
@@ -19,10 +19,10 @@
       "seen": "2026-09-16 10:23 KST"
     },
     {
-      "title": "Bessent defends Trump economic policies, reveals plans to meet Chinese official",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxORTlaeHpnSkMzSU5ieGJqNEpUTFdaYU8yTzc2OExDcElaWFVFclZyNkVNcThWaFRiM29ZNGhaY3dpWS1RbVh0NUhZczdVLUhLVFNjN3RCRFhZMlVmeU5ibVhCXy14VnItdkpzVHNJZXlxWmhxbzRLX3BjOTFzcE9yRVFteHcwS0Jaa19QaTVPdnh5WDFLcXdvTXBrNldnNVJDd0RvN1NRYllyRWM?oc=5",
+      "title": "Dollar girded by bets on a US hiking cycle",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNMWFHQ1hoSVRaSzc4anZCS1Rpekx5UTA2d2d2VmRfeXRGaWpGS2tTNi1YaDBRRlhKZmNjcldfdVhOVU9sRG9yMlg4TVB5SkhzTHIzaGFLZFVRWlkwOFg0QVROVnVIcGlCMkM2YVNTUlc4WU9sMkhnSF9mUVd3S0lUS210by1uSWlaUE9iRjQ3ZkVQMDhOWmhN?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-16 08:49 KST"
+      "seen": "2026-09-16 09:58 KST"
     },
     {
       "title": "Wall Street ends lower as oil spikes and the benchmark Treasury yield breaches 5%",
@@ -49,13 +49,13 @@
       "seen": "2026-09-16 01:28 KST"
     }
   ],
-  "rate_source_time": "2026-09-16 12:23:17 KST",
+  "rate_source_time": "2026-09-16 12:49:50 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": 6.6,
   "rate_change_pct": 0.49,
   "smbs_base_rate": 1353.3,
   "smbs_rate_date": "2026-09-16",
-  "smbs_rate_updated_at_kst": "2026-09-16 12:23:06 KST",
+  "smbs_rate_updated_at_kst": "2026-09-16 12:49:35 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1370.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-16 12:23:06 KST"
+  "rate_job_checked_at_kst": "2026-09-16 12:49:35 KST"
 }

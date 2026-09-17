@@ -65,6 +65,11 @@
         '보통예금 합산'
       );
       replaceRequired(
+        "const row=history[0],usd=nullableCashNumber(row.usdBalance)??nullableCashNumber(usdOverrides[month]);",
+        "const row=history[0],usd=nullableCashNumber(usdOverrides[month])??nullableCashNumber(row.usdBalance);",
+        '실제 USD 잔액 우선'
+      );
+      replaceRequired(
         "if(source.krw==null)blockers.push(source.duplicate?'동일 월 원본이 중복되어 있습니다.':'해당 월 원본 시트 잔고가 없습니다.');",
         "if(source.krw==null&&manualBankTotal==null)blockers.push(source.duplicate?'동일 월 원본이 중복되어 있습니다.':'해당 월 원본 시트 잔고가 없습니다.');",
         '월 시트 잔고 확인'
@@ -266,11 +271,31 @@
   let tries=0;const timer=setInterval(()=>{install();render();if(++tries>40)clearInterval(timer)},250);
 })();
 <\/script>`;
+      const dailyBalanceMonthEndOverride=`<script>
+(() => {
+  const latestDailyBalanceForMonth=month=>{
+    const rows=Array.isArray(dailyBalanceData?.rows)?dailyBalanceData.rows:[];
+    return rows.filter(row=>String(row?.date||'').slice(0,7)===month&&nullableCashNumber(row?.usd)!=null).sort((a,b)=>String(a.date).localeCompare(String(b.date))).at(-1)||null;
+  };
+  const originalReconciliationSource=reconciliationSource;
+  reconciliationSource=function(month,model=cashModel,usdOverrides=monthlyUsdOverrides){
+    const source=originalReconciliationSource(month,model,usdOverrides),daily=latestDailyBalanceForMonth(month);
+    return daily?{...source,usd:nullableCashNumber(daily.usd),sheet:daily.sheet||source.sheet||'',duplicate:false,dailyBalanceDate:daily.date}:source;
+  };
+  const originalSetDailyBalances=setDailyBalances;
+  setDailyBalances=function(...args){
+    originalSetDailyBalances(...args);
+    if(cashModel)renderCurrentOverview(cashModel);
+    renderCashReconciliation();
+  };
+})();
+<\/script>`;
       const patches=[
-        '<script src="./monthly-usd-patch.js?v=20260917-12"><\/script>',
+        '<script src="./monthly-usd-patch.js?v=20260917-13"><\/script>',
         '<script src="./reconciliation-xls-patch.js?v=20260917-10"><\/script>',
         monthlyUsdFallback,
-        monthlyFxEditor
+        monthlyFxEditor,
+        dailyBalanceMonthEndOverride
       ].join('\n');
       html=html.includes('</body>')?html.replace('</body>',patches+'\n</body>'):html+patches;
       document.open();

@@ -72,7 +72,14 @@
         for (let i = r + 1; i < rows.length; i++) {
           const label = normalize(rows[i]?.[accountCol]);
           if (!label) continue;
-          const target = ['보통예금', '기타단기금융상품'].find(key => label === key || label.endsWith(key));
+          // Some legacy exports add a parenthetical account class after the
+          // account name. Keep the matching specific so unrelated cash
+          // accounts are never silently counted as a short-term product.
+          const target = /보통예금/.test(label)
+            ? '보통예금'
+            : /기타.*단기.*금융상품/.test(label)
+              ? '기타단기금융상품'
+              : null;
           if (!target) {
             if (/^(현금|현금및현금성자산|당좌예금|정기예금|정기적금|외화예금|단기금융상품|단기금융자산|장기금융상품|장기금융자산)$/.test(label)) unsupported.push(label);
             continue;
@@ -120,54 +127,90 @@
 })();
 
 (() => {
-  // The dashboard from the fixed base commit clears this input in its own
-  // change handler.  That makes the native control immediately show
-  // "선택된 파일 없음" and can also allow a second handler to render over the
-  // in-flight import.  Handle the event during capture so there is one owner
-  // of the selected File and keep the control populated until the user opens
-  // the picker again.
+  // The base dashboard clears the original input in its own change handler.
+  // Replace that element so the original listener is removed, then bind the
+  // importer exactly once to the replacement. This keeps the selected file
+  // visible after parsing and permits choosing the same file again later.
   const fileInputId = 'reconcileFile';
   let importing = false;
 
-  document.addEventListener('click', event => {
-    const input = event.target?.closest?.(`#${fileInputId}`);
-    if (!input || importing) return;
-    // Clearing immediately before the chooser lets the same file be chosen
-    // again, while a completed selection remains visible to the user.
+  function replaceReconciliationInput() {
+    const original = document.getElementById(fileInputId);
+    if (!(original instanceof HTMLInputElement) || original.dataset.reconciliationPatch === 'bound') return;
+
+    const input = original.cloneNode(true);
     input.value = '';
-    input.dataset.reconciliationFileState = 'choosing';
-  }, true);
+    input.dataset.reconciliationPatch = 'bound';
+    original.replaceWith(input);
 
-  document.addEventListener('change', async event => {
-    const input = event.target;
-    if (!(input instanceof HTMLInputElement) || input.id !== fileInputId) return;
+    input.addEventListener('click', () => {
+      if (importing) return;
+      input.value = '';
+      input.dataset.reconciliationFileState = 'choosing';
+    });
 
-    const file = input.files?.[0];
-    if (!file || importing) return;
+    input.addEventListener('change', async () => {
+      const file = input.files?.[0];
+      if (!file || importing) return;
 
-    // The base page also owns a change listener that clears the field in a
-    // finally block. Stop it before it can process the same File a second time.
-    event.stopImmediatePropagation();
-    importing = true;
-    input.dataset.reconciliationFileState = 'reading';
-
-    try {
-      if (typeof importReconciliationFile !== 'function') {
-        throw new Error('재무제표 검증 기능을 준비하지 못했습니다. 새로고침 후 다시 시도해 주세요.');
+      importing = true;
+      input.dataset.reconciliationFileState = 'reading';
+      try {
+        if (typeof importReconciliationFile !== 'function') {
+          throw new Error('재무제표 검증 기능을 준비하지 못했습니다. 새로고침 후 다시 시도해 주세요.');
+        }
+        reconcileBusy = true;
+        renderReconciliationDraft();
+        await importReconciliationFile(file);
+        input.dataset.reconciliationFileState = 'ready';
+      } catch (error) {
+        input.dataset.reconciliationFileState = 'error';
+        const status = document.getElementById('reconcileSaveStatus');
+        if (status) status.textContent = '파일 확인 필요: ' + (error?.message || String(error));
+      } finally {
+        reconcileBusy = false;
+        renderReconciliationDraft();
       }
-      reconcileBusy = true;
-      renderReconciliationDraft();
-      await importReconciliationFile(file);
-      input.dataset.reconciliationFileState = 'ready';
-    } catch (error) {
-      input.dataset.reconciliationFileState = 'error';
-      const status = document.getElementById('reconcileSaveStatus');
-      if (status) status.textContent = '파일 확인 필요: ' + (error?.message || String(error));
-    } finally {
-      reconcileBusy = false;
-      renderReconciliationDraft();
-    }
-  }, true);
+    });
+  }
 
-  console.info('Reconciliation file input retention patch loaded');
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', replaceReconciliationInput, { once: true });
+  else replaceReconciliationInput();
+
+  console.info('Reconciliation file input replacement patch loaded');
 })();
+
+(() => {
+  // The short-term-financial-product figure is a same-month statement item.
+  // It must stay editable even if a legacy workbook uses an account label the
+  // parser cannot identify. A blank remains unverified; zero is a valid value.
+  const keepShortBookEditable = () => {
+    const input = document.getElementById('reconcileShortBook');
+    if (!(input instanceof HTMLInputElement)) return;
+    input.disabled = false;
+    input.placeholder = '해당 월말 금액 (없으면 0)';
+  };
+
+  function patchRenderer() {
+    if (typeof window.renderReconciliationDraft !== 'function' || window.renderReconciliationDraft.__shortBookEditablePatch) {
+      keepShortBookEditable();
+      return;
+    }
+    const original = window.renderReconciliationDraft;
+    function patchedRenderReconciliationDraft(...args) {
+      const result = original.apply(this, args);
+      keepShortBookEditable();
+      return result;
+    }
+    patchedRenderReconciliationDraft.__shortBookEditablePatch = true;
+    window.renderReconciliationDraft = patchedRenderReconciliationDraft;
+    keepShortBookEditable();
+  }
+
+  patchRenderer();
+  const observer = new MutationObserver(keepShortBookEditable);
+  observer.observe(document.documentElement, { subtree: true, attributes: true, attributeFilter: ['disabled'] });
+  console.info('Reconciliation short-term financial input patch loaded');
+})();
+
+

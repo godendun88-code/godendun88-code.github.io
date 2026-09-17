@@ -135,10 +135,48 @@
   let tries=0;const timer=setInterval(()=>{bind();restore();if(++tries>40)clearInterval(timer)},250);
 })();
 <\/script>`;
+      const monthlyFxEditor=`<script>
+(() => {
+  const cacheKey='act.monthlyFxRates.v1';
+  const read=()=>{try{return JSON.parse(localStorage.getItem(cacheKey)||'{}')}catch{return {}}};
+  const write=values=>{try{localStorage.setItem(cacheKey,JSON.stringify(values))}catch{}};
+  let originalRateFunction=null;
+  const install=()=>{
+    if(originalRateFunction||typeof currentMonthlyFx!=='function')return !!originalRateFunction;
+    originalRateFunction=currentMonthlyFx;
+    currentMonthlyFx=function(month,referenceRate,status=''){
+      const saved=Number(read()[month]);
+      if(Number.isFinite(saved)&&saved>0)return {appliedRate:saved,fxBasis:'month-end',fxLabel:'관리자 등록 월말환율'};
+      return originalRateFunction(month,referenceRate,status);
+    };
+    return true;
+  };
+  const render=()=>{
+    const note=document.getElementById('currentHistoryFxNote');
+    if(!note||document.getElementById('monthlyFxEditor')||!window.dashboardAuth?.isAdmin)return;
+    const box=document.createElement('div');
+    box.id='monthlyFxEditor';
+    box.style.cssText='margin-top:10px;padding:12px;border:1px solid #bfdbfe;border-radius:10px;background:#eff6ff;font-size:13px';
+    box.innerHTML='<strong>월말환율 보완 입력 · 관리자</strong><div style="margin:6px 0;color:#475467">서울외국환중개 월말 매매기준율의 USD 값을 입력하세요. 이 브라우저에 저장되며, Excel은 변경하지 않습니다.</div><input id="monthlyFxMonth" type="month" value="2026-08" min="2026-01" style="padding:7px;margin-right:6px"><input id="monthlyFxRate" type="number" step="0.01" min="0" placeholder="원/USD" style="padding:7px;width:120px;margin-right:6px"><button type="button" id="monthlyFxSave">월말환율 저장</button><span id="monthlyFxStatus" style="margin-left:8px;color:#475467"></span>';
+    note.insertAdjacentElement('afterend',box);
+    document.getElementById('monthlyFxSave').addEventListener('click',()=>{
+      const month=document.getElementById('monthlyFxMonth').value;
+      const rate=Number(document.getElementById('monthlyFxRate').value);
+      const status=document.getElementById('monthlyFxStatus');
+      if(!/^20\\d{2}-(0[1-9]|1[0-2])$/.test(month)||!Number.isFinite(rate)||rate<=0){status.textContent='월과 원/USD 환율을 확인해 주세요.';return}
+      const saved=read();saved[month]=rate;write(saved);
+      status.textContent=month+' 월말환율 '+rate.toLocaleString('ko-KR',{minimumFractionDigits:2,maximumFractionDigits:2})+'원/USD를 저장했습니다.';
+      try{if(typeof cashModel!=='undefined'&&cashModel)renderCurrentOverview(cashModel)}catch{}
+    });
+  };
+  let tries=0;const timer=setInterval(()=>{install();render();if(++tries>40)clearInterval(timer)},250);
+})();
+<\/script>`;
       const patches=[
         '<script src="./monthly-usd-patch.js?v=20260917-11"><\/script>',
         '<script src="./reconciliation-xls-patch.js?v=20260917-8"><\/script>',
-        monthlyUsdFallback
+        monthlyUsdFallback,
+        monthlyFxEditor
       ].join('\n');
       html=html.includes('</body>')?html.replace('</body>',patches+'\n</body>'):html+patches;
       document.open();

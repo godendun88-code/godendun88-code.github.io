@@ -79,11 +79,11 @@
             ? '보통예금'
             : /기타.*단기.*금융상품/.test(label)
               ? '기타단기금융상품'
-              : /^(현금|현금및현금성자산)$/.test(label)
+              : /^(현금|현금및현금성자산)(?:\([^)]*\))?$/.test(label)
                 ? '현금'
                 : null;
           if (!target) {
-            if (/^(현금|현금및현금성자산|당좌예금|정기예금|정기적금|외화예금|단기금융상품|단기금융자산|장기금융상품|장기금융자산)$/.test(label)) unsupported.push(label);
+            if (/^(현금|현금및현금성자산|당좌예금|정기예금|정기적금|외화예금|단기금융상품|단기금융자산|장기금융상품|장기금융자산)(?:\([^)]*\))?$/.test(label)) unsupported.push(label);
             continue;
           }
           if (Object.prototype.hasOwnProperty.call(amounts, target)) throw new Error(`${target} 계정이 여러 번 나옵니다.`);
@@ -216,5 +216,3 @@
   observer.observe(document.documentElement, { subtree: true, attributes: true, attributeFilter: ['disabled'] });
   console.info('Reconciliation short-term financial input patch loaded');
 })();
-
-

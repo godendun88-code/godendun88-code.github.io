@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-09-18 05:47 KST",
+  "updated_at_kst": "2026-09-18 06:22 KST",
   "current_rate": 1381.4,
   "previous_close": 1368.2,
-  "rate_updated_at_kst": "2026-09-18 05:46:57 KST",
+  "rate_updated_at_kst": "2026-09-18 06:22:04 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
@@ -19,22 +19,10 @@
       "seen": "2026-09-18 05:17 KST"
     },
     {
-      "title": "Wall St rebounds after Fed's first rate hike in years as oil, Treasury yields dip",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxORkVra0Q0cjNkbjlDN0N2SENMZHYyeVVFSU1tcG5LOXhBTk5leFlZNjFNRGpad3NoWmhnaWZVd2I3N19oa2hQSERYZzBQWFcxaUJQNDZaSHMwVjFrNGlKbGRUNjg5TEt2WENpMUJiUFRVTjR6WlQyc0IzY2V2M05FanNlWExPdUZ2bTJFUlp4YW5HdTAwTExfNTI3MWkwVEVTMTRZUURlR01lVHA5?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-18 04:43 KST"
-    },
-    {
       "title": "Rising oil, rates and yields brew up stagflation cocktail for markets",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOWmhlTzlKbEFSMGdBRGhpNGxzWDVGZzFsWHR5cXZXLVZwTjRZX0xtVjN4UW1LU3BVNW4wSGlod0VLSEhBbWRJNS0za2NIWWkxVlJqSzBsVU1rWHlIcXNUVmRDemNnbFBrV2J3eEhRSjM4NG9xaHl2ZXR0ZzAySFpOT0tFeWxnZw?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-18 01:59 KST"
-    },
-    {
-      "title": "World stocks gain as Treasury yields retreat after Fed, BoE decisions",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQUnBManB6Nl9tbnMzaXhPbHh4RmJVX0xWNmdaeENoNW50NGxxanVfMHFMaWVENklmQ09OSzdDVnFtSFhiXzJ0YTE5RVgzSHYtekRVZHU2QXE0LVNWeS1nalgyNldtV3l1X3FUc3NudktmOWZJVVZORXFNbWloZzlOZkdRWQ?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-18 01:13 KST"
     },
     {
       "title": "Dollar's allure, oil surge fan bearish bets on emerging Asian currencies: Reuters poll",
@@ -47,15 +35,27 @@
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdmRrQzlscmZjQ08wVi1BSUZCTEU4d0xkdFpFelAzQURMS0VyS21Gb1VWUkV2OEIzRTVUWmJQTXkxRXJnTEltLXR6dWJiWW9UV1pzZWJQOEdJRGpkMnhXV0lIWUlHUEdHNVIzYmU2UTY3OHAwczNsVmpuRDNUVlpkeVl5emEtTlJoWFJrUnhWSUxFTkZqMGxSYUd5M05GVHA0bGZ6eWZ5YWpLWFMy?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-17 11:27 KST"
+    },
+    {
+      "title": "Hawkish Fed lifts dollar to seven-week high as focus turn to BOJ",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVVJfYWtWZ2thcVZvdkZYSHhibHM3YjlwQ0w0VTVfbWQyYTd3VGQ2VFQ4UkRYTVdEbDdFLVdVTkVoakl3R3NtTXhUb2syX1Y2Y04ycnJxLTBEXzhpWTA4Y1p4aTdiWlpTUktJLVZBYUd2aUN2eVhoOUN0dVI3ZWt5WFhtUmNpUDBuM0pTaHNZU3NPLTFRbjZsWmNyVWxYOXhMWlljSEVERkY5VE9NTVpmeWJab1BPdmdROHhSSVlqOVc?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-17 11:08 KST"
+    },
+    {
+      "title": "World stocks gain as Treasury yields retreat after Fed, BoE decisions",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQUnBManB6Nl9tbnMzaXhPbHh4RmJVX0xWNmdaeENoNW50NGxxanVfMHFMaWVENklmQ09OSzdDVnFtSFhiXzJ0YTE5RVgzSHYtekRVZHU2QXE0LVNWeS1nalgyNldtV3l1X3FUc3NudktmOWZJVVZORXFNbWloZzlOZkdRWQ?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-17 11:05 KST"
     }
   ],
-  "rate_source_time": "2026-09-18 05:46:57 KST",
+  "rate_source_time": "2026-09-18 06:22:04 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": 13.2,
   "rate_change_pct": 0.96,
   "smbs_base_rate": 1380.3,
   "smbs_rate_date": "2026-09-18",
-  "smbs_rate_updated_at_kst": "2026-09-18 05:46:43 KST",
+  "smbs_rate_updated_at_kst": "2026-09-18 06:21:50 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1385.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-18 05:46:43 KST"
+  "rate_job_checked_at_kst": "2026-09-18 06:21:50 KST"
 }

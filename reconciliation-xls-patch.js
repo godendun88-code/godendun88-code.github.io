@@ -79,7 +79,9 @@
             ? '보통예금'
             : /기타.*단기.*금융상품/.test(label)
               ? '기타단기금융상품'
-              : null;
+              : /^(현금|현금및현금성자산)$/.test(label)
+                ? '현금'
+                : null;
           if (!target) {
             if (/^(현금|현금및현금성자산|당좌예금|정기예금|정기적금|외화예금|단기금융상품|단기금융자산|장기금융상품|장기금융자산)$/.test(label)) unsupported.push(label);
             continue;
@@ -106,10 +108,12 @@
           unit,
           bankAmount: amounts['보통예금'],
           shortAmount: amounts['기타단기금융상품'] ?? null,
+          cashAmount: amounts['현금'] ?? null,
           fileName: String(file.name || '재무상태표').slice(0, 200),
           sheet: name,
           bankCell: refs['보통예금'],
           shortCell: refs['기타단기금융상품'] || '',
+          cashCell: refs['현금'] || '',
           unsupported: [...new Set(unsupported)]
         });
       }

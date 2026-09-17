@@ -87,9 +87,58 @@
       const originalShortBookLock="$('reconcileFxBook').disabled=false;$('reconcileShortBook').disabled=!check.shortRequired;";
       const retainedShortBookInput="$('reconcileKrwBook').disabled=false;$('reconcileFxBook').disabled=false;$('reconcileShortBook').disabled=false;$('reconcileShortBook').placeholder='해당 월말 금액 (없으면 0)';";
       replaceRequired(originalShortBookLock,retainedShortBookInput,'장부금액 입력');
+      const monthlyUsdFallback=`<script>
+(() => {
+  const monthPattern=/^20\\d{2}-(0[1-9]|1[0-2])$/;
+  const cacheKey='act.monthlyUsdFallback.v1';
+  const isPast=month=>month<new Date().getFullYear()+'-'+String(new Date().getMonth()+1).padStart(2,'0');
+  const readCache=()=>{try{return JSON.parse(localStorage.getItem(cacheKey)||'{}')}catch{return {}}};
+  const writeCache=values=>{try{localStorage.setItem(cacheKey,JSON.stringify(values))}catch{}};
+  const insertRow=(month,value='')=>{
+    if(!monthPattern.test(month)||!isPast(month)||document.querySelector('[data-monthly-usd="'+month+'"]'))return;
+    const body=document.getElementById('monthlyUsdInputBody');
+    if(!body)return;
+    const row=document.createElement('tr');
+    row.dataset.monthlyFallback=month;
+    row.innerHTML='<td>'+month+'</td><td>미확정</td><td>과거 USD 실제 잔액 보완 입력</td><td><input data-monthly-usd="'+month+'" aria-label="'+month+' USD 월말잔액" type="number" step="0.01" inputmode="decimal" placeholder="USD 숫자만 입력" value="'+String(value??'').replace(/&/g,'&amp;').replace(/\"/g,'&quot;')+'"></td><td>입력 후 저장</td>';
+    const rows=[...body.querySelectorAll('tr')];
+    const before=rows.find(item=>(item.querySelector('[data-monthly-usd]')?.dataset.monthlyUsd||'')>month);
+    if(before)body.insertBefore(row,before);else body.appendChild(row);
+  };
+  const restore=()=>{const values=readCache();Object.entries(values).forEach(([month,value])=>insertRow(month,value));};
+  const bind=()=>{
+    const button=document.getElementById('monthlyUsdAddMonthBtn');
+    if(!button||button.dataset.monthlyFallbackBound)return false;
+    button.dataset.monthlyFallbackBound='1';
+    button.addEventListener('click',event=>{
+      const picker=document.getElementById('monthlyUsdAddMonthInput');
+      const month=picker?.value||'';
+      if(!monthPattern.test(month)||!isPast(month)||document.querySelector('[data-monthly-usd="'+month+'"]'))return;
+      event.preventDefault();event.stopImmediatePropagation();
+      insertRow(month);
+      const status=document.getElementById('monthlyUsdAddMonthStatus');
+      if(status)status.textContent=month+' 실제 USD 잔액 입력란을 추가했습니다. 입력 후 아래 저장 버튼을 누르세요.';
+      if(picker)picker.value='';
+      document.querySelector('[data-monthly-usd="'+month+'"]')?.focus();
+    },true);
+    const save=document.getElementById('monthlyUsdSaveBtn');
+    save?.addEventListener('click',()=>{
+      const values=readCache();
+      document.querySelectorAll('[data-monthly-usd]').forEach(input=>{
+        const amount=Number(input.value);if(monthPattern.test(input.dataset.monthlyUsd||'')&&Number.isFinite(amount))values[input.dataset.monthlyUsd]=amount;
+      });
+      writeCache(values);
+    },true);
+    restore();
+    return true;
+  };
+  let tries=0;const timer=setInterval(()=>{bind();restore();if(++tries>40)clearInterval(timer)},250);
+})();
+<\/script>`;
       const patches=[
-        '<script src="./monthly-usd-patch.js?v=20260917-10"><\/script>',
-        '<script src="./reconciliation-xls-patch.js?v=20260917-8"><\/script>'
+        '<script src="./monthly-usd-patch.js?v=20260917-11"><\/script>',
+        '<script src="./reconciliation-xls-patch.js?v=20260917-8"><\/script>',
+        monthlyUsdFallback
       ].join('\n');
       html=html.includes('</body>')?html.replace('</body>',patches+'\n</body>'):html+patches;
       document.open();
@@ -101,5 +150,3 @@
   </script>
 </body>
 </html>
-
-

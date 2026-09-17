@@ -1,13 +1,20 @@
 (() => {
   const normalize = value => String(value ?? '').replace(/\s/g, '');
-  const parseHeaderDate = value => {
+  const parseHeaderDates = value => {
+    if (value instanceof Date && !Number.isNaN(value.getTime())) {
+      return [`${value.getFullYear()}-${String(value.getMonth() + 1).padStart(2, '0')}-${String(value.getDate()).padStart(2, '0')}`];
+    }
     const text = String(value ?? '').replace(/\s+/g, ' ');
-    let m = text.match(/(20\d{2})\s*년\s*(\d{1,2})\s*월\s*(\d{1,2})\s*일/);
-    if (!m) m = text.match(/(20\d{2})[/.\-]\s*(\d{1,2})[/.\-]\s*(\d{1,2})/);
-    if (!m) return null;
-    const y = +m[1], mo = +m[2], d = +m[3], date = new Date(y, mo - 1, d);
-    if (date.getFullYear() !== y || date.getMonth() !== mo - 1 || date.getDate() !== d) return null;
-    return `${y}-${String(mo).padStart(2, '0')}-${String(d).padStart(2, '0')}`;
+    const matches = [
+      ...text.matchAll(/(20\d{2})\s*년\s*(\d{1,2})\s*월\s*(\d{1,2})\s*일/g),
+      ...text.matchAll(/(20\d{2})[/.\-]\s*(\d{1,2})[/.\-]\s*(\d{1,2})/g)
+    ];
+    return matches.map(m => {
+      const y = +m[1], mo = +m[2], d = +m[3], date = new Date(y, mo - 1, d);
+      return date.getFullYear() === y && date.getMonth() === mo - 1 && date.getDate() === d
+        ? `${y}-${String(mo).padStart(2, '0')}-${String(d).padStart(2, '0')}`
+        : null;
+    }).filter(Boolean);
   };
 
   window.parseReconciliationWorkbook = function parseReconciliationWorkbook(workbook, file, unit = 1) {
@@ -31,12 +38,14 @@
         const current = currentCols[0];
 
         // Legacy SmartA/WEHAGO .xls exports often put the current/prior dates
-        // on separate rows above the period header. Use the latest header date as 당기.
+        // on separate rows or as a start~end range above the period header.
+        // Read the formatted cell text as well as the raw value, then use the
+        // latest valid date as the current-period month end.
         const headerDates = [];
-        for (let hr = 0; hr <= Math.min(r + 1, 20); hr++) {
-          for (const cell of rows[hr] || []) {
-            const parsed = parseHeaderDate(cell);
-            if (parsed) headerDates.push(parsed);
+        for (let hr = 0; hr <= Math.min(r + 3, 25); hr++) {
+          for (let hc = 0; hc <= range.e.c; hc++) {
+            const cell = sheet[XLSX.utils.encode_cell({ r: hr, c: hc })];
+            headerDates.push(...parseHeaderDates(cell?.w ?? cell?.v ?? rows[hr]?.[hc]));
           }
         }
         const date = [...new Set(headerDates)].sort().at(-1) || null;
@@ -108,4 +117,57 @@
   };
 
   console.info('Legacy XLS reconciliation parser patch loaded');
+})();
+
+(() => {
+  // The dashboard from the fixed base commit clears this input in its own
+  // change handler.  That makes the native control immediately show
+  // "선택된 파일 없음" and can also allow a second handler to render over the
+  // in-flight import.  Handle the event during capture so there is one owner
+  // of the selected File and keep the control populated until the user opens
+  // the picker again.
+  const fileInputId = 'reconcileFile';
+  let importing = false;
+
+  document.addEventListener('click', event => {
+    const input = event.target?.closest?.(`#${fileInputId}`);
+    if (!input || importing) return;
+    // Clearing immediately before the chooser lets the same file be chosen
+    // again, while a completed selection remains visible to the user.
+    input.value = '';
+    input.dataset.reconciliationFileState = 'choosing';
+  }, true);
+
+  document.addEventListener('change', async event => {
+    const input = event.target;
+    if (!(input instanceof HTMLInputElement) || input.id !== fileInputId) return;
+
+    const file = input.files?.[0];
+    if (!file || importing) return;
+
+    // The base page also owns a change listener that clears the field in a
+    // finally block. Stop it before it can process the same File a second time.
+    event.stopImmediatePropagation();
+    importing = true;
+    input.dataset.reconciliationFileState = 'reading';
+
+    try {
+      if (typeof importReconciliationFile !== 'function') {
+        throw new Error('재무제표 검증 기능을 준비하지 못했습니다. 새로고침 후 다시 시도해 주세요.');
+      }
+      reconcileBusy = true;
+      renderReconciliationDraft();
+      await importReconciliationFile(file);
+      input.dataset.reconciliationFileState = 'ready';
+    } catch (error) {
+      input.dataset.reconciliationFileState = 'error';
+      const status = document.getElementById('reconcileSaveStatus');
+      if (status) status.textContent = '파일 확인 필요: ' + (error?.message || String(error));
+    } finally {
+      reconcileBusy = false;
+      renderReconciliationDraft();
+    }
+  }, true);
+
+  console.info('Reconciliation file input retention patch loaded');
 })();

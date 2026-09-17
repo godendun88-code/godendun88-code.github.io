@@ -1,12 +1,12 @@
 {
-  "updated_at_kst": "2026-09-17 09:29 KST",
-  "current_rate": 1377.1,
+  "updated_at_kst": "2026-09-17 09:53 KST",
+  "current_rate": 1378.6,
   "previous_close": 1368.2,
-  "rate_updated_at_kst": "2026-09-17 09:28:57 KST",
+  "rate_updated_at_kst": "2026-09-17 09:53:04 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
-    "연준·금리 관련 최신 기사(\"Wall St ends lower after Fed hikes interest rates, sees more tightening ahead\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
+    "연준·금리 관련 최신 기사(\"VIEW Stocks pull back after Fed raises rates, points to another hike this year\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
     "미국 물가 관련 최신 기사(\"Fed raises rates in search of 'timelier' drop in inflation, sees more tightening ahead\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
     "달러 관련 최신 기사(\"Dollar girded by bets on a US hiking cycle\")가 확인돼 달러인덱스 방향성이 원/달러 환율의 핵심 변수로 작용하고 있습니다."
   ],
@@ -25,12 +25,6 @@
       "seen": "2026-09-17 06:18 KST"
     },
     {
-      "title": "Wall St ends lower after Fed hikes interest rates, sees more tightening ahead",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSUtqeWNnZEJZT0IyaHpTajZTM3hWV0gwZUV1VkhQV21PUzJBQ0kzLWhxTk5iWUtNbTI1eUVWQnN1b2Y4T2RQSnhmc1pDcVVWYldOc19HSzRId2pZMHZFWHZrNHhnMVh3VGd4RkRSdDJGZ2ZJSzd6TWhiWWtUd1lWRkxzcklsRmJhOS1TcEZYMkRTQjhmakMyVDFtQQ?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-17 05:24 KST"
-    },
-    {
       "title": "VIEW Stocks pull back after Fed raises rates, points to another hike this year",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPcHE5d2RsZk5YWi1pLWw0M0tWX0pGZl81OEcwZVJtUlJsbTVoUnpQWUxJYjZGSjhvMmlDd0JrcVVFQjJ0aFRJRkh1cTFteld2Y0lSeXhyMFllMU5vSGthbExhbzc5MVNSRTFHOS1JWVcwZ09jSllmTDJoeHBEUEFJanI2aEZqQm1PbXZJZHpwRHpRU2FoMG9EMmVoVmxiZ0h1YV8xTk12QjRMVm1LQ1Zfcm1qUGhUWkFH?oc=5",
       "domain": "Reuters",
@@ -47,15 +41,21 @@
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOaDAwbi1iV21aNURrLWtvcXhweWM3bzFTcjBrZUV5YnJwVjRMNl94RG9QNDRSZG9mblBzeVhtejJfd0t6THF0cFVrbGRFUnpsU0VuV1JBeUFWdC1zRDhGUlQ4dVljdmpSN3dLQUJnM2xXbGx4Q2FQQVlXV3BsWEJadVZialp2MFd1Ymhzc1ZZNU9HNGJzNWc?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-17 04:46 KST"
+    },
+    {
+      "title": "What do higher rates mean for borrowers and savers?",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPa2o3aURpZERkdnhlVFVIUE0xdHlycUNDaXFJV2pib1ZRa3FabTY3QUxOUi1yY1RFYmtLTEZxcXN4ZVV3SUhNX1F4U2lRanpuUnhJVEVzVXBmdlF0Q1FUNkd6WFI0WEdIMXdQdTdVUFZDTFhFTERUeTJ5NG5PVE9Oa0NFMWZ4WmxKeVVuQ3VSRXlpTmxTZURJNVhENW5jYkU4X0hPYlJB?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-17 03:55 KST"
     }
   ],
-  "rate_source_time": "2026-09-17 09:28:57 KST",
+  "rate_source_time": "2026-09-17 09:53:04 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 8.9,
-  "rate_change_pct": 0.65,
+  "rate_change": 10.4,
+  "rate_change_pct": 0.76,
   "smbs_base_rate": 1368.3,
   "smbs_rate_date": "2026-09-17",
-  "smbs_rate_updated_at_kst": "2026-09-17 09:28:46 KST",
+  "smbs_rate_updated_at_kst": "2026-09-17 09:52:51 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1385.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-17 09:28:46 KST"
+  "rate_job_checked_at_kst": "2026-09-17 09:52:51 KST"
 }

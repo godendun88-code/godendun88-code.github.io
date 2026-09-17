@@ -1,7 +1,31 @@
 (() => {
   const monthPattern = /^20\d{2}-(0[1-9]|1[0-2])$/;
+  const usdCacheKey = 'act.monthlyUsdBalances.v1';
   let manualMonths = new Set();
   let lastSeries = [];
+  let cachedUsdBalances = readCachedUsdBalances();
+
+  function readCachedUsdBalances() {
+    try {
+      const saved = JSON.parse(localStorage.getItem(usdCacheKey) || '{}');
+      return Object.fromEntries(Object.entries(saved || {}).filter(([month, amount]) =>
+        monthPattern.test(month) && typeof amount === 'number' && Number.isFinite(amount)
+      ));
+    } catch {
+      return {};
+    }
+  }
+
+  function cacheUsdBalances(rows) {
+    cachedUsdBalances = Object.fromEntries((rows || [])
+      .filter(row => monthPattern.test(row?.month || '') && typeof row.amount === 'number' && Number.isFinite(row.amount))
+      .map(row => [row.month, row.amount]));
+    try {
+      localStorage.setItem(usdCacheKey, JSON.stringify(cachedUsdBalances));
+    } catch {
+      // The company store remains the source of record if browser storage is unavailable.
+    }
+  }
 
   const originalCurrentMonthlySeries = currentMonthlySeries;
   const originalOpenMonthlyUsdEditor = openMonthlyUsdEditor;
@@ -95,7 +119,9 @@
     const row = seriesMap.get(month);
     const value = Object.prototype.hasOwnProperty.call(draft, month)
       ? draft[month]
-      : monthlyUsdOverrides[month] != null ? String(monthlyUsdOverrides[month]) : '';
+      : monthlyUsdOverrides[month] != null ? String(monthlyUsdOverrides[month])
+      : cachedUsdBalances[month] != null ? String(cachedUsdBalances[month])
+      : row?.usdSource === '보완 입력' && row.usdBalance != null ? String(row.usdBalance) : '';
     const status = row?.status || (month < currentMonthKey() ? '미확정' : '예상');
     const reason = row?.usdMissingReason || '관리자 추가 월 · 원화 계획 미연결';
     const removable = manualMonths.has(month);
@@ -126,6 +152,7 @@
     monthlyUsdOverrides = Object.fromEntries(clean
       .filter(row => typeof row.amount === 'number' && Number.isFinite(row.amount))
       .map(row => [row.month, row.amount]));
+    cacheUsdBalances(clean);
     if (cashModel) renderCurrentOverview(cashModel);
   };
 
@@ -148,10 +175,12 @@
       next.set(month, amount);
     });
 
-    return [...next.entries()]
+    const rows = [...next.entries()]
       .filter(([month]) => monthPattern.test(month) && month >= '2026-01')
       .sort(([a], [b]) => a.localeCompare(b))
       .map(([month, amount]) => ({ month, amount }));
+    cacheUsdBalances(rows);
+    return rows;
   };
 
   openMonthlyUsdEditor = function(month = '') {
@@ -220,4 +249,21 @@
 
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', addMonthControls, { once: true });
   else addMonthControls();
+
+  // The Firebase module creates the dashboard bridge after this classic patch
+  // loads. Bind its setter explicitly so saved monthly values always rebuild
+  // this editor with the persisted rows.
+  const bindBridge = () => {
+    const bridge = window.dashboardBridge;
+    if (!bridge || bridge.__monthlyUsdPersistencePatch) return !!bridge;
+    bridge.setMonthlyUsdBalances = rows => setMonthlyUsdBalances(rows);
+    bridge.__monthlyUsdPersistencePatch = true;
+    return true;
+  };
+  if (!bindBridge()) {
+    const timer = setInterval(() => {
+      if (bindBridge()) clearInterval(timer);
+    }, 50);
+  }
 })();
+

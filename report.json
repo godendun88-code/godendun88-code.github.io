@@ -1,19 +1,31 @@
 {
-  "updated_at_kst": "2026-09-17 16:24 KST",
-  "current_rate": 1381.6,
+  "updated_at_kst": "2026-09-17 16:49 KST",
+  "current_rate": 1383.6,
   "previous_close": 1368.2,
-  "rate_updated_at_kst": "2026-09-17 16:24:42 KST",
+  "rate_updated_at_kst": "2026-09-17 16:49:42 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "상승 우세",
   "drivers": [
     "연준의 추가 금리 인상 또는 매파적 기조 우려가 부각돼 달러 강세 압력이 높아지는 요인으로 작용하고 있습니다.",
     "미국 물가 관련 최신 기사(\"Fed raises rates in search of 'timelier' drop in inflation, sees more tightening ahead\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
-    "유가·지정학 관련 최신 기사(\"Oil prices extend losses on easing fears of Middle East supply disruption\")가 확인돼 원화 변동성 확대 요인으로 작용하고 있습니다."
+    "유가·지정학 관련 최신 기사(\"Dollar's allure, oil surge fan bearish bets on emerging Asian currencies\")가 확인돼 원화 변동성 확대 요인으로 작용하고 있습니다."
   ],
   "outlook": "달러 강세·금리 상승 계열의 재료가 상대적으로 우세해 원/달러는 단기 상승 압력이 나타날 수 있으나, 국내 수급과 위험선호 회복 여부에 따라 변동성이 예상됩니다.",
   "articles": [
     {
-      "title": "Hawkish Fed lifts dollar to seven-week high as focus turn to BOJ",
+      "title": "Dollar's allure, oil surge fan bearish bets on emerging Asian currencies",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNTjZNT3kxN1I5MU1zUWhFWTdlRm1tZVpGOU1sdWVEX0t6R2pDMkt0TXY0ZVQ5SVotOG1qZ3BZVFNlZGl5dktfamVFZmxYb2RtUkY2aF9SNVFTN2ItTHIyR2FodldIYlJZSDl2eEpkOGVwa3pCSmtBQko4X3pCWElueWJaZERaZEFvZm1WT3dJTVY4Q3hxUVowRU4yX0JtOTZjRVhtVzJ1UWZnalhVZV9pOXpRVFlGU3A4MHJETkxsMA?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-17 16:38 KST"
+    },
+    {
+      "title": "Oil prices extend losses as fears of Middle East supply disruptions ease",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQem15UTRSMDAta3NrU2VpWTcxVllaeWVZT2wyc1gwQUs5aER1ZFFtaG8zNmI4UkZGV09BOHV6eGVHdy1RbTZWZXVkdklmSkVnMUtqbk9JZkdPb19FakhJc1RaUFRMUlNxR3F1VUx2TTZRcElaQk9ISmJsaWozRFNETDcxcjZxT0lJTm4zbV9CN1hETXB2SnYzQkhwZVpobENkRTBfYU5UbjZoUVhGXzZtM2xNUDFWdkJqUVE?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-17 13:34 KST"
+    },
+    {
+      "title": "Hawkish Fed lifts dollar to seven-week high; markets brace for BOE, BOJ",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTVZNWlJSb0NGaG9WNmRjR0U4YUM2anpuRFREdGRvRmRaRUhwbzVIb2JndlpsZ2g4a1hvbkdZWEl2YUV6WWRjYThBSGt2VGlzak44MmVyWkFPeTJfdlBreG1ERkhYbjVEaTVlLXpwOW9SeDRvbzZIYVJLTUdWcWc1Y2RFTFVPelhoaWNqWVpNd1YxWTR2ZWxaX2U5dzQwUUxNWWFyQXB5U2d4UFJTMXM4?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-17 11:08 KST"
@@ -23,12 +35,6 @@
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQUnBManB6Nl9tbnMzaXhPbHh4RmJVX0xWNmdaeENoNW50NGxxanVfMHFMaWVENklmQ09OSzdDVnFtSFhiXzJ0YTE5RVgzSHYtekRVZHU2QXE0LVNWeS1nalgyNldtV3l1X3FUc3NudktmOWZJVVZORXFNbWloZzlOZkdRWQ?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-17 11:05 KST"
-    },
-    {
-      "title": "Oil prices extend losses on easing fears of Middle East supply disruption",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQem15UTRSMDAta3NrU2VpWTcxVllaeWVZT2wyc1gwQUs5aER1ZFFtaG8zNmI4UkZGV09BOHV6eGVHdy1RbTZWZXVkdklmSkVnMUtqbk9JZkdPb19FakhJc1RaUFRMUlNxR3F1VUx2TTZRcElaQk9ISmJsaWozRFNETDcxcjZxT0lJTm4zbV9CN1hETXB2SnYzQkhwZVpobENkRTBfYU5UbjZoUVhGXzZtM2xNUDFWdkJqUVE?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-17 10:00 KST"
     },
     {
       "title": "Wall St ends lower after Fed hikes interest rates, sees more tightening ahead",
@@ -41,21 +47,15 @@
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPRnVEVW9JZ2tKNmNES3RWYUlXTjJhOVFad0JhMjJXM1JsbHJwTVpUNmltQ3l3Z1dLclFEOTkwNXQwVG1mZjFwRE1lcjZDWl90VF83YkllMElYRU1aNXhWYVQyZWlENERVa2xRNmNLR1pOMmx5ZnZfUVNqSTBXT0VYdm9ocEtESEVPRHpsVFoyVVJaMnVTYlpBMm1RdkdDZ2VkQ2htYmpB?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-17 06:18 KST"
-    },
-    {
-      "title": "VIEW Stocks pull back after Fed raises rates, points to another hike this year",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPcHE5d2RsZk5YWi1pLWw0M0tWX0pGZl81OEcwZVJtUlJsbTVoUnpQWUxJYjZGSjhvMmlDd0JrcVVFQjJ0aFRJRkh1cTFteld2Y0lSeXhyMFllMU5vSGthbExhbzc5MVNSRTFHOS1JWVcwZ09jSllmTDJoeHBEUEFJanI2aEZqQm1PbXZJZHpwRHpRU2FoMG9EMmVoVmxiZ0h1YV8xTk12QjRMVm1LQ1Zfcm1qUGhUWkFH?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-17 05:10 KST"
     }
   ],
-  "rate_source_time": "2026-09-17 16:24:42 KST",
+  "rate_source_time": "2026-09-17 16:49:42 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 13.4,
-  "rate_change_pct": 0.98,
+  "rate_change": 15.4,
+  "rate_change_pct": 1.13,
   "smbs_base_rate": 1368.3,
   "smbs_rate_date": "2026-09-17",
-  "smbs_rate_updated_at_kst": "2026-09-17 16:24:27 KST",
+  "smbs_rate_updated_at_kst": "2026-09-17 16:49:31 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1385.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-17 16:24:27 KST"
+  "rate_job_checked_at_kst": "2026-09-17 16:49:31 KST"
 }

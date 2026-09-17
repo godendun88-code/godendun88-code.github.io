@@ -30,6 +30,14 @@
   const originalCurrentMonthlySeries = currentMonthlySeries;
   const originalOpenMonthlyUsdEditor = openMonthlyUsdEditor;
 
+  function latestDailyUsdBalance(month) {
+    const rows = Array.isArray(dailyBalanceData?.rows) ? dailyBalanceData.rows : [];
+    const matches = rows
+      .filter(row => String(row?.date || '').slice(0, 7) === month && nullableCashNumber(row?.usd) != null)
+      .sort((left, right) => String(left.date).localeCompare(String(right.date)));
+    return matches.at(-1) || null;
+  }
+
   const monthNext = key => {
     const [y, m] = key.split('-').map(Number);
     return m === 12 ? `${y + 1}-01` : `${y}-${String(m + 1).padStart(2, '0')}`;
@@ -60,16 +68,22 @@
 
     const sheetUsd = nullableCashNumber(history?.usdBalance);
     const pointUsd = covered ? nullableCashNumber(point?.usdBalance) : null;
+    // The daily balance report selects the rightmost sheet for each date.  For
+    // a month, its latest date is therefore the authoritative month-end actual.
+    const dailyBalance = latestDailyUsdBalance(month);
+    const dailyUsd = nullableCashNumber(dailyBalance?.usd);
     // Sheet6-derived monthly values are cash-plan balances, not bank-confirmed
     // actuals.  An unconfirmed past month must therefore remain editable and
     // must never override a separately entered bank balance merely because the
     // month has passed.
     const confirmed = status === '확정';
-    const baseUsdBalance = (confirmed ? sheetUsd : null) ?? pointUsd ?? sheetUsd;
+    const baseUsdBalance = dailyUsd ?? (confirmed ? sheetUsd : null) ?? pointUsd ?? sheetUsd;
     const manualUsd = nullableCashNumber(monthlyUsdOverrides[month]);
     const hasConfirmedSheetUsd = confirmed && sheetUsd != null;
-    const usdBalance = manualUsd ?? (hasConfirmedSheetUsd ? sheetUsd : pointUsd ?? sheetUsd);
-    const usdSource = manualUsd != null
+    const usdBalance = dailyUsd ?? manualUsd ?? (hasConfirmedSheetUsd ? sheetUsd : pointUsd ?? sheetUsd);
+    const usdSource = dailyUsd != null
+      ? `잔액현황보고 ${dailyBalance.date}`
+      : manualUsd != null
       ? '관리자 실제 잔액'
       : hasConfirmedSheetUsd ? '확정 월 시트' : pointUsd != null ? '입출금 계획' : sheetUsd != null ? '월 시트' : '미입력';
     const usdMissingReason = covered ? 'USD 잔액 확인 필요' : '입출금 계획 미연결';
@@ -87,7 +101,7 @@
       sheetKrwBalance: nullableCashNumber(history?.krwBalance),
       sourceKrwDifference: 0,
       bookSplit: false,
-      manualEntryAllowed: !confirmed && month < currentMonthKey()
+      manualEntryAllowed: dailyUsd == null && !confirmed && month < currentMonthKey()
     };
   }
 
@@ -97,6 +111,7 @@
     const sourceMonths = [
       ...(model?.monthlyHistory || []).map(row => row.month),
       ...(model?.points || []).map(point => String(point.date || '').slice(0, 7)),
+      ...(dailyBalanceData?.rows || []).map(row => String(row?.date || '').slice(0, 7)),
       ...manualMonths
     ].filter(month => monthPattern.test(month) && month >= '2026-01').sort();
 
@@ -106,7 +121,6 @@
     const months = continuousMonths(start, end);
 
     for (const month of months) {
-      if (rowMap.has(month)) continue;
       const row = synthesizeMonth(model, referenceRate, month);
       if (row) rowMap.set(month, row);
     }
@@ -283,4 +297,3 @@
     }, 50);
   }
 })();
-

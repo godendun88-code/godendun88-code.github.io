@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-09-18 02:48 KST",
+  "updated_at_kst": "2026-09-18 03:26 KST",
   "current_rate": 1381.4,
   "previous_close": 1368.2,
-  "rate_updated_at_kst": "2026-09-18 02:48:42 KST",
+  "rate_updated_at_kst": "2026-09-18 03:25:54 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
@@ -43,19 +43,19 @@
       "seen": "2026-09-17 11:08 KST"
     },
     {
-      "title": "Shares climb, bonds hold ground and short-term yields edge up after Fed hikes, BoE stays on",
+      "title": "World stocks gain as Treasury yields retreat after Fed, BoE decisions",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQUnBManB6Nl9tbnMzaXhPbHh4RmJVX0xWNmdaeENoNW50NGxxanVfMHFMaWVENklmQ09OSzdDVnFtSFhiXzJ0YTE5RVgzSHYtekRVZHU2QXE0LVNWeS1nalgyNldtV3l1X3FUc3NudktmOWZJVVZORXFNbWloZzlOZkdRWQ?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-17 11:05 KST"
     }
   ],
-  "rate_source_time": "2026-09-18 02:48:42 KST",
+  "rate_source_time": "2026-09-18 03:25:54 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": 13.2,
   "rate_change_pct": 0.96,
   "smbs_base_rate": 1380.3,
   "smbs_rate_date": "2026-09-18",
-  "smbs_rate_updated_at_kst": "2026-09-18 02:48:28 KST",
+  "smbs_rate_updated_at_kst": "2026-09-18 03:25:39 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1385.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-18 02:48:28 KST"
+  "rate_job_checked_at_kst": "2026-09-18 03:25:39 KST"
 }

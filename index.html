@@ -85,8 +85,102 @@
         '원화예금 금액 검증'
       );
       const originalShortBookLock="$('reconcileFxBook').disabled=false;$('reconcileShortBook').disabled=!check.shortRequired;";
-      const retainedShortBookInput="$('reconcileKrwBook').disabled=false;$('reconcileFxBook').disabled=false;$('reconcileShortBook').disabled=false;$('reconcileShortBook').placeholder='해당 월말 금액 (없으면 0)';";
+      const retainedShortBookInput="$('reconcileKrwBook').disabled=false;$('reconcileFxBook').disabled=false;$('reconcileShortBook').disabled=false;$('reconcileShortBook').placeholder='해당 월말 금액 (없으면 0)';$('reconcileCashBook').disabled=!check.cashRequired;$('reconcileCashBook').placeholder=check.cashRequired?'해당 월 실제 보유 현금':'재무제표 현금 계정이 없으면 입력 불필요';";
       replaceRequired(originalShortBookLock,retainedShortBookInput,'장부금액 입력');
+
+      replaceRequired(
+        "if(!['보통예금','기타단기금융상품'].includes(label)){",
+        "if(!['보통예금','기타단기금융상품','현금'].includes(label)){",
+        '현금 계정 인식'
+      );
+      replaceRequired(
+        "shortAmount:amounts['기타단기금융상품']??null,fileName:",
+        "shortAmount:amounts['기타단기금융상품']??null,cashAmount:amounts['현금']??null,fileName:",
+        '현금 금액 저장'
+      );
+      replaceRequired(
+        "shortCell:refs['기타단기금융상품']||'',unsupported:",
+        "shortCell:refs['기타단기금융상품']||'',cashCell:refs['현금']||'',unsupported:",
+        '현금 셀 위치 저장'
+      );
+      replaceRequired(
+        "function reconciliationInputs(values={}){return{basis:['krw-only','bank-book-total'].includes(values.basis)?values.basis:'',krwBook:reconciliationNumber(values.krwBook),fxBook:reconciliationNumber(values.fxBook),shortBook:reconciliationNumber(values.shortBook),usdEvidence:reconciliationNumber(values.usdEvidence),note:String(values.note||'').trim().slice(0,300),unitReviewed:values.unitReviewed===true,actualReviewed:values.actualReviewed===true}}",
+        "function reconciliationInputs(values={}){const result={basis:['krw-only','bank-book-total'].includes(values.basis)?values.basis:'',krwBook:reconciliationNumber(values.krwBook),fxBook:reconciliationNumber(values.fxBook),shortBook:reconciliationNumber(values.shortBook),usdEvidence:reconciliationNumber(values.usdEvidence),note:String(values.note||'').trim().slice(0,300),unitReviewed:values.unitReviewed===true,actualReviewed:values.actualReviewed===true};if(values.cashBook!=null&&values.cashBook!=='')result.cashBook=reconciliationNumber(values.cashBook);return result}",
+        '현금 검증값'
+      );
+      const originalShortBookField='<label>동일 월말 기타단기금융상품 잔액(원)<input id="reconcileShortBook" type="number" step="1" inputmode="numeric" placeholder="해당 월 운용명세 기준"></label>';
+      const cashBookField=originalShortBookField+'<label>동일 월말 현금 잔액(원)<input id="reconcileCashBook" type="number" step="1" inputmode="numeric" placeholder="현금출납부·금고 기준"></label>';
+      replaceRequired(originalShortBookField,cashBookField,'현금 장부금액 입력');
+      replaceRequired(
+        "['reconcileBalanceBasis','basis'],['reconcileKrwBook','krwBook'],['reconcileFxBook','fxBook'],['reconcileShortBook','shortBook'],",
+        "['reconcileBalanceBasis','basis'],['reconcileKrwBook','krwBook'],['reconcileFxBook','fxBook'],['reconcileShortBook','shortBook'],['reconcileCashBook','cashBook'],",
+        '현금 입력값 불러오기'
+      );
+      replaceRequired(
+        "basis:$('reconcileBalanceBasis').value,krwBook:$('reconcileKrwBook').value,fxBook:$('reconcileFxBook').value,shortBook:$('reconcileShortBook').value,",
+        "basis:$('reconcileBalanceBasis').value,krwBook:$('reconcileKrwBook').value,fxBook:$('reconcileFxBook').value,shortBook:$('reconcileShortBook').value,cashBook:$('reconcileCashBook').value,",
+        '현금 입력값 저장'
+      );
+      replaceRequired(
+        "const valid=!!statement&&statement.month===record.month&&reconciliationMonthPattern.test(record.month)&&statement.date===reconciliationMonthEnd(record.month)&&[1,1000,1000000].includes(statement.unit)&&Number.isSafeInteger(statement.bankAmount);",
+        "const valid=!!statement&&statement.month===record.month&&reconciliationMonthPattern.test(record.month)&&statement.date===reconciliationMonthEnd(record.month)&&[1,1000,1000000].includes(statement.unit)&&Number.isSafeInteger(statement.bankAmount)&&(statement.cashAmount==null||Number.isSafeInteger(statement.cashAmount));",
+        '현금 재무제표 값 검증'
+      );
+      replaceRequired(
+        "const bankDiff=valid&&bankActual!=null?bankActual-statement.bankAmount:null,shortRequired=statement?.shortAmount!=null,shortDiff=shortRequired&&inputs.shortBook!=null?inputs.shortBook-statement.shortAmount:null;",
+        "const bankDiff=valid&&bankActual!=null?bankActual-statement.bankAmount:null,shortRequired=statement?.shortAmount!=null,shortDiff=shortRequired&&inputs.shortBook!=null?inputs.shortBook-statement.shortAmount:null,cashRequired=statement?.cashAmount!=null,cashDiff=cashRequired&&inputs.cashBook!=null?inputs.cashBook-statement.cashAmount:null;",
+        '현금 차이 계산'
+      );
+      replaceRequired(
+        "if(shortRequired&&shortDiff!==0)blockers.push(shortDiff==null?'동일 월 기타단기금융상품 명세 필요':'기타단기금융상품 차액 확인 필요');",
+        "if(shortRequired&&shortDiff!==0)blockers.push(shortDiff==null?'동일 월 기타단기금융상품 명세 필요':'기타단기금융상품 차액 확인 필요');if(cashRequired&&cashDiff!==0)blockers.push(cashDiff==null?'동일 월 현금 잔액 명세 필요':'현금 차액 확인 필요');",
+        '현금 검증 조건'
+      );
+      replaceRequired(
+        "for(const key of ['krwBook','fxBook','shortBook'])",
+        "for(const key of ['krwBook','fxBook','shortBook','cashBook'])",
+        '현금 원단위 검증'
+      );
+      replaceRequired(
+        "return{inputs,source,bankActual,bankDiff,shortRequired,shortDiff,usdDiff,usdPass,blockers,fingerprint,canConfirm,confirmed,stale:!!record?.confirmation&&!confirmed};",
+        "return{inputs,source,bankActual,bankDiff,shortRequired,shortDiff,cashRequired,cashDiff,usdDiff,usdPass,blockers,fingerprint,canConfirm,confirmed,stale:!!record?.confirmation&&!confirmed};",
+        '현금 검증 결과 표시'
+      );
+      replaceRequired(
+        "...(check.shortRequired?[['기타단기금융상품',s.shortAmount,check.inputs.shortBook,check.shortDiff,false]]:[]),['USD 수량(독립 명세 대조)'",
+        "...(check.shortRequired?[['기타단기금융상품',s.shortAmount,check.inputs.shortBook,check.shortDiff,false]]:[]),...(check.cashRequired?[['현금',s.cashAmount,check.inputs.cashBook,check.cashDiff,false]]:[]),['USD 수량(독립 명세 대조)'",
+        '현금 대조행 표시'
+      );
+      replaceRequired(
+        "||s.shortAmount!=null&&!Number.isSafeInteger(s.shortAmount))throw new Error('유효한 월말 재무제표가 필요합니다.');",
+        "||s.shortAmount!=null&&!Number.isSafeInteger(s.shortAmount)||s.cashAmount!=null&&!Number.isSafeInteger(s.cashAmount))throw new Error('유효한 월말 재무제표가 필요합니다.');",
+        '현금 보호저장소 검증'
+      );
+      replaceRequired(
+        "shortAmount:s.shortAmount??null,fileName:String(s.fileName||'').slice(0,200),",
+        "shortAmount:s.shortAmount??null,cashAmount:s.cashAmount??null,fileName:String(s.fileName||'').slice(0,200),",
+        '현금 보호저장소 저장'
+      );
+      replaceRequired(
+        "shortCell:String(s.shortCell||''),unsupported:",
+        "shortCell:String(s.shortCell||''),cashCell:String(s.cashCell||''),unsupported:",
+        '현금 셀 위치 보호저장소 저장'
+      );
+      replaceRequired(
+        "'reconcileBalanceBasis','reconcileKrwBook','reconcileFxBook','reconcileShortBook'",
+        "'reconcileBalanceBasis','reconcileKrwBook','reconcileFxBook','reconcileShortBook','reconcileCashBook'",
+        '현금 입력 초기화'
+      );
+      replaceRequired(
+        "'reconcileBalanceBasis','reconcileKrwBook','reconcileFxBook','reconcileShortBook'",
+        "'reconcileBalanceBasis','reconcileKrwBook','reconcileFxBook','reconcileShortBook','reconcileCashBook'",
+        '현금 입력 초기화'
+      );
+      replaceRequired(
+        "'reconcileBalanceBasis','reconcileKrwBook','reconcileFxBook','reconcileShortBook'",
+        "'reconcileBalanceBasis','reconcileKrwBook','reconcileFxBook','reconcileShortBook','reconcileCashBook'",
+        '현금 입력 초기화'
+      );
       const monthlyUsdFallback=`<script>
 (() => {
   const monthPattern=/^20\\d{2}-(0[1-9]|1[0-2])$/;
@@ -188,4 +282,3 @@
   </script>
 </body>
 </html>
-

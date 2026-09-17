@@ -19,7 +19,7 @@
       let html=await response.text();
       const patches=[
         '<script src="./monthly-usd-patch.js?v=20260915-1"><\\/script>',
-        '<script src="./reconciliation-xls-patch.js?v=20260915-1"><\\/script>'
+        '<script src="./reconciliation-xls-patch.js?v=20260917-7"><\\/script>'
       ].join('\n');
       html=html.includes('</body>')?html.replace('</body>',patches+'\n</body>'):html+patches;
       document.open();

@@ -60,16 +60,18 @@
 
     const sheetUsd = nullableCashNumber(history?.usdBalance);
     const pointUsd = covered ? nullableCashNumber(point?.usdBalance) : null;
-    const preferSheet = month < currentMonthKey() || status === '확정';
-    const baseUsdBalance = (preferSheet ? sheetUsd : null) ?? pointUsd ?? sheetUsd;
+    // Sheet6-derived monthly values are cash-plan balances, not bank-confirmed
+    // actuals.  An unconfirmed past month must therefore remain editable and
+    // must never override a separately entered bank balance merely because the
+    // month has passed.
+    const confirmed = status === '확정';
+    const baseUsdBalance = (confirmed ? sheetUsd : null) ?? pointUsd ?? sheetUsd;
     const manualUsd = nullableCashNumber(monthlyUsdOverrides[month]);
-    // A past monthly sheet is the automatic source of truth.  A future/past plan
-    // is only a forecast, so a manually entered actual balance must take priority.
-    const hasActualSheetUsd = preferSheet && sheetUsd != null;
-    const usdBalance = hasActualSheetUsd ? sheetUsd : manualUsd ?? pointUsd ?? sheetUsd;
-    const usdSource = hasActualSheetUsd
-      ? '월 시트'
-      : manualUsd != null ? '보완 입력' : pointUsd != null ? '입출금 계획' : sheetUsd != null ? '월 시트' : '미입력';
+    const hasConfirmedSheetUsd = confirmed && sheetUsd != null;
+    const usdBalance = manualUsd ?? (hasConfirmedSheetUsd ? sheetUsd : pointUsd ?? sheetUsd);
+    const usdSource = manualUsd != null
+      ? '관리자 실제 잔액'
+      : hasConfirmedSheetUsd ? '확정 월 시트' : pointUsd != null ? '입출금 계획' : sheetUsd != null ? '월 시트' : '미입력';
     const usdMissingReason = covered ? 'USD 잔액 확인 필요' : '입출금 계획 미연결';
     const fx = currentMonthlyFx(month, referenceRate, status);
     const usdConverted = usdBalance != null && fx.appliedRate > 0 ? usdBalance * fx.appliedRate : null;
@@ -85,7 +87,7 @@
       sheetKrwBalance: nullableCashNumber(history?.krwBalance),
       sourceKrwDifference: 0,
       bookSplit: false,
-      manualEntryAllowed: !hasActualSheetUsd
+      manualEntryAllowed: !confirmed && month < currentMonthKey()
     };
   }
 

@@ -290,12 +290,44 @@
   };
 })();
 <\/script>`;
+      const monthlyHistoryDisplayOrder=`<script>
+(() => {
+  const monthPattern=/^20\\d{2}-(0[1-9]|1[0-2])$/;
+  const heading=(label,count)=>{
+    const row=document.createElement('tr');row.dataset.monthGroup='1';
+    const cell=document.createElement('td');cell.colSpan=7;cell.textContent=label+' · '+count+'개월';
+    cell.style.cssText='padding:9px 12px;background:#f8fafc;color:#475467;font-weight:700;font-size:12px;border-top:1px solid #dbe3ef;border-bottom:1px solid #dbe3ef';
+    row.appendChild(cell);return row;
+  };
+  const reorder=()=>{
+    const body=document.getElementById('currentHistoryBody');if(!body)return;
+    const rows=[...body.children].filter(row=>!row.dataset.monthGroup&&monthPattern.test((row.cells?.[0]?.textContent||'').trim()));
+    if(!rows.length)return;
+    const current=currentMonthKey(),year=current.slice(0,4),yearStart=year+'-01',yearEnd=year+'-12';
+    const ordered=(predicate)=>rows.filter(row=>predicate((row.cells[0].textContent||'').trim())).sort((a,b)=>a.cells[0].textContent.trim().localeCompare(b.cells[0].textContent.trim()));
+    const present=ordered(month=>month>=current&&month<=yearEnd);
+    const past=ordered(month=>month>=yearStart&&month<current);
+    const later=ordered(month=>month>yearEnd);
+    const earlier=ordered(month=>month<yearStart);
+    const next=[];
+    if(present.length)next.push(heading('현재 · 예상',present.length),...present);
+    if(past.length)next.push(heading('과거 확정 · 검증 이력',past.length),...past);
+    if(later.length)next.push(heading('차년도 예상',later.length),...later);
+    if(earlier.length)next.push(heading('이전 연도 이력',earlier.length),...earlier);
+    body.replaceChildren(...next);
+  };
+  const originalRenderCurrentOverview=renderCurrentOverview;
+  renderCurrentOverview=function(...args){const result=originalRenderCurrentOverview.apply(this,args);reorder();return result};
+  queueMicrotask(reorder);setTimeout(reorder,120);
+})();
+<\/script>`;
       const patches=[
         '<script src="./monthly-usd-patch.js?v=20260917-13"><\/script>',
         '<script src="./reconciliation-xls-patch.js?v=20260917-10"><\/script>',
         monthlyUsdFallback,
         monthlyFxEditor,
-        dailyBalanceMonthEndOverride
+        dailyBalanceMonthEndOverride,
+        monthlyHistoryDisplayOrder
       ].join('\n');
       html=html.includes('</body>')?html.replace('</body>',patches+'\n</body>'):html+patches;
       document.open();
@@ -307,3 +339,4 @@
   </script>
 </body>
 </html>
+

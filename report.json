@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-09-17 10:22 KST",
-  "current_rate": 1379.8,
+  "updated_at_kst": "2026-09-17 10:49 KST",
+  "current_rate": 1381.8,
   "previous_close": 1368.2,
-  "rate_updated_at_kst": "2026-09-17 10:22:16 KST",
+  "rate_updated_at_kst": "2026-09-17 10:49:44 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
@@ -16,7 +16,7 @@
       "title": "Fed raises rates in search of 'timelier' drop in inflation, sees more tightening ahead",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPd0VZMTZPMGRVWVVTY0lVRERxMHhQdlNnb2NBOHROMDJETXBLVmJFTW12SmFybUloWGRfYm1ueDhEZHJuOWNPQXh3RHpDVllhRVpSUVFVeDJmMGFNNTM2RTRqMkVFaXdwTmM1eG1UeVhqLXNuYW5LMjZGYUFCYUV0djFqUTUxRkF2Vk9NeTh5VU44bENZYi1kaTBnS1NuVngtX1dIeEVtaw?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-17 07:38 KST"
+      "seen": "2026-09-17 08:12 KST"
     },
     {
       "title": "COMMENTARY: Trading Day: Lift off!",
@@ -43,19 +43,19 @@
       "seen": "2026-09-17 04:46 KST"
     },
     {
-      "title": "What do higher rates mean for borrowers and savers?",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPa2o3aURpZERkdnhlVFVIUE0xdHlycUNDaXFJV2pib1ZRa3FabTY3QUxOUi1yY1RFYmtLTEZxcXN4ZVV3SUhNX1F4U2lRanpuUnhJVEVzVXBmdlF0Q1FUNkd6WFI0WEdIMXdQdTdVUFZDTFhFTERUeTJ5NG5PVE9Oa0NFMWZ4WmxKeVVuQ3VSRXlpTmxTZURJNVhENW5jYkU4X0hPYlJB?oc=5",
+      "title": "TSX futures inch up ahead of US Fed decision",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNbU9rMGo4amQzcjE0Rzl5aHlKUXF2aFNsV1Y1VHFxRFFyTXU4MjlYY2dfSWpsVWxzSGVsWnh6bUpVdno1T1dRaF9WdkJ5M2JmenhubFBmazFLVnBvZ3Q1QTg3TUxwOFVOZTN2VmYzWFB5N0JMWTBiTTZlaGlXaVV6RWVGVkZnbnp5aHEzQXpaZw?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-17 03:55 KST"
+      "seen": "2026-09-16 19:47 KST"
     }
   ],
-  "rate_source_time": "2026-09-17 10:22:16 KST",
+  "rate_source_time": "2026-09-17 10:49:44 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 11.6,
-  "rate_change_pct": 0.85,
+  "rate_change": 13.6,
+  "rate_change_pct": 0.99,
   "smbs_base_rate": 1368.3,
   "smbs_rate_date": "2026-09-17",
-  "smbs_rate_updated_at_kst": "2026-09-17 10:22:01 KST",
+  "smbs_rate_updated_at_kst": "2026-09-17 10:49:26 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1385.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-17 10:22:01 KST"
+  "rate_job_checked_at_kst": "2026-09-17 10:49:26 KST"
 }

@@ -18,8 +18,8 @@
       if(!response.ok)throw new Error('기본 대시보드 로드 실패 ('+response.status+')');
       let html=await response.text();
       const patches=[
-        '<script src="./monthly-usd-patch.js?v=20260915-1"><\\/script>',
-        '<script src="./reconciliation-xls-patch.js?v=20260917-7"><\\/script>'
+        '<script src="./monthly-usd-patch.js?v=20260915-1"><\/script>',
+        '<script src="./reconciliation-xls-patch.js?v=20260917-8"><\/script>'
       ].join('\n');
       html=html.includes('</body>')?html.replace('</body>',patches+'\n</body>'):html+patches;
       document.open();

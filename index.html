@@ -321,13 +321,50 @@
   queueMicrotask(reorder);setTimeout(reorder,120);
 })();
 <\/script>`;
+      const dailyBalanceTopPriority=`<script>
+(() => {
+  const installStyle=()=>{
+    if(document.getElementById('dailyBalanceTopPriorityStyle'))return;
+    const style=document.createElement('style');
+    style.id='dailyBalanceTopPriorityStyle';
+    style.textContent="body.current-mode #dailyBalancePanel{order:-100;grid-column:1/-1;border-top:4px solid #087f70;box-shadow:0 10px 30px rgba(8,127,112,.10)}"+
+      "body.current-mode #currentPlanHeading{order:-90;margin-top:4px}"+
+      "#dailyBalancePriority{display:inline-flex;align-items:center;gap:6px;padding:6px 9px;border-radius:999px;background:#dcfae6;color:#067647;font-size:11px;font-weight:950;white-space:nowrap}"+
+      "#dailyBalancePriority:before{content:'●';font-size:9px}"+
+      "@media(max-width:560px){#dailyBalancePriority{width:100%;justify-content:center}.daily-heading{align-items:stretch}}";
+    document.head.appendChild(style);
+  };
+  const prioritize=()=>{
+    const workspace=document.getElementById('currentWorkspace');
+    const daily=document.getElementById('dailyBalancePanel');
+    if(!workspace||!daily)return false;
+    // Keep the actual daily close ahead of all monthly-plan blocks even if a
+    // later renderer rebuilds the current-workspace children.
+    if(workspace.firstElementChild!==daily)workspace.insertBefore(daily,workspace.firstElementChild);
+    const heading=daily.querySelector('.daily-heading');
+    if(heading&&!document.getElementById('dailyBalancePriority')){
+      const badge=document.createElement('span');
+      badge.id='dailyBalancePriority';
+      badge.textContent='최우선 · 일일 실제 마감잔액';
+      heading.appendChild(badge);
+    }
+    daily.setAttribute('data-priority','daily-close');
+    return true;
+  };
+  installStyle();
+  let attempts=0;
+  const timer=setInterval(()=>{if(prioritize()||++attempts>40)clearInterval(timer)},100);
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',prioritize,{once:true});else prioritize();
+})();
+<\/script>`;
       const patches=[
         '<script src="./monthly-usd-patch.js?v=20260917-13"><\/script>',
         '<script src="./reconciliation-xls-patch.js?v=20260917-10"><\/script>',
         monthlyUsdFallback,
         monthlyFxEditor,
         dailyBalanceMonthEndOverride,
-        monthlyHistoryDisplayOrder
+        monthlyHistoryDisplayOrder,
+        dailyBalanceTopPriority
       ].join('\n');
       html=html.includes('</body>')?html.replace('</body>',patches+'\n</body>'):html+patches;
       document.open();
@@ -339,4 +376,3 @@
   </script>
 </body>
 </html>
-

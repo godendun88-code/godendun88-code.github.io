@@ -63,10 +63,13 @@
     const preferSheet = month < currentMonthKey() || status === '확정';
     const baseUsdBalance = (preferSheet ? sheetUsd : null) ?? pointUsd ?? sheetUsd;
     const manualUsd = nullableCashNumber(monthlyUsdOverrides[month]);
-    const usdBalance = baseUsdBalance ?? manualUsd;
-    const usdSource = baseUsdBalance != null
-      ? (preferSheet && sheetUsd != null ? '월 시트' : pointUsd != null ? '입출금 계획' : '월 시트')
-      : manualUsd != null ? '보완 입력' : '미입력';
+    // A past monthly sheet is the automatic source of truth.  A future/past plan
+    // is only a forecast, so a manually entered actual balance must take priority.
+    const hasActualSheetUsd = preferSheet && sheetUsd != null;
+    const usdBalance = hasActualSheetUsd ? sheetUsd : manualUsd ?? pointUsd ?? sheetUsd;
+    const usdSource = hasActualSheetUsd
+      ? '월 시트'
+      : manualUsd != null ? '보완 입력' : pointUsd != null ? '입출금 계획' : sheetUsd != null ? '월 시트' : '미입력';
     const usdMissingReason = covered ? 'USD 잔액 확인 필요' : '입출금 계획 미연결';
     const fx = currentMonthlyFx(month, referenceRate, status);
     const usdConverted = usdBalance != null && fx.appliedRate > 0 ? usdBalance * fx.appliedRate : null;
@@ -81,7 +84,8 @@
       dailyCovered: covered,
       sheetKrwBalance: nullableCashNumber(history?.krwBalance),
       sourceKrwDifference: 0,
-      bookSplit: false
+      bookSplit: false,
+      manualEntryAllowed: !hasActualSheetUsd
     };
   }
 
@@ -136,7 +140,8 @@
     const draft = captureEditorDraft();
     const seriesMap = new Map(lastSeries.map(row => [row.month, row]));
     const months = [...new Set([
-      ...lastSeries.filter(row => row.baseUsdBalance == null).map(row => row.month),
+      // Past forecast-only months also need an actual USD balance entry.
+      ...lastSeries.filter(row => row.baseUsdBalance == null || (row.manualEntryAllowed && row.month < currentMonthKey())).map(row => row.month),
       ...manualMonths
     ])].filter(month => monthPattern.test(month)).sort();
 
@@ -223,8 +228,18 @@
         ...document.querySelectorAll('[data-monthly-usd]')
       ].map(item => typeof item === 'string' ? item : item.dataset?.monthlyUsd).filter(Boolean));
       if (existing.has(month)) {
-        status.textContent = `${month}은(는) 이미 목록에 있습니다.`;
-        openMonthlyUsdEditor(month);
+        const row = lastSeries.find(item => item.month === month);
+        if (!row?.manualEntryAllowed) {
+          status.textContent = `${month}은(는) Excel 월 시트의 USD 자동값이 연결되어 있습니다.`;
+          openMonthlyUsdEditor(month);
+          return;
+        }
+        manualMonths.add(month);
+        monthlyUsdEditorDirty = true;
+        renderMonthlyUsdEditor(lastSeries);
+        status.textContent = `${month}은(는) 계획값이 있어 목록에 숨겨져 있었습니다. 실제 USD 잔액을 입력해 저장하세요.`;
+        input.value = '';
+        document.querySelector(`[data-monthly-usd="${month}"]`)?.focus();
         return;
       }
       manualMonths.add(month);
@@ -266,4 +281,3 @@
     }, 50);
   }
 })();
-

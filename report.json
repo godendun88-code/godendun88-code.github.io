@@ -1,17 +1,23 @@
 {
-  "updated_at_kst": "2026-09-17 13:23 KST",
-  "current_rate": 1380.2,
+  "updated_at_kst": "2026-09-17 13:50 KST",
+  "current_rate": 1380.9,
   "previous_close": 1368.2,
-  "rate_updated_at_kst": "2026-09-17 13:23:37 KST",
+  "rate_updated_at_kst": "2026-09-17 13:50:00 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "상승 우세",
   "drivers": [
     "연준의 추가 금리 인상 또는 매파적 기조 우려가 부각돼 달러 강세 압력이 높아지는 요인으로 작용하고 있습니다.",
     "미국 물가 관련 최신 기사(\"Fed raises rates in search of 'timelier' drop in inflation, sees more tightening ahead\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
-    "유가·지정학 관련 최신 기사(\"Oil prices extend losses as fears of Middle East supply disruptions ease\")가 확인돼 원화 변동성 확대 요인으로 작용하고 있습니다."
+    "유가 및 중동 지정학적 불확실성이 부각돼 에너지 수입 의존도가 높은 원화에는 약세 부담 요인으로 작용하고 있습니다."
   ],
   "outlook": "달러 강세·금리 상승 계열의 재료가 상대적으로 우세해 원/달러는 단기 상승 압력이 나타날 수 있으나, 국내 수급과 위험선호 회복 여부에 따라 변동성이 예상됩니다.",
   "articles": [
+    {
+      "title": "Trump hopes Iran war nearing end as Houthi-Saudi fighting escalates",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOTjlMQlZzakwxZUhZR2FndDJIRC1vWFVLTEJZVzkwaDZzdHVyd3MtckIxa3QySHJfd2hrV3NuNjFKakNmTGxkdGNnUzhmbUJlMHJfM1k1azRFY3FoS09qOVFVX1JMVVlHYU9QM0xLbmdlaU1UQi11bzNUZzJ1eU5FeVNoNlF4N3hETzZ4UDZPR2xJYTdLTFZuZ29xS18zSnBhUXBTeUlJeExodTRtNGNRb0JrVDRSQlZHbE8ybEU1dGhYUnB0dFhHeVRJbw?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-17 13:23 KST"
+    },
     {
       "title": "Hawkish Fed lifts dollar to seven-week high as focus turn to BOJ",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTVZNWlJSb0NGaG9WNmRjR0U4YUM2anpuRFREdGRvRmRaRUhwbzVIb2JndlpsZ2g4a1hvbkdZWEl2YUV6WWRjYThBSGt2VGlzak44MmVyWkFPeTJfdlBreG1ERkhYbjVEaTVlLXpwOW9SeDRvbzZIYVJLTUdWcWc1Y2RFTFVPelhoaWNqWVpNd1YxWTR2ZWxaX2U5dzQwUUxNWWFyQXB5U2d4UFJTMXM4?oc=5",
@@ -28,7 +34,7 @@
       "title": "Oil prices extend losses as fears of Middle East supply disruptions ease",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQem15UTRSMDAta3NrU2VpWTcxVllaeWVZT2wyc1gwQUs5aER1ZFFtaG8zNmI4UkZGV09BOHV6eGVHdy1RbTZWZXVkdklmSkVnMUtqbk9JZkdPb19FakhJc1RaUFRMUlNxR3F1VUx2TTZRcElaQk9ISmJsaWozRFNETDcxcjZxT0lJTm4zbV9CN1hETXB2SnYzQkhwZVpobENkRTBfYU5UbjZoUVhGXzZtM2xNUDFWdkJqUVE?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-17 10:00 KST"
+      "seen": "2026-09-17 10:01 KST"
     },
     {
       "title": "COMMENTARY: Trading Day: Lift off!",
@@ -41,21 +47,15 @@
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPcHE5d2RsZk5YWi1pLWw0M0tWX0pGZl81OEcwZVJtUlJsbTVoUnpQWUxJYjZGSjhvMmlDd0JrcVVFQjJ0aFRJRkh1cTFteld2Y0lSeXhyMFllMU5vSGthbExhbzc5MVNSRTFHOS1JWVcwZ09jSllmTDJoeHBEUEFJanI2aEZqQm1PbXZJZHpwRHpRU2FoMG9EMmVoVmxiZ0h1YV8xTk12QjRMVm1LQ1Zfcm1qUGhUWkFH?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-17 05:10 KST"
-    },
-    {
-      "title": "Canadian dollar hits six-week low as investors bet on additional Fed rate hikes",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQb2I2b2NPdWRUM3FfUGJiM054bU5RakpGdnc5NzhIZ0dZaENwc3JjbGpmRDB5WFZmZkoxWVlBM3lIc0lWNFVTYkFGTURVdnR4TmVrdHlsdlMwY21XV2RNRm9GcmhrTklualJxZW81VmJPYnFaRXpBRGhRSUxLZkFtVTRfaFVoeDRyTWIwOGZKLXRJUG44WTdSQl9HRVdSckd2NlpFeVlod3lQVmUxbU9UdXVGdTMwdzVubVE?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-17 04:48 KST"
     }
   ],
-  "rate_source_time": "2026-09-17 13:23:37 KST",
+  "rate_source_time": "2026-09-17 13:50:00 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 12.0,
-  "rate_change_pct": 0.88,
+  "rate_change": 12.7,
+  "rate_change_pct": 0.93,
   "smbs_base_rate": 1368.3,
   "smbs_rate_date": "2026-09-17",
-  "smbs_rate_updated_at_kst": "2026-09-17 13:23:22 KST",
+  "smbs_rate_updated_at_kst": "2026-09-17 13:49:47 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1385.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-17 13:23:22 KST"
+  "rate_job_checked_at_kst": "2026-09-17 13:49:47 KST"
 }

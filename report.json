@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-09-17 22:24 KST",
-  "current_rate": 1382.3,
+  "updated_at_kst": "2026-09-17 23:25 KST",
+  "current_rate": 1380.7,
   "previous_close": 1368.2,
-  "rate_updated_at_kst": "2026-09-17 22:50:08 KST",
+  "rate_updated_at_kst": "2026-09-17 23:24:56 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "상승 우세",
   "drivers": [
@@ -16,7 +16,7 @@
       "title": "Rising oil, rates and yields brew up stagflation cocktail for markets",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOWmhlTzlKbEFSMGdBRGhpNGxzWDVGZzFsWHR5cXZXLVZwTjRZX0xtVjN4UW1LU3BVNW4wSGlod0VLSEhBbWRJNS0za2NIWWkxVlJqSzBsVU1rWHlIcXNUVmRDemNnbFBrV2J3eEhRSjM4NG9xaHl2ZXR0ZzAySFpOT0tFeWxnZw?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-17 21:25 KST"
+      "seen": "2026-09-17 22:25 KST"
     },
     {
       "title": "Dollar's allure, oil surge fan bearish bets on emerging Asian currencies: Reuters poll",
@@ -31,31 +31,31 @@
       "seen": "2026-09-17 11:08 KST"
     },
     {
-      "title": "Shares and short-term yields edge up after Fed hike, focus turns to BoE",
+      "title": "Shares climb, bonds hold ground and short-term yields edge up after Fed hikes, BoE stays on",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQUnBManB6Nl9tbnMzaXhPbHh4RmJVX0xWNmdaeENoNW50NGxxanVfMHFMaWVENklmQ09OSzdDVnFtSFhiXzJ0YTE5RVgzSHYtekRVZHU2QXE0LVNWeS1nalgyNldtV3l1X3FUc3NudktmOWZJVVZORXFNbWloZzlOZkdRWQ?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-17 11:05 KST"
-    },
-    {
-      "title": "Wall St ends lower after Fed hikes interest rates, sees more tightening ahead",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSUtqeWNnZEJZT0IyaHpTajZTM3hWV0gwZUV1VkhQV21PUzJBQ0kzLWhxTk5iWUtNbTI1eUVWQnN1b2Y4T2RQSnhmc1pDcVVWYldOc19HSzRId2pZMHZFWHZrNHhnMVh3VGd4RkRSdDJGZ2ZJSzd6TWhiWWtUd1lWRkxzcklsRmJhOS1TcEZYMkRTQjhmakMyVDFtQQ?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-17 07:55 KST"
     },
     {
       "title": "VIEW Stocks pull back after Fed raises rates, points to another hike this year",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPcHE5d2RsZk5YWi1pLWw0M0tWX0pGZl81OEcwZVJtUlJsbTVoUnpQWUxJYjZGSjhvMmlDd0JrcVVFQjJ0aFRJRkh1cTFteld2Y0lSeXhyMFllMU5vSGthbExhbzc5MVNSRTFHOS1JWVcwZ09jSllmTDJoeHBEUEFJanI2aEZqQm1PbXZJZHpwRHpRU2FoMG9EMmVoVmxiZ0h1YV8xTk12QjRMVm1LQ1Zfcm1qUGhUWkFH?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-17 05:10 KST"
+    },
+    {
+      "title": "Canadian dollar hits six-week low as investors bet on additional Fed rate hikes",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQb2I2b2NPdWRUM3FfUGJiM054bU5RakpGdnc5NzhIZ0dZaENwc3JjbGpmRDB5WFZmZkoxWVlBM3lIc0lWNFVTYkFGTURVdnR4TmVrdHlsdlMwY21XV2RNRm9GcmhrTklualJxZW81VmJPYnFaRXpBRGhRSUxLZkFtVTRfaFVoeDRyTWIwOGZKLXRJUG44WTdSQl9HRVdSckd2NlpFeVlod3lQVmUxbU9UdXVGdTMwdzVubVE?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-17 04:48 KST"
     }
   ],
-  "rate_source_time": "2026-09-17 22:50:08 KST",
+  "rate_source_time": "2026-09-17 23:24:56 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 14.1,
-  "rate_change_pct": 1.03,
+  "rate_change": 12.5,
+  "rate_change_pct": 0.91,
   "smbs_base_rate": 1368.3,
   "smbs_rate_date": "2026-09-17",
-  "smbs_rate_updated_at_kst": "2026-09-17 22:49:56 KST",
+  "smbs_rate_updated_at_kst": "2026-09-17 23:24:41 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1385.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-17 22:49:56 KST"
+  "rate_job_checked_at_kst": "2026-09-17 23:24:41 KST"
 }

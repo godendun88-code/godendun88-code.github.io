@@ -1,17 +1,29 @@
 {
-  "updated_at_kst": "2026-09-17 10:49 KST",
-  "current_rate": 1381.8,
+  "updated_at_kst": "2026-09-17 11:23 KST",
+  "current_rate": 1381.4,
   "previous_close": 1368.2,
-  "rate_updated_at_kst": "2026-09-17 10:49:44 KST",
+  "rate_updated_at_kst": "2026-09-17 11:23:04 KST",
   "rate_source": "KB STAR FX Market Watch",
-  "market_bias": "혼조",
+  "market_bias": "상승 우세",
   "drivers": [
-    "연준·금리 관련 최신 기사(\"VIEW Stocks pull back after Fed raises rates, points to another hike this year\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
+    "연준의 추가 금리 인상 또는 매파적 기조 우려가 부각돼 달러 강세 압력이 높아지는 요인으로 작용하고 있습니다.",
     "미국 물가 관련 최신 기사(\"Fed raises rates in search of 'timelier' drop in inflation, sees more tightening ahead\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
     "외환시장 관련 최신 기사(\"COMMENTARY: Trading Day: Lift off!\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다."
   ],
-  "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
+  "outlook": "달러 강세·금리 상승 계열의 재료가 상대적으로 우세해 원/달러는 단기 상승 압력이 나타날 수 있으나, 국내 수급과 위험선호 회복 여부에 따라 변동성이 예상됩니다.",
   "articles": [
+    {
+      "title": "Hawkish Fed lifts dollar to seven-week high as focus turn to BOJ",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTVZNWlJSb0NGaG9WNmRjR0U4YUM2anpuRFREdGRvRmRaRUhwbzVIb2JndlpsZ2g4a1hvbkdZWEl2YUV6WWRjYThBSGt2VGlzak44MmVyWkFPeTJfdlBreG1ERkhYbjVEaTVlLXpwOW9SeDRvbzZIYVJLTUdWcWc1Y2RFTFVPelhoaWNqWVpNd1YxWTR2ZWxaX2U5dzQwUUxNWWFyQXB5U2d4UFJTMXM4?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-17 11:08 KST"
+    },
+    {
+      "title": "Shares tick higher as Fed hikes rates, dollar jumps with short-term yields",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQUnBManB6Nl9tbnMzaXhPbHh4RmJVX0xWNmdaeENoNW50NGxxanVfMHFMaWVENklmQ09OSzdDVnFtSFhiXzJ0YTE5RVgzSHYtekRVZHU2QXE0LVNWeS1nalgyNldtV3l1X3FUc3NudktmOWZJVVZORXFNbWloZzlOZkdRWQ?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-17 11:05 KST"
+    },
     {
       "title": "Fed raises rates in search of 'timelier' drop in inflation, sees more tightening ahead",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPd0VZMTZPMGRVWVVTY0lVRERxMHhQdlNnb2NBOHROMDJETXBLVmJFTW12SmFybUloWGRfYm1ueDhEZHJuOWNPQXh3RHpDVllhRVpSUVFVeDJmMGFNNTM2RTRqMkVFaXdwTmM1eG1UeVhqLXNuYW5LMjZGYUFCYUV0djFqUTUxRkF2Vk9NeTh5VU44bENZYi1kaTBnS1NuVngtX1dIeEVtaw?oc=5",
@@ -35,27 +47,15 @@
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQb2I2b2NPdWRUM3FfUGJiM054bU5RakpGdnc5NzhIZ0dZaENwc3JjbGpmRDB5WFZmZkoxWVlBM3lIc0lWNFVTYkFGTURVdnR4TmVrdHlsdlMwY21XV2RNRm9GcmhrTklualJxZW81VmJPYnFaRXpBRGhRSUxLZkFtVTRfaFVoeDRyTWIwOGZKLXRJUG44WTdSQl9HRVdSckd2NlpFeVlod3lQVmUxbU9UdXVGdTMwdzVubVE?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-17 04:48 KST"
-    },
-    {
-      "title": "US banks raise prime rate after Fed decision",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOaDAwbi1iV21aNURrLWtvcXhweWM3bzFTcjBrZUV5YnJwVjRMNl94RG9QNDRSZG9mblBzeVhtejJfd0t6THF0cFVrbGRFUnpsU0VuV1JBeUFWdC1zRDhGUlQ4dVljdmpSN3dLQUJnM2xXbGx4Q2FQQVlXV3BsWEJadVZialp2MFd1Ymhzc1ZZNU9HNGJzNWc?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-17 04:46 KST"
-    },
-    {
-      "title": "TSX futures inch up ahead of US Fed decision",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNbU9rMGo4amQzcjE0Rzl5aHlKUXF2aFNsV1Y1VHFxRFFyTXU4MjlYY2dfSWpsVWxzSGVsWnh6bUpVdno1T1dRaF9WdkJ5M2JmenhubFBmazFLVnBvZ3Q1QTg3TUxwOFVOZTN2VmYzWFB5N0JMWTBiTTZlaGlXaVV6RWVGVkZnbnp5aHEzQXpaZw?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-16 19:47 KST"
     }
   ],
-  "rate_source_time": "2026-09-17 10:49:44 KST",
+  "rate_source_time": "2026-09-17 11:23:04 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 13.6,
-  "rate_change_pct": 0.99,
+  "rate_change": 13.2,
+  "rate_change_pct": 0.96,
   "smbs_base_rate": 1368.3,
   "smbs_rate_date": "2026-09-17",
-  "smbs_rate_updated_at_kst": "2026-09-17 10:49:26 KST",
+  "smbs_rate_updated_at_kst": "2026-09-17 11:22:53 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1385.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-17 10:49:26 KST"
+  "rate_job_checked_at_kst": "2026-09-17 11:22:53 KST"
 }

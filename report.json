@@ -1,5 +1,5 @@
 {
-  "updated_at_kst": "2026-09-17 19:23 KST",
+  "updated_at_kst": "2026-09-17 20:24 KST",
   "current_rate": 1385.1,
   "previous_close": 1368.2,
   "rate_updated_at_kst": "2026-09-17 19:50:08 KST",
@@ -20,12 +20,12 @@
     },
     {
       "title": "Hawkish Fed lifts dollar to seven-week high as focus turn to BOJ",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTVZNWlJSb0NGaG9WNmRjR0U4YUM2anpuRFREdGRvRmRaRUhwbzVIb2JndlpsZ2g4a1hvbkdZWEl2YUV6WWRjYThBSGt2VGlzak44MmVyWkFPeTJfdlBreG1ERkhYbjVEaTVlLXpwOW9SeDRvbzZIYVJLTUdWcWc1Y2RFTFVPelhoaWNqWVpNd1YxWTR2ZWxaX2U5dzQwUUxNWWFyQXB5U2d4UFJTMXM4?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVVJfYWtWZ2thcVZvdkZYSHhibHM3YjlwQ0w0VTVfbWQyYTd3VGQ2VFQ4UkRYTVdEbDdFLVdVTkVoakl3R3NtTXhUb2syX1Y2Y04ycnJxLTBEXzhpWTA4Y1p4aTdiWlpTUktJLVZBYUd2aUN2eVhoOUN0dVI3ZWt5WFhtUmNpUDBuM0pTaHNZU3NPLTFRbjZsWmNyVWxYOXhMWlljSEVERkY5VE9NTVpmeWJab1BPdmdROHhSSVlqOVc?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-17 11:08 KST"
     },
     {
-      "title": "Shares edge up after Fed hike, dollar firm on short-term yields",
+      "title": "Shares and short-term yields edge up after Fed hike, focus turns to BoE",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQUnBManB6Nl9tbnMzaXhPbHh4RmJVX0xWNmdaeENoNW50NGxxanVfMHFMaWVENklmQ09OSzdDVnFtSFhiXzJ0YTE5RVgzSHYtekRVZHU2QXE0LVNWeS1nalgyNldtV3l1X3FUc3NudktmOWZJVVZORXFNbWloZzlOZkdRWQ?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-17 11:05 KST"
@@ -62,6 +62,8 @@
     1373.0,
     1385.0
   ],
-  "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-17 19:49:56 KST"
+  "rate_check_status": "failed",
+  "rate_job_checked_at_kst": "2026-09-17 20:22:20 KST",
+  "rate_fetch_error": "RuntimeError: KB STAR FX 자동조회 3회 실패: TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n | TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n | TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n",
+  "smbs_rate_error": "RuntimeError: 서울외국환중개 페이지에서 USD 매매기준율을 찾지 못했습니다."
 }

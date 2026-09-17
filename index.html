@@ -88,7 +88,7 @@
       const retainedShortBookInput="$('reconcileKrwBook').disabled=false;$('reconcileFxBook').disabled=false;$('reconcileShortBook').disabled=false;$('reconcileShortBook').placeholder='해당 월말 금액 (없으면 0)';";
       replaceRequired(originalShortBookLock,retainedShortBookInput,'장부금액 입력');
       const patches=[
-        '<script src="./monthly-usd-patch.js?v=20260915-1"><\/script>',
+        '<script src="./monthly-usd-patch.js?v=20260917-10"><\/script>',
         '<script src="./reconciliation-xls-patch.js?v=20260917-8"><\/script>'
       ].join('\n');
       html=html.includes('</body>')?html.replace('</body>',patches+'\n</body>'):html+patches;

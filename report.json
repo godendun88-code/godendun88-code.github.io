@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-09-19 01:47 KST",
+  "updated_at_kst": "2026-09-19 02:20 KST",
   "current_rate": 1390.0,
   "previous_close": 1381.4,
-  "rate_updated_at_kst": "2026-09-19 01:47:21 KST",
+  "rate_updated_at_kst": "2026-09-19 02:20:05 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
@@ -37,19 +37,19 @@
       "seen": "2026-09-19 00:30 KST"
     },
     {
+      "title": "Oil pares losses as market weighs Saudi supply concerns, Middle East tensions",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQeDVrUGNRTzdTOG1wQ1ljY2w0Y002MjMxSVNvM2RrLTBhM3B1dEJVS1B6bnJWTjhydS1BUHpfTVFtbHh2QkdMdFU1ZVo3MDJtQ01kbldpa0lfWFM0QXFWbmVsN1RqcjcxMHczN3JGSHItelVZMzQtYklTN1kwVlJxLU5RVzAwc3BEQV9iVFI1N0xhRXluaGZxN0NrWkxFMDk5Q0pYZw?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-18 23:29 KST"
+    },
+    {
       "title": "Breakingviews - COMMENTARY: Japan’s weak currency has a three-body problem",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNFk0eGh3eEFGNzJXblVMSDhVS3VEazc0QlZTcGVjX1dQdTBLZE1MOC1iSW0wX09FWlhNUklUbkJ1YUlKMlhZZnJrT1RNZFlXb24wUXEzZjBGanhiYlFVNm1uamx5LUVVeWNDdTQ5c21IRnV2Tm9aNk5BVjJ0czBKdDVzZElZaDlfcGkxRXNreU9vdk9ZMnJjTnVlZ1hHbmE1THVlV0xyVQ?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-18 22:32 KST"
-    },
-    {
-      "title": "COMMENTARY: Global rates reset, AI angst and oil's long haul: The financial week in five charts",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPcVJSOWZtYmJPZXkzZmtfazJwd0xSQ19KTXVYX095aFdSWXk2MnlueWRtR0NrZzdudF9objBxd1BUYjA1QkRwZHFWYUF4WjBfVXluYVJGSFRRM01veW56dVphanpjaDUzTHpSTE1ISDRnMTc4Y05VOF9SX0pZMC1LOHlESVNrOF9YbFlJQnZ0M19TcWt1a0ppVXh6LXRIOWljdEs1STg3ZlZDTWRWSzZjczkxRk1lbFYyaGN2MXdCQnMxa3M2enZGSFcydVFmNjI0amQtZQ?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-18 21:32 KST"
     }
   ],
-  "rate_source_time": "2026-09-19 01:47:21 KST",
+  "rate_source_time": "2026-09-19 02:20:05 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": 8.6,
   "rate_change_pct": 0.62,
@@ -63,5 +63,6 @@
     1385.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-19 01:47:05 KST"
+  "rate_job_checked_at_kst": "2026-09-19 02:19:50 KST",
+  "smbs_rate_error": "RuntimeError: 서울외국환중개 페이지에서 USD 매매기준율을 찾지 못했습니다."
 }

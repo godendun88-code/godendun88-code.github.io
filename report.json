@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-09-18 10:48 KST",
-  "current_rate": 1385.3,
+  "updated_at_kst": "2026-09-18 11:49 KST",
+  "current_rate": 1384.0,
   "previous_close": 1381.4,
-  "rate_updated_at_kst": "2026-09-18 11:23:32 KST",
+  "rate_updated_at_kst": "2026-09-18 11:48:48 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
@@ -43,19 +43,19 @@
       "seen": "2026-09-18 05:17 KST"
     },
     {
-      "title": "Dollar's allure, oil surge fan bearish bets on emerging Asian currencies: Reuters poll",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNTjZNT3kxN1I5MU1zUWhFWTdlRm1tZVpGOU1sdWVEX0t6R2pDMkt0TXY0ZVQ5SVotOG1qZ3BZVFNlZGl5dktfamVFZmxYb2RtUkY2aF9SNVFTN2ItTHIyR2FodldIYlJZSDl2eEpkOGVwa3pCSmtBQko4X3pCWElueWJaZERaZEFvZm1WT3dJTVY4Q3hxUVowRU4yX0JtOTZjRVhtVzJ1UWZnalhVZV9pOXpRVFlGU3A4MHJETkxsMA?oc=5",
+      "title": "World stocks gain as Treasury yields retreat after Fed, BoE decisions",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQUnBManB6Nl9tbnMzaXhPbHh4RmJVX0xWNmdaeENoNW50NGxxanVfMHFMaWVENklmQ09OSzdDVnFtSFhiXzJ0YTE5RVgzSHYtekRVZHU2QXE0LVNWeS1nalgyNldtV3l1X3FUc3NudktmOWZJVVZORXFNbWloZzlOZkdRWQ?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-17 16:42 KST"
+      "seen": "2026-09-18 01:13 KST"
     }
   ],
-  "rate_source_time": "2026-09-18 11:23:32 KST",
+  "rate_source_time": "2026-09-18 11:48:48 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 3.9,
-  "rate_change_pct": 0.28,
+  "rate_change": 2.6,
+  "rate_change_pct": 0.19,
   "smbs_base_rate": 1380.3,
   "smbs_rate_date": "2026-09-18",
-  "smbs_rate_updated_at_kst": "2026-09-18 11:23:21 KST",
+  "smbs_rate_updated_at_kst": "2026-09-18 11:48:37 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1385.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-18 11:23:21 KST"
+  "rate_job_checked_at_kst": "2026-09-18 11:48:37 KST"
 }

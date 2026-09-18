@@ -1,22 +1,34 @@
 {
-  "updated_at_kst": "2026-09-18 23:49 KST",
+  "updated_at_kst": "2026-09-19 00:24 KST",
   "current_rate": 1389.9,
   "previous_close": 1381.4,
   "rate_updated_at_kst": "2026-09-18 23:49:19 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
-    "연준·금리 관련 최신 기사(\"Investors react to BOJ raising interest rates to 31-year high\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
-    "미국 물가 관련 최신 기사(\"Stocks and bonds dip as central banks jack up rates to tame inflation\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
+    "연준·금리 관련 최신 기사(\"Wall St Week Ahead Investors focus on rate path, AI slowdown after Fed hike\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
+    "미국 물가 관련 최신 기사(\"US equity funds post fourth weekly outflow on inflation worries, rate concerns\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
     "미 국채금리 상승 관련 보도가 확인돼 달러 수요를 지지하면서 원/달러 환율 상승 압력으로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
     {
+      "title": "Wall St slips as higher Treasury yields weigh on sentiment",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZ2p6dkpCd0xfbVRBMnhySFRVbm5OSElMZXRXc0NpaGhoRmw2MzNfSUstaC1RVFFnUU1DNUM0MEpHTmxhbHJxOC1Ec2lMWU0xMFVaSVdsZGdVSi1JaWpDX093SHhBdlBkdFdGZnFpd05yYW9LRXk2NkdOMnRWSzJ2dkhuTFpDN01LM1JvNjhyamFZM2dLRFRzM24xSUZwRGVBakhwM3N3em1ycFBuWVg2UVB2OTQ?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-18 23:35 KST"
+    },
+    {
       "title": "Gold climbs to one-week high, heads for weekly gain on easing oil prices",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQaEtrczJxeXh5VlUxY1VWWF9xVVdYX0xwZjU4UGlCU19tTV91TzlFdzVyeXJWS0JmNjBVVHo2VVVSa1FwN1RWODJXbko1MkxmQnlwVEZ6eHV5cV9RRno1VHl3Si1OZU51bEgtSV9SeUNOaERzMjdmQ0wwelFVR3lPTWhXV3VlamQwU09XZkFsTlRTb0cyQ0VaaThBWWxIRUwtOFAw?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-18 22:40 KST"
+    },
+    {
+      "title": "Breakingviews - COMMENTARY: Japan’s weak currency has a three-body problem",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNFk0eGh3eEFGNzJXblVMSDhVS3VEazc0QlZTcGVjX1dQdTBLZE1MOC1iSW0wX09FWlhNUklUbkJ1YUlKMlhZZnJrT1RNZFlXb24wUXEzZjBGanhiYlFVNm1uamx5LUVVeWNDdTQ5c21IRnV2Tm9aNk5BVjJ0czBKdDVzZElZaDlfcGkxRXNreU9vdk9ZMnJjTnVlZ1hHbmE1THVlV0xyVQ?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-18 22:32 KST"
     },
     {
       "title": "COMMENTARY: Global rates reset, AI angst and oil's long haul: The financial week in five charts",
@@ -25,28 +37,16 @@
       "seen": "2026-09-18 21:32 KST"
     },
     {
+      "title": "US equity funds post fourth weekly outflow on inflation worries, rate concerns",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNczctZHg5MWQtVFk2X193WFFwT0g5UkZQYUw5TVpQR1JRZ1RnU2UtRTdyMGQwVTR0ZUtGbkU3WGR4YTFJMXUyM0xGX3piSnBtWjlsT1Bra2xIdVhhMzZvbU5PUEdjX0NLN0JTaVpYQUhnT3hEbUllSmh5dGVvaDR1ekFFZXdaU1p0cVFaajUtYVYtaUlwWHNudFlZRk1rLVJIbnNrQUNqWVVlLURtUDZMTWVkNnRJdG1LcExR?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-18 20:17 KST"
+    },
+    {
       "title": "COMMENTARY: Morning Bid: Apocalypse later",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPRjRPVC1yMEp3QzUzT2pHQnlxallOazNCcVMtMlFSS25yczVEUTdJNzZTQ1FIRF8zb203cmI5SkFkd0hVTExMUWh6cTFYakhHeE5kUGRxNzYzc3NwdUtSYkN6UWpJMmhZdHRxbW5uaV9kU2ZMZ1E4bU1LYkFBajBjZVVIbTgtQ1hNX19pQzZzNXNfTkt1Rzcw?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-18 19:44 KST"
-    },
-    {
-      "title": "Breakingviews - COMMENTARY: Japan’s weak currency has a three-body problem",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNFk0eGh3eEFGNzJXblVMSDhVS3VEazc0QlZTcGVjX1dQdTBLZE1MOC1iSW0wX09FWlhNUklUbkJ1YUlKMlhZZnJrT1RNZFlXb24wUXEzZjBGanhiYlFVNm1uamx5LUVVeWNDdTQ5c21IRnV2Tm9aNk5BVjJ0czBKdDVzZElZaDlfcGkxRXNreU9vdk9ZMnJjTnVlZ1hHbmE1THVlV0xyVQ?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-18 19:17 KST"
-    },
-    {
-      "title": "TSX futures subdued as investors weigh Middle East developments",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNNGdGejJLNk9mZFM1SFRpZFdnNXBYM1V2d052ZGNLWVZfLWE4WXAxUGR6OEFIMkM2OVk5SWlsdmdwVzJjdVAwWnk4TzBuNG9wZFRYTVk2MWdjSUxRNzlTc3oxRFVwbE1hQ25TZ29UNS0zWGxmRGFzSDFySTFfRTV4dFp5MnZnWDFhQUx6NlBxc1lpVDFGSHlGNC1hUlZqOFJrRm1ReWQ2QUM?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-18 19:10 KST"
-    },
-    {
-      "title": "Yemen's Houthis: from ragtag militia to geopolitical heavyweight",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5kVTJYNjJuQmllMGFaWjNqUm9oNHFlOE9kRGZuUnU4SlJZZEhERS1SSE8ydFQxNW1pazFqQ1dqOFFuRWFlX0dOZVFYMGFlYklLZTNSLWtIX1hCNkNP?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-18 15:35 KST"
     }
   ],
   "rate_source_time": "2026-09-18 23:49:19 KST",
@@ -54,14 +54,15 @@
   "rate_change": 8.5,
   "rate_change_pct": 0.62,
   "smbs_base_rate": 1380.3,
-  "smbs_rate_date": "2026-09-18",
-  "smbs_rate_updated_at_kst": "2026-09-18 23:49:08 KST",
+  "smbs_rate_date": "2026-09-19",
+  "smbs_rate_updated_at_kst": "2026-09-19 00:22:08 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
     1370.0,
     1385.0
   ],
-  "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-18 23:49:08 KST"
+  "rate_check_status": "failed",
+  "rate_job_checked_at_kst": "2026-09-19 00:22:08 KST",
+  "rate_fetch_error": "RuntimeError: KB STAR FX 자동조회 3회 실패: TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n | TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n | TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n"
 }

@@ -1,17 +1,23 @@
 {
-  "updated_at_kst": "2026-09-18 15:52 KST",
-  "current_rate": 1383.2,
+  "updated_at_kst": "2026-09-18 16:22 KST",
+  "current_rate": 1383.3,
   "previous_close": 1381.4,
-  "rate_updated_at_kst": "2026-09-18 15:51:53 KST",
+  "rate_updated_at_kst": "2026-09-18 16:22:33 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
-    "연준·금리 관련 최신 기사(\"Latam markets inch higher in global risk-on mood after Fed hike\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
+    "연준·금리 관련 최신 기사(\"Investors react to BOJ raising interest rates to 31-year high\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
     "미 국채금리 상승 관련 보도가 확인돼 달러 수요를 지지하면서 원/달러 환율 상승 압력으로 작용하고 있습니다.",
     "유가·지정학 관련 최신 기사(\"Rupee may find breathing room on IPO-linked inflows, oil retreat\")가 확인돼 원화 변동성 확대 요인으로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
+    {
+      "title": "Investors react to BOJ raising interest rates to 31-year high",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPMzRGSGpsQnAxamJQZ3FIQ3liMTVXRjJQU0ZPTi16VmhpaXBpWTRldlR1U29id1BnR3ZjLU1HS2IzVFpnd0dJVjFXcVphc0FmQ1J4U3lLSlVmdHJOZ19wdElsVGZWa05XU1lfT1U5RndzOElxVDM2N1lkWnhfaXN5MUZXSGI3MV9tWFJnUWNuYmZNTXpKeWtxanJRcXFsWXZzOHU1Qm51b2dMcThMV3lzaDBmclZWdw?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-18 12:23 KST"
+    },
     {
       "title": "Rupee may find breathing room on IPO-linked inflows, oil retreat",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNDRscHhQS0NmM1ZxNXdFeUtlUTdxYjB6UGdWclVjamkxTkI4bXpkSm5tTE9DX2tSMlhDajV1c0lQVUd3bG9yV1oyOURkTFFjTU9PVEYyM00wbHl0Yi04b1ZsSG0tclB1TFBZc2xGS0ZSWHpTM0pwd0JHYjVJb29jNkxoMWwtaktPOHAyeHV3NV9RcWdYYXUydHk5dmlJeVNFcmtjRl9UcXc0eVJG?oc=5",
@@ -41,21 +47,15 @@
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOWmhlTzlKbEFSMGdBRGhpNGxzWDVGZzFsWHR5cXZXLVZwTjRZX0xtVjN4UW1LU3BVNW4wSGlod0VLSEhBbWRJNS0za2NIWWkxVlJqSzBsVU1rWHlIcXNUVmRDemNnbFBrV2J3eEhRSjM4NG9xaHl2ZXR0ZzAySFpOT0tFeWxnZw?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-18 08:30 KST"
-    },
-    {
-      "title": "Latam markets inch higher in global risk-on mood after Fed hike",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxORHBHWWNMXzJ6VlVwbnBOc3ZudVowMk1sUkw0M1l5MjRzX1BrQzhNUjZrNmdMYTdKakR0OTJaeGZtUC1JeERMVVRpVUZyc2V3ZTgydlNBTE5aZW9SZTZiejBydGJIWExHS0N1eWhVVGpUNlpmdUVwOEpMbWY3dGxybklRUEVKNU1JOEVZaGYtcjRqeVg0S2g2ODFVWmRmbExyRjdPWHJRR3BYZjBMS0w4?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-18 05:17 KST"
     }
   ],
-  "rate_source_time": "2026-09-18 15:51:53 KST",
+  "rate_source_time": "2026-09-18 16:22:33 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 1.8,
-  "rate_change_pct": 0.13,
+  "rate_change": 1.9,
+  "rate_change_pct": 0.14,
   "smbs_base_rate": 1380.3,
   "smbs_rate_date": "2026-09-18",
-  "smbs_rate_updated_at_kst": "2026-09-18 15:51:38 KST",
+  "smbs_rate_updated_at_kst": "2026-09-18 16:22:19 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1385.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-18 15:51:38 KST"
+  "rate_job_checked_at_kst": "2026-09-18 16:22:19 KST"
 }

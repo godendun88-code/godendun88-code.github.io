@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-09-18 20:21 KST",
+  "updated_at_kst": "2026-09-18 20:47 KST",
   "current_rate": 1387.4,
   "previous_close": 1381.4,
-  "rate_updated_at_kst": "2026-09-18 20:21:31 KST",
+  "rate_updated_at_kst": "2026-09-18 20:47:00 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
@@ -12,6 +12,12 @@
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
+    {
+      "title": "COMMENTARY: Global rates reset, AI angst and oil's long haul: The financial week in five charts",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPcVJSOWZtYmJPZXkzZmtfazJwd0xSQ19KTXVYX095aFdSWXk2MnlueWRtR0NrZzdudF9objBxd1BUYjA1QkRwZHFWYUF4WjBfVXluYVJGSFRRM01veW56dVphanpjaDUzTHpSTE1ISDRnMTc4Y05VOF9SX0pZMC1LOHlESVNrOF9YbFlJQnZ0M19TcWt1a0ppVXh6LXRIOWljdEs1STg3ZlZDTWRWSzZjczkxRk1lbFYyaGN2MXdCQnMxa3M2enZGSFcydVFmNjI0amQtZQ?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-18 20:32 KST"
+    },
     {
       "title": "COMMENTARY: Morning Bid: Apocalypse later",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPRjRPVC1yMEp3QzUzT2pHQnlxallOazNCcVMtMlFSS25yczVEUTdJNzZTQ1FIRF8zb203cmI5SkFkd0hVTExMUWh6cTFYakhHeE5kUGRxNzYzc3NwdUtSYkN6UWpJMmhZdHRxbW5uaV9kU2ZMZ1E4bU1LYkFBajBjZVVIbTgtQ1hNX19pQzZzNXNfTkt1Rzcw?oc=5",
@@ -41,21 +47,15 @@
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNDRscHhQS0NmM1ZxNXdFeUtlUTdxYjB6UGdWclVjamkxTkI4bXpkSm5tTE9DX2tSMlhDajV1c0lQVUd3bG9yV1oyOURkTFFjTU9PVEYyM00wbHl0Yi04b1ZsSG0tclB1TFBZc2xGS0ZSWHpTM0pwd0JHYjVJb29jNkxoMWwtaktPOHAyeHV3NV9RcWdYYXUydHk5dmlJeVNFcmtjRl9UcXc0eVJG?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-18 11:56 KST"
-    },
-    {
-      "title": "Tech leads Wall St to higher close as oil eases, Treasury yields dip",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBPSWp0WWdYU09ZZjhIMnpMNE5rRDBSYkhUaS1haTBFYjlpOWZSOU5SZEw2WkpaVmhTQnk1MXR1Y0tZcWw0bTFweXBlVC12Mmp4V0J2YWhFMklVTWEtb2lkeTNBYTBtMTQ?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-18 10:50 KST"
     }
   ],
-  "rate_source_time": "2026-09-18 20:21:31 KST",
+  "rate_source_time": "2026-09-18 20:47:00 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": 6.0,
   "rate_change_pct": 0.43,
   "smbs_base_rate": 1380.3,
   "smbs_rate_date": "2026-09-18",
-  "smbs_rate_updated_at_kst": "2026-09-18 20:21:16 KST",
+  "smbs_rate_updated_at_kst": "2026-09-18 20:46:48 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1385.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-18 20:21:16 KST"
+  "rate_job_checked_at_kst": "2026-09-18 20:46:48 KST"
 }

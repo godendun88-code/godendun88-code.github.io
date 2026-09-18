@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-09-18 11:49 KST",
-  "current_rate": 1384.0,
+  "updated_at_kst": "2026-09-18 12:22 KST",
+  "current_rate": 1385.1,
   "previous_close": 1381.4,
-  "rate_updated_at_kst": "2026-09-18 11:48:48 KST",
+  "rate_updated_at_kst": "2026-09-18 12:22:16 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
@@ -12,6 +12,12 @@
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
+    {
+      "title": "Rupee may find breathing room on IPO-linked inflows, oil retreat",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNDRscHhQS0NmM1ZxNXdFeUtlUTdxYjB6UGdWclVjamkxTkI4bXpkSm5tTE9DX2tSMlhDajV1c0lQVUd3bG9yV1oyOURkTFFjTU9PVEYyM00wbHl0Yi04b1ZsSG0tclB1TFBZc2xGS0ZSWHpTM0pwd0JHYjVJb29jNkxoMWwtaktPOHAyeHV3NV9RcWdYYXUydHk5dmlJeVNFcmtjRl9UcXc0eVJG?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-18 11:56 KST"
+    },
     {
       "title": "Stocks rise as oil dips, yen wobbles ahead of BOJ",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE95V1cyTmJPMlg0ZTkwR1hnMEJBdGZYOGEwRnBqRS1pU0RMNFpJX3NFTjZ1eTRydDZDMGthN2NZdXZYREtKMnI4MHVPNFByOGlqbXFaX09scG5mNXdrX3MzUUtXVXFBaXk5M2tDS0lQQTZSa1hmOXctY1h4OA?oc=5",
@@ -41,21 +47,15 @@
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxORHBHWWNMXzJ6VlVwbnBOc3ZudVowMk1sUkw0M1l5MjRzX1BrQzhNUjZrNmdMYTdKakR0OTJaeGZtUC1JeERMVVRpVUZyc2V3ZTgydlNBTE5aZW9SZTZiejBydGJIWExHS0N1eWhVVGpUNlpmdUVwOEpMbWY3dGxybklRUEVKNU1JOEVZaGYtcjRqeVg0S2g2ODFVWmRmbExyRjdPWHJRR3BYZjBMS0w4?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-18 05:17 KST"
-    },
-    {
-      "title": "World stocks gain as Treasury yields retreat after Fed, BoE decisions",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQUnBManB6Nl9tbnMzaXhPbHh4RmJVX0xWNmdaeENoNW50NGxxanVfMHFMaWVENklmQ09OSzdDVnFtSFhiXzJ0YTE5RVgzSHYtekRVZHU2QXE0LVNWeS1nalgyNldtV3l1X3FUc3NudktmOWZJVVZORXFNbWloZzlOZkdRWQ?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-18 01:13 KST"
     }
   ],
-  "rate_source_time": "2026-09-18 11:48:48 KST",
+  "rate_source_time": "2026-09-18 12:22:16 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 2.6,
-  "rate_change_pct": 0.19,
+  "rate_change": 3.7,
+  "rate_change_pct": 0.27,
   "smbs_base_rate": 1380.3,
   "smbs_rate_date": "2026-09-18",
-  "smbs_rate_updated_at_kst": "2026-09-18 11:48:37 KST",
+  "smbs_rate_updated_at_kst": "2026-09-18 12:22:02 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1385.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-18 11:48:37 KST"
+  "rate_job_checked_at_kst": "2026-09-18 12:22:02 KST"
 }

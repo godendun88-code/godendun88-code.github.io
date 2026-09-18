@@ -357,31 +357,20 @@
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',prioritize,{once:true});else prioritize();
 })();
 <\/script>`;
-      const executiveVisualPolish=`<style id="executiveVisualPolish">
-        :root{--executive-surface:#ffffff;--executive-soft:#f7f9fc;--executive-line:#e2e8f0;--executive-navy:#12233f;--executive-teal:#087f70}
-        body{background:#f4f7fb}
-        .wrap{max-width:1280px;padding:28px 30px 42px}
-        .top{margin-bottom:18px}.top h1{font-size:29px;letter-spacing:-1.1px;color:var(--executive-navy)}.sub{font-size:13px}
-        .workspace-nav{gap:6px;margin-bottom:14px;padding:8px;border:1px solid #172c27;border-radius:16px;box-shadow:0 8px 22px rgba(13,35,31,.12)}
-        .workspace-tab{min-width:150px;padding:13px 14px;font-size:13px}.workspace-tab.active{box-shadow:0 3px 10px rgba(8,127,112,.25)}
-        .data-freshness{margin-bottom:16px;padding:11px 14px;border-radius:12px}
-        .current-section{gap:18px}
-        body.current-mode #dailyBalancePanel{padding:20px;border:1px solid #b7e1d9;border-top:5px solid var(--executive-teal);border-radius:18px;background:var(--executive-surface);box-shadow:0 12px 28px rgba(15,23,42,.07)}
-        .daily-heading{padding-bottom:2px}.daily-heading h2{font-size:20px!important;letter-spacing:-.6px;color:var(--executive-navy)}
-        .daily-panel .daily-subtitle{font-size:12px;color:#667085}.daily-panel .rate-badge{padding:7px 11px;border:1px solid #c7d7fe;background:#eef4ff;color:#175cd3}
-        .daily-panel .overview-kpis{gap:12px;margin:18px 0 12px}.daily-panel .overview-card{min-height:116px;padding:15px 16px;border:1px solid var(--executive-line);border-radius:13px;background:var(--executive-soft);box-shadow:none}
-        .daily-panel .overview-card:first-child{border-top:3px solid #2563eb}.daily-panel .overview-card:nth-child(2){border-top:3px solid var(--executive-teal)}.daily-panel .overview-card:nth-child(3){border-top:3px solid #7c3aed}.daily-panel .overview-card:nth-child(4){border-top:3px solid #d97706}
-        .daily-panel .overview-value{margin-top:7px;font-size:27px!important;letter-spacing:-.9px;color:var(--executive-navy)}
-        .daily-panel .table-wrap{margin-top:14px;border-color:var(--executive-line);border-radius:12px}.daily-panel .daily-note{margin-top:10px}
-        body.current-mode #currentPlanHeading{margin-top:12px;padding:8px 2px 0;border-top:1px solid #dbe3ef}body.current-mode #currentPlanHeading h2{font-size:21px;letter-spacing:-.6px;color:var(--executive-navy)}
-        body.current-mode #currentWorkspace>.overview-kpis{gap:12px}body.current-mode #currentWorkspace>.overview-kpis .overview-card{min-height:128px;padding:16px;border:1px solid var(--executive-line);border-radius:14px;background:var(--executive-surface);box-shadow:0 6px 18px rgba(15,23,42,.045)}
-        body.current-mode #currentWorkspace>.overview-kpis .overview-value{font-size:27px;color:var(--executive-navy)}
-        .current-chart-panel,.current-comment-panel,.current-table-panel{border-color:var(--executive-line);border-radius:16px;box-shadow:0 8px 22px rgba(15,23,42,.045)}
-        .current-chart-panel .title,.current-comment-panel .title,.current-table-panel .title{color:var(--executive-navy)}
-        .conversion-comment{border-radius:14px}.current-table-wrap{border-color:var(--executive-line);border-radius:12px}
-        .current-table-wrap th,.daily-panel th{padding:11px 12px;background:#f7f9fc;color:#526174}.current-table-wrap td,.daily-panel td{padding:11px 12px}
-        .overview-note{border-radius:12px;background:#f7f9fc}
-        @media(max-width:900px){.wrap{padding:20px 16px 32px}.top h1{font-size:25px}.daily-panel .overview-card{min-height:0}}
+      const executiveColorTheme=`<style id="executiveColorTheme">
+        :root{--bg:#f6f8fb;--panel:#fff;--text:#14243c;--muted:#667085;--line:#e1e7ef;--blue:#1769aa;--orange:#d97706;--up:#c2410c;--down:#087f70;--neutral:#475467}
+        body{background:#f6f8fb;color:#14243c}.top h1,.section-title,.title,.current-plan-heading h2{color:#14243c}
+        .workspace-nav{background:#fff;border-color:#dce4ed;box-shadow:0 5px 16px rgba(15,23,42,.05)}
+        .workspace-tab{color:#526174}.workspace-tab:hover{background:#f1f5f9;color:#14243c}.workspace-tab.active{background:#087f70;border-color:#087f70;color:#fff;box-shadow:none}
+        .data-freshness.ok{background:#ecfdf5;border-color:#b8ead6;color:#087f70}.data-freshness.warn{background:#fff8e8;border-color:#fde0a3;color:#b45309}.data-freshness.bad{background:#fff1f0;border-color:#fecaca;color:#c2410c}
+        .panel,.overview-card,.daily-panel .overview-card{background:#fff;border-color:#e1e7ef}.daily-panel .overview-card{border-top-color:#e1e7ef!important}
+        body.current-mode #dailyBalancePanel{background:#fff;border-color:#cfe7e2;border-top-color:#087f70;box-shadow:0 8px 22px rgba(15,23,42,.05)}
+        .daily-panel .rate-badge,.rate-badge{background:#edf7f5;border-color:#cfe7e2;color:#087f70}.daily-panel .daily-subtitle,.daily-note,.overview-detail,.sub{color:#667085}
+        #dailyBalancePriority{background:#ecfdf5;color:#087f70}.current-table-wrap th,.daily-panel th,th{background:#f6f8fb;color:#526174}
+        .conversion-comment{background:#fff8e8;border-color:#fde0a3}.conversion-comment .comment-kicker{color:#b45309}.conversion-comment .comment-detail{color:#8a4b0a}
+        .conversion-comment.bad{background:#fff1f0;border-color:#fecaca}.conversion-comment.bad .comment-kicker,.conversion-comment.bad .comment-detail{color:#c2410c}
+        .conversion-comment.good{background:#ecfdf5;border-color:#b8ead6}.conversion-comment.good .comment-kicker,.conversion-comment.good .comment-detail{color:#087f70}
+        .status-chip.confirmed,.pill.good{background:#dcfce7;color:#087f70}.status-chip.forecast,.pill.warn{background:#fff1c7;color:#b45309}.status-chip.bad,.pill.bad{background:#fee2e2;color:#c2410c}
       </style>`;
       const patches=[
         '<script src="./monthly-usd-patch.js?v=20260917-13"><\/script>',
@@ -391,7 +380,7 @@
         dailyBalanceMonthEndOverride,
         monthlyHistoryDisplayOrder,
         dailyBalanceTopPriority,
-        executiveVisualPolish
+        executiveColorTheme
       ].join('\n');
       html=html.includes('</body>')?html.replace('</body>',patches+'\n</body>'):html+patches;
       document.open();

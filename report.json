@@ -1,17 +1,29 @@
 {
-  "updated_at_kst": "2026-09-18 19:48 KST",
-  "current_rate": 1386.5,
+  "updated_at_kst": "2026-09-18 20:21 KST",
+  "current_rate": 1387.4,
   "previous_close": 1381.4,
-  "rate_updated_at_kst": "2026-09-18 19:48:21 KST",
+  "rate_updated_at_kst": "2026-09-18 20:21:31 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
     "연준·금리 관련 최신 기사(\"Investors react to BOJ raising interest rates to 31-year high\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
-    "미국 고용 관련 최신 기사(\"US labor market on solid footing; rising mortgages pressuring housing sector\")가 확인돼 고용지표가 연준 금리 기대와 달러 방향성을 좌우하는 변수로 부각되고 있습니다.",
-    "미국 물가 관련 최신 기사(\"Stocks and bonds dip as central banks jack up rates to tame inflation\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다."
+    "미국 물가 관련 최신 기사(\"Stocks and bonds dip as central banks jack up rates to tame inflation\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
+    "미 국채금리 상승 관련 보도가 확인돼 달러 수요를 지지하면서 원/달러 환율 상승 압력으로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
+    {
+      "title": "COMMENTARY: Morning Bid: Apocalypse later",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPRjRPVC1yMEp3QzUzT2pHQnlxallOazNCcVMtMlFSS25yczVEUTdJNzZTQ1FIRF8zb203cmI5SkFkd0hVTExMUWh6cTFYakhHeE5kUGRxNzYzc3NwdUtSYkN6UWpJMmhZdHRxbW5uaV9kU2ZMZ1E4bU1LYkFBajBjZVVIbTgtQ1hNX19pQzZzNXNfTkt1Rzcw?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-18 19:44 KST"
+    },
+    {
+      "title": "High stakes, low bars",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNQzkxemNQamVGbTdQZURLXzI4VFN5R2RpRDFJVEc0QXZjcmVaSVdyY1BDU01NZl85X1NxSVRMaHQxajdFcWE0YkE4VzlMVjZLQ3BzRWIyZkgtdjVyTmlWN2Y3VkJQRHh4MEE2RDNfWjd2Vks3bWhjOVhjaU5uUWk4S050bnBqSTdWSFlEXw?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-18 18:48 KST"
+    },
     {
       "title": "Yemen's Houthis: from ragtag militia to geopolitical heavyweight",
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5kVTJYNjJuQmllMGFaWjNqUm9oNHFlOE9kRGZuUnU4SlJZZEhERS1SSE8ydFQxNW1pazFqQ1dqOFFuRWFlX0dOZVFYMGFlYklLZTNSLWtIX1hCNkNP?oc=5",
@@ -35,27 +47,15 @@
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBPSWp0WWdYU09ZZjhIMnpMNE5rRDBSYkhUaS1haTBFYjlpOWZSOU5SZEw2WkpaVmhTQnk1MXR1Y0tZcWw0bTFweXBlVC12Mmp4V0J2YWhFMklVTWEtb2lkeTNBYTBtMTQ?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-18 10:50 KST"
-    },
-    {
-      "title": "Stocks and bonds dip as central banks jack up rates to tame inflation",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE95V1cyTmJPMlg0ZTkwR1hnMEJBdGZYOGEwRnBqRS1pU0RMNFpJX3NFTjZ1eTRydDZDMGthN2NZdXZYREtKMnI4MHVPNFByOGlqbXFaX09scG5mNXdrX3MzUUtXVXFBaXk5M2tDS0lQQTZSa1hmOXctY1h4OA?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-18 10:32 KST"
-    },
-    {
-      "title": "Rising oil, rates and yields brew up stagflation cocktail for markets",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOWmhlTzlKbEFSMGdBRGhpNGxzWDVGZzFsWHR5cXZXLVZwTjRZX0xtVjN4UW1LU3BVNW4wSGlod0VLSEhBbWRJNS0za2NIWWkxVlJqSzBsVU1rWHlIcXNUVmRDemNnbFBrV2J3eEhRSjM4NG9xaHl2ZXR0ZzAySFpOT0tFeWxnZw?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-18 08:30 KST"
     }
   ],
-  "rate_source_time": "2026-09-18 19:48:21 KST",
+  "rate_source_time": "2026-09-18 20:21:31 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 5.1,
-  "rate_change_pct": 0.37,
+  "rate_change": 6.0,
+  "rate_change_pct": 0.43,
   "smbs_base_rate": 1380.3,
   "smbs_rate_date": "2026-09-18",
-  "smbs_rate_updated_at_kst": "2026-09-18 19:48:07 KST",
+  "smbs_rate_updated_at_kst": "2026-09-18 20:21:16 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1385.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-18 19:48:07 KST"
+  "rate_job_checked_at_kst": "2026-09-18 20:21:16 KST"
 }

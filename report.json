@@ -1,16 +1,16 @@
 {
-  "updated_at_kst": "2026-09-18 17:24 KST",
-  "current_rate": 1384.4,
+  "updated_at_kst": "2026-09-18 17:49 KST",
+  "current_rate": 1385.7,
   "previous_close": 1381.4,
-  "rate_updated_at_kst": "2026-09-18 17:23:46 KST",
+  "rate_updated_at_kst": "2026-09-18 17:49:22 KST",
   "rate_source": "KB STAR FX Market Watch",
-  "market_bias": "상승 우세",
+  "market_bias": "혼조",
   "drivers": [
     "연준·금리 관련 최신 기사(\"Investors react to BOJ raising interest rates to 31-year high\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
     "미국 고용 관련 최신 기사(\"US labor market on solid footing; rising mortgages pressuring housing sector\")가 확인돼 고용지표가 연준 금리 기대와 달러 방향성을 좌우하는 변수로 부각되고 있습니다.",
-    "미국 물가 관련 최신 기사(\"Bank of England shifts tone toward rate hikes as inflation set to top 4%\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다."
+    "미국 물가 관련 최신 기사(\"Oil prices fall 2% on easing fears over Saudi supply disruption\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다."
   ],
-  "outlook": "달러 강세·금리 상승 계열의 재료가 상대적으로 우세해 원/달러는 단기 상승 압력이 나타날 수 있으나, 국내 수급과 위험선호 회복 여부에 따라 변동성이 예상됩니다.",
+  "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
     {
       "title": "Investors react to BOJ raising interest rates to 31-year high",
@@ -37,10 +37,10 @@
       "seen": "2026-09-18 10:32 KST"
     },
     {
-      "title": "Yen slumps after BOJ hikes rates as expected",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZTZWMHVPOWZ5RDBIc2NmX2tmcE5pODNpeGhnaGJhZ0RrVkRtVTVud1FUY2NhNkttREN4QjNtTlZRTGtPNTFZVUIzWm1XNU5xNEdqTnNILXhybG1oMXVJV3N6YmxpRjFIX01sZWVEQ2xiRW1weUpEWjFfU1NCOXZuU0Vjc2xtMGpacjFGZ2ZZLXpnN1R3YWphMDcta0VyYjEyYU40?oc=5",
+      "title": "Oil prices fall 2% on easing fears over Saudi supply disruption",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQeDVrUGNRTzdTOG1wQ1ljY2w0Y002MjMxSVNvM2RrLTBhM3B1dEJVS1B6bnJWTjhydS1BUHpfTVFtbHh2QkdMdFU1ZVo3MDJtQ01kbldpa0lfWFM0QXFWbmVsN1RqcjcxMHczN3JGSHItelVZMzQtYklTN1kwVlJxLU5RVzAwc3BEQV9iVFI1N0xhRXluaGZxN0NrWkxFMDk5Q0pYZw?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-18 09:59 KST"
+      "seen": "2026-09-18 10:01 KST"
     },
     {
       "title": "Rising oil, rates and yields brew up stagflation cocktail for markets",
@@ -49,13 +49,13 @@
       "seen": "2026-09-18 08:30 KST"
     }
   ],
-  "rate_source_time": "2026-09-18 17:23:46 KST",
+  "rate_source_time": "2026-09-18 17:49:22 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 3.0,
-  "rate_change_pct": 0.22,
+  "rate_change": 4.3,
+  "rate_change_pct": 0.31,
   "smbs_base_rate": 1380.3,
   "smbs_rate_date": "2026-09-18",
-  "smbs_rate_updated_at_kst": "2026-09-18 17:23:32 KST",
+  "smbs_rate_updated_at_kst": "2026-09-18 17:49:06 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1385.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-18 17:23:32 KST"
+  "rate_job_checked_at_kst": "2026-09-18 17:49:06 KST"
 }

@@ -1,23 +1,17 @@
 {
-  "updated_at_kst": "2026-09-19 02:20 KST",
+  "updated_at_kst": "2026-09-19 02:46 KST",
   "current_rate": 1390.0,
   "previous_close": 1381.4,
-  "rate_updated_at_kst": "2026-09-19 02:20:05 KST",
+  "rate_updated_at_kst": "2026-09-19 02:46:26 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
-    "연준·금리 관련 최신 기사(\"Wall St Week Ahead Investors focus on rate path, AI slowdown after Fed hike\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
+    "연준·금리 관련 최신 기사(\"Investors react to BOJ raising interest rates to 31-year high\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
     "미국 물가 관련 최신 기사(\"US equity funds post fourth weekly outflow on inflation worries, rate concerns\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
     "미 국채금리 상승 관련 보도가 확인돼 달러 수요를 지지하면서 원/달러 환율 상승 압력으로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
-    {
-      "title": "US factory production falls in August; outlook clouded by rising costs",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQekwzelo0S3RpaVZiQXFlQmZPSDVVSXNUMXo2N1JjTW1oTHUzbU1FZVljOHlZZ0R1WlRUdUVnWkFaTUJlTFZUQ3FaYVlxbHR0UEVQTXVlUk8wU05MSEtQbDFKbEVxY1lXUGZxR3VoVFkyTFNqZU93MUViajNyZm5sbDNUQVlBRHVMdzFncWJzcUI2Tkg4RFdHVUZsTlBwaXlQd0MtRHlvNy1PTkR0YmtBLTdCOUxIUmM?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-19 01:05 KST"
-    },
     {
       "title": "Wall St slips as higher Treasury yields weigh on sentiment",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZ2p6dkpCd0xfbVRBMnhySFRVbm5OSElMZXRXc0NpaGhoRmw2MzNfSUstaC1RVFFnUU1DNUM0MEpHTmxhbHJxOC1Ec2lMWU0xMFVaSVdsZGdVSi1JaWpDX093SHhBdlBkdFdGZnFpd05yYW9LRXk2NkdOMnRWSzJ2dkhuTFpDN01LM1JvNjhyamFZM2dLRFRzM24xSUZwRGVBakhwM3N3em1ycFBuWVg2UVB2OTQ?oc=5",
@@ -37,25 +31,31 @@
       "seen": "2026-09-19 00:30 KST"
     },
     {
-      "title": "Oil pares losses as market weighs Saudi supply concerns, Middle East tensions",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQeDVrUGNRTzdTOG1wQ1ljY2w0Y002MjMxSVNvM2RrLTBhM3B1dEJVS1B6bnJWTjhydS1BUHpfTVFtbHh2QkdMdFU1ZVo3MDJtQ01kbldpa0lfWFM0QXFWbmVsN1RqcjcxMHczN3JGSHItelVZMzQtYklTN1kwVlJxLU5RVzAwc3BEQV9iVFI1N0xhRXluaGZxN0NrWkxFMDk5Q0pYZw?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-18 23:29 KST"
-    },
-    {
       "title": "Breakingviews - COMMENTARY: Japan’s weak currency has a three-body problem",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNFk0eGh3eEFGNzJXblVMSDhVS3VEazc0QlZTcGVjX1dQdTBLZE1MOC1iSW0wX09FWlhNUklUbkJ1YUlKMlhZZnJrT1RNZFlXb24wUXEzZjBGanhiYlFVNm1uamx5LUVVeWNDdTQ5c21IRnV2Tm9aNk5BVjJ0czBKdDVzZElZaDlfcGkxRXNreU9vdk9ZMnJjTnVlZ1hHbmE1THVlV0xyVQ?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-18 22:32 KST"
+    },
+    {
+      "title": "COMMENTARY: Global rates reset, AI angst and oil's long haul: The financial week in five charts",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPcVJSOWZtYmJPZXkzZmtfazJwd0xSQ19KTXVYX095aFdSWXk2MnlueWRtR0NrZzdudF9objBxd1BUYjA1QkRwZHFWYUF4WjBfVXluYVJGSFRRM01veW56dVphanpjaDUzTHpSTE1ISDRnMTc4Y05VOF9SX0pZMC1LOHlESVNrOF9YbFlJQnZ0M19TcWt1a0ppVXh6LXRIOWljdEs1STg3ZlZDTWRWSzZjczkxRk1lbFYyaGN2MXdCQnMxa3M2enZGSFcydVFmNjI0amQtZQ?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-18 21:32 KST"
+    },
+    {
+      "title": "US equity funds post fourth weekly outflow on inflation worries, rate concerns",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNczctZHg5MWQtVFk2X193WFFwT0g5UkZQYUw5TVpQR1JRZ1RnU2UtRTdyMGQwVTR0ZUtGbkU3WGR4YTFJMXUyM0xGX3piSnBtWjlsT1Bra2xIdVhhMzZvbU5PUEdjX0NLN0JTaVpYQUhnT3hEbUllSmh5dGVvaDR1ekFFZXdaU1p0cVFaajUtYVYtaUlwWHNudFlZRk1rLVJIbnNrQUNqWVVlLURtUDZMTWVkNnRJdG1LcExR?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-18 20:17 KST"
     }
   ],
-  "rate_source_time": "2026-09-19 02:20:05 KST",
+  "rate_source_time": "2026-09-19 02:46:26 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": 8.6,
   "rate_change_pct": 0.62,
   "smbs_base_rate": 1380.3,
   "smbs_rate_date": "2026-09-19",
-  "smbs_rate_updated_at_kst": "2026-09-19 01:47:05 KST",
+  "smbs_rate_updated_at_kst": "2026-09-19 02:46:15 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,6 +63,5 @@
     1385.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-19 02:19:50 KST",
-  "smbs_rate_error": "RuntimeError: 서울외국환중개 페이지에서 USD 매매기준율을 찾지 못했습니다."
+  "rate_job_checked_at_kst": "2026-09-19 02:46:15 KST"
 }

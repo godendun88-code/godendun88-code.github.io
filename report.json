@@ -1,16 +1,16 @@
 {
-  "updated_at_kst": "2026-09-18 16:22 KST",
+  "updated_at_kst": "2026-09-18 17:24 KST",
   "current_rate": 1384.4,
   "previous_close": 1381.4,
-  "rate_updated_at_kst": "2026-09-18 16:48:29 KST",
+  "rate_updated_at_kst": "2026-09-18 17:23:46 KST",
   "rate_source": "KB STAR FX Market Watch",
-  "market_bias": "혼조",
+  "market_bias": "상승 우세",
   "drivers": [
     "연준·금리 관련 최신 기사(\"Investors react to BOJ raising interest rates to 31-year high\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
-    "미 국채금리 상승 관련 보도가 확인돼 달러 수요를 지지하면서 원/달러 환율 상승 압력으로 작용하고 있습니다.",
-    "유가·지정학 관련 최신 기사(\"Rupee may find breathing room on IPO-linked inflows, oil retreat\")가 확인돼 원화 변동성 확대 요인으로 작용하고 있습니다."
+    "미국 고용 관련 최신 기사(\"US labor market on solid footing; rising mortgages pressuring housing sector\")가 확인돼 고용지표가 연준 금리 기대와 달러 방향성을 좌우하는 변수로 부각되고 있습니다.",
+    "미국 물가 관련 최신 기사(\"Bank of England shifts tone toward rate hikes as inflation set to top 4%\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다."
   ],
-  "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
+  "outlook": "달러 강세·금리 상승 계열의 재료가 상대적으로 우세해 원/달러는 단기 상승 압력이 나타날 수 있으나, 국내 수급과 위험선호 회복 여부에 따라 변동성이 예상됩니다.",
   "articles": [
     {
       "title": "Investors react to BOJ raising interest rates to 31-year high",
@@ -19,7 +19,7 @@
       "seen": "2026-09-18 12:23 KST"
     },
     {
-      "title": "Rupee may find breathing room on IPO-linked inflows, oil retreat",
+      "title": "Rupee breathes easy, heavy central bank week puts focus on RBI course",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNDRscHhQS0NmM1ZxNXdFeUtlUTdxYjB6UGdWclVjamkxTkI4bXpkSm5tTE9DX2tSMlhDajV1c0lQVUd3bG9yV1oyOURkTFFjTU9PVEYyM00wbHl0Yi04b1ZsSG0tclB1TFBZc2xGS0ZSWHpTM0pwd0JHYjVJb29jNkxoMWwtaktPOHAyeHV3NV9RcWdYYXUydHk5dmlJeVNFcmtjRl9UcXc0eVJG?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-18 11:56 KST"
@@ -49,13 +49,13 @@
       "seen": "2026-09-18 08:30 KST"
     }
   ],
-  "rate_source_time": "2026-09-18 16:48:29 KST",
+  "rate_source_time": "2026-09-18 17:23:46 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": 3.0,
   "rate_change_pct": 0.22,
   "smbs_base_rate": 1380.3,
   "smbs_rate_date": "2026-09-18",
-  "smbs_rate_updated_at_kst": "2026-09-18 16:48:12 KST",
+  "smbs_rate_updated_at_kst": "2026-09-18 17:23:32 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1385.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-18 16:48:12 KST"
+  "rate_job_checked_at_kst": "2026-09-18 17:23:32 KST"
 }

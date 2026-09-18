@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-09-18 09:28 KST",
-  "current_rate": 1382.3,
+  "updated_at_kst": "2026-09-18 09:51 KST",
+  "current_rate": 1383.7,
   "previous_close": 1381.4,
-  "rate_updated_at_kst": "2026-09-18 09:28:44 KST",
+  "rate_updated_at_kst": "2026-09-18 09:51:32 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
@@ -13,16 +13,16 @@
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
     {
+      "title": "Rising oil, rates and yields brew up stagflation cocktail for markets",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOWmhlTzlKbEFSMGdBRGhpNGxzWDVGZzFsWHR5cXZXLVZwTjRZX0xtVjN4UW1LU3BVNW4wSGlod0VLSEhBbWRJNS0za2NIWWkxVlJqSzBsVU1rWHlIcXNUVmRDemNnbFBrV2J3eEhRSjM4NG9xaHl2ZXR0ZzAySFpOT0tFeWxnZw?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-18 08:30 KST"
+    },
+    {
       "title": "Latam markets inch higher in global risk-on mood after Fed hike",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxORHBHWWNMXzJ6VlVwbnBOc3ZudVowMk1sUkw0M1l5MjRzX1BrQzhNUjZrNmdMYTdKakR0OTJaeGZtUC1JeERMVVRpVUZyc2V3ZTgydlNBTE5aZW9SZTZiejBydGJIWExHS0N1eWhVVGpUNlpmdUVwOEpMbWY3dGxybklRUEVKNU1JOEVZaGYtcjRqeVg0S2g2ODFVWmRmbExyRjdPWHJRR3BYZjBMS0w4?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-18 05:17 KST"
-    },
-    {
-      "title": "Rising oil, rates and yields brew up stagflation cocktail for markets",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOWmhlTzlKbEFSMGdBRGhpNGxzWDVGZzFsWHR5cXZXLVZwTjRZX0xtVjN4UW1LU3BVNW4wSGlod0VLSEhBbWRJNS0za2NIWWkxVlJqSzBsVU1rWHlIcXNUVmRDemNnbFBrV2J3eEhRSjM4NG9xaHl2ZXR0ZzAySFpOT0tFeWxnZw?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-18 01:59 KST"
     },
     {
       "title": "Dollar's allure, oil surge fan bearish bets on emerging Asian currencies: Reuters poll",
@@ -49,13 +49,13 @@
       "seen": "2026-09-17 11:05 KST"
     }
   ],
-  "rate_source_time": "2026-09-18 09:28:44 KST",
+  "rate_source_time": "2026-09-18 09:51:32 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 0.9,
-  "rate_change_pct": 0.07,
+  "rate_change": 2.3,
+  "rate_change_pct": 0.17,
   "smbs_base_rate": 1380.3,
   "smbs_rate_date": "2026-09-18",
-  "smbs_rate_updated_at_kst": "2026-09-18 09:28:28 KST",
+  "smbs_rate_updated_at_kst": "2026-09-18 09:51:15 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1385.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-18 09:28:28 KST"
+  "rate_job_checked_at_kst": "2026-09-18 09:51:15 KST"
 }

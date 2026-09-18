@@ -293,10 +293,31 @@
       const monthlyHistoryDisplayOrder=`<script>
 (() => {
   const monthPattern=/^20\\d{2}-(0[1-9]|1[0-2])$/;
-  const heading=(label,count)=>{
+  const collapseKey='act.currentHistoryPastCollapsed.v1';
+  const isCollapsed=()=>{try{return localStorage.getItem(collapseKey)!=='false'}catch{return true}};
+  const saveCollapsed=value=>{try{localStorage.setItem(collapseKey,String(value))}catch{}};
+  const installStyle=()=>{
+    if(document.getElementById('currentHistoryCollapseStyle'))return;
+    const style=document.createElement('style');style.id='currentHistoryCollapseStyle';
+    style.textContent='#currentHistoryBody [data-month-group-toggle]{display:flex;align-items:center;justify-content:space-between;width:100%;padding:0;border:0;background:transparent;color:#334155;font:inherit;font-weight:850;cursor:pointer;text-align:left}#currentHistoryBody [data-month-group-toggle] span:last-child{color:#087f70;font-size:11px}#currentHistoryBody tr[data-past-history-row][hidden]{display:none}';
+    document.head.appendChild(style);
+  };
+  const heading=(label,count,collapsible=false,collapsed=false)=>{
     const row=document.createElement('tr');row.dataset.monthGroup='1';
-    const cell=document.createElement('td');cell.colSpan=7;cell.textContent=label+' · '+count+'개월';
+    const cell=document.createElement('td');cell.colSpan=7;
     cell.style.cssText='padding:9px 12px;background:#f8fafc;color:#475467;font-weight:700;font-size:12px;border-top:1px solid #dbe3ef;border-bottom:1px solid #dbe3ef';
+    if(collapsible){
+      const button=document.createElement('button');button.type='button';button.dataset.monthGroupToggle='past';
+      const labelSpan=document.createElement('span');labelSpan.textContent=label+' · '+count+'개월';
+      const actionSpan=document.createElement('span');actionSpan.textContent=collapsed?'⌄ 펼쳐보기':'⌃ 접기';
+      button.append(labelSpan,actionSpan);
+      button.addEventListener('click',()=>{
+        const next=!isCollapsed();saveCollapsed(next);
+        const body=row.parentElement;body?.querySelectorAll('tr[data-past-history-row]').forEach(item=>{item.hidden=next});
+        actionSpan.textContent=next?'⌄ 펼쳐보기':'⌃ 접기';
+      });
+      cell.appendChild(button);
+    }else cell.textContent=label+' · '+count+'개월';
     row.appendChild(cell);return row;
   };
   const reorder=()=>{
@@ -310,15 +331,16 @@
     const later=ordered(month=>month>yearEnd);
     const earlier=ordered(month=>month<yearStart);
     const next=[];
+    const collapsed=isCollapsed();
+    if(past.length){past.forEach(row=>{row.dataset.pastHistoryRow='1';row.hidden=collapsed});next.push(heading('과거 확정 · 검증 이력',past.length,true,collapsed),...past)}
     if(present.length)next.push(heading('현재 · 예상',present.length),...present);
-    if(past.length)next.push(heading('과거 확정 · 검증 이력',past.length),...past);
     if(later.length)next.push(heading('차년도 예상',later.length),...later);
     if(earlier.length)next.push(heading('이전 연도 이력',earlier.length),...earlier);
     body.replaceChildren(...next);
   };
   const originalRenderCurrentOverview=renderCurrentOverview;
   renderCurrentOverview=function(...args){const result=originalRenderCurrentOverview.apply(this,args);reorder();return result};
-  queueMicrotask(reorder);setTimeout(reorder,120);
+  installStyle();queueMicrotask(reorder);setTimeout(reorder,120);
 })();
 <\/script>`;
       const dailyBalanceTopPriority=`<script>

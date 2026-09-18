@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-09-18 21:52 KST",
-  "current_rate": 1387.5,
+  "updated_at_kst": "2026-09-18 22:22 KST",
+  "current_rate": 1388.1,
   "previous_close": 1381.4,
-  "rate_updated_at_kst": "2026-09-18 21:52:07 KST",
+  "rate_updated_at_kst": "2026-09-18 22:21:48 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
@@ -16,7 +16,7 @@
       "title": "COMMENTARY: Global rates reset, AI angst and oil's long haul: The financial week in five charts",
       "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPcVJSOWZtYmJPZXkzZmtfazJwd0xSQ19KTXVYX095aFdSWXk2MnlueWRtR0NrZzdudF9objBxd1BUYjA1QkRwZHFWYUF4WjBfVXluYVJGSFRRM01veW56dVphanpjaDUzTHpSTE1ISDRnMTc4Y05VOF9SX0pZMC1LOHlESVNrOF9YbFlJQnZ0M19TcWt1a0ppVXh6LXRIOWljdEs1STg3ZlZDTWRWSzZjczkxRk1lbFYyaGN2MXdCQnMxa3M2enZGSFcydVFmNjI0amQtZQ?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-18 20:32 KST"
+      "seen": "2026-09-18 21:32 KST"
     },
     {
       "title": "COMMENTARY: Morning Bid: Apocalypse later",
@@ -37,25 +37,25 @@
       "seen": "2026-09-18 19:10 KST"
     },
     {
-      "title": "High stakes, low bars",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNQzkxemNQamVGbTdQZURLXzI4VFN5R2RpRDFJVEc0QXZjcmVaSVdyY1BDU01NZl85X1NxSVRMaHQxajdFcWE0YkE4VzlMVjZLQ3BzRWIyZkgtdjVyTmlWN2Y3VkJQRHh4MEE2RDNfWjd2Vks3bWhjOVhjaU5uUWk4S050bnBqSTdWSFlEXw?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-18 18:48 KST"
-    },
-    {
       "title": "Yemen's Houthis: from ragtag militia to geopolitical heavyweight",
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5kVTJYNjJuQmllMGFaWjNqUm9oNHFlOE9kRGZuUnU4SlJZZEhERS1SSE8ydFQxNW1pazFqQ1dqOFFuRWFlX0dOZVFYMGFlYklLZTNSLWtIX1hCNkNP?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-18 15:35 KST"
+    },
+    {
+      "title": "Investors react to BOJ raising interest rates to 31-year high",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPMzRGSGpsQnAxamJQZ3FIQ3liMTVXRjJQU0ZPTi16VmhpaXBpWTRldlR1U29id1BnR3ZjLU1HS2IzVFpnd0dJVjFXcVphc0FmQ1J4U3lLSlVmdHJOZ19wdElsVGZWa05XU1lfT1U5RndzOElxVDM2N1lkWnhfaXN5MUZXSGI3MV9tWFJnUWNuYmZNTXpKeWtxanJRcXFsWXZzOHU1Qm51b2dMcThMV3lzaDBmclZWdw?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-18 12:23 KST"
     }
   ],
-  "rate_source_time": "2026-09-18 21:52:07 KST",
+  "rate_source_time": "2026-09-18 22:21:48 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 6.1,
-  "rate_change_pct": 0.44,
+  "rate_change": 6.7,
+  "rate_change_pct": 0.49,
   "smbs_base_rate": 1380.3,
   "smbs_rate_date": "2026-09-18",
-  "smbs_rate_updated_at_kst": "2026-09-18 21:51:55 KST",
+  "smbs_rate_updated_at_kst": "2026-09-18 22:21:34 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1385.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-18 21:51:55 KST"
+  "rate_job_checked_at_kst": "2026-09-18 22:21:34 KST"
 }

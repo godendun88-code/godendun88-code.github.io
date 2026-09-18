@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-09-18 14:48 KST",
-  "current_rate": 1382.9,
-  "previous_close": 1381.4,
-  "rate_updated_at_kst": "2026-09-18 14:47:54 KST",
+  "updated_at_kst": "2026-09-18 15:27 KST",
+  "current_rate": 1381.0,
+  "previous_close": 1379.74,
+  "rate_updated_at_kst": "2026-09-18 15:27:28 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
@@ -25,7 +25,7 @@
       "seen": "2026-09-18 10:50 KST"
     },
     {
-      "title": "Stocks rise as oil dips, yen weakens after BOJ hikes as expected",
+      "title": "Stocks rise, yen weakens as BOJ split-vote hike tempers hawkish wagers",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE95V1cyTmJPMlg0ZTkwR1hnMEJBdGZYOGEwRnBqRS1pU0RMNFpJX3NFTjZ1eTRydDZDMGthN2NZdXZYREtKMnI4MHVPNFByOGlqbXFaX09scG5mNXdrX3MzUUtXVXFBaXk5M2tDS0lQQTZSa1hmOXctY1h4OA?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-18 10:32 KST"
@@ -49,13 +49,13 @@
       "seen": "2026-09-18 05:17 KST"
     }
   ],
-  "rate_source_time": "2026-09-18 14:47:54 KST",
+  "rate_source_time": "2026-09-18 15:27:28 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 1.5,
-  "rate_change_pct": 0.11,
+  "rate_change": 1.26,
+  "rate_change_pct": 0.07,
   "smbs_base_rate": 1380.3,
   "smbs_rate_date": "2026-09-18",
-  "smbs_rate_updated_at_kst": "2026-09-18 14:47:39 KST",
+  "smbs_rate_updated_at_kst": "2026-09-18 15:27:15 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1385.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-18 14:47:39 KST"
+  "rate_job_checked_at_kst": "2026-09-18 15:27:15 KST"
 }

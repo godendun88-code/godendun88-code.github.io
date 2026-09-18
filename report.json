@@ -1,16 +1,16 @@
 {
-  "updated_at_kst": "2026-09-19 04:46 KST",
+  "updated_at_kst": "2026-09-19 06:21 KST",
   "current_rate": 1390.0,
   "previous_close": 1381.4,
-  "rate_updated_at_kst": "2026-09-19 05:47:26 KST",
+  "rate_updated_at_kst": "2026-09-19 06:21:23 KST",
   "rate_source": "KB STAR FX Market Watch",
-  "market_bias": "혼조",
+  "market_bias": "상승 우세",
   "drivers": [
-    "연준·금리 관련 최신 기사(\"Wall St Week Ahead Investors focus on rate path, AI slowdown after Fed hike\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
-    "미국 물가 관련 최신 기사(\"US equity funds post fourth weekly outflow on inflation worries, rate concerns\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
-    "미 국채금리 관련 최신 기사(\"Canadian dollar extends weekly decline, weighed by wider yield spreads\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다."
+    "미국 물가 관련 최신 기사(\"Global shares fall, Treasury yields rise as central banks double down on inflation fight\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
+    "유가 및 중동 지정학적 불확실성이 부각돼 에너지 수입 의존도가 높은 원화에는 약세 부담 요인으로 작용하고 있습니다.",
+    "외환시장 관련 최신 기사(\"COMMENTARY: Morning Bid: Apocalypse later\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다."
   ],
-  "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
+  "outlook": "달러 강세·금리 상승 계열의 재료가 상대적으로 우세해 원/달러는 단기 상승 압력이 나타날 수 있으나, 국내 수급과 위험선호 회복 여부에 따라 변동성이 예상됩니다.",
   "articles": [
     {
       "title": "Gold rises to one-week high, heads for weekly gain on easing oil prices",
@@ -19,43 +19,37 @@
       "seen": "2026-09-19 03:30 KST"
     },
     {
-      "title": "Canadian dollar extends weekly decline, weighed by wider yield spreads",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNLXhfaG9sdjY5dkkzLVJXWEtGWUpxbWRpcnZyZm1kRVUzZEZQMGhHeHVkZHlOY1FYeUVBcnJNNHRnMUVCQ01aSUJCZmdiVlAxdkp1dTVtT0RHSFZBdXprTE90NnY3b1k1amNYUml4TGdhdkhqblpXQ2NKZ3RkTFNnMklBR1pMdklOTjhOUU9CODJHMndCUDFwdkJYVkF2T2FmbVl1VkRKT3JwaTNfVEp3M21fcFE?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-19 00:47 KST"
-    },
-    {
-      "title": "Breakingviews - COMMENTARY: Japan’s weak currency has a three-body problem",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNFk0eGh3eEFGNzJXblVMSDhVS3VEazc0QlZTcGVjX1dQdTBLZE1MOC1iSW0wX09FWlhNUklUbkJ1YUlKMlhZZnJrT1RNZFlXb24wUXEzZjBGanhiYlFVNm1uamx5LUVVeWNDdTQ5c21IRnV2Tm9aNk5BVjJ0czBKdDVzZElZaDlfcGkxRXNreU9vdk9ZMnJjTnVlZ1hHbmE1THVlV0xyVQ?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-18 22:32 KST"
-    },
-    {
       "title": "COMMENTARY: Global rates reset, AI angst and oil's long haul: The financial week in five charts",
       "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPcVJSOWZtYmJPZXkzZmtfazJwd0xSQ19KTXVYX095aFdSWXk2MnlueWRtR0NrZzdudF9objBxd1BUYjA1QkRwZHFWYUF4WjBfVXluYVJGSFRRM01veW56dVphanpjaDUzTHpSTE1ISDRnMTc4Y05VOF9SX0pZMC1LOHlESVNrOF9YbFlJQnZ0M19TcWt1a0ppVXh6LXRIOWljdEs1STg3ZlZDTWRWSzZjczkxRk1lbFYyaGN2MXdCQnMxa3M2enZGSFcydVFmNjI0amQtZQ?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-18 21:32 KST"
     },
     {
-      "title": "US equity funds post fourth weekly outflow on inflation worries, rate concerns",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNczctZHg5MWQtVFk2X193WFFwT0g5UkZQYUw5TVpQR1JRZ1RnU2UtRTdyMGQwVTR0ZUtGbkU3WGR4YTFJMXUyM0xGX3piSnBtWjlsT1Bra2xIdVhhMzZvbU5PUEdjX0NLN0JTaVpYQUhnT3hEbUllSmh5dGVvaDR1ekFFZXdaU1p0cVFaajUtYVYtaUlwWHNudFlZRk1rLVJIbnNrQUNqWVVlLURtUDZMTWVkNnRJdG1LcExR?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-18 20:17 KST"
-    },
-    {
       "title": "COMMENTARY: Morning Bid: Apocalypse later",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPRjRPVC1yMEp3QzUzT2pHQnlxallOazNCcVMtMlFSS25yczVEUTdJNzZTQ1FIRF8zb203cmI5SkFkd0hVTExMUWh6cTFYakhHeE5kUGRxNzYzc3NwdUtSYkN6UWpJMmhZdHRxbW5uaV9kU2ZMZ1E4bU1LYkFBajBjZVVIbTgtQ1hNX19pQzZzNXNfTkt1Rzcw?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-18 19:44 KST"
+    },
+    {
+      "title": "Yemen's Houthis: from ragtag militia to geopolitical heavyweight",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5kVTJYNjJuQmllMGFaWjNqUm9oNHFlOE9kRGZuUnU4SlJZZEhERS1SSE8ydFQxNW1pazFqQ1dqOFFuRWFlX0dOZVFYMGFlYklLZTNSLWtIX1hCNkNP?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-18 15:35 KST"
+    },
+    {
+      "title": "Global shares fall, Treasury yields rise as central banks double down on inflation fight",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE95V1cyTmJPMlg0ZTkwR1hnMEJBdGZYOGEwRnBqRS1pU0RMNFpJX3NFTjZ1eTRydDZDMGthN2NZdXZYREtKMnI4MHVPNFByOGlqbXFaX09scG5mNXdrX3MzUUtXVXFBaXk5M2tDS0lQQTZSa1hmOXctY1h4OA?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-18 10:32 KST"
     }
   ],
-  "rate_source_time": "2026-09-19 05:47:26 KST",
+  "rate_source_time": "2026-09-19 06:21:23 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": 8.6,
   "rate_change_pct": 0.62,
   "smbs_base_rate": 1380.3,
   "smbs_rate_date": "2026-09-19",
-  "smbs_rate_updated_at_kst": "2026-09-19 05:47:14 KST",
+  "smbs_rate_updated_at_kst": "2026-09-19 06:21:12 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +57,5 @@
     1385.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-19 05:47:14 KST"
+  "rate_job_checked_at_kst": "2026-09-19 06:21:12 KST"
 }

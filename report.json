@@ -1,29 +1,29 @@
 {
-  "updated_at_kst": "2026-09-20 06:00 KST",
+  "updated_at_kst": "2026-09-20 07:58 KST",
   "current_rate": 1390.0,
   "previous_close": 1381.4,
-  "rate_updated_at_kst": "2026-09-20 06:00:40 KST",
+  "rate_updated_at_kst": "2026-09-20 07:58:08 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
-    "미국 물가 관련 최신 기사(\"Global shares edge higher as central banks double down on inflation fight\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다."
+    "유가 및 중동 지정학적 불확실성이 부각돼 에너지 수입 의존도가 높은 원화에는 약세 부담 요인으로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
     {
-      "title": "Global shares edge higher as central banks double down on inflation fight",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE95V1cyTmJPMlg0ZTkwR1hnMEJBdGZYOGEwRnBqRS1pU0RMNFpJX3NFTjZ1eTRydDZDMGthN2NZdXZYREtKMnI4MHVPNFByOGlqbXFaX09scG5mNXdrX3MzUUtXVXFBaXk5M2tDS0lQQTZSa1hmOXctY1h4OA?oc=5",
+      "title": "Oil slides after China asks Iran to limit Houthi attacks on Saudi oil facilities",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQeDVrUGNRTzdTOG1wQ1ljY2w0Y002MjMxSVNvM2RrLTBhM3B1dEJVS1B6bnJWTjhydS1BUHpfTVFtbHh2QkdMdFU1ZVo3MDJtQ01kbldpa0lfWFM0QXFWbmVsN1RqcjcxMHczN3JGSHItelVZMzQtYklTN1kwVlJxLU5RVzAwc3BEQV9iVFI1N0xhRXluaGZxN0NrWkxFMDk5Q0pYZw?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-19 06:02 KST"
+      "seen": "2026-09-19 17:20 KST"
     }
   ],
-  "rate_source_time": "2026-09-20 06:00:40 KST",
+  "rate_source_time": "2026-09-20 07:58:08 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": 8.6,
   "rate_change_pct": 0.62,
   "smbs_base_rate": 1380.3,
   "smbs_rate_date": "2026-09-20",
-  "smbs_rate_updated_at_kst": "2026-09-20 06:00:23 KST",
+  "smbs_rate_updated_at_kst": "2026-09-20 07:57:57 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -31,5 +31,5 @@
     1385.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-20 06:00:23 KST"
+  "rate_job_checked_at_kst": "2026-09-20 07:57:57 KST"
 }

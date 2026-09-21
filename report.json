@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-09-20 15:11 KST",
-  "current_rate": 1390.0,
-  "previous_close": 1381.4,
-  "rate_updated_at_kst": "2026-09-21 08:30:21 KST",
+  "updated_at_kst": "2026-09-21 10:38 KST",
+  "current_rate": 1387.7,
+  "previous_close": 1383.94,
+  "rate_updated_at_kst": "2026-09-21 10:38:32 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
@@ -11,19 +11,19 @@
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
     {
-      "title": "Oil slides after China asks Iran to limit Houthi attacks on Saudi oil facilities",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQeDVrUGNRTzdTOG1wQ1ljY2w0Y002MjMxSVNvM2RrLTBhM3B1dEJVS1B6bnJWTjhydS1BUHpfTVFtbHh2QkdMdFU1ZVo3MDJtQ01kbldpa0lfWFM0QXFWbmVsN1RqcjcxMHczN3JGSHItelVZMzQtYklTN1kwVlJxLU5RVzAwc3BEQV9iVFI1N0xhRXluaGZxN0NrWkxFMDk5Q0pYZw?oc=5",
+      "title": "Tech leads shares higher in Asia, oil eases",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQUUdXdXVKYkpsa2JoQmRNeVpVWWhwb1pIVmUwcUl0QVRFVEFjRDJtREJPbXJWaXVEc0NQSWZZUlhwTl80T3h4eGM1dE9oaXRsWlVueWx0MWt3YXlWbV9PYkZDWVVPb1ZveThvalZfWnBvQ2J5Sjg1UkNOQmU5eDdWN0FvVQ?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-19 17:20 KST"
+      "seen": "2026-09-21 09:39 KST"
     }
   ],
-  "rate_source_time": "2026-09-21 08:30:21 KST",
+  "rate_source_time": "2026-09-21 10:38:32 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 8.6,
-  "rate_change_pct": 0.62,
+  "rate_change": 3.76,
+  "rate_change_pct": 0.43,
   "smbs_base_rate": 1383.8,
   "smbs_rate_date": "2026-09-21",
-  "smbs_rate_updated_at_kst": "2026-09-21 08:30:07 KST",
+  "smbs_rate_updated_at_kst": "2026-09-21 10:38:21 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -31,5 +31,5 @@
     1390.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-21 08:30:07 KST"
+  "rate_job_checked_at_kst": "2026-09-21 10:38:21 KST"
 }

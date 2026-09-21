@@ -1,15 +1,35 @@
 {
-  "updated_at_kst": "2026-09-21 10:38 KST",
-  "current_rate": 1387.7,
-  "previous_close": 1383.94,
-  "rate_updated_at_kst": "2026-09-21 10:38:32 KST",
+  "updated_at_kst": "2026-09-21 16:55 KST",
+  "current_rate": 1376.3,
+  "previous_close": 1390.0,
+  "rate_updated_at_kst": "2026-09-21 16:55:36 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
-    "유가 및 중동 지정학적 불확실성이 부각돼 에너지 수입 의존도가 높은 원화에는 약세 부담 요인으로 작용하고 있습니다."
+    "달러 관련 최신 기사(\"Rupee nudges up as foreign bank dollar sales counter corporate demand\")가 확인돼 달러인덱스 방향성이 원/달러 환율의 핵심 변수로 작용하고 있습니다.",
+    "유가·지정학 관련 최신 기사(\"Tech lifts share markets in Asia as oil slips\")가 확인돼 원화 변동성 확대 요인으로 작용하고 있습니다.",
+    "외환시장 관련 최신 기사(\"Yuan hits fresh multi-year peak as PBOC eases curb ahead of Trump-Xi summit\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
+    {
+      "title": "Yuan hits fresh multi-year peak as PBOC eases curb ahead of Trump-Xi summit",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQcFFpVEZVVTl5VlVUN2VCcnZIWExvUG5ZZ201LTgtdmVUQ1kzVi1BN2dROUtKZHc2RDl4U216NWdCUUlDbVVkZUt3MkhpMlg0bGw3WGY0bjQtNDZoeW82elFGMVF1LUJyVml4bDVfekVWMzBlS1NnQ2FVbTJFaG9ka19hTDd2QzF2WXJhVVk2TUFtNXBfQ3FxN3ZGckE0RWZmU2FKY1lsejZqV3pNdFZfcWQ0QzVrMHRaS0ZFT1hWUTBvQQ?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-21 12:52 KST"
+    },
+    {
+      "title": "Rupee nudges up as foreign bank dollar sales counter corporate demand",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPMDBYYmduall1WjBidjdJdDlwd0cxaG1nVTA3MjJtX0dFa2lla3VNVFB1TGJCeHFveGlVVmNiTG1xa1AyOUlpLTU1WVZaWXF5Q3RxMmpFRTlEYUJuT2RfMTY3U2JsZXJvaXFMTWVzRW5JVlRLRW96SlZEcmdFT3VvQkxQRHpPNkcwa0tsQmlITEtPdzYzMjlqb0p2ZmFmeGstaVltQXF0VEJNWXo2Vm1nd1A1YlhpUUE?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-21 11:37 KST"
+    },
+    {
+      "title": "Tech lifts share markets in Asia as oil slips",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQUUdXdXVKYkpsa2JoQmRNeVpVWWhwb1pIVmUwcUl0QVRFVEFjRDJtREJPbXJWaXVEc0NQSWZZUlhwTl80T3h4eGM1dE9oaXRsWlVueWx0MWt3YXlWbV9PYkZDWVVPb1ZveThvalZfWnBvQ2J5Sjg1UkNOQmU5eDdWN0FvVQ?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-21 09:39 KST"
+    },
     {
       "title": "Tech leads shares higher in Asia, oil eases",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQUUdXdXVKYkpsa2JoQmRNeVpVWWhwb1pIVmUwcUl0QVRFVEFjRDJtREJPbXJWaXVEc0NQSWZZUlhwTl80T3h4eGM1dE9oaXRsWlVueWx0MWt3YXlWbV9PYkZDWVVPb1ZveThvalZfWnBvQ2J5Sjg1UkNOQmU5eDdWN0FvVQ?oc=5",
@@ -17,13 +37,13 @@
       "seen": "2026-09-21 09:39 KST"
     }
   ],
-  "rate_source_time": "2026-09-21 10:38:32 KST",
+  "rate_source_time": "2026-09-21 16:55:36 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 3.76,
-  "rate_change_pct": 0.43,
+  "rate_change": -13.7,
+  "rate_change_pct": -0.99,
   "smbs_base_rate": 1383.8,
   "smbs_rate_date": "2026-09-21",
-  "smbs_rate_updated_at_kst": "2026-09-21 10:38:21 KST",
+  "smbs_rate_updated_at_kst": "2026-09-21 16:55:25 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -31,5 +51,5 @@
     1390.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-21 10:38:21 KST"
+  "rate_job_checked_at_kst": "2026-09-21 16:55:25 KST"
 }

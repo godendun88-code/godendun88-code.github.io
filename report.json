@@ -1,17 +1,29 @@
 {
-  "updated_at_kst": "2026-09-22 00:04 KST",
+  "updated_at_kst": "2026-09-22 04:59 KST",
   "current_rate": 1373.9,
   "previous_close": 1390.0,
-  "rate_updated_at_kst": "2026-09-22 00:04:43 KST",
+  "rate_updated_at_kst": "2026-09-22 04:59:27 KST",
   "rate_source": "KB STAR FX Market Watch",
-  "market_bias": "혼조",
+  "market_bias": "상승 우세",
   "drivers": [
+    "연준의 추가 금리 인상 또는 매파적 기조 우려가 부각돼 달러 강세 압력이 높아지는 요인으로 작용하고 있습니다.",
     "유가 및 중동 지정학적 불확실성이 부각돼 에너지 수입 의존도가 높은 원화에는 약세 부담 요인으로 작용하고 있습니다.",
-    "외환시장 관련 최신 기사(\"COMMENTARY: Morning Bid: Summiteering\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다.",
-    "유가 및 중동 지정학적 불확실성이 부각돼 에너지 수입 의존도가 높은 원화에는 약세 부담 요인으로 작용하고 있습니다."
+    "외환시장 관련 최신 기사(\"COMMENTARY: Morning Bid: Summiteering\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다."
   ],
-  "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
+  "outlook": "달러 강세·금리 상승 계열의 재료가 상대적으로 우세해 원/달러는 단기 상승 압력이 나타날 수 있으나, 국내 수급과 위험선호 회복 여부에 따라 변동성이 예상됩니다.",
   "articles": [
+    {
+      "title": "Gold falls on rising odds of Fed rate hike, stronger dollar",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQQUtKdjloRHZCamhPWmFUa00yUkQwRWZJNFVpbUFiRl9KQmNWbmViLTJQN1hvUmphTzVuMm9ubU5VaXNoQ2NPdVgzM3JPd0t6Qk5XOHQ4ZG96bDRkMlhEMG1kN09OaElGdGxsOEpYdzA2eE53aXBsZm1ZaWhXR1JJY0FSN2NPdzFaX2d6UjY4VU5aWTJOcDNRZC1kTURhRWFPUVNoeU9NTEVUcFRuQmc?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-22 03:45 KST"
+    },
+    {
+      "title": "COMMENTARY: Morning Bid: Summiteering",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQeEFPNUpOV29zcl9nZlFKaEJNS2tjMnN2OUNidVJvanpPRUE0RTVLNm1tOGZSQzMxLXAzVy1sWk1SM2hjNHQ1bU5GbzdxdGsxT09Ob3FNTEJMTnc2dTFPM1p2UHpQRndJVlRTb3ZzWS1UOHZpSjhpLVEwQVA1bU9ZTlduRVlVdUZwVlJpcjBlZTdiZ2pqXzlv?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-22 01:46 KST"
+    },
     {
       "title": "TSX futures rise as easing oil prices lift sentiment",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxORmZ5YVBlb2VjTHBQdmx5cXBFdnJ1YUFpcWR2TFRNWG9SeXNIbGRDZDlqV3ZySGJiZlhCdmJoZEJnQUd2UkpJRFllVk84X3RtRlIyeDBYNDVOWnpaSDdKVjBEdHJPNnFpNDlHRUdGQ0lXa1BNRWRfLUdhd2Y2T0pTSW1FelZNWE1CRTlIN0YxS1B5bjNDOXJ0Mmhn?oc=5",
@@ -19,37 +31,31 @@
       "seen": "2026-09-21 20:09 KST"
     },
     {
-      "title": "COMMENTARY: Morning Bid: Summiteering",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQeEFPNUpOV29zcl9nZlFKaEJNS2tjMnN2OUNidVJvanpPRUE0RTVLNm1tOGZSQzMxLXAzVy1sWk1SM2hjNHQ1bU5GbzdxdGsxT09Ob3FNTEJMTnc2dTFPM1p2UHpQRndJVlRTb3ZzWS1UOHZpSjhpLVEwQVA1bU9ZTlduRVlVdUZwVlJpcjBlZTdiZ2pqXzlv?oc=5",
+      "title": "Rupee ends marginally higher in subdued trade, forward premiums ease",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPMDBYYmduall1WjBidjdJdDlwd0cxaG1nVTA3MjJtX0dFa2lla3VNVFB1TGJCeHFveGlVVmNiTG1xa1AyOUlpLTU1WVZaWXF5Q3RxMmpFRTlEYUJuT2RfMTY3U2JsZXJvaXFMTWVzRW5JVlRLRW96SlZEcmdFT3VvQkxQRHpPNkcwa0tsQmlITEtPdzYzMjlqb0p2ZmFmeGstaVltQXF0VEJNWXo2Vm1nd1A1YlhpUUE?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-21 19:42 KST"
+      "seen": "2026-09-21 11:37 KST"
     },
     {
-      "title": "COMMENTARY: Hormuz shuttles keep oil flowing, but at a high cost",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPY1ZqYkdEeGVjVmotcmtLNWlndkR4bTgzYzlVVThwZ184TG9oX2U2a0ZhYXp1QXZKSnNiT0ZrTngzS1N3OUczT2ZSSFNYUjRPb0VuaEZTcnpDQ0JYTldvMXBlaVRXbU1laHpPUlpSanNXb0pNZnRPcktpVGFtc1h0WG9RMlhMSndOelVoQzBXQmZKbjd5SUZIZEl0ZEl1S0R3VEV4aUd6VlVqMmJQVjE3Wg?oc=5",
+      "title": "Yen weaker as focus on possible intervention increases",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOeEFyOHhrcWVmUjJqdnBjS2NLMUtvajJaU1ZBNHdFNDhobTd6d2VKbEl1cThLOTJOSVdHN3lMUmZXNGluMTJTVW9lckdWSUVKdERCaVFxU1U5ZVowMVE5c2ZxcXE0RDMwLXpfWUtvbDZOajI0N3ZNbG1PUU8yenhDbW5ybG1zbDRjWDRNQXRFVlMwWnZFTnRZbkZVRncxdWlLN0FMX29obHIwOFJyX2gxa0c2Y0E3cTlS?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-21 15:00 KST"
+      "seen": "2026-09-21 10:34 KST"
     },
     {
-      "title": "Indian rupee eyes portfolio flows, oil prices; bonds face liquidity drain",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNaHhZQ0IxYTNRTmk1MloxN2t5c29LeVZodFNTa3VGN3g3cjVvVDRraG9ERjlpbUY3ZTRZblZWWnVTeU1ldEs0dS1qdzJHbFRQcV9Qc0pXek1ERFNraUxZb3FObElIbHdZcTNad3dlMlpDN2VtMnd6SmctWVJNNjdjTGJWWTFvaDVoZDA1WkxHU2lONllmTVJZWVhLQzk2SVM1ZElIbTFFUGVRak1aSGlCLVhuVlhkQWUwX1VN?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-21 10:32 KST"
-    },
-    {
-      "title": "Tech leads shares higher in Asia, oil eases",
+      "title": "Chipmakers fuel global stock gains as oil retreats",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQUUdXdXVKYkpsa2JoQmRNeVpVWWhwb1pIVmUwcUl0QVRFVEFjRDJtREJPbXJWaXVEc0NQSWZZUlhwTl80T3h4eGM1dE9oaXRsWlVueWx0MWt3YXlWbV9PYkZDWVVPb1ZveThvalZfWnBvQ2J5Sjg1UkNOQmU5eDdWN0FvVQ?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-21 09:39 KST"
     }
   ],
-  "rate_source_time": "2026-09-22 00:04:43 KST",
+  "rate_source_time": "2026-09-22 04:59:27 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": -16.1,
   "rate_change_pct": -1.16,
   "smbs_base_rate": 1384.3,
   "smbs_rate_date": "2026-09-22",
-  "smbs_rate_updated_at_kst": "2026-09-22 00:04:29 KST",
+  "smbs_rate_updated_at_kst": "2026-09-22 04:59:11 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -57,5 +63,5 @@
     1390.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-22 00:04:29 KST"
+  "rate_job_checked_at_kst": "2026-09-22 04:59:11 KST"
 }

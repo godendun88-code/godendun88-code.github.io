@@ -1,16 +1,15 @@
 {
-  "updated_at_kst": "2026-09-22 22:23 KST",
-  "current_rate": 1359.1,
+  "updated_at_kst": "2026-09-23 02:45 KST",
+  "current_rate": 1358.6,
   "previous_close": 1373.9,
-  "rate_updated_at_kst": "2026-09-22 22:23:10 KST",
+  "rate_updated_at_kst": "2026-09-23 02:45:41 KST",
   "rate_source": "KB STAR FX Market Watch",
-  "market_bias": "상승 우세",
+  "market_bias": "혼조",
   "drivers": [
-    "미국 물가 관련 최신 기사(\"EXCLUSIVE: Fed's Musalem says more rate hikes likely needed to quell inflation\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
     "유가·지정학 관련 최신 기사(\"Rupee sways with oil and intervention cues, keeping traders light-footed\")가 확인돼 원화 변동성 확대 요인으로 작용하고 있습니다.",
-    "외환시장 관련 최신 기사(\"COMMENTARY: Morning Bid: Summiteering\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다."
+    "유가·지정학 관련 최신 기사(\"Stocks rally on AI optimism and oil below $100\")가 확인돼 원화 변동성 확대 요인으로 작용하고 있습니다."
   ],
-  "outlook": "달러 강세·금리 상승 계열의 재료가 상대적으로 우세해 원/달러는 단기 상승 압력이 나타날 수 있으나, 국내 수급과 위험선호 회복 여부에 따라 변동성이 예상됩니다.",
+  "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
     {
       "title": "Rupee sways with oil and intervention cues, keeping traders light-footed",
@@ -23,39 +22,15 @@
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBYNkdDWExac0tiSmtsc3Exd0ZHOTVDZFJCbTRtZW9jM3hTLU84b3JWbHQ1WmZsUE5pSmUzTHBFUXQzaHBnb01UQXV5ZUljTFl2cS1fbHhFMUtDblA3NHRjeXRzbEpYMjNZempPSmRPbEpIajV0T1BuRDl1SQ?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-22 11:08 KST"
-    },
-    {
-      "title": "Dollar falters after Iran's offer to reopen Hormuz sends oil lower",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPUFUzRjA0NWVBcXQ2Z1Z3WGVOdGQ0XzNQbll4OGRTbnd4T1dxRnFXSzB1d19zNDM1dWFKdE9JTHRDZzlVYlpWT3FpUFFqNUVWVlFmMDM5eXE0UGZXUnpmWjh3SnpWMzJaSTEtUmJMNmZzTGpMODNYNUFlQm5pMXR1VU9fVlZNUEZQOUpMUEVzc2pVcXA0bEQ5amdQUUEzT2VLWXc?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-22 09:53 KST"
-    },
-    {
-      "title": "EXCLUSIVE: Fed's Musalem says more rate hikes likely needed to quell inflation",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVjJsZS0wTVZyNThsTkszYWk2c2xqN19RbzlWSnpqQ3cwZ0xCLWFTT0xaVkpkWkE5MmhDZFg1bHZzUW9EYlBuQVpUOVIydEJoVmR6OVl0ME5WNllZZTRVWXFMYy0yX19mNG9nYU5GbFpMdXdaeTA3ZDFiOXlTTlBGNDBmZ2VxR0I3UzE4M25hVGNZcDZXU0pXSFdXV1FIRVQ3dEh4XzRnLUZDN3do?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-22 03:54 KST"
-    },
-    {
-      "title": "COMMENTARY: Morning Bid: Summiteering",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQeEFPNUpOV29zcl9nZlFKaEJNS2tjMnN2OUNidVJvanpPRUE0RTVLNm1tOGZSQzMxLXAzVy1sWk1SM2hjNHQ1bU5GbzdxdGsxT09Ob3FNTEJMTnc2dTFPM1p2UHpQRndJVlRTb3ZzWS1UOHZpSjhpLVEwQVA1bU9ZTlduRVlVdUZwVlJpcjBlZTdiZ2pqXzlv?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-22 01:46 KST"
-    },
-    {
-      "title": "Europe's STOXX 600 rallies on tech, banks strength as oil prices retreat",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNYWF0aU9mWUM0TjNtekhpT0I0NTM1RXoydldTZDlzNVM4Q0FnRXFCLTlaLUQxdEZfMS1qeU1XV0lsNHhvc09zMTBUQV9xVFhaakdCU196dW5sQ212UHdLVjVySHo5UWczV0dVS2dnY3d2Q2dTbWRkOWFRZ0g5aTlGaEtnQkFQcno2ZjdfdndQdGdSR1c3MjdEXzNCZlhRM216di1sdllQSl9OT3pkcWRSd3p3?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-22 01:40 KST"
     }
   ],
-  "rate_source_time": "2026-09-22 22:23:10 KST",
+  "rate_source_time": "2026-09-23 02:45:41 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": -14.8,
-  "rate_change_pct": -1.08,
-  "smbs_base_rate": 1384.3,
-  "smbs_rate_date": "2026-09-22",
-  "smbs_rate_updated_at_kst": "2026-09-22 16:40:18 KST",
+  "rate_change": -15.3,
+  "rate_change_pct": -1.11,
+  "smbs_base_rate": 1360.0,
+  "smbs_rate_date": "2026-09-23",
+  "smbs_rate_updated_at_kst": "2026-09-23 02:45:28 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,6 +38,5 @@
     1379.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-22 22:22:54 KST",
-  "smbs_rate_error": "RuntimeError: 서울외국환중개 페이지에서 USD 매매기준율을 찾지 못했습니다."
+  "rate_job_checked_at_kst": "2026-09-23 02:45:28 KST"
 }

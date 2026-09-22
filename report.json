@@ -1,36 +1,61 @@
 {
-  "updated_at_kst": "2026-09-23 02:45 KST",
+  "updated_at_kst": "2026-09-23 06:15 KST",
   "current_rate": 1358.6,
   "previous_close": 1373.9,
-  "rate_updated_at_kst": "2026-09-23 02:45:41 KST",
+  "rate_updated_at_kst": "2026-09-23 06:14:46 KST",
   "rate_source": "KB STAR FX Market Watch",
-  "market_bias": "혼조",
+  "market_bias": "상승 우세",
   "drivers": [
-    "유가·지정학 관련 최신 기사(\"Rupee sways with oil and intervention cues, keeping traders light-footed\")가 확인돼 원화 변동성 확대 요인으로 작용하고 있습니다.",
-    "유가·지정학 관련 최신 기사(\"Stocks rally on AI optimism and oil below $100\")가 확인돼 원화 변동성 확대 요인으로 작용하고 있습니다."
+    "연준·금리 관련 최신 기사(\"Fed's Williams says rate-control toolkit is working well\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
+    "미국 물가 관련 최신 기사(\"Fed's Collins says she supported rate hike, warns of elevated inflation risks\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
+    "미 국채금리 하락 관련 보도가 확인돼 달러의 금리 매력이 낮아지면서 원/달러 환율 하락 압력으로 작용하고 있습니다."
   ],
-  "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
+  "outlook": "달러 강세·금리 상승 계열의 재료가 상대적으로 우세해 원/달러는 단기 상승 압력이 나타날 수 있으나, 국내 수급과 위험선호 회복 여부에 따라 변동성이 예상됩니다.",
   "articles": [
+    {
+      "title": "Financial stocks fall with AI and flattening yield curve in focus",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPejZNajQteTk5RElWNTZRWHR4YV8tdF90N19DelgxWHI0X0RSTFgtRm9GVVQ2bWIzaWJ4SEFwdi1DUmZ6cXQ3dm5rYVRZdjJQaGRxMDRsZ0IyZ19mVDdHN0VlUXdObko1Y2R1Qkx1ekNDYXNnY05oN3lsUnVwYjRobXFXU2hrUEx6T3BES3Vad25fTDk5cHBjWjVFQTE4VWZCWHlkMS1TRkltc281QUVWRw?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-23 05:52 KST"
+    },
+    {
+      "title": "Market participants favor Treasury parking some cash in repo market",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPbzJEVHNSbi1ZdndvbzlLT3NMczBzUHVWODNZdm50U0tQcF9TMnFtYmhfUlpKaXF6TzVUU2t6OVktLWh3Y3FUckxsZTd5OHhHc2VNbC1XdV9sa0txVWV2YXQtc01tZ1JSVUVscng0c0l5WTVtVFdjdkdEMHV0NVZlNGpsOGV5SXVjeW12MXY4Qkp2RGhvNEdXVDNzd3gzTm1kRlQ0eFFQeGhkRktIRzJvWlVJVlF3dS1wSnp5MQ?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-23 05:29 KST"
+    },
+    {
+      "title": "Saudi Arabia restarts East-West oil pipeline, sources say",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPNmJidHFzNHlscWlnT2hsWFdKc1hNRFMxOWRnTTRQRHVHbV9tRTJySFJoOGFoZXdNdTIwMngxZlczRmY3dWJxWkNiWTRYclVyT0JoWXQyUHJpNThicmpUNDMwWjNqREdrYmw3Ty1peU9oaEtRdC1GWXE1S0o1eGlrWDZONDhqS0FDbWotZXV1LXBvTEhUWHdlT1BzYU5udjNKTTFXdk1hX0wwVk1yczRTdV94R0p4UUQ1bEViTXJ2S2pEaTVLTFlvdw?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-23 00:12 KST"
+    },
+    {
+      "title": "Fed's Collins says she supported rate hike, warns of elevated inflation risks",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOT0JDdC05Wl9XNzhQVmlyMnBJTmNMYVQtZXM4SmJkeFFBWGFhSmV5eDBTeGdySWtvbEk4VTVpUl9CaGVoYUt0N19qRVF5NldOWVg5dFN3NlJrNW9HSlIwekJralVaNWFEdFhJa3BxYUFQQVRnUkVwb3p0WTRYRV9oTmZCamE5bTJ1WlN0ME1wcVRobDJnLTZqMkMxVlkwOUdoNTU3ZmVQSlZpQ2k1M2E1TFQ4MVlsMFRo?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-23 00:01 KST"
+    },
+    {
+      "title": "Fed's Williams says rate-control toolkit is working well",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeW9XZUd5U3BmaXhkR2F4NEgwNk1FMWtuZEd0UVVFcWgxMUZkOXRDZHJqSzI5X1U2Y01BbXY0OG04c0hmOEpqMHpERWd1WUQyVElTeUdrTmJYNFBHYTFRek1XNkZRb3FEQWxJQUZpZFhkUms0MWl5LXByUDd1Y2tIbHRtVzRzUU1zbXdZQUVwMGRCR1BnZkpnMGFUc0RmNUtvcTl2bFZ1WmE1ejk1?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-22 23:09 KST"
+    },
     {
       "title": "Rupee sways with oil and intervention cues, keeping traders light-footed",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPOWZrdHpXRTZxYlZrdHdteGhlbjY4M3lwblRfTEM3d1RsUzRhVjlxX3B5Vnd1a3I5bFZOZ3J1TnpBNTgyYk90WUY1MVdCSEdqZ2Nha0RNV0NvN2RueGgxZ2ZWd3lrVldUUGJValV0djJmNHY2TV9SNUQyeXBTWjBFY2VLTHV4b3UyTmxQRVFHWEFKQU5RSWtSODhuVmU3RDNhai02NzBjQXd6cGZxSFNRZThR?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-22 11:58 KST"
-    },
-    {
-      "title": "Stocks rally on AI optimism and oil below $100",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBYNkdDWExac0tiSmtsc3Exd0ZHOTVDZFJCbTRtZW9jM3hTLU84b3JWbHQ1WmZsUE5pSmUzTHBFUXQzaHBnb01UQXV5ZUljTFl2cS1fbHhFMUtDblA3NHRjeXRzbEpYMjNZempPSmRPbEpIajV0T1BuRDl1SQ?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-22 11:08 KST"
     }
   ],
-  "rate_source_time": "2026-09-23 02:45:41 KST",
+  "rate_source_time": "2026-09-23 06:14:46 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": -15.3,
   "rate_change_pct": -1.11,
   "smbs_base_rate": 1360.0,
   "smbs_rate_date": "2026-09-23",
-  "smbs_rate_updated_at_kst": "2026-09-23 02:45:28 KST",
+  "smbs_rate_updated_at_kst": "2026-09-23 06:14:32 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -38,5 +63,5 @@
     1379.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-23 02:45:28 KST"
+  "rate_job_checked_at_kst": "2026-09-23 06:14:32 KST"
 }

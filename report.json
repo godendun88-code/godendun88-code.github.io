@@ -1,40 +1,28 @@
 {
-  "updated_at_kst": "2026-09-22 10:50 KST",
+  "updated_at_kst": "2026-09-22 16:42 KST",
   "current_rate": 1362.0,
   "previous_close": 1373.9,
   "rate_updated_at_kst": "2026-09-22 10:50:40 KST",
   "rate_source": "KB STAR FX Market Watch",
-  "market_bias": "상승 우세",
+  "market_bias": "혼조",
   "drivers": [
-    "미국 물가 관련 최신 기사(\"EXCLUSIVE: Fed's Musalem says more rate hikes likely needed to quell inflation\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
-    "미 국채금리 관련 최신 기사(\"Nasdaq notches record-high close, AI optimism reignites and Treasury yields retreat\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다.",
-    "유가·지정학 관련 최신 기사(\"Saudi Arabia ramps up Gulf oil exports after pipeline attack, data shows\")가 확인돼 원화 변동성 확대 요인으로 작용하고 있습니다."
+    "달러 관련 최신 기사(\"Tech rally boosts Asian stocks, dollar firms on rate-hike wagers\")가 확인돼 달러인덱스 방향성이 원/달러 환율의 핵심 변수로 작용하고 있습니다.",
+    "유가 및 중동 지정학적 불확실성이 부각돼 에너지 수입 의존도가 높은 원화에는 약세 부담 요인으로 작용하고 있습니다.",
+    "외환시장 관련 최신 기사(\"COMMENTARY: Morning Bid: Summiteering\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다."
   ],
-  "outlook": "달러 강세·금리 상승 계열의 재료가 상대적으로 우세해 원/달러는 단기 상승 압력이 나타날 수 있으나, 국내 수급과 위험선호 회복 여부에 따라 변동성이 예상됩니다.",
+  "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
     {
-      "title": "Nasdaq notches record-high close, AI optimism reignites and Treasury yields retreat",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbUY0bG1IQkExN3pxSFZoX1VGN0hTNkluZ1hFd1F6VzZwdWtPRExzOXRnS0prRjV1M0I3U2tfUnhZcmJSQkV6STFKbUo2YXB6S1RhNUkycUFJUXg3UXA0WW9CWkRYaVVVUGRqRmRtUERCU1I4M3ZMYXhETmY1Q3FZQU9Ob1MtMzRONFc3NVFrNzVpcTQySVRzd1dENmcxdw?oc=5",
+      "title": "Indian rupee to edge higher as oil slips; inflow haul caps bearish bets",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPOWZrdHpXRTZxYlZrdHdteGhlbjY4M3lwblRfTEM3d1RsUzRhVjlxX3B5Vnd1a3I5bFZOZ3J1TnpBNTgyYk90WUY1MVdCSEdqZ2Nha0RNV0NvN2RueGgxZ2ZWd3lrVldUUGJValV0djJmNHY2TV9SNUQyeXBTWjBFY2VLTHV4b3UyTmxQRVFHWEFKQU5RSWtSODhuVmU3RDNhai02NzBjQXd6cGZxSFNRZThR?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-22 08:12 KST"
+      "seen": "2026-09-22 11:58 KST"
     },
     {
-      "title": "Nasdaq hits record high as chipmakers fuel stock gains",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQUUdXdXVKYkpsa2JoQmRNeVpVWWhwb1pIVmUwcUl0QVRFVEFjRDJtREJPbXJWaXVEc0NQSWZZUlhwTl80T3h4eGM1dE9oaXRsWlVueWx0MWt3YXlWbV9PYkZDWVVPb1ZveThvalZfWnBvQ2J5Sjg1UkNOQmU5eDdWN0FvVQ?oc=5",
+      "title": "Tech rally boosts Asian stocks, dollar firms on rate-hike wagers",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBYNkdDWExac0tiSmtsc3Exd0ZHOTVDZFJCbTRtZW9jM3hTLU84b3JWbHQ1WmZsUE5pSmUzTHBFUXQzaHBnb01UQXV5ZUljTFl2cS1fbHhFMUtDblA3NHRjeXRzbEpYMjNZempPSmRPbEpIajV0T1BuRDl1SQ?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-22 06:00 KST"
-    },
-    {
-      "title": "Yen eases as potential for intervention eyed",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOeEFyOHhrcWVmUjJqdnBjS2NLMUtvajJaU1ZBNHdFNDhobTd6d2VKbEl1cThLOTJOSVdHN3lMUmZXNGluMTJTVW9lckdWSUVKdERCaVFxU1U5ZVowMVE5c2ZxcXE0RDMwLXpfWUtvbDZOajI0N3ZNbG1PUU8yenhDbW5ybG1zbDRjWDRNQXRFVlMwWnZFTnRZbkZVRncxdWlLN0FMX29obHIwOFJyX2gxa0c2Y0E3cTlS?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-22 04:20 KST"
-    },
-    {
-      "title": "EXCLUSIVE: Fed's Musalem says more rate hikes likely needed to quell inflation",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVjJsZS0wTVZyNThsTkszYWk2c2xqN19RbzlWSnpqQ3cwZ0xCLWFTT0xaVkpkWkE5MmhDZFg1bHZzUW9EYlBuQVpUOVIydEJoVmR6OVl0ME5WNllZZTRVWXFMYy0yX19mNG9nYU5GbFpMdXdaeTA3ZDFiOXlTTlBGNDBmZ2VxR0I3UzE4M25hVGNZcDZXU0pXSFdXV1FIRVQ3dEh4XzRnLUZDN3do?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-22 03:54 KST"
+      "seen": "2026-09-22 11:08 KST"
     },
     {
       "title": "COMMENTARY: Morning Bid: Summiteering",
@@ -43,10 +31,22 @@
       "seen": "2026-09-22 01:46 KST"
     },
     {
+      "title": "Europe's STOXX 600 rallies on tech, banks strength as oil prices retreat",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNYWF0aU9mWUM0TjNtekhpT0I0NTM1RXoydldTZDlzNVM4Q0FnRXFCLTlaLUQxdEZfMS1qeU1XV0lsNHhvc09zMTBUQV9xVFhaakdCU196dW5sQ212UHdLVjVySHo5UWczV0dVS2dnY3d2Q2dTbWRkOWFRZ0g5aTlGaEtnQkFQcno2ZjdfdndQdGdSR1c3MjdEXzNCZlhRM216di1sdllQSl9OT3pkcWRSd3p3?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-22 01:40 KST"
+    },
+    {
       "title": "Saudi Arabia ramps up Gulf oil exports after pipeline attack, data shows",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQcThldmdWd2c5aHdfck8zYk1XMWtsa3kweWlXaTNQWEpnV2NIUHhiNTh2cHhoSndCV2Z2QkhwNl9DZEJObFJha2pXWG1JcUZpVXlZU1RqQ2diZUJ0YVV2alRBRmRCampGOGdQQnM4UVV2R2ZMQ2p6WC1QSk5iOGJEWDZ2YXdaSzlLeGtZYnNuVld5MGZESG1tenNaMFlFcExWeVhlZjJBTlJOeHNmVkhBYzFkejJkNno5VWEwU05hRHU4NGlqT1U5UXcxUzU?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-22 00:55 KST"
+    },
+    {
+      "title": "TSX futures rise as easing oil prices lift sentiment",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxORmZ5YVBlb2VjTHBQdmx5cXBFdnJ1YUFpcWR2TFRNWG9SeXNIbGRDZDlqV3ZySGJiZlhCdmJoZEJnQUd2UkpJRFllVk84X3RtRlIyeDBYNDVOWnpaSDdKVjBEdHJPNnFpNDlHRUdGQ0lXa1BNRWRfLUdhd2Y2T0pTSW1FelZNWE1CRTlIN0YxS1B5bjNDOXJ0Mmhn?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-21 20:09 KST"
     }
   ],
   "rate_source_time": "2026-09-22 10:50:40 KST",
@@ -55,13 +55,14 @@
   "rate_change_pct": -0.87,
   "smbs_base_rate": 1384.3,
   "smbs_rate_date": "2026-09-22",
-  "smbs_rate_updated_at_kst": "2026-09-22 10:50:26 KST",
+  "smbs_rate_updated_at_kst": "2026-09-22 16:40:18 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
     1367.0,
     1379.0
   ],
-  "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-22 10:50:26 KST"
+  "rate_check_status": "failed",
+  "rate_job_checked_at_kst": "2026-09-22 16:40:18 KST",
+  "rate_fetch_error": "RuntimeError: KB STAR FX 자동조회 3회 실패: TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n | TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n | TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n"
 }

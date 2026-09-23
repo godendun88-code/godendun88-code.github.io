@@ -1,43 +1,61 @@
 {
-  "updated_at_kst": "2026-09-23 23:58 KST",
+  "updated_at_kst": "2026-09-24 04:02 KST",
   "current_rate": 1367.0,
   "previous_close": 1358.6,
-  "rate_updated_at_kst": "2026-09-23 23:58:39 KST",
+  "rate_updated_at_kst": "2026-09-24 04:01:53 KST",
   "rate_source": "KB STAR FX Market Watch",
-  "market_bias": "상승 우세",
+  "market_bias": "혼조",
   "drivers": [
-    "연준의 추가 금리 인상 또는 매파적 기조 우려가 부각돼 달러 강세 압력이 높아지는 요인으로 작용하고 있습니다.",
-    "미 국채금리 하락 관련 보도가 확인돼 달러의 금리 매력이 낮아지면서 원/달러 환율 하락 압력으로 작용하고 있습니다.",
-    "미 국채금리 관련 최신 기사(\"Market participants favor Treasury parking some cash in repo market\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다."
+    "연준·금리 관련 최신 기사(\"There's a reason Trump is the only one talking about 1% interest rates\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
+    "미 국채금리 관련 최신 기사(\"As 5% Treasury yields lose shock value, investors start worrying about 6%\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다.",
+    "글로벌 달러 약세 관련 보도가 이어지며 원/달러 환율에는 하락 압력으로 작용하고 있습니다."
   ],
-  "outlook": "달러 강세·금리 상승 계열의 재료가 상대적으로 우세해 원/달러는 단기 상승 압력이 나타날 수 있으나, 국내 수급과 위험선호 회복 여부에 따라 변동성이 예상됩니다.",
+  "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
     {
-      "title": "Dollar hits near two-month high on Fed rate hike prospects",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZ09vVklTVy1TeFR1N3AzZE9MUHJnb0dWeTVVUXJOS1N1dE1lT0ZSX1BSZ3RnMzVoVTdXTHhldmxGZkhCYkVTaHRMLWFrU2FUQVJhbzZHWld6TnZ5OFdXTGNDWXNUbTl1NE9qSmV5a3ZiQ0FUa3laZUdZVjRZZmNwazFoNDlKVHlkdEVQdzVLM01pb3M0S0x2VkFqN0dJRzhOLVZkenlmQzNxTVRVVm9reFRUN1psM1ZkbW1ycUhYU0VMM28?oc=5",
+      "title": "There's a reason Trump is the only one talking about 1% interest rates",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPYjQ0bXJDcnFwd3RhY2JmdnRjTVJvT3g4WEc3UGNDZ05mLUN6eGMtSjdSdzdkaFJPYjdKX3BZQWoyM2hVbUJfRjJaWERxNHZaSTNOQnJiblVRd1dKOFBUWXZHSnh5RzBCOUJYR0U3LXBGaTVvQ2RRcUNSMkhVU1o3Q1ZUYURqcFlwQ0R3bVNYTTlSZWdoOWl1SkVsbkUyTm8?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-23 10:43 KST"
+      "seen": "2026-09-24 03:29 KST"
     },
     {
-      "title": "Financial stocks fall with AI and flattening yield curve in focus",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPejZNajQteTk5RElWNTZRWHR4YV8tdF90N19DelgxWHI0X0RSTFgtRm9GVVQ2bWIzaWJ4SEFwdi1DUmZ6cXQ3dm5rYVRZdjJQaGRxMDRsZ0IyZ19mVDdHN0VlUXdObko1Y2R1Qkx1ekNDYXNnY05oN3lsUnVwYjRobXFXU2hrUEx6T3BES3Vad25fTDk5cHBjWjVFQTE4VWZCWHlkMS1TRkltc281QUVWRw?oc=5",
+      "title": "As 5% Treasury yields lose shock value, investors start worrying about 6%",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOZGNNand1cUh2bEZfdjZSUEI0TTRsbTRmc3kyRk9ZdGNMZ1VWdEMwWDVFTVpmUjFnUFNwRlhXQklrUWR6UEc2QUhaWFBKQUQ0M04xRjBjck5tWTA1cS0yRmNNN1BJV2JvYTBnLVpsczZzazN5alR0OW5hdDVNMW1majRMcFdCcXpYQzFWVjlsbGM?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-23 05:52 KST"
+      "seen": "2026-09-24 02:27 KST"
     },
     {
-      "title": "Market participants favor Treasury parking some cash in repo market",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPbzJEVHNSbi1ZdndvbzlLT3NMczBzUHVWODNZdm50U0tQcF9TMnFtYmhfUlpKaXF6TzVUU2t6OVktLWh3Y3FUckxsZTd5OHhHc2VNbC1XdV9sa0txVWV2YXQtc01tZ1JSVUVscng0c0l5WTVtVFdjdkdEMHV0NVZlNGpsOGV5SXVjeW12MXY4Qkp2RGhvNEdXVDNzd3gzTm1kRlQ0eFFQeGhkRktIRzJvWlVJVlF3dS1wSnp5MQ?oc=5",
+      "title": "Canadian dollar hits eight-week low as investors brace for domestic slowdown",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMmlGYjdQUmtLVUhEdTRXak5uM3pmTWRlTnprTy1pRFo5NDNzSmR1ZG00bkRlbl9GVkpjS0hrdXR5UE5ZS1M4c0hkTGxMaGNyRnpDdll1MUVENC12Rm1PMEZDZklveUozX1lSTzc1WjdFcUN0MkVwcnQ4dnRybFJ3RTFFWXJVY3JGeWZLMnVTSDc1dmNHMmZsVFN2cGgtRGMxU003LS05RU9kaEh4TXhXenp1LUM?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-23 05:29 KST"
+      "seen": "2026-09-24 02:08 KST"
+    },
+    {
+      "title": "US 30-year mortgage rate tops 7%, hits 2-year high",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPV2lEbUMzSXNFWWNnZUNQQ3NoQlkyQU5mZGtvYU10NDRBZXFHcXNjY2wyejZhWjVCSTNIQ2l2UmRGRmdTVW9wM1Z6Q1B6aklCbnUyTzJxTE1pcVhWTjlSeElhWTVma1d2bFNZcVJ5Q2dtZVYyb2l2R2pYNlZrd2NBRU4tT1RMVHF0TWpmYVFvdUtPVzFaUHNUeHNR?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-24 02:05 KST"
+    },
+    {
+      "title": "Wall Street falls as oil rebounds, Middle East tensions simmer",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQeEU4dTJoZV9XeFR4cENDYXhRMG1Tb3E4aHFNc1RoUEpHeVJNYmtnS1RHb0lVdzg5S1BKelZiUkR4eER2bkFZc0tjcWxlRFEyODRlVlRoNlNmblFabUhsZnJwTllqbmd2RUQ5NmI0M0JVc3B3aVkwcmt0SE9vTERyLVhFRzIybV9OMU94QlF6UGdORGhJZldzTUJ6X1F2TjhTRVpLNDZWeVN6WU1hR0ZLRw?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-24 01:29 KST"
+    },
+    {
+      "title": "South Africa raises interest rate, citing Iran war price shocks",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNV2FXZDZQMjRCRlRDREtBYmlpenVnV0d4eFdWNVk5RFhhX3FTTE1teUtsaTRyR3U4VldvZThscHM5blJ5cUdNWnNQa2dnTWYzYlh3NXRpREJSMlFLLUVibE9OYjIxelpqS3lHRE9kN1JVSFM1Z1hxTGU1VXJvSnpWV0k4Vk5YTDlKM0E5QXVDMkRhODJXT1VlcklqejF6OFZWTUNHZE9wMFg?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-23 23:42 KST"
     }
   ],
-  "rate_source_time": "2026-09-23 23:58:39 KST",
+  "rate_source_time": "2026-09-24 04:01:53 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": 8.4,
   "rate_change_pct": 0.62,
   "smbs_base_rate": 1360.0,
-  "smbs_rate_date": "2026-09-23",
-  "smbs_rate_updated_at_kst": "2026-09-23 23:58:26 KST",
+  "smbs_rate_date": "2026-09-24",
+  "smbs_rate_updated_at_kst": "2026-09-24 04:01:38 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -45,5 +63,5 @@
     1360.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-23 23:58:26 KST"
+  "rate_job_checked_at_kst": "2026-09-24 04:01:38 KST"
 }

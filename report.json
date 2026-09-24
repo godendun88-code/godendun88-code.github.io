@@ -1,61 +1,61 @@
 {
-  "updated_at_kst": "2026-09-24 07:16 KST",
+  "updated_at_kst": "2026-09-24 15:08 KST",
   "current_rate": 1367.0,
   "previous_close": 1358.6,
-  "rate_updated_at_kst": "2026-09-24 09:52:36 KST",
+  "rate_updated_at_kst": "2026-09-24 15:08:35 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "상승 우세",
   "drivers": [
-    "연준·금리 관련 최신 기사(\"There's a reason Trump is the only one talking about 1% interest rates\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
-    "미국 물가 관련 최신 기사(\"Inflation pressures raise prospect of Fed rate hike on eve of elections\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
-    "미 국채금리 관련 최신 기사(\"COMMENTARY: Trading Day: US yields cross 5% threshold​\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다."
+    "연준·금리 관련 최신 기사(\"Gold muted as Fed policy tightening prospects weigh\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
+    "미국 물가 관련 최신 기사(\"Dollar perched at two-month high as hot PMI fuels inflation fears, rate hike bets\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
+    "미 국채금리 관련 최신 기사(\"Rupee faces pressure from oil, US yields; RBI deputy flags case for gains\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다."
   ],
   "outlook": "달러 강세·금리 상승 계열의 재료가 상대적으로 우세해 원/달러는 단기 상승 압력이 나타날 수 있으나, 국내 수급과 위험선호 회복 여부에 따라 변동성이 예상됩니다.",
   "articles": [
     {
-      "title": "COMMENTARY: Trading Day: US yields cross 5% threshold​",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTjMwNHgtV29pdXRzWVdEVEQ1cjY5VktYS1RyUWZBcFhRMUkxNnREakZ6dUxBMVdWUUgwN0FTNGIzeEhLU21pUlJyVDB4c2lXcm94d0pqSW13NG9BVWM5LUw3YWtVRFFiNHNnLUJOZFNSd0VhOVZFT3U3b0ZPWXprTFR6UENiSTEzcFo0ZG5kN2VJQmd5WGV0YnBLVWZrMmVEb2hmdnZ3?oc=5",
+      "title": "Rupee faces pressure from oil, US yields; RBI deputy flags case for gains",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQYWxRcGJGem9jUEZ0dXY2NDVGblVTZElHakV4bmVHQXl5SHpyemdjME1vZFlOMldrWk5uWm5ncFI3dHNpdUJpS2FPUHFxTGc3bVFFQjF3bmR2ckdpaU1NUXl6OUNudzlYLWE4ZEVHelRFNk5GdzRRQzV2ZFRlNmJUSGtZSFhTWEFmMmdIdlRTVjlucjVhTEE3STJtdGppemZpM2Vka0RsTE1qbjZJZHlZ?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-24 06:11 KST"
+      "seen": "2026-09-24 11:45 KST"
     },
     {
-      "title": "As 5% Treasury yields lose shock value, investors start worrying about 6%",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOZGNNand1cUh2bEZfdjZSUEI0TTRsbTRmc3kyRk9ZdGNMZ1VWdEMwWDVFTVpmUjFnUFNwRlhXQklrUWR6UEc2QUhaWFBKQUQ0M04xRjBjck5tWTA1cS0yRmNNN1BJV2JvYTBnLVpsczZzazN5alR0OW5hdDVNMW1majRMcFdCcXpYQzFWVjlsbGM?oc=5",
+      "title": "Gold muted as Fed policy tightening prospects weigh",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPenM1U09oVWJmVW8zbUtuN1ZLcWU1dGRKa1Rqdk1FU0k5QmVDSGRwcG9hR1NVVFVYOGhkSWpMdVF0aWFZMWx6TlNSWHZiajl5UWdzbWFZNmpGUW53MEhhbGgteHgtOGZGTzdlVGdWVjhWR2pMSzdJSWdCSmVTRHA4RVlCWS1tNU1NQU9QanFEQTRnNjhSSlhFQ052dEE?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-24 05:58 KST"
+      "seen": "2026-09-24 11:24 KST"
     },
     {
-      "title": "Inflation pressures raise prospect of Fed rate hike on eve of elections",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNU0ZXSlEta0N4WGxzcHJBNUM1cUI0d0U4TGFwa2NMbDM4U0Q3MWt0YXY5TGpQQ2xxdmJWNm0yeGl0ckJNanVPOU5HOUd5R0hNc19pZXcyd3FwWkFkY1hyUEpOdTZyMVZoN3R0eHZLdkxUYzRXV1hoRDctTXhUa3pvckNvLUktNDBmWm1OV3lhOTluQVRDQzUyQTN3Q0V0YmN2Q1E?oc=5",
+      "title": "Dollar perched at two-month high as hot PMI fuels inflation fears, rate hike bets",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPWmQ0RTlyNTJnNVVWaUx1Uk1pbTl0UWVTOXFORWhmM3dqdHJXZDdWZFlHRmNQdS1zSHhYWG1RTDVBeFlWdFhxT0N5WTBnNFQ4VFBQdFNvUk01YUFRUmZGQUZUa0h1ZUJqdkNnaWRXXzl2cWRlRE5vM1FuR1hfdnFNcnFRaVJYdGtPX081cXN5dTFSR0JwbzhYYnhHclN4UEVmU3g4X2lNWlJGMkd5S1lSZFlhUFdWMVpYUlc0?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-24 05:24 KST"
+      "seen": "2026-09-24 11:02 KST"
     },
     {
-      "title": "Oil settles up around 4% as Iran's president vows to never surrender",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOeFhpNFFXWGZ2azRGVllBNXpwLXZQeTFySkY3Vi12SmpTNmMyY09oU3RMa3Rqb21pNUl0ZGhSbVBWQnZBOXdOb19xSlU3TnNra0F6OWowVHp5RHlSblJGTVhXandWeEFJaDBOTi1VcjdrSjVNeGVJZnVjeUJXM3NVYUgxZ28yQkVuWXNhc1pxd093NVVBTHZnWm40c01OS00zZHAwRWVR?oc=5",
+      "title": "Bonds shaky, oil eases off highs amid trade, peace talks",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOWEltUDlJNE9jWHA5VlhOV21YTl9vZnZzMjQ1ZldQTmNSOHQ4NDMyZzlVbHVXZ1NqN01WR0d1aWxKVTQ1LURRTGhKQjlYbzUydHBYRVVuUkt3dFhRWDB1VDdWQTZhVy1Fb0pIM1hRa0UtTWZGQ1ZIa0MzSm1SUEdPR2pjNA?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-24 03:48 KST"
+      "seen": "2026-09-24 10:55 KST"
     },
     {
-      "title": "There's a reason Trump is the only one talking about 1% interest rates",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPYjQ0bXJDcnFwd3RhY2JmdnRjTVJvT3g4WEc3UGNDZ05mLUN6eGMtSjdSdzdkaFJPYjdKX3BZQWoyM2hVbUJfRjJaWERxNHZaSTNOQnJiblVRd1dKOFBUWXZHSnh5RzBCOUJYR0U3LXBGaTVvQ2RRcUNSMkhVU1o3Q1ZUYURqcFlwQ0R3bVNYTTlSZWdoOWl1SkVsbkUyTm8?oc=5",
+      "title": "Oil prices edge lower as Iran says it is open to diplomacy to end the war",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOR1FxSEFPZkVpeHV0LS1WTURzc3lOWWM3d0dfTG1mQ0hBWmZiLWhia1FPbnUzdm5yMVhuZE1RenYyOTNqYmFqT2d5MzVtNE1IcHJCNGJ4aXU0US1Tc09OWnJINzRpQkFTWXdsczlhcE50N25wT052OUZhS21QOG9haGV4XzFTZnQ4NzNTWFlVbU1QcDRyZC0yejVxX1dabVZmWHMyMVM0dWE5RGpNWXZNVHBn?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-24 03:29 KST"
+      "seen": "2026-09-24 10:17 KST"
     },
     {
-      "title": "Canadian dollar hits eight-week low as investors brace for domestic slowdown",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMmlGYjdQUmtLVUhEdTRXak5uM3pmTWRlTnprTy1pRFo5NDNzSmR1ZG00bkRlbl9GVkpjS0hrdXR5UE5ZS1M4c0hkTGxMaGNyRnpDdll1MUVENC12Rm1PMEZDZklveUozX1lSTzc1WjdFcUN0MkVwcnQ4dnRybFJ3RTFFWXJVY3JGeWZLMnVTSDc1dmNHMmZsVFN2cGgtRGMxU003LS05RU9kaEh4TXhXenp1LUM?oc=5",
+      "title": "Japan's 10-year bond yield hits 30-year high after US Treasury selloff",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPQXBZNDBQTW02eEF0MFZoT0dHRnp3d3Q2bU1YTmFMQWxpdEFWM0FTSDRpV2FnSjdmOGVzT0dTaWFqT1cwS0s3SEUwdnV1cS02UlVBRGkzb1NBcThtZjBTT2Zsd2NUWTB1ejMxUHlxTWVrMmFkUktDbFZYbHJZbDAwMXJWX040YzA3WjRiZjhWNWQyMlQ3cmRNSWhySjQxaVl0S0Q4YXc5bGFNRDU1S3dqMHVnWVVnTFdaVW5TcXlCeVdOdw?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-24 02:08 KST"
+      "seen": "2026-09-24 09:58 KST"
     }
   ],
-  "rate_source_time": "2026-09-24 09:52:36 KST",
+  "rate_source_time": "2026-09-24 15:08:35 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": 8.4,
   "rate_change_pct": 0.62,
   "smbs_base_rate": 1360.0,
   "smbs_rate_date": "2026-09-24",
-  "smbs_rate_updated_at_kst": "2026-09-24 09:52:20 KST",
+  "smbs_rate_updated_at_kst": "2026-09-24 15:08:21 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1360.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-24 09:52:20 KST"
+  "rate_job_checked_at_kst": "2026-09-24 15:08:21 KST"
 }

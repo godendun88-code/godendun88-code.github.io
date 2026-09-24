@@ -1,55 +1,55 @@
 {
-  "updated_at_kst": "2026-09-24 15:08 KST",
+  "updated_at_kst": "2026-09-25 02:32 KST",
   "current_rate": 1367.0,
   "previous_close": 1358.6,
-  "rate_updated_at_kst": "2026-09-24 21:11:04 KST",
+  "rate_updated_at_kst": "2026-09-25 02:32:24 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "상승 우세",
   "drivers": [
-    "연준·금리 관련 최신 기사(\"Gold muted as Fed policy tightening prospects weigh\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
-    "미국 물가 관련 최신 기사(\"Dollar perched at two-month high as hot PMI fuels inflation fears, rate hike bets\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
-    "미 국채금리 관련 최신 기사(\"Rupee faces pressure from oil, US yields; RBI deputy flags case for gains\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다."
+    "연준의 추가 금리 인상 또는 매파적 기조 우려가 부각돼 달러 강세 압력이 높아지는 요인으로 작용하고 있습니다.",
+    "미국 고용 관련 최신 기사(\"US weekly jobless claims near 57-year lows; price reductions boost new home sales\")가 확인돼 고용지표가 연준 금리 기대와 달러 방향성을 좌우하는 변수로 부각되고 있습니다.",
+    "미국 물가 관련 최신 기사(\"Fed again hoping for a pain-free landing from current inflation spike\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다."
   ],
   "outlook": "달러 강세·금리 상승 계열의 재료가 상대적으로 우세해 원/달러는 단기 상승 압력이 나타날 수 있으나, 국내 수급과 위험선호 회복 여부에 따라 변동성이 예상됩니다.",
   "articles": [
     {
-      "title": "Rupee faces pressure from oil, US yields; RBI deputy flags case for gains",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQYWxRcGJGem9jUEZ0dXY2NDVGblVTZElHakV4bmVHQXl5SHpyemdjME1vZFlOMldrWk5uWm5ncFI3dHNpdUJpS2FPUHFxTGc3bVFFQjF3bmR2ckdpaU1NUXl6OUNudzlYLWE4ZEVHelRFNk5GdzRRQzV2ZFRlNmJUSGtZSFhTWEFmMmdIdlRTVjlucjVhTEE3STJtdGppemZpM2Vka0RsTE1qbjZJZHlZ?oc=5",
+      "title": "US weekly jobless claims near 57-year lows; price reductions boost new home sales",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbkFjbktqV0kzSmJtNEZPU2p1MWRCWTdKLWVySDEtTnJMbUdVR1p4VGZ1YnVlM0tkcEsxSFlsdTY4b1RodjlqVDQ5V0hoT3FubnE1N1c5U0RZOTgyZ0JsQnFWQmJQTGx2QUNTZmJROHN4dmN3VnNXNXRnTVBsQlFIZzVqb0JjMzl1MlVEeDFUNUFJQm53RVU5WkFGd3VhNjhXbHlGVUFnYWZ0VGM?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-24 11:45 KST"
+      "seen": "2026-09-25 02:01 KST"
     },
     {
-      "title": "Gold muted as Fed policy tightening prospects weigh",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPenM1U09oVWJmVW8zbUtuN1ZLcWU1dGRKa1Rqdk1FU0k5QmVDSGRwcG9hR1NVVFVYOGhkSWpMdVF0aWFZMWx6TlNSWHZiajl5UWdzbWFZNmpGUW53MEhhbGgteHgtOGZGTzdlVGdWVjhWR2pMSzdJSWdCSmVTRHA4RVlCWS1tNU1NQU9QanFEQTRnNjhSSlhFQ052dEE?oc=5",
+      "title": "Wall St slips as Middle East escalations lifts oil; Trump-Xi talks in focus",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdkxPUUdXbDkwcTdtbC1yM0NWMldPb2lpeExQRVh2SVFWQUl4Q3haSlp4U04yU1BoanNVeWF5bTIwbWJRQXVEQkIwMm0taFZ4eDJ3dUVjOTVuSWhEMVRZNV9vdUNab01CS1o4aUpoQVE5TmFqV1BMTFVaZVJzVEFES3Y4S1BLZFQ1TDFtR2dLZklJRkdFN3hTaENjVDhSc05sT1BVZ09idlU1ZGkwdTZLRi1n?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-24 11:24 KST"
+      "seen": "2026-09-25 01:53 KST"
     },
     {
-      "title": "Dollar perched at two-month high as hot PMI fuels inflation fears, rate hike bets",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPWmQ0RTlyNTJnNVVWaUx1Uk1pbTl0UWVTOXFORWhmM3dqdHJXZDdWZFlHRmNQdS1zSHhYWG1RTDVBeFlWdFhxT0N5WTBnNFQ4VFBQdFNvUk01YUFRUmZGQUZUa0h1ZUJqdkNnaWRXXzl2cWRlRE5vM1FuR1hfdnFNcnFRaVJYdGtPX081cXN5dTFSR0JwbzhYYnhHclN4UEVmU3g4X2lNWlJGMkd5S1lSZFlhUFdWMVpYUlc0?oc=5",
+      "title": "Canadian dollar hits two-month low as retail sales post monthly decline",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPU2ljTWszQ2NJUGtjUXQwVDZLeFYxR0ZCMVlPS2xfMjF0OTVadmZvVk01c2U3OGNqT1UzUTJEZ2JEbl9TOWVWRE1ZV3pBbkFndWpZWUFkQ25HQTRwejBFcWtzc0VCZ2VhZGZsV1hnZlgzTUNubkFRVjNxelBGSGV1SXQySUdSQllxWWV3NHVqTzJKaW5NSkxrdUJJQ1B5Q19GZTRCb3NYVHpUQ21heG9wUHRsdw?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-24 11:02 KST"
+      "seen": "2026-09-25 01:49 KST"
     },
     {
-      "title": "Bonds shaky, oil eases off highs amid trade, peace talks",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOWEltUDlJNE9jWHA5VlhOV21YTl9vZnZzMjQ1ZldQTmNSOHQ4NDMyZzlVbHVXZ1NqN01WR0d1aWxKVTQ1LURRTGhKQjlYbzUydHBYRVVuUkt3dFhRWDB1VDdWQTZhVy1Fb0pIM1hRa0UtTWZGQ1ZIa0MzSm1SUEdPR2pjNA?oc=5",
+      "title": "Hedge funds sour on basis trade as Treasury selloff continues",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNX3JBNU5Xd01SNmh6MUZJdkpYR29fb1ZadV9HX1FaMVZhVVEzREVwTGZKQVVxUHNsSEUtQWF3SlJYWTc1UkxsdXQ2VnFPNk1wRjI1cWR6TWJ6QmplekltYWVBTnBBRm1BcWpFRG95MG45WVJKaHJXWE9SNG80cFZIOHBrWm12U2txZGp2YWpmbkVjMHVwcElUZ0xrVE5fc1JHcm01X3REQ0QwZFdNMUowVQ?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-24 10:55 KST"
+      "seen": "2026-09-25 00:18 KST"
     },
     {
-      "title": "Oil prices edge lower as Iran says it is open to diplomacy to end the war",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOR1FxSEFPZkVpeHV0LS1WTURzc3lOWWM3d0dfTG1mQ0hBWmZiLWhia1FPbnUzdm5yMVhuZE1RenYyOTNqYmFqT2d5MzVtNE1IcHJCNGJ4aXU0US1Tc09OWnJINzRpQkFTWXdsczlhcE50N25wT052OUZhS21QOG9haGV4XzFTZnQ4NzNTWFlVbU1QcDRyZC0yejVxX1dabVZmWHMyMVM0dWE5RGpNWXZNVHBn?oc=5",
+      "title": "Explainer: Treasury yields are rising - why does it matter?",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPald0X3dXV1ljdkIzY3NfdVd4d0xKeGZkcGUxemZXalVhaEZ5WnVXNHZ6R3RkdmNxTENsUGkzam1uU3MyOFU1cWM2dHRpaG1jQ0tNZ0U4Q3VDclM3TjVHbXk5Z05kVUlLWjd0cFlXendfajc1bTNLb3BfeWJ5TkxJSjVlS0kzNl90SWRoTWdFZ0xkd296cmZkMm8xcGhvN2M?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-24 10:17 KST"
+      "seen": "2026-09-24 22:40 KST"
     },
     {
-      "title": "Japan's 10-year bond yield hits 30-year high after US Treasury selloff",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPQXBZNDBQTW02eEF0MFZoT0dHRnp3d3Q2bU1YTmFMQWxpdEFWM0FTSDRpV2FnSjdmOGVzT0dTaWFqT1cwS0s3SEUwdnV1cS02UlVBRGkzb1NBcThtZjBTT2Zsd2NUWTB1ejMxUHlxTWVrMmFkUktDbFZYbHJZbDAwMXJWX040YzA3WjRiZjhWNWQyMlQ3cmRNSWhySjQxaVl0S0Q4YXc5bGFNRDU1S3dqMHVnWVVnTFdaVW5TcXlCeVdOdw?oc=5",
+      "title": "COMMENTARY: Dollar rally tells Trump Treasury that the ‘house’ is losing",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQS0J2SEdHUnZKRm5oQ1VIS2ZhaThTb3BOZWJFM0NaWklEWlJXb1A1Z2lpOXE0Q1lFdmt1RE5RWW5xblBQdEZKdHY1UUlLMm91T0tCRzVDbW83VTNnMXVKeHgyQmJNeG1Ic0MzSkxrR3NETlBTVWxEYVZVZjh2U2ZyUGROS2J3QTd4bm1Sd1hKX1N5ZWtfQU8zcWF0XzZYRmRyOEUxVW1sVFJnS0Z5dVgybGNGN1dRN1p4bUpMZW9rM1BHMl9hRGlRU1JjVm8?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-24 09:58 KST"
+      "seen": "2026-09-24 22:03 KST"
     }
   ],
-  "rate_source_time": "2026-09-24 21:11:04 KST",
+  "rate_source_time": "2026-09-25 02:32:24 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": 8.4,
   "rate_change_pct": 0.62,
@@ -63,5 +63,6 @@
     1360.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-24 21:10:49 KST"
+  "rate_job_checked_at_kst": "2026-09-25 02:32:08 KST",
+  "smbs_rate_error": "RuntimeError: 서울외국환중개 페이지에서 USD 매매기준율을 찾지 못했습니다."
 }

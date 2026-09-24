@@ -1,28 +1,28 @@
 {
-  "updated_at_kst": "2026-09-25 05:46 KST",
+  "updated_at_kst": "2026-09-25 08:52 KST",
   "current_rate": 1367.0,
   "previous_close": 1358.6,
-  "rate_updated_at_kst": "2026-09-25 05:46:22 KST",
+  "rate_updated_at_kst": "2026-09-25 08:52:29 KST",
   "rate_source": "KB STAR FX Market Watch",
-  "market_bias": "상승 우세",
+  "market_bias": "혼조",
   "drivers": [
-    "연준의 추가 금리 인상 또는 매파적 기조 우려가 부각돼 달러 강세 압력이 높아지는 요인으로 작용하고 있습니다.",
     "미국 고용 관련 최신 기사(\"US weekly jobless claims near 57-year lows; price reductions boost new home sales\")가 확인돼 고용지표가 연준 금리 기대와 달러 방향성을 좌우하는 변수로 부각되고 있습니다.",
-    "미국 물가 관련 최신 기사(\"Fed again hoping for a pain-free landing from current inflation spike\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다."
+    "미국 물가 관련 최신 기사(\"Fed again hoping for a pain-free landing from current inflation spike\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
+    "미 국채금리 관련 최신 기사(\"COMMENTARY: Dollar rally tells Trump Treasury that the ‘house’ is losing\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다."
   ],
-  "outlook": "달러 강세·금리 상승 계열의 재료가 상대적으로 우세해 원/달러는 단기 상승 압력이 나타날 수 있으나, 국내 수급과 위험선호 회복 여부에 따라 변동성이 예상됩니다.",
+  "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
     {
-      "title": "Wall Street dips as investors focus on US-Iran war",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdkxPUUdXbDkwcTdtbC1yM0NWMldPb2lpeExQRVh2SVFWQUl4Q3haSlp4U04yU1BoanNVeWF5bTIwbWJRQXVEQkIwMm0taFZ4eDJ3dUVjOTVuSWhEMVRZNV9vdUNab01CS1o4aUpoQVE5TmFqV1BMTFVaZVJzVEFES3Y4S1BLZFQ1TDFtR2dLZklJRkdFN3hTaENjVDhSc05sT1BVZ09idlU1ZGkwdTZLRi1n?oc=5",
+      "title": "COMMENTARY: Dollar rally tells Trump Treasury that the ‘house’ is losing",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQS0J2SEdHUnZKRm5oQ1VIS2ZhaThTb3BOZWJFM0NaWklEWlJXb1A1Z2lpOXE0Q1lFdmt1RE5RWW5xblBQdEZKdHY1UUlLMm91T0tCRzVDbW83VTNnMXVKeHgyQmJNeG1Ic0MzSkxrR3NETlBTVWxEYVZVZjh2U2ZyUGROS2J3QTd4bm1Sd1hKX1N5ZWtfQU8zcWF0XzZYRmRyOEUxVW1sVFJnS0Z5dVgybGNGN1dRN1p4bUpMZW9rM1BHMl9hRGlRU1JjVm8?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-25 03:36 KST"
+      "seen": "2026-09-25 08:33 KST"
     },
     {
-      "title": "Global bond selloff deepens, as US 30-year yields hit highest since 2004",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOOG41MExjN21pM3Z3V2JFMGkydXNYQW5YSEFfbTd2N2pOenR6R3pKQ0ZVWnVQZElXXzdBSXNLdTl4Q0ZPMzItVkIzR3hWNjZrMUNRZzJsa2xYQVNvQ1h2REJuNW1HTGpCb2lsdjdyWkZacjV6NnI1aHA4Y2JFN0sxYm5TYlBTSkhGWkd6b2dWaWNpbTVHYkhWb0lnNFo1al9scmVqT0tXZkh5ZFU?oc=5",
+      "title": "COMMENTARY: Trading Day: Rout of control",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOdWxIVkRkSV84N1AySnJXQ0hCdlNRQWVvckdleWJRNjVYZEIzdkozbzhwVmc2Q2dIZkx1N0hLNXNsUW9mbmxYNkZpSl9DQWFjOFhzd2djY2RzQjNkNFB2dE9aY3ViSGtrSE45Wm5ieHFNOXhhMzJCMzROcXZkak5LZDBoa24td01RQXM3WGs2Q2pJV2piMXJLWlYwVFg4M1lvV1RrR0d3?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-25 02:16 KST"
+      "seen": "2026-09-25 06:14 KST"
     },
     {
       "title": "US weekly jobless claims near 57-year lows; price reductions boost new home sales",
@@ -31,31 +31,31 @@
       "seen": "2026-09-25 02:01 KST"
     },
     {
+      "title": "Wall Street slips as Middle East escalations lifts oil; Trump-Xi talks in focus",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQd3B0Y0N4ZlRVX2NhdDlTYnNtWlRreHh6cEJpNG9vdk11NWJKbnZkdTZmd2M0REJNLVJYTF81V2dDSlMyUUVMaEtNVzhuN1lCMjEzeElBN29YLUR0blFvRDBuMHBITGRxVTBTaE5RcTlFMmpsTDIta284Zk9oQV9rakhRU0NXM3FBZk5fQy1IejZNNmxHeDhZYkVQSjhCbzF6VXk3OTJLQ2hTdl96QXp3QlU1c3BiUnhoTjRTU3VZa9IBxAFBVV95cUxPMk12SmptU0JXaE5NRzlGMFdZMTBHUWxqMnNCRHdBR2ZTMGVPd2s5LVR6NXB6OHhTUG9qRzl1Y1JhYURjUGg5dFlvVVJraFBadlF1bWwyMDY5SnZvWHM0UDhqTGduNTZkWXpSMFg3dDIyUTV1Ym4tYmZobWFaazRQMEJBYklLZ0d4RmR4VnNycmk0Y0RaemVKQklnOW1ndGZLSzJEcVNmbWhySVlRdkxpb2lxX1c2YTBnOEUtalctNTFnZlVK?oc=5",
+      "domain": "The Korea Times",
+      "seen": "2026-09-25 01:58 KST"
+    },
+    {
       "title": "Canadian dollar hits two-month low as retail sales post monthly decline",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPU2ljTWszQ2NJUGtjUXQwVDZLeFYxR0ZCMVlPS2xfMjF0OTVadmZvVk01c2U3OGNqT1UzUTJEZ2JEbl9TOWVWRE1ZV3pBbkFndWpZWUFkQ25HQTRwejBFcWtzc0VCZ2VhZGZsV1hnZlgzTUNubkFRVjNxelBGSGV1SXQySUdSQllxWWV3NHVqTzJKaW5NSkxrdUJJQ1B5Q19GZTRCb3NYVHpUQ21heG9wUHRsdw?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-25 01:49 KST"
     },
     {
-      "title": "Hedge funds sour on basis trade as Treasury selloff continues",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNX3JBNU5Xd01SNmh6MUZJdkpYR29fb1ZadV9HX1FaMVZhVVEzREVwTGZKQVVxUHNsSEUtQWF3SlJYWTc1UkxsdXQ2VnFPNk1wRjI1cWR6TWJ6QmplekltYWVBTnBBRm1BcWpFRG95MG45WVJKaHJXWE9SNG80cFZIOHBrWm12U2txZGp2YWpmbkVjMHVwcElUZ0xrVE5fc1JHcm01X3REQ0QwZFdNMUowVQ?oc=5",
+      "title": "European shares slip as rising oil, bond yield weigh; Trump-Xi talks eyed",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOVjZMb3BabmVIWnZIMDg0YnNpSDNfTWxGYnU4bmdrbXBJdEJyVUF6M2hjUUtYcnhqSlFYMDlibVptTWowZVRGRmtKcVJBUW9QMXNQcmJyNi11aEE2Z3lySGd4NlVDclVEemNzODdodVlqNHJpYlNncWFKcFByeVV4VzlYZkdyNUtwMHIzYUVhTHB1clZfbzIyTzB1WjBGOVJkVE5OUklGVzc3NkFMa1I5LTdR?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-25 00:18 KST"
-    },
-    {
-      "title": "Explainer: Treasury yields are rising - why does it matter?",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPald0X3dXV1ljdkIzY3NfdVd4d0xKeGZkcGUxemZXalVhaEZ5WnVXNHZ6R3RkdmNxTENsUGkzam1uU3MyOFU1cWM2dHRpaG1jQ0tNZ0U4Q3VDclM3TjVHbXk5Z05kVUlLWjd0cFlXendfajc1bTNLb3BfeWJ5TkxJSjVlS0kzNl90SWRoTWdFZ0xkd296cmZkMm8xcGhvN2M?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-24 22:40 KST"
+      "seen": "2026-09-25 01:40 KST"
     }
   ],
-  "rate_source_time": "2026-09-25 05:46:22 KST",
+  "rate_source_time": "2026-09-25 08:52:29 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": 8.4,
   "rate_change_pct": 0.62,
   "smbs_base_rate": 1360.0,
   "smbs_rate_date": "2026-09-25",
-  "smbs_rate_updated_at_kst": "2026-09-25 05:46:09 KST",
+  "smbs_rate_updated_at_kst": "2026-09-25 08:52:17 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1360.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-25 05:46:09 KST"
+  "rate_job_checked_at_kst": "2026-09-25 08:52:17 KST"
 }

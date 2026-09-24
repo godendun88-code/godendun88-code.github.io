@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-09-25 02:32 KST",
+  "updated_at_kst": "2026-09-25 05:46 KST",
   "current_rate": 1367.0,
   "previous_close": 1358.6,
-  "rate_updated_at_kst": "2026-09-25 02:32:24 KST",
+  "rate_updated_at_kst": "2026-09-25 05:46:22 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "상승 우세",
   "drivers": [
@@ -13,16 +13,22 @@
   "outlook": "달러 강세·금리 상승 계열의 재료가 상대적으로 우세해 원/달러는 단기 상승 압력이 나타날 수 있으나, 국내 수급과 위험선호 회복 여부에 따라 변동성이 예상됩니다.",
   "articles": [
     {
+      "title": "Wall Street dips as investors focus on US-Iran war",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdkxPUUdXbDkwcTdtbC1yM0NWMldPb2lpeExQRVh2SVFWQUl4Q3haSlp4U04yU1BoanNVeWF5bTIwbWJRQXVEQkIwMm0taFZ4eDJ3dUVjOTVuSWhEMVRZNV9vdUNab01CS1o4aUpoQVE5TmFqV1BMTFVaZVJzVEFES3Y4S1BLZFQ1TDFtR2dLZklJRkdFN3hTaENjVDhSc05sT1BVZ09idlU1ZGkwdTZLRi1n?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-25 03:36 KST"
+    },
+    {
+      "title": "Global bond selloff deepens, as US 30-year yields hit highest since 2004",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOOG41MExjN21pM3Z3V2JFMGkydXNYQW5YSEFfbTd2N2pOenR6R3pKQ0ZVWnVQZElXXzdBSXNLdTl4Q0ZPMzItVkIzR3hWNjZrMUNRZzJsa2xYQVNvQ1h2REJuNW1HTGpCb2lsdjdyWkZacjV6NnI1aHA4Y2JFN0sxYm5TYlBTSkhGWkd6b2dWaWNpbTVHYkhWb0lnNFo1al9scmVqT0tXZkh5ZFU?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-25 02:16 KST"
+    },
+    {
       "title": "US weekly jobless claims near 57-year lows; price reductions boost new home sales",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbkFjbktqV0kzSmJtNEZPU2p1MWRCWTdKLWVySDEtTnJMbUdVR1p4VGZ1YnVlM0tkcEsxSFlsdTY4b1RodjlqVDQ5V0hoT3FubnE1N1c5U0RZOTgyZ0JsQnFWQmJQTGx2QUNTZmJROHN4dmN3VnNXNXRnTVBsQlFIZzVqb0JjMzl1MlVEeDFUNUFJQm53RVU5WkFGd3VhNjhXbHlGVUFnYWZ0VGM?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-25 02:01 KST"
-    },
-    {
-      "title": "Wall St slips as Middle East escalations lifts oil; Trump-Xi talks in focus",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdkxPUUdXbDkwcTdtbC1yM0NWMldPb2lpeExQRVh2SVFWQUl4Q3haSlp4U04yU1BoanNVeWF5bTIwbWJRQXVEQkIwMm0taFZ4eDJ3dUVjOTVuSWhEMVRZNV9vdUNab01CS1o4aUpoQVE5TmFqV1BMTFVaZVJzVEFES3Y4S1BLZFQ1TDFtR2dLZklJRkdFN3hTaENjVDhSc05sT1BVZ09idlU1ZGkwdTZLRi1n?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-25 01:53 KST"
     },
     {
       "title": "Canadian dollar hits two-month low as retail sales post monthly decline",
@@ -41,21 +47,15 @@
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPald0X3dXV1ljdkIzY3NfdVd4d0xKeGZkcGUxemZXalVhaEZ5WnVXNHZ6R3RkdmNxTENsUGkzam1uU3MyOFU1cWM2dHRpaG1jQ0tNZ0U4Q3VDclM3TjVHbXk5Z05kVUlLWjd0cFlXendfajc1bTNLb3BfeWJ5TkxJSjVlS0kzNl90SWRoTWdFZ0xkd296cmZkMm8xcGhvN2M?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-24 22:40 KST"
-    },
-    {
-      "title": "COMMENTARY: Dollar rally tells Trump Treasury that the ‘house’ is losing",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQS0J2SEdHUnZKRm5oQ1VIS2ZhaThTb3BOZWJFM0NaWklEWlJXb1A1Z2lpOXE0Q1lFdmt1RE5RWW5xblBQdEZKdHY1UUlLMm91T0tCRzVDbW83VTNnMXVKeHgyQmJNeG1Ic0MzSkxrR3NETlBTVWxEYVZVZjh2U2ZyUGROS2J3QTd4bm1Sd1hKX1N5ZWtfQU8zcWF0XzZYRmRyOEUxVW1sVFJnS0Z5dVgybGNGN1dRN1p4bUpMZW9rM1BHMl9hRGlRU1JjVm8?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-24 22:03 KST"
     }
   ],
-  "rate_source_time": "2026-09-25 02:32:24 KST",
+  "rate_source_time": "2026-09-25 05:46:22 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": 8.4,
   "rate_change_pct": 0.62,
   "smbs_base_rate": 1360.0,
-  "smbs_rate_date": "2026-09-24",
-  "smbs_rate_updated_at_kst": "2026-09-24 21:10:49 KST",
+  "smbs_rate_date": "2026-09-25",
+  "smbs_rate_updated_at_kst": "2026-09-25 05:46:09 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,6 +63,5 @@
     1360.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-25 02:32:08 KST",
-  "smbs_rate_error": "RuntimeError: 서울외국환중개 페이지에서 USD 매매기준율을 찾지 못했습니다."
+  "rate_job_checked_at_kst": "2026-09-25 05:46:09 KST"
 }

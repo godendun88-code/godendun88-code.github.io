@@ -1,22 +1,34 @@
 {
-  "updated_at_kst": "2026-09-25 19:10 KST",
+  "updated_at_kst": "2026-09-26 00:32 KST",
   "current_rate": 1367.0,
   "previous_close": 1358.6,
-  "rate_updated_at_kst": "2026-09-25 19:10:09 KST",
+  "rate_updated_at_kst": "2026-09-26 00:32:37 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "상승 우세",
   "drivers": [
     "연준의 추가 금리 인상 또는 매파적 기조 우려가 부각돼 달러 강세 압력이 높아지는 요인으로 작용하고 있습니다.",
     "미국 고용 관련 최신 기사(\"US weekly jobless claims near 57-year lows; price reductions boost new home sales\")가 확인돼 고용지표가 연준 금리 기대와 달러 방향성을 좌우하는 변수로 부각되고 있습니다.",
-    "미 국채금리 관련 최신 기사(\"Rupee to navigate US-Iran truce possibility, surging global bond yields\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다."
+    "미 국채금리 하락 관련 보도가 확인돼 달러의 금리 매력이 낮아지면서 원/달러 환율 하락 압력으로 작용하고 있습니다."
   ],
   "outlook": "달러 강세·금리 상승 계열의 재료가 상대적으로 우세해 원/달러는 단기 상승 압력이 나타날 수 있으나, 국내 수급과 위험선호 회복 여부에 따라 변동성이 예상됩니다.",
   "articles": [
+    {
+      "title": "Talk of US export ban on diesel deepens US crude futures' discount to global benchmark",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOakktX2lMSTlPSnViWHdvbUxHTm14WGIwOGR5dzk2LThBRGJoMklPZXFIRlc2YlUzYWRLaGJMd21hREl5QnVsQXFnYVFhSDFsdnJhcy1wWGtaemRiS3RveDNxWHd0QUNnS1lmcjhEcFhXMTNSUjZySkhMZmxzU3ZVT2l6UnduUnUzT0JlQVdPUFN2cmhjNDdUT2JqU21zXy0tN1BFM2NNMUJmQTdVSFJjQnduaXA4dWl6MlMycm90U3UyUXQ3WVBj?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-25 21:43 KST"
+    },
     {
       "title": "South African rand softens as markets absorb central bank rate hike",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOaVUxdVZ6MVNZX2hBY1hRT3NZaHBHX1FlNkxvNldDR1o5U1M4NUE3cnRGdm9GVXRmUXFhN0hiTGZKcHczNlpGY2dabE45OVdFRGw1Q1NWRmRUR2dJSjV5ZUlmeXF0UVdkRG01RkJ5WUZNaGJNU3dobUN0UV9fdTZ2anVsRndfRXlNU0tVSkFMTENBWUhvT0s3SEkyQTQzNjBZc0Zja01HUmV4WGJyWFpOd09Ccw?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-25 15:25 KST"
+    },
+    {
+      "title": "Rupiah set for biggest weekly fall since May as higher US yields, stronger dollar bite",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOcnpoa1VSQ0ZBUjJVNEIzUnZDb0lhbFhtX1lHWVhCS3RKb1V0VDlGVEM2UjVXMTVMS2pObFBGSEVqLWRiLXVHY3p1R0xnUlJnZkRXVkpYTEYyWDNKelM3RTRpdVVSSFNINVV0TlZsV3d5WkZ5VTZYelJjMUlkdlR5dXJXbXQ2Z3RhcmtYOGpWd21lU0UzRnRMRjBrS0Z0U051RElSSm9lSzBlMmx3WlQ1Mi1oSE1GQmJqR2NNdmxxbVVxRUhV?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-25 15:01 KST"
     },
     {
       "title": "Gold heads for weekly loss as stronger dollar, Fed rate outlook weighs",
@@ -25,37 +37,25 @@
       "seen": "2026-09-25 12:15 KST"
     },
     {
-      "title": "Rupee treads water; forward premiums extend rally on RBI swaps, stop-losses",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPejlReXp5U3VIZmRZLVN4dV91cUl1QzltejQxOWdtaHlyQlNyNUhLdW1EOTBja0EwbEZEcTNQSjJIWTNUdDZuVjNyUi1WOEh6Y3hPOVJ6aV81R1JzUmJGbDkxeFpLX2kxVlJHWnRVYXk3cjIxR1ZqU0FlMERiMUNOdFR0c2hZQVdOTVE0MEtRUWhfM01JSVVxTTZQZmpEZWRackcwRktMYTlkR3VhSDBkLW8zYnI1UQ?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-25 11:33 KST"
-    },
-    {
-      "title": "Rupee to navigate US-Iran truce possibility, surging global bond yields",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPejlReXp5U3VIZmRZLVN4dV91cUl1QzltejQxOWdtaHlyQlNyNUhLdW1EOTBja0EwbEZEcTNQSjJIWTNUdDZuVjNyUi1WOEh6Y3hPOVJ6aV81R1JzUmJGbDkxeFpLX2kxVlJHWnRVYXk3cjIxR1ZqU0FlMERiMUNOdFR0c2hZQVdOTVE0MEtRUWhfM01JSVVxTTZQZmpEZWRackcwRktMYTlkR3VhSDBkLW8zYnI1UQ?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-25 11:33 KST"
-    },
-    {
-      "title": "Gold on track for weekly loss as Fed rate hike expectations build",
+      "title": "Mounting rate hike bets keep weekly loss in sight for gold",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNX3F4eFFXZE5rZGRwVFhHYUsxZlhGeFlzSEF1Y0xYc2JmT0YtdkgtRmRhbFVTYVk3NGZRRUlsd3dCTDlCSmdnT1Y5OWN5MERTdzlibVdVQmhSeGc4SHIxWEhpRDJ6bjNLZXNURWdHbHBVOHNqU3FlUHJFc3lQRmN0SWlFRzRCUWpzdkFNYS1nb29JRDJzSzkwdjVDM1VlaHNzMG5FS3ZUU29rZ2RTVWxB?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-25 11:23 KST"
     },
     {
-      "title": "Stocks weather bond storm, oil retreats slightly",
+      "title": "Stocks weather bond volatility, oil eases slightly",
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQSXl3a0V4VjdBS1ZlOENTNmpGcmdEa1BNaDh3N21xanZ2Q1JYRGEwbV9QTGdMN21oV1N5Ukw3SEhEa1ZLUENNNTFuVWV3cjQ1RFR2cWtCdlJBNVp2bDBsZTExZWYzVW44eGtJMHFiUkVyOG9xU3c3Z2Y5THFDWDNLMA?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-25 11:19 KST"
     }
   ],
-  "rate_source_time": "2026-09-25 19:10:09 KST",
+  "rate_source_time": "2026-09-26 00:32:37 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": 8.4,
   "rate_change_pct": 0.62,
   "smbs_base_rate": 1360.0,
-  "smbs_rate_date": "2026-09-25",
-  "smbs_rate_updated_at_kst": "2026-09-25 19:09:53 KST",
+  "smbs_rate_date": "2026-09-26",
+  "smbs_rate_updated_at_kst": "2026-09-26 00:32:25 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1360.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-25 19:09:53 KST"
+  "rate_job_checked_at_kst": "2026-09-26 00:32:25 KST"
 }

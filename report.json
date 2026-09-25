@@ -1,23 +1,17 @@
 {
-  "updated_at_kst": "2026-09-26 04:32 KST",
+  "updated_at_kst": "2026-09-26 07:48 KST",
   "current_rate": 1367.0,
   "previous_close": 1358.6,
-  "rate_updated_at_kst": "2026-09-26 04:32:30 KST",
+  "rate_updated_at_kst": "2026-09-26 07:48:16 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "상승 우세",
   "drivers": [
     "연준의 추가 금리 인상 또는 매파적 기조 우려가 부각돼 달러 강세 압력이 높아지는 요인으로 작용하고 있습니다.",
-    "미국 고용 관련 최신 기사(\"Wall St Week Ahead Jobs report, inflation data to test US rate path, economic strength\")가 확인돼 고용지표가 연준 금리 기대와 달러 방향성을 좌우하는 변수로 부각되고 있습니다.",
-    "미 국채금리 하락 관련 보도가 확인돼 달러의 금리 매력이 낮아지면서 원/달러 환율 하락 압력으로 작용하고 있습니다."
+    "미 국채금리 하락 관련 보도가 확인돼 달러의 금리 매력이 낮아지면서 원/달러 환율 하락 압력으로 작용하고 있습니다.",
+    "국제유가 하락이 한국의 수입물가 부담을 낮추는 방향으로 작용해 원화에는 상대적으로 우호적인 요인입니다."
   ],
   "outlook": "달러 강세·금리 상승 계열의 재료가 상대적으로 우세해 원/달러는 단기 상승 압력이 나타날 수 있으나, 국내 수급과 위험선호 회복 여부에 따라 변동성이 예상됩니다.",
   "articles": [
-    {
-      "title": "Wall Street climbs as investors buy AI stocks; Microsoft rallies",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOazZwSUsxTDltUG1palRCRG1iQnVRWFQxSGRoVFNKbnVoWExJYk13bVFFMEtkSndpTlh5eVNGYVJlTXpWSmtJZXpTVXRDazdBaUw1eFlUcjdob21NWF9hT2NNWDllOW1fc0lHdjBrQVBmeXY0ZWJLS25xdEJZMFJMUkVsa3NwRS0xSG1LUGVJVkVuSEVOVDlQR2pwWnZjRzliZXNQSTdyREhFVlBuQ185VEYxUWRab01zcThMWUtvOFI?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-26 03:27 KST"
-    },
     {
       "title": "US core capital goods orders point to robust growth in business spending on equipment",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOUU5FWExWQVZRSzBfQ0hxNlBlZVdZWFc2elo1aTdPQXpwVDU4a0ZxZlRjeHF1WWdUSUlfWHpxSzZJZHJOWVgwZTVZaUJ1Q3dSRjhMMGVpMWdoMzUwN3ZfOG1QNE5ZQlM2NkM5U3JTbU1kUWE3UEx2M0FXS2xKcUhOUkxQaTZ3azJiRktERlNWaw?oc=5",
@@ -25,16 +19,10 @@
       "seen": "2026-09-26 01:49 KST"
     },
     {
-      "title": "Dollar falls as oil eases, yen rallies on Japan remarks",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZEliX2ZMV1UwSDZPa3liWjlRUk4tT192UjJmelY5OEpFcmVSWHlBRHVuUXNHSW5jTEI1TGlxT1kxS2gyZ2RtVGRJampmMndMMjVERnl0WVZ1ZDdhZndLd0htM1BpZlJmM1o0dU1sSDRqRWp0NkVTUTJkVU9fNGw0QndUYlJqV2plRXpySGpOeXBHdTRtcUYxOXlmVDE4MU9Eanc?oc=5",
+      "title": "TSX extends slide as oil weakness drags energy shares lower",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQTkg0cjRURXlnU3ZubEtpRGI1YW1jMm54aEdtNFU2TTVLSGhzUUpiWl9mRTBfLWZNbkRLWE53WUVBRmNTNU5rRllLaDlXNVZmLXk0cjRYbHhWTFVmZEhVdG9UOHdSMHVHV3c0dFJmNC1jc3pxR2lxcV94azRkMFZsNVZzVVE2eTBvTEY5TE4wTFA2cXhOQ2kyUlVSTQ?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-26 00:09 KST"
-    },
-    {
-      "title": "Wall St Week Ahead Jobs report, inflation data to test US rate path, economic strength",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOMVdISllUQW1vOGc5UzVfeWVGbVloWmh0U3A3X0N2LU9TQnBfQ0RhU0JfbEZVQlA3MUJhOVBacWg4QkJrdTVQaE50RkpsaGJqOEhWZDU5WDNQTVp0dWtzc3J6ZVlFR3VnZmNnLTlwbEpWZW9yMXh2NThFQnpyd3lNX3JZUUZfQ05vTndubkpBaVgzY2d4b05DOEJUSGZ6RGNuWVlDcU4ybm9IVUQwbWtMUU5Ic2pEdDQ3?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-25 22:05 KST"
+      "seen": "2026-09-26 00:03 KST"
     },
     {
       "title": "Talk of US export ban on diesel deepens US crude futures' discount to global benchmark",
@@ -43,19 +31,31 @@
       "seen": "2026-09-25 21:43 KST"
     },
     {
-      "title": "UAE markets decline after warning on regional air travel",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdmc1cG4yNlZ5Z2FjX3VJcHhsVDJmX0JMTFdKZ2JBODlNY3RYRS1VeWNhbXJXTlRTTEhXRUlualU0dHo1SzU1b3hjUFVHUlhpLUhhZk11WVU0dlFDcHRXaTN1ZEctd0pXaEFxQnAySlJiMzNOZGNFWk9qZUJNaThzOVhmNk5NeWQ3U2NTMFJuSGw0LXdoUHVXQTdiRXZPc2ZaQ1hoVS1zczFnUzg?oc=5",
+      "title": "Rupiah set for biggest weekly fall since May as higher US yields, stronger dollar bite",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOcnpoa1VSQ0ZBUjJVNEIzUnZDb0lhbFhtX1lHWVhCS3RKb1V0VDlGVEM2UjVXMTVMS2pObFBGSEVqLWRiLXVHY3p1R0xnUlJnZkRXVkpYTEYyWDNKelM3RTRpdVVSSFNINVV0TlZsV3d5WkZ5VTZYelJjMUlkdlR5dXJXbXQ2Z3RhcmtYOGpWd21lU0UzRnRMRjBrS0Z0U051RElSSm9lSzBlMmx3WlQ1Mi1oSE1GQmJqR2NNdmxxbVVxRUhV?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-25 21:17 KST"
+      "seen": "2026-09-25 17:20 KST"
+    },
+    {
+      "title": "South African rand softens as markets absorb central bank rate hike",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOaVUxdVZ6MVNZX2hBY1hRT3NZaHBHX1FlNkxvNldDR1o5U1M4NUE3cnRGdm9GVXRmUXFhN0hiTGZKcHczNlpGY2dabE45OVdFRGw1Q1NWRmRUR2dJSjV5ZUlmeXF0UVdkRG01RkJ5WUZNaGJNU3dobUN0UV9fdTZ2anVsRndfRXlNU0tVSkFMTENBWUhvT0s3SEkyQTQzNjBZc0Zja01HUmV4WGJyWFpOd09Ccw?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-25 15:25 KST"
+    },
+    {
+      "title": "Japan's bond 'falling knife' stalls repatriation rush",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPRG1BRVp6QjNMSmVsZEcwN1pwVDZDX1RoR2tBUG1DT2hhMFBQUHFhTnZZcWlOSHJVRThKamhGRkpFeWkyTFJaUG10ZW9tWDNSRzJUN3FDQnA1Qzd1aV9sS3hlUWtlSjJ3S0NQbXFISDN0Umc4Mnp0cDJQMVRsUEZjQS1hMnR5RTVqdlYyZE5fOWZQM0xxaDBsX2QwSUJHWnRkZ3d5OXN3dVQ?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-25 12:33 KST"
     }
   ],
-  "rate_source_time": "2026-09-26 04:32:30 KST",
+  "rate_source_time": "2026-09-26 07:48:16 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": 8.4,
   "rate_change_pct": 0.62,
   "smbs_base_rate": 1360.0,
   "smbs_rate_date": "2026-09-26",
-  "smbs_rate_updated_at_kst": "2026-09-26 04:32:17 KST",
+  "smbs_rate_updated_at_kst": "2026-09-26 07:48:05 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1360.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-26 04:32:17 KST"
+  "rate_job_checked_at_kst": "2026-09-26 07:48:05 KST"
 }

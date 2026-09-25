@@ -1,22 +1,34 @@
 {
-  "updated_at_kst": "2026-09-25 13:51 KST",
+  "updated_at_kst": "2026-09-25 19:10 KST",
   "current_rate": 1367.0,
   "previous_close": 1358.6,
-  "rate_updated_at_kst": "2026-09-25 13:50:57 KST",
+  "rate_updated_at_kst": "2026-09-25 19:10:09 KST",
   "rate_source": "KB STAR FX Market Watch",
-  "market_bias": "혼조",
+  "market_bias": "상승 우세",
   "drivers": [
-    "연준·금리 관련 최신 기사(\"Gold heads for weekly loss as stronger dollar, Fed rate outlook weighs\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
+    "연준의 추가 금리 인상 또는 매파적 기조 우려가 부각돼 달러 강세 압력이 높아지는 요인으로 작용하고 있습니다.",
     "미국 고용 관련 최신 기사(\"US weekly jobless claims near 57-year lows; price reductions boost new home sales\")가 확인돼 고용지표가 연준 금리 기대와 달러 방향성을 좌우하는 변수로 부각되고 있습니다.",
-    "미국 물가 관련 최신 기사(\"Oil prices fall as markets look to Iran truce, but remain wary of attacks on oil facilities\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다."
+    "미 국채금리 관련 최신 기사(\"Rupee to navigate US-Iran truce possibility, surging global bond yields\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다."
   ],
-  "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
+  "outlook": "달러 강세·금리 상승 계열의 재료가 상대적으로 우세해 원/달러는 단기 상승 압력이 나타날 수 있으나, 국내 수급과 위험선호 회복 여부에 따라 변동성이 예상됩니다.",
   "articles": [
+    {
+      "title": "South African rand softens as markets absorb central bank rate hike",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOaVUxdVZ6MVNZX2hBY1hRT3NZaHBHX1FlNkxvNldDR1o5U1M4NUE3cnRGdm9GVXRmUXFhN0hiTGZKcHczNlpGY2dabE45OVdFRGw1Q1NWRmRUR2dJSjV5ZUlmeXF0UVdkRG01RkJ5WUZNaGJNU3dobUN0UV9fdTZ2anVsRndfRXlNU0tVSkFMTENBWUhvT0s3SEkyQTQzNjBZc0Zja01HUmV4WGJyWFpOd09Ccw?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-25 15:25 KST"
+    },
     {
       "title": "Gold heads for weekly loss as stronger dollar, Fed rate outlook weighs",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQS1rUlFyVFFmckJTNGJpaGkwRUNtcFJRd1lqYmxPZFpyVmJqTkZfOHdJUkJVMkxrbXd2OE1RR25kUVctT0xFVjlMaXAtWE5yVVRQUU9xWE40eml3bkhPMHZHcDdKaF9tYVhVb1hQaUZYYTFSVlBjNGhOT2NtaWw0NEV2N2lWTDlWTlBXanIway16YWZ3OTlVczBDZlNxTjRwc0dNYVMteVR2RWV4aDRF0gGvAUFVX3lxTE9BLWtSUXJUUWZyQlM0YmloaTBFQ21wUlF3WWpibE9kWnJWYmpORl84d0lSQlUyTGttd3Y4TVFHbmRRVy1PTEVWOUxpcC1YTnJVVFBRT3FYTjR6aXduSE8wdkdwN0poX21hWFVvWFBpRlhhMVJWUGM0aE5PY21pbDQ0RXY3aVZMOVZOUFdqcjBrLXphZnc5OVVzMENmU3FONHBzR01hUy15VHZFZXhoNEU?oc=5",
       "domain": "CNBC",
       "seen": "2026-09-25 12:15 KST"
+    },
+    {
+      "title": "Rupee treads water; forward premiums extend rally on RBI swaps, stop-losses",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPejlReXp5U3VIZmRZLVN4dV91cUl1QzltejQxOWdtaHlyQlNyNUhLdW1EOTBja0EwbEZEcTNQSjJIWTNUdDZuVjNyUi1WOEh6Y3hPOVJ6aV81R1JzUmJGbDkxeFpLX2kxVlJHWnRVYXk3cjIxR1ZqU0FlMERiMUNOdFR0c2hZQVdOTVE0MEtRUWhfM01JSVVxTTZQZmpEZWRackcwRktMYTlkR3VhSDBkLW8zYnI1UQ?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-25 11:33 KST"
     },
     {
       "title": "Rupee to navigate US-Iran truce possibility, surging global bond yields",
@@ -25,37 +37,25 @@
       "seen": "2026-09-25 11:33 KST"
     },
     {
-      "title": "Asian stocks weather bond storm, oil retreats slightly",
+      "title": "Gold on track for weekly loss as Fed rate hike expectations build",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNX3F4eFFXZE5rZGRwVFhHYUsxZlhGeFlzSEF1Y0xYc2JmT0YtdkgtRmRhbFVTYVk3NGZRRUlsd3dCTDlCSmdnT1Y5OWN5MERTdzlibVdVQmhSeGc4SHIxWEhpRDJ6bjNLZXNURWdHbHBVOHNqU3FlUHJFc3lQRmN0SWlFRzRCUWpzdkFNYS1nb29JRDJzSzkwdjVDM1VlaHNzMG5FS3ZUU29rZ2RTVWxB?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-25 11:23 KST"
+    },
+    {
+      "title": "Stocks weather bond storm, oil retreats slightly",
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQSXl3a0V4VjdBS1ZlOENTNmpGcmdEa1BNaDh3N21xanZ2Q1JYRGEwbV9QTGdMN21oV1N5Ukw3SEhEa1ZLUENNNTFuVWV3cjQ1RFR2cWtCdlJBNVp2bDBsZTExZWYzVW44eGtJMHFiUkVyOG9xU3c3Z2Y5THFDWDNLMA?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-25 11:19 KST"
-    },
-    {
-      "title": "Dollar set for weekly gains as yields surge, Fed bets build",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZEliX2ZMV1UwSDZPa3liWjlRUk4tT192UjJmelY5OEpFcmVSWHlBRHVuUXNHSW5jTEI1TGlxT1kxS2gyZ2RtVGRJampmMndMMjVERnl0WVZ1ZDdhZndLd0htM1BpZlJmM1o0dU1sSDRqRWp0NkVTUTJkVU9fNGw0QndUYlJqV2plRXpySGpOeXBHdTRtcUYxOXlmVDE4MU9Eanc?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-25 11:11 KST"
-    },
-    {
-      "title": "Oil prices fall as markets look to Iran truce, but remain wary of attacks on oil facilities",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQV3EzX3oydnQxRk5Ld1BKbk82ek14ZVdyLVpTdldjdEpqeDJfTVZ2Q0F1TnhvaWlhR1p0Z3hScDV0S2Z1UFR5OXhKSWk3NmtqTzd0SkJfa2RLRFpOOUlEcE5mR1d4Z21Td2FCQVZqNHV1eDloQkplT1NHaHhyTDlqOG5DYlFFdnRERThxNU0yX29LcTRyal9pMHQ4ZzNoU0VKZkdHN2hFYjhCZUpZZ3d2am11SDJYYVBiN0JxWVBtczNRYkh1?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-25 10:11 KST"
-    },
-    {
-      "title": "COMMENTARY: Dollar rally tells Trump Treasury that the ‘house’ is losing",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQS0J2SEdHUnZKRm5oQ1VIS2ZhaThTb3BOZWJFM0NaWklEWlJXb1A1Z2lpOXE0Q1lFdmt1RE5RWW5xblBQdEZKdHY1UUlLMm91T0tCRzVDbW83VTNnMXVKeHgyQmJNeG1Ic0MzSkxrR3NETlBTVWxEYVZVZjh2U2ZyUGROS2J3QTd4bm1Sd1hKX1N5ZWtfQU8zcWF0XzZYRmRyOEUxVW1sVFJnS0Z5dVgybGNGN1dRN1p4bUpMZW9rM1BHMl9hRGlRU1JjVm8?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-25 08:33 KST"
     }
   ],
-  "rate_source_time": "2026-09-25 13:50:57 KST",
+  "rate_source_time": "2026-09-25 19:10:09 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": 8.4,
   "rate_change_pct": 0.62,
   "smbs_base_rate": 1360.0,
   "smbs_rate_date": "2026-09-25",
-  "smbs_rate_updated_at_kst": "2026-09-25 13:50:42 KST",
+  "smbs_rate_updated_at_kst": "2026-09-25 19:09:53 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1360.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-25 13:50:42 KST"
+  "rate_job_checked_at_kst": "2026-09-25 19:09:53 KST"
 }

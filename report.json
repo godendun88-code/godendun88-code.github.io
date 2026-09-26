@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-09-26 20:48 KST",
+  "updated_at_kst": "2026-09-27 01:19 KST",
   "current_rate": 1367.0,
   "previous_close": 1358.6,
-  "rate_updated_at_kst": "2026-09-26 20:48:07 KST",
+  "rate_updated_at_kst": "2026-09-27 01:19:05 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "상승 우세",
   "drivers": [
@@ -37,25 +37,25 @@
       "seen": "2026-09-26 04:10 KST"
     },
     {
+      "title": "Wall Street climbs as investors buy AI stocks; Microsoft rallies",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZkVrSW9QLTRuVWVsUGpCVDc3bWloZ1FxUEtEZ1F5MVcxYk1VdW5jVkJwVkFEeEhZbGF3ZHRnMjZRMFhhWWp0UnN5SmNucXB3TFYxX2o2M09iWlZrX2tTLXRaY3k3amdhSGpocGxiR0xlLTNnaDRBVWZ2OXdhdzREZ3pLVHN4N20yMW93SEpvcFZ5MW1jR1kzcnBmWmdRcmtDZGI0WWdRSEQyelnSAbABQVVfeXFMUEFOYmdON0EyUTROZ3k4Z1lncVRRdVFoeFc5Z2xfRHFtcGdfMmNPMWNpbl9YaXBNeXBWSFJUSEY3MWhPQmpIajlMN0NOWjRkVWFVQ3RDcVdWcXpMeC1GSjMzMFdRaHNUNUwwd1RyeXFVNkU0b1ZxYzFocThwTkJmemRneklfR0ZqbE5Cb0hDVnRUNHlkaFltaldpZ2J3dGQwS1ZBX2VpMFIzNFowdmQ2cnY?oc=5",
+      "domain": "The Korea Times",
+      "seen": "2026-09-26 03:33 KST"
+    },
+    {
       "title": "Mounting rate hike bets keep weekly loss in sight for gold",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNX3F4eFFXZE5rZGRwVFhHYUsxZlhGeFlzSEF1Y0xYc2JmT0YtdkgtRmRhbFVTYVk3NGZRRUlsd3dCTDlCSmdnT1Y5OWN5MERTdzlibVdVQmhSeGc4SHIxWEhpRDJ6bjNLZXNURWdHbHBVOHNqU3FlUHJFc3lQRmN0SWlFRzRCUWpzdkFNYS1nb29JRDJzSzkwdjVDM1VlaHNzMG5FS3ZUU29rZ2RTVWxB?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-26 03:28 KST"
-    },
-    {
-      "title": "US core capital goods orders point to robust growth in business spending on equipment",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOUU5FWExWQVZRSzBfQ0hxNlBlZVdZWFc2elo1aTdPQXpwVDU4a0ZxZlRjeHF1WWdUSUlfWHpxSzZJZHJOWVgwZTVZaUJ1Q3dSRjhMMGVpMWdoMzUwN3ZfOG1QNE5ZQlM2NkM5U3JTbU1kUWE3UEx2M0FXS2xKcUhOUkxQaTZ3azJiRktERlNWaw?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-26 01:49 KST"
     }
   ],
-  "rate_source_time": "2026-09-26 20:48:07 KST",
+  "rate_source_time": "2026-09-27 01:19:05 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": 8.4,
   "rate_change_pct": 0.62,
   "smbs_base_rate": 1360.0,
-  "smbs_rate_date": "2026-09-26",
-  "smbs_rate_updated_at_kst": "2026-09-26 20:47:55 KST",
+  "smbs_rate_date": "2026-09-27",
+  "smbs_rate_updated_at_kst": "2026-09-27 01:18:52 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1360.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-26 20:47:55 KST"
+  "rate_job_checked_at_kst": "2026-09-27 01:18:52 KST"
 }

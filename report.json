@@ -1,16 +1,16 @@
 {
-  "updated_at_kst": "2026-09-27 01:19 KST",
+  "updated_at_kst": "2026-09-27 04:22 KST",
   "current_rate": 1367.0,
   "previous_close": 1358.6,
-  "rate_updated_at_kst": "2026-09-27 01:19:05 KST",
+  "rate_updated_at_kst": "2026-09-27 04:22:13 KST",
   "rate_source": "KB STAR FX Market Watch",
-  "market_bias": "상승 우세",
+  "market_bias": "혼조",
   "drivers": [
-    "연준의 추가 금리 인상 또는 매파적 기조 우려가 부각돼 달러 강세 압력이 높아지는 요인으로 작용하고 있습니다.",
     "유가·지정학 관련 최신 기사(\"Talk of US export ban on diesel deepens US crude futures' discount to global benchmark\")가 확인돼 원화 변동성 확대 요인으로 작용하고 있습니다.",
-    "외환시장 관련 최신 기사(\"Corporate debt maturities set to test US borrowers as rates rise\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다."
+    "외환시장 관련 최신 기사(\"Corporate debt maturities set to test US borrowers as rates rise\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다.",
+    "국제유가 하락이 한국의 수입물가 부담을 낮추는 방향으로 작용해 원화에는 상대적으로 우호적인 요인입니다."
   ],
-  "outlook": "달러 강세·금리 상승 계열의 재료가 상대적으로 우세해 원/달러는 단기 상승 압력이 나타날 수 있으나, 국내 수급과 위험선호 회복 여부에 따라 변동성이 예상됩니다.",
+  "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
     {
       "title": "Talk of US export ban on diesel deepens US crude futures' discount to global benchmark",
@@ -29,27 +29,9 @@
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQSXl3a0V4VjdBS1ZlOENTNmpGcmdEa1BNaDh3N21xanZ2Q1JYRGEwbV9QTGdMN21oV1N5Ukw3SEhEa1ZLUENNNTFuVWV3cjQ1RFR2cWtCdlJBNVp2bDBsZTExZWYzVW44eGtJMHFiUkVyOG9xU3c3Z2Y5THFDWDNLMA?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-26 05:41 KST"
-    },
-    {
-      "title": "Dollar dips as oil eases, yen jumps on Japan remarks",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZEliX2ZMV1UwSDZPa3liWjlRUk4tT192UjJmelY5OEpFcmVSWHlBRHVuUXNHSW5jTEI1TGlxT1kxS2gyZ2RtVGRJampmMndMMjVERnl0WVZ1ZDdhZndLd0htM1BpZlJmM1o0dU1sSDRqRWp0NkVTUTJkVU9fNGw0QndUYlJqV2plRXpySGpOeXBHdTRtcUYxOXlmVDE4MU9Eanc?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-26 04:10 KST"
-    },
-    {
-      "title": "Wall Street climbs as investors buy AI stocks; Microsoft rallies",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZkVrSW9QLTRuVWVsUGpCVDc3bWloZ1FxUEtEZ1F5MVcxYk1VdW5jVkJwVkFEeEhZbGF3ZHRnMjZRMFhhWWp0UnN5SmNucXB3TFYxX2o2M09iWlZrX2tTLXRaY3k3amdhSGpocGxiR0xlLTNnaDRBVWZ2OXdhdzREZ3pLVHN4N20yMW93SEpvcFZ5MW1jR1kzcnBmWmdRcmtDZGI0WWdRSEQyelnSAbABQVVfeXFMUEFOYmdON0EyUTROZ3k4Z1lncVRRdVFoeFc5Z2xfRHFtcGdfMmNPMWNpbl9YaXBNeXBWSFJUSEY3MWhPQmpIajlMN0NOWjRkVWFVQ3RDcVdWcXpMeC1GSjMzMFdRaHNUNUwwd1RyeXFVNkU0b1ZxYzFocThwTkJmemRneklfR0ZqbE5Cb0hDVnRUNHlkaFltaldpZ2J3dGQwS1ZBX2VpMFIzNFowdmQ2cnY?oc=5",
-      "domain": "The Korea Times",
-      "seen": "2026-09-26 03:33 KST"
-    },
-    {
-      "title": "Mounting rate hike bets keep weekly loss in sight for gold",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNX3F4eFFXZE5rZGRwVFhHYUsxZlhGeFlzSEF1Y0xYc2JmT0YtdkgtRmRhbFVTYVk3NGZRRUlsd3dCTDlCSmdnT1Y5OWN5MERTdzlibVdVQmhSeGc4SHIxWEhpRDJ6bjNLZXNURWdHbHBVOHNqU3FlUHJFc3lQRmN0SWlFRzRCUWpzdkFNYS1nb29JRDJzSzkwdjVDM1VlaHNzMG5FS3ZUU29rZ2RTVWxB?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-26 03:28 KST"
     }
   ],
-  "rate_source_time": "2026-09-27 01:19:05 KST",
+  "rate_source_time": "2026-09-27 04:22:13 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": 8.4,
   "rate_change_pct": 0.62,
@@ -63,5 +45,6 @@
     1360.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-27 01:18:52 KST"
+  "rate_job_checked_at_kst": "2026-09-27 04:21:57 KST",
+  "smbs_rate_error": "RuntimeError: 서울외국환중개 페이지에서 USD 매매기준율을 찾지 못했습니다."
 }

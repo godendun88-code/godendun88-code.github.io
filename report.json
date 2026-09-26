@@ -1,14 +1,12 @@
 {
-  "updated_at_kst": "2026-09-27 04:22 KST",
+  "updated_at_kst": "2026-09-27 07:12 KST",
   "current_rate": 1367.0,
   "previous_close": 1358.6,
-  "rate_updated_at_kst": "2026-09-27 04:22:13 KST",
+  "rate_updated_at_kst": "2026-09-27 07:12:06 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
-    "유가·지정학 관련 최신 기사(\"Talk of US export ban on diesel deepens US crude futures' discount to global benchmark\")가 확인돼 원화 변동성 확대 요인으로 작용하고 있습니다.",
-    "외환시장 관련 최신 기사(\"Corporate debt maturities set to test US borrowers as rates rise\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다.",
-    "국제유가 하락이 한국의 수입물가 부담을 낮추는 방향으로 작용해 원화에는 상대적으로 우호적인 요인입니다."
+    "유가·지정학 관련 최신 기사(\"Talk of US export ban on diesel deepens US crude futures' discount to global benchmark\")가 확인돼 원화 변동성 확대 요인으로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
@@ -17,27 +15,15 @@
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOakktX2lMSTlPSnViWHdvbUxHTm14WGIwOGR5dzk2LThBRGJoMklPZXFIRlc2YlUzYWRLaGJMd21hREl5QnVsQXFnYVFhSDFsdnJhcy1wWGtaemRiS3RveDNxWHd0QUNnS1lmcjhEcFhXMTNSUjZySkhMZmxzU3ZVT2l6UnduUnUzT0JlQVdPUFN2cmhjNDdUT2JqU21zXy0tN1BFM2NNMUJmQTdVSFJjQnduaXA4dWl6MlMycm90U3UyUXQ3WVBj?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-26 07:49 KST"
-    },
-    {
-      "title": "Corporate debt maturities set to test US borrowers as rates rise",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVHVIMEQ3dmJLZTdRVXVQblJxSzBCMjJlVmVVYkJsR0hvX0NoY3draFFYRkNTS19HRGJwUE4zT3RGS1JCc1hkU2Yza0tDTjRLSWxpVC1qbmtCaUgzYU5JLUFON1F4M0NhZ3RJak1qT1VqS1d1TTg1U3o1WWhwel8zWTMyZkJwVHg3d3RLQUp5T2FDM0V1SzNrNWt0MTA1Y1AwZ2J1X04yRVE2N2hYQU9CR0RQMmM?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-26 05:57 KST"
-    },
-    {
-      "title": "Battered bonds draw support from falling oil prices",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQSXl3a0V4VjdBS1ZlOENTNmpGcmdEa1BNaDh3N21xanZ2Q1JYRGEwbV9QTGdMN21oV1N5Ukw3SEhEa1ZLUENNNTFuVWV3cjQ1RFR2cWtCdlJBNVp2bDBsZTExZWYzVW44eGtJMHFiUkVyOG9xU3c3Z2Y5THFDWDNLMA?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-26 05:41 KST"
     }
   ],
-  "rate_source_time": "2026-09-27 04:22:13 KST",
+  "rate_source_time": "2026-09-27 07:12:06 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": 8.4,
   "rate_change_pct": 0.62,
   "smbs_base_rate": 1360.0,
   "smbs_rate_date": "2026-09-27",
-  "smbs_rate_updated_at_kst": "2026-09-27 01:18:52 KST",
+  "smbs_rate_updated_at_kst": "2026-09-27 07:11:52 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -45,6 +31,5 @@
     1360.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-27 04:21:57 KST",
-  "smbs_rate_error": "RuntimeError: 서울외국환중개 페이지에서 USD 매매기준율을 찾지 못했습니다."
+  "rate_job_checked_at_kst": "2026-09-27 07:11:52 KST"
 }

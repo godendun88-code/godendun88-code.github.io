@@ -1,20 +1,20 @@
 {
-  "updated_at_kst": "2026-09-27 07:12 KST",
+  "updated_at_kst": "2026-09-28 08:25 KST",
   "current_rate": 1367.0,
   "previous_close": 1358.6,
   "rate_updated_at_kst": "2026-09-28 05:23:11 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
-    "유가·지정학 관련 최신 기사(\"Talk of US export ban on diesel deepens US crude futures' discount to global benchmark\")가 확인돼 원화 변동성 확대 요인으로 작용하고 있습니다."
+    "연준·금리 관련 최신 기사(\"COMMENTARY: Where will Fed tightening hit hardest in Asia?\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
     {
-      "title": "Talk of US export ban on diesel deepens US crude futures' discount to global benchmark",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOakktX2lMSTlPSnViWHdvbUxHTm14WGIwOGR5dzk2LThBRGJoMklPZXFIRlc2YlUzYWRLaGJMd21hREl5QnVsQXFnYVFhSDFsdnJhcy1wWGtaemRiS3RveDNxWHd0QUNnS1lmcjhEcFhXMTNSUjZySkhMZmxzU3ZVT2l6UnduUnUzT0JlQVdPUFN2cmhjNDdUT2JqU21zXy0tN1BFM2NNMUJmQTdVSFJjQnduaXA4dWl6MlMycm90U3UyUXQ3WVBj?oc=5",
+      "title": "COMMENTARY: Where will Fed tightening hit hardest in Asia?",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQU1BJRFhvMUNXeWNuYXllb1I4azYyRUZ5Z19kYW9zMS1FazV3YlBwRWRJQnNjMWM0NDNQSjYtZHFIRkd5b2JvdGlvVXVFTVlXVnFYSWF0Z29VQUxfYzJabDUyNFJ4SGJTRXRORHRoWmFweDNBUDBRMEdjazRiVXVaZ0VZaFIwcFF5czhmUEk4N1pteTJBTzJKd3ZNLTNqeXJ6ZlJXYnIzRHRoYV96SlJ3N05YX3I1LW5teDJiWUpFSkhtU3FQVTFubWFFMVo?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-26 07:49 KST"
+      "seen": "2026-09-28 08:02 KST"
     }
   ],
   "rate_source_time": "2026-09-28 05:23:11 KST",
@@ -23,13 +23,14 @@
   "rate_change_pct": 0.62,
   "smbs_base_rate": 1352.0,
   "smbs_rate_date": "2026-09-28",
-  "smbs_rate_updated_at_kst": "2026-09-28 05:22:56 KST",
+  "smbs_rate_updated_at_kst": "2026-09-28 08:23:30 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
     1345.0,
     1360.0
   ],
-  "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-28 05:22:56 KST"
+  "rate_check_status": "failed",
+  "rate_job_checked_at_kst": "2026-09-28 08:23:30 KST",
+  "rate_fetch_error": "RuntimeError: KB STAR FX 자동조회 3회 실패: TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n | TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n | TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n"
 }

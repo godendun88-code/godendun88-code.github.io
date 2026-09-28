@@ -1,28 +1,22 @@
 {
-  "updated_at_kst": "2026-09-28 17:39 KST",
-  "current_rate": 1359.8,
-  "previous_close": 1355.8,
-  "rate_updated_at_kst": "2026-09-28 17:39:12 KST",
+  "updated_at_kst": "2026-09-29 02:37 KST",
+  "current_rate": 1361.5,
+  "previous_close": 1360.11,
+  "rate_updated_at_kst": "2026-09-29 02:37:45 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "상승 우세",
   "drivers": [
     "연준의 추가 금리 인상 또는 매파적 기조 우려가 부각돼 달러 강세 압력이 높아지는 요인으로 작용하고 있습니다.",
-    "미 국채금리 상승 관련 보도가 확인돼 달러 수요를 지지하면서 원/달러 환율 상승 압력으로 작용하고 있습니다.",
-    "유가 및 중동 지정학적 불확실성이 부각돼 에너지 수입 의존도가 높은 원화에는 약세 부담 요인으로 작용하고 있습니다."
+    "미국 물가 관련 최신 기사(\"Oil prices rise 2% after Trump rejects Iran peace deal\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
+    "미 국채금리 관련 최신 기사(\"Dollar flat as US-Iran stand-off lifts oil, yields\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다."
   ],
   "outlook": "달러 강세·금리 상승 계열의 재료가 상대적으로 우세해 원/달러는 단기 상승 압력이 나타날 수 있으나, 국내 수급과 위험선호 회복 여부에 따라 변동성이 예상됩니다.",
   "articles": [
     {
-      "title": "South African rand slips as US-Iran stalemate pushes oil prices higher",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPYXVjeHhnVS1HLV9mVnYtVHVhQ3NjcEFqREZJYUpRU3RhSElhQlJ4NERfQWhjdm44RGNQMFdBZlNfcU5PN1JuOU1DWW04RjFBSDZETlE5Z0h2VUkyRFJVTHdiTzBfM0lGVUw0akY5a01yM0J6WElBbERxREpBQkk3OGFjTDkyVElrUTRTckpFRHZ3aURTVkduYS0zdnMtZkVUenZrSk1kdEVoRnNpbkVlanlmdnQ0a2s?oc=5",
+      "title": "EXCLUSIVE: Japan's currency diplomat Mimura urges markets to heed 'very clear' warning on yen",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQYzFRTndpRkJHX2FfcTFFdHFvNVVrQU5MZVAxM0Z1T1p3TjRyaUtyNFRaNjRQQjQwYjJaVW5ocTlGYU1iU0w4WGNISjhWb0ZsWHpTYkZ5aEhPX1B1blRyak40X0FHMDdWdnUzSGFYczRrXzd1bXBPODRNbDdnN2NPcTZLZFpIaWhTRkQ0bVZIMGxGcFo0S1B1M3RrV0pWU1h6d0d6NC1SMkhwdl9ESGJiZFVXLWl4Mll4bUE?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-28 16:54 KST"
-    },
-    {
-      "title": "European shares rise as British homebuilders surge on buyer support scheme",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQTnJjQ0NlWFRaRUdoeDhfTHh5T3k0ejVfaDBvbFYtZFJmS1ExLUpKNWdOVGtfTktKS2U1Ykdob0pLUWFGLUtEZ2pDMU5nZkwzaXJwVU9ZQnFwdlhDMEx4LWJ6cG1INE90OUhhRVdCT1h6YVJtZktwOF9Td0x6MFZxNENFZUxfQi01eUFPS3kyMFNvRHBUWHE3U2J6MUxVckREc2NzVlhXbUxnWG1vbHJOTkNHNA?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-28 16:43 KST"
+      "seen": "2026-09-28 18:10 KST"
     },
     {
       "title": "Morning Bid: A new neutral rate, much like a decades-old one",
@@ -31,31 +25,37 @@
       "seen": "2026-09-28 13:34 KST"
     },
     {
-      "title": "Indian rupee pinned just shy of 96/USD as RBI intervention counters oil woes",
+      "title": "Oil woes push rupee to over one-week low, RBI caps fall near 96/USD",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQTVl1TmI5dWRwRlVoQ3RIWUlrVFg1d1FGV3F1dC15UDFHUWpGN1NYaGNRT2YxQmlnQXdqbmpVaUozc1p3d2pzX3d6T2ZLTE9tYmV0Y1JlcGxlcVZYSjI1dDRYQkdhZ0tyZ09FT3JqTUNwQl9Edk9MaGxYdlJHbUtwaWZXMjJpQXVpcTZHNlFtRktOMC0wLWR1aDI3dWxkWE9uelVmMUpDRmJJV3dOaDB3YmdqSDIwdHlGbEE?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-28 11:50 KST"
     },
     {
-      "title": "Dollar holds firm as US-Iran tensions lift oil, hawkish Fed bets build",
+      "title": "Gold hits seven-week low as oil surge fuels rate hike bets",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQenE0aVBHOTNMeURZcVZjN3J0S1RMZ2kzakFJYklBMXhZckhuTGxLVnVaa2pmZjg0MzJHMU1fOGwwY3pfWjBXYmZUcGYtUjMzOFB4UW9ydUdKZDNOU2JrTHotMk9qa1ZGNkZXdGs3b0NKcGhveU11cmZGOC0wbzM1WWVJSzk3bDAxLWs3QUxVSy02QQ?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-28 10:41 KST"
+    },
+    {
+      "title": "Dollar flat as US-Iran stand-off lifts oil, yields",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQVGN6Yy1FQUFsN3Z3US1YZWg2amxMczRubW9XaV9vWHJTc0JYbGN6YjhiX1hlWG5CZUdJbEVpcmwwTmdMT3EtTTNqRENIM25PSWY2RUhFVnBkTFBhY3d5VnlJY3NqWHhTSm8xN1FXY0lsVjBjN0JfQXI2Zml5WTNEcW9wMExxT21BbDVETDJZOFFrY0RXMGkwTUJHaTgzS2k1SHBQTVNhTlN5VVJVTllz?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-28 10:35 KST"
     },
     {
-      "title": "Stocks slip in Asia as oil and yields climb",
+      "title": "Stocks fall, squeezed by rising oil prices and Treasury yields",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPNjVwRkxEMEdFMlBlSmpIbDZEZ3dDclNNLVVBLTBya2k1VlpyT00xM1VBeFZ2cmNheUplNXJDYy1Vam9FYWdibUxrWmFLd1ZIUU9LRGhhX09yQkQ0OXF6dW5MZ0Qwc0dXNF9fU3ZBR2NwU3R5eGNWdnpPMW1heVpsUkpGNA?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-28 09:50 KST"
     }
   ],
-  "rate_source_time": "2026-09-28 17:39:12 KST",
+  "rate_source_time": "2026-09-29 02:37:45 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 4.0,
-  "rate_change_pct": 0.46,
-  "smbs_base_rate": 1352.0,
-  "smbs_rate_date": "2026-09-28",
-  "smbs_rate_updated_at_kst": "2026-09-28 17:38:59 KST",
+  "rate_change": 1.39,
+  "rate_change_pct": 0.16,
+  "smbs_base_rate": 1360.0,
+  "smbs_rate_date": "2026-09-29",
+  "smbs_rate_updated_at_kst": "2026-09-29 02:37:30 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1360.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-28 17:38:59 KST"
+  "rate_job_checked_at_kst": "2026-09-29 02:37:30 KST"
 }

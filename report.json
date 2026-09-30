@@ -1,52 +1,52 @@
 {
-  "updated_at_kst": "2026-09-30 05:44 KST",
+  "updated_at_kst": "2026-09-30 14:59 KST",
   "current_rate": 1354.3,
   "previous_close": 1356.3,
   "rate_updated_at_kst": "2026-09-30 09:23:14 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
-    "연준·금리 관련 최신 기사(\"Battered bond market braces for a new era of interest rates\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
-    "미국 물가 관련 최신 기사(\"Oil prices fall on signs Middle East crude flows recovering\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
+    "연준·금리 관련 최신 기사(\"Lower Fed hike odds, oil dip lend RBI hand in supporting rupee\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
+    "미국 물가 관련 최신 기사(\"Gold on track for monthly decline as investors brace for US inflation data\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
     "미 국채금리 하락 관련 보도가 확인돼 달러의 금리 매력이 낮아지면서 원/달러 환율 하락 압력으로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
     {
+      "title": "Gold on track for monthly decline as investors brace for US inflation data",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTld2SXpINElrMTRxSGliajBqR3dqcC1fQkJZNTVJb3JLVEI2aWxRVXRzclZBbGtoclctUVkxZ0t2VjdtRmpjRlhHMUp2Q1c2Nm9qb01HX1ZKZnRuNk5ETWVoaHU0VFVuU3JZMUZIZXVKT1ozMTc0VHM0emdJOVJJTHZrRGZPUkJhbFRZTGFhZUlNTlFqbGhhSENMRDhJcUxxUHlGR29ocWdjeGFo?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-30 13:54 KST"
+    },
+    {
+      "title": "Lower Fed hike odds, oil dip lend RBI hand in supporting rupee",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPTXNvMDhFcWtxb08zQVhCd0RxcXNoQXhOQzUxam9pc2RjSjFoYm81NXkyMFFnUVZKczhZUXJFNlRLVkI5ckV3czhlZlk0Rm1sOHZHa3F5Um96LTB5Z3IyU3VQZlBzUWR5aXR4Y21BWkxTRnlIUW1kZjNVTnl2ZG4yR2hMbDBOWTBxYXo3d1VxMXdEaU1veHpjZ2pLRkxnOW5udkVlak5JV09HZw?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-30 12:06 KST"
+    },
+    {
+      "title": "Bonds set for bruising September but stocks little fazed",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQTkhETkh2bThQM2VXdlJQZHdqOHVHRTFNX2dRMVZVMGhhMzczY0xIYkRfdmVldzNlVFdEbWZTVC1aYW1fekVfOW9Db28yd0czQVk5MURaaWVfNjdTVFVGeE1Dcy16dk9vQmNZb3c2bklRd3l0cTNwQXBqemxxbWxwS3RaYw?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-30 10:58 KST"
+    },
+    {
+      "title": "Dollar set for large rise in September, mainly at euro's expense",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNdXZZWnNiSFFfUWVOeFNjX3hjdGxCOHRmWlR4NnMxT1NZUHFLN1pVYV9MajdTTkljQWVOZm55UDR0MTdaN2hScW41Y1Y4TGoxSi1kZTZNdmNpVkFIa2VUSklhSzZPNVdVRUQ3WkNOZG8yUHBiQUVwajlCVGJ2TG1XYlY4R3ZtTmkxWEEyQUoxZmtyQ09JelJfZWlUUQ?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-30 10:29 KST"
+    },
+    {
+      "title": "COMMENTARY: Are AI credit cracks a warning, or a 'buy' signal?",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPWjNwM0hVdGUzOGtVMTViai1ITUs3THdYcGtBS3B3NE1kWURCLUdyTEk3Nnd3amZ4ei1lRmg1Y1lyZGh2OFVSSzk0SHdQejU1b3dfdUt5SHhBbTkxUUZvZzZ1TGZ5b1JPWFlYclo1Rm16TC0xQzliUGdCUlZXR1NwTXZmOHR0RktJYThKaGJua2NoQVA2eDVsakYxYW5oaVI5ckwwTlJZc19MOVNwX0dXVA?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-30 08:30 KST"
+    },
+    {
       "title": "Equities end slightly lower as bond yields hold near multi-decade highs",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdU92dlh4cVhyZkhtcW9aOEZyZXAwWERYNFdFQXBZZnREZVQ5TFplZnZjMHc0TzFSUWQ1WDN6aEg4a2ROb0g2SmZEWjhENHMybG9OTGJ6cTFCNWlqczROREpCV0tQU2VKbUFXMnZYeDBNTTh0MWNYS3lPZjBhWk5rR0dYYmpDcUhNc0stakhtWkR5OXA1M09nUVFIUUJaVGQ2NnlhT0JBMXo?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-30 05:24 KST"
-    },
-    {
-      "title": "European shares edge higher as tech stocks offset oil pressure",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNOXNYaG1VZ0h5eDFQYUdnWDFYUHRSZjVMRTBQTGhERzRnRFVDSlBpZWdwRjNtZ1ZTSGc5MFMwdmtOd204bzJYMHVkd3RWX1FNaDVaeTI0Q18teDNUVzdFejdjSjFBSFRqbkV2VmZJNllTYTBXM1N6RFFlTTh1MDBhU2FzU0c1WFM2OG54anJxWU1pNEpabDI5cENRV2xmc3ZPb0JXTS1NR3pac3R4amJF?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-29 16:32 KST"
-    },
-    {
-      "title": "Battered bond market braces for a new era of interest rates",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUFJEcnNjUGNwM1N4MlNkdG1pZ0VwVmt4cWhUZ2t0UkN4aHlRNzVyR3hCd2dUMG1FRWszT05VOUN4MUhDSGhXQUhIamhNWWJJNUpGXzZWcFc2Mk5Hcl9yNXBaaWVDVDlZQWg0d2xIRGl0RFhqWjJlR1ZORGlrNXRmdGZxSF9URFQ3Zzc5d2dER1g4U3hvZDZXMHNKVlhFaGRBRmRKRVJR?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-29 13:47 KST"
-    },
-    {
-      "title": "Indian rupee drops to two-month low past key 96/USD barrier as oil worries deepen",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPbHNTZW52Uy1FNUw2R1RIaEFLa2RMZ25fLUNZMHluYUVBbW9WbTFIV1oxUE82WmtKSnNBN2pDSEI5cnF5Q0d5bWgyeHViT0VaV1dXNzBKbVhDLUhWMmRmQURUdEZua2E5eEZiNDJEVkUyamphM1pfRHVOa1NFSFpTazMzNWlQeVBKazNwWTFCNkpOMFBDYTZSaFhOb29LY1F5VmhGYUNxR19VV1VGVHhBdUc1UXUyLVh2LXp6bzNQWQ?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-29 12:45 KST"
-    },
-    {
-      "title": "Gold rises after hitting seven-week low, Fed hike bets curb gains",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQS2xzZnhUOThNWWNuT0t4S3g4MWRteWlSQlpXMWdudFlqNUN6MW1Zbm9pZzVHR0xnWGdvNmNiUkh6MDhvUk4yY2J1cTRYa1V2ajllOHJyUV8teEpvbHc2QW9MTTBseHVXcXpGbGNpVEtLR2hDSmRxM1FHWDZaN3hMUk9tOGhVcGpBdVo5TmdFaEVpUHNfSzZvYzJPS29xYnZlekQ4eEl3?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-29 11:59 KST"
-    },
-    {
-      "title": "Rupee ends nearly flat as traders remain glued to oil moves, RBI caps fall",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPTUtsNnBXN3BFb1pqRHQ0ZkpIVGNickIzQXk0UWNDdV9DSlBsbEc5QTlZZ05sQkYwOUlJbGZLNmJNS3cxWmNqXzN6ZkdQblFkUDAyY0E0UG5ZYTBrRnd5blJwdEJyMTdQTTFGUTJpY1hOZDhkSGxJa2F0LUotZ1J2LXEzZmNaMEcwMlZFaHZwZkpKR1RHNF96d2EzSUlLek5kcGtpNQ?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-29 11:57 KST"
+      "seen": "2026-09-30 07:55 KST"
     }
   ],
   "rate_source_time": "2026-09-30 09:23:14 KST",
@@ -55,13 +55,14 @@
   "rate_change_pct": -0.15,
   "smbs_base_rate": 1358.4,
   "smbs_rate_date": "2026-09-30",
-  "smbs_rate_updated_at_kst": "2026-09-30 09:22:58 KST",
+  "smbs_rate_updated_at_kst": "2026-09-30 14:57:08 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
     1348.0,
     1363.0
   ],
-  "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-09-30 09:22:58 KST"
+  "rate_check_status": "failed",
+  "rate_job_checked_at_kst": "2026-09-30 14:57:08 KST",
+  "rate_fetch_error": "RuntimeError: KB STAR FX 자동조회 3회 실패: TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n | TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n | TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n"
 }

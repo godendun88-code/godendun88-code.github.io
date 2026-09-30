@@ -1,37 +1,31 @@
 {
-  "updated_at_kst": "2026-09-30 14:59 KST",
-  "current_rate": 1354.3,
-  "previous_close": 1356.3,
-  "rate_updated_at_kst": "2026-09-30 09:23:14 KST",
+  "updated_at_kst": "2026-09-30 21:28 KST",
+  "current_rate": 1354.5,
+  "previous_close": 1353.35,
+  "rate_updated_at_kst": "2026-09-30 21:28:34 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
     "연준·금리 관련 최신 기사(\"Lower Fed hike odds, oil dip lend RBI hand in supporting rupee\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
-    "미국 물가 관련 최신 기사(\"Gold on track for monthly decline as investors brace for US inflation data\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
-    "미 국채금리 하락 관련 보도가 확인돼 달러의 금리 매력이 낮아지면서 원/달러 환율 하락 압력으로 작용하고 있습니다."
+    "달러 관련 최신 기사(\"Dollar surges in September, leaving euro lagging\")가 확인돼 달러인덱스 방향성이 원/달러 환율의 핵심 변수로 작용하고 있습니다.",
+    "유가 및 중동 지정학적 불확실성이 부각돼 에너지 수입 의존도가 높은 원화에는 약세 부담 요인으로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
     {
-      "title": "Gold on track for monthly decline as investors brace for US inflation data",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTld2SXpINElrMTRxSGliajBqR3dqcC1fQkJZNTVJb3JLVEI2aWxRVXRzclZBbGtoclctUVkxZ0t2VjdtRmpjRlhHMUp2Q1c2Nm9qb01HX1ZKZnRuNk5ETWVoaHU0VFVuU3JZMUZIZXVKT1ozMTc0VHM0emdJOVJJTHZrRGZPUkJhbFRZTGFhZUlNTlFqbGhhSENMRDhJcUxxUHlGR29ocWdjeGFo?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-09-30 13:54 KST"
-    },
-    {
       "title": "Lower Fed hike odds, oil dip lend RBI hand in supporting rupee",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPTXNvMDhFcWtxb08zQVhCd0RxcXNoQXhOQzUxam9pc2RjSjFoYm81NXkyMFFnUVZKczhZUXJFNlRLVkI5ckV3czhlZlk0Rm1sOHZHa3F5Um96LTB5Z3IyU3VQZlBzUWR5aXR4Y21BWkxTRnlIUW1kZjNVTnl2ZG4yR2hMbDBOWTBxYXo3d1VxMXdEaU1veHpjZ2pLRkxnOW5udkVlak5JV09HZw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZFJBbUVMTEU5YjRtRHpvUHlhaTQtRlNRbXJKUTI4ZENiSmR6anNmbld1UnFRajlQUXluR3Q3VDgxVEhvN191MmNrM3gtUFVoRmRtR2o5cDdveTY4MUZTNEV2d2lVNGoxVmdSSEt0ZmxobkhJV0QtWjVCUm9GZlV5VWRuN2ozNnYwajJucTJMaWhOY2twR01MMnRGRlpIdkcwWEktR1RndkZxSGE5Vk5OVVVRNFhnWWpVcElB?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-30 12:06 KST"
     },
     {
-      "title": "Bonds set for bruising September but stocks little fazed",
+      "title": "Bonds set for bruising September, but stocks remain resilient",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQTkhETkh2bThQM2VXdlJQZHdqOHVHRTFNX2dRMVZVMGhhMzczY0xIYkRfdmVldzNlVFdEbWZTVC1aYW1fekVfOW9Db28yd0czQVk5MURaaWVfNjdTVFVGeE1Dcy16dk9vQmNZb3c2bklRd3l0cTNwQXBqemxxbWxwS3RaYw?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-30 10:58 KST"
     },
     {
-      "title": "Dollar set for large rise in September, mainly at euro's expense",
+      "title": "Dollar surges in September, leaving euro lagging",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNdXZZWnNiSFFfUWVOeFNjX3hjdGxCOHRmWlR4NnMxT1NZUHFLN1pVYV9MajdTTkljQWVOZm55UDR0MTdaN2hScW41Y1Y4TGoxSi1kZTZNdmNpVkFIa2VUSklhSzZPNVdVRUQ3WkNOZG8yUHBiQUVwajlCVGJ2TG1XYlY4R3ZtTmkxWEEyQUoxZmtyQ09JelJfZWlUUQ?oc=5",
       "domain": "Reuters",
       "seen": "2026-09-30 10:29 KST"
@@ -43,26 +37,31 @@
       "seen": "2026-09-30 08:30 KST"
     },
     {
-      "title": "Equities end slightly lower as bond yields hold near multi-decade highs",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdU92dlh4cVhyZkhtcW9aOEZyZXAwWERYNFdFQXBZZnREZVQ5TFplZnZjMHc0TzFSUWQ1WDN6aEg4a2ROb0g2SmZEWjhENHMybG9OTGJ6cTFCNWlqczROREpCV0tQU2VKbUFXMnZYeDBNTTh0MWNYS3lPZjBhWk5rR0dYYmpDcUhNc0stakhtWkR5OXA1M09nUVFIUUJaVGQ2NnlhT0JBMXo?oc=5",
+      "title": "Stocks dip, 2-year US yield falls after Fed's Williams cools rate hike bets",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQSVdQU2VNMWNudXUwMjk0YnFXekg0R3B3d1gxcHUtcmx1UU9pSEtXNGRZTjMwR29Qa0JhSFJmdmRIZUdpdzFJVXVrcEFyYWwzZ0xsV0J2QmlaLTZXb0FzY0Fpa2JqdGJrWG53Sk0zX3RYc1ZZYmZkWFZ4bHJkM0gtRWpkYw?oc=5",
       "domain": "Reuters",
-      "seen": "2026-09-30 07:55 KST"
+      "seen": "2026-09-30 06:34 KST"
+    },
+    {
+      "title": "Oil prices settle down 2.5% on signs Middle East exports recovering",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPalFIekNtR2pWcEdaNDNsUElsMTRodXZvOVBPbFJnSFlhbDlqbldRbE1TTGVUeTJGN2NRTk4zUGFlWG1NTl9PUkVjNHVzbnZ4YVJxbXg5aVZfZXJzYWhDa3FfZl92OG5Ic3ZNWEluX0N5ZV9aRlRYYXVYeUNUR3lXVGo1dHp4dmdzaF9pZDVGMjVCUGptMU5YcmlzcEhBa2t1NTZMMmsyeFVBWnNPLVJxS2NoM0FIUEQ0Q2ZF?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-09-30 04:30 KST"
     }
   ],
-  "rate_source_time": "2026-09-30 09:23:14 KST",
+  "rate_source_time": "2026-09-30 21:28:34 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": -2.0,
-  "rate_change_pct": -0.15,
+  "rate_change": 1.15,
+  "rate_change_pct": 0.13,
   "smbs_base_rate": 1358.4,
   "smbs_rate_date": "2026-09-30",
-  "smbs_rate_updated_at_kst": "2026-09-30 14:57:08 KST",
+  "smbs_rate_updated_at_kst": "2026-09-30 21:28:22 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
     1348.0,
     1363.0
   ],
-  "rate_check_status": "failed",
-  "rate_job_checked_at_kst": "2026-09-30 14:57:08 KST",
-  "rate_fetch_error": "RuntimeError: KB STAR FX 자동조회 3회 실패: TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n | TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n | TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n"
+  "rate_check_status": "success",
+  "rate_job_checked_at_kst": "2026-09-30 21:28:22 KST"
 }

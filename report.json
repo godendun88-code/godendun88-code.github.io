@@ -1,17 +1,35 @@
 {
-  "updated_at_kst": "2026-10-01 16:47 KST",
+  "updated_at_kst": "2026-10-02 05:31 KST",
   "current_rate": 1360.7,
   "previous_close": 1355.0,
   "rate_updated_at_kst": "2026-10-02 00:25:30 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "상승 우세",
   "drivers": [
-    "연준·금리 관련 최신 기사(\"Rupee to weaken as oil, US yields weigh; fading Fed hike bets offer no relief\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
-    "미국 물가 상승 압력이 다시 부각되며 연준의 매파적 금리 경로 우려가 커져 달러 강세 요인으로 작용하고 있습니다.",
-    "미 국채금리 관련 최신 기사(\"Tech stocks boosted by Micron but Treasury rout hangs over markets\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다."
+    "연준의 추가 금리 인상 또는 매파적 기조 우려가 부각돼 달러 강세 압력이 높아지는 요인으로 작용하고 있습니다.",
+    "미 국채금리 상승 관련 보도가 확인돼 달러 수요를 지지하면서 원/달러 환율 상승 압력으로 작용하고 있습니다.",
+    "글로벌 달러 약세 관련 보도가 이어지며 원/달러 환율에는 하락 압력으로 작용하고 있습니다."
   ],
   "outlook": "달러 강세·금리 상승 계열의 재료가 상대적으로 우세해 원/달러는 단기 상승 압력이 나타날 수 있으나, 국내 수급과 위험선호 회복 여부에 따라 변동성이 예상됩니다.",
   "articles": [
+    {
+      "title": "Entrenched premium leaves gold primed to climb despite surge in US bond yields",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQU3R0WHlxZ0o0bmdDZlB5ZGUwbWI2Z3hkQWJPemo5b3hNM3dwdjlxNldrSnlvODRKc2hOaVgtSVU5YWRIM2ZkQk1yaGllUjNqT2FCU21JbjEtcm51WThVNURrODh3dDN0WnVuakdQOUF0dTEwM1BDSDFTVkktY2VVOEc5RzJ2ckY4VDVKNEttZ1BwRTZCRldKTVhhV3JhMnJkVmVwdC1JdGpucFdqR1JOY1pvSTZjOXJn?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-10-02 00:59 KST"
+    },
+    {
+      "title": "TSX futures slip as global bond rout pushes yields higher; oil swings",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQQmpIQ01nbWxxTWs2YUZsVl9fYl9qOWRURlJZd3lSeHdaQjNXdDFic0lqbHhVbnFVaVBZSlJuekJERXVweUJDOEFKNWVscVdLRkxNZ1Z5M0JNWjJWQXl1ay1tOEJMUFdQX2d0Vm1aWGFUWklPN2NEU3FLZ2UzemZHcGlNVkFPVkExOVJRWS1ETHdSbmctUFBtTjNMMG5QY29nTWkyc0ZRLWNSWVpfMFNn?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-10-01 19:39 KST"
+    },
+    {
+      "title": "Bears maintain grip on oil-importing Asian currencies as crude prices bite",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZzhPVk9iS25nZTBDNFFldkdscnI4blFESDhYTUxfbVhaaWtKSUE4RUsydHpZS19vbXB5UF81a21IVGNaZ3haLTM0eGFlT3lxdV9RYUEtNlQ4MnNxbUx0dGdSTndoVDJlVXhlRFpLSjIwTVVydHhZNldyMnBIVUg3RlhFU0g2TmZiVk52SF84UEpDSXZKeWZsZVhOTjUwNGFWblNla1RIZUppY001NVRfV3hFWkViOFdrNjhoVnpNcWQ?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-10-01 17:03 KST"
+    },
     {
       "title": "South Korean shares end nearly 2% higher on record chip exports",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNYU5WMkVQVmp5SV9DM3RQazIzd2M3U0RKbnItbEd1c19hbXp1cm1TM1NEcTl4eXdMd3NTWkdrRy0xdEdIQ2ZOdDJWSXJmVkxWbEVLQjhnRVI5eFktV1hReTFyUjZKcDN2UzZBLUZCSEJuNld5NEFNX21sX3FMSWRfRmhNY2tjQzF1ZVgtbjQwNWlTdkhveHpaR0VhWDBkTW5ZUFF0YWlBY3ppT3RUS1ZxY05tYms?oc=5",
@@ -25,28 +43,10 @@
       "seen": "2026-10-01 15:43 KST"
     },
     {
-      "title": "Bonds teeter after US Treasuries' worst quarter since 1994",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQUVhtMHBxQWdQNG5xWlpJeHkzeVpHQXgtSDVVN3hVdTFONDZnanFkcDctT2dzZU1QVFRpT2lWdEZvQ2xJdzZ6dDJQdjNpT2FuekdycUxURXRtby02MUhXRlhJMWo0emY3YTBsRUFLZEx0Rjl1b0R0WGItU2ZrclFBUERFamRxdzdGRE1sRXlTb09VRktCWTExaU1MblhDZ19yZURhZQ?oc=5",
+      "title": "Gold holds steady as firm dollar, yields counter easing Fed rate hike bets",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNRjFDcnNwNW1uWWdUaW5iaWRNLV8wbnl4QlBGWHFjN0twMDlINnBTclUwYnRGN1pTVTJYbE94MFEyRk5yQ0FUcXlQLXNkYkdPQXQ3eFlDUko4cXF1Vkc5TUg2LXZKSTAzc3hnOGJrT1hoNl92bG1mY1lSM2MwR3lBcGVQS2NmNDVEWUdURERqcDVkYUhpVTVXZDZqUEF6c1RCMjFFeWpOZWNKVzdGS3dFNzQ3VQ?oc=5",
       "domain": "Reuters",
-      "seen": "2026-10-01 15:25 KST"
-    },
-    {
-      "title": "Rupee to weaken as oil, US yields weigh; fading Fed hike bets offer no relief",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSFBxQjlTRmhvTERsSXJIS0hYVzd5WDRTX0hEOU1tQmR3aVZwNzh3eXNOWVFHeGlfci1McXNCeDlySFJYMFJyZjF5WHdaT2w3RlZ2ZGQydHBfLThTRFRZMk5mTFhyR0E2RnUtQXNBSDNKald1MkRIbjhaTzdjRzd6S21rM0FIbk81MmJQU1B3YjNvRldjdDRHTGI2Q01hUHVLWlJiWXFzTlZEZmp5dGxUaWc2VFZCaFBa?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-10-01 11:59 KST"
-    },
-    {
-      "title": "Tech stocks boosted by Micron but Treasury rout hangs over markets",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOM0FxZzFRTU1MWEFLa2QydlpyQ01TTDJoTjZKTmxxekpnam9PZUswZEtEN1RiSkVMYThjZ0Y1SE42VkZETGdIVm1Nd3J3YVlndnJTTGtWamozS1otaVlPaWwyZE92c21mN0lkbnhURWY5OWxzSXBiWlVvOGRMM21KM1Y2MA?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-10-01 10:56 KST"
-    },
-    {
-      "title": "Asian stocks dip, bonds in focus after torrid September",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOM0FxZzFRTU1MWEFLa2QydlpyQ01TTDJoTjZKTmxxekpnam9PZUswZEtEN1RiSkVMYThjZ0Y1SE42VkZETGdIVm1Nd3J3YVlndnJTTGtWamozS1otaVlPaWwyZE92c21mN0lkbnhURWY5OWxzSXBiWlVvOGRMM21KM1Y2MA?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-10-01 10:56 KST"
+      "seen": "2026-10-01 13:48 KST"
     }
   ],
   "rate_source_time": "2026-10-02 00:25:30 KST",
@@ -55,13 +55,14 @@
   "rate_change_pct": 0.42,
   "smbs_base_rate": 1359.6,
   "smbs_rate_date": "2026-10-02",
-  "smbs_rate_updated_at_kst": "2026-10-02 00:25:19 KST",
+  "smbs_rate_updated_at_kst": "2026-10-02 05:29:27 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
     1350.0,
     1361.0
   ],
-  "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-10-02 00:25:19 KST"
+  "rate_check_status": "failed",
+  "rate_job_checked_at_kst": "2026-10-02 05:29:27 KST",
+  "rate_fetch_error": "RuntimeError: KB STAR FX 자동조회 3회 실패: TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n | TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n | TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n"
 }

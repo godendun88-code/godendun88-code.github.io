@@ -1,61 +1,61 @@
 {
-  "updated_at_kst": "2026-10-02 09:13 KST",
-  "current_rate": 1351.0,
+  "updated_at_kst": "2026-10-02 22:09 KST",
+  "current_rate": 1345.7,
   "previous_close": 1360.7,
-  "rate_updated_at_kst": "2026-10-02 15:09:47 KST",
+  "rate_updated_at_kst": "2026-10-02 22:08:51 KST",
   "rate_source": "KB STAR FX Market Watch",
-  "market_bias": "혼조",
+  "market_bias": "상승 우세",
   "drivers": [
-    "미국 물가 관련 최신 기사(\"Gold edges up as softer inflation data dents Fed rate-hike bets\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
-    "미 국채금리 상승 관련 보도가 확인돼 달러 수요를 지지하면서 원/달러 환율 상승 압력으로 작용하고 있습니다.",
-    "글로벌 달러 약세 관련 보도가 이어지며 원/달러 환율에는 하락 압력으로 작용하고 있습니다."
+    "연준의 추가 금리 인상 또는 매파적 기조 우려가 부각돼 달러 강세 압력이 높아지는 요인으로 작용하고 있습니다.",
+    "미국 고용 관련 최신 기사(\"VIEW Soft September jobs report sends markets higher\")가 확인돼 고용지표가 연준 금리 기대와 달러 방향성을 좌우하는 변수로 부각되고 있습니다.",
+    "미 국채금리 관련 최신 기사(\"US equity funds post second weekly inflow as AI optimism tempers yield concerns\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다."
   ],
-  "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
+  "outlook": "달러 강세·금리 상승 계열의 재료가 상대적으로 우세해 원/달러는 단기 상승 압력이 나타날 수 있으나, 국내 수급과 위험선호 회복 여부에 따라 변동성이 예상됩니다.",
   "articles": [
     {
-      "title": "Entrenched premium leaves gold primed to climb despite surge in US bond yields",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQU3R0WHlxZ0o0bmdDZlB5ZGUwbWI2Z3hkQWJPemo5b3hNM3dwdjlxNldrSnlvODRKc2hOaVgtSVU5YWRIM2ZkQk1yaGllUjNqT2FCU21JbjEtcm51WThVNURrODh3dDN0WnVuakdQOUF0dTEwM1BDSDFTVkktY2VVOEc5RzJ2ckY4VDVKNEttZ1BwRTZCRldKTVhhV3JhMnJkVmVwdC1JdGpucFdqR1JOY1pvSTZjOXJn?oc=5",
+      "title": "VIEW Soft September jobs report sends markets higher",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQTkVCanhuNm9LTk9xbXE4RmNabmw1S0s0RXJEdVZzdTdqa1M1TXBxU1pBTm13LVRaZXNSeFY4UVNOa1ZaTEY5NFo0ejBmZnBxanVVM29nWll0S21yNWZzaXlJY0FJSXFMMFVvYy1QOXBxTlZiMXhRbTUwUktoVmg2ekxuNTBTVzRWWG1VVFB5S2k5Y0pnOTBpMjJ0SW45dw?oc=5",
       "domain": "Reuters",
-      "seen": "2026-10-02 00:59 KST"
+      "seen": "2026-10-02 21:49 KST"
     },
     {
-      "title": "TSX futures slip as global bond rout pushes yields higher; oil swings",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQQmpIQ01nbWxxTWs2YUZsVl9fYl9qOWRURlJZd3lSeHdaQjNXdDFic0lqbHhVbnFVaVBZSlJuekJERXVweUJDOEFKNWVscVdLRkxNZ1Z5M0JNWjJWQXl1ay1tOEJMUFdQX2d0Vm1aWGFUWklPN2NEU3FLZ2UzemZHcGlNVkFPVkExOVJRWS1ETHdSbmctUFBtTjNMMG5QY29nTWkyc0ZRLWNSWVpfMFNn?oc=5",
+      "title": "US equity funds post second weekly inflow as AI optimism tempers yield concerns",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQSnpCOUJMLUJFcm5PWWQxZ3FrZ3ZjaXQydHNtMDY1U2VFcEh6R25paGdteWxiNWFvT1llNWdaR3hSUVA1WWduel9EUFVHaUN1QVRZaHVGQlE4dm00V2NKWjVFN3N3Nm1aRk93ZkZsbnF2RjQ1eUpMWEpTUGtMbUw3eFRGRVRvLTdCTGRId2s1UzdQcVRnbTZ5YXprSlhBNk55QUswV0JCb25GWHpIdTlzVWNNTS02Q0pUbE14YnZR?oc=5",
       "domain": "Reuters",
-      "seen": "2026-10-01 19:39 KST"
+      "seen": "2026-10-02 20:31 KST"
     },
     {
-      "title": "Bears maintain grip on oil-importing Asian currencies as crude prices bite",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZzhPVk9iS25nZTBDNFFldkdscnI4blFESDhYTUxfbVhaaWtKSUE4RUsydHpZS19vbXB5UF81a21IVGNaZ3haLTM0eGFlT3lxdV9RYUEtNlQ4MnNxbUx0dGdSTndoVDJlVXhlRFpLSjIwTVVydHhZNldyMnBIVUg3RlhFU0g2TmZiVk52SF84UEpDSXZKeWZsZVhOTjUwNGFWblNla1RIZUppY001NVRfV3hFWkViOFdrNjhoVnpNcWQ?oc=5",
+      "title": "TSX futures tick up ahead of key US labor-market data",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOd1FpTzdKRkUzUHc2Qy1XVGlrX0FVdEtsZmVVZ0pYdEFmWnBpWDM1cFpJRmlKQmZ5UlFJcDg4bGRNTDd4MTd5Vzg0bVZsNHVPdWNJb1FrU1FVN2wxMEVqWlJMUkI3RG0zbHd6b3RFallSSHdnbFdFZnF6REFvVm53Sjg2SV85d0dWSjFJZnFnN0xyV0VZblRpRXEzUQ?oc=5",
       "domain": "Reuters",
-      "seen": "2026-10-01 17:03 KST"
+      "seen": "2026-10-02 19:57 KST"
     },
     {
-      "title": "South Korean shares end nearly 2% higher on record chip exports",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNYU5WMkVQVmp5SV9DM3RQazIzd2M3U0RKbnItbEd1c19hbXp1cm1TM1NEcTl4eXdMd3NTWkdrRy0xdEdIQ2ZOdDJWSXJmVkxWbEVLQjhnRVI5eFktV1hReTFyUjZKcDN2UzZBLUZCSEJuNld5NEFNX21sX3FMSWRfRmhNY2tjQzF1ZVgtbjQwNWlTdkhveHpaR0VhWDBkTW5ZUFF0YWlBY3ppT3RUS1ZxY05tYms?oc=5",
+      "title": "US dollar strength to fizzle, FX forecasters unmoved by searing rally: Reuters poll",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOd2dwdWJwQlZLYmFiRzlaNjRQUXJUbWNyaHgtaGdqVC1ZQ3pxOG0tR1c2eldXaWo4WlowRmVYR0phME9Cc3RXVFRvQ1NYbXRwZkxVMnUtbG5vSG1QeWNkaHZQQjdWc3liTUVldVFEcEx1SDJJSGc2aTBlSlNJZ1FSb0tYS1FIRzFTTkU5aUV0U2Fxdy1JZGZ0VnZaVEllNDd5QkhON0xxZkxmdE9RS05N?oc=5",
       "domain": "Reuters",
-      "seen": "2026-10-01 16:15 KST"
+      "seen": "2026-10-02 19:09 KST"
     },
     {
-      "title": "India's RBI FX swaps create opening for firms to tap dollar funding at lower cost",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQTHZVYUtRT0JSU2NTeDdFOWhKVEtsbVg1WmgyWk5EaVB5WUJDamxpRW1hZDNXRTRNdXBoaTVFZkp1aUVZVnFsbHJVYnBsdzFvR25ybGo2S0tjblJoT3c2Ty1aek5EWUZLMVNycVBvUmRjUFI5Ylo0R3FZZ004a090dkJQc1lnVzZuNFRZUWVNUUgzWnN4QmJxbkxnUUpZaWpwa1pLTFFkMUszbEk5ZjdUek90ekNsRDBRd0E?oc=5",
+      "title": "Hedge funds struggle for September gains as rate, AI swings bite",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQOUZkZi1QLXNOR283SlRkU0ZYV3FJdUQxNDEyTmpmdEZuT2lmOHRwZXQxM0I1RWNZYTlZYnM3RnN2cHVNbDJwUGNqZHQ2M1JwT21QREpGNFE3Vy1CWEJDOGZabElfcU1mSmZvcnNjNTFxVERheFBDSXliQWxMaEJfZDcyem1ZT0hhdG1obDlGUy1BMjdEbDViOHQ5ZTVhY0dxQzY1YjRrSQ?oc=5",
       "domain": "Reuters",
-      "seen": "2026-10-01 15:43 KST"
+      "seen": "2026-10-02 18:28 KST"
     },
     {
-      "title": "Gold edges up as softer inflation data dents Fed rate-hike bets",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNRjFDcnNwNW1uWWdUaW5iaWRNLV8wbnl4QlBGWHFjN0twMDlINnBTclUwYnRGN1pTVTJYbE94MFEyRk5yQ0FUcXlQLXNkYkdPQXQ3eFlDUko4cXF1Vkc5TUg2LXZKSTAzc3hnOGJrT1hoNl92bG1mY1lSM2MwR3lBcGVQS2NmNDVEWUdURERqcDVkYUhpVTVXZDZqUEF6c1RCMjFFeWpOZWNKVzdGS3dFNzQ3VQ?oc=5",
+      "title": "US job growth expected to slow in September; unemployment rate likely steady",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWmpBVFdqekt5WEJQeF8zZkEzQ0prUUdiY3lzNVM3TUVXSndIazJYSmNOajZNWGViZ1ZGaUszb1JEaF92cjlDdUN3aGVyQXQ5d1VseFFINzZxMTJYbURVOFJFYmlfN29kbFItakZhczNLc3dJZks1Q1hqZ3ZwNUhucEc3ZmxCd0kxbEJFZWlHRkZVdFM1M09iUnZ4bHRLYnJBUllhOTZYNnhhVXdRM1lGbTgtc2M?oc=5",
       "domain": "Reuters",
-      "seen": "2026-10-01 13:48 KST"
+      "seen": "2026-10-02 13:01 KST"
     }
   ],
-  "rate_source_time": "2026-10-02 15:09:47 KST",
+  "rate_source_time": "2026-10-02 22:08:51 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": -9.7,
-  "rate_change_pct": -0.71,
+  "rate_change": -15.0,
+  "rate_change_pct": -1.1,
   "smbs_base_rate": 1359.6,
   "smbs_rate_date": "2026-10-02",
-  "smbs_rate_updated_at_kst": "2026-10-02 15:09:34 KST",
+  "smbs_rate_updated_at_kst": "2026-10-02 22:08:39 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1365.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-10-02 15:09:34 KST"
+  "rate_job_checked_at_kst": "2026-10-02 22:08:39 KST"
 }

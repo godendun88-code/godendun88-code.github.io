@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-10-03 03:41 KST",
+  "updated_at_kst": "2026-10-03 07:57 KST",
   "current_rate": 1344.0,
   "previous_close": 1360.7,
-  "rate_updated_at_kst": "2026-10-03 03:40:55 KST",
+  "rate_updated_at_kst": "2026-10-03 07:57:24 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "하락 우세",
   "drivers": [
@@ -13,16 +13,16 @@
   "outlook": "달러 약세·금리 하락 계열의 재료가 상대적으로 우세해 원/달러는 단기 하락 압력이 이어질 가능성이 있으나, 유가와 지정학적 리스크는 하단을 제한할 수 있습니다.",
   "articles": [
     {
-      "title": "Nasdaq hits record high after softer jobs data tempers rate-hike bets",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPeTVxVTNLX2pUZEc1U0xtNWdyYWRjY0NjSVcweXJNYk9PTDVKVnJaTzFNTUdnNW5LVEFxaHlELU9fVW9neE93Q0VDanlUbkJPcUhMaXNmNUJQX3pXd0JvcU1VSHh5Z1NEZnQzWGFsclpXZ08zRTVmY2ZaV1J4a2JBU3lPTEVNTUNBSVdVcWRydUlJOEY5ZU13NERhMFE3YUstSzB2RE5JV1gtZw?oc=5",
+      "title": "September jobs report: hiring stalls, unemployment rises to 4.2%",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBDaXY5WWQybFl5VEJTMUNLYjByTzNQQm5fUGxpVTJuMkp5b2N5bkxLS20xS3JRU3A1aTdKRFdQNEMtMjd0d3pfelNuWDRoUDZQRDA1dDk3SGZlSHZ0dHRneTRzUk5pcXdEaXRfem1ka2VuOEhVYjRGMGpjU3p0UQ?oc=5",
       "domain": "Reuters",
-      "seen": "2026-10-03 01:09 KST"
+      "seen": "2026-10-03 04:00 KST"
     },
     {
-      "title": "US job growth slows sharply in September; unemployment rate rises to 4.2%",
+      "title": "US job growth undershoots expectations in September, but labor market remains stable",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNQmltMmFiSHRscEo3QjJKNWdUYW5QM3NIVVM5OEhtOFMzekduZlEyTHA3amZSM3VvVmF1V3hZeWtLdDJ5TVdIQ0gzaVl6WlhBZm9hUDFDQXZKTF9RN3ZEWHlFZGZpMENOQUpoRVM4RXpaOFJCa2tZa1ZibmRhTzVObHJOTG1zaFdobmhrSDl3VXNJRmhiRzF1NnE5a1VIMmdPV2dnUE13M1dIbXpNdVE?oc=5",
       "domain": "Reuters",
-      "seen": "2026-10-02 23:32 KST"
+      "seen": "2026-10-03 03:41 KST"
     },
     {
       "title": "VIEW Soft September jobs report sends markets higher",
@@ -37,25 +37,25 @@
       "seen": "2026-10-02 20:31 KST"
     },
     {
-      "title": "TSX futures tick up ahead of key US labor-market data",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOd1FpTzdKRkUzUHc2Qy1XVGlrX0FVdEtsZmVVZ0pYdEFmWnBpWDM1cFpJRmlKQmZ5UlFJcDg4bGRNTDd4MTd5Vzg0bVZsNHVPdWNJb1FrU1FVN2wxMEVqWlJMUkI3RG0zbHd6b3RFallSSHdnbFdFZnF6REFvVm53Sjg2SV85d0dWSjFJZnFnN0xyV0VZblRpRXEzUQ?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-10-02 19:57 KST"
-    },
-    {
       "title": "US dollar strength to fizzle, FX forecasters unmoved by searing rally: Reuters poll",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOd2dwdWJwQlZLYmFiRzlaNjRQUXJUbWNyaHgtaGdqVC1ZQ3pxOG0tR1c2eldXaWo4WlowRmVYR0phME9Cc3RXVFRvQ1NYbXRwZkxVMnUtbG5vSG1QeWNkaHZQQjdWc3liTUVldVFEcEx1SDJJSGc2aTBlSlNJZ1FSb0tYS1FIRzFTTkU5aUV0U2Fxdy1JZGZ0VnZaVEllNDd5QkhON0xxZkxmdE9RS05N?oc=5",
       "domain": "Reuters",
       "seen": "2026-10-02 18:54 KST"
+    },
+    {
+      "title": "US job growth expected to slow in September; unemployment rate likely steady",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWmpBVFdqekt5WEJQeF8zZkEzQ0prUUdiY3lzNVM3TUVXSndIazJYSmNOajZNWGViZ1ZGaUszb1JEaF92cjlDdUN3aGVyQXQ5d1VseFFINzZxMTJYbURVOFJFYmlfN29kbFItakZhczNLc3dJZks1Q1hqZ3ZwNUhucEc3ZmxCd0kxbEJFZWlHRkZVdFM1M09iUnZ4bHRLYnJBUllhOTZYNnhhVXdRM1lGbTgtc2M?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-10-02 13:01 KST"
     }
   ],
-  "rate_source_time": "2026-10-03 03:40:55 KST",
+  "rate_source_time": "2026-10-03 07:57:24 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": -16.7,
   "rate_change_pct": -1.23,
   "smbs_base_rate": 1359.6,
   "smbs_rate_date": "2026-10-03",
-  "smbs_rate_updated_at_kst": "2026-10-03 03:40:40 KST",
+  "smbs_rate_updated_at_kst": "2026-10-03 07:57:11 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1365.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-10-03 03:40:40 KST"
+  "rate_job_checked_at_kst": "2026-10-03 07:57:11 KST"
 }

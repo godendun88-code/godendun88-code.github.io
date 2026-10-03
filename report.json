@@ -1,28 +1,22 @@
 {
-  "updated_at_kst": "2026-10-03 17:02 KST",
+  "updated_at_kst": "2026-10-03 22:20 KST",
   "current_rate": 1344.0,
   "previous_close": 1360.7,
-  "rate_updated_at_kst": "2026-10-03 17:02:23 KST",
+  "rate_updated_at_kst": "2026-10-03 22:20:15 KST",
   "rate_source": "KB STAR FX Market Watch",
-  "market_bias": "하락 우세",
+  "market_bias": "혼조",
   "drivers": [
-    "미국 고용 둔화 관련 보도가 확인돼 연준의 긴축 필요성을 낮추고 달러 약세 요인으로 작용하고 있습니다.",
-    "미 국채금리 관련 최신 기사(\"US equity funds post second weekly inflow as AI optimism tempers yield concerns\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다.",
-    "달러 관련 최신 기사(\"US dollar strength to fizzle, FX forecasters unmoved by searing rally: Reuters poll\")가 확인돼 달러인덱스 방향성이 원/달러 환율의 핵심 변수로 작용하고 있습니다."
+    "미국 고용 관련 최신 기사(\"US job growth undershoots expectations in September, but labor market remains stable\")가 확인돼 고용지표가 연준 금리 기대와 달러 방향성을 좌우하는 변수로 부각되고 있습니다.",
+    "외환시장 관련 최신 기사(\"Stocks close higher as soft jobs data cools rate-hike bets\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다.",
+    "미국 고용 관련 최신 기사(\"VIEW Soft September jobs report sends markets higher\")가 확인돼 고용지표가 연준 금리 기대와 달러 방향성을 좌우하는 변수로 부각되고 있습니다."
   ],
-  "outlook": "달러 약세·금리 하락 계열의 재료가 상대적으로 우세해 원/달러는 단기 하락 압력이 이어질 가능성이 있으나, 유가와 지정학적 리스크는 하단을 제한할 수 있습니다.",
+  "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
     {
       "title": "Stocks close higher as soft jobs data cools rate-hike bets",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9VODZOWnRXTjEybi1Zand5QzBvVGJ6RUg2LUwyRkxveXE4OVdERGNUenRpdjJVSXp3S2gtc1A5NnUwWG1GTENsRXhWc2pTdVRWN3FhWjFHZDFfQTdYY29NNi1yakxTUQ?oc=5",
       "domain": "Reuters",
       "seen": "2026-10-03 10:05 KST"
-    },
-    {
-      "title": "September jobs report: hiring stalls, unemployment rises to 4.2%",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBDaXY5WWQybFl5VEJTMUNLYjByTzNQQm5fUGxpVTJuMkp5b2N5bkxLS20xS3JRU3A1aTdKRFdQNEMtMjd0d3pfelNuWDRoUDZQRDA1dDk3SGZlSHZ0dHRneTRzUk5pcXdEaXRfem1ka2VuOEhVYjRGMGpjU3p0UQ?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-10-03 04:00 KST"
     },
     {
       "title": "US job growth undershoots expectations in September, but labor market remains stable",
@@ -35,27 +29,15 @@
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQTkVCanhuNm9LTk9xbXE4RmNabmw1S0s0RXJEdVZzdTdqa1M1TXBxU1pBTm13LVRaZXNSeFY4UVNOa1ZaTEY5NFo0ejBmZnBxanVVM29nWll0S21yNWZzaXlJY0FJSXFMMFVvYy1QOXBxTlZiMXhRbTUwUktoVmg2ekxuNTBTVzRWWG1VVFB5S2k5Y0pnOTBpMjJ0SW45dw?oc=5",
       "domain": "Reuters",
       "seen": "2026-10-02 22:33 KST"
-    },
-    {
-      "title": "COMMENTARY: A remarkable Q3, French woes and Trump's diesel hit: The financial week in five charts",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPakZiT3E5dkRRXzlkU0Y1a0VYNzZ6dnNQa0hyZDZuQjQ5bGxONXk4ckN1Mk1KU2ozYVNQQlEyM3hBajdnMkR4al9ydmdBRWREZzVxMkhJTm8wMUV5MGpTc1JFY3RJNnJUQndxX0ZxYTkxN2pjZVVlODNtbWgtTmRCN1hpREExa0Z3QUhMNS1QWTRYUXFRdGNRUXZUZHhsejEwX3hkNnViT0JhZ3pOX1pPQlRRLTZpR1VGR3hKZEtndUdTSWFfaGpwblNUUVNad19LTDA2Vlhn?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-10-02 22:16 KST"
-    },
-    {
-      "title": "US equity funds post second weekly inflow as AI optimism tempers yield concerns",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQSnpCOUJMLUJFcm5PWWQxZ3FrZ3ZjaXQydHNtMDY1U2VFcEh6R25paGdteWxiNWFvT1llNWdaR3hSUVA1WWduel9EUFVHaUN1QVRZaHVGQlE4dm00V2NKWjVFN3N3Nm1aRk93ZkZsbnF2RjQ1eUpMWEpTUGtMbUw3eFRGRVRvLTdCTGRId2s1UzdQcVRnbTZ5YXprSlhBNk55QUswV0JCb25GWHpIdTlzVWNNTS02Q0pUbE14YnZR?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-10-02 20:31 KST"
     }
   ],
-  "rate_source_time": "2026-10-03 17:02:23 KST",
+  "rate_source_time": "2026-10-03 22:20:15 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": -16.7,
   "rate_change_pct": -1.23,
   "smbs_base_rate": 1359.6,
   "smbs_rate_date": "2026-10-03",
-  "smbs_rate_updated_at_kst": "2026-10-03 17:02:09 KST",
+  "smbs_rate_updated_at_kst": "2026-10-03 22:19:59 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +45,5 @@
     1365.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-10-03 17:02:09 KST"
+  "rate_job_checked_at_kst": "2026-10-03 22:19:59 KST"
 }

@@ -1,13 +1,13 @@
 {
-  "updated_at_kst": "2026-10-04 02:37 KST",
+  "updated_at_kst": "2026-10-04 05:12 KST",
   "current_rate": 1344.0,
   "previous_close": 1360.7,
-  "rate_updated_at_kst": "2026-10-04 02:37:10 KST",
+  "rate_updated_at_kst": "2026-10-04 05:12:41 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
-    "미국 고용 관련 최신 기사(\"US job growth undershoots expectations in September, but labor market remains stable\")가 확인돼 고용지표가 연준 금리 기대와 달러 방향성을 좌우하는 변수로 부각되고 있습니다.",
-    "외환시장 관련 최신 기사(\"Stocks close higher as soft jobs data cools rate-hike bets\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다."
+    "외환시장 관련 최신 기사(\"Stocks close higher as soft jobs data cools rate-hike bets\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다.",
+    "외환시장 관련 최신 기사(\"Amazon a top buy in 'weird' year for markets, says portfolio manager\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
@@ -18,19 +18,19 @@
       "seen": "2026-10-03 10:05 KST"
     },
     {
-      "title": "US job growth undershoots expectations in September, but labor market remains stable",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNQmltMmFiSHRscEo3QjJKNWdUYW5QM3NIVVM5OEhtOFMzekduZlEyTHA3amZSM3VvVmF1V3hZeWtLdDJ5TVdIQ0gzaVl6WlhBZm9hUDFDQXZKTF9RN3ZEWHlFZGZpMENOQUpoRVM4RXpaOFJCa2tZa1ZibmRhTzVObHJOTG1zaFdobmhrSDl3VXNJRmhiRzF1NnE5a1VIMmdPV2dnUE13M1dIbXpNdVE?oc=5",
+      "title": "Amazon a top buy in 'weird' year for markets, says portfolio manager",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9hRjFUR0dRT1hRM0ZZc2F3MU5WRkhhV0hpS21Lb0gwR0hPNmNmN2NELVJwaXpaQXFrY2RrRzg1OXAzNUd2WmllNTFQLXJLcVVseGE3TXJkR0JTOUJuVHFweGl5Z1JQWW9yWExFSnk0TWpxVnhSd1N2RnAwLU1vUQ?oc=5",
       "domain": "Reuters",
-      "seen": "2026-10-03 03:41 KST"
+      "seen": "2026-10-03 05:36 KST"
     }
   ],
-  "rate_source_time": "2026-10-04 02:37:10 KST",
+  "rate_source_time": "2026-10-04 05:12:41 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": -16.7,
   "rate_change_pct": -1.23,
   "smbs_base_rate": 1359.6,
   "smbs_rate_date": "2026-10-04",
-  "smbs_rate_updated_at_kst": "2026-10-04 02:36:53 KST",
+  "smbs_rate_updated_at_kst": "2026-10-04 05:12:28 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -38,5 +38,5 @@
     1365.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-10-04 02:36:53 KST"
+  "rate_job_checked_at_kst": "2026-10-04 05:12:28 KST"
 }

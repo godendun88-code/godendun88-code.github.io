@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-10-03 10:54 KST",
+  "updated_at_kst": "2026-10-03 17:02 KST",
   "current_rate": 1344.0,
   "previous_close": 1360.7,
-  "rate_updated_at_kst": "2026-10-03 10:54:24 KST",
+  "rate_updated_at_kst": "2026-10-03 17:02:23 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "하락 우세",
   "drivers": [
@@ -12,6 +12,12 @@
   ],
   "outlook": "달러 약세·금리 하락 계열의 재료가 상대적으로 우세해 원/달러는 단기 하락 압력이 이어질 가능성이 있으나, 유가와 지정학적 리스크는 하단을 제한할 수 있습니다.",
   "articles": [
+    {
+      "title": "Stocks close higher as soft jobs data cools rate-hike bets",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9VODZOWnRXTjEybi1Zand5QzBvVGJ6RUg2LUwyRkxveXE4OVdERGNUenRpdjJVSXp3S2gtc1A5NnUwWG1GTENsRXhWc2pTdVRWN3FhWjFHZDFfQTdYY29NNi1yakxTUQ?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-10-03 10:05 KST"
+    },
     {
       "title": "September jobs report: hiring stalls, unemployment rises to 4.2%",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBDaXY5WWQybFl5VEJTMUNLYjByTzNQQm5fUGxpVTJuMkp5b2N5bkxLS20xS3JRU3A1aTdKRFdQNEMtMjd0d3pfelNuWDRoUDZQRDA1dDk3SGZlSHZ0dHRneTRzUk5pcXdEaXRfem1ka2VuOEhVYjRGMGpjU3p0UQ?oc=5",
@@ -31,31 +37,25 @@
       "seen": "2026-10-02 22:33 KST"
     },
     {
+      "title": "COMMENTARY: A remarkable Q3, French woes and Trump's diesel hit: The financial week in five charts",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPakZiT3E5dkRRXzlkU0Y1a0VYNzZ6dnNQa0hyZDZuQjQ5bGxONXk4ckN1Mk1KU2ozYVNQQlEyM3hBajdnMkR4al9ydmdBRWREZzVxMkhJTm8wMUV5MGpTc1JFY3RJNnJUQndxX0ZxYTkxN2pjZVVlODNtbWgtTmRCN1hpREExa0Z3QUhMNS1QWTRYUXFRdGNRUXZUZHhsejEwX3hkNnViT0JhZ3pOX1pPQlRRLTZpR1VGR3hKZEtndUdTSWFfaGpwblNUUVNad19LTDA2Vlhn?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-10-02 22:16 KST"
+    },
+    {
       "title": "US equity funds post second weekly inflow as AI optimism tempers yield concerns",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQSnpCOUJMLUJFcm5PWWQxZ3FrZ3ZjaXQydHNtMDY1U2VFcEh6R25paGdteWxiNWFvT1llNWdaR3hSUVA1WWduel9EUFVHaUN1QVRZaHVGQlE4dm00V2NKWjVFN3N3Nm1aRk93ZkZsbnF2RjQ1eUpMWEpTUGtMbUw3eFRGRVRvLTdCTGRId2s1UzdQcVRnbTZ5YXprSlhBNk55QUswV0JCb25GWHpIdTlzVWNNTS02Q0pUbE14YnZR?oc=5",
       "domain": "Reuters",
       "seen": "2026-10-02 20:31 KST"
-    },
-    {
-      "title": "US dollar strength to fizzle, FX forecasters unmoved by searing rally: Reuters poll",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOd2dwdWJwQlZLYmFiRzlaNjRQUXJUbWNyaHgtaGdqVC1ZQ3pxOG0tR1c2eldXaWo4WlowRmVYR0phME9Cc3RXVFRvQ1NYbXRwZkxVMnUtbG5vSG1QeWNkaHZQQjdWc3liTUVldVFEcEx1SDJJSGc2aTBlSlNJZ1FSb0tYS1FIRzFTTkU5aUV0U2Fxdy1JZGZ0VnZaVEllNDd5QkhON0xxZkxmdE9RS05N?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-10-02 18:54 KST"
-    },
-    {
-      "title": "US job growth expected to slow in September; unemployment rate likely steady",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWmpBVFdqekt5WEJQeF8zZkEzQ0prUUdiY3lzNVM3TUVXSndIazJYSmNOajZNWGViZ1ZGaUszb1JEaF92cjlDdUN3aGVyQXQ5d1VseFFINzZxMTJYbURVOFJFYmlfN29kbFItakZhczNLc3dJZks1Q1hqZ3ZwNUhucEc3ZmxCd0kxbEJFZWlHRkZVdFM1M09iUnZ4bHRLYnJBUllhOTZYNnhhVXdRM1lGbTgtc2M?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-10-02 13:01 KST"
     }
   ],
-  "rate_source_time": "2026-10-03 10:54:24 KST",
+  "rate_source_time": "2026-10-03 17:02:23 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": -16.7,
   "rate_change_pct": -1.23,
   "smbs_base_rate": 1359.6,
   "smbs_rate_date": "2026-10-03",
-  "smbs_rate_updated_at_kst": "2026-10-03 10:54:11 KST",
+  "smbs_rate_updated_at_kst": "2026-10-03 17:02:09 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1365.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-10-03 10:54:11 KST"
+  "rate_job_checked_at_kst": "2026-10-03 17:02:09 KST"
 }

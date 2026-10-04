@@ -1,23 +1,23 @@
 {
-  "updated_at_kst": "2026-10-04 18:41 KST",
+  "updated_at_kst": "2026-10-05 00:20 KST",
   "current_rate": 1344.0,
   "previous_close": 1360.7,
-  "rate_updated_at_kst": "2026-10-04 18:41:39 KST",
+  "rate_updated_at_kst": "2026-10-05 00:20:10 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
-    "달러 관련 최신 기사(\"The world is spending trillions of dollars on AI. Will it pay off?\")가 확인돼 달러인덱스 방향성이 원/달러 환율의 핵심 변수로 작용하고 있습니다."
+    "유가 및 중동 지정학적 불확실성이 부각돼 에너지 수입 의존도가 높은 원화에는 약세 부담 요인으로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
     {
-      "title": "The world is spending trillions of dollars on AI. Will it pay off?",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9tRkhtQWNGZ0NhT1dMM1ZoYnMwMXNXNzlBWDVXa1doWUFVYmRKd0k5U2FCYWN4STQ4blJ6VXlfVkRFT1VJY2s0MWJDLW9IY2lmd3hYWWd1bVBmY3NWSXcxSnUyRVlqQQ?oc=5",
+      "title": "Most Gulf shares end higher on firmer oil, US rate bets",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTFU4dWNfNXhnZHRuZjJSVFZXd1duaHUzSVlLTThwSm9aVW41ZnRKcElHZXFON2taVWJ0eXZvU1F6SHpuVHhRMGhsQzFvWFJIQkZJN0FtRm5FTnRVR0tkTm1VaHpTakxncnNlb2hYQk40ZWZDc3h5RkZaNkV1eU00dkw3U0liSlFTcjhWd3VTQXFKVEdZWm4xTTkwTDZlbERiRWJEZ2FCOVo?oc=5",
       "domain": "Reuters",
-      "seen": "2026-10-03 18:59 KST"
+      "seen": "2026-10-04 22:28 KST"
     }
   ],
-  "rate_source_time": "2026-10-04 18:41:39 KST",
+  "rate_source_time": "2026-10-05 00:20:10 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": -16.7,
   "rate_change_pct": -1.23,
@@ -31,5 +31,6 @@
     1365.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-10-04 18:41:26 KST"
+  "rate_job_checked_at_kst": "2026-10-05 00:19:54 KST",
+  "smbs_rate_error": "RuntimeError: 서울외국환중개 페이지에서 USD 매매기준율을 찾지 못했습니다."
 }

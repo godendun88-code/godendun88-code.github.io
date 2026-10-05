@@ -1,11 +1,12 @@
 {
-  "updated_at_kst": "2026-10-05 07:19 KST",
+  "updated_at_kst": "2026-10-05 10:16 KST",
   "current_rate": 1344.0,
   "previous_close": 1360.7,
-  "rate_updated_at_kst": "2026-10-05 07:19:41 KST",
+  "rate_updated_at_kst": "2026-10-05 10:16:18 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
+    "유가 및 중동 지정학적 불확실성이 부각돼 에너지 수입 의존도가 높은 원화에는 약세 부담 요인으로 작용하고 있습니다.",
     "유가 및 중동 지정학적 불확실성이 부각돼 에너지 수입 의존도가 높은 원화에는 약세 부담 요인으로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
@@ -15,15 +16,21 @@
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTFU4dWNfNXhnZHRuZjJSVFZXd1duaHUzSVlLTThwSm9aVW41ZnRKcElHZXFON2taVWJ0eXZvU1F6SHpuVHhRMGhsQzFvWFJIQkZJN0FtRm5FTnRVR0tkTm1VaHpTakxncnNlb2hYQk40ZWZDc3h5RkZaNkV1eU00dkw3U0liSlFTcjhWd3VTQXFKVEdZWm4xTTkwTDZlbERiRWJEZ2FCOVo?oc=5",
       "domain": "Reuters",
       "seen": "2026-10-04 22:28 KST"
+    },
+    {
+      "title": "All U.S. bombers leave UK air base on concerns of suspected terror plots; more tankers struck near Iran in the Middle East",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQUjEwRGxoTll0b2ZCWkRZZl9iUzBKblN5TXJNM0Y5RXpZUmYwMW1YVW0wcFZYcEl1UTk0Q3VpTl9qZXBtYkg1QzdBWDZIa0wwdWZJZ0tsbU5DbHg1LWhOR2hCWWRzUVV4Qy1wd1pWVW9ZQ3NrdmE4RkpJUkRJYXk0ekNzVXQzalpLY3AtUU1mb3FlcnRnc1BEUi1KaDVEUWFiVUhF0gGoAUFVX3lxTFBMNDgyNFd0ZWdGbHlrRGNsUEtGbUx2ci1KakxlMXpuRks0Nl9jY2pjdC1pTkRVYXJRajFmdVZqaHVQZ2lmTmtzVkJaM1JnWWI3VlBTZHhYMDBRUjd5R0NzNEZ0S2w5bVJ5NkpvZHZqaWFPd0V0T2FrX1V1bW1vaFpiYUYtNHJoYko3ZTNXQW1ZTVV1RlNGN2ZZRmJvWUZiUWFxcGNRSWJ0UA?oc=5",
+      "domain": "CNBC",
+      "seen": "2026-10-04 21:02 KST"
     }
   ],
-  "rate_source_time": "2026-10-05 07:19:41 KST",
+  "rate_source_time": "2026-10-05 10:16:18 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": -16.7,
   "rate_change_pct": -1.23,
   "smbs_base_rate": 1359.6,
   "smbs_rate_date": "2026-10-05",
-  "smbs_rate_updated_at_kst": "2026-10-05 07:19:26 KST",
+  "smbs_rate_updated_at_kst": "2026-10-05 10:16:06 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -31,5 +38,5 @@
     1365.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-10-05 07:19:26 KST"
+  "rate_job_checked_at_kst": "2026-10-05 10:16:06 KST"
 }

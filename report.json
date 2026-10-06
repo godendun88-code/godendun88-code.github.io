@@ -1,61 +1,61 @@
 {
-  "updated_at_kst": "2026-10-06 19:46 KST",
-  "current_rate": 1339.3,
+  "updated_at_kst": "2026-10-07 02:10 KST",
+  "current_rate": 1339.4,
   "previous_close": 1344.0,
-  "rate_updated_at_kst": "2026-10-06 19:46:09 KST",
+  "rate_updated_at_kst": "2026-10-07 02:10:15 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "상승 우세",
   "drivers": [
     "미국 물가 관련 최신 기사(\"Inflation may force Fed rate hike this month, investor says\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
-    "미 국채금리 상승 관련 보도가 확인돼 달러 수요를 지지하면서 원/달러 환율 상승 압력으로 작용하고 있습니다.",
-    "글로벌 달러 약세 관련 보도가 이어지며 원/달러 환율에는 하락 압력으로 작용하고 있습니다."
+    "미 국채금리 관련 최신 기사(\"S&P 500, Nasdaq touch new peaks as Treasury yields cool, oil slips\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다.",
+    "외환시장 관련 최신 기사(\"Slowdown in money-fund cash flow hits short-term Treasuries\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다."
   ],
   "outlook": "달러 강세·금리 상승 계열의 재료가 상대적으로 우세해 원/달러는 단기 상승 압력이 나타날 수 있으나, 국내 수급과 위험선호 회복 여부에 따라 변동성이 예상됩니다.",
   "articles": [
     {
-      "title": "Wall St futures rise as yields, oil dip",
+      "title": "S&P 500, Nasdaq touch new peaks as Treasury yields cool, oil slips",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZ0p5VWxQQ0ZmUUI0Vk5wRUVjTUJhZjZGUlZjU2tWU1AtOEdqYjZ0OFRtRXNrUVdrTFlNZjVWdzluRjUyaWhHTlYxMG5Yc21pMHFubTdiX1RIRTRUSnB4UTZPckRMZTlzTHBEbkZKU1ROMTZpWE9lMXhPQkhyQmhBV3JNdkFrQVk?oc=5",
       "domain": "Reuters",
-      "seen": "2026-10-06 19:27 KST"
+      "seen": "2026-10-06 23:01 KST"
+    },
+    {
+      "title": "TSX futures rise as softer oil prices, bond yields lift risk appetite",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPOFY0QlNSQ3V5WnI0el9ydmVuUGN2Tkl5ZUYxZWZCZFRmYWUxUk9uSnFFOHJGckVXeGRsQnIyWlhCQURWT0FTOENYZ0ZPam8xNXFCLVB0U1lGTlFVQ3B1M2lTbEU2bzRBNlg5WWktcWNWWjU1V2Z0MlB5ZHpyZ0JFU0VhaVZjUmhCTE1mOWltcUx5Y3BweGR4QXdEeVBUdmhNMnR6STlHblVjV3FXTDJJ?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-10-06 19:25 KST"
     },
     {
       "title": "Slowdown in money-fund cash flow hits short-term Treasuries",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZjlyRGZUZEFVd1dINVM3bnJ0WGgxNzRRZHJMYlVERkQ3SGpCb3RhbEkwWXZOR1JySjQyeW96bFJaQ2ZPNHFsVHcxQ3Izc2Z3NThvZE52Q0E4eXZ6alNqTlRucDdnTlk4eDAxbE01TzBsc3FGZV9SaE5jM2VtcEt5Vll5UERJSW5OMlNJUFA2RDBXQnNrMnkzZjAzZUtZbHZWaFNR?oc=5",
       "domain": "Reuters",
-      "seen": "2026-10-06 19:03 KST"
+      "seen": "2026-10-06 19:15 KST"
     },
     {
-      "title": "Oil, fuel supply buffers are thinning as Middle East conflict continues, Chevron CEO says",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPaWJWU2xXSFpjTHEtWi1hZUZwNnFaWWk0OTVoNGJYWE1wdHp3cFdVWXdibnlUdWV2MmhhakJDWV9fLW1ZSDNEZ0tCZlRzaVRWYlVFbFNZa2poZjB2ZnVVSVQ1emFNVnFWUVJmYUptU3pYNGN5MzQ1UVVUSjlLeGppcHM2THJIbHNCV2FPSmhPREZMdWY1aDFzZ084SUJCaTA1WTd5eDRhQnh5U1BON01wSzltLVFsbXpva3JieExQb19jYTZiYXNpRjJR?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-10-06 18:23 KST"
-    },
-    {
-      "title": "Gold inches lower as firmer dollar, higher yields weigh",
+      "title": "Gold edges up as dollar, Treasury yields slip",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNS3Z3SEV1TFdScWdiaHBPbEVUTjFEYWV0WjJSQjRPRkl2LTZsNHJoNzU1RGEyM0V2bE5LYk9KUDUtZ0tNMGFKYWw3NWFoUEdkQU5MaklVVy1lUmNMRlJQOUk3VjFjNmJZWGk1bzZtRkpLVWxmTUMzZ0NadVJsZUs3TWNlY0JrdGNubHpXOWNTRXEyVXM0YkUxWGd2UDQ2dkJi?oc=5",
       "domain": "Reuters",
       "seen": "2026-10-06 11:15 KST"
     },
     {
-      "title": "Asian shares track Wall Street higher; Treasury yields near multi-decade highs",
+      "title": "World shares advance as oil falls, bond yields retreat",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNZlMwQU1nbHRaZ2dnOUVOM1c1LXBxNXhWUTNzS1ROWDZyODk1NldRTHB2ODNKbnI0am5tUUcwMU9YekUxMWtLOFVGMFczTU12cHpCclQ1cnhDRzBMVGRBWTYwRjZPVUZidVFlT1FMZGdUcnR6MENjNXVMUXRzTlVzdVJkSQ?oc=5",
       "domain": "Reuters",
       "seen": "2026-10-06 10:48 KST"
     },
     {
-      "title": "Euro trades around 17-month low amid French debt worries, dollar steady",
+      "title": "Euro bounces as falling French bond yields ease debt worries",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOcnpLWGdYR3FxRDFJMFVCN1NDalZucm9sOHhNeWVSSzFTNEJhUi0tQWg3NjY1VS1XbGVsMlpGNFVOQkZ0OUNEWjNCclhwLUhrQUNhaElCQWhPeDZ5Q0cwQzUzSW5EWnAwSkF3R25FVGYwR2RRZnNfYzhfNlUtbnRKN3lMNDBKREhONjFpcjlSbHFuNkJMaG9JNWlOdDVKMEVNbUlLc3o5WmNjaXJRWHhB?oc=5",
       "domain": "Reuters",
       "seen": "2026-10-06 10:14 KST"
     }
   ],
-  "rate_source_time": "2026-10-06 19:46:09 KST",
+  "rate_source_time": "2026-10-07 02:10:15 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": -4.7,
-  "rate_change_pct": -0.35,
-  "smbs_base_rate": 1358.5,
-  "smbs_rate_date": "2026-10-06",
-  "smbs_rate_updated_at_kst": "2026-10-06 19:45:53 KST",
+  "rate_change": -4.6,
+  "rate_change_pct": -0.34,
+  "smbs_base_rate": 1343.4,
+  "smbs_rate_date": "2026-10-07",
+  "smbs_rate_updated_at_kst": "2026-10-07 02:10:00 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1350.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-10-06 19:45:53 KST"
+  "rate_job_checked_at_kst": "2026-10-07 02:10:00 KST"
 }

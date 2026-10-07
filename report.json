@@ -1,28 +1,40 @@
 {
-  "updated_at_kst": "2026-10-07 10:30 KST",
+  "updated_at_kst": "2026-10-07 16:42 KST",
   "current_rate": 1338.3,
-  "previous_close": 1337.68,
-  "rate_updated_at_kst": "2026-10-07 10:30:36 KST",
+  "previous_close": 1339.4,
+  "rate_updated_at_kst": "2026-10-07 16:42:39 KST",
   "rate_source": "KB STAR FX Market Watch",
-  "market_bias": "혼조",
+  "market_bias": "상승 우세",
   "drivers": [
-    "연준·금리 관련 최신 기사(\"Dollar holds losses as markets await Fed minutes, speakers\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
-    "미 국채금리 상승 관련 보도가 확인돼 달러 수요를 지지하면서 원/달러 환율 상승 압력으로 작용하고 있습니다.",
-    "유가·지정학 관련 최신 기사(\"Around 14 million barrels per day leaving Middle East, Vitol CEO says\")가 확인돼 원화 변동성 확대 요인으로 작용하고 있습니다."
+    "연준·금리 관련 최신 기사(\"Gold slips as dollar gains; investors await Fed minutes for rate clues\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
+    "미 국채금리 관련 최신 기사(\"COMMENTARY: For Trump’s Treasury, the sting is in the auction ‘tail’: McGeever​\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다.",
+    "유가·지정학 관련 최신 기사(\"Asia shares weaker, oil up as investors weigh Saudi-Houthi escalation\")가 확인돼 원화 변동성 확대 요인으로 작용하고 있습니다."
   ],
-  "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
+  "outlook": "달러 강세·금리 상승 계열의 재료가 상대적으로 우세해 원/달러는 단기 상승 압력이 나타날 수 있으나, 국내 수급과 위험선호 회복 여부에 따라 변동성이 예상됩니다.",
   "articles": [
     {
-      "title": "Dollar holds losses as markets await Fed minutes, speakers",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQVnY5bzdPR0xZNUZ6VEJzWUhMVmJQZEI0bzY0cHpWV21LdHRFeDlIWkxnMURDYVFDVU9nZEVPYU9TNWNNV3NvWUE5MlJPaUVXT2VqaGJQQVFwNmtHWE5nNUF2SU5Ob3dmYVlSOENZVmRBc3lVUjFMM1NYYlBfLUJ6ZzJaU0FQQlQwMkh0cXlrZEItc0ZKeC1YLXdOd2wzRWxHeUlSUDg4STVVQTVGdmc?oc=5",
+      "title": "Asia shares weaker, oil up as investors weigh Saudi-Houthi escalation",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZW5YUkkzdjhfTWJXY25aWkVLeExISGkybXo1YmFoS256Qk5DclZaVVc4ODRnejkzYlBYOTBVWWp5YTVHRDVyMmtBUDVZWHlFclVhYUtIU2d0Tm1GWmRzMnhQNlg4aVVfWEZjb21nQ0tTUzc0WjQ5bEhmWVJuNzFwX25Bdw?oc=5",
       "domain": "Reuters",
-      "seen": "2026-10-07 10:14 KST"
+      "seen": "2026-10-07 11:40 KST"
     },
     {
-      "title": "S&P 500, Nasdaq reach record closing highs as focus pivots to earnings",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZ0p5VWxQQ0ZmUUI0Vk5wRUVjTUJhZjZGUlZjU2tWU1AtOEdqYjZ0OFRtRXNrUVdrTFlNZjVWdzluRjUyaWhHTlYxMG5Yc21pMHFubTdiX1RIRTRUSnB4UTZPckRMZTlzTHBEbkZKU1ROMTZpWE9lMXhPQkhyQmhBV3JNdkFrQVk?oc=5",
+      "title": "Gold slips as dollar gains; investors await Fed minutes for rate clues",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOMU10STF5SHNISk9FdXk3NTA2YjZhbnhWRTJlYlpBRGVhanFxWVQxVzhVek11UEp1OUJOU1Y1WjNQTDlBWmg3aEhvVWkzMUpXd3dBbm5Qa3pEcFdEeERZUDNwUHdFYVp0YmZPQVd3dDIwalp0LU1YWi1WTFZNVm5FTWxrSkR0dTJnNk9aM1BBc29MWXk5S3lOLXIxVW1Fd0xvbmhxNEpn?oc=5",
       "domain": "Reuters",
-      "seen": "2026-10-07 08:41 KST"
+      "seen": "2026-10-07 11:18 KST"
+    },
+    {
+      "title": "Oil gains as US storm and Houthi air strikes threaten supply",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPSHYwa2g1N1NQR1ZHcFR2eVJ3cjJySlZLVlA1UjBQeU9yNl81Z2tGYTk3TVk4V3JMcXh1LVpscTVDdTdrZGFOZjd4VWNzeXNEM1lHYmV5bDFzV2ZrN3NuQUE4VXV6cE16enQzSi1ZU3l1aXVPa00yVDkxeDRYbFI5WjhOVGR0VHFUMWNkWFMtNmxDSW9YRUtHY2pKWTlxTFRPclRzTA?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-10-07 09:48 KST"
+    },
+    {
+      "title": "COMMENTARY: For Trump’s Treasury, the sting is in the auction ‘tail’: McGeever​",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOaFVZRlVfTmRGRkNfM2FDTGFCV3dmZi1nN3lGc1g4WG1mVUNfclNlSTZsY0dscnhBdmJ6UHFLclYwQWV1TkViWXVWeWhYM09KMUFUMDh1WXFSYVZxblJkYTE0SkZKTG1zODA2Y1poMVFiRS05enFCc3FVN2p0TGsyZ1JnSmV4ajJ1RXNiOVA0SzhWeTlVZDFHOXBGNTdZM0ZwdmJkY0JPQlU4TGNPelNUVTNKbU1kZw?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-10-07 08:30 KST"
     },
     {
       "title": "Trading Day: Running with the bulls",
@@ -31,28 +43,16 @@
       "seen": "2026-10-07 06:09 KST"
     },
     {
-      "title": "Around 14 million barrels per day leaving Middle East, Vitol CEO says",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPODdCU3pBSFpicFlEQXRDelcyUFlmYnhBRk1uODNfbEpuS1pSYktaT183TjZ5OTFxY3BGUmItajNNNmItOVNOMGtiYmZMNlY4bXo0RjBWRlBGejZobHJlNGhZWldGTm9hdWlaak53TkppWlozNDFXcW5ReE4zNUcyUlpGOGxBVUhVUF96TUVfLW5HZWNLVkpqYS1ZUXBUYkV0RDBhTWhGYjByS0ZzSjhv?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-10-06 20:30 KST"
-    },
-    {
-      "title": "TSX futures rise as softer oil prices, bond yields lift risk appetite",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPOFY0QlNSQ3V5WnI0el9ydmVuUGN2Tkl5ZUYxZWZCZFRmYWUxUk9uSnFFOHJGckVXeGRsQnIyWlhCQURWT0FTOENYZ0ZPam8xNXFCLVB0U1lGTlFVQ3B1M2lTbEU2bzRBNlg5WWktcWNWWjU1V2Z0MlB5ZHpyZ0JFU0VhaVZjUmhCTE1mOWltcUx5Y3BweGR4QXdEeVBUdmhNMnR6STlHblVjV3FXTDJJ?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-10-06 19:25 KST"
-    },
-    {
       "title": "Gold climbs as dollar, Treasury yields slip",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNS3Z3SEV1TFdScWdiaHBPbEVUTjFEYWV0WjJSQjRPRkl2LTZsNHJoNzU1RGEyM0V2bE5LYk9KUDUtZ0tNMGFKYWw3NWFoUEdkQU5MaklVVy1lUmNMRlJQOUk3VjFjNmJZWGk1bzZtRkpLVWxmTUMzZ0NadVJsZUs3TWNlY0JrdGNubHpXOWNTRXEyVXM0YkUxWGd2UDQ2dkJi?oc=5",
       "domain": "Reuters",
-      "seen": "2026-10-06 11:15 KST"
+      "seen": "2026-10-07 03:24 KST"
     }
   ],
-  "rate_source_time": "2026-10-07 10:30:36 KST",
+  "rate_source_time": "2026-10-07 16:42:39 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 0.62,
-  "rate_change_pct": 0.07,
+  "rate_change": -1.1,
+  "rate_change_pct": -0.08,
   "smbs_base_rate": 1343.4,
   "smbs_rate_date": "2026-10-07",
   "smbs_rate_updated_at_kst": "2026-10-07 10:30:20 KST",
@@ -63,5 +63,6 @@
     1344.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-10-07 10:30:20 KST"
+  "rate_job_checked_at_kst": "2026-10-07 16:42:24 KST",
+  "smbs_rate_error": "RuntimeError: 서울외국환중개 페이지에서 USD 매매기준율을 찾지 못했습니다."
 }

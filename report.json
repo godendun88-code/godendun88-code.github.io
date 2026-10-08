@@ -1,17 +1,29 @@
 {
-  "updated_at_kst": "2026-10-08 09:57 KST",
-  "current_rate": 1337.4,
+  "updated_at_kst": "2026-10-08 16:18 KST",
+  "current_rate": 1340.6,
   "previous_close": 1339.7,
-  "rate_updated_at_kst": "2026-10-08 09:57:30 KST",
+  "rate_updated_at_kst": "2026-10-08 16:18:44 KST",
   "rate_source": "KB STAR FX Market Watch",
-  "market_bias": "하락 우세",
+  "market_bias": "혼조",
   "drivers": [
     "연준·금리 관련 최신 기사(\"Wall St futures slip as yields and oil rebound; Fed minutes in focus\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
-    "미 국채금리 관련 최신 기사(\"US bonds selloff eases, yields off highs, after strong 10-year note auction\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다.",
-    "글로벌 달러 약세 관련 보도가 이어지며 원/달러 환율에는 하락 압력으로 작용하고 있습니다."
+    "미국 물가 관련 최신 기사(\"Dollar steady near 18-month high after Fed minutes flag inflation risks\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
+    "미 국채금리 관련 최신 기사(\"US bonds selloff eases, yields off highs, after strong 10-year note auction\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다."
   ],
-  "outlook": "달러 약세·금리 하락 계열의 재료가 상대적으로 우세해 원/달러는 단기 하락 압력이 이어질 가능성이 있으나, 유가와 지정학적 리스크는 하단을 제한할 수 있습니다.",
+  "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
+    {
+      "title": "Gold prices recover from two-month low as dollar rally stalls",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOOGd5cXdWU1YxaC1EOEVzLVVPS0VHekp2WHBLVG1qX1hDbHhUNS02Q281TFdBQWw2cXBOejlXdURjbERuaXpHbng0aFBCNmVJYnpDSGdUeTJIWmpMUkJnQzZlSG5TMGxUSXhYbUpGdzVqZmN4dU9XMjluQlRIQkp5UXNDZ1Vhby12elJicUVUYWU1bE9HQVhiY01QMm8tZjV4eExWNdIBpAFBVV95cUxOOGd5cXdWU1YxaC1EOEVzLVVPS0VHekp2WHBLVG1qX1hDbHhUNS02Q281TFdBQWw2cXBOejlXdURjbERuaXpHbng0aFBCNmVJYnpDSGdUeTJIWmpMUkJnQzZlSG5TMGxUSXhYbUpGdzVqZmN4dU9XMjluQlRIQkp5UXNDZ1Vhby12elJicUVUYWU1bE9HQVhiY01QMm8tZjV4eExWNQ?oc=5",
+      "domain": "CNBC",
+      "seen": "2026-10-08 12:14 KST"
+    },
+    {
+      "title": "Dollar steady near 18-month high after Fed minutes flag inflation risks",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZEthRFNTdnR3aGRScTNFSW1KYVdtdVRBRU9EQjBqSVpTWDhaaDdiMGRSZGtKT3ZHU1VuOFRmSDgxOVFkeGRqazdPbWd4SXJ5RFZLenpVWEhCQ3FoU2JvaEtEbDE0VVQySXNqckF3ckE5cHpZVDNaYlptMXdyX1UwTVdvVU1PLTZJUFM2SXZXdzE2TWl5elctQmtMU1NtZFBC?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-10-08 09:43 KST"
+    },
     {
       "title": "US bonds selloff eases, yields off highs, after strong 10-year note auction",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQN0RvVl9ubDN1ZkRqRFJ1Z21yUUdrSHFGUG5jRmU5N2FUU0dPeHlGcjlBY0hQZjltWjFVc3hJNEtSVEtKNUF1T0RZV3dnWFEzbWJ6Yi1jbk1QajNDMzFMTzlTUUtkNExTdWJIYXZHZ3FMTXgycVJVd056RFhwYkRYM0tYa3I3eElsVGdnMHUxQWh6blZK?oc=5",
@@ -35,27 +47,15 @@
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNaGNfYWZBTXVWQjV6WUFib3lJV2RJZlZYVVJNalI0TlpKVmFvVklyd1lrNVpLdWQ2d21ncGY4NGVjZzdGc0ZfQ1FpY1BaazFIYUVHaFREdENXVFI4U3pBVGxubXJoUzhoU2JqUlR4RTN6dklyWXF5aXEteWdWOTQ4bmJSRS1LcUVpZ19sZ3VoNGpVMDNVTzBmdXVVX29SVC1CcFZSVHBDUkhub1JPdVFKRGpnZ2ZTNXVHaDFYX0RQRXp1N1U?oc=5",
       "domain": "Reuters",
       "seen": "2026-10-07 22:59 KST"
-    },
-    {
-      "title": "Wall St futures slip as yields and oil rebound; Fed minutes in focus",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOYlBxMHUzb2ZDaHpMY3JBZUl2Rk9XSE94bjQ2aFVndHhYeU4zS1Rwb2I1SlFJWjVpaE9sS0V4c2ZiQ2JsMzd0R0lydzlFejhJVkNYbU5ZTGVjeW9tWUJtTmUzX2VwY0N1SnpLVmdvQWRvM20xS25hRmhXRDdHVUppRk9hS2JhVExxdVUtX0hfQlNqWnd0OUhHWEpaa2w1Z3hXNVRkaw?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-10-07 19:37 KST"
-    },
-    {
-      "title": "TSX futures slip as oil, yields fuel rate-hike fears ahead of Fed minutes",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQU3Y2THROVndSbTNBZDQ0elhVR01qNVNxMlZhYklxUDBtNHlSZFJQN0Vrcjh1VEFoZG5LY2JSazlkNE1PSVExR0ZUYllvTTNJdEtMM2JlTV82aS1yaDU0b0h1QUQ3Z1R0TzR6bmExV05CSW0wckppdGI5OFNfM0UwSEhtbDhKZzlFa1IzYWlTMzZuU2VXd0c2XzJhY3RCR0tSeHZIa2hmaS0zVUx0cmJ2MQ?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-10-07 19:22 KST"
     }
   ],
-  "rate_source_time": "2026-10-08 09:57:30 KST",
+  "rate_source_time": "2026-10-08 16:18:44 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": -2.3,
-  "rate_change_pct": -0.17,
+  "rate_change": 0.9,
+  "rate_change_pct": 0.07,
   "smbs_base_rate": 1339.2,
   "smbs_rate_date": "2026-10-08",
-  "smbs_rate_updated_at_kst": "2026-10-08 09:57:18 KST",
+  "smbs_rate_updated_at_kst": "2026-10-08 16:18:28 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1346.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-10-08 09:57:18 KST"
+  "rate_job_checked_at_kst": "2026-10-08 16:18:28 KST"
 }

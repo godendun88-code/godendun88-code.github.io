@@ -1,22 +1,34 @@
 {
-  "updated_at_kst": "2026-10-08 23:55 KST",
+  "updated_at_kst": "2026-10-09 05:41 KST",
   "current_rate": 1342.3,
   "previous_close": 1339.7,
-  "rate_updated_at_kst": "2026-10-08 23:55:16 KST",
+  "rate_updated_at_kst": "2026-10-09 05:40:57 KST",
   "rate_source": "KB STAR FX Market Watch",
-  "market_bias": "혼조",
+  "market_bias": "상승 우세",
   "drivers": [
-    "연준·금리 관련 최신 기사(\"Gold edges up after hitting 2-month low as markets weigh Fed rate path\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
-    "미 국채금리 관련 최신 기사(\"COMMENTARY: Can Wall Street keep partying while bond markets burn?\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다.",
+    "연준의 추가 금리 인상 또는 매파적 기조 우려가 부각돼 달러 강세 압력이 높아지는 요인으로 작용하고 있습니다.",
+    "미 국채금리 하락 관련 보도가 확인돼 달러의 금리 매력이 낮아지면서 원/달러 환율 하락 압력으로 작용하고 있습니다.",
     "달러 관련 최신 기사(\"Europe's woes give dollar bulls fresh reason to press on\")가 확인돼 달러인덱스 방향성이 원/달러 환율의 핵심 변수로 작용하고 있습니다."
   ],
-  "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
+  "outlook": "달러 강세·금리 상승 계열의 재료가 상대적으로 우세해 원/달러는 단기 상승 압력이 나타날 수 있으나, 국내 수급과 위험선호 회복 여부에 따라 변동성이 예상됩니다.",
   "articles": [
+    {
+      "title": "US bonds fall, lifting yields for 2nd day, as oil weighs, 30-year auction looms",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOMWpmVzQ1VWEzZnlPUWhiTld5WmYxSVZWTzlnem9razg4eFdjWVItTDJpTWx5X0FZTW1VdkdjV1RKVHdVMjJaTDBleXVqX2JKSFNFUmxlQXdaelR4cXJTdm9URy1ac2E0RVhMRzE3ZU1rNVJaakstdE9xTTNDTHkzZ3JQVEd0aHh3U2w2emtNbTVlelNqX0I2VEZ3NXZndWZKcnhoRmRSbGozdGhjNTRkVmV0U25NY1U?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-10-09 01:25 KST"
+    },
     {
       "title": "Europe's woes give dollar bulls fresh reason to press on",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPQy1PSTBqWU8tMElEbngxaGx4NFlzUjZna3I4aVEzcHJkaDFhX0lSdFI0QndwczQyZU53XzV4eGdoUEloaHdyN1llUDMxRTVzdTBXTnl6S2xXbVl0Q0d6SlBvay1OQTZ0UUkyYWJ6UmIzemI3czAyc0VEX3Y1V3o2NXlIU2ctMnFyVUFoNlh2SWdrWjVndmUwdm1TT0lrRlU?oc=5",
       "domain": "Reuters",
       "seen": "2026-10-08 19:20 KST"
+    },
+    {
+      "title": "India rate hike will not stem outflows, leaving central bank in a bind",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPYVBjWTFiR1RZdnhQNE5wYXN4RFlPcUp5UnlfaFJ5VG5EVV9zbVBfQmM0ZlNiYjBSN1NFbkhkOWdrUFRjX3c2bU94cjk1VzhnQzFZejZfeTFDZmFMQ05lSUIyZEJBYk80bWJhUGpTSDlCaXFfT3R0bGVBcktLeFVvdGh5SllEX3NGSFhNbm5VNVlWOFNRRlJ0VWJpMzFBb1hndkIxMGVMc2NNVFlpd0h1YWtB?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-10-08 16:38 KST"
     },
     {
       "title": "Gold prices recover from two-month low as dollar rally stalls",
@@ -25,37 +37,25 @@
       "seen": "2026-10-08 12:14 KST"
     },
     {
-      "title": "Gold edges up after hitting 2-month low as markets weigh Fed rate path",
+      "title": "Rupee risks more losses after post-RBI policy slide, higher oil adds to woes",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQVTBTaW5hMG1mek95cGFESEtOcV83R3BQTVZHVlFYQ05Ud0RqVkh6OEtGejFOM1FIYWdjV0F4T016bE5TNndwYll4QjdnVl8tdUUyUVJaMmZUc1dnSFJEZS1ULTFvU2w5Z1RGZFd3bnZ1NUg2T3ZNQlluWkhldE04YjhGLXdOR01aREJ4UGc4bVNIXzFGQmxxX0RlbEZRa2QzdlZHcGhzb0pCQXBQWGtWc1VROURtakFWQ3luWQ?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-10-08 12:08 KST"
+    },
+    {
+      "title": "Gold ticks up as investors weigh Fed path, mounting debt concerns",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQaTl2VDRiV2EtanRNTGxRVGc4OEhQUUhZOEV1MXduVGNBOW1wa2V6N2lqaXJaX2hiVnpPdU5kSC05VGNVUV9ydExDbnVral9vVW1qTFlvYTZSMGY2cTFraXRJeEthaEZmMFRuVmtVYzc2azRkYlM5MVBvWG9nUGY0LUFBX2VmZHNWTkxHTVZGdUtvTWd2NGlJbg?oc=5",
       "domain": "Reuters",
       "seen": "2026-10-08 10:21 KST"
-    },
-    {
-      "title": "Shares slip as bond bashing rumbles on",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQYWJkYkZhMHpnb0pNVlAyTTZGOEYtSno1YTJGRV9GYWRPSDg1WGxXNlFKUVY4VGVzc0RMLVVVVFFlamgzd3ROTjBXTndhYm5Ia0hwbDhaSXBCQWIzZDhQSGxGUWdoZndaZHV3YUgyd2NUb0FsTkNlYWRYYUFyN0tSWFlYbw?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-10-08 09:57 KST"
-    },
-    {
-      "title": "COMMENTARY: Can Wall Street keep partying while bond markets burn?",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNdlMzWnhNNWU0R2ZMMWltMUtoZ01JUFFDblBpTVRqRG1FLWhiWUt6ZW04UVdSUmh4RlkydzdYNmF4NlF5NVUtQzFNN19SWElCWWsyRkw3cEMwTG5aVjItQU5rZExTYWdxNDNuVHlFYWtaUDBOSm1JZmlIN3UyTGVaczVuX1lYeDRjT191YVU3Yk1WVmdEdjc2OEd6RjJWTGZYSHdNN2FadmV5dXUzT29BaHBXWmEwTjJWajRuMS1BMA?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-10-08 08:30 KST"
-    },
-    {
-      "title": "Fed minutes show some officials want to prepare for market stress",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQOWFKZEFfR182VlUzeWdFaHJOYlVxQ3FxYVVnS3Z4VXdnUlRZaGtIZkxocjFlejVyY2lKbHA5UEw0bUFUbEhRaExnTUMzZWlPWmFMQkdlVU94ejB3bjBGdGFfYXlwX0c5M3RMRDJ2NGNmU0pNSWo5X200MTZGdzJuREtOekJpRGEtZHV1ODZUTEZ5empUOFU2ajFxdF9TaDNQMndvTnFn?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-10-08 06:34 KST"
     }
   ],
-  "rate_source_time": "2026-10-08 23:55:16 KST",
+  "rate_source_time": "2026-10-09 05:40:57 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": 2.6,
   "rate_change_pct": 0.19,
   "smbs_base_rate": 1339.2,
-  "smbs_rate_date": "2026-10-08",
-  "smbs_rate_updated_at_kst": "2026-10-08 23:55:04 KST",
+  "smbs_rate_date": "2026-10-09",
+  "smbs_rate_updated_at_kst": "2026-10-09 05:40:45 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1346.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-10-08 23:55:04 KST"
+  "rate_job_checked_at_kst": "2026-10-09 05:40:45 KST"
 }

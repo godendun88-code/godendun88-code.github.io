@@ -1,17 +1,23 @@
 {
-  "updated_at_kst": "2026-10-08 16:18 KST",
-  "current_rate": 1340.6,
+  "updated_at_kst": "2026-10-08 23:55 KST",
+  "current_rate": 1342.3,
   "previous_close": 1339.7,
-  "rate_updated_at_kst": "2026-10-08 16:18:44 KST",
+  "rate_updated_at_kst": "2026-10-08 23:55:16 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
-    "연준·금리 관련 최신 기사(\"Wall St futures slip as yields and oil rebound; Fed minutes in focus\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
-    "미국 물가 관련 최신 기사(\"Dollar steady near 18-month high after Fed minutes flag inflation risks\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
-    "미 국채금리 관련 최신 기사(\"US bonds selloff eases, yields off highs, after strong 10-year note auction\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다."
+    "연준·금리 관련 최신 기사(\"Gold edges up after hitting 2-month low as markets weigh Fed rate path\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
+    "미 국채금리 관련 최신 기사(\"COMMENTARY: Can Wall Street keep partying while bond markets burn?\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다.",
+    "달러 관련 최신 기사(\"Europe's woes give dollar bulls fresh reason to press on\")가 확인돼 달러인덱스 방향성이 원/달러 환율의 핵심 변수로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
+    {
+      "title": "Europe's woes give dollar bulls fresh reason to press on",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPQy1PSTBqWU8tMElEbngxaGx4NFlzUjZna3I4aVEzcHJkaDFhX0lSdFI0QndwczQyZU53XzV4eGdoUEloaHdyN1llUDMxRTVzdTBXTnl6S2xXbVl0Q0d6SlBvay1OQTZ0UUkyYWJ6UmIzemI3czAyc0VEX3Y1V3o2NXlIU2ctMnFyVUFoNlh2SWdrWjVndmUwdm1TT0lrRlU?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-10-08 19:20 KST"
+    },
     {
       "title": "Gold prices recover from two-month low as dollar rally stalls",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOOGd5cXdWU1YxaC1EOEVzLVVPS0VHekp2WHBLVG1qX1hDbHhUNS02Q281TFdBQWw2cXBOejlXdURjbERuaXpHbng0aFBCNmVJYnpDSGdUeTJIWmpMUkJnQzZlSG5TMGxUSXhYbUpGdzVqZmN4dU9XMjluQlRIQkp5UXNDZ1Vhby12elJicUVUYWU1bE9HQVhiY01QMm8tZjV4eExWNdIBpAFBVV95cUxOOGd5cXdWU1YxaC1EOEVzLVVPS0VHekp2WHBLVG1qX1hDbHhUNS02Q281TFdBQWw2cXBOejlXdURjbERuaXpHbng0aFBCNmVJYnpDSGdUeTJIWmpMUkJnQzZlSG5TMGxUSXhYbUpGdzVqZmN4dU9XMjluQlRIQkp5UXNDZ1Vhby12elJicUVUYWU1bE9HQVhiY01QMm8tZjV4eExWNQ?oc=5",
@@ -19,43 +25,37 @@
       "seen": "2026-10-08 12:14 KST"
     },
     {
-      "title": "Dollar steady near 18-month high after Fed minutes flag inflation risks",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZEthRFNTdnR3aGRScTNFSW1KYVdtdVRBRU9EQjBqSVpTWDhaaDdiMGRSZGtKT3ZHU1VuOFRmSDgxOVFkeGRqazdPbWd4SXJ5RFZLenpVWEhCQ3FoU2JvaEtEbDE0VVQySXNqckF3ckE5cHpZVDNaYlptMXdyX1UwTVdvVU1PLTZJUFM2SXZXdzE2TWl5elctQmtMU1NtZFBC?oc=5",
+      "title": "Gold edges up after hitting 2-month low as markets weigh Fed rate path",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQaTl2VDRiV2EtanRNTGxRVGc4OEhQUUhZOEV1MXduVGNBOW1wa2V6N2lqaXJaX2hiVnpPdU5kSC05VGNVUV9ydExDbnVral9vVW1qTFlvYTZSMGY2cTFraXRJeEthaEZmMFRuVmtVYzc2azRkYlM5MVBvWG9nUGY0LUFBX2VmZHNWTkxHTVZGdUtvTWd2NGlJbg?oc=5",
       "domain": "Reuters",
-      "seen": "2026-10-08 09:43 KST"
+      "seen": "2026-10-08 10:21 KST"
     },
     {
-      "title": "US bonds selloff eases, yields off highs, after strong 10-year note auction",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQN0RvVl9ubDN1ZkRqRFJ1Z21yUUdrSHFGUG5jRmU5N2FUU0dPeHlGcjlBY0hQZjltWjFVc3hJNEtSVEtKNUF1T0RZV3dnWFEzbWJ6Yi1jbk1QajNDMzFMTzlTUUtkNExTdWJIYXZHZ3FMTXgycVJVd056RFhwYkRYM0tYa3I3eElsVGdnMHUxQWh6blZK?oc=5",
+      "title": "Shares slip as bond bashing rumbles on",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQYWJkYkZhMHpnb0pNVlAyTTZGOEYtSno1YTJGRV9GYWRPSDg1WGxXNlFKUVY4VGVzc0RMLVVVVFFlamgzd3ROTjBXTndhYm5Ia0hwbDhaSXBCQWIzZDhQSGxGUWdoZndaZHV3YUgyd2NUb0FsTkNlYWRYYUFyN0tSWFlYbw?oc=5",
       "domain": "Reuters",
-      "seen": "2026-10-08 05:05 KST"
+      "seen": "2026-10-08 09:57 KST"
     },
     {
-      "title": "US 30-year mortgage rate hits highest in nearly three years",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPUnVmaExpRHBpalp3V3YtaklzbzVnV2lCaDNmMmhKZzc2NlloWVc4LUVaUnZoeTd1QmwxZ3k2TFpoUzlra0FjcnVtMTNvZm00bEFoLW96c25HSkMyaVpVUlpvZ281dVNrXy03SUpndE4tc3ltX0preTBsbGdmaDgzaXQ0cnc1TnZBNTB3bVpvVlFrbHRUZGs2UlNPbzZPWUdoS1I4?oc=5",
+      "title": "COMMENTARY: Can Wall Street keep partying while bond markets burn?",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNdlMzWnhNNWU0R2ZMMWltMUtoZ01JUFFDblBpTVRqRG1FLWhiWUt6ZW04UVdSUmh4RlkydzdYNmF4NlF5NVUtQzFNN19SWElCWWsyRkw3cEMwTG5aVjItQU5rZExTYWdxNDNuVHlFYWtaUDBOSm1JZmlIN3UyTGVaczVuX1lYeDRjT191YVU3Yk1WVmdEdjc2OEd6RjJWTGZYSHdNN2FadmV5dXUzT29BaHBXWmEwTjJWajRuMS1BMA?oc=5",
       "domain": "Reuters",
-      "seen": "2026-10-08 04:19 KST"
+      "seen": "2026-10-08 08:30 KST"
     },
     {
-      "title": "Canadian dollar weakens as risk-off sentiment drives markets",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOU05DOXdDZ3JlTTF5Y2owWWRSQW1FNlNTcUFuQTlvUHpXY0pzS2g0SGJhNmZOOXVaVGgxcDhFZ0N3QlUta19May1iN1hfejNVblFIcUg5djRQcTlGdE40ZGNFYzhlbVVLMGhxcnNtbjIyekI1OGlFZW5tTVY3SktfYjdUSHpwMzFDajlGd2RseEtfdDlmeDdsdDBGSV9JNVlwZWpEMA?oc=5",
+      "title": "Fed minutes show some officials want to prepare for market stress",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQOWFKZEFfR182VlUzeWdFaHJOYlVxQ3FxYVVnS3Z4VXdnUlRZaGtIZkxocjFlejVyY2lKbHA5UEw0bUFUbEhRaExnTUMzZWlPWmFMQkdlVU94ejB3bjBGdGFfYXlwX0c5M3RMRDJ2NGNmU0pNSWo5X200MTZGdzJuREtOekJpRGEtZHV1ODZUTEZ5empUOFU2ajFxdF9TaDNQMndvTnFn?oc=5",
       "domain": "Reuters",
-      "seen": "2026-10-08 03:27 KST"
-    },
-    {
-      "title": "Lower US Treasury yield view persists despite biggest quarterly surge since 1994: Reuters poll",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNaGNfYWZBTXVWQjV6WUFib3lJV2RJZlZYVVJNalI0TlpKVmFvVklyd1lrNVpLdWQ2d21ncGY4NGVjZzdGc0ZfQ1FpY1BaazFIYUVHaFREdENXVFI4U3pBVGxubXJoUzhoU2JqUlR4RTN6dklyWXF5aXEteWdWOTQ4bmJSRS1LcUVpZ19sZ3VoNGpVMDNVTzBmdXVVX29SVC1CcFZSVHBDUkhub1JPdVFKRGpnZ2ZTNXVHaDFYX0RQRXp1N1U?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-10-07 22:59 KST"
+      "seen": "2026-10-08 06:34 KST"
     }
   ],
-  "rate_source_time": "2026-10-08 16:18:44 KST",
+  "rate_source_time": "2026-10-08 23:55:16 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 0.9,
-  "rate_change_pct": 0.07,
+  "rate_change": 2.6,
+  "rate_change_pct": 0.19,
   "smbs_base_rate": 1339.2,
   "smbs_rate_date": "2026-10-08",
-  "smbs_rate_updated_at_kst": "2026-10-08 16:18:28 KST",
+  "smbs_rate_updated_at_kst": "2026-10-08 23:55:04 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1346.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-10-08 16:18:28 KST"
+  "rate_job_checked_at_kst": "2026-10-08 23:55:04 KST"
 }

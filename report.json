@@ -1,22 +1,22 @@
 {
-  "updated_at_kst": "2026-10-09 05:41 KST",
+  "updated_at_kst": "2026-10-09 10:11 KST",
   "current_rate": 1342.3,
   "previous_close": 1339.7,
-  "rate_updated_at_kst": "2026-10-09 05:40:57 KST",
+  "rate_updated_at_kst": "2026-10-09 10:11:23 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "상승 우세",
   "drivers": [
     "연준의 추가 금리 인상 또는 매파적 기조 우려가 부각돼 달러 강세 압력이 높아지는 요인으로 작용하고 있습니다.",
-    "미 국채금리 하락 관련 보도가 확인돼 달러의 금리 매력이 낮아지면서 원/달러 환율 하락 압력으로 작용하고 있습니다.",
-    "달러 관련 최신 기사(\"Europe's woes give dollar bulls fresh reason to press on\")가 확인돼 달러인덱스 방향성이 원/달러 환율의 핵심 변수로 작용하고 있습니다."
+    "달러 관련 최신 기사(\"Europe's woes give dollar bulls fresh reason to press on\")가 확인돼 달러인덱스 방향성이 원/달러 환율의 핵심 변수로 작용하고 있습니다.",
+    "유가 및 중동 지정학적 불확실성이 부각돼 에너지 수입 의존도가 높은 원화에는 약세 부담 요인으로 작용하고 있습니다."
   ],
   "outlook": "달러 강세·금리 상승 계열의 재료가 상대적으로 우세해 원/달러는 단기 상승 압력이 나타날 수 있으나, 국내 수급과 위험선호 회복 여부에 따라 변동성이 예상됩니다.",
   "articles": [
     {
-      "title": "US bonds fall, lifting yields for 2nd day, as oil weighs, 30-year auction looms",
+      "title": "US bonds rally after 30-year auction finds solid demand",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOMWpmVzQ1VWEzZnlPUWhiTld5WmYxSVZWTzlnem9razg4eFdjWVItTDJpTWx5X0FZTW1VdkdjV1RKVHdVMjJaTDBleXVqX2JKSFNFUmxlQXdaelR4cXJTdm9URy1ac2E0RVhMRzE3ZU1rNVJaakstdE9xTTNDTHkzZ3JQVEd0aHh3U2w2emtNbTVlelNqX0I2VEZ3NXZndWZKcnhoRmRSbGozdGhjNTRkVmV0U25NY1U?oc=5",
       "domain": "Reuters",
-      "seen": "2026-10-09 01:25 KST"
+      "seen": "2026-10-09 05:50 KST"
     },
     {
       "title": "Europe's woes give dollar bulls fresh reason to press on",
@@ -49,13 +49,13 @@
       "seen": "2026-10-08 10:21 KST"
     }
   ],
-  "rate_source_time": "2026-10-09 05:40:57 KST",
+  "rate_source_time": "2026-10-09 10:11:23 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": 2.6,
   "rate_change_pct": 0.19,
   "smbs_base_rate": 1339.2,
   "smbs_rate_date": "2026-10-09",
-  "smbs_rate_updated_at_kst": "2026-10-09 05:40:45 KST",
+  "smbs_rate_updated_at_kst": "2026-10-09 10:11:09 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1346.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-10-09 05:40:45 KST"
+  "rate_job_checked_at_kst": "2026-10-09 10:11:09 KST"
 }

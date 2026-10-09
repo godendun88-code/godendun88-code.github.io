@@ -1,17 +1,35 @@
 {
-  "updated_at_kst": "2026-10-10 00:15 KST",
+  "updated_at_kst": "2026-10-10 05:19 KST",
   "current_rate": 1342.3,
   "previous_close": 1339.7,
-  "rate_updated_at_kst": "2026-10-10 00:15:29 KST",
+  "rate_updated_at_kst": "2026-10-10 05:19:36 KST",
   "rate_source": "KB STAR FX Market Watch",
-  "market_bias": "혼조",
+  "market_bias": "상승 우세",
   "drivers": [
-    "유가·지정학 관련 최신 기사(\"Gold hits one-week high on softer oil prices\")가 확인돼 원화 변동성 확대 요인으로 작용하고 있습니다.",
-    "외환시장 관련 최신 기사(\"AI-centered US stock bull market nears four-year anniversary\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다.",
-    "외환시장 관련 최신 기사(\"South African rand set to snap four-week losing streak\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다."
+    "연준의 추가 금리 인상 또는 매파적 기조 우려가 부각돼 달러 강세 압력이 높아지는 요인으로 작용하고 있습니다.",
+    "미 국채금리 상승 관련 보도가 확인돼 달러 수요를 지지하면서 원/달러 환율 상승 압력으로 작용하고 있습니다.",
+    "유가 및 중동 지정학적 불확실성이 부각돼 에너지 수입 의존도가 높은 원화에는 약세 부담 요인으로 작용하고 있습니다."
   ],
-  "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
+  "outlook": "달러 강세·금리 상승 계열의 재료가 상대적으로 우세해 원/달러는 단기 상승 압력이 나타날 수 있으나, 국내 수급과 위험선호 회복 여부에 따라 변동성이 예상됩니다.",
   "articles": [
+    {
+      "title": "Canadian dollar hits 18-month low as jobs data clips rate hike bets",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOQUhaVmM5cUV2SG80RDlHYnJRYnRGLU10aGtIdVQzcjEwb1JlTVREcWNlNjUxYndKVGJkbVhpYmZId3hoUk55YzJISS1sZXhzbFI5dER5dHNNdmZyOG1OMzBqOVYzcGpzNjRiRllrODVrX2p1M25OVmRKSjhlUXFhN1dzanQ4Y0ZKeU5oaGZtQU1xX2hFbkVfcFBuOVVyaVFGbE5FY1dsUi1HT2ZOS2c?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-10-10 02:25 KST"
+    },
+    {
+      "title": "Four signs it is about to get uglier in the bond market as yields rise",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZnpPbXRYRlc0T3dINmZIZnM3VEgxWWJzS2tLRVBadmJMVnQ2ekdHaTQ1NG1SZlhfTV84VjNsM3JNR0RRSTZyVWJ1ODJFZmxpa1pxckluaktPY0d6T0d3bUVUUnRGQjlCVmwxWUNGWEs2cEo1VGV4R3MxN19PakJaZ3FUZnZfMWxqUHAzNk1nOTVFT0hr?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-10-10 01:18 KST"
+    },
+    {
+      "title": "Sterling ticks higher as dollar dips on lower oil prices",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQTndRanYwOWtGVXkzdjhMNkRVS3FfaGRfNkIzVEl6YjJRYUZFUWRRTUp1V09tQ0c0TFVTMlBDUDdkaTNwVmVzRGFSVG1DNmhxVjB4WFNFNThQbXU1UDlGMEV6X2s3cFEwUzR5V2dCNFVQR1F6ZEN1UV85cnVuT2VZd1hnOHJiRkdFOE9RXzRQWVVNUDk1TUJkeQ?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-10-09 20:35 KST"
+    },
     {
       "title": "AI-centered US stock bull market nears four-year anniversary",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZThNNTgyNW8tMm1YNzBUMG1FRDdMVm9PNktJLUYtek04SHhGX1ZyY0tIM3RVbk50Yk5iSlROdUhjZV9DaWpIRHVrREVkN3dxVUlUUkRXYkhFREJaVVJLRGw1RS1GVTkwcVUweWlPd2xVSkNmY3RJYWZFdGxqYWVRZ2JiSzJOZTVWb3dvMndyRThaZ0NWN2tBMGQzNmtvaGxZSkVOd19rbzNGcjVEQlVhM0xTaGJXV1U?oc=5",
@@ -29,27 +47,9 @@
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOdnp0ekdGSHlfbUhjRVVodDByTU1WVENvdmVtYzdseWl3OVpkb0FObk05TE94WUdWblR0Q2NGcTQ1ZDNKazJ0QWU4ZWtsVTdKSGFTaVRIOEpPd3o1ZGV4bXppVjZSWHJuOU0yU0Job0pXLThCd3JlbEJCNlZDa3N4MzRfNnFmVVdhWFQ5Mw?oc=5",
       "domain": "Reuters",
       "seen": "2026-10-09 15:33 KST"
-    },
-    {
-      "title": "China to resume October fuel exports after a brief halt, four trade sources say",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxON1hqTEMxUXNhdTUya2dwTlA2VVktRm9QeWlYcDRJWkFiaGg4aXhpcTBFcnJETDJUZDZQRHdIdVBiVFl6UFdNU0VCdFlTRHhaaVk3akVSazBsN3QwOXBSUHFjckM4TWc4LUtIdzNyc2kyM0RjclFNOG1QYkplX3ljOHBFR1NibFRwUS1QMHAyd3ZhZjZTZGtoMmVjbGsyUWdaQ01FV21jSFFiM1FrQ0U4eHRYOTRUZlRTeTRlRFJVOFh4RVk?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-10-09 12:28 KST"
-    },
-    {
-      "title": "Gold hits one-week high on softer oil prices",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQVl80MTVLVXR1WWd1MGxyNFRNN1VaNlJ2WFNIeGlrLS1HTGwzc1pZZ3FqaFZyOFBZcDk0VGRnMzVvSUtiSGFyR3c2Z29Fa25XZk1xX0JlWGpJZVlNaEJhWXhoenc3enFGZGZ3QnVUaGg1U2ZTNE9GZGxfTDIyb3hoMl9ycTNsOHpHeWdKRXk1VmdZZ1VITnhMR29NQ3JYUmV4TXJpemVRaw?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-10-09 10:58 KST"
-    },
-    {
-      "title": "Oil eases, bringing some respite to stocks and battered bonds",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBmemlrTzkxS0ZGNW4xVC1Bb0FYNmR0MWNHMnFtYXl6Wmg2UHFSVWwwUEQ0MEI5dmY0VGVtR1RURVc2aHlZRjBnVS0yQzdJaDVqNWVnSGFOZkh6SHdTSTJVUDBjd0tFdFhrbjFHa3ExVzFNN0FvOXFpOTZ2QQ?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-10-09 10:56 KST"
     }
   ],
-  "rate_source_time": "2026-10-10 00:15:29 KST",
+  "rate_source_time": "2026-10-10 05:19:36 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": 2.6,
   "rate_change_pct": 0.19,
@@ -63,5 +63,6 @@
     1346.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-10-10 00:15:17 KST"
+  "rate_job_checked_at_kst": "2026-10-10 05:19:20 KST",
+  "smbs_rate_error": "RuntimeError: 서울외국환중개 페이지에서 USD 매매기준율을 찾지 못했습니다."
 }

@@ -1,13 +1,12 @@
 {
-  "updated_at_kst": "2026-10-11 02:49 KST",
+  "updated_at_kst": "2026-10-11 06:37 KST",
   "current_rate": 1342.3,
   "previous_close": 1339.7,
-  "rate_updated_at_kst": "2026-10-11 02:49:21 KST",
+  "rate_updated_at_kst": "2026-10-11 06:37:35 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
-    "미국 물가 관련 최신 기사(\"Wall Street posts weekly gains with earnings, inflation data on tap\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
-    "미국 물가 관련 최신 기사(\"Wall St Week Ahead Bank earnings, CPI headline busy markets week as S&P 500 hovers near records\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다."
+    "미국 물가 관련 최신 기사(\"Wall Street posts weekly gains with earnings, inflation data on tap\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
@@ -16,21 +15,15 @@
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNY0hWbFNBUlE5SFJjLVpMMnIwZzFpN2hVNEd2YkxlalYyVDRKTDZxcGJ0REJLUERXb0tlVVVreVZLMHFodlAtZlY0eDhuN2xiOHcybjM1c3gxMlBNTmZMWWdrdkhQOG9Pc2JRdTEwYXM5N181QmttRVEyRkdXTy1LT2J0ZVA4d2FXdjZZeGZwaGRaSUtDUXJUZXFjSU94cnprbTVUSXRpXzFtQzV2TWtpR1dNSjdaWVplUlE?oc=5",
       "domain": "Reuters",
       "seen": "2026-10-10 08:33 KST"
-    },
-    {
-      "title": "Wall St Week Ahead Bank earnings, CPI headline busy markets week as S&P 500 hovers near records",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOc2ZtTkg1OU1ZeEVqdGdTUjFKR1BSYkwzcWRwWG1wNjE2UFpqa2NYbmxPMXNxM2pURVpLWVVUYm9zUmE2S1QwMEUxZURaejlrb1g1V0dEMF80RnBWOUo4U1VPYzNlM0M5dlBnMkdQVS1ObHA2b1BYTmJLa1RuUk8xSVB4bk5FUnRQblcwTUtLTVFMZGU2Y0o0VEVWLWFBUnRCOWlpUEI0MmF2WGJyTmdhd3lpQlZDZ3JQZXJMd0FYcw?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-10-10 06:04 KST"
     }
   ],
-  "rate_source_time": "2026-10-11 02:49:21 KST",
+  "rate_source_time": "2026-10-11 06:37:35 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": 2.6,
   "rate_change_pct": 0.19,
   "smbs_base_rate": 1339.2,
   "smbs_rate_date": "2026-10-11",
-  "smbs_rate_updated_at_kst": "2026-10-11 02:49:08 KST",
+  "smbs_rate_updated_at_kst": "2026-10-11 06:37:20 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -38,5 +31,5 @@
     1346.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-10-11 02:49:08 KST"
+  "rate_job_checked_at_kst": "2026-10-11 06:37:20 KST"
 }

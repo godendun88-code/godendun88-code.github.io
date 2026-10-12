@@ -604,6 +604,13 @@
         "$('currentFxRule').textContent='자금운용 시트의 원화 잔액·환전필요시기 열을 기준으로, 날짜별 최초 환전필요 행을 표시합니다. 일일 마감잔액은 실제 대조용으로 별도 표시하며 계획 부족일을 임의로 변경하지 않습니다.';",
         '자금운용 기준 설명'
       );
+      // The normal current-plan view must retain the balances already calculated
+      // in the 자금운용 sheet; scenario recalculation is for alternate tabs only.
+      replaceRequired(
+        "const baseline=buildCashScenarioModel(model,{revenueRate:1,chinaDelayMonths:0,chinaExclude:false},'현재 계획 100%'),series=currentMonthlySeries(baseline,referenceRate),analysis=cashAnalysis(baseline,referenceRate),actualAnchor=null;",
+        "const baseline={...model,scenarioLabel:'현재 계획 100%'},series=currentMonthlySeries(baseline,referenceRate),analysis=cashAnalysis(baseline,referenceRate),actualAnchor=null;",
+        '자금운용 표시잔액 유지'
+      );
       const patches=[
         '<script src="./monthly-usd-patch.js?v=20260917-13"><\/script>',
         '<script src="./reconciliation-xls-patch.js?v=20260917-10"><\/script>',

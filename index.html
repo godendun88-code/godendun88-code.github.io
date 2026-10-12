@@ -474,6 +474,11 @@
         .conversion-comment.good{background:#ecfdf5;border-color:#b8ead6}.conversion-comment.good .comment-kicker,.conversion-comment.good .comment-detail{color:#087f70}
         .status-chip.confirmed,.pill.good{background:#dcfce7;color:#087f70}.status-chip.forecast,.pill.warn{background:#fff1c7;color:#b45309}.status-chip.bad,.pill.bad{background:#fee2e2;color:#c2410c}
       </style>`;
+      replaceRequired(
+        "async function dailyFetch(url,options={}){const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),30000);try{return await fetch(url,{...options,cache:'no-store',signal:controller.signal})}finally{clearTimeout(timer)}}",
+        "async function dailyFetch(url,options={}){const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),8000);try{return await fetch(url,{...options,cache:'no-store',signal:controller.signal})}finally{clearTimeout(timer)}}",
+        '일일 원본 응답 제한'
+      );
       const patches=[
         '<script src="./monthly-usd-patch.js?v=20260917-13"><\/script>',
         '<script src="./reconciliation-xls-patch.js?v=20260917-10"><\/script>',

@@ -636,6 +636,11 @@
         '<div class="panel current-chart-panel"><div class="chart-head"><div><div class="title">2026년 이후 자금 변동 추이</div><div class="small">원화·총 잔고는 억원, USD 잔액은 달러 원단위</div><div aria-label="그래프 선 설명" style="display:flex;flex-wrap:wrap;gap:7px 14px;margin-top:8px;font-size:11px;font-weight:800;color:#526174"><span><i style="display:inline-block;width:18px;height:3px;margin:0 5px 2px 0;vertical-align:middle;background:#2563eb;border-radius:2px"></i>파란선 · 원화 월말잔액</span><span><i style="display:inline-block;width:18px;height:3px;margin:0 5px 2px 0;vertical-align:middle;background:#087f70;border-radius:2px"></i>초록선 · 총 잔고(USD 환산 포함)</span><span><i style="display:inline-block;width:18px;height:3px;margin:0 5px 2px 0;vertical-align:middle;background:#d97706;border-radius:2px"></i>주황선 · USD 월말잔액</span></div></div></div>',
         '자금 변동 그래프 범례'
       );
+      replaceRequired(
+        "function buildCashScenarioModel(model,config=cashScenarioConfig(),label=cashScenarioLabel()){if(!model||!hasScenarioEvents(model))return model;const events=model.points.map",
+        "function buildCashScenarioModel(model,config=cashScenarioConfig(),label=cashScenarioLabel()){if(!model||!hasScenarioEvents(model))return model;if(config.revenueRate===1&&config.chinaDelayMonths===0&&!config.chinaExclude)return{...model,scenarioLabel:label};const events=model.points.map",
+        '매출 100퍼센트 기준 일치'
+      );
       const patches=[
         '<script src="./monthly-usd-patch.js?v=20260917-13"><\/script>',
         '<script src="./reconciliation-xls-patch.js?v=20260917-10"><\/script>',

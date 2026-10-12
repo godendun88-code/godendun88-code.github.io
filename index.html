@@ -311,6 +311,12 @@
       const fxRows=findRows(t=>/^\\(보통예금\\/외화\\)/.test(t)||/^\\(외화.*(발행어음|RP)/.test(t)).filter(r=>r>dep&&r<totalRow);
       if(kr<0||dep<0||totalRow<0||availableRow<0||!fxRows.length||!(kr<dep&&dep<fxRows[0]&&fxRows.at(-1)<totalRow))throw new Error('원화·정기예금·외화·총 자금 구역을 확인해 주세요.');
       const numberAt=(r,label)=>{const value=dailyNumber(sheet[ref(r,amountCol)]);if(value==null)throw new Error(label+' 금액이 비어 있거나 수식 오류입니다.');return value};
+      // USD values can be supplied by Excel as text, for example "USD 635,997.08".
+      const usdNumber=cell=>{
+        const numeric=dailyNumber(cell);if(numeric!=null)return numeric;
+        const match=String(cell?.w??cell?.v??'').match(/USD\\s*([+-]?[\\d,]+(?:\\.\\d+)?)/i);
+        return match?Number(match[1].replace(/,/g,'')):null;
+      };
       const sumSection=(start,end,label)=>{
         const expected=numberAt(start,label);let sum=0;
         for(let r=start+1;r<end;r++){
@@ -338,7 +344,7 @@
             if(/^USD/i.test(shown)){usdCell=ref(r,c);break}
           }
           if(!usdCell){if(Math.abs(amount)>.5)throw new Error('외화 원금 USD 셀을 찾지 못했습니다.');continue}
-          const quantity=dailyNumber(sheet[usdCell]);
+          const quantity=usdNumber(sheet[usdCell]);
           if(quantity==null){blank++;if(Math.abs(amount)>.5)throw new Error('외화 원금은 공란인데 평가액이 존재합니다.');continue}
           if(Math.abs(quantity*100-Math.round(quantity*100))>.0001)throw new Error('USD 원금은 소수점 둘째 자리까지 확인해 주세요.');
           if(quantity>0){const appliedRate=amount/quantity;if(!Number.isFinite(appliedRate)||appliedRate<=0)throw new Error('외화 평가액 또는 USD 원금을 확인해 주세요.');if(rate!=null&&Math.abs(rate-appliedRate)>1)throw new Error('외화 구역별 적용환율이 달라 별도 확인이 필요합니다.');rate=appliedRate}
@@ -353,7 +359,7 @@
     };
     const patched=function(sheet,name,date){
       try{return legacyParser(sheet,name,date)}catch(legacyError){
-        const isNewFormat=/^\\(보통예금.*\\)\\(원화\\)$/.test(String(sheet.A3?.v??'').replace(/\\s/g,''));
+        const isNewFormat=Object.keys(sheet).some(address=>/^A\\d+$/.test(address)&&/^\\(보통예금.*\\)\\(원화\\)$/.test(String(sheet[address]?.v??'').replace(/\\s/g,'')));
         if(!isNewFormat)throw legacyError;
         return modernParser(sheet,name,date);
       }

@@ -575,6 +575,16 @@
       // The cash-management sheet already calculates the running KRW/USD balances
       // and marks exchange-required rows.  Those cells are the forecast source of truth.
       replaceRequired(
+        "if(!dateObj||!['입금','지출'].includes(flow)||!category)continue;",
+        "if(!dateObj)continue;",
+        '자금운용 환전필요 날짜'
+      );
+      replaceRequired(
+        "if(![krwIn,krwOut,usdIn,usdOut].some(v=>v!==0))continue;const date=\`\${dateObj.getFullYear()}-\${String(dateObj.getMonth()+1).padStart(2,'0')}-\${String(dateObj.getDate()).padStart(2,'0')}\`;",
+        "const hasMovement=[krwIn,krwOut,usdIn,usdOut].some(v=>v!==0),markedExchangeRequired=fxNeedIndex>=0&&cleanCashCell(row[fxNeedIndex]).includes('환전필요');if(!hasMovement&&!markedExchangeRequired)continue;const date=\`\${dateObj.getFullYear()}-\${String(dateObj.getMonth()+1).padStart(2,'0')}-\${String(dateObj.getDate()).padStart(2,'0')}\`;",
+        '자금운용 환전필요 행 유지'
+      );
+      replaceRequired(
         "const header=rows[headerIndex].map(cleanCashCell),statusIndex=header.findIndex(value=>value==='상태'),openingKrw=num(rows[0]?.[2]),openingUsd=num(rows[1]?.[2]),planRate=num(rows[2]?.[2]),accountRate=num(rows[3]?.[2]),brokerRate=num(rows[4]?.[2]);let month=null;",
         "const header=rows[headerIndex].map(cleanCashCell),statusIndex=header.findIndex(value=>value==='상태'),krwBalanceIndex=header.findIndex(value=>value==='원화잔액'),usdBalanceIndex=header.findIndex(value=>value==='외화잔액'),fxNeedIndex=header.findIndex(value=>value==='환전필요시기'),openingKrw=num(rows[0]?.[2]),openingUsd=num(rows[1]?.[2]),planRate=num(rows[2]?.[2]),accountRate=num(rows[3]?.[2]),brokerRate=num(rows[4]?.[2]),planBalance=value=>{if(typeof value==='number'&&Number.isFinite(value))return value;const text=String(value??'').trim().replace(/\\s/g,'').replace(/^USD/i,'').replace(/[,원]/g,'');if(!text)return null;const parsed=Number(text.replace(/^\\((.+)\\)$/,'-$1'));return Number.isFinite(parsed)?parsed:null};let month=null;",
         '자금운용 원화 잔액 열'

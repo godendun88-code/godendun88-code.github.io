@@ -520,6 +520,58 @@
     }
 `;
       html=html.replace(dailyParserAnchor,dailyParserReplacement+dailyParserAnchor);
+      // Rebase the forecast from the newest actual daily close.  The close
+      // already contains that day's movements, so only later plan rows are used.
+      const cashProjectionAnchor='    function currentCashProjection(model,referenceRate){';
+      const actualCloseRebase=`    function latestDailyCloseForCashProjection(model){
+      const points=(model?.points||[]).filter(point=>/^20\\d{2}-\\d{2}-\\d{2}$/.test(String(point?.date||''))).sort((a,b)=>a.date.localeCompare(b.date));
+      const first=points[0]?.date,last=points.at(-1)?.date;
+      if(!first||!last)return null;
+      return(dailyBalanceData?.rows||[]).filter(row=>{
+        const date=String(row?.date||'');
+        return /^20\\d{2}-\\d{2}-\\d{2}$/.test(date)&&date>=first&&date<=last&&date<=fxTodayKey()&&nullableCashNumber(row?.krw)!=null;
+      }).sort((a,b)=>String(a.date).localeCompare(String(b.date))).at(-1)||null;
+    }
+    function rebaseCashPlanFromDailyClose(model){
+      if(!model?.points?.length)return model;
+      const close=latestDailyCloseForCashProjection(model);
+      if(!close)return model;
+      const points=[...model.points].sort((a,b)=>a.date.localeCompare(b.date)||(a.flow===b.flow?num(a.row)-num(b.row):(a.flow==='지출'?-1:1))),prior=points.filter(point=>point.date<=close.date).at(-1);
+      const plannedKrw=nullableCashNumber(prior?.krwBalance)??nullableCashNumber(model.openingKrw),plannedUsd=nullableCashNumber(prior?.usdBalance)??nullableCashNumber(model.openingUsd),actualKrw=nullableCashNumber(close.krw),reportedUsd=nullableCashNumber(close.usd);
+      if(actualKrw==null||plannedKrw==null)return model;
+      const actualUsd=reportedUsd??plannedUsd;
+      if(actualUsd==null)return model;
+      let krw=actualKrw,usd=actualUsd;
+      const past=points.filter(point=>point.date<close.date),future=points.filter(point=>point.date>close.date).map(point=>{
+        krw+=num(point.krwIn)-num(point.krwOut);usd+=num(point.usdIn)-num(point.usdOut);
+        return{...point,krwBalance:krw,usdBalance:usd};
+      });
+      const actualPoint={date:close.date,row:0,category:'일일 실제 마감잔액',flow:'실제',currency:'',status:'확정',krwIn:0,krwOut:0,usdIn:0,usdOut:0,krwBalance:actualKrw,usdBalance:actualUsd,isDailyActual:true};
+      return{...model,points:[...past,actualPoint,...future],actualAnchor:{date:close.date,sheet:String(close.sheet||''),krw:actualKrw,usd:actualUsd,plannedKrw,plannedUsd,krwDifference:actualKrw-plannedKrw,usdDifference:actualUsd-plannedUsd}};
+    }
+`;
+      if(!html.includes(cashProjectionAnchor))throw new Error('실제 마감잔액 기준 계산 위치를 찾지 못했습니다.');
+      html=html.replace(cashProjectionAnchor,actualCloseRebase+cashProjectionAnchor);
+      replaceRequired(
+        "const baseline=buildCashScenarioModel(model,{revenueRate:1,chinaDelayMonths:0,chinaExclude:false},'현재 계획 100%'),series=currentMonthlySeries(baseline,referenceRate),analysis=cashAnalysis(baseline,referenceRate);",
+        "const planned=buildCashScenarioModel(model,{revenueRate:1,chinaDelayMonths:0,chinaExclude:false},'현재 계획 100%'),baseline=rebaseCashPlanFromDailyClose(planned),series=currentMonthlySeries(baseline,referenceRate),analysis=cashAnalysis(baseline,referenceRate),actualAnchor=baseline.actualAnchor||null;",
+        '실제 마감잔액 기준 자금계획'
+      );
+      replaceRequired(
+        "return{baseline,series,analysis,shortage,shortageMonth,shortageKrw,needUsd:referenceRate>0?shortageKrw/referenceRate:null};",
+        "return{baseline,series,analysis,shortage,shortageMonth,shortageKrw,needUsd:referenceRate>0?shortageKrw/referenceRate:null,actualAnchor};",
+        '실제 마감잔액 기준 결과'
+      );
+      replaceRequired(
+        "const referenceRate=num(report?.smbs_base_rate)||model.brokerRate||0,projection=currentCashProjection(model,referenceRate),{series,analysis,shortage,shortageMonth,shortageKrw,needUsd}=projection;",
+        "const referenceRate=num(report?.smbs_base_rate)||model.brokerRate||0,projection=currentCashProjection(model,referenceRate),{series,analysis,shortage,shortageMonth,shortageKrw,needUsd,actualAnchor}=projection;",
+        '실제 기준 환전 필요 시점 표시'
+      );
+      replaceRequired(
+        "$('currentFxRule').textContent='현재 계획 100% · 중국 정상 · 환전 미적용. 연결된 일별 입출금에서 최초 원화 부족일을 계산합니다. 그래프의 최소 환전액은 선택 월 최저 잔액 기준이며 월별 금액을 합산하지 않습니다.';",
+        "$('currentFxRule').textContent=actualAnchor?'실제 기준 '+actualAnchor.date+' 일일 마감잔액(원화 '+fmt(actualAnchor.krw/1e8,2)+'억원)을 시작점으로 사용합니다. 같은 날 계획 행은 중복 반영하지 않고, 다음 날짜부터 '+(model.sourceSheet||'자금운용')+' 입·출금을 누적해 최초 원화 부족일을 계산합니다.':'현재 계획 100% · 중국 정상 · 환전 미적용. 일일 실제 마감잔액 연결 후에는 그 실제 잔액을 시작점으로, 이후 입출금 계획에서 최초 원화 부족일을 계산합니다.';",
+        '실제 기준 계산 설명'
+      );
       const patches=[
         '<script src="./monthly-usd-patch.js?v=20260917-13"><\/script>',
         '<script src="./reconciliation-xls-patch.js?v=20260917-10"><\/script>',

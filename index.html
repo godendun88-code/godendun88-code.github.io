@@ -479,13 +479,53 @@
         "async function dailyFetch(url,options={}){const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),8000);try{return await fetch(url,{...options,cache:'no-store',signal:controller.signal})}finally{clearTimeout(timer)}}",
         '일일 원본 응답 제한'
       );
+      const dailyParserStart='    function parseDailyBalanceSheet(sheet,name,date){';
+      const dailyParserAnchor='    function parseDailyBalanceWorkbook(workbook,file,today=fxTodayKey()){';
+      if(!html.includes(dailyParserStart)||!html.includes(dailyParserAnchor))throw new Error('일일 잔액 파서 위치를 찾지 못했습니다.');
+      html=html.replace(dailyParserStart,'    function parseLegacyDailyBalanceSheet(sheet,name,date){');
+      const dailyParserReplacement=`    function parseDailyBalanceSheet(sheet,name,date){
+      const limits=XLSX.utils.decode_range(sheet['!ref']||'A1');
+      const ref=(r,c)=>XLSX.utils.encode_cell({r,c});
+      const text=(r,c=0)=>String(sheet[ref(r,c)]?.v??'').replace(/\\s/g,'');
+      const rowText=r=>{let value='';for(let c=0;c<=Math.min(12,limits.e.c);c++)value+=text(r,c);return value};
+      const findRows=predicate=>{const rows=[];for(let r=0;r<=Math.min(100,limits.e.r);r++)if(predicate(rowText(r)))rows.push(r);return rows};
+      const isNewKrw=t=>t.startsWith('(보통예금')&&t.includes('(원화)')&&!t.includes('외화');
+      const kr=findRows(isNewKrw)[0];
+      if(kr==null)return parseLegacyDailyBalanceSheet(sheet,name,date);
+      const head=findRows(t=>t.includes('금융기관'))[0];let amountCol=-1;
+      if(head!=null)for(let c=0;c<=limits.e.c;c++)if(text(head,c)==='금액(원)')amountCol=c;
+      const dep=findRows(t=>t.startsWith('(정기예금/원화)'))[0];
+      const totalRow=findRows(t=>t.startsWith('총자금합계'))[0];
+      const availableRow=findRows(t=>t.startsWith('가용자금합계'))[0];
+      const fxRows=findRows(t=>t.startsWith('(보통예금/외화)')||(t.startsWith('(외화')&&(t.includes('발행어음')||t.includes('RP'))));
+      if(amountCol<0||dep==null||totalRow==null||availableRow==null||fxRows.length<2||!(kr<dep&&dep<fxRows[0]&&fxRows.at(-1)<totalRow))throw new Error('신양식 구역 인식 실패: 원화·정기예금·외화예금·외화RP·총자금 행을 확인해 주세요.');
+      const amountAt=(row,label)=>{const value=dailyNumber(sheet[ref(row,amountCol)]);if(value==null)throw new Error(label+' 금액이 비어 있거나 수식 오류입니다.');return value};
+      const sumSection=(start,end,label)=>{const expected=amountAt(start,label);let sum=0;for(let row=start+1;row<end;row++){const cell=sheet[ref(row,amountCol)],value=dailyNumber(cell);if(cell?.v!=null&&String(cell.v).trim()!==''&&value==null)throw new Error(label+' 상세 금액을 확인해 주세요.');sum+=value??0}if(Math.abs(sum-expected)>1)throw new Error(label+' 합계와 상세 잔액이 다릅니다.');return expected};
+      const krw=sumSection(kr,dep,'원화 잔액');
+      const deposit=sumSection(dep,fxRows[0],'정기예금');
+      const fxEnds=[...fxRows.slice(1),totalRow];
+      const fxValues=fxRows.map((start,index)=>sumSection(start,fxEnds[index],index===0?'외화예금':'외화 RP'));
+      const fxValuation=fxValues.reduce((sum,value)=>sum+value,0),total=amountAt(totalRow,'총 자금'),available=amountAt(availableRow,'가용자금');
+      if(Math.abs(krw+deposit+fxValuation-total)>1||Math.abs(krw+fxValuation-available)>1)throw new Error('원화·정기예금·외화예금·외화RP의 합계가 총 자금과 다릅니다.');
+      let usd=0,rate=null;const usdCells=[];
+      for(let index=0;index<fxRows.length;index++)for(let row=fxRows[index]+1;row<fxEnds[index];row++){
+        const amount=dailyNumber(sheet[ref(row,amountCol)])??0;let cellRef='';let quantity=null;
+        for(let c=0;c<amountCol;c++){const cell=sheet[ref(row,c)],shown=String(cell?.w??cell?.v??'').replace(/\\s/g,'');if(!shown.toUpperCase().startsWith('USD'))continue;const parsed=Number(shown.slice(3).replaceAll(',',''));if(Number.isFinite(parsed)){cellRef=ref(row,c);quantity=parsed;break}}
+        if(cellRef===''){if(Math.abs(amount)>1)throw new Error('외화 상세 행의 USD 금액을 찾지 못했습니다.');continue}
+        if(quantity>0){const appliedRate=amount/quantity;if(!Number.isFinite(appliedRate)||appliedRate<=0)throw new Error('외화 평가액을 확인해 주세요.');if(rate!=null&&Math.abs(rate-appliedRate)>1)throw new Error('외화예금과 RP의 적용환율이 다릅니다.');rate=appliedRate}
+        if(quantity===0&&Math.abs(amount)>1)throw new Error('0 USD인데 외화 평가액이 있습니다.');usd+=quantity;usdCells.push(cellRef);
+      }
+      if(!usdCells.length)throw new Error('외화예금 또는 RP의 USD 금액을 찾지 못했습니다.');
+      return{date,sheet:name,krw,usd:Math.round(usd*100)/100,usdComplete:true,deposit,fxValuation,rate:rate??0,total,available,notes:['외화 보통예금과 외화 운용자금·발행어음 RP를 합산합니다.'],refs:{krw:ref(kr,amountCol),usd:usdCells.join('+'),deposit:ref(dep,amountCol),total:ref(totalRow,amountCol)}};
+    }
+`;
+      html=html.replace(dailyParserAnchor,dailyParserReplacement+dailyParserAnchor);
       const patches=[
         '<script src="./monthly-usd-patch.js?v=20260917-13"><\/script>',
         '<script src="./reconciliation-xls-patch.js?v=20260917-10"><\/script>',
         monthlyUsdFallback,
         monthlyFxEditor,
         dailyBalanceMonthEndOverride,
-        dailyBalanceNewFormatPatch,
         monthlyHistoryDisplayOrder,
         dailyBalanceTopPriority,
         executiveColorTheme

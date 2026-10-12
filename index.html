@@ -616,7 +616,7 @@
       );
       replaceRequired(
         "$('currentFxRule').textContent=actualAnchor?'실제 기준 '+actualAnchor.date+' 일일 마감잔액(원화 '+fmt(actualAnchor.krw/1e8,2)+'억원)을 시작점으로 사용합니다. 같은 날 계획 행은 중복 반영하지 않고, 다음 날짜부터 '+(model.sourceSheet||'자금운용')+' 입·출금을 누적해 최초 원화 부족일을 계산합니다.':'현재 계획 100% · 중국 정상 · 환전 미적용. 일일 실제 마감잔액 연결 후에는 그 실제 잔액을 시작점으로, 이후 입출금 계획에서 최초 원화 부족일을 계산합니다.';",
-        "$('currentFxRule').textContent='자금운용 시트의 원화 잔액·환전필요시기 열을 기준으로, 날짜별 최초 환전필요 행을 표시합니다. 일일 마감잔액은 실제 대조용으로 별도 표시하며 계획 부족일을 임의로 변경하지 않습니다.';",
+        "const sourceMarker=(model.points||[]).find(point=>point.exchangeRequired);$('currentFxRule').textContent=sourceMarker?'원본 확인 · 자금운용 S열 '+sourceMarker.row+'행 '+sourceMarker.date+' 환전필요 · Q열 '+fmt(sourceMarker.krwBalance/1e8,2)+'억원':'원본 S열의 환전필요 행을 아직 읽지 못했습니다. Microsoft 연결·지금 갱신으로 원본을 다시 읽어 주세요.';",
         '자금운용 기준 설명'
       );
       // The normal current-plan view must retain the balances already calculated

@@ -384,6 +384,22 @@
   setInterval(releaseStalledConnection,10000);
 })();
 <\/script>`;
+      const dailyRetryControl=`<script>
+(() => {
+  const retry=async event=>{
+    const button=event.target.closest?.('#dailyConnectBtn,#dailyRefreshBtn');
+    if(!button)return;
+    event.preventDefault();event.stopImmediatePropagation();
+    try{dailySyncBusy=false;microsoftSyncBusy=false}catch{}
+    const status=document.getElementById('dailySourceStatus');
+    if(status)status.textContent='일일 원본 연결을 다시 시작합니다.';
+    const isConnect=button.id==='dailyConnectBtn';
+    const url=isConnect?(document.getElementById('dailySourceUrlInput')?.value||''):null;
+    try{await loadMicrosoftDailyBalances(isConnect,true,url)}catch(error){if(status)status.textContent=String(error.message||error)};
+  };
+  document.addEventListener('click',retry,true);
+})();
+<\/script>`;
       const monthlyHistoryDisplayOrder=`<script>
 (() => {
   const monthPattern=/^20\\d{2}-(0[1-9]|1[0-2])$/;
@@ -501,6 +517,7 @@
         dailyBalanceMonthEndOverride,
         dailyBalanceNewFormatPatch,
         dailyConnectionWatchdog,
+        dailyRetryControl,
         monthlyHistoryDisplayOrder,
         dailyBalanceTopPriority,
         executiveColorTheme

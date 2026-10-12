@@ -572,6 +572,38 @@
         "$('currentFxRule').textContent=actualAnchor?'실제 기준 '+actualAnchor.date+' 일일 마감잔액(원화 '+fmt(actualAnchor.krw/1e8,2)+'억원)을 시작점으로 사용합니다. 같은 날 계획 행은 중복 반영하지 않고, 다음 날짜부터 '+(model.sourceSheet||'자금운용')+' 입·출금을 누적해 최초 원화 부족일을 계산합니다.':'현재 계획 100% · 중국 정상 · 환전 미적용. 일일 실제 마감잔액 연결 후에는 그 실제 잔액을 시작점으로, 이후 입출금 계획에서 최초 원화 부족일을 계산합니다.';",
         '실제 기준 계산 설명'
       );
+      // The cash-management sheet already calculates the running KRW/USD balances
+      // and marks exchange-required rows.  Those cells are the forecast source of truth.
+      replaceRequired(
+        "const header=rows[headerIndex].map(cleanCashCell),statusIndex=header.findIndex(value=>value==='상태'),openingKrw=num(rows[0]?.[2]),openingUsd=num(rows[1]?.[2]),planRate=num(rows[2]?.[2]),accountRate=num(rows[3]?.[2]),brokerRate=num(rows[4]?.[2]);let month=null;",
+        "const header=rows[headerIndex].map(cleanCashCell),statusIndex=header.findIndex(value=>value==='상태'),krwBalanceIndex=header.findIndex(value=>value==='원화잔액'),usdBalanceIndex=header.findIndex(value=>value==='외화잔액'),fxNeedIndex=header.findIndex(value=>value==='환전필요시기'),openingKrw=num(rows[0]?.[2]),openingUsd=num(rows[1]?.[2]),planRate=num(rows[2]?.[2]),accountRate=num(rows[3]?.[2]),brokerRate=num(rows[4]?.[2]),planBalance=value=>{if(typeof value==='number'&&Number.isFinite(value))return value;const text=String(value??'').trim().replace(/\\s/g,'').replace(/^USD/i,'').replace(/[,원]/g,'');if(!text)return null;const parsed=Number(text.replace(/^\\((.+)\\)$/,'-$1'));return Number.isFinite(parsed)?parsed:null};let month=null;",
+        '자금운용 원화 잔액 열'
+      );
+      replaceRequired(
+        "events.push({date,row:i+1,category,flow,currency,status,krwIn,krwOut,usdIn,usdOut})",
+        "const planKrwBalance=krwBalanceIndex>=0?planBalance(row[krwBalanceIndex]):null,planUsdBalance=usdBalanceIndex>=0?planBalance(row[usdBalanceIndex]):null,exchangeRequired=fxNeedIndex>=0&&cleanCashCell(row[fxNeedIndex]).includes('환전필요');events.push({date,row:i+1,category,flow,currency,status,krwIn,krwOut,usdIn,usdOut,planKrwBalance,planUsdBalance,exchangeRequired})",
+        '자금운용 환전필요 행'
+      );
+      replaceRequired(
+        "events.sort((a,b)=>{const diff=a.date.localeCompare(b.date);if(diff)return diff;if(a.flow!==b.flow)return a.flow==='지출'?-1:1;return a.row-b.row});let krw=openingKrw,usd=openingUsd;const points=events.map(e=>{krw+=e.krwIn-e.krwOut;usd+=e.usdIn-e.usdOut;return{...e,krwBalance:krw,usdBalance:usd}}),costData=parseCostEntries(workbook,rows,headerIndex,planRate),monthlyHistory=parseMonthlyHistory(workbook);",
+        "events.sort((a,b)=>{const diff=a.date.localeCompare(b.date);if(diff)return diff;if(a.flow!==b.flow)return a.flow==='지출'?-1:1;return a.row-b.row});let krw=openingKrw,usd=openingUsd;const points=events.map(e=>{krw+=e.krwIn-e.krwOut;usd+=e.usdIn-e.usdOut;const displayedKrw=nullableCashNumber(e.planKrwBalance),displayedUsd=nullableCashNumber(e.planUsdBalance);return{...e,krwBalance:displayedKrw??krw,usdBalance:displayedUsd??usd,balanceSource:displayedKrw!=null?'자금운용 잔액':'입출금 계산'}}),costData=parseCostEntries(workbook,rows,headerIndex,planRate),monthlyHistory=parseMonthlyHistory(workbook);",
+        '자금운용 표시잔액 사용'
+      );
+      replaceRequired(
+        "const planned=buildCashScenarioModel(model,{revenueRate:1,chinaDelayMonths:0,chinaExclude:false},'현재 계획 100%'),baseline=rebaseCashPlanFromDailyClose(planned),series=currentMonthlySeries(baseline,referenceRate),analysis=cashAnalysis(baseline,referenceRate),actualAnchor=baseline.actualAnchor||null;",
+        "const baseline=buildCashScenarioModel(model,{revenueRate:1,chinaDelayMonths:0,chinaExclude:false},'현재 계획 100%'),series=currentMonthlySeries(baseline,referenceRate),analysis=cashAnalysis(baseline,referenceRate),actualAnchor=null;",
+        '자금운용 환전부족 기준'
+      );
+      replaceRequired(
+        "const monthlyShort=series.find(row=>row.month>=currentMonthKey()&&!row.dailyCovered&&row.krwBalance<0),dailyShort=analysis.firstKrwShort?.date>=fxTodayKey()?analysis.firstKrwShort:null;",
+        "const monthlyShort=series.find(row=>row.month>=currentMonthKey()&&!row.dailyCovered&&row.krwBalance<0),explicitShort=baseline.points.find(point=>point.date>=fxTodayKey()&&point.exchangeRequired)||null,dailyShort=explicitShort||analysis.firstKrwShort?.date>=fxTodayKey()?explicitShort||analysis.firstKrwShort:null;",
+        '자금운용 최초 환전필요 행'
+      );
+      replaceRequired(
+        "$('currentFxRule').textContent=actualAnchor?'실제 기준 '+actualAnchor.date+' 일일 마감잔액(원화 '+fmt(actualAnchor.krw/1e8,2)+'억원)을 시작점으로 사용합니다. 같은 날 계획 행은 중복 반영하지 않고, 다음 날짜부터 '+(model.sourceSheet||'자금운용')+' 입·출금을 누적해 최초 원화 부족일을 계산합니다.':'현재 계획 100% · 중국 정상 · 환전 미적용. 일일 실제 마감잔액 연결 후에는 그 실제 잔액을 시작점으로, 이후 입출금 계획에서 최초 원화 부족일을 계산합니다.';",
+        "$('currentFxRule').textContent='자금운용 시트의 원화 잔액·환전필요시기 열을 기준으로, 날짜별 최초 환전필요 행을 표시합니다. 일일 마감잔액은 실제 대조용으로 별도 표시하며 계획 부족일을 임의로 변경하지 않습니다.';",
+        '자금운용 기준 설명'
+      );
       const patches=[
         '<script src="./monthly-usd-patch.js?v=20260917-13"><\/script>',
         '<script src="./reconciliation-xls-patch.js?v=20260917-10"><\/script>',

@@ -290,6 +290,79 @@
   };
 })();
 <\/script>`;
+      const dailyBalanceNewFormatPatch=`<script>
+(() => {
+  const install=()=>{
+    if(typeof parseDailyBalanceSheet!=='function'||parseDailyBalanceSheet.__newFormatPatch)return false;
+    const legacyParser=parseDailyBalanceSheet;
+    const modernParser=(sheet,name,date)=>{
+      const limits=XLSX.utils.decode_range(sheet['!ref']||'A1');
+      if(limits.e.r>500||limits.e.c>100)throw new Error('일일 잔액 표 범위를 확인해 주세요.');
+      const ref=(r,c)=>XLSX.utils.encode_cell({r,c});
+      const text=(r,c=0)=>String(sheet[ref(r,c)]?.v??'').replace(/\\s/g,'');
+      const findRows=predicate=>{const rows=[];for(let r=0;r<=Math.min(100,limits.e.r);r++)if(predicate(text(r)))rows.push(r);return rows};
+      const head=findRows(t=>t==='금융기관')[0]??-1;let amountCol=-1;
+      if(head>=0)for(let c=1;c<=Math.min(12,limits.e.c);c++)if(/^금액\\(원\\)$/.test(text(head,c)))amountCol=c;
+      if(amountCol<0)throw new Error('현재 금액(원) 열을 찾지 못했습니다.');
+      const kr=findRows(t=>/^\\(보통예금.*\\)\\(원화\\)$/.test(t))[0]??-1;
+      const dep=findRows(t=>/^\\(정기예금\\/원화\\)$/.test(t))[0]??-1;
+      const totalRow=findRows(t=>t==='총자금합계')[0]??-1;
+      const availableRow=findRows(t=>/^가용자금합계/.test(t))[0]??-1;
+      const fxRows=findRows(t=>/^\\(보통예금\\/외화\\)/.test(t)||/^\\(외화.*(발행어음|RP)/.test(t)).filter(r=>r>dep&&r<totalRow);
+      if(kr<0||dep<0||totalRow<0||availableRow<0||!fxRows.length||!(kr<dep&&dep<fxRows[0]&&fxRows.at(-1)<totalRow))throw new Error('원화·정기예금·외화·총 자금 구역을 확인해 주세요.');
+      const numberAt=(r,label)=>{const value=dailyNumber(sheet[ref(r,amountCol)]);if(value==null)throw new Error(label+' 금액이 비어 있거나 수식 오류입니다.');return value};
+      const sumSection=(start,end,label)=>{
+        const expected=numberAt(start,label);let sum=0;
+        for(let r=start+1;r<end;r++){
+          const cell=sheet[ref(r,amountCol)],raw=cell?.v,number=dailyNumber(cell);
+          if(raw!=null&&String(raw).trim()!==''&&number==null)throw new Error(label+' 상세 금액을 확인해 주세요.');
+          sum+=number??0;
+        }
+        if(Math.abs(sum-expected)>1)throw new Error(label+' 합계와 상세 잔액이 다릅니다. Excel을 계산·저장해 주세요.');
+        return expected;
+      };
+      const krw=sumSection(kr,dep,'원화 잔액');
+      const deposit=sumSection(dep,fxRows[0],'정기예금');
+      const sectionEnds=[...fxRows.slice(1),totalRow];
+      const fxAmounts=fxRows.map((start,index)=>sumSection(start,sectionEnds[index],'외화 자금'));
+      const fxValuation=fxAmounts.reduce((sum,value)=>sum+value,0),total=numberAt(totalRow,'총 자금'),available=numberAt(availableRow,'가용자금');
+      if(!Number.isSafeInteger(krw)||!Number.isSafeInteger(deposit)||deposit<0)throw new Error('원화·정기예금은 원 단위 숫자로 확인해 주세요.');
+      if(Math.abs(krw+deposit+fxValuation-total)>1||Math.abs(krw+fxValuation-available)>1)throw new Error('원화·예치금·외화 평가액의 합계 검증에 실패했습니다.');
+      let usd=0,known=0,blank=0,rate=null;const usdCells=[];
+      fxRows.forEach((start,index)=>{
+        const end=sectionEnds[index];
+        for(let r=start+1;r<end;r++){
+          const amount=dailyNumber(sheet[ref(r,amountCol)])??0;let usdCell='';
+          for(let c=0;c<amountCol;c++){
+            const cell=sheet[ref(r,c)],shown=String(cell?.w??cell?.v??'').replace(/\\s/g,'');
+            if(/^USD/i.test(shown)){usdCell=ref(r,c);break}
+          }
+          if(!usdCell){if(Math.abs(amount)>.5)throw new Error('외화 원금 USD 셀을 찾지 못했습니다.');continue}
+          const quantity=dailyNumber(sheet[usdCell]);
+          if(quantity==null){blank++;if(Math.abs(amount)>.5)throw new Error('외화 원금은 공란인데 평가액이 존재합니다.');continue}
+          if(Math.abs(quantity*100-Math.round(quantity*100))>.0001)throw new Error('USD 원금은 소수점 둘째 자리까지 확인해 주세요.');
+          if(quantity>0){const appliedRate=amount/quantity;if(!Number.isFinite(appliedRate)||appliedRate<=0)throw new Error('외화 평가액 또는 USD 원금을 확인해 주세요.');if(rate!=null&&Math.abs(rate-appliedRate)>1)throw new Error('외화 구역별 적용환율이 달라 별도 확인이 필요합니다.');rate=appliedRate}
+          if(quantity===0&&Math.abs(amount)>.5)throw new Error('USD 원금과 외화 평가액이 일치하지 않습니다.');
+          usd+=quantity;known++;usdCells.push(usdCell);
+        }
+      });
+      if(!usdCells.length)throw new Error('외화 구역의 USD 원금을 찾지 못했습니다.');
+      const notes=['외화 보통예금과 외화 운용자금·발행어음 RP를 합산해 표시합니다.'];
+      if(blank)notes.push('외화 원금 공란 '+blank+'개: 실제 0 USD 여부를 확인해 주세요.');
+      return{date,sheet:name,krw,usd:known?Math.round(usd*100)/100:null,usdComplete:blank===0,deposit,fxValuation,rate:rate??0,total,available,notes,refs:{krw:ref(kr,amountCol),usd:usdCells.join('+'),deposit:ref(dep,amountCol),total:ref(totalRow,amountCol)}};
+    };
+    const patched=function(sheet,name,date){
+      try{return legacyParser(sheet,name,date)}catch(legacyError){
+        const isNewFormat=/^\\(보통예금.*\\)\\(원화\\)$/.test(String(sheet.A3?.v??'').replace(/\\s/g,''));
+        if(!isNewFormat)throw legacyError;
+        return modernParser(sheet,name,date);
+      }
+    };
+    patched.__newFormatPatch=true;parseDailyBalanceSheet=patched;return true;
+  };
+  let tries=0;const timer=setInterval(()=>{if(install()||++tries>40)clearInterval(timer)},100);
+})();
+<\/script>`;
       const monthlyHistoryDisplayOrder=`<script>
 (() => {
   const monthPattern=/^20\\d{2}-(0[1-9]|1[0-2])$/;
@@ -400,6 +473,7 @@
         monthlyUsdFallback,
         monthlyFxEditor,
         dailyBalanceMonthEndOverride,
+        dailyBalanceNewFormatPatch,
         monthlyHistoryDisplayOrder,
         dailyBalanceTopPriority,
         executiveColorTheme

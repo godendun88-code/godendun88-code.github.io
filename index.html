@@ -572,28 +572,6 @@
         "$('currentFxRule').textContent=actualAnchor?'실제 기준 '+actualAnchor.date+' 일일 마감잔액(원화 '+fmt(actualAnchor.krw/1e8,2)+'억원)을 시작점으로 사용합니다. 같은 날 계획 행은 중복 반영하지 않고, 다음 날짜부터 '+(model.sourceSheet||'자금운용')+' 입·출금을 누적해 최초 원화 부족일을 계산합니다.':'현재 계획 100% · 중국 정상 · 환전 미적용. 일일 실제 마감잔액 연결 후에는 그 실제 잔액을 시작점으로, 이후 입출금 계획에서 최초 원화 부족일을 계산합니다.';",
         '실제 기준 계산 설명'
       );
-      // Monthly balances must be the rolling result of the cash-management
-      // schedule.  Monthly sheets remain evidence/status only, never the balance source.
-      replaceRequired(
-        "const useDaily=month>=currentKey&&status!=='확정'&&covered&&pointKrw!=null,krwBalance=useDaily?pointKrw:sheetKrw??pointKrw,preferSheet=month<currentKey||status==='확정',baseUsdBalance=(preferSheet?sheetUsd:null)??pointUsd??sheetUsd;",
-        "const usePlan=covered&&pointKrw!=null,krwBalance=usePlan?pointKrw:sheetKrw??pointKrw,preferPlan=covered&&pointUsd!=null,baseUsdBalance=preferPlan?pointUsd:sheetUsd??pointUsd;",
-        '자금운용 월말잔액 우선'
-      );
-      replaceRequired(
-        "const usdSource=baseUsdBalance!=null?(preferSheet&&sheetUsd!=null?'월 시트':pointUsd!=null?'입출금 계획':'월 시트'):manualUsd!=null?'보완 입력':'미입력',usdMissingReason=",
-        "const usdSource=baseUsdBalance!=null?(preferPlan?'자금운용 계획':sheetUsd!=null?'월 시트':'입출금 계획'):manualUsd!=null?'보완 입력':'미입력',usdMissingReason=",
-        '자금운용 USD 월말잔액 우선'
-      );
-      replaceRequired(
-        "cashBasis:useDaily?'daily':'sheet',dailyCovered:covered,sheetKrwBalance:sheetKrw,sourceKrwDifference:useDaily&&sheetKrw!=null?pointKrw-sheetKrw:0",
-        "cashBasis:usePlan?'daily':'sheet',dailyCovered:covered,sheetKrwBalance:sheetKrw,sourceKrwDifference:usePlan&&sheetKrw!=null?pointKrw-sheetKrw:0",
-        '자금운용 월말 기준 표시'
-      );
-      replaceRequired(
-        "notes.push('예상 구간은 매출 100%·중국 정상·환전 미적용의 일별 입출금 계획으로 통일합니다. 과거·확정 월은 월 시트 값을 유지합니다.');",
-        "notes.push('원화·USD 월말잔액은 자금운용 시트의 기초잔액과 날짜별 입·출금 누적 기준입니다. 월 시트는 검증 상태와 대조용으로만 사용합니다.');",
-        '자금운용 기준 안내'
-      );
       const patches=[
         '<script src="./monthly-usd-patch.js?v=20260917-13"><\/script>',
         '<script src="./reconciliation-xls-patch.js?v=20260917-10"><\/script>',

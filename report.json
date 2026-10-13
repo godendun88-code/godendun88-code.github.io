@@ -1,17 +1,23 @@
 {
-  "updated_at_kst": "2026-10-13 04:03 KST",
-  "current_rate": 1335.3,
-  "previous_close": 1342.3,
-  "rate_updated_at_kst": "2026-10-13 04:02:50 KST",
+  "updated_at_kst": "2026-10-13 10:18 KST",
+  "current_rate": 1336.5,
+  "previous_close": 1335.3,
+  "rate_updated_at_kst": "2026-10-13 10:18:38 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
-    "미국 물가 관련 최신 기사(\"Dollar hovers near 18-month high as Gulf unrest, US inflation keep investors on edge\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
+    "미국 물가 관련 최신 기사(\"Dollar holds 18-month high as Gulf tension, US inflation keep investors on edge\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
     "미 국채금리 관련 최신 기사(\"COMMENTARY: Why surging yields aren’t spooking corporate borrowers\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다.",
-    "미국 물가 관련 최신 기사(\"Equities little changed as oil rallies while earnings, inflation loom\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다."
+    "외환시장 관련 최신 기사(\"Breakingviews - COMMENTARY: Nobel winners' economic synthesis is best outgrown\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
+    {
+      "title": "Breakingviews - COMMENTARY: Nobel winners' economic synthesis is best outgrown",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxObVpOSS1LTDB2OFdZQmlvdlFDVDd3RUNUbTRZOW1ETkZ3UmpKYkZxYWFnQi1ZM3FsU0hmV2MzMW5rUV9kZ3VueWFFZmxaWHREbjJIbE9uQTFkbzlFWk5xYzdMZ215WG1mSWVsWVoySlJtQU5TUk1Iamc3RkhrazU3MDhlZnp2WC1uT2hyQVBCVEVVbkNGckd5VGFiQlBWUGNlbkM4RzR6cDlwc3lLZW5V?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-10-13 01:02 KST"
+    },
     {
       "title": "COMMENTARY: Why surging yields aren’t spooking corporate borrowers",
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPSXowOVpqdk1qMnNVdkNEUXlacmVFYUZWVEpCTzY4NFBmMDl4anh0TURiMHE4Mngxa0VieUhkc2pMRHg2dlRJay15Q1pnMF9UUy02SjJ0TFRnSmpndk1kcEJZYXRhOV9uWEt0al9ORVQzX1N0WmQtQ21Sb2gwUHpBS1g3MlVlbW5TWTFXQktkUjRBSWRvbkdOVzRSWTlLNFhhWlFacnlraFEwTjJ2NmlCMHkxYVBtNkMtRk43bU9HbExlSTZDckZwR2cyZjZ5NzJLMFE?oc=5",
@@ -19,31 +25,25 @@
       "seen": "2026-10-12 21:07 KST"
     },
     {
-      "title": "Dollar hovers near 18-month high as Gulf unrest, US inflation keep investors on edge",
+      "title": "Dollar holds 18-month high as Gulf tension, US inflation keep investors on edge",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNZnNEOHo2NzVEYW5MOEcybTVjN2xsbXBOSkdScUFqckU4R0VES0JjaGNnSE1RbkJWWEI5SnpuOWxBNTNUVHhqUEtGdjRPdmtHZ0hYOWl1VkZYQXJoWDI5WFJ6MER1OWlvVVVVWFdXb3JFZklJQUNQNjJ5NUpObkVSMkh3ZTZ1NWpRXzcwbFBwb1lFSkYzYktRd3FtTjIwRW9wZElFU0lRNkZvTnZlWk5fb2VuNGFlaXFxd0dxSkN1OTE0Zw?oc=5",
       "domain": "Reuters",
       "seen": "2026-10-12 10:51 KST"
-    },
-    {
-      "title": "Equities little changed as oil rallies while earnings, inflation loom",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA4VndfYlhKMjFvd01KYndaSHVGZ3dlckMtTUtucy1jQjk0aE9JcHRpdEFuSE1SZGFWZzV1TW1MVFFabU9oNEhfajl6MVVIbzFVVF85VUZaWTFMRmx1WDFPRHItbWhuVWpoUzRxcXBPc0V4Tmo1UUU3QjRfbw?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-10-12 09:42 KST"
     }
   ],
-  "rate_source_time": "2026-10-13 04:02:50 KST",
+  "rate_source_time": "2026-10-13 10:18:38 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": -7.0,
-  "rate_change_pct": -0.52,
+  "rate_change": 1.2,
+  "rate_change_pct": 0.09,
   "smbs_base_rate": 1335.8,
   "smbs_rate_date": "2026-10-13",
-  "smbs_rate_updated_at_kst": "2026-10-13 04:02:33 KST",
+  "smbs_rate_updated_at_kst": "2026-10-13 10:18:24 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
-    1335.0,
-    1348.0
+    1330.0,
+    1342.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-10-13 04:02:33 KST"
+  "rate_job_checked_at_kst": "2026-10-13 10:18:24 KST"
 }

@@ -1,22 +1,28 @@
 {
-  "updated_at_kst": "2026-10-14 01:25 KST",
+  "updated_at_kst": "2026-10-14 06:32 KST",
   "current_rate": 1342.8,
   "previous_close": 1335.3,
-  "rate_updated_at_kst": "2026-10-14 01:25:14 KST",
+  "rate_updated_at_kst": "2026-10-14 06:32:33 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
-    "연준·금리 관련 최신 기사(\"US Treasury yields yet to peak as Fed may tighten further, PIMCO's Ivascyn says\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
+    "연준·금리 관련 최신 기사(\"US Treasury yield peak still ahead as Fed likely to tighten again, PIMCO's Ivascyn says\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
     "미국 물가 관련 최신 기사(\"US inflation expectations are well anchored, Fed's Waller says\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
-    "미 국채금리 상승 관련 보도가 확인돼 달러 수요를 지지하면서 원/달러 환율 상승 압력으로 작용하고 있습니다."
+    "미 국채금리 관련 최신 기사(\"Fitch warns bond yield surge is worsening debt outlook for developed economies\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
     {
-      "title": "US Treasury yields yet to peak as Fed may tighten further, PIMCO's Ivascyn says",
+      "title": "US Treasury yield peak still ahead as Fed likely to tighten again, PIMCO's Ivascyn says",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQckVkLTFFNXNKUmlRWTVjWE1tOWZ5OXYxU3NFSWU3V0w0dkk3WEVsamFRVWY5Y0FlNVgzV1dZQlJtNWoyY1ByVlVWT0dBNEp6QnlRVG9HTXpKTENiMXlNT0gtYXRnbHFHRk5TUFREaWZmUEk2WElGUDJfY3d3dHc2ZEh5QUdoQlMzZVBKcUlXamtqTmlsQ1kxZXI2MTV6dGVDU1p3QXQwWVJjN1dkVTc3NXlBRm96SVRkQVE?oc=5",
       "domain": "Reuters",
-      "seen": "2026-10-14 00:52 KST"
+      "seen": "2026-10-14 01:28 KST"
+    },
+    {
+      "title": "Fitch warns bond yield surge is worsening debt outlook for developed economies",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQeWk1RWRubkZnVkRhdVlTOUxXQjZRQmhZeGZJNFNybEg5ZnktUTVvQTg0VDFRZnloRm5kbG05MEVyd0tMbGliNWIzRmk3NTBsU3NLS21MMjhsWm1lWXNnUm12SnJVaW14Wm5DLVZvZUhGcFNDU1hoTWI1N0JlczFHYVp6bmp6SGNEMlBKUkZqeWlqYURjMkVycHJvNWFleEF6RGV0TG1hdDUwZ0tmdTBoTlg0b19HZG5LTHByb1RqRQ?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-10-14 00:11 KST"
     },
     {
       "title": "Higher yields revive the case for a new-look 60/40 portfolio",
@@ -31,31 +37,25 @@
       "seen": "2026-10-13 20:21 KST"
     },
     {
+      "title": "South African rand supported by weaker dollar as mining output disappoints",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPclJyMVRMWW5URkpub25rMGlfQWprRVVmUTA4YTVMd003UXRaSEdJSFFsQWs0UUJCbnZ3QjkwdTRnSmtLNlNBNUlRUVpxZTE4R0tQYjZOQnJGVjFWbDRsOExrYTU5TS0wbkdFN0RXTGduTnNZckVIbzV4aW42anBFeldrZUIxLWR2cy1YOHVUVVIxLXltdE9HRk1sNW5HSE5uamc?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-10-13 15:39 KST"
+    },
+    {
       "title": "Indian shares on track for muted open as inflation strengthens rate-hike concerns",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNbXoyQkVyTENpMXEyRVE5VEl4NEhwRzVheENXdUNLeDhjcDJXdjEtRHlPc3lCa2pLQ1BjcmdwNDlBYUJEUGxBZXQyLWNUVlBPTXg1R0hmX2ptVjliT1hLYWt3NmNoWnFNRER5Vkdpb21YdFBxQ1lRbzZpV0t4ZnFNb24xT0VHTTkzWHU1TjdQN21ucWFhRTVnRi1rVzJzYlZYLTRTUDF6OFlxcDRaYWRxWWJZU05WY3BrQVk4SUIxYjJEakt5RExuaEtBMzE?oc=5",
       "domain": "Reuters",
       "seen": "2026-10-13 11:29 KST"
-    },
-    {
-      "title": "Gold rises on weaker dollar, lower oil ahead of US inflation data",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNRnRSZTl3U0dwUkZRSkNlalhmeF94cE1aaGV4NjNZdll2aENMRDZTWGNTTnhjMS1BQ1hKUG9qc2hKS185eXpWTjFfUnBwN1cwdVNIUllaMnc0Tno2SnFBaXp4RGxMWkd1eFhXR1VTLV9qN25ETlIyeEVLNXNGX2NqZV80SUk5WG5IeEVDNGpRbTRfaVliMk9HVk5vQ0lyVnc?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-10-13 11:23 KST"
-    },
-    {
-      "title": "Dollar slips with oil prices, geopolitical risks seen easing before midterms",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZ2lxTVVOV3pTUEkySWJNak9DU3lNdXR5bmRWWmxicmY0UVlFTFl3SmlERjl4LVFmTG1pSFAteVRpU2lPaXFhTTNROFlTWUgtaVRFdlliT3VYSkc1Z3REVEctSEZkSV9Sc3dabEFDb0pIcmNXdDR0MDJJMXNtNy1IUUNKS1BVWnNYd0xfM24yUFJmMkRXNUlYTmFnV2g3Z0VJWEE5Zk5MZw?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-10-13 10:44 KST"
     }
   ],
-  "rate_source_time": "2026-10-14 01:25:14 KST",
+  "rate_source_time": "2026-10-14 06:32:33 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": 7.5,
   "rate_change_pct": 0.56,
   "smbs_base_rate": 1340.5,
   "smbs_rate_date": "2026-10-14",
-  "smbs_rate_updated_at_kst": "2026-10-14 01:25:00 KST",
+  "smbs_rate_updated_at_kst": "2026-10-14 06:32:22 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1342.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-10-14 01:25:00 KST"
+  "rate_job_checked_at_kst": "2026-10-14 06:32:22 KST"
 }

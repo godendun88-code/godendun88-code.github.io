@@ -1,28 +1,34 @@
 {
-  "updated_at_kst": "2026-10-15 00:30 KST",
+  "updated_at_kst": "2026-10-15 04:43 KST",
   "current_rate": 1342.8,
   "previous_close": 1342.8,
   "rate_updated_at_kst": "2026-10-15 00:29:50 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "상승 우세",
   "drivers": [
-    "연준·금리 관련 최신 기사(\"US Treasury yield peak still ahead as Fed likely to tighten again, PIMCO's Ivascyn says\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
+    "연준의 추가 금리 인상 또는 매파적 기조 우려가 부각돼 달러 강세 압력이 높아지는 요인으로 작용하고 있습니다.",
     "미국 물가 상승 압력이 다시 부각되며 연준의 매파적 금리 경로 우려가 커져 달러 강세 요인으로 작용하고 있습니다.",
     "외환시장 관련 최신 기사(\"COMMENTARY: Why governments might secretly wish for an AI stumble\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다."
   ],
   "outlook": "달러 강세·금리 상승 계열의 재료가 상대적으로 우세해 원/달러는 단기 상승 압력이 나타날 수 있으나, 국내 수급과 위험선호 회복 여부에 따라 변동성이 예상됩니다.",
   "articles": [
     {
+      "title": "US inflation heats up in September; Fed rate hike this month back on table",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNX3hkV3J5em1xWWY4V0hQODFTamFtU3NvdkpPRUUzMGY0TnlKaVlneXZPc0J6bFpWdDZWb2hLRkZZaHhZVElDSXNFbGNYMVVBRGR6c1RlNDA4cEhkMEcwck5VMFRtZ1QxOFJqNTkyaGJzWWFLSXp2Z0l1Z19vMDh5bGd6N1FJSkJFR2tZUXd1UWUzeVlvZi1xNTVONk00ejJ5cE0xSGY4THFsaUo0RGxPV3dpaW4tbEZseUE?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-10-15 02:25 KST"
+    },
+    {
+      "title": "AI infrastructure firms slump as US rate hike bets rise",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQNWlPWk9kbVZKbXFJNXFBZDJmczNIeVVfTkI4MUJFbmVsbTVhQ2hJdzRMNFVfeEIzUUVKWGN4allmczJkVUlZVzRabGRhenZ4Rl9ZU0o0YUY3WlRCQ3Zfc3RTUUphSDJRMXoxY2lfME00bHRpcGVNUTQxeTVqQkVCcm1jUkRBeUdtVlI0eE5nYllYYldzRHAxRUF1VVpPQQ?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-10-15 01:11 KST"
+    },
+    {
       "title": "Fed rate hike call seen tight as inflation heats up",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPMjl1ZWZGd2lIRXg1US1hUjNacTVDN2o5S2lIcXpCdnZ1VHBXcEpqOHV5SzJJZHJrT3RxYjdrRjRrRU03eHNGTTFRMnVCVEdZa0VfLU9BeFdSeTE1aFRrc3ZRampyOFVTczZRbWk0azFBakVndUJ1X0NjVmJmV1JmeXNXSlFkNzF0NUZKTUUyUnlHWi1sOXFpVHV5NnVvcDA?oc=5",
       "domain": "Reuters",
       "seen": "2026-10-14 23:22 KST"
-    },
-    {
-      "title": "US inflation heats up in September; Fed rate hike this month back on table",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNX3hkV3J5em1xWWY4V0hQODFTamFtU3NvdkpPRUUzMGY0TnlKaVlneXZPc0J6bFpWdDZWb2hLRkZZaHhZVElDSXNFbGNYMVVBRGR6c1RlNDA4cEhkMEcwck5VMFRtZ1QxOFJqNTkyaGJzWWFLSXp2Z0l1Z19vMDh5bGd6N1FJSkJFR2tZUXd1UWUzeVlvZi1xNTVONk00ejJ5cE0xSGY4THFsaUo0RGxPV3dpaW4tbEZseUE?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-10-14 23:04 KST"
     },
     {
       "title": "VIEW Hot September CPI sends rate-hike bets soaring",
@@ -41,12 +47,6 @@
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNZkM3NGdUajlORC1ZZjBNcFZtNjYwa2JRaFczS1V4OVRORGhzZG1NUGxaY3ppRjdfQlFvUmREakJQM1RGaDNZZmZFMnJrY2Rtemc2Z1dBY1pPRy1ZbnBJVzNfTG1MMGJ5TXY5VzFpaDd6UENqd1pUOVdlTm1sS241QkFzNm1kdDJXTjl5emhLV200WUI1QVh4RQ?oc=5",
       "domain": "Reuters",
       "seen": "2026-10-14 12:12 KST"
-    },
-    {
-      "title": "Dollar jumps, stocks and bonds dented by hot US inflation data",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNcE96RkhyZDBlQ2VWRERNYlZtdm5FaVdQSXF2M3ZtR3JIOU05UExLWnZ3dmFBY1NZcndTRlozR29sdmxWaExXUmIycmZPZGk3UXI1amRxTDR6WHpSQl82ckhxZ016SnZYdGtPdC14TnZVWlpjeHl4SW5pUnJKbjl2M0pzcw?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-10-14 10:53 KST"
     }
   ],
   "rate_source_time": "2026-10-15 00:29:50 KST",
@@ -55,13 +55,14 @@
   "rate_change_pct": 0.0,
   "smbs_base_rate": 1338.6,
   "smbs_rate_date": "2026-10-15",
-  "smbs_rate_updated_at_kst": "2026-10-15 00:29:36 KST",
+  "smbs_rate_updated_at_kst": "2026-10-15 04:40:56 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
     1335.0,
     1347.0
   ],
-  "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-10-15 00:29:36 KST"
+  "rate_check_status": "failed",
+  "rate_job_checked_at_kst": "2026-10-15 04:40:56 KST",
+  "rate_fetch_error": "RuntimeError: KB STAR FX 자동조회 3회 실패: TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n | TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n | TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n"
 }

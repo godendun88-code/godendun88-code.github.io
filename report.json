@@ -1,17 +1,35 @@
 {
-  "updated_at_kst": "2026-10-14 09:36 KST",
-  "current_rate": 1341.0,
-  "previous_close": 1340.97,
-  "rate_updated_at_kst": "2026-10-14 09:36:03 KST",
+  "updated_at_kst": "2026-10-14 14:25 KST",
+  "current_rate": 1337.9,
+  "previous_close": 1342.8,
+  "rate_updated_at_kst": "2026-10-14 14:24:46 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
     "연준·금리 관련 최신 기사(\"US Treasury yield peak still ahead as Fed likely to tighten again, PIMCO's Ivascyn says\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
-    "미국 물가 관련 최신 기사(\"US inflation expectations are well anchored, Fed's Waller says\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
+    "미국 물가 관련 최신 기사(\"High gasoline prices expected to boost US consumer inflation in September\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
     "미 국채금리 관련 최신 기사(\"Fitch warns bond yield surge is worsening debt outlook for developed economies\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
+    {
+      "title": "High gasoline prices expected to boost US consumer inflation in September",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQWlRYZDhRQWpqTmlJcWxGcDR4RGNleVlZQ2pqYlVZaW8ya01TS1NCUFUyaElVNUdJR2x0VWRxdGtaWl9wekdEUGVHUnktVUstSXFOcHloUWtLcFlQU0EzSW4yTENYU1NYX09VMUVRU3hQZ2prRjA1dVBTdll0QjNZaXJVbE5LSVNMODNVSkxlR05IeVpydy1hRFpuWWp0OWM0TXhXclVQWHNwWlZHRGNNNmRR?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-10-14 13:01 KST"
+    },
+    {
+      "title": "Asia shares edge up as chip selloff eases; US CPI awaited",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNcE96RkhyZDBlQ2VWRERNYlZtdm5FaVdQSXF2M3ZtR3JIOU05UExLWnZ3dmFBY1NZcndTRlozR29sdmxWaExXUmIycmZPZGk3UXI1amRxTDR6WHpSQl82ckhxZ016SnZYdGtPdC14TnZVWlpjeHl4SW5pUnJKbjl2M0pzcw?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-10-14 10:53 KST"
+    },
+    {
+      "title": "Dollar languishes as focus turns to CPI, Fed speakers",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPRTlXdFl1T0lRV3lDTk1HeDB5eEoyUkhIUERBWi02S1ZRU2tGX0hyQk9GdThWZUNUUFBKcUxqNEd1WkU4WFpyUHV6ZmU4VXl3MWRBSjN5UWM2WjVmbDl6RGhYYzV3SF8yTGwtTGJWTTR2OHN4LVVvVzlpTGs0RkFPX2dQWmNZTUF2MVFRMU5fWXZjbjlxd2NISDgyckdMQ3lYYTZv?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-10-14 10:18 KST"
+    },
     {
       "title": "COMMENTARY: TRADING DAY Earnings season debuts to mixed reviews",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOMnM4cmRWOHp2enVzNDcwRzZTMUxYVGl1VmFncTlidmgxSVBLUTFvYkVYUThpZTdQcGJXNUVmckdLOWxUZmtpNVloOXluY2Y0QXIwWl9NX2kwdjNkdDZXU2ZhQWFiNWZQU0JBQ3RMRXJjWXllQ1lJd2oyT2J4S3l6UWVIZjZXM1JsMURrZE5TLW5Xci14TGdLcjd2NA?oc=5",
@@ -25,37 +43,19 @@
       "seen": "2026-10-14 01:28 KST"
     },
     {
-      "title": "Fitch warns bond yield surge is worsening debt outlook for developed economies",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQeWk1RWRubkZnVkRhdVlTOUxXQjZRQmhZeGZJNFNybEg5ZnktUTVvQTg0VDFRZnloRm5kbG05MEVyd0tMbGliNWIzRmk3NTBsU3NLS21MMjhsWm1lWXNnUm12SnJVaW14Wm5DLVZvZUhGcFNDU1hoTWI1N0JlczFHYVp6bmp6SGNEMlBKUkZqeWlqYURjMkVycHJvNWFleEF6RGV0TG1hdDUwZ0tmdTBoTlg0b19HZG5LTHByb1RqRQ?oc=5",
+      "title": "JPMorgan posts rare profit miss as dealmaking, bond trading lose momentum",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPWkpHWW54ak0tS25QWlJYZDQxbUdyaWdmcjU0bnFaUU12R0YtSDhmcmpwZ0FEVVZRUHhUa2pueVVRNVdaUlVPU0VmaU5IMHFoNWNjbF9EMDh5TkpobENoQzR2d2t6eUtTeW5PckM5QkNQakhyNFo0MlpFbnlGdldqTk1zUi1vbnNmVHlVNnp3NmJIdGh1dDdPTF9FVHJ6bUtwOVR0N2NiUEo3YVF4SldvVg?oc=5",
       "domain": "Reuters",
-      "seen": "2026-10-14 00:11 KST"
-    },
-    {
-      "title": "Higher yields revive the case for a new-look 60/40 portfolio",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPY2NFdFRxZFJfMDBtMmYzaXhiQ0x5NEhOV2xiUVJaaTRFS2VxNjdmdUs0bF9RSzNlQndINjh5RGF4ZENMUzlJLW93RjdKX19OY09Lbm5BOUkzazlqRTlTZWI0YXNfalJMTEhzQmVLZ2VuUmszaU1ZT3VpYXlVV1M4Qw?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-10-13 22:28 KST"
-    },
-    {
-      "title": "US inflation expectations are well anchored, Fed's Waller says",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQVFBFRTZLXzRkVnlnU0FveXV5eHd5NHpLdGZ6VjY5NFBJYVUzUWJCMnAzUTJjbTVNN19yYldxQUM0M1BEQUVPRUZscFB4dTJRNUo4UlJBVzF6VE9JTDdVU1NBYVBkYlpLNE0yU2QwRkVCR21YZW5wd3ZUejdyMUhmNW82OFdlZ0RaQVlSRl9ZengxNkU0YS1WMjR6cHhGcnJjZUk0RERFSlBtT0FKLUE?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-10-13 20:21 KST"
-    },
-    {
-      "title": "Indian shares on track for muted open as inflation strengthens rate-hike concerns",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNbXoyQkVyTENpMXEyRVE5VEl4NEhwRzVheENXdUNLeDhjcDJXdjEtRHlPc3lCa2pLQ1BjcmdwNDlBYUJEUGxBZXQyLWNUVlBPTXg1R0hmX2ptVjliT1hLYWt3NmNoWnFNRER5Vkdpb21YdFBxQ1lRbzZpV0t4ZnFNb24xT0VHTTkzWHU1TjdQN21ucWFhRTVnRi1rVzJzYlZYLTRTUDF6OFlxcDRaYWRxWWJZU05WY3BrQVk4SUIxYjJEakt5RExuaEtBMzE?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-10-13 11:29 KST"
+      "seen": "2026-10-14 01:13 KST"
     }
   ],
-  "rate_source_time": "2026-10-14 09:36:03 KST",
+  "rate_source_time": "2026-10-14 14:24:46 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 0.03,
-  "rate_change_pct": 0.0,
+  "rate_change": -4.9,
+  "rate_change_pct": -0.36,
   "smbs_base_rate": 1340.5,
   "smbs_rate_date": "2026-10-14",
-  "smbs_rate_updated_at_kst": "2026-10-14 09:35:51 KST",
+  "smbs_rate_updated_at_kst": "2026-10-14 14:24:32 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1347.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-10-14 09:35:51 KST"
+  "rate_job_checked_at_kst": "2026-10-14 14:24:32 KST"
 }

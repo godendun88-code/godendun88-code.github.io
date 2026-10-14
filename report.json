@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-10-14 06:32 KST",
-  "current_rate": 1342.8,
-  "previous_close": 1335.3,
-  "rate_updated_at_kst": "2026-10-14 06:32:33 KST",
+  "updated_at_kst": "2026-10-14 09:36 KST",
+  "current_rate": 1341.0,
+  "previous_close": 1340.97,
+  "rate_updated_at_kst": "2026-10-14 09:36:03 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
@@ -12,6 +12,12 @@
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
+    {
+      "title": "COMMENTARY: TRADING DAY Earnings season debuts to mixed reviews",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOMnM4cmRWOHp2enVzNDcwRzZTMUxYVGl1VmFncTlidmgxSVBLUTFvYkVYUThpZTdQcGJXNUVmckdLOWxUZmtpNVloOXluY2Y0QXIwWl9NX2kwdjNkdDZXU2ZhQWFiNWZQU0JBQ3RMRXJjWXllQ1lJd2oyT2J4S3l6UWVIZjZXM1JsMURrZE5TLW5Xci14TGdLcjd2NA?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-10-14 06:10 KST"
+    },
     {
       "title": "US Treasury yield peak still ahead as Fed likely to tighten again, PIMCO's Ivascyn says",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQckVkLTFFNXNKUmlRWTVjWE1tOWZ5OXYxU3NFSWU3V0w0dkk3WEVsamFRVWY5Y0FlNVgzV1dZQlJtNWoyY1ByVlVWT0dBNEp6QnlRVG9HTXpKTENiMXlNT0gtYXRnbHFHRk5TUFREaWZmUEk2WElGUDJfY3d3dHc2ZEh5QUdoQlMzZVBKcUlXamtqTmlsQ1kxZXI2MTV6dGVDU1p3QXQwWVJjN1dkVTc3NXlBRm96SVRkQVE?oc=5",
@@ -37,31 +43,25 @@
       "seen": "2026-10-13 20:21 KST"
     },
     {
-      "title": "South African rand supported by weaker dollar as mining output disappoints",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPclJyMVRMWW5URkpub25rMGlfQWprRVVmUTA4YTVMd003UXRaSEdJSFFsQWs0UUJCbnZ3QjkwdTRnSmtLNlNBNUlRUVpxZTE4R0tQYjZOQnJGVjFWbDRsOExrYTU5TS0wbkdFN0RXTGduTnNZckVIbzV4aW42anBFeldrZUIxLWR2cy1YOHVUVVIxLXltdE9HRk1sNW5HSE5uamc?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-10-13 15:39 KST"
-    },
-    {
       "title": "Indian shares on track for muted open as inflation strengthens rate-hike concerns",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNbXoyQkVyTENpMXEyRVE5VEl4NEhwRzVheENXdUNLeDhjcDJXdjEtRHlPc3lCa2pLQ1BjcmdwNDlBYUJEUGxBZXQyLWNUVlBPTXg1R0hmX2ptVjliT1hLYWt3NmNoWnFNRER5Vkdpb21YdFBxQ1lRbzZpV0t4ZnFNb24xT0VHTTkzWHU1TjdQN21ucWFhRTVnRi1rVzJzYlZYLTRTUDF6OFlxcDRaYWRxWWJZU05WY3BrQVk4SUIxYjJEakt5RExuaEtBMzE?oc=5",
       "domain": "Reuters",
       "seen": "2026-10-13 11:29 KST"
     }
   ],
-  "rate_source_time": "2026-10-14 06:32:33 KST",
+  "rate_source_time": "2026-10-14 09:36:03 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 7.5,
-  "rate_change_pct": 0.56,
+  "rate_change": 0.03,
+  "rate_change_pct": 0.0,
   "smbs_base_rate": 1340.5,
   "smbs_rate_date": "2026-10-14",
-  "smbs_rate_updated_at_kst": "2026-10-14 06:32:22 KST",
+  "smbs_rate_updated_at_kst": "2026-10-14 09:35:51 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
-    1330.0,
-    1342.0
+    1335.0,
+    1347.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-10-14 06:32:22 KST"
+  "rate_job_checked_at_kst": "2026-10-14 09:35:51 KST"
 }

@@ -699,7 +699,7 @@
       );
       replaceRequired(
         "const sourceMarker=(model.points||[]).find(point=>point.exchangeRequired);$('currentFxRule').textContent=sourceMarker?'원본 확인 · 자금운용 S열 '+sourceMarker.row+'행 '+sourceMarker.date+' 환전필요 · Q열 '+fmt(sourceMarker.krwBalance/1e8,2)+'억원':'원본 기준 확인 · 자금운용 Q열 최초 음수 행을 환전 필요 시점으로 표시합니다. S열 환전필요 표시는 Q열<0 조건의 수식입니다.';",
-        "const releases=baseline.depositMaturityScenario?.releases||[],sourceMarker=(model.points||[]).find(point=>point.exchangeRequired);$('currentFxRule').textContent=releases.length?'예금 만기 가정 · '+releases.map(item=>item.bank+' '+item.maturity.replaceAll('-','.')+' '+fmt(item.principal/1e8,2)+'억원').join(' · ')+'을 만기일부터 가용 원화로 전환해 환전 필요일을 다시 계산했습니다. 선택하지 않은 예금은 재예치로 계속 묶인 조건입니다.':sourceMarker?'원본 확인 · 자금운용 S열 '+sourceMarker.row+'행 '+sourceMarker.date+' 환전필요 · Q열 '+fmt(sourceMarker.krwBalance/1e8,2)+'억원':'원본 기준 확인 · 자금운용 Q열 최초 음수 행을 환전 필요 시점으로 표시합니다. S열 환전필요 표시는 Q열<0 조건의 수식입니다.';",
+        "const releases=projection.baseline.depositMaturityScenario?.releases||[],sourceMarker=(model.points||[]).find(point=>point.exchangeRequired);$('currentFxRule').textContent=releases.length?'예금 만기 가정 · '+releases.map(item=>item.bank+' '+item.maturity.replaceAll('-','.')+' '+fmt(item.principal/1e8,2)+'억원').join(' · ')+'을 만기일부터 가용 원화로 전환해 환전 필요일을 다시 계산했습니다. 선택하지 않은 예금은 재예치로 계속 묶인 조건입니다.':sourceMarker?'원본 확인 · 자금운용 S열 '+sourceMarker.row+'행 '+sourceMarker.date+' 환전필요 · Q열 '+fmt(sourceMarker.krwBalance/1e8,2)+'억원':'원본 기준 확인 · 자금운용 Q열 최초 음수 행을 환전 필요 시점으로 표시합니다. S열 환전필요 표시는 Q열<0 조건의 수식입니다.';",
         '예금 만기 가정 설명'
       );
       replaceRequired(

@@ -1,23 +1,17 @@
 {
-  "updated_at_kst": "2026-10-16 06:19 KST",
-  "current_rate": 1344.5,
-  "previous_close": 1342.8,
-  "rate_updated_at_kst": "2026-10-16 06:19:18 KST",
+  "updated_at_kst": "2026-10-16 08:50 KST",
+  "current_rate": 1339.7,
+  "previous_close": 1344.5,
+  "rate_updated_at_kst": "2026-10-16 08:50:06 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
     "연준·금리 관련 최신 기사(\"Economists: Hot PPI shows Fed's work is not done\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
-    "미국 물가 관련 최신 기사(\"Dollar retreats from 18-month high despite strong inflation data\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
+    "미국 물가 관련 최신 기사(\"Dollar recedes from 18-month high as bond rally tempers impact of hot inflation data\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
     "글로벌 달러 강세 관련 보도가 이어지며 원/달러 환율에는 상승 압력으로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
-    {
-      "title": "How Aramco learned to keep pumping oil under fire",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOMEo4RHMzbGVMLUpQcnFqT28tSlU2Q0FBUlZtc2MzaUZSLXpsd3o3X1VGQXplLWJUaUJuQ1BCbFdVbzZwZUk0OURuZ0dmcWVkaWNaclNBcHBlRGR1bWViNWROR21UV2pSRTdqNDZfUVFDdHR2TG9lUDd5eDlNRzVtWHRVNFI5d3I4MUtQdG04SVA1OURzQzI5WXk3N3ItUEE?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-10-16 01:57 KST"
-    },
     {
       "title": "Economists: Hot PPI shows Fed's work is not done",
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOb01IeGE0M04zdDFRdmFsVms0cWw5Nkx4RG9YTFdtSzNLNVc2TV9vUWZFdDhDQkNWcUJSWG5FT3NPWS1KRVpoZXp2cEhPcTdFYmFJSVVnRFBaa1plWmRJanR3YS1DYUhxNzRaSnhRcVZqYXRlc1dvTVBjM3l5RlRMNlZR0gGHAUFVX3lxTFBHU3JuM3lUd1N6Q29uclNoSTJQY09yUkpTZ0d6elZLX1dLWFNZYUlpclBTTm54cDBDZ3R2V0ZPTUtDcTZLUno4LUNjTF90S0NHZlJzbTRiY3lPVDJic1J1Zlh2NGMtb1V4azVBdmtSM2sxZHhCYmFRNnR3QkNwWjFRTDA0dVE4Yw?oc=5",
@@ -47,21 +41,27 @@
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQck9OREpKeHNSTVE5NW5GMkp0SjV5WGd4bUFMYlpEVS1LY3hSbk9CMUZCWmM3ejlpNEVOc29XRFA1ZWV5cGswdnUzbzlUdm5uaVBfakExMk8xcDVoenQ1NE9BZWJYaC0yOHFNR2EtYVl0MDRFaWxOU0lkSzNXV1BqVTFVVnpFQkFZOTFabNIBkgFBVV95cUxQbmF3SnpuSTBJbnFKU2daXzhNNlFrc1VHWW1zbkdQSkFEMVI1VTRERkY1ellTaUhlS0haRDE4bE1tY3h0Rmc4akZNWWstUEIwU0l2RGU4SFB5RlZPd04wQTM4SXIyYTNTMzExTjgtR3hkemtveWNnekxSUUhTREdiUmVJUHdZTzFPRGJvbm5Rd0M0QQ?oc=5",
       "domain": "CNBC",
       "seen": "2026-10-15 13:33 KST"
+    },
+    {
+      "title": "Gold rebounds on weaker dollar, yield drop; October Fed hike bets subdued",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNUGo4bEV3TDlUV2I1Nkg3dzNpODBCZ0hBWXJtWHR2OWwxWGVGZlRVcDZINFJqdmQ5QXJRNk5aUVVtZDhZSUlzUEJNWmpUcm9oSmtrNldYLWZEWTl6NDNueFY4VlQyby1oYnBKcnFSaHBQR1BWZXZ1NVg5LXZReXc5UjlWTXFzd2pDSEpBVTljTjk?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-10-15 12:18 KST"
     }
   ],
-  "rate_source_time": "2026-10-16 06:19:18 KST",
+  "rate_source_time": "2026-10-16 08:50:06 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 1.7,
-  "rate_change_pct": 0.13,
+  "rate_change": -4.8,
+  "rate_change_pct": -0.36,
   "smbs_base_rate": 1348.5,
   "smbs_rate_date": "2026-10-16",
-  "smbs_rate_updated_at_kst": "2026-10-16 06:19:05 KST",
+  "smbs_rate_updated_at_kst": "2026-10-16 08:49:52 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
-    1335.0,
-    1347.0
+    1337.0,
+    1350.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-10-16 06:19:05 KST"
+  "rate_job_checked_at_kst": "2026-10-16 08:49:52 KST"
 }

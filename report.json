@@ -1,16 +1,16 @@
 {
-  "updated_at_kst": "2026-10-15 21:51 KST",
-  "current_rate": 1346.1,
+  "updated_at_kst": "2026-10-16 02:45 KST",
+  "current_rate": 1344.5,
   "previous_close": 1342.8,
-  "rate_updated_at_kst": "2026-10-15 21:51:20 KST",
+  "rate_updated_at_kst": "2026-10-16 02:45:16 KST",
   "rate_source": "KB STAR FX Market Watch",
-  "market_bias": "하락 우세",
+  "market_bias": "상승 우세",
   "drivers": [
-    "연준·금리 관련 최신 기사(\"Dollar eases from 18-month high as Treasury yields fall; Fed hike bets ease\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
-    "미국 물가 관련 최신 기사(\"Gold climbs over 1% on softer dollar, yields ahead of US inflation data\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
+    "연준·금리 관련 최신 기사(\"Gold rebounds on weaker dollar, yields; October Fed hike bets subdued\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
+    "미국 물가 상승 압력이 다시 부각되며 연준의 매파적 금리 경로 우려가 커져 달러 강세 요인으로 작용하고 있습니다.",
     "글로벌 달러 강세 관련 보도가 이어지며 원/달러 환율에는 상승 압력으로 작용하고 있습니다."
   ],
-  "outlook": "달러 약세·금리 하락 계열의 재료가 상대적으로 우세해 원/달러는 단기 하락 압력이 이어질 가능성이 있으나, 유가와 지정학적 리스크는 하단을 제한할 수 있습니다.",
+  "outlook": "달러 강세·금리 상승 계열의 재료가 상대적으로 우세해 원/달러는 단기 상승 압력이 나타날 수 있으나, 국내 수급과 위험선호 회복 여부에 따라 변동성이 예상됩니다.",
   "articles": [
     {
       "title": "Pound rises against weaker dollar, UK GDP unexpectedly rises",
@@ -19,22 +19,10 @@
       "seen": "2026-10-15 19:57 KST"
     },
     {
-      "title": "Metals rebound lifts TSX futures despite global AI selloff",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObURhSGtmcG9LY1FYTEJxa292aUJiZ1JKWFZZNk9JbFFEVnNELVEzeHotN1RXcnFkQVh3aTVwbFQyb2RFam9RblVfZVFMSGxjU2J1SXFfcDNSdkV0TmJrQXJ5aGUwZ25XVG1mRlRZMkQ2N3RIeHhPbVJJUkVCWGVKLTVhaXktREF0RURpQjhlTTBHY3FVU1MwTG02N1dVTFhGSzRnRTVn?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-10-15 19:29 KST"
-    },
-    {
       "title": "TotalEnergies flags quarterly profit surge as Iran war continues to drive energy prices",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOSjBJVjY0bVpoWDlsbGtrMnpFS0ZvcURsLUZMazd5S0o2Zmw2R2s0ZXc1NzBYb1YxUnNhdENBYzBfajVLVHZiWGJtdk5PbTRLb1BzaWdsNEJDY3lxUFV4TW1wTUpTRmZGTXVOb3JDdVFNeUFTcFZEbVNPcmJBMS1lazUtZVdJbENMMVAxQWRXallDRjZlQ3lINVBfaVppOXBPSHpmUkxqRVdNalVZWVZBcS01cEhWZnlTTDFnRFBoSTVxdkt5?oc=5",
       "domain": "Reuters",
       "seen": "2026-10-15 15:06 KST"
-    },
-    {
-      "title": "COMMENTARY: Oil's long view darkens as Iran war refuses to end",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOS2VycDJiM2tHUVV0LUZHMjgtcmdqOHQ2QWZkakF6eGlnY2ZmaHduOE80Ul95NjVTTVFtVFR5d3l4Q09QdU15YWI5MzVxYzdnUWlKRXgtR0lGakUyV243MlJPamhMRFIxTF85SWRJclNQLTlJTW9KUHR6OFdFMUpxaURpYkdISHJPRk5ZMDNIZ2h5Zm9rVVVzQTk0Uk56VXdYY1d5ZGduNDJUcVA0MjNBaDNB?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-10-15 15:00 KST"
     },
     {
       "title": "Is the AI rout making bonds safe again?",
@@ -43,19 +31,31 @@
       "seen": "2026-10-15 14:54 KST"
     },
     {
-      "title": "Gold climbs over 1% on softer dollar, yields ahead of US inflation data",
+      "title": "Gold rebounds on weaker dollar, yields; October Fed hike bets subdued",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNUGo4bEV3TDlUV2I1Nkg3dzNpODBCZ0hBWXJtWHR2OWwxWGVGZlRVcDZINFJqdmQ5QXJRNk5aUVVtZDhZSUlzUEJNWmpUcm9oSmtrNldYLWZEWTl6NDNueFY4VlQyby1oYnBKcnFSaHBQR1BWZXZ1NVg5LXZReXc5UjlWTXFzd2pDSEpBVTljTjk?oc=5",
       "domain": "Reuters",
       "seen": "2026-10-15 12:18 KST"
+    },
+    {
+      "title": "Rupee extends winning streak as dollar, oil ease and stocks rally",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNaGR1OENJajFoN1pyejk2WXpNSHBSRTFpMzl1WXFiT2NIWGloV1lPc1BkY0VCRGM0VjVrSHMzYnBNVE93WjBWSXVCcTcxVkVDRkEwMC1mUWJYeXIyUlNoMUJBV0JVWEFOaUMwV2tpOHkyVFFESTdVeDFTbnFiVTZLRHVLNVhrelFOTTdhRG5WRVJwb0RjTWF1aU9iWmRRSThRX1NzeUZQMzl5aGV1MXJjYVZrX05mb3dsRE04OGJkRUQ?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-10-15 11:58 KST"
+    },
+    {
+      "title": "Dollar eases from 18-month high as Treasury yields fall; Fed hike bets ease",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPbDE0ZWJRMm1PNWhpVzUwaDhHb2o1YkVXVExaeFVQWWFwcnJtemVfakY3WHV0aFFQWHR3dkR4eVN1OTZ3dXVqb0QzQ0ZuNkNhek1IbFRhVEtBXzNKcVpSQ1dHQm16ZGMxZHF1Z0txU2xHVUVsb0txUzhxLVljb0NXWWZzX2ZETk9QbHF1dm5XdmMybWFYRzl4d1VuS3J0NlU4enJvQVFuYTYydDNYUVVHM3pjandDUHdHbHhLT2otUU1HQk1PTVpReHpmTQ?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-10-15 10:49 KST"
     }
   ],
-  "rate_source_time": "2026-10-15 21:51:20 KST",
+  "rate_source_time": "2026-10-16 02:45:16 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 3.3,
-  "rate_change_pct": 0.25,
-  "smbs_base_rate": 1338.6,
-  "smbs_rate_date": "2026-10-15",
-  "smbs_rate_updated_at_kst": "2026-10-15 21:51:06 KST",
+  "rate_change": 1.7,
+  "rate_change_pct": 0.13,
+  "smbs_base_rate": 1348.5,
+  "smbs_rate_date": "2026-10-16",
+  "smbs_rate_updated_at_kst": "2026-10-16 02:45:03 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1347.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-10-15 21:51:06 KST"
+  "rate_job_checked_at_kst": "2026-10-16 02:45:03 KST"
 }

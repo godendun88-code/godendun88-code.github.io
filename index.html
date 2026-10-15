@@ -641,6 +641,72 @@
         "function buildCashScenarioModel(model,config=cashScenarioConfig(),label=cashScenarioLabel()){if(!model||!hasScenarioEvents(model))return model;if(config.revenueRate===1&&config.chinaDelayMonths===0&&!config.chinaExclude)return{...model,scenarioLabel:label};const events=model.points.map",
         '매출 100퍼센트 기준 일치'
       );
+
+      // Deposit maturity liquidity simulation: the source plan remains untouched.
+      // Each viewer can decide whether a registered KRW deposit is reinvested or
+      // released as KRW at maturity, and the current-plan forecast recalculates.
+      const depositMaturityHelpers=`    const DEPOSIT_MATURITY_STORAGE_KEY='act-dashboard.deposit-maturity.v1';
+    let depositMaturityChoices={};
+    try{depositMaturityChoices=JSON.parse(localStorage.getItem(DEPOSIT_MATURITY_STORAGE_KEY)||'{}')||{}}catch(error){depositMaturityChoices={}}
+    function depositMaturityKey(item){return [item.bank,item.product,item.maturity,item.account,item.principal].map(value=>String(value??'').trim()).join('|')}
+    function currentDepositMaturityItems(){return sanitizeDepositProducts(depositProducts).sort((a,b)=>a.maturity.localeCompare(b.maturity)||a.bank.localeCompare(b.bank))}
+    function isDepositReleased(item){return depositMaturityChoices[depositMaturityKey(item)]==='release'}
+    function saveDepositMaturityChoices(){try{localStorage.setItem(DEPOSIT_MATURITY_STORAGE_KEY,JSON.stringify(depositMaturityChoices))}catch(error){}}
+    function applyDepositMaturityScenario(model){
+      if(!model?.points?.length)return model;
+      const items=currentDepositMaturityItems(),today=fxTodayKey(),releases=items.filter(isDepositReleased).map(item=>({...item,effectiveDate:item.maturity>today?item.maturity:today})).sort((a,b)=>a.effectiveDate.localeCompare(b.effectiveDate));
+      if(!releases.length)return{...model,depositMaturityScenario:{items,releases:[]}};
+      const points=model.points.map(point=>{
+        const released=releases.filter(item=>String(point.date||'')>=item.effectiveDate).reduce((sum,item)=>sum+num(item.principal),0);
+        return released?{...point,krwBalance:num(point.krwBalance)+released}:{...point};
+      });
+      return{...model,points,depositMaturityScenario:{items,releases}};
+    }
+    function renderDepositMaturityChoices(){
+      const host=$('depositMaturityChoices');if(!host)return;
+      const items=currentDepositMaturityItems();
+      if(!items.length){host.innerHTML='<div class="overview-note">현재 자금운용내역에 등록된 원화 예금이 없습니다. 운용내역을 등록하면 만기별 가정을 선택할 수 있습니다.</div>';return}
+      host.innerHTML=items.map(item=>{
+        const key=depositMaturityKey(item),released=isDepositReleased(item),state=released?'release':'reinvest';
+        return '<div class="deposit-maturity-choice"><div><strong>'+esc(item.bank)+' · '+esc(item.product)+'</strong><div class="small">만기 '+esc(item.maturity.replaceAll('-','.'))+' · '+esc(depositMoney(item.principal))+' · '+esc(fmt(item.rate,2))+'%</div></div><label class="deposit-maturity-select-label">만기 처리<select data-deposit-maturity-choice="'+esc(key)+'"><option value="reinvest"'+(state==='reinvest'?' selected':'')+'>재예치 · 계속 묶임</option><option value="release"'+(state==='release'?' selected':'')+'>원화 전환 · 만기일부터 가용</option></select></label></div>';
+      }).join('');
+      host.querySelectorAll('[data-deposit-maturity-choice]').forEach(select=>select.addEventListener('change',()=>{
+        depositMaturityChoices[select.dataset.depositMaturityChoice]=select.value==='release'?'release':'reinvest';saveDepositMaturityChoices();if(cashModel)renderCurrentOverview(cashModel);
+      }));
+    }`;
+      const depositMaturityAnchor='    function currentCashProjection(model,referenceRate){';
+      if(!html.includes(depositMaturityAnchor))throw new Error('예금 만기 시뮬레이션 삽입 위치를 찾지 못했습니다.');
+      html=html.replace(depositMaturityAnchor,depositMaturityHelpers+'\n'+depositMaturityAnchor);
+      replaceRequired(
+        "function setDepositProducts(products){depositProducts=sanitizeDepositProducts(products);renderDepositOverview();if(window.dashboardAuth?.isAdmin&&$('depositDataInput')&&document.activeElement!==$('depositDataInput'))$('depositDataInput').value=depositEditorText(depositProducts)}",
+        "function setDepositProducts(products){depositProducts=sanitizeDepositProducts(products);renderDepositOverview();if(cashModel)renderCurrentOverview(cashModel);if(window.dashboardAuth?.isAdmin&&$('depositDataInput')&&document.activeElement!==$('depositDataInput'))$('depositDataInput').value=depositEditorText(depositProducts)}",
+        '예금 만기 시뮬레이션 갱신'
+      );
+      replaceRequired(
+        "if(!model){resetCurrentOverview();return}\n const referenceRate=num(report?.smbs_base_rate)||model.brokerRate||0,projection=",
+        "if(!model){resetCurrentOverview();return}\n renderDepositMaturityChoices();\n const referenceRate=num(report?.smbs_base_rate)||model.brokerRate||0,projection=",
+        '예금 만기 선택 표시'
+      );
+      replaceRequired(
+        "const baseline={...model,scenarioLabel:'현재 계획 100%'},series=currentMonthlySeries(baseline,referenceRate),analysis=cashAnalysis(baseline,referenceRate),actualAnchor=null;",
+        "const sourceBaseline={...model,scenarioLabel:'현재 계획 100%'},baseline=applyDepositMaturityScenario(sourceBaseline),series=currentMonthlySeries(baseline,referenceRate),analysis=cashAnalysis(baseline,referenceRate),actualAnchor=null;",
+        '예금 만기 원화 전환 반영'
+      );
+      replaceRequired(
+        "const monthlyShort=series.find(row=>row.month>=currentMonthKey()&&!row.dailyCovered&&row.krwBalance<0),explicitShort=baseline.points.find(point=>point.date>=fxTodayKey()&&point.exchangeRequired)||null,dailyShort=explicitShort||analysis.firstKrwShort?.date>=fxTodayKey()?explicitShort||analysis.firstKrwShort:null;",
+        "const monthlyShort=series.find(row=>row.month>=currentMonthKey()&&!row.dailyCovered&&row.krwBalance<0),hasDepositRelease=(baseline.depositMaturityScenario?.releases||[]).length>0,explicitShort=hasDepositRelease?null:baseline.points.find(point=>point.date>=fxTodayKey()&&point.exchangeRequired)||null,dailyShort=analysis.firstKrwShort?.date>=fxTodayKey()?analysis.firstKrwShort:null;",
+        '예금 전환 시 환전 필요일 재계산'
+      );
+      replaceRequired(
+        "const sourceMarker=(model.points||[]).find(point=>point.exchangeRequired);$('currentFxRule').textContent=sourceMarker?'원본 확인 · 자금운용 S열 '+sourceMarker.row+'행 '+sourceMarker.date+' 환전필요 · Q열 '+fmt(sourceMarker.krwBalance/1e8,2)+'억원':'원본 기준 확인 · 자금운용 Q열 최초 음수 행을 환전 필요 시점으로 표시합니다. S열 환전필요 표시는 Q열<0 조건의 수식입니다.';",
+        "const releases=baseline.depositMaturityScenario?.releases||[],sourceMarker=(model.points||[]).find(point=>point.exchangeRequired);$('currentFxRule').textContent=releases.length?'예금 만기 가정 · '+releases.map(item=>item.bank+' '+item.maturity.replaceAll('-','.')+' '+fmt(item.principal/1e8,2)+'억원').join(' · ')+'을 만기일부터 가용 원화로 전환해 환전 필요일을 다시 계산했습니다. 선택하지 않은 예금은 재예치로 계속 묶인 조건입니다.':sourceMarker?'원본 확인 · 자금운용 S열 '+sourceMarker.row+'행 '+sourceMarker.date+' 환전필요 · Q열 '+fmt(sourceMarker.krwBalance/1e8,2)+'억원':'원본 기준 확인 · 자금운용 Q열 최초 음수 행을 환전 필요 시점으로 표시합니다. S열 환전필요 표시는 Q열<0 조건의 수식입니다.';",
+        '예금 만기 가정 설명'
+      );
+      replaceRequired(
+        '<div class="panel current-chart-panel"><div class="chart-head">',
+        '<section class="panel" aria-labelledby="depositMaturityScenarioTitle" style="margin-top:16px;border-color:#cfe8df"><div class="current-table-head"><div><div class="title" id="depositMaturityScenarioTitle" style="margin-bottom:5px">예금 만기 가정 · 환전 시점 시뮬레이션</div><div class="small">기본값은 모두 재예치입니다. 예금을 원화로 전환하면 해당 만기일부터 가용 원화에 반영해 환전 필요 시점이 즉시 다시 계산됩니다.</div></div><span class="rate-badge">원본 Excel 미변경</span></div><div id="depositMaturityChoices" style="display:grid;gap:8px;margin-top:13px"></div><div class="overview-note" style="margin-top:11px">예치 원금만 반영하며, 만기 이자·중도해지·새 예치 조건은 포함하지 않습니다. 선택값은 이 브라우저에만 저장됩니다.</div></section><style>.deposit-maturity-choice{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:12px 14px;border:1px solid #dbe5ea;border-radius:12px;background:#fbfefd}.deposit-maturity-select-label{display:flex;align-items:center;gap:8px;white-space:nowrap;font-size:12px;font-weight:800;color:#475467}.deposit-maturity-select-label select{padding:8px 10px;border:1px solid #b8d8ce;border-radius:8px;background:#fff;color:#123b35;font-weight:800}@media(max-width:650px){.deposit-maturity-choice{align-items:flex-start;flex-direction:column}.deposit-maturity-select-label{width:100%;justify-content:space-between}.deposit-maturity-select-label select{max-width:230px}}</style><div class="panel current-chart-panel"><div class="chart-head">',
+        '예금 만기 가정 화면'
+      );
       const patches=[
         '<script src="./monthly-usd-patch.js?v=20260917-13"><\/script>',
         '<script src="./reconciliation-xls-patch.js?v=20260917-10"><\/script>',

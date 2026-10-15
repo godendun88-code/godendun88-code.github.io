@@ -1,61 +1,61 @@
 {
-  "updated_at_kst": "2026-10-15 10:49 KST",
-  "current_rate": 1350.9,
-  "previous_close": 1342.8,
-  "rate_updated_at_kst": "2026-10-15 10:48:53 KST",
+  "updated_at_kst": "2026-10-15 16:22 KST",
+  "current_rate": 1342.7,
+  "previous_close": 1338.17,
+  "rate_updated_at_kst": "2026-10-15 16:21:58 KST",
   "rate_source": "KB STAR FX Market Watch",
-  "market_bias": "상승 우세",
+  "market_bias": "혼조",
   "drivers": [
-    "연준의 추가 금리 인상 또는 매파적 기조 우려가 부각돼 달러 강세 압력이 높아지는 요인으로 작용하고 있습니다.",
-    "미국 물가 상승 압력이 다시 부각되며 연준의 매파적 금리 경로 우려가 커져 달러 강세 요인으로 작용하고 있습니다.",
-    "외환시장 관련 최신 기사(\"COMMENTARY: Why governments might secretly wish for an AI stumble\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다."
+    "연준·금리 관련 최신 기사(\"Dollar retreats from 18-month high as Treasury yields dip; Fed hike bets ease\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
+    "미국 물가 관련 최신 기사(\"Indian rupee to rise after US yields reverse inflation-led spike, Fed hike bets remain low\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
+    "유가 및 중동 지정학적 불확실성이 부각돼 에너지 수입 의존도가 높은 원화에는 약세 부담 요인으로 작용하고 있습니다."
   ],
-  "outlook": "달러 강세·금리 상승 계열의 재료가 상대적으로 우세해 원/달러는 단기 상승 압력이 나타날 수 있으나, 국내 수급과 위험선호 회복 여부에 따라 변동성이 예상됩니다.",
+  "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
+    {
+      "title": "COMMENTARY: Oil's long view darkens as Iran war refuses to end",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOS2VycDJiM2tHUVV0LUZHMjgtcmdqOHQ2QWZkakF6eGlnY2ZmaHduOE80Ul95NjVTTVFtVFR5d3l4Q09QdU15YWI5MzVxYzdnUWlKRXgtR0lGakUyV243MlJPamhMRFIxTF85SWRJclNQLTlJTW9KUHR6OFdFMUpxaURpYkdISHJPRk5ZMDNIZ2h5Zm9rVVVzQTk0Uk56VXdYY1d5ZGduNDJUcVA0MjNBaDNB?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-10-15 15:00 KST"
+    },
+    {
+      "title": "Is the AI rout making bonds safe again?",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPc2pzbXo0U2otM1p2TXYwRHZRUjNuWFRfLV9ob0l1ZjB3Sk55TGVETVZsSHRhUkZDMUFFbkVPSWNGQnc2eVBlUTNDLXJfMUJXQ0VsM3gwM1dGSGRrN29HMWF2dW9aOTFyRFNQSmJ1RnN5bmtBWGVsODJmd3BGSXk1aG5uWmFxWFVORkNQVlJ4UzBueWc1?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-10-15 14:54 KST"
+    },
+    {
+      "title": "Indian rupee to rise after US yields reverse inflation-led spike, Fed hike bets remain low",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNaGR1OENJajFoN1pyejk2WXpNSHBSRTFpMzl1WXFiT2NIWGloV1lPc1BkY0VCRGM0VjVrSHMzYnBNVE93WjBWSXVCcTcxVkVDRkEwMC1mUWJYeXIyUlNoMUJBV0JVWEFOaUMwV2tpOHkyVFFESTdVeDFTbnFiVTZLRHVLNVhrelFOTTdhRG5WRVJwb0RjTWF1aU9iWmRRSThRX1NzeUZQMzl5aGV1MXJjYVZrX05mb3dsRE04OGJkRUQ?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-10-15 11:58 KST"
+    },
+    {
+      "title": "Dollar retreats from 18-month high as Treasury yields dip; Fed hike bets ease",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPbDE0ZWJRMm1PNWhpVzUwaDhHb2o1YkVXVExaeFVQWWFwcnJtemVfakY3WHV0aFFQWHR3dkR4eVN1OTZ3dXVqb0QzQ0ZuNkNhek1IbFRhVEtBXzNKcVpSQ1dHQm16ZGMxZHF1Z0txU2xHVUVsb0txUzhxLVljb0NXWWZzX2ZETk9QbHF1dm5XdmMybWFYRzl4d1VuS3J0NlU4enJvQVFuYTYydDNYUVVHM3pjandDUHdHbHhLT2otUU1HQk1PTVpReHpmTQ?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-10-15 10:49 KST"
+    },
+    {
+      "title": "Tech stocks tumble as data centre debt worries hit AI trades",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE8zSHhMSkR3TXNQeHQwd0pHRXVZU3lzTjYzY2l0ZkVyMWVmbmczQWhqSzhGaEtBSWhKdW5lQ1VIeFI5Y0ZwUzE4dFFGWVRfUzE0Y0RaZlRkWEZSMUlleXp2OTBTd1FCU05vakU1QlA2X3hHcGl2UVk3SnhGUQ?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-10-15 09:51 KST"
+    },
     {
       "title": "US inflation heats up in September; Fed rate hike this month back on table",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNX3hkV3J5em1xWWY4V0hQODFTamFtU3NvdkpPRUUzMGY0TnlKaVlneXZPc0J6bFpWdDZWb2hLRkZZaHhZVElDSXNFbGNYMVVBRGR6c1RlNDA4cEhkMEcwck5VMFRtZ1QxOFJqNTkyaGJzWWFLSXp2Z0l1Z19vMDh5bGd6N1FJSkJFR2tZUXd1UWUzeVlvZi1xNTVONk00ejJ5cE0xSGY4THFsaUo0RGxPV3dpaW4tbEZseUE?oc=5",
       "domain": "Reuters",
       "seen": "2026-10-15 06:45 KST"
-    },
-    {
-      "title": "AI infrastructure firms slump as US rate hike bets rise",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQNWlPWk9kbVZKbXFJNXFBZDJmczNIeVVfTkI4MUJFbmVsbTVhQ2hJdzRMNFVfeEIzUUVKWGN4allmczJkVUlZVzRabGRhenZ4Rl9ZU0o0YUY3WlRCQ3Zfc3RTUUphSDJRMXoxY2lfME00bHRpcGVNUTQxeTVqQkVCcm1jUkRBeUdtVlI0eE5nYllYYldzRHAxRUF1VVpPQQ?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-10-15 01:11 KST"
-    },
-    {
-      "title": "VIEW Hot September CPI sends rate-hike bets soaring",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPVXp1eVNTSWNkc1FiNVdUMTd0NEY1SDlkR0FKTUlOd0s2SU9rZEJUVkJ1d3lQSXVCeEpIS25fTkF5UkFzZUdEMXp2SUkxVDVPREpIT2ZtbHh6aFB3NnlBR1BVSWpDbHY0UFBOclp1SFVZcTdMWENmVHp0NlJzVzNoeG4tTUJGOXBxTWdlRS14WkVpUGI2b0ZzY1pFdW4?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-10-14 22:32 KST"
-    },
-    {
-      "title": "COMMENTARY: Why governments might secretly wish for an AI stumble",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNOTNpSEI1MmplaUc5b3lBSm9mOXhjNXhBcnhBa3UwVGliLU1ER19XX2d6T3lUUkVWdGRKbVlNcmxOWWVOUW5yOUtWQXJodGt0S0U0MkNHbkptdEpiVlI5MzdxM2FOTVRYamQ0dHlLY0xMSG5La3MtZWNjMkRkaHFTaWlCZTZDODFkYkFsZ3h3VTFpX0ZtSnlLdGZ2M1dnV20ya2Qyd2pIM1F0dWY3dDlodWFfbkZDUDFrSU42VHFMNTYyeWlCLTlqOA?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-10-14 15:00 KST"
-    },
-    {
-      "title": "Gold drops over 1% as hot US inflation data boosts Fed hike bets",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNZkM3NGdUajlORC1ZZjBNcFZtNjYwa2JRaFczS1V4OVRORGhzZG1NUGxaY3ppRjdfQlFvUmREakJQM1RGaDNZZmZFMnJrY2Rtemc2Z1dBY1pPRy1ZbnBJVzNfTG1MMGJ5TXY5VzFpaDd6UENqd1pUOVdlTm1sS241QkFzNm1kdDJXTjl5emhLV200WUI1QVh4RQ?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-10-14 12:12 KST"
-    },
-    {
-      "title": "Dollar gains, Wall Street stocks fall after hot inflation data",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNcE96RkhyZDBlQ2VWRERNYlZtdm5FaVdQSXF2M3ZtR3JIOU05UExLWnZ3dmFBY1NZcndTRlozR29sdmxWaExXUmIycmZPZGk3UXI1amRxTDR6WHpSQl82ckhxZ016SnZYdGtPdC14TnZVWlpjeHl4SW5pUnJKbjl2M0pzcw?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-10-14 10:53 KST"
     }
   ],
-  "rate_source_time": "2026-10-15 10:48:53 KST",
+  "rate_source_time": "2026-10-15 16:21:58 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 8.1,
-  "rate_change_pct": 0.6,
+  "rate_change": 4.53,
+  "rate_change_pct": 0.54,
   "smbs_base_rate": 1338.6,
   "smbs_rate_date": "2026-10-15",
-  "smbs_rate_updated_at_kst": "2026-10-15 10:48:40 KST",
+  "smbs_rate_updated_at_kst": "2026-10-15 16:21:45 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1347.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-10-15 10:48:40 KST"
+  "rate_job_checked_at_kst": "2026-10-15 16:21:45 KST"
 }

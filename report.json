@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-10-17 03:20 KST",
+  "updated_at_kst": "2026-10-17 06:41 KST",
   "current_rate": 1333.8,
   "previous_close": 1344.5,
-  "rate_updated_at_kst": "2026-10-17 03:20:35 KST",
+  "rate_updated_at_kst": "2026-10-17 06:41:22 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
@@ -31,25 +31,19 @@
       "seen": "2026-10-16 15:43 KST"
     },
     {
-      "title": "European stocks rise, dollar set for weekly loss after yields drop",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPMUpLRUNwWEpRNVpNVWJPOWQyQXdKRjkzdTU5RjFiOUxpUFZGU1ZBa1VaS3ctN0xlc0lSMkptbUVMRlprcFFtZ3B6Z2ZFTG5XX2FBUHBoSk4xRTdiQm1ucERORXE4ZzNFZ09ySlpvUDlzb0tGUjFQZ3c0UmotdEstMEZCUQ?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-10-16 11:52 KST"
-    },
-    {
       "title": "Dollar set for weekly loss as Fed hike bets fade, AI clouds outlook",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOVUNHeGZVcnQxblFnbDJNaGNUNHBQRGotcHVucUxBWDgtRjI3cFl0a2tVdTBpaGJaR1FUOTZGVm1sT0o1R0pqUjVTVHo3M1RnY1dKU1hFOFVKeVE0NlY0SnBTUFBjNFJMRU5rLWVtY0NhWnREUFpCLWI2MnQ0Y3h6ZllaTGk1LVNXNXRlSDlJcjJfRzZlN2J4cWFmT2prMDh4WFoxN0pSdGQ3Sy1G?oc=5",
       "domain": "Reuters",
       "seen": "2026-10-16 10:20 KST"
     }
   ],
-  "rate_source_time": "2026-10-17 03:20:35 KST",
+  "rate_source_time": "2026-10-17 06:41:22 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": -10.7,
   "rate_change_pct": -0.8,
   "smbs_base_rate": 1348.5,
   "smbs_rate_date": "2026-10-17",
-  "smbs_rate_updated_at_kst": "2026-10-17 03:20:23 KST",
+  "smbs_rate_updated_at_kst": "2026-10-17 06:41:12 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -57,5 +51,5 @@
     1350.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-10-17 03:20:23 KST"
+  "rate_job_checked_at_kst": "2026-10-17 06:41:12 KST"
 }

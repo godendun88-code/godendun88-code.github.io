@@ -1,13 +1,12 @@
 {
-  "updated_at_kst": "2026-10-17 06:41 KST",
+  "updated_at_kst": "2026-10-17 09:25 KST",
   "current_rate": 1333.8,
   "previous_close": 1344.5,
-  "rate_updated_at_kst": "2026-10-17 06:41:22 KST",
+  "rate_updated_at_kst": "2026-10-17 09:25:24 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
-    "연준·금리 관련 최신 기사(\"Bets on Fed rate hold in October strengthen after Warsh comments\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
-    "미 국채금리 관련 최신 기사(\"US equity funds draw renewed inflows as Treasury yields ease\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다.",
+    "연준·금리 관련 최신 기사(\"Dollar set for weekly loss as Fed hike bets fade, AI clouds outlook\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
     "외환시장 관련 최신 기사(\"US import prices increase; post largest annual gain in more than four years\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
@@ -19,31 +18,19 @@
       "seen": "2026-10-17 01:08 KST"
     },
     {
-      "title": "US equity funds draw renewed inflows as Treasury yields ease",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPSnEzLXc5RkdoR3NSRUxDdzZoNGpOUTlsQTM2VmpCRlVTOE04SjRfN214eHpCTnVBUW5Od0pTbnppZXRhTXFlS2lJMlIxOUpab3ZHMDh1Q3JfNFBXbENmUEQzOU5LVkZYWUxhNVFTTmM5SXdPaGlLYVY0N3BEekdhRmZTMnBycE9NWFF3dlJ0ZW1DX0VYbWtqV3ZheG85d0hLbksySw?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-10-16 21:30 KST"
-    },
-    {
-      "title": "Bets on Fed rate hold in October strengthen after Warsh comments",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPSkowQ1I4RlFmbDVzQTBjVXJMdzlqamF3bnhidDJOTlc4VnBVT1F3VDE3cExoQzRJWWdsU1Uxc2F6Q3dmWlRBR01DNXhRV05KdGMwT1RacVVGNXFoMHlOVTJGbmVweHp5dzZGRUFEV1pDcWV2MlEtY21nMEY0WEE2SzEwclg?oc=5",
-      "domain": "Financial Times",
-      "seen": "2026-10-16 15:43 KST"
-    },
-    {
       "title": "Dollar set for weekly loss as Fed hike bets fade, AI clouds outlook",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOVUNHeGZVcnQxblFnbDJNaGNUNHBQRGotcHVucUxBWDgtRjI3cFl0a2tVdTBpaGJaR1FUOTZGVm1sT0o1R0pqUjVTVHo3M1RnY1dKU1hFOFVKeVE0NlY0SnBTUFBjNFJMRU5rLWVtY0NhWnREUFpCLWI2MnQ0Y3h6ZllaTGk1LVNXNXRlSDlJcjJfRzZlN2J4cWFmT2prMDh4WFoxN0pSdGQ3Sy1G?oc=5",
       "domain": "Reuters",
       "seen": "2026-10-16 10:20 KST"
     }
   ],
-  "rate_source_time": "2026-10-17 06:41:22 KST",
+  "rate_source_time": "2026-10-17 09:25:24 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": -10.7,
   "rate_change_pct": -0.8,
   "smbs_base_rate": 1348.5,
   "smbs_rate_date": "2026-10-17",
-  "smbs_rate_updated_at_kst": "2026-10-17 06:41:12 KST",
+  "smbs_rate_updated_at_kst": "2026-10-17 09:25:11 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -51,5 +38,5 @@
     1350.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-10-17 06:41:12 KST"
+  "rate_job_checked_at_kst": "2026-10-17 09:25:11 KST"
 }

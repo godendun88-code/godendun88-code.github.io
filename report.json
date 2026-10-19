@@ -1,29 +1,36 @@
 {
-  "updated_at_kst": "2026-10-18 13:23 KST",
-  "current_rate": 1335.4,
+  "updated_at_kst": "2026-10-19 14:17 KST",
+  "current_rate": 1330.3,
   "previous_close": 1333.8,
-  "rate_updated_at_kst": "2026-10-19 09:12:05 KST",
+  "rate_updated_at_kst": "2026-10-19 14:17:35 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
-    "달러 관련 최신 기사(\"COMMENTARY: Strong dollar, weak hand for Trump before midterms\")가 확인돼 달러인덱스 방향성이 원/달러 환율의 핵심 변수로 작용하고 있습니다."
+    "유가·지정학 관련 최신 기사(\"Rupee likely pinned near 95 as RBI defence counters oil headwinds\")가 확인돼 원화 변동성 확대 요인으로 작용하고 있습니다.",
+    "유가·지정학 관련 최신 기사(\"Oil tumbles as Trump's Russia sanctions waiver may lead to more fuel supplies\")가 확인돼 원화 변동성 확대 요인으로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
     {
-      "title": "COMMENTARY: Strong dollar, weak hand for Trump before midterms",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQbHhCQTRkREZKSk45aHZsYUNiQUt3R1lMb1d1NTBxU2M0c3FOemhDZE5MOGNhTWtZbEY2bm1YZlNRNUZCekJNMXhQR09pRzNDWDNmaFpBNHFKNkFUbXZ1YXFUb1lBRVRfcGZtMTdMWjZES3pBTnllaTJQN25mblNKdHpaY1YtcWEybERGM2ZDeGU4YzhJaDF2UFlNYnA5MXVpNk1SV19qa3NhV2c5MC1jVl81c25qckV5WkRJQlp0S2k?oc=5",
+      "title": "Rupee likely pinned near 95 as RBI defence counters oil headwinds",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOa3NLUV9hTjZtMURDMENEaVZFZFBNWFNJVXNoakRPSjZTa1lGU1FQZHlVYU9HQVUyWGg0eDI3Y3lsRXFRZ2lhV0FSMFhPN3pwaHJ0SEVSOENrTUVtY1cxMjRZRWpxTVFwMDlJMURMRVN3dURIbVhQc3hiUTR3Nmh0QXJkUnRKNjJVSFkzTkFPYmRCT0JyZkpzaFF3LUJMZzlDbm5TMXRJUlZ1VUhSbXA4?oc=5",
       "domain": "Reuters",
-      "seen": "2026-10-17 15:00 KST"
+      "seen": "2026-10-19 11:37 KST"
+    },
+    {
+      "title": "Oil tumbles as Trump's Russia sanctions waiver may lead to more fuel supplies",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPMmVLc19hd0VSYXIydVNTWENKZ2J5WVNvVDRQUjRfTUJXWGhjOGxGZkFHVm9SNnZzeU9TWUhrYnJTRU1sVFRnX1BwZVd3NHB5a0NLdThkbDRldlg2eHdhTll2b3RnQTJ4U3dHVGczM25FdjJHRGQ5WGJDV2Qxd1hzLV9EcjNWaUQ4cXEzbWVHRzNuS1dGVVNBSmdXWGR6THN1dXhvSUdFS0dMMTJZTnBBZEFfZ2JoYVVFSWNMZw?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-10-19 07:23 KST"
     }
   ],
-  "rate_source_time": "2026-10-19 09:12:05 KST",
+  "rate_source_time": "2026-10-19 14:17:35 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 1.6,
-  "rate_change_pct": 0.12,
+  "rate_change": -3.5,
+  "rate_change_pct": -0.26,
   "smbs_base_rate": 1342.4,
   "smbs_rate_date": "2026-10-19",
-  "smbs_rate_updated_at_kst": "2026-10-19 09:11:52 KST",
+  "smbs_rate_updated_at_kst": "2026-10-19 14:17:23 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -31,5 +38,5 @@
     1340.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-10-19 09:11:52 KST"
+  "rate_job_checked_at_kst": "2026-10-19 14:17:23 KST"
 }

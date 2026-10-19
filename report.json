@@ -1,49 +1,49 @@
 {
-  "updated_at_kst": "2026-10-19 20:14 KST",
-  "current_rate": 1329.9,
-  "previous_close": 1329.05,
-  "rate_updated_at_kst": "2026-10-19 20:14:13 KST",
+  "updated_at_kst": "2026-10-20 02:46 KST",
+  "current_rate": 1331.5,
+  "previous_close": 1329.98,
+  "rate_updated_at_kst": "2026-10-20 02:45:58 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
-    "연준·금리 관련 최신 기사(\"Gold edges up as oil retreat lends support; Fed decision in focus\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
-    "외환시장 관련 최신 기사(\"Under Trump, deficits remain high while borrowing costs escalate\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다.",
-    "외환시장 관련 최신 기사(\"Rupee ends flat as stock slump, importer hedging erodes bounce\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다."
+    "연준·금리 관련 최신 기사(\"Gold steady ahead of Fed meeting, lower oil prices limit downside\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
+    "외환시장 관련 최신 기사(\"Nasdaq climbs over 1% as AI-linked stocks recover ahead of key earnings\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다.",
+    "외환시장 관련 최신 기사(\"US homebuilder sentiment tumbles to near 14-1/2-year low in October\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
     {
+      "title": "Nasdaq climbs over 1% as AI-linked stocks recover ahead of key earnings",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPX21SVVhfUjZRQ255YlFzVWVEZ3BFMmt3aWlDdkVPVENFOExuRE9KOXZ6WjNqbzdHelUwdzZudy02TjlyNkxVZWcxQmFzZF9NaUE0SFZYaWI3dmxlYTBVdjdULWhLMkNQNnlMUXFaM1J5T1dPMEo3ajhkb0RQLUM3M0pkYlFqbHNKQ1U1c3k5WlUtdjR1UkNCV0JkdjJZTzdIa2c?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-10-20 01:17 KST"
+    },
+    {
+      "title": "US homebuilder sentiment tumbles to near 14-1/2-year low in October",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNYzZUb09NNUZyTi1nanEwMHNsSGE4XzB4Y2tFSWVXYU5XU2Q3ODdBMkZmSFN4LVB3NHZjUG5FY2ZDQjJtYlZpbXpkQTMzQnVIOTF6bGZhWkstcWItVWxtbklsTHg4YnhuVkxiXy0td2oxbExYN1R1bjdmeGFkdlU2TDZ6b0Zqb1k3Q0VwbWVZRjdPbm1odHVZMzZ5NDltVG0zampuN2JzMXo?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-10-19 23:33 KST"
+    },
+    {
       "title": "Under Trump, deficits remain high while borrowing costs escalate",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOMFl3MEhWalEwWWhFWFNWRXdHb3hVeUpWTzN1TVBEZi1JU0JMMjNSa1pxWEhBQWk5UTB3RE1tZUlkSDl0aXNCTzF6ZUZHd0JCZGhNTTJ3a3N1MnZQM3pSOHlSajJDNlZPWXBabGVjdERmcEozNXlsOFdrQUlBYWxLV2U2ZV95MXVmbEdEbE1HZUFxVkNQUTZ3eUdfMW8zMXRQalhSbTFCRnVfRFFRdHBoT0dKVFhxWDg?oc=5",
       "domain": "Reuters",
-      "seen": "2026-10-19 19:12 KST"
+      "seen": "2026-10-19 20:51 KST"
     },
     {
-      "title": "Gold edges up as oil retreat lends support; Fed decision in focus",
+      "title": "Gold steady ahead of Fed meeting, lower oil prices limit downside",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOcHBoaXFtRmhELVpxR3BOYzNDX3IzS1Y1UHZaZUlWRnBiY0Y3WWxwa19vSlVRUENyTGtpZVJFSEFSLW9hVWhEaktYRTVhVWpObTFOYThBVXNRX19VY0phaUJjSkdSMjFZQ19FUFZGMm44UnNpZkZGSnNCeUc2SFZ4c1ZZUU9lV2tiUk1odm44Wmc2WGVjSG5pYUU3QnE2NGYx?oc=5",
       "domain": "Reuters",
       "seen": "2026-10-19 12:11 KST"
-    },
-    {
-      "title": "Rupee ends flat as stock slump, importer hedging erodes bounce",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOa3NLUV9hTjZtMURDMENEaVZFZFBNWFNJVXNoakRPSjZTa1lGU1FQZHlVYU9HQVUyWGg0eDI3Y3lsRXFRZ2lhV0FSMFhPN3pwaHJ0SEVSOENrTUVtY1cxMjRZRWpxTVFwMDlJMURMRVN3dURIbVhQc3hiUTR3Nmh0QXJkUnRKNjJVSFkzTkFPYmRCT0JyZkpzaFF3LUJMZzlDbm5TMXRJUlZ1VUhSbXA4?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-10-19 11:37 KST"
-    },
-    {
-      "title": "Euro drops amid high energy prices and street riots in France",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNUGwwZHd2R1h3Q1BiZkdpNVVzRFpXZTJEd19TT2tyelhtb21VX0ZOSzN2RVpURkdHMWl5REpraUVJTVRjeFlSQmU4T3V4XzhWV2g0bU1fd0Q0cmhRMFRFbVg5Snhld1owT2IwbmR2d0RwNGNpWEVGWHhYaDRzN3N1UWJwNjhuTXoyc3hsLXIybEt0VEl4VlJOS2JUZTB5TnV2OVFWU2NLYjRiWU5kYnA4?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-10-19 10:35 KST"
     }
   ],
-  "rate_source_time": "2026-10-19 20:14:13 KST",
+  "rate_source_time": "2026-10-20 02:45:58 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 0.85,
-  "rate_change_pct": 0.09,
-  "smbs_base_rate": 1342.4,
-  "smbs_rate_date": "2026-10-19",
-  "smbs_rate_updated_at_kst": "2026-10-19 20:14:02 KST",
+  "rate_change": 1.52,
+  "rate_change_pct": 0.16,
+  "smbs_base_rate": 1332.1,
+  "smbs_rate_date": "2026-10-20",
+  "smbs_rate_updated_at_kst": "2026-10-20 02:45:41 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -51,5 +51,5 @@
     1340.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-10-19 20:14:02 KST"
+  "rate_job_checked_at_kst": "2026-10-20 02:45:41 KST"
 }

@@ -1,17 +1,23 @@
 {
-  "updated_at_kst": "2026-10-21 02:32 KST",
+  "updated_at_kst": "2026-10-21 05:52 KST",
   "current_rate": 1326.7,
   "previous_close": 1323.8,
-  "rate_updated_at_kst": "2026-10-21 02:32:08 KST",
+  "rate_updated_at_kst": "2026-10-21 05:51:59 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
-    "연준·금리 관련 최신 기사(\"Fed to skip October but raise rates again in December, nearly all economists say\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
-    "미국 물가 둔화 관련 보도가 확인돼 추가 긴축 필요성이 낮아지면서 달러 강세 압력을 완화하는 요인으로 작용하고 있습니다.",
+    "연준·금리 관련 최신 기사(\"COMMENTARY: Markets' squeal is music to Fed ears — but still too faint\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
+    "미 국채금리 상승 관련 보도가 확인돼 달러 수요를 지지하면서 원/달러 환율 상승 압력으로 작용하고 있습니다.",
     "유가·지정학 관련 최신 기사(\"Halliburton expects years-long oilfield demand from Gulf energy infrastructure rebuild\")가 확인돼 원화 변동성 확대 요인으로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
+    {
+      "title": "Michelin posts a slight drop in sales on lower tyre volumes",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQQUtkemwyTEpBc0dnNjkzVi1OcG1wU1lsaWtuaktzTkM1eXFEWEFtX2ZEV2M0T2RNaEZTS1lCeUxNTGtySG9yemV3SFdiSUJVbVBkdjFQam1qY2F2ZF9QNS02MnlqbU9sS0pUUGo1bmpOWjFIMjluR1dmOTNxZ054U1VORmEwalVfdjNucjc3cGgwWmFOOWtmOTNXUC0?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-10-21 01:48 KST"
+    },
     {
       "title": "Halliburton expects years-long oilfield demand from Gulf energy infrastructure rebuild",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPWE51dHRYS0V5VHY5RkVwQTRWd2JIM0VUQkYzakNqVVpKRzJKRHNnM1lmMEdxS0RPc3phNkpWNHJwaE9fbkFHTER3VUFFZWFrc2ktQXYzX1JKNTBDZnBsLW83X1pJMXRzTHRwRHhsVlh5bDMyb2dscXRhaWR4blVYTHo2b0pJMmxqbnNLTFFEZHVrQU1UR1NjVEc4VjllTFpHeGp2MFhoVVVsMUZBQUUyX1BUWDdVWHBDbmp3SFlySmgzLS14dkNXdA?oc=5",
@@ -19,10 +25,10 @@
       "seen": "2026-10-21 00:08 KST"
     },
     {
-      "title": "Fed to skip October but raise rates again in December, nearly all economists say",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZUFYOUZFZXZ4UWJSN1J6RkRxM1lkdGJsUFZRZ2puQkFnRk9rczVQZF9iUS12amVsUl9ESnA4MmNlUmFuVnBVY3BoeVZoVWx1dmwtSWdCa2tGUUlXeXdWR0o0U2o5NHdUend5d2o3c1NoUlZTQUNyWFFEalBHY25QMVptcnFoRnZiSk1JVDFyb1VFYkg0NGRJaXhWemlUY3gxX3YxeVh0YkNMSHNQU21pWkc0OVQ?oc=5",
+      "title": "Asian refiners use smaller tankers, buy delivered crude as freight rates soar",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZ2ZqUG1VeDQwZ1U1Vmc2NDFHWU1KUEdiMmhXVFhjX0FleHIwdnJyRHliLTJWb0FaWDAwbFBMaEdMdHdfemljUEdFX3lpcUdYSmdKcjRUZHhiNjNTMUhobzNFWkpTSEhtZUN1RUxMeHY5b0RJaFJuc2wwRDFJT3hkYUxLS1BycXZMeFVWVExXcGpqMUxVdE1qWUxyRVN1emZ3UGhONmZ1NWJYVWUyMmJRLUZSN29Ib0J5WmNsQ2Vrb1VmOEk?oc=5",
       "domain": "Reuters",
-      "seen": "2026-10-20 22:27 KST"
+      "seen": "2026-10-20 16:09 KST"
     },
     {
       "title": "Oil majors face spending test from Iran war windfall cash",
@@ -41,21 +47,15 @@
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQ1JyMkRkWjBlbnZpSlhVTEZHczJ5UFpPdGJXWTdUQnhMSjM1cGNldnhlWWRJLUtNOEVtekMwUzU0bW40S0ZRYW1BbUV0UnB6bHI2NF80VGwyU1ZQbG1nTGhMRFlhYWNMUEN6azBIc1ZmajRQaFdXRTBDWUkzWXRpNnlBbk5weXVWTmdXUzFGTFhHTVhoVm96eWYwNHdWaFE?oc=5",
       "domain": "Reuters",
       "seen": "2026-10-20 13:33 KST"
-    },
-    {
-      "title": "How safe havens stack up as tech, energy and France fears grip markets",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNcHQwSENyS3lkNi05UkRqMGdnZVg3dUlBWC1KdE8wemZkNmthdFBhSG9MSXB5VV9Yd3ExSWI1ZDBFVEdpY1JKSl92RzlOOHhfbHpqeEdmUWlwa09IdlVqb0pyNDAzTzVGZjJDd05xMHlRazVZTUQ0eWxZWm8wZEFSRlllNkg5Mml6MFNBNEJ1OXdnTHlE?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-10-20 13:06 KST"
     }
   ],
-  "rate_source_time": "2026-10-21 02:32:08 KST",
+  "rate_source_time": "2026-10-21 05:51:59 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": 2.9,
   "rate_change_pct": 0.16,
   "smbs_base_rate": 1328.0,
   "smbs_rate_date": "2026-10-21",
-  "smbs_rate_updated_at_kst": "2026-10-21 02:31:54 KST",
+  "smbs_rate_updated_at_kst": "2026-10-21 05:51:45 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1337.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-10-21 02:31:54 KST"
+  "rate_job_checked_at_kst": "2026-10-21 05:51:45 KST"
 }

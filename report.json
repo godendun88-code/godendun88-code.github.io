@@ -1,5 +1,5 @@
 {
-  "updated_at_kst": "2026-10-21 05:52 KST",
+  "updated_at_kst": "2026-10-21 08:52 KST",
   "current_rate": 1326.7,
   "previous_close": 1323.8,
   "rate_updated_at_kst": "2026-10-21 05:51:59 KST",
@@ -8,10 +8,16 @@
   "drivers": [
     "연준·금리 관련 최신 기사(\"COMMENTARY: Markets' squeal is music to Fed ears — but still too faint\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
     "미 국채금리 상승 관련 보도가 확인돼 달러 수요를 지지하면서 원/달러 환율 상승 압력으로 작용하고 있습니다.",
-    "유가·지정학 관련 최신 기사(\"Halliburton expects years-long oilfield demand from Gulf energy infrastructure rebuild\")가 확인돼 원화 변동성 확대 요인으로 작용하고 있습니다."
+    "유가·지정학 관련 최신 기사(\"COMMENTARY: Trading Day: Oil reversal lifts spirits\")가 확인돼 원화 변동성 확대 요인으로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
+    {
+      "title": "COMMENTARY: Trading Day: Oil reversal lifts spirits",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPaU1PVWVqVTFDdTIyTFEwTzRRRm12eVZCd19RNnhPY2tKY29HOURqclNJNnJoeHM5TlBVaDI3SE5JdUROOEtTNXJyZm9NX29jcmVmYVQzZDdiMnllRnA1M3h4VzR5YjBuanlSaXBqUTUzdmE2THI4UGpULUVMNzRpOVRuY2hyQU9sYl94dXFSR1pKQzlKc0ZPNFNBd1A3RXpSSTIwR0hB?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-10-21 06:04 KST"
+    },
     {
       "title": "Michelin posts a slight drop in sales on lower tyre volumes",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQQUtkemwyTEpBc0dnNjkzVi1OcG1wU1lsaWtuaktzTkM1eXFEWEFtX2ZEV2M0T2RNaEZTS1lCeUxNTGtySG9yemV3SFdiSUJVbVBkdjFQam1qY2F2ZF9QNS02MnlqbU9sS0pUUGo1bmpOWjFIMjluR1dmOTNxZ054U1VORmEwalVfdjNucjc3cGgwWmFOOWtmOTNXUC0?oc=5",
@@ -41,12 +47,6 @@
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOanNEc3U3RUp6cGJ5a2hycUVSd2ZoYkJfSl9Qd1JEWkx5OFlOMTE5TjVXLUZNLUh0ZkZab0JSN1BHVHAteGI1cFRkckUycldMNHFPbWljOFMxNHVDcFFpMjlvRVpQclZnTWU4cTZVUUlkOExfMDEyVjItaC1GMTlKX0RNRzRGRnpacmo3QXlnclAxNWZsd1lpSUpCQWtqYllaZFhDTkdfRDRsTVhQdmplX1gyVEwzb3ow?oc=5",
       "domain": "Reuters",
       "seen": "2026-10-20 15:00 KST"
-    },
-    {
-      "title": "Europe's earnings boom widens beyond energy and AI",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQ1JyMkRkWjBlbnZpSlhVTEZHczJ5UFpPdGJXWTdUQnhMSjM1cGNldnhlWWRJLUtNOEVtekMwUzU0bW40S0ZRYW1BbUV0UnB6bHI2NF80VGwyU1ZQbG1nTGhMRFlhYWNMUEN6azBIc1ZmajRQaFdXRTBDWUkzWXRpNnlBbk5weXVWTmdXUzFGTFhHTVhoVm96eWYwNHdWaFE?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-10-20 13:33 KST"
     }
   ],
   "rate_source_time": "2026-10-21 05:51:59 KST",
@@ -55,13 +55,14 @@
   "rate_change_pct": 0.16,
   "smbs_base_rate": 1328.0,
   "smbs_rate_date": "2026-10-21",
-  "smbs_rate_updated_at_kst": "2026-10-21 05:51:45 KST",
+  "smbs_rate_updated_at_kst": "2026-10-21 08:50:01 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
     1325.0,
     1337.0
   ],
-  "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-10-21 05:51:45 KST"
+  "rate_check_status": "failed",
+  "rate_job_checked_at_kst": "2026-10-21 08:50:01 KST",
+  "rate_fetch_error": "RuntimeError: KB STAR FX 자동조회 3회 실패: TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n | TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n | TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n"
 }

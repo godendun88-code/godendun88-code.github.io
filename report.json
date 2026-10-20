@@ -1,40 +1,28 @@
 {
-  "updated_at_kst": "2026-10-20 07:18 KST",
-  "current_rate": 1331.5,
-  "previous_close": 1329.98,
-  "rate_updated_at_kst": "2026-10-20 07:18:28 KST",
+  "updated_at_kst": "2026-10-20 10:15 KST",
+  "current_rate": 1327.4,
+  "previous_close": 1331.5,
+  "rate_updated_at_kst": "2026-10-20 10:15:24 KST",
   "rate_source": "KB STAR FX Market Watch",
-  "market_bias": "상승 우세",
+  "market_bias": "혼조",
   "drivers": [
-    "연준의 추가 금리 인상 또는 매파적 기조 우려가 부각돼 달러 강세 압력이 높아지는 요인으로 작용하고 있습니다.",
     "미국 물가 관련 최신 기사(\"AI is driving inflation. The Fed's fix may hurt everyone else.\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
-    "미 국채금리 하락 관련 보도가 확인돼 달러의 금리 매력이 낮아지면서 원/달러 환율 하락 압력으로 작용하고 있습니다."
+    "미 국채금리 하락 관련 보도가 확인돼 달러의 금리 매력이 낮아지면서 원/달러 환율 하락 압력으로 작용하고 있습니다.",
+    "외환시장 관련 최신 기사(\"Nasdaq climbs as chip and AI-linked stocks bounce back\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다."
   ],
-  "outlook": "달러 강세·금리 상승 계열의 재료가 상대적으로 우세해 원/달러는 단기 상승 압력이 나타날 수 있으나, 국내 수급과 위험선호 회복 여부에 따라 변동성이 예상됩니다.",
+  "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
     {
       "title": "Nasdaq climbs as chip and AI-linked stocks bounce back",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPX21SVVhfUjZRQ255YlFzVWVEZ3BFMmt3aWlDdkVPVENFOExuRE9KOXZ6WjNqbzdHelUwdzZudy02TjlyNkxVZWcxQmFzZF9NaUE0SFZYaWI3dmxlYTBVdjdULWhLMkNQNnlMUXFaM1J5T1dPMEo3ajhkb0RQLUM3M0pkYlFqbHNKQ1U1c3k5WlUtdjR1UkNCV0JkdjJZTzdIa2c?oc=5",
       "domain": "Reuters",
-      "seen": "2026-10-20 05:54 KST"
+      "seen": "2026-10-20 08:31 KST"
     },
     {
       "title": "AI is driving inflation. The Fed's fix may hurt everyone else.",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBtTzZQeDFmeXdBaUhKWFF3OEd0OG44dEkxa0duMmNQSi1RTWtGVlhieXlsbm9ja1ljQzA5UGlYQnpBWV84SzA2V0lKX2M4Z05XcURPcTR6RVg5NE1DWGlfT1JyQUcyUllhampnV3FPMEs0M2ZFejRkS3BtT0hIUQ?oc=5",
       "domain": "Reuters",
       "seen": "2026-10-20 03:39 KST"
-    },
-    {
-      "title": "Canadian dollar notches nearly four-week high on BoC rate hike bets",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQejFjMHFhbTY3RGNrb3ZLNnZvd2QtWjl4eDg5cG9vRmR3Qk9zbGNBWXM1VXE5Z0ZWamFZYUptd0RwTmdieTRjQXVjWE5YVEhlVzFOUEo3WnF4aVRqSmNvUUFTZnVwVHo2aHVuTXZybk5UT0ZqSmtGNHdfRXZhNWdzVnpDRWRja2ExdFFHNTYwUDg2bmxzWjdRekRHeUtKU3RuY1Z3M2FZSktjdXliQlpZZjBn?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-10-20 02:41 KST"
-    },
-    {
-      "title": "US homebuilder sentiment tumbles to near 14-1/2-year low in October",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNYzZUb09NNUZyTi1nanEwMHNsSGE4XzB4Y2tFSWVXYU5XU2Q3ODdBMkZmSFN4LVB3NHZjUG5FY2ZDQjJtYlZpbXpkQTMzQnVIOTF6bGZhWkstcWItVWxtbklsTHg4YnhuVkxiXy0td2oxbExYN1R1bjdmeGFkdlU2TDZ6b0Zqb1k3Q0VwbWVZRjdPbm1odHVZMzZ5NDltVG0zampuN2JzMXo?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-10-19 23:33 KST"
     },
     {
       "title": "Under Trump, deficits remain high while borrowing costs escalate",
@@ -49,19 +37,19 @@
       "seen": "2026-10-19 12:11 KST"
     }
   ],
-  "rate_source_time": "2026-10-20 07:18:28 KST",
+  "rate_source_time": "2026-10-20 10:15:24 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 1.52,
-  "rate_change_pct": 0.16,
+  "rate_change": -4.1,
+  "rate_change_pct": -0.31,
   "smbs_base_rate": 1332.1,
   "smbs_rate_date": "2026-10-20",
-  "smbs_rate_updated_at_kst": "2026-10-20 07:18:15 KST",
+  "smbs_rate_updated_at_kst": "2026-10-20 10:15:12 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
-    1329.0,
-    1340.0
+    1325.0,
+    1337.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-10-20 07:18:15 KST"
+  "rate_job_checked_at_kst": "2026-10-20 10:15:12 KST"
 }

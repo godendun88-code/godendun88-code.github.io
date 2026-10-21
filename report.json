@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-10-22 04:35 KST",
+  "updated_at_kst": "2026-10-22 07:45 KST",
   "current_rate": 1328.3,
   "previous_close": 1326.7,
-  "rate_updated_at_kst": "2026-10-22 04:35:16 KST",
+  "rate_updated_at_kst": "2026-10-22 07:44:48 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
@@ -31,31 +31,19 @@
       "seen": "2026-10-21 12:07 KST"
     },
     {
-      "title": "Dollar mixed as traders wait on Fed, Aussie gains",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQMmhtRnJCbDhIc08yUUUxQnBOU0tmczBNT3JOTjBKVy1LY0VCUW1pdk9hNW83QXdqM3pKOGthelR0NldvLUx6ZHdfUWpTTnpHOVhVeG9nR0tUWjVqNlUyT09jbVp3eUZDb1RLbjhLakZYUXZfcXNoVndFSG50cUw5alpFRHVpNWdUMWtxLWpXMUZsdFE1RVhtX0RWVkVLazFFNUlIZi1fcHRJUjZYY090OVBwaTZMUnJ4TmdtbWFR?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-10-21 10:20 KST"
-    },
-    {
-      "title": "Oil prices steady as investors weigh progress on Russia-Ukraine talks against falling US oil stocks",
+      "title": "Oil prices steady as investors weigh geopolitics, lower US stockpiles",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPNTdIRmp3MTB3c3JZNGxXMUl1Wk5haXFwcjdJNXgtQnJkOEM4aWVVWG5tai03TmhHSWZidkliV1VlRkRvOVJCX3Q3QXhCWVdZeXlYQmViOUdOaU85anVWMXpSWFNCOHAtVU5id3Fad1BhX1BzVEt6S1A4N2s1YjJocFh6QXFTVXhHdDJJVzZBX21WUQ?oc=5",
       "domain": "Reuters",
       "seen": "2026-10-21 09:50 KST"
-    },
-    {
-      "title": "BOJ to raise rates to 1.50% in December, sticking to quarterly pace: Reuters poll",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQM01keWQ2YlhOUEZEODRRcFlSQzBtYnREaldoaTh0ZkpYVTFtYVJrbURVMDVyaEFkSFFoU2hiRmtfYVlYLW83SHdVMHlNbW9aV19oR3I1OG5ERnAwOV9EdjU0NDRkRUxVSXg3R2hJZUpiTXdIeWVSNVlfc1U0bGRndHhFNlhtbXA4N2I4dUhabFRsZDFsRUZFNWNHTDc0cWJPTGJnbU01aTR5VjA?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-10-21 07:44 KST"
     }
   ],
-  "rate_source_time": "2026-10-22 04:35:16 KST",
+  "rate_source_time": "2026-10-22 07:44:48 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": 1.6,
   "rate_change_pct": 0.12,
   "smbs_base_rate": 1325.5,
   "smbs_rate_date": "2026-10-22",
-  "smbs_rate_updated_at_kst": "2026-10-22 04:35:00 KST",
+  "smbs_rate_updated_at_kst": "2026-10-22 07:44:36 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +51,5 @@
     1332.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-10-22 04:35:00 KST"
+  "rate_job_checked_at_kst": "2026-10-22 07:44:36 KST"
 }

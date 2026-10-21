@@ -1,28 +1,28 @@
 {
-  "updated_at_kst": "2026-10-22 00:11 KST",
+  "updated_at_kst": "2026-10-22 04:35 KST",
   "current_rate": 1328.3,
   "previous_close": 1326.7,
-  "rate_updated_at_kst": "2026-10-22 00:11:37 KST",
+  "rate_updated_at_kst": "2026-10-22 04:35:16 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
-    "유가 및 중동 지정학적 불확실성이 부각돼 에너지 수입 의존도가 높은 원화에는 약세 부담 요인으로 작용하고 있습니다.",
-    "외환시장 관련 최신 기사(\"Rupee climbs to six-week high as Jio IPO-linked inflows bolster recovery\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다.",
-    "유가·지정학 관련 최신 기사(\"Jio Platforms' IPO-linked inflows boost rupee; elevated oil prices spur caution\")가 확인돼 원화 변동성 확대 요인으로 작용하고 있습니다."
+    "연준·금리 관련 최신 기사(\"Gold edges higher as yields retreat, Fed decision in focus\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
+    "유가·지정학 관련 최신 기사(\"Jio Platforms' IPO-linked inflows boost rupee; elevated oil prices spur caution\")가 확인돼 원화 변동성 확대 요인으로 작용하고 있습니다.",
+    "외환시장 관련 최신 기사(\"Rupee climbs to six-week high as Jio IPO-linked inflows bolster recovery\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
-    {
-      "title": "TSX futures edge higher as oil gains offset weakness in gold",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOSU9QUl9QUEdabl9mc1o0WjB1RzNYYk92NFpjMm43RnRmWWtzZEs1cV9pTng4QlhwbUd2V1ZXMzhXeGsyWUZQUDVYRmZIN1oyX1hWZlNPYUw4TnN2bHZBcUxMUWZZQWVxUjZpbkVBc2d5cFZNUm1DV2FDUlV5ZkZBSW0wMTl6eTdwTk5pUFRxbUhoZ2xJdzZ4Mk1Zbm91N0Rh?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-10-21 19:14 KST"
-    },
     {
       "title": "Jio Platforms' IPO-linked inflows boost rupee; elevated oil prices spur caution",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPMFFMSF9nLXRwYy1COGJKYnBBYXkzOTFESWIxSnROTmJGa2hQZ3BTTExjMEUtTXhrUVFka3kzdXBjQXBqV1d6WW9wcDV0Z2NHbEhnellaWHpwMEx0d19NOHdaaGxyTUd5NEV0VHozczYxeVlVNU1NMjNRaEc0ZVFEMTFpamJVNWl1N0swSkdRbERORjN2c3dlVGhMMXVTQjFJUDVWZnhhMnY4MzZvMW1kQ25QSGY5dmhLc1d5aTNrRGR6N2c?oc=5",
       "domain": "Reuters",
       "seen": "2026-10-21 19:12 KST"
+    },
+    {
+      "title": "Gold edges higher as yields retreat, Fed decision in focus",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNY2dJZXdfdnptbDVvajUtNHBONy13T1Z5aEtVc3d2d2VDYUNpUEpTM1JxNGVZRFhiQmh1b1U2RWpOaW0zVndyQk9uSFZ6b0pQXzVvNUhRMFVXeEMzS3BrU1FkdE9tNEYxY21PdDFEWGplNkkwMkJ2Rkk5VVg2VUVDcXFIUmp4cUR4SnhqQ2h6b3hYTExtTkhCNGtqZWt6WUtUYURrc3owUUptdw?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-10-21 12:45 KST"
     },
     {
       "title": "Rupee climbs to six-week high as Jio IPO-linked inflows bolster recovery",
@@ -31,25 +31,31 @@
       "seen": "2026-10-21 12:07 KST"
     },
     {
+      "title": "Dollar mixed as traders wait on Fed, Aussie gains",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQMmhtRnJCbDhIc08yUUUxQnBOU0tmczBNT3JOTjBKVy1LY0VCUW1pdk9hNW83QXdqM3pKOGthelR0NldvLUx6ZHdfUWpTTnpHOVhVeG9nR0tUWjVqNlUyT09jbVp3eUZDb1RLbjhLakZYUXZfcXNoVndFSG50cUw5alpFRHVpNWdUMWtxLWpXMUZsdFE1RVhtX0RWVkVLazFFNUlIZi1fcHRJUjZYY090OVBwaTZMUnJ4TmdtbWFR?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-10-21 10:20 KST"
+    },
+    {
+      "title": "Oil prices steady as investors weigh progress on Russia-Ukraine talks against falling US oil stocks",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPNTdIRmp3MTB3c3JZNGxXMUl1Wk5haXFwcjdJNXgtQnJkOEM4aWVVWG5tai03TmhHSWZidkliV1VlRkRvOVJCX3Q3QXhCWVdZeXlYQmViOUdOaU85anVWMXpSWFNCOHAtVU5id3Fad1BhX1BzVEt6S1A4N2s1YjJocFh6QXFTVXhHdDJJVzZBX21WUQ?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-10-21 09:50 KST"
+    },
+    {
       "title": "BOJ to raise rates to 1.50% in December, sticking to quarterly pace: Reuters poll",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQM01keWQ2YlhOUEZEODRRcFlSQzBtYnREaldoaTh0ZkpYVTFtYVJrbURVMDVyaEFkSFFoU2hiRmtfYVlYLW83SHdVMHlNbW9aV19oR3I1OG5ERnAwOV9EdjU0NDRkRUxVSXg3R2hJZUpiTXdIeWVSNVlfc1U0bGRndHhFNlhtbXA4N2I4dUhabFRsZDFsRUZFNWNHTDc0cWJPTGJnbU01aTR5VjA?oc=5",
       "domain": "Reuters",
       "seen": "2026-10-21 07:44 KST"
-    },
-    {
-      "title": "Michelin posts a slight drop in sales on lower tyre volumes",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQQUtkemwyTEpBc0dnNjkzVi1OcG1wU1lsaWtuaktzTkM1eXFEWEFtX2ZEV2M0T2RNaEZTS1lCeUxNTGtySG9yemV3SFdiSUJVbVBkdjFQam1qY2F2ZF9QNS02MnlqbU9sS0pUUGo1bmpOWjFIMjluR1dmOTNxZ054U1VORmEwalVfdjNucjc3cGgwWmFOOWtmOTNXUC0?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-10-21 01:48 KST"
     }
   ],
-  "rate_source_time": "2026-10-22 00:11:37 KST",
+  "rate_source_time": "2026-10-22 04:35:16 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": 1.6,
   "rate_change_pct": 0.12,
   "smbs_base_rate": 1325.5,
   "smbs_rate_date": "2026-10-22",
-  "smbs_rate_updated_at_kst": "2026-10-22 00:11:24 KST",
+  "smbs_rate_updated_at_kst": "2026-10-22 04:35:00 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -57,5 +63,5 @@
     1332.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-10-22 00:11:24 KST"
+  "rate_job_checked_at_kst": "2026-10-22 04:35:00 KST"
 }

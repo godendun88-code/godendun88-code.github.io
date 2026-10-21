@@ -1,22 +1,40 @@
 {
-  "updated_at_kst": "2026-10-21 13:37 KST",
-  "current_rate": 1324.6,
+  "updated_at_kst": "2026-10-21 18:40 KST",
+  "current_rate": 1323.8,
   "previous_close": 1326.7,
-  "rate_updated_at_kst": "2026-10-21 13:37:24 KST",
+  "rate_updated_at_kst": "2026-10-21 18:40:19 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "상승 우세",
   "drivers": [
     "연준·금리 관련 최신 기사(\"Fed to skip October but raise rates again in December, nearly all economists say\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
-    "미 국채금리 관련 최신 기사(\"Dollar on back foot as US yields, crude prices dip; Aussie buoyed by hawkish RBA\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다.",
-    "유가 및 중동 지정학적 불확실성이 부각돼 에너지 수입 의존도가 높은 원화에는 약세 부담 요인으로 작용하고 있습니다."
+    "미국 물가 관련 최신 기사(\"Gold dips for fourth session as oil rally fans inflation concerns\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
+    "유가·지정학 관련 최신 기사(\"Dollar treads water as Middle East tensions simmer; Aussie buoyed by hawkish RBA\")가 확인돼 원화 변동성 확대 요인으로 작용하고 있습니다."
   ],
   "outlook": "달러 강세·금리 상승 계열의 재료가 상대적으로 우세해 원/달러는 단기 상승 압력이 나타날 수 있으나, 국내 수급과 위험선호 회복 여부에 따라 변동성이 예상됩니다.",
   "articles": [
     {
-      "title": "Dollar on back foot as US yields, crude prices dip; Aussie buoyed by hawkish RBA",
+      "title": "Gold dips for fourth session as oil rally fans inflation concerns",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNY2dJZXdfdnptbDVvajUtNHBONy13T1Z5aEtVc3d2d2VDYUNpUEpTM1JxNGVZRFhiQmh1b1U2RWpOaW0zVndyQk9uSFZ6b0pQXzVvNUhRMFVXeEMzS3BrU1FkdE9tNEYxY21PdDFEWGplNkkwMkJ2Rkk5VVg2VUVDcXFIUmp4cUR4SnhqQ2h6b3hYTExtTkhCNGtqZWt6WUtUYURrc3owUUptdw?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-10-21 12:45 KST"
+    },
+    {
+      "title": "Rupee climbs to six-week high as Jio IPO-linked inflows bolster recovery",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNTW50dk9NZE9aaGFzX24yNmxGN19HMlRSd29NajBxMFVXdDQ5RUVHYUVGTVBFX21jZDM4bnNVVXVFVE1jOHowcUpVWHJnNUZkSEVxaS1samY5ems0MEtqUUJGWm9OS0dmZGp1bmVkcEp3cTVMbmRkTi04LXpzT0lFQlhFYm9RbnZVYXM3ZkJoTTVBYlRLS3dvY1FRNmFrcDJFSXI3Qm9zMGk5TlZp?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-10-21 12:07 KST"
+    },
+    {
+      "title": "Dollar treads water as Middle East tensions simmer; Aussie buoyed by hawkish RBA",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQMmhtRnJCbDhIc08yUUUxQnBOU0tmczBNT3JOTjBKVy1LY0VCUW1pdk9hNW83QXdqM3pKOGthelR0NldvLUx6ZHdfUWpTTnpHOVhVeG9nR0tUWjVqNlUyT09jbVp3eUZDb1RLbjhLakZYUXZfcXNoVndFSG50cUw5alpFRHVpNWdUMWtxLWpXMUZsdFE1RVhtX0RWVkVLazFFNUlIZi1fcHRJUjZYY090OVBwaTZMUnJ4TmdtbWFR?oc=5",
       "domain": "Reuters",
       "seen": "2026-10-21 10:20 KST"
+    },
+    {
+      "title": "BOJ to raise rates to 1.50% in December, sticking to quarterly pace: Reuters poll",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQM01keWQ2YlhOUEZEODRRcFlSQzBtYnREaldoaTh0ZkpYVTFtYVJrbURVMDVyaEFkSFFoU2hiRmtfYVlYLW83SHdVMHlNbW9aV19oR3I1OG5ERnAwOV9EdjU0NDRkRUxVSXg3R2hJZUpiTXdIeWVSNVlfc1U0bGRndHhFNlhtbXA4N2I4dUhabFRsZDFsRUZFNWNHTDc0cWJPTGJnbU01aTR5VjA?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-10-21 07:44 KST"
     },
     {
       "title": "Michelin posts a slight drop in sales on lower tyre volumes",
@@ -29,27 +47,15 @@
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZUFYOUZFZXZ4UWJSN1J6RkRxM1lkdGJsUFZRZ2puQkFnRk9rczVQZF9iUS12amVsUl9ESnA4MmNlUmFuVnBVY3BoeVZoVWx1dmwtSWdCa2tGUUlXeXdWR0o0U2o5NHdUend5d2o3c1NoUlZTQUNyWFFEalBHY25QMVptcnFoRnZiSk1JVDFyb1VFYkg0NGRJaXhWemlUY3gxX3YxeVh0YkNMSHNQU21pWkc0OVQ?oc=5",
       "domain": "Reuters",
       "seen": "2026-10-20 22:27 KST"
-    },
-    {
-      "title": "Oil majors face spending test from Iran war windfall cash",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQemV5ZWpZWkdhUzlRTmJsLXMyNVFMa0EzLTYxSGJubDVlSkVWMGVuckZDRVZOOS05eGc1aHlSOGJva3A5d2R2SENNNVBNeTM5eXNEeWJWTDlDbzBUdlZTTDdFZDRlT3dkVWtSWmJJekhvc3BSQk5KbnlTcjR2Q1otUEFlS0JYSUVZclR1d0NGRzJJaHBXbFdBS1RPZWZqOVNXemZtVmlRQQ?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-10-20 15:04 KST"
-    },
-    {
-      "title": "COMMENTARY: Markets' squeal is music to Fed ears — but still too faint",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOanNEc3U3RUp6cGJ5a2hycUVSd2ZoYkJfSl9Qd1JEWkx5OFlOMTE5TjVXLUZNLUh0ZkZab0JSN1BHVHAteGI1cFRkckUycldMNHFPbWljOFMxNHVDcFFpMjlvRVpQclZnTWU4cTZVUUlkOExfMDEyVjItaC1GMTlKX0RNRzRGRnpacmo3QXlnclAxNWZsd1lpSUpCQWtqYllaZFhDTkdfRDRsTVhQdmplX1gyVEwzb3ow?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-10-20 15:00 KST"
     }
   ],
-  "rate_source_time": "2026-10-21 13:37:24 KST",
+  "rate_source_time": "2026-10-21 18:40:19 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": -2.1,
-  "rate_change_pct": -0.16,
+  "rate_change": -2.9,
+  "rate_change_pct": -0.22,
   "smbs_base_rate": 1328.0,
   "smbs_rate_date": "2026-10-21",
-  "smbs_rate_updated_at_kst": "2026-10-21 13:37:11 KST",
+  "smbs_rate_updated_at_kst": "2026-10-21 18:40:03 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -57,5 +63,5 @@
     1332.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-10-21 13:37:11 KST"
+  "rate_job_checked_at_kst": "2026-10-21 18:40:03 KST"
 }

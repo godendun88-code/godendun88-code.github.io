@@ -1,49 +1,61 @@
 {
-  "updated_at_kst": "2026-10-22 15:34 KST",
-  "current_rate": 1323.7,
-  "previous_close": 1321.82,
-  "rate_updated_at_kst": "2026-10-22 15:33:52 KST",
+  "updated_at_kst": "2026-10-22 21:23 KST",
+  "current_rate": 1324.4,
+  "previous_close": 1321.64,
+  "rate_updated_at_kst": "2026-10-22 21:23:39 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
-    "연준·금리 관련 최신 기사(\"Dip in the dollar takes a breather with Fed in focus\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
-    "유가 및 중동 지정학적 불확실성이 부각돼 에너지 수입 의존도가 높은 원화에는 약세 부담 요인으로 작용하고 있습니다.",
-    "연준·금리 관련 최신 기사(\"Brookings paper offers broad plan to shrink Fed balance sheet\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다."
+    "연준·금리 관련 최신 기사(\"Brookings paper offers broad plan to shrink Fed balance sheet\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
+    "달러 관련 최신 기사(\"Yen set for biggest rally in a month; risk-averse investors shun dollar\")가 확인돼 달러인덱스 방향성이 원/달러 환율의 핵심 변수로 작용하고 있습니다.",
+    "유가·지정학 관련 최신 기사(\"Rupee snaps eight-day rally as oil climbs to highest since May\")가 확인돼 원화 변동성 확대 요인으로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
     {
-      "title": "Lumpy Jio IPO inflows push rupee into 'overbought' zone just as oil renews rise",
+      "title": "Rupee snaps eight-day rally as oil climbs to highest since May",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPOVNZbG9QbzVrUDFGaTZHVkJwZ0cyZHRYa0RwQjlwU0xQXzYtc1hDaHZCMjhuLU5nS0o5Uk1BamlZSlB0T0dYU1Y5U1FTRU1YQ2lLNlQyOUF3THZRSElCX0prb1ZrUzZQNm5vUGhnMVo5QVl6NkdyekloV2JIbjl1VWhLWTBrdDV6Yjc5d0x5cFFRWmYxX2RXcVhJTkhrQWpNaE1DbWlHaVU?oc=5",
       "domain": "Reuters",
       "seen": "2026-10-22 12:03 KST"
     },
     {
-      "title": "Dip in the dollar takes a breather with Fed in focus",
+      "title": "Stocks fall, bonds gain as Meta dents tech optimism",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQNmlzbXFUNWNXc3U3RHRac2lYVEhXNjZmZGw0Q19yNVRORUEtak91QlJnTEVqcGhWT2xuT2RmOHdTVHlyN1JmSHRVZEpfMzgtNEVMT1RCWk1VNGswaVFYTXI4WlFpUE95aEJid1NxNVNBdzBGX0pzOUQwMnZnQ25kOVNXQQ?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-10-22 11:15 KST"
+    },
+    {
+      "title": "Yen set for biggest rally in a month as investors seek safe havens",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPeE9SaFExZHZyS2plVTA2NHNkbDFpcGpBSVVhc3J2NmZrRmtMRW1uY0FUU0JDMGtFQncxcnB3bUlFY21oa3V2VTZtOWsxcEVrWFhfOWZOd2oxY09XaWtpQ2ltWnE2NFFTYmg0OVNhaHJLVFdocG9NdGh1N3hjVzRPZUJlVW8wRFU3N24zR0tZbjk2bkNGVFhXaE1qbw?oc=5",
       "domain": "Reuters",
       "seen": "2026-10-22 11:10 KST"
+    },
+    {
+      "title": "Yen set for biggest rally in a month; risk-averse investors shun dollar",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPeE9SaFExZHZyS2plVTA2NHNkbDFpcGpBSVVhc3J2NmZrRmtMRW1uY0FUU0JDMGtFQncxcnB3bUlFY21oa3V2VTZtOWsxcEVrWFhfOWZOd2oxY09XaWtpQ2ltWnE2NFFTYmg0OVNhaHJLVFdocG9NdGh1N3hjVzRPZUJlVW8wRFU3N24zR0tZbjk2bkNGVFhXaE1qbw?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-10-22 11:10 KST"
+    },
+    {
+      "title": "From groceries to home loans, high oil prices permeate daily life",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPam52bzA3TTBVZjZQOC1ISHZJal8xZmcyc3hYZVJEYXpTZ1VUWHBvUVBQZDlKUUlwSFIwWFYtMUxucy1lS1ZRRDZEaW0tZmd5WndsSnNDNVUycTJVYWUyaFVVNDJIZnlfb0tMNGY5dW9BNkU1R0lVOWY0czhfN3pxcUhzejl5SUdLaGlMWFpjWnhWekJ4TWxzM3E2YXo3VVZzbGdCdi1CblkyTzRP?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-10-22 08:04 KST"
     },
     {
       "title": "Brookings paper offers broad plan to shrink Fed balance sheet",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQOWJYd0NERVlESGhjUzBFQm1tQkdDMVZtbnZxXzByQkxIS29abXpTRXZqYXhyamV2b19FbUpCR2RoWW9aUGVvenh5Q20tVWpWQzhRYnQzTk1iaEtQZWxPTnJUZU5kUHR2NUxvMHlLS1JRR0g2dFktUEhCbDVvTGRUU2YybEk5SzFYRjRpZjFqUVhKQ0JQaElseUI2QjhGMmY1R3d1NGZxcmYwMVlyQ1dvWQ?oc=5",
       "domain": "Reuters",
       "seen": "2026-10-22 02:20 KST"
-    },
-    {
-      "title": "Jio Platforms' IPO-linked inflows boost rupee; elevated oil prices spur caution",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPMFFMSF9nLXRwYy1COGJKYnBBYXkzOTFESWIxSnROTmJGa2hQZ3BTTExjMEUtTXhrUVFka3kzdXBjQXBqV1d6WW9wcDV0Z2NHbEhnellaWHpwMEx0d19NOHdaaGxyTUd5NEV0VHozczYxeVlVNU1NMjNRaEc0ZVFEMTFpamJVNWl1N0swSkdRbERORjN2c3dlVGhMMXVTQjFJUDVWZnhhMnY4MzZvMW1kQ25QSGY5dmhLc1d5aTNrRGR6N2c?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-10-21 19:12 KST"
     }
   ],
-  "rate_source_time": "2026-10-22 15:33:52 KST",
+  "rate_source_time": "2026-10-22 21:23:39 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 1.88,
-  "rate_change_pct": 0.22,
+  "rate_change": 2.76,
+  "rate_change_pct": 0.33,
   "smbs_base_rate": 1325.5,
   "smbs_rate_date": "2026-10-22",
-  "smbs_rate_updated_at_kst": "2026-10-22 10:27:55 KST",
+  "smbs_rate_updated_at_kst": "2026-10-22 21:23:26 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -51,6 +63,5 @@
     1328.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-10-22 15:33:36 KST",
-  "smbs_rate_error": "RuntimeError: 서울외국환중개 페이지에서 USD 매매기준율을 찾지 못했습니다."
+  "rate_job_checked_at_kst": "2026-10-22 21:23:26 KST"
 }

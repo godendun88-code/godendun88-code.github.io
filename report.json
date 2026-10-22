@@ -1,17 +1,41 @@
 {
-  "updated_at_kst": "2026-10-22 21:23 KST",
-  "current_rate": 1324.4,
-  "previous_close": 1321.64,
-  "rate_updated_at_kst": "2026-10-22 21:23:39 KST",
+  "updated_at_kst": "2026-10-23 02:37 KST",
+  "current_rate": 1326.9,
+  "previous_close": 1322.76,
+  "rate_updated_at_kst": "2026-10-23 02:36:59 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
-    "연준·금리 관련 최신 기사(\"Brookings paper offers broad plan to shrink Fed balance sheet\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
-    "달러 관련 최신 기사(\"Yen set for biggest rally in a month; risk-averse investors shun dollar\")가 확인돼 달러인덱스 방향성이 원/달러 환율의 핵심 변수로 작용하고 있습니다.",
+    "미국 고용 관련 최신 기사(\"US weekly jobless claims near 57-year lows, underscore labor market stability\")가 확인돼 고용지표가 연준 금리 기대와 달러 방향성을 좌우하는 변수로 부각되고 있습니다.",
+    "미국 물가 관련 최신 기사(\"TSX futures fall as inflation fears, tech selloff dent sentiment\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
     "유가·지정학 관련 최신 기사(\"Rupee snaps eight-day rally as oil climbs to highest since May\")가 확인돼 원화 변동성 확대 요인으로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
+    {
+      "title": "Wall Street sinks as Nasdaq falls over 2% on AI cost worries",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTWxDZDg5X0padGNvb2k2V2ZkX2tEWW9YWkdjeVdMZHNUTlg1MXY4TmUyTDZHdUhNTHFRNWRPRjc2VFlEN3RXTDhNSjhDYmRfTWZGXzdKYXdLejRHNGgwRVdNbmZRUkFhSm9GakxMek56UUZ2OUtqajd6NVkzRkR1VzBNWlo5VWp5NUFkX2phUjlSSFlndUlNNGxvUXlHSm1wMlpTbkRR?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-10-23 01:44 KST"
+    },
+    {
+      "title": "US weekly jobless claims near 57-year lows, underscore labor market stability",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPY1lNaWxpcFZmNGx5cEFsQ25QUUNuM0ZkVzJXaGdxdDRFdXNpNGVyYlhhV3JLcnpoMHJKLTZhMWduY0hQYXFPM2xBRjl5TF8xaXAyNU40UUtnTl94TDl3eUVjSHlleXBtenZHVDNpUmw5LUxRMDJNNzF2VVlxYmVodVpWUE5PWEdtVHRSZmdzR2w?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-10-23 00:50 KST"
+    },
+    {
+      "title": "TSX futures fall as inflation fears, tech selloff dent sentiment",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQcDctZl9BbnFBa3pSdnlpNkNYUV9ENzJZZjVITGNWZ1QxUDN3bl9nMTA5QlZKV3JjOGJzdG8xZ29zQ0JWcHV1WVNFNHBLVFBHUlAyZTFjZnZ2ZnBLRWcwSmJ4NWhXcWhhYkUtMHdqYkZCemZnWGlEaE1rTy1CQ1ZIQzhBMHpZU1NaQjRZQ2hVREVTdURKNVN5WlNZWUdVbkRqSV9jSGJhT2w?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-10-22 19:29 KST"
+    },
+    {
+      "title": "COMMENTARY: Surging sterling shakes off Britain's budget blues",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPRHVLWGNYWHM4MEpBbVZqbDFtbUh0R3ozS2dzNmlBVjB5WWhLWk9XZ1BwbTJMakRhQU9GVEJQNTRzbC13dlhpcXdFVnEzaksyZG42MnpXOWJIS094ZFNBT0ozRzM4cGI2VnpyX0N2R0JpOGJZeHNBNHlPTlJDeF9tQ1ZYYlJzdVZsZTZYRW9aZWFBdEdCVWlKV21VWjhmbzJPQmF1Skp5WHJwYzd6Z0tQX2MxbFdrbFFBWFE?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-10-22 15:01 KST"
+    },
     {
       "title": "Rupee snaps eight-day rally as oil climbs to highest since May",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPOVNZbG9QbzVrUDFGaTZHVkJwZ0cyZHRYa0RwQjlwU0xQXzYtc1hDaHZCMjhuLU5nS0o5Uk1BamlZSlB0T0dYU1Y5U1FTRU1YQ2lLNlQyOUF3THZRSElCX0prb1ZrUzZQNm5vUGhnMVo5QVl6NkdyekloV2JIbjl1VWhLWTBrdDV6Yjc5d0x5cFFRWmYxX2RXcVhJTkhrQWpNaE1DbWlHaVU?oc=5",
@@ -19,40 +43,16 @@
       "seen": "2026-10-22 12:03 KST"
     },
     {
-      "title": "Stocks fall, bonds gain as Meta dents tech optimism",
+      "title": "Stocks fall as Meta dents AI optimism; French bonds under fire",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQNmlzbXFUNWNXc3U3RHRac2lYVEhXNjZmZGw0Q19yNVRORUEtak91QlJnTEVqcGhWT2xuT2RmOHdTVHlyN1JmSHRVZEpfMzgtNEVMT1RCWk1VNGswaVFYTXI4WlFpUE95aEJid1NxNVNBdzBGX0pzOUQwMnZnQ25kOVNXQQ?oc=5",
       "domain": "Reuters",
       "seen": "2026-10-22 11:15 KST"
-    },
-    {
-      "title": "Yen set for biggest rally in a month as investors seek safe havens",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPeE9SaFExZHZyS2plVTA2NHNkbDFpcGpBSVVhc3J2NmZrRmtMRW1uY0FUU0JDMGtFQncxcnB3bUlFY21oa3V2VTZtOWsxcEVrWFhfOWZOd2oxY09XaWtpQ2ltWnE2NFFTYmg0OVNhaHJLVFdocG9NdGh1N3hjVzRPZUJlVW8wRFU3N24zR0tZbjk2bkNGVFhXaE1qbw?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-10-22 11:10 KST"
-    },
-    {
-      "title": "Yen set for biggest rally in a month; risk-averse investors shun dollar",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPeE9SaFExZHZyS2plVTA2NHNkbDFpcGpBSVVhc3J2NmZrRmtMRW1uY0FUU0JDMGtFQncxcnB3bUlFY21oa3V2VTZtOWsxcEVrWFhfOWZOd2oxY09XaWtpQ2ltWnE2NFFTYmg0OVNhaHJLVFdocG9NdGh1N3hjVzRPZUJlVW8wRFU3N24zR0tZbjk2bkNGVFhXaE1qbw?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-10-22 11:10 KST"
-    },
-    {
-      "title": "From groceries to home loans, high oil prices permeate daily life",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPam52bzA3TTBVZjZQOC1ISHZJal8xZmcyc3hYZVJEYXpTZ1VUWHBvUVBQZDlKUUlwSFIwWFYtMUxucy1lS1ZRRDZEaW0tZmd5WndsSnNDNVUycTJVYWUyaFVVNDJIZnlfb0tMNGY5dW9BNkU1R0lVOWY0czhfN3pxcUhzejl5SUdLaGlMWFpjWnhWekJ4TWxzM3E2YXo3VVZzbGdCdi1CblkyTzRP?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-10-22 08:04 KST"
-    },
-    {
-      "title": "Brookings paper offers broad plan to shrink Fed balance sheet",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQOWJYd0NERVlESGhjUzBFQm1tQkdDMVZtbnZxXzByQkxIS29abXpTRXZqYXhyamV2b19FbUpCR2RoWW9aUGVvenh5Q20tVWpWQzhRYnQzTk1iaEtQZWxPTnJUZU5kUHR2NUxvMHlLS1JRR0g2dFktUEhCbDVvTGRUU2YybEk5SzFYRjRpZjFqUVhKQ0JQaElseUI2QjhGMmY1R3d1NGZxcmYwMVlyQ1dvWQ?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-10-22 02:20 KST"
     }
   ],
-  "rate_source_time": "2026-10-22 21:23:39 KST",
+  "rate_source_time": "2026-10-23 02:36:59 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 2.76,
-  "rate_change_pct": 0.33,
+  "rate_change": 4.14,
+  "rate_change_pct": 0.49,
   "smbs_base_rate": 1325.5,
   "smbs_rate_date": "2026-10-22",
   "smbs_rate_updated_at_kst": "2026-10-22 21:23:26 KST",
@@ -63,5 +63,6 @@
     1328.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-10-22 21:23:26 KST"
+  "rate_job_checked_at_kst": "2026-10-23 02:36:44 KST",
+  "smbs_rate_error": "RuntimeError: 서울외국환중개 페이지에서 USD 매매기준율을 찾지 못했습니다."
 }

@@ -1,23 +1,17 @@
 {
-  "updated_at_kst": "2026-10-23 02:37 KST",
+  "updated_at_kst": "2026-10-23 05:50 KST",
   "current_rate": 1326.9,
   "previous_close": 1322.76,
-  "rate_updated_at_kst": "2026-10-23 02:36:59 KST",
+  "rate_updated_at_kst": "2026-10-23 05:49:46 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
     "미국 고용 관련 최신 기사(\"US weekly jobless claims near 57-year lows, underscore labor market stability\")가 확인돼 고용지표가 연준 금리 기대와 달러 방향성을 좌우하는 변수로 부각되고 있습니다.",
     "미국 물가 관련 최신 기사(\"TSX futures fall as inflation fears, tech selloff dent sentiment\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
-    "유가·지정학 관련 최신 기사(\"Rupee snaps eight-day rally as oil climbs to highest since May\")가 확인돼 원화 변동성 확대 요인으로 작용하고 있습니다."
+    "유가 및 중동 지정학적 불확실성이 부각돼 에너지 수입 의존도가 높은 원화에는 약세 부담 요인으로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
-    {
-      "title": "Wall Street sinks as Nasdaq falls over 2% on AI cost worries",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTWxDZDg5X0padGNvb2k2V2ZkX2tEWW9YWkdjeVdMZHNUTlg1MXY4TmUyTDZHdUhNTHFRNWRPRjc2VFlEN3RXTDhNSjhDYmRfTWZGXzdKYXdLejRHNGgwRVdNbmZRUkFhSm9GakxMek56UUZ2OUtqajd6NVkzRkR1VzBNWlo5VWp5NUFkX2phUjlSSFlndUlNNGxvUXlHSm1wMlpTbkRR?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-10-23 01:44 KST"
-    },
     {
       "title": "US weekly jobless claims near 57-year lows, underscore labor market stability",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPY1lNaWxpcFZmNGx5cEFsQ25QUUNuM0ZkVzJXaGdxdDRFdXNpNGVyYlhhV3JLcnpoMHJKLTZhMWduY0hQYXFPM2xBRjl5TF8xaXAyNU40UUtnTl94TDl3eUVjSHlleXBtenZHVDNpUmw5LUxRMDJNNzF2VVlxYmVodVpWUE5PWEdtVHRSZmdzR2w?oc=5",
@@ -29,6 +23,12 @@
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQcDctZl9BbnFBa3pSdnlpNkNYUV9ENzJZZjVITGNWZ1QxUDN3bl9nMTA5QlZKV3JjOGJzdG8xZ29zQ0JWcHV1WVNFNHBLVFBHUlAyZTFjZnZ2ZnBLRWcwSmJ4NWhXcWhhYkUtMHdqYkZCemZnWGlEaE1rTy1CQ1ZIQzhBMHpZU1NaQjRZQ2hVREVTdURKNVN5WlNZWUdVbkRqSV9jSGJhT2w?oc=5",
       "domain": "Reuters",
       "seen": "2026-10-22 19:29 KST"
+    },
+    {
+      "title": "India's Mideast oil imports return to pre-war levels in September",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNRl9GVUFVbTBqSFIzbnJpZmJ0c3Q5ZFJlQ0hQUkkwZW5aVDdVWTMwczBlRFRTbF9zM0NNODcyWG9PUTg5WXZKOXRfSUdJSXhHM1FPcFhUOTVmb0pIUHh5Rl9tYldSWDd1all5UV9fV2VMSmNxSUU4anJpUVVvMkFadHpQcmwxdFhRSHlvSXhpMEY1bXNkV2NnUnVNelltUHVRQjFzWE14TWZVVnhrRndv?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-10-22 15:02 KST"
     },
     {
       "title": "COMMENTARY: Surging sterling shakes off Britain's budget blues",
@@ -43,19 +43,19 @@
       "seen": "2026-10-22 12:03 KST"
     },
     {
-      "title": "Stocks fall as Meta dents AI optimism; French bonds under fire",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQNmlzbXFUNWNXc3U3RHRac2lYVEhXNjZmZGw0Q19yNVRORUEtak91QlJnTEVqcGhWT2xuT2RmOHdTVHlyN1JmSHRVZEpfMzgtNEVMT1RCWk1VNGswaVFYTXI4WlFpUE95aEJid1NxNVNBdzBGX0pzOUQwMnZnQ25kOVNXQQ?oc=5",
+      "title": "Yen jumps as oil, AI and France worries rattle markets",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPeE9SaFExZHZyS2plVTA2NHNkbDFpcGpBSVVhc3J2NmZrRmtMRW1uY0FUU0JDMGtFQncxcnB3bUlFY21oa3V2VTZtOWsxcEVrWFhfOWZOd2oxY09XaWtpQ2ltWnE2NFFTYmg0OVNhaHJLVFdocG9NdGh1N3hjVzRPZUJlVW8wRFU3N24zR0tZbjk2bkNGVFhXaE1qbw?oc=5",
       "domain": "Reuters",
-      "seen": "2026-10-22 11:15 KST"
+      "seen": "2026-10-22 11:10 KST"
     }
   ],
-  "rate_source_time": "2026-10-23 02:36:59 KST",
+  "rate_source_time": "2026-10-23 05:49:46 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": 4.14,
   "rate_change_pct": 0.49,
-  "smbs_base_rate": 1325.5,
-  "smbs_rate_date": "2026-10-22",
-  "smbs_rate_updated_at_kst": "2026-10-22 21:23:26 KST",
+  "smbs_base_rate": 1324.6,
+  "smbs_rate_date": "2026-10-23",
+  "smbs_rate_updated_at_kst": "2026-10-23 05:49:32 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,6 +63,5 @@
     1328.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-10-23 02:36:44 KST",
-  "smbs_rate_error": "RuntimeError: 서울외국환중개 페이지에서 USD 매매기준율을 찾지 못했습니다."
+  "rate_job_checked_at_kst": "2026-10-23 05:49:32 KST"
 }

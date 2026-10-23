@@ -1,17 +1,29 @@
 {
-  "updated_at_kst": "2026-10-23 09:00 KST",
-  "current_rate": 1326.9,
-  "previous_close": 1322.76,
-  "rate_updated_at_kst": "2026-10-23 05:49:46 KST",
+  "updated_at_kst": "2026-10-23 13:41 KST",
+  "current_rate": 1325.2,
+  "previous_close": 1324.67,
+  "rate_updated_at_kst": "2026-10-23 13:41:17 KST",
   "rate_source": "KB STAR FX Market Watch",
-  "market_bias": "혼조",
+  "market_bias": "상승 우세",
   "drivers": [
+    "연준의 추가 금리 인상 또는 매파적 기조 우려가 부각돼 달러 강세 압력이 높아지는 요인으로 작용하고 있습니다.",
     "미국 고용 관련 최신 기사(\"US weekly jobless claims near 57-year lows, underscore labor market stability\")가 확인돼 고용지표가 연준 금리 기대와 달러 방향성을 좌우하는 변수로 부각되고 있습니다.",
-    "미국 물가 관련 최신 기사(\"TSX futures fall as inflation fears, tech selloff dent sentiment\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
-    "유가·지정학 관련 최신 기사(\"Rupee snaps eight-day rally as oil climbs to highest since May\")가 확인돼 원화 변동성 확대 요인으로 작용하고 있습니다."
+    "외환시장 관련 최신 기사(\"Yen shines as AI jitters spur safe-haven rush\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다."
   ],
-  "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
+  "outlook": "달러 강세·금리 상승 계열의 재료가 상대적으로 우세해 원/달러는 단기 상승 압력이 나타날 수 있으나, 국내 수급과 위험선호 회복 여부에 따라 변동성이 예상됩니다.",
   "articles": [
+    {
+      "title": "Yen shines as AI jitters spur safe-haven rush",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNRU4zMGRzLXpsS3VUeXg0YlJGV1NNYnZCUTZaOVJhSm5KQkUxcExfVEZ0cmsyUkFHX2JubWJKV3RwVkpVd3dodmFLcHV2YU83S1JQSGF4YzlnOUdldHBHeks2bFpZLVJBVGhDeGxONTd1S05KSkxTZlhqYWFqZXA3bmloWDhhVEdQa3dpcllLbk16eURmMzhpUzJueE9vZw?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-10-23 11:08 KST"
+    },
+    {
+      "title": "Asian shares wobble as tech rout boosts bonds, dents rate hike bets",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQMG5uTk9BQ2lzbUtHT1k4Nlp4RlRCcXFvVXR5YUhCamhubGQ1SlB0c2FYczVLdl9ESzJBRzdkNmVuYU1ISVc2MndXWnBZTzBDNFdzeHBEQTNPTGU2SGhBTmtKM3Z1SWUxR2szN20yYWIySGIzUXlZcXVhdGNtTlJNMGN1WQ?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-10-23 10:50 KST"
+    },
     {
       "title": "US weekly jobless claims near 57-year lows, underscore labor market stability",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPY1lNaWxpcFZmNGx5cEFsQ25QUUNuM0ZkVzJXaGdxdDRFdXNpNGVyYlhhV3JLcnpoMHJKLTZhMWduY0hQYXFPM2xBRjl5TF8xaXAyNU40UUtnTl94TDl3eUVjSHlleXBtenZHVDNpUmw5LUxRMDJNNzF2VVlxYmVodVpWUE5PWEdtVHRSZmdzR2w?oc=5",
@@ -19,44 +31,25 @@
       "seen": "2026-10-23 00:50 KST"
     },
     {
-      "title": "TSX futures fall as inflation fears, tech selloff dent sentiment",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQcDctZl9BbnFBa3pSdnlpNkNYUV9ENzJZZjVITGNWZ1QxUDN3bl9nMTA5QlZKV3JjOGJzdG8xZ29zQ0JWcHV1WVNFNHBLVFBHUlAyZTFjZnZ2ZnBLRWcwSmJ4NWhXcWhhYkUtMHdqYkZCemZnWGlEaE1rTy1CQ1ZIQzhBMHpZU1NaQjRZQ2hVREVTdURKNVN5WlNZWUdVbkRqSV9jSGJhT2w?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-10-22 19:29 KST"
-    },
-    {
       "title": "COMMENTARY: Surging sterling shakes off Britain's budget blues",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPRHVLWGNYWHM4MEpBbVZqbDFtbUh0R3ozS2dzNmlBVjB5WWhLWk9XZ1BwbTJMakRhQU9GVEJQNTRzbC13dlhpcXdFVnEzaksyZG42MnpXOWJIS094ZFNBT0ozRzM4cGI2VnpyX0N2R0JpOGJZeHNBNHlPTlJDeF9tQ1ZYYlJzdVZsZTZYRW9aZWFBdEdCVWlKV21VWjhmbzJPQmF1Skp5WHJwYzd6Z0tQX2MxbFdrbFFBWFE?oc=5",
       "domain": "Reuters",
       "seen": "2026-10-22 15:01 KST"
-    },
-    {
-      "title": "Rupee snaps eight-day rally as oil climbs to highest since May",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPOVNZbG9QbzVrUDFGaTZHVkJwZ0cyZHRYa0RwQjlwU0xQXzYtc1hDaHZCMjhuLU5nS0o5Uk1BamlZSlB0T0dYU1Y5U1FTRU1YQ2lLNlQyOUF3THZRSElCX0prb1ZrUzZQNm5vUGhnMVo5QVl6NkdyekloV2JIbjl1VWhLWTBrdDV6Yjc5d0x5cFFRWmYxX2RXcVhJTkhrQWpNaE1DbWlHaVU?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-10-22 12:03 KST"
-    },
-    {
-      "title": "Yen jumps as oil, AI and France worries rattle markets",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPeE9SaFExZHZyS2plVTA2NHNkbDFpcGpBSVVhc3J2NmZrRmtMRW1uY0FUU0JDMGtFQncxcnB3bUlFY21oa3V2VTZtOWsxcEVrWFhfOWZOd2oxY09XaWtpQ2ltWnE2NFFTYmg0OVNhaHJLVFdocG9NdGh1N3hjVzRPZUJlVW8wRFU3N24zR0tZbjk2bkNGVFhXaE1qbw?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-10-22 11:10 KST"
     }
   ],
-  "rate_source_time": "2026-10-23 05:49:46 KST",
+  "rate_source_time": "2026-10-23 13:41:17 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 4.14,
-  "rate_change_pct": 0.49,
+  "rate_change": 0.53,
+  "rate_change_pct": 0.06,
   "smbs_base_rate": 1324.6,
   "smbs_rate_date": "2026-10-23",
-  "smbs_rate_updated_at_kst": "2026-10-23 08:58:27 KST",
+  "smbs_rate_updated_at_kst": "2026-10-23 13:41:03 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
-    1318.0,
-    1328.0
+    1320.0,
+    1334.0
   ],
-  "rate_check_status": "failed",
-  "rate_job_checked_at_kst": "2026-10-23 08:58:27 KST",
-  "rate_fetch_error": "RuntimeError: KB STAR FX 자동조회 3회 실패: TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n | TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n | TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://fx.kbstar.com/\", waiting until \"commit\"\n"
+  "rate_check_status": "success",
+  "rate_job_checked_at_kst": "2026-10-23 13:41:03 KST"
 }

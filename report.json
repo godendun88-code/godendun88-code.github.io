@@ -1,36 +1,61 @@
 {
-  "updated_at_kst": "2026-10-24 04:10 KST",
+  "updated_at_kst": "2026-10-24 07:43 KST",
   "current_rate": 1326.2,
   "previous_close": 1325.14,
-  "rate_updated_at_kst": "2026-10-24 04:09:48 KST",
+  "rate_updated_at_kst": "2026-10-24 07:43:36 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
-    "글로벌 달러 강세 관련 보도가 이어지며 원/달러 환율에는 상승 압력으로 작용하고 있습니다.",
-    "유가·지정학 관련 최신 기사(\"Tech selloff relents, oil at five-month high\")가 확인돼 원화 변동성 확대 요인으로 작용하고 있습니다."
+    "연준·금리 관련 최신 기사(\"Wall St Week Ahead Earnings flood, Fed meeting pose pivotal tests for rickety AI market rally\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
+    "국제유가 하락이 한국의 수입물가 부담을 낮추는 방향으로 작용해 원화에는 상대적으로 우호적인 요인입니다.",
+    "외환시장 관련 최신 기사(\"Global equity funds attract inflows for a fifth consecutive week\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
     {
-      "title": "Euro set for weekly drop against dollar, yen as France concerns resurface",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNRU4zMGRzLXpsS3VUeXg0YlJGV1NNYnZCUTZaOVJhSm5KQkUxcExfVEZ0cmsyUkFHX2JubWJKV3RwVkpVd3dodmFLcHV2YU83S1JQSGF4YzlnOUdldHBHeks2bFpZLVJBVGhDeGxONTd1S05KSkxTZlhqYWFqZXA3bmloWDhhVEdQa3dpcllLbk16eURmMzhpUzJueE9vZw?oc=5",
+      "title": "India's Bharat Petroleum profit drops amid crude oil price volatility",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQcVdwV1JLUVdlRmdFcGNlOFFfZlZaVEEzRWxVMTM2YTV5SmJ0TENiZURHbkJZdEcyd3lybVE3NGFvbnk5ZUFNN0RNMENoVVE3TVhEbkxpcko2aTNfUVRnZU9wY1RCay1yZUhyaUNVRlYxdng3RGc0STA0cnZqTVJtbzZsVnNicnRjaGZPNVJrM21FcVlvMjZGSUJoaU9UZS1SeTRwanJCNmMxQUg1UHdrczRhRl9oZzNkaDVVSg?oc=5",
       "domain": "Reuters",
-      "seen": "2026-10-23 11:08 KST"
+      "seen": "2026-10-23 23:37 KST"
     },
     {
-      "title": "Tech selloff relents, oil at five-month high",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQMG5uTk9BQ2lzbUtHT1k4Nlp4RlRCcXFvVXR5YUhCamhubGQ1SlB0c2FYczVLdl9ESzJBRzdkNmVuYU1ISVc2MndXWnBZTzBDNFdzeHBEQTNPTGU2SGhBTmtKM3Z1SWUxR2szN20yYWIySGIzUXlZcXVhdGNtTlJNMGN1WQ?oc=5",
+      "title": "Russian ESPO oil sellers seek record premiums as Gulf exports uncertain",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNRFdMeDFRZldDUmNTY1oyRGViTC1HOVdsZEhFdE9ORFk2Mkt1eHN0OGpaY2QzeFpHdThqaW5oRUZOLVRlM1VxOVZHWDQ0WlRvWk85Nzd0Q0lnRDdNbndUWFQ5M0JKb09sc01ha3VzaU9WQktuYU1Qa3BCRHc4a3lnQVI5ZExfTmIwTEVrWExkcUFhY2l1c3BlQXU4aTZfMDBZemVxRWQ5LWM5ekt3ZGd4ZjhqQ1Z5MXZzeFR0Xw?oc=5",
       "domain": "Reuters",
-      "seen": "2026-10-23 10:50 KST"
+      "seen": "2026-10-23 20:59 KST"
+    },
+    {
+      "title": "Global equity funds attract inflows for a fifth consecutive week",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxONVpHN2NZbGE3T3lmQjQ1V3VzaDFSWlB5YjlxRUdGY0xWbFZZRkhWQm80MGswN29Lcnhfa3pGRTN3eFBiQzkzV2JWZFMyWjlteG45QkRfSTFOcEI5dml1T0tBZGNDR3dfWkZZODNMNUxRNFhMbC1NQWYwc0RDdkRwck5SbXBocUNyR01J?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-10-23 20:14 KST"
+    },
+    {
+      "title": "Saudi Aramco tells staff to evacuate Dhahran as clashes with Yemen's Houthis continue",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSGNWYThfTTlBMk0yXzZJMVdvRkp2NDRwOEItSlJxRjN3NE5nVmRMbFkybld2UUFLWHFzel8zTEVMMUt4T3A3QUxMN0dObTR6WHMwOHUwYmh2RGJYX1hIOFBSb1ppQ0VIUW0xdTFzTHB2NENTTElkMTRqOHBVWGFoejRhb3dhclZtS09kNkZra055RUlyVm82M1ZpNmhHZWctLUtfelg5blVrbW5aVHhpSzBvVmsyNVZm?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-10-23 19:44 KST"
+    },
+    {
+      "title": "Wall St Week Ahead Earnings flood, Fed meeting pose pivotal tests for rickety AI market rally",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPR3FjeUJFd2Z6ZFBxOEFlLUx4anZlN1BqeFkxQ1pFcTdXTENYc0tMdW9RbjJ1Vk91Y2tmSXVoRDFCTmZoQ2cxN3BaSlFfTXplZUNZTFIzVmR3OTVmUVYzWnBXVkxRNXAtOEpBSUpIVjlBMnJ6cVViYnFSSHZoaC1CbkR5TnBzZndWNEo5aFlkWTVKY0hSYzRuOTlzUjYwcGlrcFJKQXhlbmFOMHNWLTRiRHZaM21fWEF1SDl1Mg?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-10-23 19:07 KST"
+    },
+    {
+      "title": "Brent crude jumps to highest since April on Houthi attacks, UAE oil spill",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPR2dZUC10TmJYRUk2RmM5WWpxaUx2XzBPZ0ZTV3hIR3BkaGFvZ3B2T1hhd0xEcXZOWk5LdXhLLUF5QU9XdTRQdnRyTk9jcmVNMEZvZlZBRW8xcG1TVW1fTkY2UnFrcXlVWlUwbDhRYk9pcW1fdEdzMVNRR2ZhYVl2T0RZa09uZTktZGFWRVRWSEpGeFhYVXVPR09zNDVaTVdiNDdRRHg3VFNyZWNNWVBmdkxGMWFOa05yN2NBRnRVZjF3eF9i?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-10-23 10:04 KST"
     }
   ],
-  "rate_source_time": "2026-10-24 04:09:48 KST",
+  "rate_source_time": "2026-10-24 07:43:36 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": 1.06,
   "rate_change_pct": 0.13,
   "smbs_base_rate": 1324.6,
   "smbs_rate_date": "2026-10-24",
-  "smbs_rate_updated_at_kst": "2026-10-24 04:09:31 KST",
+  "smbs_rate_updated_at_kst": "2026-10-24 07:43:24 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -38,5 +63,5 @@
     1334.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-10-24 04:09:31 KST"
+  "rate_job_checked_at_kst": "2026-10-24 07:43:24 KST"
 }

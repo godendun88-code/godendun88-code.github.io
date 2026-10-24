@@ -1,13 +1,12 @@
 {
-  "updated_at_kst": "2026-10-24 19:52 KST",
+  "updated_at_kst": "2026-10-24 23:29 KST",
   "current_rate": 1326.2,
   "previous_close": 1325.14,
-  "rate_updated_at_kst": "2026-10-24 19:52:04 KST",
+  "rate_updated_at_kst": "2026-10-24 23:29:01 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
-    "외환시장 관련 최신 기사(\"COMMENTARY: How Trump's energy dominance turned into hubris\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다.",
-    "외환시장 관련 최신 기사(\"Global equity funds attract inflows for a fifth consecutive week\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다."
+    "외환시장 관련 최신 기사(\"COMMENTARY: How Trump's energy dominance turned into hubris\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
@@ -16,21 +15,15 @@
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQekgyR1FuVEk3cnpGRGlzWVFSTmZPT2gteXQ0UHk2M0hiUDJ2MnFJbjIzYjdhbzZfa3pPNDlVcWJhRjVRWlVPVFlJZC1FOFE2UHBDWTNzOGlmdHR2Z1NVN1lYdFNBU2haMVRGTlUwOE1OTENUUHl2bGo2R2d4RXRTdlQ2WTRuNm9adGU4TnE4alVleS11OHNmU20tOHVYMEdPQndUa19NazhxVHlfNkdMMk5SZG5mRjAtY2kycmd5TQ?oc=5",
       "domain": "Reuters",
       "seen": "2026-10-24 15:00 KST"
-    },
-    {
-      "title": "Global equity funds attract inflows for a fifth consecutive week",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxONVpHN2NZbGE3T3lmQjQ1V3VzaDFSWlB5YjlxRUdGY0xWbFZZRkhWQm80MGswN29Lcnhfa3pGRTN3eFBiQzkzV2JWZFMyWjlteG45QkRfSTFOcEI5dml1T0tBZGNDR3dfWkZZODNMNUxRNFhMbC1NQWYwc0RDdkRwck5SbXBocUNyR01J?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-10-23 20:14 KST"
     }
   ],
-  "rate_source_time": "2026-10-24 19:52:04 KST",
+  "rate_source_time": "2026-10-24 23:29:01 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": 1.06,
   "rate_change_pct": 0.13,
   "smbs_base_rate": 1324.6,
   "smbs_rate_date": "2026-10-24",
-  "smbs_rate_updated_at_kst": "2026-10-24 19:51:52 KST",
+  "smbs_rate_updated_at_kst": "2026-10-24 23:28:49 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -38,5 +31,5 @@
     1334.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-10-24 19:51:52 KST"
+  "rate_job_checked_at_kst": "2026-10-24 23:28:49 KST"
 }

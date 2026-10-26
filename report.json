@@ -1,36 +1,61 @@
 {
-  "updated_at_kst": "2026-10-26 16:44 KST",
-  "current_rate": 1323.1,
+  "updated_at_kst": "2026-10-27 00:08 KST",
+  "current_rate": 1327.2,
   "previous_close": 1326.2,
-  "rate_updated_at_kst": "2026-10-26 16:44:32 KST",
+  "rate_updated_at_kst": "2026-10-27 00:08:33 KST",
   "rate_source": "KB STAR FX Market Watch",
-  "market_bias": "혼조",
+  "market_bias": "상승 우세",
   "drivers": [
-    "글로벌 달러 약세 관련 보도가 이어지며 원/달러 환율에는 하락 압력으로 작용하고 있습니다.",
-    "달러 관련 최신 기사(\"Currency markets subdued ahead of busy central bank week\")가 확인돼 달러인덱스 방향성이 원/달러 환율의 핵심 변수로 작용하고 있습니다."
+    "연준의 추가 금리 인상 또는 매파적 기조 우려가 부각돼 달러 강세 압력이 높아지는 요인으로 작용하고 있습니다.",
+    "미국 물가 상승 압력이 다시 부각되며 연준의 매파적 금리 경로 우려가 커져 달러 강세 요인으로 작용하고 있습니다.",
+    "글로벌 달러 약세 관련 보도가 이어지며 원/달러 환율에는 하락 압력으로 작용하고 있습니다."
   ],
-  "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
+  "outlook": "달러 강세·금리 상승 계열의 재료가 상대적으로 우세해 원/달러는 단기 상승 압력이 나타날 수 있으나, 국내 수급과 위험선호 회복 여부에 따라 변동성이 예상됩니다.",
   "articles": [
     {
-      "title": "Rupee weakens on importers' dollar payments, modest buildup in long dollar positions",
+      "title": "TSX futures tick higher as gold climbs, oil falls on Iran hopes",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOaS1BdGdIUmFzU0ljYWNNT0tlZ1o4T1RXZmJCTGIxVXRVOS1zbFVTYXk0LTE2N0gzcFlTMDFzTGl5VlIxRkFwSU93em5ENzZDTkd5Mk1hV3E4cS1KU1lnV0pEX3diTTJDSk5tUlVraVAyMFpsXzY0d2hxMGIxaEJYMTVjUEFBT0lNQk5oN3FZSDhfUmNodmlVQ1hDMFE1SnlaajdJ?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-10-26 19:32 KST"
+    },
+    {
+      "title": "Fed to hit pause on rate hikes, but maybe not for long",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMFBxcEVKT0RxYVJKYWZGOUlGd0VJTE5vN2lNTnozcm92NTV5Vzg3aVdhT2p3eGpoVlZlZ19aaGtPa0s2VzBsS2xuamdkTnU4X2dhNGRzYjlaVTFpVzdLSkg4TDRlQThPdnZOandxOE1wV0o0WDFCcDgtbEZIQmR0a3BFOWdIM1dPZGdmQQ?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-10-26 19:22 KST"
+    },
+    {
+      "title": "Gold rises as lower oil prices ease inflation fears ahead of Fed meeting",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZml1aC0yS2NrLUloeEFPZnYyeExpazhPVExTT1BLcV9HZGxEZWFzcHFUMTJFbDhUTjgyaE5EbGRja1BRX0p2UzlDSmEzUUpzTG9ZT2xKZEZMczFvb1pzU2xrdXlNT0dDUXYtQnhoLUFpT09xQmF5Q25FQXdKNGpjOERVdTB1UTk4NkhSd2k3cUNBSTJRMVVsUlpSWQ?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-10-26 14:56 KST"
+    },
+    {
+      "title": "China's yuan climbs to fresh 4-year high ahead of key policy meetings",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNejByVmM2THNYYzJfa2VuNXZEMW9KUjBhR1hfa0dMV1RidjZLYmh6OC1QazNKejhkd3poZ2lfbGZhQ2VjdWdXVGx3N1hOR0NXWnFDQ0VlMEZlUWVFSS1wekJLZ2FHR0dUamg4TzNHaGdoY2RKNDlTdFdoR2cyVHY3MWZDX1NFT0dreEVzazhzOTFyQlFYQVdoSFprU0huUk9yc2ZLOEthOHlhUExOZHp3akZCY0MtWWhv?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-10-26 12:39 KST"
+    },
+    {
+      "title": "Rupee weakens for third session as importers step up dollar bids, foreign outflows bite",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPNzNSakVvaTFJdVVXTkhsSDA3T0doSVJfVXIzaU9oNEY4RjRDNUxSbjJpZ2RuUGE4VkV4Vm9XRGdidEFUZkJyRXpsRmR6YWROSlRxajdpUDItNi12TV9HaHFhVXZxVFpGMUppdVRFckZIYnZSc0VoalRDeVpUX1BKR1lsN1NiWmFxRGliR2FidktEaHQwU2x5bzA1ejlvd0s3cFMtYmpJTWZaTm4yM1E?oc=5",
       "domain": "Reuters",
       "seen": "2026-10-26 12:02 KST"
     },
     {
-      "title": "Currency markets subdued ahead of busy central bank week",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQWlRGQXNlMDJDS0ZlQnJqVlI0Q3FOUUhyZmpfcUY2TDJNOTA5a0NDMEc5QWpKZ3NrQlZ0QWJSMERlU2wzQlFxcWF0OVFRVlNOSUYydEdiaU5LaTFvVDMxTk5NWTF6NVVFZEdRcW8tOHpZRnlmWDhiRnV3QlllYnVtVldqTGllWmY2RnF1MWVlMFRBT0xWbHliN3pWM3NhQnNzRV80ZHJ5T0M?oc=5",
+      "title": "Israel markets see upside in potential Netanyahu defeat after three-year rally",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNVXJIajdRV1c5bHF6T191cVFwTWxIUjhibThXYWJUQ3J4LWctRFR3THZpQ09OcG9adG93MTJPdHdxb1psaVpvU2RhMzNwR00wNm91RlozRW9QRHFLYXg4aW8ybzRDUWc3c1pXRng2RU02bmp1bVhld3hBMmViUW9CRy1MS0x3TUJCTm4yZUVERVVQcXhmandmTVVabzExTnRwQmowZmQwa2cxRktqWWF5UTNIY282QWFXOXZZ?oc=5",
       "domain": "Reuters",
-      "seen": "2026-10-26 11:02 KST"
+      "seen": "2026-10-26 12:01 KST"
     }
   ],
-  "rate_source_time": "2026-10-26 16:44:32 KST",
+  "rate_source_time": "2026-10-27 00:08:33 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": -3.1,
-  "rate_change_pct": -0.23,
-  "smbs_base_rate": 1324.3,
-  "smbs_rate_date": "2026-10-26",
-  "smbs_rate_updated_at_kst": "2026-10-26 16:44:18 KST",
+  "rate_change": 1.0,
+  "rate_change_pct": 0.08,
+  "smbs_base_rate": 1322.6,
+  "smbs_rate_date": "2026-10-27",
+  "smbs_rate_updated_at_kst": "2026-10-27 00:08:18 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -38,5 +63,5 @@
     1330.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-10-26 16:44:18 KST"
+  "rate_job_checked_at_kst": "2026-10-27 00:08:18 KST"
 }

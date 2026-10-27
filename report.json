@@ -1,55 +1,55 @@
 {
-  "updated_at_kst": "2026-10-27 09:24 KST",
-  "current_rate": 1323.7,
+  "updated_at_kst": "2026-10-27 14:34 KST",
+  "current_rate": 1323.8,
   "previous_close": 1327.2,
-  "rate_updated_at_kst": "2026-10-27 09:23:47 KST",
+  "rate_updated_at_kst": "2026-10-27 14:33:59 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
+    "연준·금리 관련 최신 기사(\"Indian shares seen lower as oil stays near six-month high, Fed in focus\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
     "미국 물가 상승 압력이 다시 부각되며 연준의 매파적 금리 경로 우려가 커져 달러 강세 요인으로 작용하고 있습니다.",
-    "글로벌 달러 약세 관련 보도가 이어지며 원/달러 환율에는 하락 압력으로 작용하고 있습니다.",
-    "외환시장 관련 최신 기사(\"China's yuan climbs to fresh 4-year high ahead of key policy meetings\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다."
+    "미 국채금리 관련 최신 기사(\"Bond market is a buy right now, JP Morgan Asset Management's fixed income head says\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
+    {
+      "title": "Rupee's oil-linked losses meet key hurdle, RBI defence in focus",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdExOUm5MeUdBandMV1pOZ1NLWVJmVzBNLWVxanItNkhBVXZrdy1vMV9UdG02dGVvNTBiRmJ4UFRYWUkyZlM5TzRGYURJYVduRHlZLVpQM2xGcDJEemtfM253OG1mWEVwaU5sRXkxN1NDbTBLcHVHbkgyNC1jZ2tGRURPQWlXQnQwR01KMWV6VDE0MURETTFxREFHYk1SMUJsYkV0N0YxUWRkZw?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-10-27 11:56 KST"
+    },
+    {
+      "title": "Bond market is a buy right now, JP Morgan Asset Management's fixed income head says",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPc3VRRFNCaDlHTDliTGZNZ0RPWldLbXpjeWljeVducGNXVTd4VVBoRy1VaVVNX0RlLUM2UFpJQW5wUlMyMmxLZHhiSXkwZXlXU25NekNoMmx3b0hlVjF1RDNSck9GU3VHaFdCYU13OV8xaVVmRWJFbWpsX211VkkwLXBISG9XVG9UdVlCdXVQSlp0OEdpbVc2aENGdXFoQkp4R1dLU0gyc1ZGcGNCeXJabkF6bWpFZkloaU1tZXhheHB6dmVC?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-10-27 11:43 KST"
+    },
+    {
+      "title": "Indian shares seen lower as oil stays near six-month high, Fed in focus",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPcms4SkRwSDBJVER3QkV1VmoyX1pvTUlrcjRpSk4xSmNLNFZYNjh3Vi1LMGNfUnZPYnVscDdQZl9Xa0d4SHhKM1lDLXItNWh0aWMxNThJeVpMOEsxWXYwNUVXSWMtVWZRZjRRQlFUYk9tRUZxRUR1MWo0QUdPVE9TdzFnWDk0Qzd3NDZfYml4cGdSenVORGpfUTB6RTMyRV9BRmowWERaeWdsSFVLUU0zdFl3?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-10-27 11:28 KST"
+    },
+    {
+      "title": "US growth boosted by AI, but no sign of a turning point higher",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQWJDYTAzYXBReXFpWXVtczNMSktHdnZTRzl3QktrREpMbTgzR3B2OTdqRUo4bjlBb0Y5ZDl0ZXd1TnRYY0RwMmlEMExselZFQUZtNURZQ242S1dXdnRPT2JHbmhnWGxLeVpPNFlkb0JsM0ZYRjZTOENFUVZFWVVENTk3dC1BdFlSOVNMYUsxNWNCZFdJNk0wRVF1UU9nZw?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-10-26 19:05 KST"
+    },
     {
       "title": "Gold rises as lower oil prices ease inflation fears ahead of Fed meeting",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZml1aC0yS2NrLUloeEFPZnYyeExpazhPVExTT1BLcV9HZGxEZWFzcHFUMTJFbDhUTjgyaE5EbGRja1BRX0p2UzlDSmEzUUpzTG9ZT2xKZEZMczFvb1pzU2xrdXlNT0dDUXYtQnhoLUFpT09xQmF5Q25FQXdKNGpjOERVdTB1UTk4NkhSd2k3cUNBSTJRMVVsUlpSWQ?oc=5",
       "domain": "Reuters",
       "seen": "2026-10-26 14:56 KST"
-    },
-    {
-      "title": "China's yuan climbs to fresh 4-year high ahead of key policy meetings",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNejByVmM2THNYYzJfa2VuNXZEMW9KUjBhR1hfa0dMV1RidjZLYmh6OC1QazNKejhkd3poZ2lfbGZhQ2VjdWdXVGx3N1hOR0NXWnFDQ0VlMEZlUWVFSS1wekJLZ2FHR0dUamg4TzNHaGdoY2RKNDlTdFdoR2cyVHY3MWZDX1NFT0dreEVzazhzOTFyQlFYQVdoSFprU0huUk9yc2ZLOEthOHlhUExOZHp3akZCY0MtWWhv?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-10-26 12:39 KST"
-    },
-    {
-      "title": "Rupee weakens for third session as importers step up dollar bids, foreign outflows bite",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPNzNSakVvaTFJdVVXTkhsSDA3T0doSVJfVXIzaU9oNEY4RjRDNUxSbjJpZ2RuUGE4VkV4Vm9XRGdidEFUZkJyRXpsRmR6YWROSlRxajdpUDItNi12TV9HaHFhVXZxVFpGMUppdVRFckZIYnZSc0VoalRDeVpUX1BKR1lsN1NiWmFxRGliR2FidktEaHQwU2x5bzA1ejlvd0s3cFMtYmpJTWZaTm4yM1E?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-10-26 12:02 KST"
-    },
-    {
-      "title": "Israel markets see upside in potential Netanyahu defeat after three-year rally",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNVXJIajdRV1c5bHF6T191cVFwTWxIUjhibThXYWJUQ3J4LWctRFR3THZpQ09OcG9adG93MTJPdHdxb1psaVpvU2RhMzNwR00wNm91RlozRW9QRHFLYXg4aW8ybzRDUWc3c1pXRng2RU02bmp1bVhld3hBMmViUW9CRy1MS0x3TUJCTm4yZUVERVVQcXhmandmTVVabzExTnRwQmowZmQwa2cxRktqWWF5UTNIY282QWFXOXZZ?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-10-26 12:01 KST"
-    },
-    {
-      "title": "World stocks gain ahead of 'formidable' week for risk; oil prices fall",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE90MHowUDNReVJUUkkxWEZhTnAyYnZZNGNXQjJPVWt0QjgtaERfUHM4bERQd2k2NW5kMXR5dld0NHpsYnBhOENieXU1VU9saFBya202TXRjUktMa0l6OXF0OEZFUDdxR3FtSTdCLUxRVGpZNnBndExIcGVEZmtXZw?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-10-26 09:46 KST"
     }
   ],
-  "rate_source_time": "2026-10-27 09:23:47 KST",
+  "rate_source_time": "2026-10-27 14:33:59 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": -3.5,
+  "rate_change": -3.4,
   "rate_change_pct": -0.26,
   "smbs_base_rate": 1322.6,
   "smbs_rate_date": "2026-10-27",
-  "smbs_rate_updated_at_kst": "2026-10-27 09:23:33 KST",
+  "smbs_rate_updated_at_kst": "2026-10-27 14:33:46 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -57,5 +57,5 @@
     1328.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-10-27 09:23:33 KST"
+  "rate_job_checked_at_kst": "2026-10-27 14:33:46 KST"
 }

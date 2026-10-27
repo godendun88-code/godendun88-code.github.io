@@ -1,23 +1,17 @@
 {
-  "updated_at_kst": "2026-10-27 05:44 KST",
-  "current_rate": 1327.2,
-  "previous_close": 1326.2,
-  "rate_updated_at_kst": "2026-10-27 05:44:40 KST",
+  "updated_at_kst": "2026-10-27 09:24 KST",
+  "current_rate": 1323.7,
+  "previous_close": 1327.2,
+  "rate_updated_at_kst": "2026-10-27 09:23:47 KST",
   "rate_source": "KB STAR FX Market Watch",
-  "market_bias": "상승 우세",
+  "market_bias": "혼조",
   "drivers": [
-    "연준의 추가 금리 인상 또는 매파적 기조 우려가 부각돼 달러 강세 압력이 높아지는 요인으로 작용하고 있습니다.",
     "미국 물가 상승 압력이 다시 부각되며 연준의 매파적 금리 경로 우려가 커져 달러 강세 요인으로 작용하고 있습니다.",
-    "글로벌 달러 약세 관련 보도가 이어지며 원/달러 환율에는 하락 압력으로 작용하고 있습니다."
+    "글로벌 달러 약세 관련 보도가 이어지며 원/달러 환율에는 하락 압력으로 작용하고 있습니다.",
+    "외환시장 관련 최신 기사(\"China's yuan climbs to fresh 4-year high ahead of key policy meetings\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다."
   ],
-  "outlook": "달러 강세·금리 상승 계열의 재료가 상대적으로 우세해 원/달러는 단기 상승 압력이 나타날 수 있으나, 국내 수급과 위험선호 회복 여부에 따라 변동성이 예상됩니다.",
+  "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
-    {
-      "title": "Fed to hit pause on rate hikes, but maybe not for long",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMFBxcEVKT0RxYVJKYWZGOUlGd0VJTE5vN2lNTnozcm92NTV5Vzg3aVdhT2p3eGpoVlZlZ19aaGtPa0s2VzBsS2xuamdkTnU4X2dhNGRzYjlaVTFpVzdLSkg4TDRlQThPdnZOandxOE1wV0o0WDFCcDgtbEZIQmR0a3BFOWdIM1dPZGdmQQ?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-10-26 19:22 KST"
-    },
     {
       "title": "Gold rises as lower oil prices ease inflation fears ahead of Fed meeting",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZml1aC0yS2NrLUloeEFPZnYyeExpazhPVExTT1BLcV9HZGxEZWFzcHFUMTJFbDhUTjgyaE5EbGRja1BRX0p2UzlDSmEzUUpzTG9ZT2xKZEZMczFvb1pzU2xrdXlNT0dDUXYtQnhoLUFpT09xQmF5Q25FQXdKNGpjOERVdTB1UTk4NkhSd2k3cUNBSTJRMVVsUlpSWQ?oc=5",
@@ -43,25 +37,25 @@
       "seen": "2026-10-26 12:01 KST"
     },
     {
-      "title": "World stocks gain ahead of 'formidable' week for risk; oil prices ease",
+      "title": "World stocks gain ahead of 'formidable' week for risk; oil prices fall",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE90MHowUDNReVJUUkkxWEZhTnAyYnZZNGNXQjJPVWt0QjgtaERfUHM4bERQd2k2NW5kMXR5dld0NHpsYnBhOENieXU1VU9saFBya202TXRjUktMa0l6OXF0OEZFUDdxR3FtSTdCLUxRVGpZNnBndExIcGVEZmtXZw?oc=5",
       "domain": "Reuters",
       "seen": "2026-10-26 09:46 KST"
     }
   ],
-  "rate_source_time": "2026-10-27 05:44:40 KST",
+  "rate_source_time": "2026-10-27 09:23:47 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 1.0,
-  "rate_change_pct": 0.08,
+  "rate_change": -3.5,
+  "rate_change_pct": -0.26,
   "smbs_base_rate": 1322.6,
   "smbs_rate_date": "2026-10-27",
-  "smbs_rate_updated_at_kst": "2026-10-27 05:44:25 KST",
+  "smbs_rate_updated_at_kst": "2026-10-27 09:23:33 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
     1320.0,
-    1330.0
+    1328.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-10-27 05:44:25 KST"
+  "rate_job_checked_at_kst": "2026-10-27 09:23:33 KST"
 }

@@ -1,17 +1,29 @@
 {
-  "updated_at_kst": "2026-10-28 01:33 KST",
+  "updated_at_kst": "2026-10-28 05:57 KST",
   "current_rate": 1326.8,
   "previous_close": 1326.42,
-  "rate_updated_at_kst": "2026-10-28 01:33:13 KST",
+  "rate_updated_at_kst": "2026-10-28 05:57:14 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
     "연준·금리 관련 최신 기사(\"Bond investors are thinking less about the Fed and more about AI, deficits\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
     "미 국채금리 관련 최신 기사(\"POLL Strong dollar, high yields drag on gold outlook, but central-bank demand lends support\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다.",
-    "달러 관련 최신 기사(\"Canadian dollar steadies after posting longest daily winning streak in four years\")가 확인돼 달러인덱스 방향성이 원/달러 환율의 핵심 변수로 작용하고 있습니다."
+    "달러 관련 최신 기사(\"Indian lenders defer dollar debt sale plan as rates turn expensive\")가 확인돼 달러인덱스 방향성이 원/달러 환율의 핵심 변수로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
+    {
+      "title": "AI investment boom powers US business spending on equipment in September",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNlJmQ1NMeEVTRlJIWjMxUGJPOXNBMXRLR0VnVlBkVDQwUFlUNkFKOTRnaWFUc2U5YVhxYWF0UnBVWFVkMXd3c2Juclh5a0FnOHMzeUpaOE1NVWhfYWYtVUc2MHBzVXhESFc3RXRpcTM0R3I3V2tpcFVpSE5aTkNtaEh4LXZpRjlmMUdHcHMzWUFtdjNzY2hIbmt1WThYSUg4OGVlVA?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-10-28 01:59 KST"
+    },
+    {
+      "title": "Indian lenders defer dollar debt sale plan as rates turn expensive",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNkUzLUJyemVRc210QnRiclNlc2ZuMFJNLUZ2WmxjTWZiY19rdDNSd25xdW1NUE1zUmdIYnhoQ19pQ2thT0J4RktZaWc2UDRqRUhCQ2w2cjZYRzFFOEZmWF93X19zNm9wMlNnYmQydlE1Qlc1WjNDbkRIV2FHRDk3WEJOM2dHS1pfOFB0MXl4NXJhZExJVWJDRFM1QmNhVVJNZGZRajlOU3ctWFRnZ3lLcg?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-10-27 23:55 KST"
+    },
     {
       "title": "POLL Strong dollar, high yields drag on gold outlook, but central-bank demand lends support",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNY2N0dGg4Q1VsMUJXaTJYb1J4cjJiQjRGYS16djR0Nnh5VGVsQmFRZXctU0w3UUpfclljaFp4ZW5DVFZTLVYzTUlSWDY5Q0JsQ0JLYjF5aFJoVDBpOGhrWnkxdEZKdUtpQzNPc1kxRGdGRkdTZENtM25LLUNYNTdlMjNnMHdUcU52VVlFTkNXRUJKMDFhWEhFalptcGZvQ0FZeUl1UHF5T3Z2UmpWOUR6ekJmMnlHblRWQU1MUzFUaXZiUzA?oc=5",
@@ -22,7 +34,7 @@
       "title": "Bond investors are thinking less about the Fed and more about AI, deficits",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTVZDTFViUjF0VS1rM2FQX1ZjYmpIQncyQi1pMldoZ1N2U2JXUjIydVFJUGN1dXV4STlvYlVEM3FPSEZaSEt3Rnkxc0R5c3JrOEg2b0g2d2pUemFMbXpKNjZ6M1NabkwxcmJrbE5sdWtnU2pDd3R0X3ZkakhTNTZraUU0ejJKdDVRR0NheWhzcXBLUnU2dGxGUXFURnJZaExIM1hTRW9LWE5KbkNJN2RZ?oc=5",
       "domain": "Reuters",
-      "seen": "2026-10-27 19:09 KST"
+      "seen": "2026-10-27 19:15 KST"
     },
     {
       "title": "Gold gains on softer oil prices ahead of Fed meeting",
@@ -31,31 +43,19 @@
       "seen": "2026-10-27 14:46 KST"
     },
     {
-      "title": "Gold retreats on stronger dollar; traders brace for Fed",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQQWIyeWVhRnVBaHZfV05HanpZVFJzZDZiaC1MTEFVX0JEbWc5RVhRV3htMnJFMDNCVjBPWTJISkhha3ZWc3otaXBCTGloREJidmlqOWtXMTQ4Zks2aTA5czBzNC1OdGNuVXlqLVZ4TTk3M1VUSEZvdVdCLXV3bHJsZXBHSktGcXR0dk1wS2VYdWYxTm9ueGc?oc=5",
+      "title": "Rupee boxed in range; traders focus on oil, outflows and RBI's defence",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdExOUm5MeUdBandMV1pOZ1NLWVJmVzBNLWVxanItNkhBVXZrdy1vMV9UdG02dGVvNTBiRmJ4UFRYWUkyZlM5TzRGYURJYVduRHlZLVpQM2xGcDJEemtfM253OG1mWEVwaU5sRXkxN1NDbTBLcHVHbkgyNC1jZ2tGRURPQWlXQnQwR01KMWV6VDE0MURETTFxREFHYk1SMUJsYkV0N0YxUWRkZw?oc=5",
       "domain": "Reuters",
-      "seen": "2026-10-27 14:46 KST"
-    },
-    {
-      "title": "Bond market is a buy right now, JP Morgan Asset Management's fixed income head says",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPc3VRRFNCaDlHTDliTGZNZ0RPWldLbXpjeWljeVducGNXVTd4VVBoRy1VaVVNX0RlLUM2UFpJQW5wUlMyMmxLZHhiSXkwZXlXU25NekNoMmx3b0hlVjF1RDNSck9GU3VHaFdCYU13OV8xaVVmRWJFbWpsX211VkkwLXBISG9XVG9UdVlCdXVQSlp0OEdpbVc2aENGdXFoQkp4R1dLU0gyc1ZGcGNCeXJabkF6bWpFZkloaU1tZXhheHB6dmVC?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-10-27 11:43 KST"
-    },
-    {
-      "title": "Stocks rise and oil slips on Middle East diplomacy efforts ahead of Big Tech earnings",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQdEdzTDdxbEtNX1l6VDJMdF9NTGpUNEJPYy1jaUo2SkllaGhJZnZvNzZOOTd5MkZHV3p5T2ZhcjlkcWduOXp5elFKREQ0bFBib0pXUzNKdGI2QmE3eWZxRlktZXhSZG0tQzQ4U1dXNWxOZktiZVZvc1pNUERsYUFLVUJYSQ?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-10-27 10:46 KST"
+      "seen": "2026-10-27 11:56 KST"
     }
   ],
-  "rate_source_time": "2026-10-28 01:33:13 KST",
+  "rate_source_time": "2026-10-28 05:57:14 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": 0.38,
   "rate_change_pct": 0.04,
   "smbs_base_rate": 1324.3,
   "smbs_rate_date": "2026-10-28",
-  "smbs_rate_updated_at_kst": "2026-10-28 01:32:56 KST",
+  "smbs_rate_updated_at_kst": "2026-10-28 05:57:00 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1328.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-10-28 01:32:56 KST"
+  "rate_job_checked_at_kst": "2026-10-28 05:57:00 KST"
 }

@@ -1,17 +1,41 @@
 {
-  "updated_at_kst": "2026-10-28 15:16 KST",
-  "current_rate": 1337.2,
+  "updated_at_kst": "2026-10-28 22:30 KST",
+  "current_rate": 1341.5,
   "previous_close": 1326.8,
-  "rate_updated_at_kst": "2026-10-28 15:16:10 KST",
+  "rate_updated_at_kst": "2026-10-28 22:30:30 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
-    "연준·금리 관련 최신 기사(\"Stocks get AI lift, dollar holds steady ahead of Fed decision\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
-    "미 국채금리 관련 최신 기사(\"POLL Strong dollar, high yields drag on gold outlook, but central-bank demand lends support\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다.",
-    "달러 관련 최신 기사(\"AI worries expose dollar's hot-money problem\")가 확인돼 달러인덱스 방향성이 원/달러 환율의 핵심 변수로 작용하고 있습니다."
+    "연준·금리 관련 최신 기사(\"Gold slips on higher oil prices ahead of Fed decision\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
+    "달러 관련 최신 기사(\"AI worries expose dollar's hot-money problem\")가 확인돼 달러인덱스 방향성이 원/달러 환율의 핵심 변수로 작용하고 있습니다.",
+    "유가·지정학 관련 최신 기사(\"Breakingviews - COMMENTARY: Israel’s vote prolongs Middle East instability\")가 확인돼 원화 변동성 확대 요인으로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
+    {
+      "title": "Breakingviews - COMMENTARY: Israel’s vote prolongs Middle East instability",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOMmZCa2kyVjd4blhac0IyMml6Mk5NQ0dKdktPOC03RDJEVHdsc0J1QVF5eFVKVC1RTUZKWjNrWDcxTVk2OS1ZR0c0ZEJfb1REbWl3UU9qUVhNcDNCSS01RHUta28zajZzOUJ1c2t6ZzFzVklaN1FzWXF5Z2Z3TDFHbHVXbEVlVWFPcUtBeG96eDNyZ3ZfZEU0QWlBeHZwTTZZdUVPY3hKejlzZw?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-10-28 21:27 KST"
+    },
+    {
+      "title": "As Iran war drags on, airlines pull back on fuel hedges and warn on fares",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOSnZ2TEZjYXMwcUtkN0cxbHVHVEd5YWp2NjRUMVFPWEFweEJyQUl3alk1UllPZ2lnVDdEQ0haUFRzNjVGZllNRk1ZR0JlaXdCOG8zRjVodWpPcXBvNlVGWGJTQlBXR2JSWGxaTU5qdHZ6dlhpYUdyeUcxcTdYUWppWmduVmtIM3RvOHAtenZCY0djWUs3UXFfRk9NVFV3Um9yNWVHS1NkWUJTRzFx?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-10-28 20:08 KST"
+    },
+    {
+      "title": "Basis trade retreat spurs shift into new rate bets",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTkJfdHhiZnZ1VTVVUHU2V00wZGdQQng0a0tjVjgzTHBEejROZ1dlS3REb1ZycXo5ZjJQOVdkX050cERCZWsyNVRzTFJEZ3NaU2Q2UzdZc29ST3VjQTdnYm1CNkl0VGN1NVI1Qkl1QjBxY0tRYm9wZmYzLU5nUmtxNENxakN5VzlyaUZSN3hWbEd6OFlGR0QzakJHY3JUaDc0X2xLZGEyQnkyZw?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-10-28 19:29 KST"
+    },
+    {
+      "title": "Gold slips on higher oil prices ahead of Fed decision",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNRUczTDEtcklEQks1UTM3TlZhanpWZ19RUUVMTnkzQTFXWHpmeEF0YWVST0gzamNJNG5KVFJIcUZMOUxnZnBRMkhXYjBkaGdER1Vkc2hQWmplZmluYkQ4YWNsbkwwY0N5ZzFDQldCTDJucHRZY3lOVHdPWEt0RnJmQVprXzBoQnFEZHM3OS13cGNrRFp6MjBuMXJrVTRpcGs3UkpN?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-10-28 15:16 KST"
+    },
     {
       "title": "AI worries expose dollar's hot-money problem",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQY0NWaVVKX3pobnFkV1YzZUZicHYzOEU2M0R3NHdqZTQ0emFvQl9pQzhMZGV3dzNHckp6MldEd1Q3WjZlRnpfeUdMQTc4YnRCMldzTWJscGpYRnpPQ25JZDhoQ0VzSnlDMndZZTFuNGRlb2R3LUVGU3AxS0NkX1ozbmlhbS1ia2pFRU5hQzlra1FPLVlhU1FjQS1zRHZwUnM?oc=5",
@@ -19,43 +43,19 @@
       "seen": "2026-10-28 13:03 KST"
     },
     {
-      "title": "Indian rupee stumbles on oil strain; mild inflows and intervention cap fall",
+      "title": "Elevated oil prices keep up heat on rupee, traders await cues from Fed",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPUFhCVnlLQ015bV9hYzRXWk5mN3FxT1c0UWo3VnIwallLV0F2TXVJby1LLWZ2ZG52NkJZT0J5Y2JVLVVTS3YwWmk5UVNkVnlQU1ZBZFI5cEdKUC1kQXF6cTFOQ0tpRkQ1ODZQRDV5Tlpvb0V6V2ItaEtGcnhHdjRTUlRCQnFMVVo2M1RnaHpOQThaQmJWVDViNXdMd3hkdTA1UnpVSG94WWVUbEpab0hYSm10VjZqMG8?oc=5",
       "domain": "Reuters",
       "seen": "2026-10-28 12:04 KST"
-    },
-    {
-      "title": "Stocks get AI lift, dollar holds steady ahead of Fed decision",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZl9HX1lrU1RCazV4ZHJxc1o3YkwyUXcyWmtXUVZwUjE1X2ZWQ0tCY3hkckptWlRUbVJ5RVB4ZUd3bUtxdktMVXpsSnU2MDlzVmQ0TDhWU0ZyeE1FN1dDSzBFckpNbm1OZVJjWHRZeE1mN1RPOUJXME1UcFNpQVhmSkVRbw?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-10-28 10:40 KST"
-    },
-    {
-      "title": "Dollar steady ahead of Fed decision, kiwi slumps after RBNZ holds",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQRE96SkVILWZEWGsxdTRORUJsWlJ4YmNlclNadUxmdGpHRlNONHllVDY5eTBiZHBsbndwSEtBeDI0STFqdDhsNUxLVVhhVmZrWFdGUVFCaDNGd25VVENDcDdmT1ZUMHFFRWN2enRXeXk1ZUNfNHp5OE8wam94MktvQlNzazVNRG1Ed2lXYTFMVjNCY2JPckJRWlIyQ2ZvVzVqOEsw?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-10-28 09:22 KST"
-    },
-    {
-      "title": "POLL Strong dollar, high yields drag on gold outlook, but central-bank demand lends support",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNY2N0dGg4Q1VsMUJXaTJYb1J4cjJiQjRGYS16djR0Nnh5VGVsQmFRZXctU0w3UUpfclljaFp4ZW5DVFZTLVYzTUlSWDY5Q0JsQ0JLYjF5aFJoVDBpOGhrWnkxdEZKdUtpQzNPc1kxRGdGRkdTZENtM25LLUNYNTdlMjNnMHdUcU52VVlFTkNXRUJKMDFhWEhFalptcGZvQ0FZeUl1UHF5T3Z2UmpWOUR6ekJmMnlHblRWQU1MUzFUaXZiUzA?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-10-27 22:30 KST"
-    },
-    {
-      "title": "Bond investors are thinking less about the Fed and more about AI, deficits",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTVZDTFViUjF0VS1rM2FQX1ZjYmpIQncyQi1pMldoZ1N2U2JXUjIydVFJUGN1dXV4STlvYlVEM3FPSEZaSEt3Rnkxc0R5c3JrOEg2b0g2d2pUemFMbXpKNjZ6M1NabkwxcmJrbE5sdWtnU2pDd3R0X3ZkakhTNTZraUU0ejJKdDVRR0NheWhzcXBLUnU2dGxGUXFURnJZaExIM1hTRW9LWE5KbkNJN2RZ?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-10-27 19:09 KST"
     }
   ],
-  "rate_source_time": "2026-10-28 15:16:10 KST",
+  "rate_source_time": "2026-10-28 22:30:30 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 10.4,
-  "rate_change_pct": 0.78,
+  "rate_change": 14.7,
+  "rate_change_pct": 1.11,
   "smbs_base_rate": 1324.3,
   "smbs_rate_date": "2026-10-28",
-  "smbs_rate_updated_at_kst": "2026-10-28 15:15:54 KST",
+  "smbs_rate_updated_at_kst": "2026-10-28 22:30:14 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1330.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-10-28 15:15:54 KST"
+  "rate_job_checked_at_kst": "2026-10-28 22:30:14 KST"
 }

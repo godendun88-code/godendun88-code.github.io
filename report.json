@@ -1,8 +1,8 @@
 {
-  "updated_at_kst": "2026-10-28 05:57 KST",
-  "current_rate": 1326.8,
-  "previous_close": 1326.42,
-  "rate_updated_at_kst": "2026-10-28 05:57:14 KST",
+  "updated_at_kst": "2026-10-28 09:28 KST",
+  "current_rate": 1329.4,
+  "previous_close": 1326.8,
+  "rate_updated_at_kst": "2026-10-28 09:28:40 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
@@ -34,7 +34,7 @@
       "title": "Bond investors are thinking less about the Fed and more about AI, deficits",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTVZDTFViUjF0VS1rM2FQX1ZjYmpIQncyQi1pMldoZ1N2U2JXUjIydVFJUGN1dXV4STlvYlVEM3FPSEZaSEt3Rnkxc0R5c3JrOEg2b0g2d2pUemFMbXpKNjZ6M1NabkwxcmJrbE5sdWtnU2pDd3R0X3ZkakhTNTZraUU0ejJKdDVRR0NheWhzcXBLUnU2dGxGUXFURnJZaExIM1hTRW9LWE5KbkNJN2RZ?oc=5",
       "domain": "Reuters",
-      "seen": "2026-10-27 19:15 KST"
+      "seen": "2026-10-27 19:09 KST"
     },
     {
       "title": "Gold gains on softer oil prices ahead of Fed meeting",
@@ -49,19 +49,19 @@
       "seen": "2026-10-27 11:56 KST"
     }
   ],
-  "rate_source_time": "2026-10-28 05:57:14 KST",
+  "rate_source_time": "2026-10-28 09:28:40 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 0.38,
-  "rate_change_pct": 0.04,
+  "rate_change": 2.6,
+  "rate_change_pct": 0.2,
   "smbs_base_rate": 1324.3,
   "smbs_rate_date": "2026-10-28",
-  "smbs_rate_updated_at_kst": "2026-10-28 05:57:00 KST",
+  "smbs_rate_updated_at_kst": "2026-10-28 09:28:26 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
-    1320.0,
-    1328.0
+    1322.0,
+    1330.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-10-28 05:57:00 KST"
+  "rate_job_checked_at_kst": "2026-10-28 09:28:26 KST"
 }

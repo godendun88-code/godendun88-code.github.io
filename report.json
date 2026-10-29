@@ -1,28 +1,28 @@
 {
-  "updated_at_kst": "2026-10-30 01:53 KST",
+  "updated_at_kst": "2026-10-30 06:46 KST",
   "current_rate": 1338.5,
   "previous_close": 1336.58,
-  "rate_updated_at_kst": "2026-10-30 01:53:36 KST",
+  "rate_updated_at_kst": "2026-10-30 06:46:23 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
-    "연준·금리 관련 최신 기사(\"Fed highlights economic strength but muddies outlook for Treasuries\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
-    "외환시장 관련 최신 기사(\"Central banks take a breather, though more hikes are to come\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다.",
-    "외환시장 관련 최신 기사(\"COMMENTARY: Biggest market impact of US midterms may be 2028 countdown\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다."
+    "미 국채금리 관련 최신 기사(\"Equities and bond yields dip with AI jitters and economic data in focus\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다.",
+    "외환시장 관련 최신 기사(\"Robust consumer spending, AI-related investment power US economy in third quarter\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다.",
+    "외환시장 관련 최신 기사(\"Central banks take a breather, though more hikes are to come\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
+    {
+      "title": "Robust consumer spending, AI-related investment power US economy in third quarter",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNd0JuSzdaWWtxaGJGdW5CV0pONGc2dlpzMVJnaGl2UUIwQmtkc1FNSUVNQzhxTFRycVZ4dGpRaVlvbGdraXBWenkzY1otSno3TC1zWTlQUmFRandmM0hlSm14a1pfWTJMNjdNclo5bFlFQWt3UlpIcFlPY3RtZzBQVXhKUzVPSWMxUXZFckNVM3ZXZEU?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-10-30 05:29 KST"
+    },
     {
       "title": "Central banks take a breather, though more hikes are to come",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQV0g2T005bVN1RWZoZGN4MHc5dU5naW5rWjFTSFo1MWUzOGdueDRMMnI0WGt2aTJTZDJSaHlPc2tweUFHTXZUU3A2YjRLRFdtU0ZOWmxtNVFQeW1zc2R3ZFZ2TXU0SnJkVFVfWmc0aGc3ZVIxMzlaWFZSZTZYUU1teG5aVmY4Q3lyWEJwVVFzZUtCZzdRN2c?oc=5",
       "domain": "Reuters",
       "seen": "2026-10-29 23:38 KST"
-    },
-    {
-      "title": "COMMENTARY: Biggest market impact of US midterms may be 2028 countdown",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPTHVhbkFhSWhmem1sbmFlWG95UGRMY0g0ZFp6SVNLeFZfTTY0TUpRZENvaGpKdU8zbzJhSHZPb2ZjTXBMZGdBbWNsMGJDdXVsdzFudzQ3NUNfNm9BN1NCQmY5VmFpNlNHajVhT093a1NydjVsV1lqWFppNFVyN0RTMXpLalZicTBkdU1qRUxYbjU2WW1HMURhTGFWdUItNTJkZjFuWVhHbmVsV0Z4RGRmaFdrXzBBaERZMWtGTjc0OEtVNGpXY25TSmpPN1B2ZWFs?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-10-29 20:09 KST"
     },
     {
       "title": "TotalEnergies third-quarter profit surges on refining income",
@@ -31,31 +31,19 @@
       "seen": "2026-10-29 18:00 KST"
     },
     {
-      "title": "Fed highlights economic strength but muddies outlook for Treasuries",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPbF9GR2lXNExEVWlIMldlTk5QWXQyWTVIbHlzMnM1bTRhdUFzQ2NwQm9MYXdyaG92dlB1YTlJVW1ESG5iNmtkTDhnMG9IanBqeUJmOUQ2Sm45c3pHSzEtZ3lvZUxSRmNLc184eWhReTVvbEdhQ1AwTnF6akVFUlFyd2NJRFdIOWF6OHFISDAxZWMxOHFJcXJPRlp0RFVpZzB0MF9rNTh2TQ?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-10-29 14:04 KST"
-    },
-    {
-      "title": "ECB keeps Europe steady as 13% Google plunge fans AI jitters",
+      "title": "Equities and bond yields dip with AI jitters and economic data in focus",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNbTZuQXNrYUZEUEdVMGdDOEljdHJ1bW0zeHR6Yl9nYXp5dWd0cXU2WGk2QXVITW5xOVhlOUNVYm83QzFaRDZXcFdaZDZXa2xUd2otaXRjcmhmaWZ2aF8zVC03WFc5RkliNkhLZjk1MzhqUHBGZ3NmdmRKbF9CSklOUzhBQQ?oc=5",
       "domain": "Reuters",
       "seen": "2026-10-29 11:28 KST"
-    },
-    {
-      "title": "Instant View: FOMC holds rates steady, markets rise modestly",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNR3M1cWh6azZyTHVTWV9qanQ0LXVsVHVNRzdLeUlSbEx3aVYta0xwa3VPODBoc1JvUEZMRVNGQ045ZkZZajVCTmhzZGdPcmFOaHhJelg0OHRIMjQyZnlXemdNbU42cWFhS3dQaExlT3RtLWpiTmxlVUMtYzZ4dHhYNGdFc1FtRlJ4SUtZQlFjWUE3N2JqNUtHdHctdUFtWWZBd1E?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-10-29 04:41 KST"
     }
   ],
-  "rate_source_time": "2026-10-30 01:53:36 KST",
+  "rate_source_time": "2026-10-30 06:46:23 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": 1.92,
   "rate_change_pct": 0.11,
   "smbs_base_rate": 1335.3,
   "smbs_rate_date": "2026-10-30",
-  "smbs_rate_updated_at_kst": "2026-10-30 01:53:23 KST",
+  "smbs_rate_updated_at_kst": "2026-10-30 06:46:07 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +51,5 @@
     1350.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-10-30 01:53:23 KST"
+  "rate_job_checked_at_kst": "2026-10-30 06:46:07 KST"
 }

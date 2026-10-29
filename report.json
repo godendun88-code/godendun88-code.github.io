@@ -1,28 +1,22 @@
 {
-  "updated_at_kst": "2026-10-29 11:50 KST",
-  "current_rate": 1333.8,
-  "previous_close": 1343.1,
-  "rate_updated_at_kst": "2026-10-29 11:50:07 KST",
+  "updated_at_kst": "2026-10-29 18:52 KST",
+  "current_rate": 1338.3,
+  "previous_close": 1337.36,
+  "rate_updated_at_kst": "2026-10-29 18:51:45 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
-    "연준·금리 관련 최신 기사(\"Indian shares set for positive start after Fed holds rates steady; elevated oil weighs\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
-    "달러 관련 최신 기사(\"AI worries expose dollar's hot-money problem\")가 확인돼 달러인덱스 방향성이 원/달러 환율의 핵심 변수로 작용하고 있습니다.",
-    "유가·지정학 관련 최신 기사(\"NEWSLETTER: Reading Gulf anxiety in the oil price\")가 확인돼 원화 변동성 확대 요인으로 작용하고 있습니다."
+    "연준·금리 관련 최신 기사(\"Reliance, IT lead Indian shares higher; Fed holds rates steady as expected\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
+    "유가·지정학 관련 최신 기사(\"NEWSLETTER: Reading Gulf anxiety in the oil price\")가 확인돼 원화 변동성 확대 요인으로 작용하고 있습니다.",
+    "외환시장 관련 최신 기사(\"Instant View: FOMC holds rates steady, markets rise modestly\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
     {
-      "title": "Indian shares set for positive start after Fed holds rates steady; elevated oil weighs",
+      "title": "Reliance, IT lead Indian shares higher; Fed holds rates steady as expected",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPNHNOY0FUMC13dm8yaFFmRldOSzhIUkZnZGxNT1RidTVlSEN2dUZOODk0QmQ4dGY0cjBObExKUHRsTjFTbTV5dDdIcS1MN1IzRHB5R1d3c0RlR1pqMHJGLW14b1NFMXVjLUI4MnMyY2RJa2U3dTk1Mll4TGNlMGlTeF9GYUxZMVZXVUZCTFd5bVZtUGc0WmZqV1M3NEYtTkY5YmJPMFFUam0yLTN4NjZlUHJxS0ZaTHRhQ045UjR1UQ?oc=5",
       "domain": "Reuters",
       "seen": "2026-10-29 11:12 KST"
-    },
-    {
-      "title": "Dollar steady after Fed hold leaves rate path murky",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNYmVmOE5mU3JyckhjNGlWelQ5QVdhNzkwU0h1Zkd4bjJ6UGszY2lYem1BRmxjWW95VDBrYzg5NXNIWFhFWmNjNmFlUHZleE01YnNOWjRWVV9LWU1SYS1lRlVoRm15U1FrNjdvbkhtVzA4UWNzREJFWjBmUS1vU1FmcEN5a2loa1VsaHRRN190UHZNRmtvTVR1a0RmUlZwTlBPTmtoVFpURGpudw?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-10-29 10:55 KST"
     },
     {
       "title": "Instant View: FOMC holds rates steady, markets rise modestly",
@@ -37,25 +31,19 @@
       "seen": "2026-10-29 02:35 KST"
     },
     {
-      "title": "World Bank sees commodity prices up 23% in 2026 due to Middle East war, other shocks",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPMTJhV1NKSG4wRUJLZHpFdGRjTmdWM2VxWGhRQVFCa0Q2NGhKMHVEMEYtQU5jVTRpTnA5VWRXQWlRQ01rUE9MVF9FbEtLd1IxcTA2MGVvYTNfUFpnaGVwWEttRkJoUjYyLTFqZ2lrUUdJdTVqNEhqdFgyV0ZzR3JjOXFKZ0VHUUFXYzVsRnIwZGRZVG5UNHh3anhMZzRoanVUUjRySEpINGlpeXY2VC1YOFJxblVGRklIZi1ERXJB?oc=5",
+      "title": "Basis trade retreat spurs shift into new rate bets",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTkJfdHhiZnZ1VTVVUHU2V00wZGdQQng0a0tjVjgzTHBEejROZ1dlS3REb1ZycXo5ZjJQOVdkX050cERCZWsyNVRzTFJEZ3NaU2Q2UzdZc29ST3VjQTdnYm1CNkl0VGN1NVI1Qkl1QjBxY0tRYm9wZmYzLU5nUmtxNENxakN5VzlyaUZSN3hWbEd6OFlGR0QzakJHY3JUaDc0X2xLZGEyQnkyZw?oc=5",
       "domain": "Reuters",
-      "seen": "2026-10-28 22:37 KST"
-    },
-    {
-      "title": "UBS raises Brent outlook, sees oil at $110/bbl by end-2026",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNQk1NWVk2NVlpU28wSXlnbk9TTEJ4ZUZLY3BuVjVBbXlieUFMaTZhSUZIZVk5M1o3WGhKNnU3WFUwVnZVdVgtcndueTJpMDBJenZES1pMcXFtNGFxUEJhdjRORG9EOXYxbmRTdlQxdjZtYXE2eGNrOWZKQ2F1dGUtVmR2akR5dlpRWHlTWDVOUDJWQWhqYkhmdERQOUJ4SDZjNm5JM28zTQ?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-10-28 21:43 KST"
+      "seen": "2026-10-28 19:29 KST"
     }
   ],
-  "rate_source_time": "2026-10-29 11:50:07 KST",
+  "rate_source_time": "2026-10-29 18:51:45 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": -9.3,
-  "rate_change_pct": -0.69,
+  "rate_change": 0.94,
+  "rate_change_pct": 0.1,
   "smbs_base_rate": 1336.3,
   "smbs_rate_date": "2026-10-29",
-  "smbs_rate_updated_at_kst": "2026-10-29 11:49:56 KST",
+  "smbs_rate_updated_at_kst": "2026-10-29 18:51:31 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +51,5 @@
     1350.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-10-29 11:49:56 KST"
+  "rate_job_checked_at_kst": "2026-10-29 18:51:31 KST"
 }

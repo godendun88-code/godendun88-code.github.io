@@ -1,43 +1,55 @@
 {
-  "updated_at_kst": "2026-10-30 17:33 KST",
-  "current_rate": 1334.3,
-  "previous_close": 1333.63,
-  "rate_updated_at_kst": "2026-10-30 17:33:21 KST",
+  "updated_at_kst": "2026-10-31 00:19 KST",
+  "current_rate": 1335.0,
+  "previous_close": 1334.37,
+  "rate_updated_at_kst": "2026-10-31 00:19:42 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
-    "미 국채금리 관련 최신 기사(\"Yen gains after BOJ, AI jitters drive Treasury rally, weigh on dollar\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다.",
-    "외환시장 관련 최신 기사(\"TotalEnergies third-quarter profit surges on refining income\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다.",
-    "미 국채금리 관련 최신 기사(\"Loonie hits six-week high as Canada-US yield gap narrows\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다."
+    "연준·금리 관련 최신 기사(\"New economic data challenges Fed chief's not-too-hot perspective\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
+    "미 국채금리 관련 최신 기사(\"Loonie hits six-week high as Canada-US yield gap narrows\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다.",
+    "글로벌 달러 강세 관련 보도가 이어지며 원/달러 환율에는 상승 압력으로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
     {
-      "title": "Yen gains after BOJ, AI jitters drive Treasury rally, weigh on dollar",
+      "title": "Imperial Oil beats profit estimates on stronger refining margins",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZThjVm1xcmxyZGVwTUZuQU9ZX21MVkstd1VQX2p2aEVZSWhJM0RMWlJkR0FUM1NPX2JoNHJxT3dGU3g2bXdfUFJiUDcwYVp4cGhsYjVSMTFRUmpJbFVkOTBBME5oTlhFZVhlYk9Kdkw5SHRBWmVkamtrdWM5aVhZWW96Tk93T2dMdE95MXlxWGFPa0g4MkZXLU9vUVhVQ095dmNnYUQ1a2YzTnNLNUdmZF8xVQ?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-10-30 22:45 KST"
+    },
+    {
+      "title": "New economic data challenges Fed chief's not-too-hot perspective",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNNV9seWt5MjlGeDJNRkdKLWxjUHQyb2R4QmUtM0ZvOU5hUExsYmpuVkhyZ2RnSGtPajEzZEFFRUluX0xHdTlaQ1NKc0JKcXhQTXB6NGJ4VXJ5NVhNWkZzTTU2WFplQl9zWUFtT3hmWG9FQXhyYVBWN1V4MEhoaGVEd2pfQWRDakQxcExBc3VjQmNNSzhEUDZjMEMwQnpVV1NTMEhZb0Q2LWF1SUZi?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-10-30 19:12 KST"
+    },
+    {
+      "title": "Yen gains after BOJ; AI selloff weighs on dollar",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNMHRlb2xFdjF1SUl3NUktRkR1WEpsOVktNG9kRlhNQWhVZm0wMGdPdlYzYUpxQVdTV3FnVkF4ekhmOUYyX3R1d1JQTmlGRGdrYVB6LTlWNTA4YXIzb1lOMDF0QW4zb25aaVNkRE5RaWlEQUZteXZMWnVmcGVTU19yVFlBY1FZZFIyWHRaYUhZbERiOHZvdXFhNUtIakZ5UmFjVy1vVzVjZmwzX0NKTHNXWWZFZ2M1bGlIVXNuZ3hn?oc=5",
       "domain": "Reuters",
       "seen": "2026-10-30 10:48 KST"
+    },
+    {
+      "title": "Robust consumer spending, AI-related investment power US economy in third quarter",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNd0JuSzdaWWtxaGJGdW5CV0pONGc2dlpzMVJnaGl2UUIwQmtkc1FNSUVNQzhxTFRycVZ4dGpRaVlvbGdraXBWenkzY1otSno3TC1zWTlQUmFRandmM0hlSm14a1pfWTJMNjdNclo5bFlFQWt3UlpIcFlPY3RtZzBQVXhKUzVPSWMxUXZFckNVM3ZXZEU?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-10-30 05:29 KST"
     },
     {
       "title": "Loonie hits six-week high as Canada-US yield gap narrows",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOSVA4RGxqWnk2dUE0Z0phNmY4dnpBX3F4M2lBNm5TendmMHYxSEdEZm1GYnhWTnRiWTRhRUlUSnBPa2FGUzBRQXUtdE1kbS12S2RSWHdXTzdLMXJkdmpTcWh6MnRmUkljaG41Y1BKRF8wVkwzQ0docEZqQU5lXzRhWlFWOHkwRklBRjhsU3diVXJjcDhOUzJPNlYyVGJBVVE?oc=5",
       "domain": "Reuters",
       "seen": "2026-10-30 04:10 KST"
-    },
-    {
-      "title": "TotalEnergies third-quarter profit surges on refining income",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZDNjZEVFVHlwMjFPbGtabF9JMFVZZWxLVVljNDRhUHdBNDFETWlJZjJBRjBMTE92TDRaMVdEYWFVbmVBX3pkdkFhd0J1TmZrT2tYMGNpWVFzN2FWZEdERUkwT0hoMlRMak1GT0NhRDR4M3U1bmZPU2ZUSW0xakNyLUxhM05fVGlJeTRIdHRiNTVfNEx3UnZHQQ?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-10-29 18:00 KST"
     }
   ],
-  "rate_source_time": "2026-10-30 17:33:21 KST",
+  "rate_source_time": "2026-10-31 00:19:42 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 0.67,
-  "rate_change_pct": 0.08,
+  "rate_change": 0.63,
+  "rate_change_pct": 0.07,
   "smbs_base_rate": 1335.3,
-  "smbs_rate_date": "2026-10-30",
-  "smbs_rate_updated_at_kst": "2026-10-30 17:33:05 KST",
+  "smbs_rate_date": "2026-10-31",
+  "smbs_rate_updated_at_kst": "2026-10-31 00:19:27 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -45,5 +57,5 @@
     1345.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-10-30 17:33:05 KST"
+  "rate_job_checked_at_kst": "2026-10-31 00:19:27 KST"
 }

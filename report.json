@@ -1,23 +1,17 @@
 {
-  "updated_at_kst": "2026-10-31 05:07 KST",
+  "updated_at_kst": "2026-10-31 08:46 KST",
   "current_rate": 1335.0,
   "previous_close": 1334.37,
-  "rate_updated_at_kst": "2026-10-31 05:07:39 KST",
+  "rate_updated_at_kst": "2026-10-31 08:46:26 KST",
   "rate_source": "KB STAR FX Market Watch",
-  "market_bias": "하락 우세",
+  "market_bias": "혼조",
   "drivers": [
-    "글로벌 달러 약세 관련 보도가 이어지며 원/달러 환율에는 하락 압력으로 작용하고 있습니다.",
-    "외환시장 관련 최신 기사(\"Asian gasoline margin plummets to over six-month lows\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다.",
-    "외환시장 관련 최신 기사(\"ExxonMobil beats third-quarter profit estimates on refining boom\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다."
+    "연준·금리 관련 최신 기사(\"New economic data challenges Fed chief's not-too-hot perspective\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
+    "글로벌 달러 강세 관련 보도가 이어지며 원/달러 환율에는 상승 압력으로 작용하고 있습니다.",
+    "유가·지정학 관련 최신 기사(\"UK energy poised for more deals amid high taxes and oil prices\")가 확인돼 원화 변동성 확대 요인으로 작용하고 있습니다."
   ],
-  "outlook": "달러 약세·금리 하락 계열의 재료가 상대적으로 우세해 원/달러는 단기 하락 압력이 이어질 가능성이 있으나, 유가와 지정학적 리스크는 하단을 제한할 수 있습니다.",
+  "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
-    {
-      "title": "Asian gasoline margin plummets to over six-month lows",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQNVlhelpKYkpwNGZ3blJlQk9DSmRmVExTTW1QbG01NFB1UGp6STE4Vm15eEcxOGFTWUdsUkRpR09VNFhueEdyMU1KYjROV0VCaWMteTgyX2xBcUJVREptTTNQUFdRekhiZzlJbGZ5WGdYc3ZBbnZYTl9kdWVFcW9ybmEtZEZVcjJLRmdGZk1qTThKUGJUMDYwYllkajQ0Mm1iN2V3cQ?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-10-30 21:50 KST"
-    },
     {
       "title": "ExxonMobil beats third-quarter profit estimates on refining boom",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPdTdWd1dITU9hNDVTRHlTbERwcWN5bXBxSFZpOEswSGpHM1BJSjdvbW55dVBrdE5NNUFrWHFTOFc3Z3EyWDhiMmhKSFRyeGlETmo2NFBlNEUwVGFvMGlhMFVzSmdDNU5ENm9ZV1VBUmxKeDkwRWNudFhDdy11MXlzbHBxTEtSWUNFRFR3Tm16YkZSbFhack9EekdqN0drYTQwUWFjcW5DaTN1SjhRMHhoQ25GZw?oc=5",
@@ -25,25 +19,43 @@
       "seen": "2026-10-30 19:34 KST"
     },
     {
-      "title": "Yen gains after BOJ holds rates, dollar slips",
+      "title": "New economic data challenges Fed chief's not-too-hot perspective",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNNV9seWt5MjlGeDJNRkdKLWxjUHQyb2R4QmUtM0ZvOU5hUExsYmpuVkhyZ2RnSGtPajEzZEFFRUluX0xHdTlaQ1NKc0JKcXhQTXB6NGJ4VXJ5NVhNWkZzTTU2WFplQl9zWUFtT3hmWG9FQXhyYVBWN1V4MEhoaGVEd2pfQWRDakQxcExBc3VjQmNNSzhEUDZjMEMwQnpVV1NTMEhZb0Q2LWF1SUZi?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-10-30 19:12 KST"
+    },
+    {
+      "title": "UK energy poised for more deals amid high taxes and oil prices",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPajZvWmx1cVNMeHVPeHhIXzlVUnhwX3R6WTVnODhySnZvR2Y1QzZ4Y3FBaEUtS0hTenZHbmZWd2Fla0hXc3RpcG00SGtHckdtejJJT19nRFYzYVNrb2dtZ0FSR2lqSlRtZURQNHFqWU92Smh2SGdHMmcxeDduUnlXM19PdmtPekxtemJsbGZUYUNNUGUwdUxhQ2VZWjd4eGl4UGR5NTlDUUhLajQ?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-10-30 14:02 KST"
+    },
+    {
+      "title": "Stocks fall on AI cash burn worries while bonds rally with oil",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPODMxOENneGV3TmZjN25YblpGTWpPOWRUV3Boay12aGxXWENUbUFLTnJzUURrYklnTkZjUHVOTTFCNkM5V0luRXRLcExGdXJxSEt4SzhFNzNSZG9qQ0F2c3RWclhFVnMySTNvRkJITU9OTVZfZUZ1NFEwX2x2enZVNFhuX2x5bGxRMnA3NElR?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-10-30 11:45 KST"
+    },
+    {
+      "title": "Oil jumps 2%, settles at 6-month highs on fears of escalation in Iran",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOWE5IUkRJTVJvTFE5SUdOdFFCM2tVN1lKcDI3ci01cjlleVVuXzB1SjI0MDhuWkhwakZFSzl3SGNUZk9uUUYwdHNfMGJOUXExaW1RdmRRVy1Cd0tHb3RqblJCQWczeXdORDVKbVMxMGFrbnVMM3FCY2h5Xzl6T0ZoeTBtbGdnbW9jdWF6VEtqNi14ZnlFaVVpb0xZcHlGTDhtM0ZmY2RYZ2Q?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-10-30 11:27 KST"
+    },
+    {
+      "title": "Yen set for third straight daily gain against dollar after BOJ holds rates",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNMHRlb2xFdjF1SUl3NUktRkR1WEpsOVktNG9kRlhNQWhVZm0wMGdPdlYzYUpxQVdTV3FnVkF4ekhmOUYyX3R1d1JQTmlGRGdrYVB6LTlWNTA4YXIzb1lOMDF0QW4zb25aaVNkRE5RaWlEQUZteXZMWnVmcGVTU19yVFlBY1FZZFIyWHRaYUhZbERiOHZvdXFhNUtIakZ5UmFjVy1vVzVjZmwzX0NKTHNXWWZFZ2M1bGlIVXNuZ3hn?oc=5",
       "domain": "Reuters",
       "seen": "2026-10-30 10:48 KST"
-    },
-    {
-      "title": "Robust consumer spending, AI-related investment power US economy in third quarter",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNd0JuSzdaWWtxaGJGdW5CV0pONGc2dlpzMVJnaGl2UUIwQmtkc1FNSUVNQzhxTFRycVZ4dGpRaVlvbGdraXBWenkzY1otSno3TC1zWTlQUmFRandmM0hlSm14a1pfWTJMNjdNclo5bFlFQWt3UlpIcFlPY3RtZzBQVXhKUzVPSWMxUXZFckNVM3ZXZEU?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-10-30 05:29 KST"
     }
   ],
-  "rate_source_time": "2026-10-31 05:07:39 KST",
+  "rate_source_time": "2026-10-31 08:46:26 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": 0.63,
   "rate_change_pct": 0.07,
   "smbs_base_rate": 1335.3,
   "smbs_rate_date": "2026-10-31",
-  "smbs_rate_updated_at_kst": "2026-10-31 05:07:28 KST",
+  "smbs_rate_updated_at_kst": "2026-10-31 08:46:14 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -51,5 +63,5 @@
     1345.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-10-31 05:07:28 KST"
+  "rate_job_checked_at_kst": "2026-10-31 08:46:14 KST"
 }

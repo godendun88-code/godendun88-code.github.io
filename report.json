@@ -1,17 +1,23 @@
 {
-  "updated_at_kst": "2026-10-31 14:30 KST",
+  "updated_at_kst": "2026-10-31 20:12 KST",
   "current_rate": 1335.0,
   "previous_close": 1334.37,
-  "rate_updated_at_kst": "2026-10-31 14:30:01 KST",
+  "rate_updated_at_kst": "2026-10-31 20:12:06 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "상승 우세",
   "drivers": [
-    "연준·금리 관련 최신 기사(\"New economic data challenges Fed chief's not-too-hot perspective\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
-    "유가·지정학 관련 최신 기사(\"Imperial Oil beats profit estimates on stronger refining margins\")가 확인돼 원화 변동성 확대 요인으로 작용하고 있습니다.",
-    "외환시장 관련 최신 기사(\"The hawkish pause, Lula's market meltdown, and the Anthropic IPO bombshell: The financial week in five charts\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다."
+    "유가·지정학 관련 최신 기사(\"Imperial Oil considering moving ahead with Aspen oil sands project earlier than planned\")가 확인돼 원화 변동성 확대 요인으로 작용하고 있습니다.",
+    "외환시장 관련 최신 기사(\"The hawkish pause, Lula's market meltdown, and the Anthropic IPO bombshell: The financial week in five charts\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다.",
+    "유가·지정학 관련 최신 기사(\"Imperial Oil beats profit estimates on stronger refining margins\")가 확인돼 원화 변동성 확대 요인으로 작용하고 있습니다."
   ],
   "outlook": "달러 강세·금리 상승 계열의 재료가 상대적으로 우세해 원/달러는 단기 상승 압력이 나타날 수 있으나, 국내 수급과 위험선호 회복 여부에 따라 변동성이 예상됩니다.",
   "articles": [
+    {
+      "title": "Imperial Oil considering moving ahead with Aspen oil sands project earlier than planned",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZThjVm1xcmxyZGVwTUZuQU9ZX21MVkstd1VQX2p2aEVZSWhJM0RMWlJkR0FUM1NPX2JoNHJxT3dGU3g2bXdfUFJiUDcwYVp4cGhsYjVSMTFRUmpJbFVkOTBBME5oTlhFZVhlYk9Kdkw5SHRBWmVkamtrdWM5aVhZWW96Tk93T2dMdE95MXlxWGFPa0g4MkZXLU9vUVhVQ095dmNnYUQ1a2YzTnNLNUdmZF8xVQ?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-10-31 04:23 KST"
+    },
     {
       "title": "Imperial Oil beats profit estimates on stronger refining margins",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPTWZfb2hEd19VTjA1REJkRE9WbnM5dDZOMXRaZUxmMGRtOG5tRFJKYWF3ZFp3cXFKQ0R5TWd4dXlLd2V4cDJTTUxNRmtISlBickNhdzVXdkdrTG1Lb3laZEpZSG9jMC1ybzd2N09QREtGQVlkTVFOZ2E5LTNpOGVHRHlFMnhTY2xwR0c2T01QNmxVUGtoZ241RWpnS2pYRFhrcFJuajBOMjg5ckJoVnc?oc=5",
@@ -23,21 +29,15 @@
       "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxORzZSdUpvaFdlYlFMUDJUcVRQMktBM2IxSFo5dVlTWXBGZHc3bW9ncElFZHgwYzRGREJ4NlZUM21KSFRxN0pxYUllRkhLVS1tdmZCclF3RGNwVTFTMk42ZUlTUGdiS3Y5b1ZtRDFUNnp0aWlkai1Pd3RyQ29PS1lrRjl0OFpPNnVXSThCUERmNDBoOVhXUHJLVGlvblpUNWMySzE2TUVpenM3Q0k4dHJZZWMzbWtlaHM5ZFpJNUlfQUFyTk53dVVzSndsOXpsRUVnVWs0VG1qN2JVRXVGT3BBa3ln?oc=5",
       "domain": "Reuters",
       "seen": "2026-10-30 20:51 KST"
-    },
-    {
-      "title": "New economic data challenges Fed chief's not-too-hot perspective",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNNV9seWt5MjlGeDJNRkdKLWxjUHQyb2R4QmUtM0ZvOU5hUExsYmpuVkhyZ2RnSGtPajEzZEFFRUluX0xHdTlaQ1NKc0JKcXhQTXB6NGJ4VXJ5NVhNWkZzTTU2WFplQl9zWUFtT3hmWG9FQXhyYVBWN1V4MEhoaGVEd2pfQWRDakQxcExBc3VjQmNNSzhEUDZjMEMwQnpVV1NTMEhZb0Q2LWF1SUZi?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-10-30 19:12 KST"
     }
   ],
-  "rate_source_time": "2026-10-31 14:30:01 KST",
+  "rate_source_time": "2026-10-31 20:12:06 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": 0.63,
   "rate_change_pct": 0.07,
   "smbs_base_rate": 1335.3,
   "smbs_rate_date": "2026-10-31",
-  "smbs_rate_updated_at_kst": "2026-10-31 14:29:45 KST",
+  "smbs_rate_updated_at_kst": "2026-10-31 20:11:51 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -45,5 +45,5 @@
     1345.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-10-31 14:29:45 KST"
+  "rate_job_checked_at_kst": "2026-10-31 20:11:51 KST"
 }

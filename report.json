@@ -1,36 +1,61 @@
 {
-  "updated_at_kst": "2026-11-02 18:24 KST",
-  "current_rate": 1340.7,
+  "updated_at_kst": "2026-11-03 04:46 KST",
+  "current_rate": 1342.8,
   "previous_close": 1335.0,
-  "rate_updated_at_kst": "2026-11-02 18:23:55 KST",
+  "rate_updated_at_kst": "2026-11-03 04:45:47 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "하락 우세",
   "drivers": [
+    "미국 물가 둔화 관련 보도가 확인돼 추가 긴축 필요성이 낮아지면서 달러 강세 압력을 완화하는 요인으로 작용하고 있습니다.",
     "유가 및 중동 지정학적 불확실성이 부각돼 에너지 수입 의존도가 높은 원화에는 약세 부담 요인으로 작용하고 있습니다.",
-    "국제유가 하락이 한국의 수입물가 부담을 낮추는 방향으로 작용해 원화에는 상대적으로 우호적인 요인입니다."
+    "외환시장 관련 최신 기사(\"What the US midterms could mean for markets, AI and the debt ceiling\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다."
   ],
   "outlook": "달러 약세·금리 하락 계열의 재료가 상대적으로 우세해 원/달러는 단기 하락 압력이 이어질 가능성이 있으나, 유가와 지정학적 리스크는 하단을 제한할 수 있습니다.",
   "articles": [
     {
-      "title": "Rupee nudges higher as oil prices slide, NDF points outpace onshore premiums",
+      "title": "European shares rise as oil falls on Middle East deal hopes",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZHBCTFNsTWh0RmpkcWloQkhvaWlJWW1BQWM3VU93VXNSVXA5QXhVOTI3WEs2N0I3NUd3OFo4YjcxT0Fob2ZIWU5leTA2Y1kxUlZDUlNNYURhM0x0c2FoVHhuT0tBTXZ1WTBmdUZyN1NXcXl3VnRIVENPTGZfSmtWZ2pIa2FjUWVXV243UWtPNnBLZmtnaWwtaTRSRG5hQ2w2T3V3cHlZQTlLbzNhUFRtZHFB?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-11-03 02:45 KST"
+    },
+    {
+      "title": "What the US midterms could mean for markets, AI and the debt ceiling",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPSndxQlZKTnRLd3BYVTNReUZRU1Z5dDlrdGpidzBlWVhITzgzTkJrXzJlNlhHZHZvQS1JV0E3YUZmT3gzNy1KbWVGVGs4NjR0bVFDanJ4RjYybjU2Rm9DS2tNR0w3SVNpb0puX2NwUjctM1U2cm1EYmZRUWRXd08tY1dfT1BGYmF0TG5UREVHTUVfM0s5MGhHZE1EVVhVUlRCbk5tZmExZU8zUi05bm9B?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-11-03 02:10 KST"
+    },
+    {
+      "title": "Canada futures gain as oil retreat cools inflation fears",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZmk5ay1rLUx4aURIYmtJVlFHeWl1VXBhelo0Xzk2U0t3VEhZbDFidEp3aVEwTnp1YVBmMGw0UktRaDdkdGQ0RWltWUhldzFIOXZXb3BRVHZQNUhTcnBwWHJaX25veW5MM1dqQzNOMjhYUmRsYXNHVllpeFNiOW1ERGk2aEpNbHFVTFJhOWxPTVNOZXdtdnhDbm1qRUhmMmc?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-11-02 20:47 KST"
+    },
+    {
+      "title": "World's energy supply buffers have been eroded, ADNOC CEO says",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOVFJFQUd0MGpUMUdubkFVLWwzTHgwWmc1dlhDMzBWWjVYVnJGbTFiTndMWk9IclpjVWljUWlGTy1xUUN3VVRCLWRNeFluRGxQc3dFek52dVhvMU4zTGwtRDJtZWdDRnJRRFd4eUZiWDQtUnpkeFFOc1FRb1pJQ3BQNmptTDdKa0FWek5zSjdQcC1IcUZMTk1xNzdFQS1mQTd2WW11MmlGMTBIMmhyYURMVjltNmVWNi1Bc0JTLXhnTGg5TXk3YzYtb3Y2VQ?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-11-02 15:38 KST"
+    },
+    {
+      "title": "Rupee ends little changed as traders stay cautious despite oil, dollar drop",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPeC1WaUFNMi1wWEN5WFRyenJJLUxoa0lkUGdFM1dOU3VkVUYyak9ZdWRVV3N0b1NPX0xFTjZ0NVRlNWpadXdGMVltUmxMcm1zcVdQdjQwMV9ialVNaGliVmhXOS1zTm5kNUp0VXlqTUpaVVRqUUhuX2xaRVpQWlFXbFlMS2EwNTJqYUZ3elRFLXUzcmtpaXhFMHlFTjBVaHJSMFVULUhrQVJlYWpaUnljMTVwSjA?oc=5",
       "domain": "Reuters",
       "seen": "2026-11-02 11:57 KST"
     },
     {
-      "title": "Stocks bounce as Apple earnings near, oil falls",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPbXpaWVRrQUkzYThuc1E5TnFCUXBTSTV2bHNaR1FhUmdEYnhjSHVneFdpbGhjeENwWlE2WVE1c3FCUV9qeGZzRGNoNFEzdERMblBDb005a2NBV3B2YzdfNF95dGtrVmxiNlJrNFU3UC1BTnZHcVh4a3hna25vdEFkSEtMUQ?oc=5",
+      "title": "Oil drops 7% as Iran signals openness to peace talks",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPeHdxcnVlWmx5T1pjbDZQS19XeXlYTW1xZmNONnJQWHk4YU1EQTRzZFZQVEJxYjd6WEJTN2pfZC10ZGlzXzVURVdHZkg1RjZGY2tjN0ZVRjNRc0p4UmQ1c2F6MUt4eEpHSml6Z3Q4WHpqV094aEo0dTlVbk00OGFBazlmdGhsWGdtckFHQjlBTVU5Q0FRR3hxUnVmcVpPeGZsTHBlWmhTdw?oc=5",
       "domain": "Reuters",
-      "seen": "2026-11-02 09:41 KST"
+      "seen": "2026-11-02 08:13 KST"
     }
   ],
-  "rate_source_time": "2026-11-02 18:23:55 KST",
+  "rate_source_time": "2026-11-03 04:45:47 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 5.7,
-  "rate_change_pct": 0.43,
-  "smbs_base_rate": 1337.2,
-  "smbs_rate_date": "2026-11-02",
-  "smbs_rate_updated_at_kst": "2026-11-02 18:23:38 KST",
+  "rate_change": 7.8,
+  "rate_change_pct": 0.58,
+  "smbs_base_rate": 1341.0,
+  "smbs_rate_date": "2026-11-03",
+  "smbs_rate_updated_at_kst": "2026-11-03 04:45:31 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -38,5 +63,5 @@
     1339.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-11-02 18:23:38 KST"
+  "rate_job_checked_at_kst": "2026-11-03 04:45:31 KST"
 }

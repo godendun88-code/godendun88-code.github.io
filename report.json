@@ -1,43 +1,49 @@
 {
-  "updated_at_kst": "2026-11-04 12:13 KST",
-  "current_rate": 1338.1,
-  "previous_close": 1337.9,
-  "rate_updated_at_kst": "2026-11-04 12:13:19 KST",
+  "updated_at_kst": "2026-11-04 20:32 KST",
+  "current_rate": 1339.2,
+  "previous_close": 1336.83,
+  "rate_updated_at_kst": "2026-11-04 20:32:39 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "하락 우세",
   "drivers": [
-    "미 국채금리 하락 관련 보도가 확인돼 달러의 금리 매력이 낮아지면서 원/달러 환율 하락 압력으로 작용하고 있습니다.",
-    "유가 및 중동 지정학적 불확실성이 부각돼 에너지 수입 의존도가 높은 원화에는 약세 부담 요인으로 작용하고 있습니다.",
-    "외환시장 관련 최신 기사(\"Analysts react to US midterm election results\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다."
+    "글로벌 달러 약세 관련 보도가 이어지며 원/달러 환율에는 하락 압력으로 작용하고 있습니다.",
+    "외환시장 관련 최신 기사(\"Market analysts react to Democratic sweep in US midterms\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다.",
+    "글로벌 달러 약세 관련 보도가 이어지며 원/달러 환율에는 하락 압력으로 작용하고 있습니다."
   ],
   "outlook": "달러 약세·금리 하락 계열의 재료가 상대적으로 우세해 원/달러는 단기 하락 압력이 이어질 가능성이 있으나, 유가와 지정학적 리스크는 하단을 제한할 수 있습니다.",
   "articles": [
     {
-      "title": "Analysts react to US midterm election results",
+      "title": "Gold rises as dollar weakens ahead of U.S. midterm election results",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxObkQ5MzAyekZrcWZOb0lvMEJ4dWdGMmNUMzNzRmpHZUtwaXJNam9NTkJUMmowRkFVNncyRlNQdDk2YnpyRmo4Zk01ZVE5eEZTRXE0ZkJGMXJfUEhCeVVLWXV2U0E5VUpZT0dsSXN5a010ZlpfcFg4d2EycFNGR0VKYko5Y2RSZE5kZXM4dTJoYlVabDB1N2tLZk1PdU9jZHFoUUI4NtIBqgFBVV95cUxNUGUzRlBIeVdYcEZTV2N1eUZUT2NZOXZibE05Z3E5WV9FRTg5VmhpYzYwOENrTTBES3RSZU9yUk96WFlBeHVIdEtMTHdRUmFZT2w0RUJtZVpVUGdkYXlneWtHX3RvMU1xYXFhOVdOYUhRb2wtT2N0b3JLd1NVMjJfOVRzQ3JhUldka3VFUFhUMnQ5U0diN3p4UXFYMnhucDNmNkp5aTNJcnVmQQ?oc=5",
+      "domain": "CNBC",
+      "seen": "2026-11-04 14:04 KST"
+    },
+    {
+      "title": "Market analysts react to Democratic sweep in US midterms",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPalZOQ2dwZlhyRUNiYXBvNzREaUZMUnZlSkZMVDNtLUo2bFI5cTFiZkY1R3BlZXdLVjFselI2WVUxaGJOXzFCUjAzeWNOSW1wVHpaOHZZQ2l4el9ia2VXUE9kaE5NNS1TZ0xpQzdSUnBlWmdBS1ZBaEZNYWRxZjhpRUYwcGFWbUhkMHlDY1dkcks?oc=5",
       "domain": "Reuters",
       "seen": "2026-11-04 11:57 KST"
     },
     {
-      "title": "Oil drops 7% as Iran signals openness to peace talks",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPeHdxcnVlWmx5T1pjbDZQS19XeXlYTW1xZmNONnJQWHk4YU1EQTRzZFZQVEJxYjd6WEJTN2pfZC10ZGlzXzVURVdHZkg1RjZGY2tjN0ZVRjNRc0p4UmQ1c2F6MUt4eEpHSml6Z3Q4WHpqV094aEo0dTlVbk00OGFBazlmdGhsWGdtckFHQjlBTVU5Q0FRR3hxUnVmcVpPeGZsTHBlWmhTdw?oc=5",
+      "title": "Dollar slides to one-month low as Democratic gains stoke AI regulation fears",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNMG9Jam5JQ09uMEx5R0FoYnl4ajRFeU03eDQ0RXUyc3FqZ0xxdVo1czh6MUw0Z2E2UDlYcjJMWjR4WnQ4RUVXWVBWMXNqa29IUnl5MEl1TEF6UmhGaGloLXk5MDRSclZ5MXFsMDJXSmxTYnM1Tmc3VDFUbTBCOW5CUVFVSDhBWFYtbG1ickM0eVZBUWdf?oc=5",
       "domain": "Reuters",
-      "seen": "2026-11-03 17:58 KST"
+      "seen": "2026-11-04 10:42 KST"
     },
     {
-      "title": "Gold edges lower again as dollar, yields strengthen; US midterms in focus",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxORmVXQnJ1T1AybkRsWGxtd2JKdjNHZGNaRGExRmpPckg4LW9HRkZjS2V4RXhEM1hjSjJLS3FHeGVvMEJydXY2ZDZzb0JnZWdjejNvLXVLTkNzcTFIajRpODF3bE55ci04SENUN3pYMVVKNmlfX2tNOXlLZ3ZndEVla2VsZ9IBiAFBVV95cUxNQXNhZ21PY1RSSEFPM2thRVlGamhxZWFfTkY0V3BjTVNEWXJBMTlZeDlxYzVKcEtLd3JGblBMMlRQeG14bEdaeDdZUFVWMmEtZUZDeWhzYXlZMlg1TG9lQUdrbFlqUnFvX1NOWFJ2ekp5MmdRazRoU0hpRW54QWlBVG9wUFZ4OUZf?oc=5",
-      "domain": "CNBC",
-      "seen": "2026-11-03 13:23 KST"
+      "title": "Stocks rally, dollar dips after Democrats' midterm sweep",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBWZWFDY2tZeDZfbXdVWnE2QWZwVlNpX3NqVm1OdmR0bDBGTlJjU3dJWG5yWEFpSG4tSHVhY2NEeVBsNnllVFQyb0tWRU1naXZQLWN3Tlk4VE1PV3o2cU1tVHFYX1hDT1ZtRkVWUWtYR3JwWFRyTXZIRldDWQ?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-11-04 10:06 KST"
     }
   ],
-  "rate_source_time": "2026-11-04 12:13:19 KST",
+  "rate_source_time": "2026-11-04 20:32:39 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 0.2,
-  "rate_change_pct": 0.02,
+  "rate_change": 2.37,
+  "rate_change_pct": 0.16,
   "smbs_base_rate": 1341.2,
   "smbs_rate_date": "2026-11-04",
-  "smbs_rate_updated_at_kst": "2026-11-04 12:13:05 KST",
+  "smbs_rate_updated_at_kst": "2026-11-04 20:32:27 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -45,5 +51,5 @@
     1349.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-11-04 12:13:05 KST"
+  "rate_job_checked_at_kst": "2026-11-04 20:32:27 KST"
 }

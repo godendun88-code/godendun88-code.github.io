@@ -1,37 +1,31 @@
 {
-  "updated_at_kst": "2026-11-06 00:48 KST",
+  "updated_at_kst": "2026-11-06 06:58 KST",
   "current_rate": 1348.8,
   "previous_close": 1340.3,
-  "rate_updated_at_kst": "2026-11-06 00:47:54 KST",
+  "rate_updated_at_kst": "2026-11-06 06:57:56 KST",
   "rate_source": "KB STAR FX Market Watch",
-  "market_bias": "하락 우세",
+  "market_bias": "혼조",
   "drivers": [
+    "미국 고용 관련 최신 기사(\"US weekly jobless claims at 57-year lows; worker productivity surges in third quarter\")가 확인돼 고용지표가 연준 금리 기대와 달러 방향성을 좌우하는 변수로 부각되고 있습니다.",
     "미국 물가 관련 최신 기사(\"Euro edges lower as oil prices rise\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
-    "미 국채금리 하락 관련 보도가 확인돼 달러의 금리 매력이 낮아지면서 원/달러 환율 하락 압력으로 작용하고 있습니다.",
-    "글로벌 달러 약세 관련 보도가 이어지며 원/달러 환율에는 하락 압력으로 작용하고 있습니다."
+    "유가·지정학 관련 최신 기사(\"Market Talk: Markets 'hope America will look for an off-ramp' in the Middle East\")가 확인돼 원화 변동성 확대 요인으로 작용하고 있습니다."
   ],
-  "outlook": "달러 약세·금리 하락 계열의 재료가 상대적으로 우세해 원/달러는 단기 하락 압력이 이어질 가능성이 있으나, 유가와 지정학적 리스크는 하단을 제한할 수 있습니다.",
+  "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
     {
-      "title": "ConocoPhillips beats estimates on higher oil prices, raises dividend",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPWmVXLVh5bHBBQWh5ZkFmckpmSkRNMVB2UGZwaDFuYVc1TE93TVZKcjl4c1lPSjVQb1doc1pJdm11S01RTGtwTDRUblRGVWp2M3hrb2ZLakV3R0poTGRjcmRyOEI2M2hNOEJFVllydTcyQ043WFVSRURkREJvZWxtaWJmaDJNRllnc3lPZllyM1JtMEhnY09NLWRpZzNuQWt0YU1jTFpCMlQ2UG1ZQVVtYVF5dUlZZw?oc=5",
+      "title": "US weekly jobless claims at 57-year lows; worker productivity surges in third quarter",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNcm5OTDhuLTE5VENNbUNPODhwRmJyXzBnR1FocDlCWnphSElfTk44Zzl4enh1S1hPUmZsaldReHlNcmVSSVRGTXJFY2Y2TXVmVGVuSlRmQlRGOWg2TV9QQlROV19rank0bG9rX1NIcmlkNWsxcE1KR19XUnhsbFJwdzBMbTgxQ0RLb0JsYy1lQTFkR3VJVkFyel9KeFFCdDNWWE4xeEE4aDNTYmZEejVrcEhPQQ?oc=5",
       "domain": "Reuters",
-      "seen": "2026-11-05 21:42 KST"
+      "seen": "2026-11-06 00:59 KST"
     },
     {
-      "title": "COMMENTARY: Morning Bid: Oil and the blame game",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNUm5lUDV4RklDUlRkcDd4M1BVLVZaMncxQldWLW9xSHNkZy11THhZekljUFo4ZUc3OGpCM3d2SkVVUl9iMGNxRC1ITkE4RENJcmxBQ0dMc05IWTJXVkJqY09xN3NtdEplSWFGbmNDOEF5TFdtV3B6SC1mdkpzMnUzVjZVd0ZzeVpITXRpVWs2Z2ZyTXZDZE1n?oc=5",
+      "title": "Market Talk: Markets 'hope America will look for an off-ramp' in the Middle East",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5XUzAySThzUXlqOEVpa2hLSWVZYVRyQkhEQmIzcTEwRUxlUG42YndkSGZ0V1J2UjRyMGE1QkE3RUtrSHh2STJOOHhleUQ2R2dzVGcwYzZMUGpKdHN3V2cxd0FXWFQ1b0E?oc=5",
       "domain": "Reuters",
-      "seen": "2026-11-05 21:08 KST"
+      "seen": "2026-11-05 21:20 KST"
     },
     {
-      "title": "TSX futures climb, extending gains after US midterms",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPcndJMHFGYVRHNXFDTmxNT3VINVZvaXYzd2c4MVU3NDBYam51WHRVQjM3dENDSFpjSzdvVVBsMm1BXy15M2hiRHFNMy1QbXJ4OFJKVTJzS2FNZlIzWDgzYV9uOTI2bGNtV05yUWpGZ1lfblFpQTVsZ2c2Ym40TTNkUnI3ZE45dk4yQ3d0UUdfdndsdFB2QlMyYVlxbTc?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-11-05 20:17 KST"
-    },
-    {
-      "title": "Gold hits 2-week high as dollar, yields, oil fall after US midterms",
+      "title": "Gold at over two-week high as dollar, yields weaken; US payrolls data awaited",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPRGw2bTVBSnBUN1BZcDhwQ0dVSmFIUVhDdGZLazVPNnV2NG5iYkVxXzg5QmRyY21IOWZOcFVRVXJBSU5PT1pXQWh3UHVmVWxhSm15bVh2NTVQZzJGVHpPT2dSSHc2NXlaLUYyQmVGX24xdW84cVN2NXpGcUhGZ0xrNDZSODR1NDNtNW9vc2JJSUVRcGZIMkprZHNONm4wN2VxUzdBX3B1NWxxcDBsWjNnZ05tUzdMRHJNaEJja2oxNC1QLWQt?oc=5",
       "domain": "Reuters",
       "seen": "2026-11-05 12:46 KST"
@@ -43,19 +37,25 @@
       "seen": "2026-11-05 11:37 KST"
     },
     {
-      "title": "AI stocks fall, oil bounces back after 'blue wave' drop",
+      "title": "Chip selloff drags global stocks lower on AI spending concerns",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUG9ENFo3M0RHNWI0VEdfTlZhWmpjVGR0UjViV3dBQllRVkNha0YzU1FhX2lDaWVUT1U1Ym5DbWRlOFpJZ3JPU3AwZ1Nia3NNWjdKc3Jvd0VXU3otQU83ZjFlQmZwbHcyZmJKZFk4dVJWaXhWQnV6MTF6TUpmaDcxNmdhbFFNaU1N?oc=5",
       "domain": "Reuters",
       "seen": "2026-11-05 11:35 KST"
+    },
+    {
+      "title": "Oil rises over $2 as investors assess Iran war future",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQdzM2c3YzcktwU285aS1QaVVzTk51WFR0UnpxMXlnaFdEd2RtZWYzMm81TDZQUTJZS0ZlLXFVV3ZhcGFibkdLZm9Remo3YjlhNHJTd1lxSXNMUFNzejhIMkt0TlFRXy1RZl9TdTkxbDhfdjQxUEIzcUhaYlpOMjZJSVViNmVPV0dRV0RmaTJ3dDJ3QUs4TTFleFlnZnNyUHhVYlQ5NldaZVRZRFd5dU5nVnRKVUQ0UFE?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-11-05 11:20 KST"
     }
   ],
-  "rate_source_time": "2026-11-06 00:47:54 KST",
+  "rate_source_time": "2026-11-06 06:57:56 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": 8.5,
   "rate_change_pct": 0.63,
   "smbs_base_rate": 1342.0,
   "smbs_rate_date": "2026-11-06",
-  "smbs_rate_updated_at_kst": "2026-11-06 00:47:43 KST",
+  "smbs_rate_updated_at_kst": "2026-11-06 06:57:45 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1345.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-11-06 00:47:43 KST"
+  "rate_job_checked_at_kst": "2026-11-06 06:57:45 KST"
 }

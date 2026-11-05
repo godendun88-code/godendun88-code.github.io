@@ -1,61 +1,61 @@
 {
-  "updated_at_kst": "2026-11-05 16:22 KST",
-  "current_rate": 1341.2,
+  "updated_at_kst": "2026-11-06 00:48 KST",
+  "current_rate": 1348.8,
   "previous_close": 1340.3,
-  "rate_updated_at_kst": "2026-11-05 16:22:25 KST",
+  "rate_updated_at_kst": "2026-11-06 00:47:54 KST",
   "rate_source": "KB STAR FX Market Watch",
-  "market_bias": "혼조",
+  "market_bias": "하락 우세",
   "drivers": [
-    "미 국채금리 관련 최신 기사(\"Gold rallies on softer dollar, easing yields after US midterm results\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다.",
-    "글로벌 달러 약세 관련 보도가 이어지며 원/달러 환율에는 하락 압력으로 작용하고 있습니다.",
-    "유가·지정학 관련 최신 기사(\"Chip stocks, oil sink in the aftermath of Democratic election sweep\")가 확인돼 원화 변동성 확대 요인으로 작용하고 있습니다."
+    "미국 물가 관련 최신 기사(\"Euro edges lower as oil prices rise\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
+    "미 국채금리 하락 관련 보도가 확인돼 달러의 금리 매력이 낮아지면서 원/달러 환율 하락 압력으로 작용하고 있습니다.",
+    "글로벌 달러 약세 관련 보도가 이어지며 원/달러 환율에는 하락 압력으로 작용하고 있습니다."
   ],
-  "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
+  "outlook": "달러 약세·금리 하락 계열의 재료가 상대적으로 우세해 원/달러는 단기 하락 압력이 이어질 가능성이 있으나, 유가와 지정학적 리스크는 하단을 제한할 수 있습니다.",
   "articles": [
     {
-      "title": "Chip stocks, oil sink in the aftermath of Democratic election sweep",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUG9ENFo3M0RHNWI0VEdfTlZhWmpjVGR0UjViV3dBQllRVkNha0YzU1FhX2lDaWVUT1U1Ym5DbWRlOFpJZ3JPU3AwZ1Nia3NNWjdKc3Jvd0VXU3otQU83ZjFlQmZwbHcyZmJKZFk4dVJWaXhWQnV6MTF6TUpmaDcxNmdhbFFNaU1N?oc=5",
+      "title": "ConocoPhillips beats estimates on higher oil prices, raises dividend",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPWmVXLVh5bHBBQWh5ZkFmckpmSkRNMVB2UGZwaDFuYVc1TE93TVZKcjl4c1lPSjVQb1doc1pJdm11S01RTGtwTDRUblRGVWp2M3hrb2ZLakV3R0poTGRjcmRyOEI2M2hNOEJFVllydTcyQ043WFVSRURkREJvZWxtaWJmaDJNRllnc3lPZllyM1JtMEhnY09NLWRpZzNuQWt0YU1jTFpCMlQ2UG1ZQVVtYVF5dUlZZw?oc=5",
       "domain": "Reuters",
-      "seen": "2026-11-05 15:44 KST"
+      "seen": "2026-11-05 21:42 KST"
     },
     {
-      "title": "Goldilocks or gridlock?",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1xOVpFU1lMaklaLUIxcW9lWTl6bjhFZWI2UWtfdU1tblltMFNwZEJpd2RTaXhVdW1ES0gzWDFGRXJ6MzFrdXBZY1B2czRpczBWVHpOSzlGekNkUzdwLVBXR2ljNUNxWWpaYjhYdEdDMXk1M2pScFJ4dXA1OVV4OGM?oc=5",
+      "title": "COMMENTARY: Morning Bid: Oil and the blame game",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNUm5lUDV4RklDUlRkcDd4M1BVLVZaMncxQldWLW9xSHNkZy11THhZekljUFo4ZUc3OGpCM3d2SkVVUl9iMGNxRC1ITkE4RENJcmxBQ0dMc05IWTJXVkJqY09xN3NtdEplSWFGbmNDOEF5TFdtV3B6SC1mdkpzMnUzVjZVd0ZzeVpITXRpVWs2Z2ZyTXZDZE1n?oc=5",
       "domain": "Reuters",
-      "seen": "2026-11-05 14:50 KST"
+      "seen": "2026-11-05 21:08 KST"
     },
     {
-      "title": "Gold rallies on softer dollar, easing yields after US midterm results",
+      "title": "TSX futures climb, extending gains after US midterms",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPcndJMHFGYVRHNXFDTmxNT3VINVZvaXYzd2c4MVU3NDBYam51WHRVQjM3dENDSFpjSzdvVVBsMm1BXy15M2hiRHFNMy1QbXJ4OFJKVTJzS2FNZlIzWDgzYV9uOTI2bGNtV05yUWpGZ1lfblFpQTVsZ2c2Ym40TTNkUnI3ZE45dk4yQ3d0UUdfdndsdFB2QlMyYVlxbTc?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-11-05 20:17 KST"
+    },
+    {
+      "title": "Gold hits 2-week high as dollar, yields, oil fall after US midterms",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPRGw2bTVBSnBUN1BZcDhwQ0dVSmFIUVhDdGZLazVPNnV2NG5iYkVxXzg5QmRyY21IOWZOcFVRVXJBSU5PT1pXQWh3UHVmVWxhSm15bVh2NTVQZzJGVHpPT2dSSHc2NXlaLUYyQmVGX24xdW84cVN2NXpGcUhGZ0xrNDZSODR1NDNtNW9vc2JJSUVRcGZIMkprZHNONm4wN2VxUzdBX3B1NWxxcDBsWjNnZ05tUzdMRHJNaEJja2oxNC1QLWQt?oc=5",
       "domain": "Reuters",
       "seen": "2026-11-05 12:46 KST"
     },
     {
-      "title": "Oil falls for a fourth day on expectations for lower risk of Iran war escalation",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQdzM2c3YzcktwU285aS1QaVVzTk51WFR0UnpxMXlnaFdEd2RtZWYzMm81TDZQUTJZS0ZlLXFVV3ZhcGFibkdLZm9Remo3YjlhNHJTd1lxSXNMUFNzejhIMkt0TlFRXy1RZl9TdTkxbDhfdjQxUEIzcUhaYlpOMjZJSVViNmVPV0dRV0RmaTJ3dDJ3QUs4TTFleFlnZnNyUHhVYlQ5NldaZVRZRFd5dU5nVnRKVUQ0UFE?oc=5",
+      "title": "Indian shares log biggest gains in seven months on oil slide, foreign flows",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNVmJaMVVmaUE0cUtPUW9iRklDNUNCV2k4c1NXYzllRGYzeUdXOFJkeGVEOUNsdkhwc0pfc3pkSVdvb3Nwc3FMSE0xTVBnbEtiQ29Gd2NzbmFtMU9rVXNoNXF3MkRrMEtHczdSX0VGUExrTDkyNHAxYWI0SGFWbVRSZWhDaGlvNkhLdUtiZGdDaWVQaFJ0NkRkckJvQ0ZzSnM2dmFUd2tZXzdQaWZBaFN4Y3BNYXo0UkVZRGpQTkdTUQ?oc=5",
       "domain": "Reuters",
-      "seen": "2026-11-05 11:20 KST"
+      "seen": "2026-11-05 11:37 KST"
     },
     {
-      "title": "Rupee tepidly follows stock and bond rally as midterms deflate Iran worries",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQME9GZlNzY1R1djlUYWZnQ2lQRXE3ZHoxQ1VhOEZhaVRyVTY3TWZIRXhNMDNaemNtb0NFNzJZeTZtYlRCX0FtbFlYenA4Z0gtSkZBZVFRQThHZkRtcHhsR09wWXVhdl9CLUQ2Z19JNWpFWlI0N013RFR4VDFrSTFoZzVQS3F5Y216eWdlMTlZbWxldWY4TXh0M09TLTBuX3lUZ1ZWRzVaRHhxSENxT3E4Qlpwd0E?oc=5",
+      "title": "AI stocks fall, oil bounces back after 'blue wave' drop",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUG9ENFo3M0RHNWI0VEdfTlZhWmpjVGR0UjViV3dBQllRVkNha0YzU1FhX2lDaWVUT1U1Ym5DbWRlOFpJZ3JPU3AwZ1Nia3NNWjdKc3Jvd0VXU3otQU83ZjFlQmZwbHcyZmJKZFk4dVJWaXhWQnV6MTF6TUpmaDcxNmdhbFFNaU1N?oc=5",
       "domain": "Reuters",
-      "seen": "2026-11-05 11:19 KST"
-    },
-    {
-      "title": "Dollar edges lower as US election outcome spurs risk sentiment; sterling gains",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOS3ZvRzF1aTlTZE9WT0NxYkU4TWFHTi04YnhEVXd1VTJRTXdibGtPdGZtTWkwZEVBLU0xNmtZaEc4R2lWZWVSdGJtY1FSdzhIazR5a2YwdDJoRzFFTHN1Z2FNb2l5b2x5SllyTE9sTTZTNkxFODFJVkhxOGhlblRTXzNiLTZpc3FKcXBqRzZUMjYtY3VXOHlnR0hPOFFYTldZaXpzSGNTbzlPNlhUdHF1amJTcFp1dw?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-11-05 10:06 KST"
+      "seen": "2026-11-05 11:35 KST"
     }
   ],
-  "rate_source_time": "2026-11-05 16:22:25 KST",
+  "rate_source_time": "2026-11-06 00:47:54 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 0.9,
-  "rate_change_pct": 0.07,
-  "smbs_base_rate": 1340.7,
-  "smbs_rate_date": "2026-11-05",
-  "smbs_rate_updated_at_kst": "2026-11-05 16:22:11 KST",
+  "rate_change": 8.5,
+  "rate_change_pct": 0.63,
+  "smbs_base_rate": 1342.0,
+  "smbs_rate_date": "2026-11-06",
+  "smbs_rate_updated_at_kst": "2026-11-06 00:47:43 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1345.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-11-05 16:22:11 KST"
+  "rate_job_checked_at_kst": "2026-11-06 00:47:43 KST"
 }

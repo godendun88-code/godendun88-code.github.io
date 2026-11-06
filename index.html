@@ -829,6 +829,12 @@
         'CFO 보고 고정 탭'
       );
 
+      replaceRequired(
+        "function applySharedCashPlan(snapshot){if(snapshot.exists()){const data=snapshot.data();",
+        "function applySharedCashPlan(snapshot){if(snapshot.exists()){const data=snapshot.data();window.__cashPlanSnapshotData=data;",
+        '복구용 Firestore 공유데이터 상태 노출'
+      );
+
       const dailyBalanceComparisonRemoval='<script>(()=>document.getElementById("dailyBalanceCompareBody")?.closest(".table-wrap")?.remove())()<\/script>';
 
       const patches=[
@@ -842,6 +848,7 @@
         executiveColorTheme,
         dailyBalanceComparisonRemoval,
         '<script src="./data-recovery-patch.js?v=20261106-1"><\/script>',
+        '<script src="./verified-data-recovery.js?v=20261106-1"><\/script>',
         '<script src="./cfo-report-patch.js?v=20261106-2"><\/script>'
       ].join('\n');
       html=html.includes('</body>')?html.replace('</body>',exchangeConditionLayout+patches+'\n</body>'):html+exchangeConditionLayout+patches;

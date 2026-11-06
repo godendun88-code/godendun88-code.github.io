@@ -855,6 +855,32 @@
       const dailyBalancePresentationSimplify='<style>.table-wrap:has(#dailyBalanceCompareBody),#dailyBalancePanel .daily-subtitle,#dailyBalancePanel .rate-badge,#dailyBalancePriority,#dailyBalancePanel .overview-detail,#dailyBalancePanel .daily-note{display:none!important}</style>';
       const depositMaturityBadgeHide='<style>.deposit-maturity-scenario>.current-table-head>.rate-badge,.deposit-maturity-scenario summary .rate-badge{display:none!important}</style>';
 
+      const depositMaturityGraphSync=`<script>
+(()=>{
+  const install=()=>{
+    if(typeof currentMonthlySeries!=='function'||currentMonthlySeries.__depositMaturityGraphSync)return typeof currentMonthlySeries==='function';
+    const originalCurrentMonthlySeries=currentMonthlySeries;
+    const syncedCurrentMonthlySeries=function(model,referenceRate){
+      const series=originalCurrentMonthlySeries(model,referenceRate);
+      const releases=Array.isArray(model?.depositMaturityScenario?.releases)?model.depositMaturityScenario.releases:[];
+      if(!releases.length)return series;
+      return series.map(row=>{
+        const addedKrw=releases.filter(item=>String(row?.month||'')>=String(item?.effectiveDate||item?.maturity||'').slice(0,7)).reduce((sum,item)=>sum+num(item?.principal),0);
+        if(!addedKrw)return row;
+        const krwBalance=num(row.krwBalance)+addedKrw;
+        return {...row,krwBalance,totalBalance:row.usdConverted==null?null:krwBalance+num(row.usdConverted),maturityReleaseKrw:addedKrw};
+      });
+    };
+    syncedCurrentMonthlySeries.__depositMaturityGraphSync=true;
+    currentMonthlySeries=syncedCurrentMonthlySeries;
+    return true;
+  };
+  if(!install()){
+    const timer=setInterval(()=>{if(install())clearInterval(timer)},50);
+    setTimeout(()=>clearInterval(timer),5000);
+  }
+})();
+<\/script>`;
       const patches=[
         '<script src="./monthly-usd-patch.js?v=20261106-14"><\/script>',
         '<script src="./reconciliation-xls-patch.js?v=20260917-10"><\/script>',
@@ -865,7 +891,8 @@
         dailyBalanceTopPriority,
         executiveColorTheme,
         dailyBalancePresentationSimplify,
-        depositMaturityBadgeHide
+        depositMaturityBadgeHide,
+        depositMaturityGraphSync
       ].join('\n');
       html=html.includes('</body>')?html.replace('</body>',exchangeConditionLayout+patches+'\n</body>'):html+exchangeConditionLayout+patches;
       document.open();

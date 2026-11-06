@@ -939,45 +939,6 @@
   if(install())setTimeout(refresh,0);else{const timer=setInterval(()=>{if(install()){clearInterval(timer);refresh()}},50);setTimeout(()=>clearInterval(timer),5000)}
 })();
 <\/script>`;
-      const maxDeficitExchangeRecommendation=`<script>
-(()=>{
-  const install=()=>{
-    if(typeof cashAnalysis!=='function'||cashAnalysis.__maxDeficitRecommendation)return typeof cashAnalysis==='function';
-    const originalCashAnalysis=cashAnalysis;
-    const revisedCashAnalysis=function(model,referenceRate){
-      const analysis=originalCashAnalysis(model,referenceRate);
-      const points=Array.isArray(analysis.future)&&analysis.future.length?analysis.future:(analysis.points||[]);
-      const minimum=points.reduce((lowest,point)=>num(point.krwBalance)<num(lowest.krwBalance)?point:lowest,points[0]||{krwBalance:0});
-      const maximumShortage=Math.max(0,-num(minimum.krwBalance));
-      return {...analysis,minKrw:minimum,shortageKrw:maximumShortage,mandatoryUsd:referenceRate>0?maximumShortage/referenceRate:0,pnl:(referenceRate>0?maximumShortage/referenceRate:0)*(referenceRate-model.accountRate),maxKrwShortage:maximumShortage};
-    };
-    revisedCashAnalysis.__maxDeficitRecommendation=true;
-    cashAnalysis=revisedCashAnalysis;
-    if(typeof currentCashProjection==='function'&&!currentCashProjection.__maxDeficitRecommendation){
-      const originalProjection=currentCashProjection;
-      const revisedProjection=function(...args){
-        const projection=originalProjection(...args),analysis=projection.analysis||{};
-        return {...projection,shortageKrw:analysis.shortageKrw??projection.shortageKrw,needUsd:analysis.mandatoryUsd??projection.needUsd};
-      };
-      revisedProjection.__maxDeficitRecommendation=true;
-      currentCashProjection=revisedProjection;
-    }
-    if(typeof renderExchangeWorkspace==='function'&&!renderExchangeWorkspace.__maxDeficitRecommendation){
-      const render=renderExchangeWorkspace;
-      const revisedRender=function(){
-        render();
-        const note=$('exchangeSummaryWarning');
-        if(note&&cashModel)note.textContent='권장 금액은 환전 실행일 이후 계획기간에서 가장 큰 원화 부족액을 보전하는 기준입니다.';
-      };
-      revisedRender.__maxDeficitRecommendation=true;
-      renderExchangeWorkspace=revisedRender;
-    }
-    return true;
-  };
-  if(install())setTimeout(()=>{if(typeof renderExchangeWorkspace==='function')renderExchangeWorkspace();if(cashModel&&typeof renderCurrentOverview==='function')renderCurrentOverview(cashModel)},0);
-  else{const timer=setInterval(()=>{if(install()){clearInterval(timer);if(typeof renderExchangeWorkspace==='function')renderExchangeWorkspace()}},50);setTimeout(()=>clearInterval(timer),5000)}
-})();
-<\/script>`;
       const patches=[
         '<script src="./monthly-usd-patch.js?v=20261106-14"><\/script>',
         '<script src="./reconciliation-xls-patch.js?v=20260917-10"><\/script>',
@@ -991,8 +952,7 @@
         depositMaturityBadgeHide,
         depositMaturityGraphSync,
         depositMaturityExchangeSync,
-        depositMaturitySourceColumn,
-        maxDeficitExchangeRecommendation
+        depositMaturitySourceColumn
       ].join('\n');
       html=html.includes('</body>')?html.replace('</body>',exchangeConditionLayout+patches+'\n</body>'):html+exchangeConditionLayout+patches;
       document.open();

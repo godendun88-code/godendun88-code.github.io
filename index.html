@@ -790,6 +790,12 @@
       replaceRequired('drawExchangePlannerChart(data.baseline,data.after,data.date)','drawExchangePlannerChart(data.baseline,data.after,data.date,data.rate)','환전 그래프 적용환율');
       const dailyBalanceComparisonRemoval='<script>(()=>document.getElementById("dailyBalanceCompareBody")?.closest(".table-wrap")?.remove())()<\/script>';
 
+      replaceRequired(
+        "showDashboard(email,isAdmin);watchSharedCashPlan();if(isAdmin)startMicrosoftCashPlan()});",
+        "showDashboard(email,isAdmin);watchSharedCashPlan();if(isAdmin)setMicrosoftStatus('자동 OneDrive 반영 일시 중지 · 복구본 확인 후 재개');});",
+        '자동 OneDrive 갱신 일시 중지'
+      );
+
       const patches=[
         '<script src="./monthly-usd-patch.js?v=20260917-13"><\/script>',
         '<script src="./reconciliation-xls-patch.js?v=20260917-10"><\/script>',

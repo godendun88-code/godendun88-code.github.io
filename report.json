@@ -1,17 +1,29 @@
 {
-  "updated_at_kst": "2026-11-07 02:27 KST",
+  "updated_at_kst": "2026-11-07 07:22 KST",
   "current_rate": 1361.6,
   "previous_close": 1348.8,
-  "rate_updated_at_kst": "2026-11-07 02:27:01 KST",
+  "rate_updated_at_kst": "2026-11-07 07:22:01 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
-    "미국 고용 관련 최신 기사(\"TSX futures slip as tech jitters linger ahead of employment data\")가 확인돼 고용지표가 연준 금리 기대와 달러 방향성을 좌우하는 변수로 부각되고 있습니다.",
-    "달러 관련 최신 기사(\"Dollar climbs as stock rout spreads to Asian, European markets\")가 확인돼 달러인덱스 방향성이 원/달러 환율의 핵심 변수로 작용하고 있습니다.",
+    "미국 고용 강세 관련 보도가 확인돼 금리 인하 기대를 낮추고 달러 강세 요인으로 작용하고 있습니다.",
+    "미국 물가 관련 최신 기사(\"Markets fret over growth and inflation, just as tech rout gains speed\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
     "원화·국내수급 관련 최신 기사(\"South Korea stocks plunge as US midterm results spark AI selloff\")가 확인돼 외국인 자금 흐름과 원화 수급이 단기 환율 변수로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
+    {
+      "title": "VIEW Strong October jobs report sends yields higher",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNTnpMd1ZuR2N2T2ZIelhxU25lLVpES1EteXlqbW4zVXM1V2M3SkppUlRRZkctZ181TzNsYnhPdFV4OXhzejdscG5TRHJWbGx6M0hrMXZmLS03MDFaQ2VGU0xjaHA1UDhZQ3lsUTNyVVFGODdjR253T2ZGVlNieDZ5dWRwQ3dqa0pqR21pYi1FNUlWOFpMTjZ0VEU4VGc?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-11-06 23:45 KST"
+    },
+    {
+      "title": "Indian shares log biggest gains in seven months on oil slide, foreign flows",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNVmJaMVVmaUE0cUtPUW9iRklDNUNCV2k4c1NXYzllRGYzeUdXOFJkeGVEOUNsdkhwc0pfc3pkSVdvb3Nwc3FMSE0xTVBnbEtiQ29Gd2NzbmFtMU9rVXNoNXF3MkRrMEtHczdSX0VGUExrTDkyNHAxYWI0SGFWbVRSZWhDaGlvNkhLdUtiZGdDaWVQaFJ0NkRkckJvQ0ZzSnM2dmFUd2tZXzdQaWZBaFN4Y3BNYXo0UkVZRGpQTkdTUQ?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-11-06 20:50 KST"
+    },
     {
       "title": "COMMENTARY: Morning Bid: Out of the blue",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxONlZrdVZLR0E5N3k1Z1JhcnZVOU5sYjg1UjRRNkJ2VG45cWdGZ19pYkpnVUdGUDBSSFJydTVJRXNLSERNQTN6Y0xrWlBSMUdDNndjV2g3NW5hbktmWU9yRUtvNHR5YUZIODVtSWoxeGFJeW5oeXJBMUttMmhRZHl1SWtkTUo2SGx6YlJNR2hlS2xRdHlkUWtF?oc=5",
@@ -25,37 +37,25 @@
       "seen": "2026-11-06 20:01 KST"
     },
     {
-      "title": "Gold drops 1% as strong US payrolls boost dollar, yields",
+      "title": "Markets fret over growth and inflation, just as tech rout gains speed",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxONUh4V2hzQnA1Rk9zNTN6d3ZxcVZycGZQVmNUNjR3NmpXSmphZHh4LWZvaGJmTTVEWDdBc0lNWmZyUUp3MTFndk5uZl80Qnk0QXotRmo5S1g0MVhDejlwMjJlczNLVWY1eHRLZ1c4dExyOUNqdjJPaUFhVnE2WC16QUc4aTVfUlAwQUtKMktZYi1STk94cXBnSXF5OEQ?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-11-06 14:09 KST"
+    },
+    {
+      "title": "Gold drops as strong US payrolls boost dollar, yields",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQQVNBUlY0RkQ3Vm5qcDFmbS12Nlo0Wjd4RWNEWkROOFRSX0hha1VobWJkTW82YTM1QzNMUXlzX1V5bktiSHJDYklFR2ZDUnN4aEhGM3U0UmlRT3pDcjVFRkR5ak9IZ1NVbG4wempaX1Y0R2JXb0U2THRLcE80d0l1NFppQ3l5b2M4c3RQZU1sS1RNRHdiYmFsYmw0czRoUnVJRVJLNTl0VmVNODg3NWVR?oc=5",
       "domain": "Reuters",
       "seen": "2026-11-06 12:46 KST"
-    },
-    {
-      "title": "As high oil prices curb demand, fresh signs of glut appear",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQem82aUU3S0NZWXNNcXlreW9xS3J0UnpIcDNCWVdqS3NyclRxSUtWenpmMEhoNmp6amtNSG5ZYmpuMzc1TElxODVYTmVSZURrYjJsbVliVXlVSzNtM3J5TDBMNl9sQ0JSTmxKQ2RxVzc4RnMxX2lIZGp3Y3kwTFdrUndLZkFMN0JkN2xLTi02dDZjT0x1Wk0ySTMxZlpNZWRmX1F6ZDhR?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-11-06 11:04 KST"
-    },
-    {
-      "title": "Dollar climbs as stock rout spreads to Asian, European markets",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQcTZYNGtkV0pONThjTHhjTkdYS0JYX1YtSlJISko4bVRPZDlUSzZaTmhRU0ZtQmtnZWFRQUkxRDhUWHR2akFsSkhSZmQxdVE4dURkRlJ4ekEtc1lFSTlTT3VaU1VRa0VKRjZFZkdZUWVpR3NNT1hfR1JhLVkxWHlLUDVZT04wMnJYTFMyX0haakxHcWdIdWg2SFVpNGF4eWFwNXV0eGZ3Q2ZDeTYzbGtyZXpGM05XNDVBb0U2dUtScEM?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-11-06 10:24 KST"
-    },
-    {
-      "title": "South Korea stocks plunge as US midterm results spark AI selloff",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQUXFPZWJ0ekg2Mnl6b3ZEMDRpRzJON3M1b3FnWlpsbVZSSlpnMDR1YXJFWG0zMmROd0NybFRLWXdtcjdQWm1hckFsTE15d2FoY0hnMGZsMjctbnc1VjFCZ09uUWhDbVpGOUtmQmU4UEhLNmtINHZjbTA4cXZPSmpqTFM3TEptUUU4clROU0xCc3QtM3NNbThZOHMxU1lqU1I4Y3EzRnRnY1hqUFpwUTJWcWcxQWhJNVh2VER2dGtzZUxxSmJSeXc?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-11-06 10:01 KST"
     }
   ],
-  "rate_source_time": "2026-11-07 02:27:01 KST",
+  "rate_source_time": "2026-11-07 07:22:01 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": 12.8,
   "rate_change_pct": 0.95,
   "smbs_base_rate": 1342.0,
   "smbs_rate_date": "2026-11-07",
-  "smbs_rate_updated_at_kst": "2026-11-07 02:26:47 KST",
+  "smbs_rate_updated_at_kst": "2026-11-07 07:21:49 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1363.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-11-07 02:26:47 KST"
+  "rate_job_checked_at_kst": "2026-11-07 07:21:49 KST"
 }

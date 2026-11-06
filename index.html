@@ -881,6 +881,15 @@
   }
 })();
 <\/script>`;
+      const depositMaturityExchangeSync=`<script>
+(()=>{
+  document.addEventListener('change',event=>{
+    const select=event.target?.closest?.('[data-deposit-maturity-choice]');
+    if(!select)return;
+    setTimeout(()=>{if(typeof renderExchangeWorkspace==='function')renderExchangeWorkspace()},0);
+  });
+})();
+<\/script>`;
       const patches=[
         '<script src="./monthly-usd-patch.js?v=20261106-14"><\/script>',
         '<script src="./reconciliation-xls-patch.js?v=20260917-10"><\/script>',
@@ -892,7 +901,8 @@
         executiveColorTheme,
         dailyBalancePresentationSimplify,
         depositMaturityBadgeHide,
-        depositMaturityGraphSync
+        depositMaturityGraphSync,
+        depositMaturityExchangeSync
       ].join('\n');
       html=html.includes('</body>')?html.replace('</body>',exchangeConditionLayout+patches+'\n</body>'):html+exchangeConditionLayout+patches;
       document.open();

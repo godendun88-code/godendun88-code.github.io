@@ -817,8 +817,8 @@
         if(!month)continue;
         const krw=nullableCashNumber(row[krwColumn]),usd=nullableCashNumber(row[usdColumn]);
         if(krw==null||usd==null)continue;
-        const label=row.map(cleanCashCell).join('|'),blue=cashMonthEndBlue(sheet,rowIndex,[krwColumn,usdColumn]),score=(blue?4:0)+(label.includes('잔고')?2:0)+(date?1:0),previous=candidates.get(month);
-        if(!previous||score>previous.score||score===previous.score&&rowIndex>previous.row)candidates.set(month,{month,status:statusColumn>=0&&['확정','예상'].includes(cleanCashCell(row[statusColumn]))?cleanCashCell(row[statusColumn]):'예상',krwBalance:krw,usdBalance:usd,sourceSheet:'자금운용',confirmedRows:cleanCashCell(row[statusColumn])==='확정'?1:0,forecastRows:cleanCashCell(row[statusColumn])==='확정'?0:1,row:rowIndex,score});
+        const previous=candidates.get(month);
+        if(!previous||rowIndex>previous.row)candidates.set(month,{month,status:statusColumn>=0&&['확정','예상'].includes(cleanCashCell(row[statusColumn]))?cleanCashCell(row[statusColumn]):'예상',krwBalance:krw,usdBalance:usd,sourceSheet:'자금운용',confirmedRows:cleanCashCell(row[statusColumn])==='확정'?1:0,forecastRows:cleanCashCell(row[statusColumn])==='확정'?0:1,row:rowIndex});
       }
       return[...candidates.values()].sort((a,b)=>a.month.localeCompare(b.month));
     }

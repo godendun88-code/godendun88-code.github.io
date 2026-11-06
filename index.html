@@ -970,6 +970,22 @@
   if(install())setTimeout(applyLabels,0);else{const timer=setInterval(()=>{if(install()){clearInterval(timer);applyLabels()}},50);setTimeout(()=>clearInterval(timer),5000)}
 })();
 <\/script>`;
+      const dailyBalanceCardOrderPatch=`<script>
+(()=>{
+  const arrange=()=>{
+    const usd=$('dailyBalanceUsd')?.closest('.overview-card'),deposit=$('dailyBalanceDeposits')?.closest('.overview-card');
+    if(usd&&deposit&&usd.parentElement===deposit.parentElement)usd.parentElement.insertBefore(deposit,usd);
+  };
+  arrange();
+  if(typeof renderDailyBalances==='function'&&!renderDailyBalances.__cardOrderPatch){
+    const render=renderDailyBalances;
+    const patched=function(...args){const result=render(...args);arrange();return result};
+    patched.__cardOrderPatch=true;
+    renderDailyBalances=patched;
+  }
+  setTimeout(arrange,0);
+})();
+<\/script>`;
       const patches=[
         '<script src="./monthly-usd-patch.js?v=20261106-14"><\/script>',
         '<script src="./reconciliation-xls-patch.js?v=20260917-10"><\/script>',
@@ -984,7 +1000,8 @@
         depositMaturityGraphSync,
         depositMaturityExchangeSync,
         depositMaturitySourceColumn,
-        availabilityLayoutPatch
+        availabilityLayoutPatch,
+        dailyBalanceCardOrderPatch
       ].join('\n');
       html=html.includes('</body>')?html.replace('</body>',exchangeConditionLayout+patches+'\n</body>'):html+exchangeConditionLayout+patches;
       document.open();

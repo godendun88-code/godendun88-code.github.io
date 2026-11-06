@@ -822,6 +822,13 @@
 })();
 <\/script>`;
 
+      // CFO 보고 고정 탭: grouped navigation HTML에 직접 삽입해 외부 JS 실패와 무관하게 버튼을 유지합니다.
+      replaceRequired(
+        '<section class="workspace-nav-group workspace-nav-source"><div class="workspace-nav-group-title">원본</div><div class="workspace-nav-group-tabs"><button class="workspace-tab" id="sourceTab" data-cash-view="source" onclick="setCashView(\'source\')" hidden>원본 연결</button></div></section>',
+        '<section class="workspace-nav-group workspace-nav-cfo" id="cfoReportGroup"><div class="workspace-nav-group-title">보고</div><div class="workspace-nav-group-tabs"><button type="button" class="workspace-tab" id="cfoReportTab" data-cash-view="cfo">CFO 보고</button></div></section><section class="workspace-nav-group workspace-nav-source"><div class="workspace-nav-group-title">원본</div><div class="workspace-nav-group-tabs"><button class="workspace-tab" id="sourceTab" data-cash-view="source" onclick="setCashView(\'source\')" hidden>원본 연결</button></div></section>',
+        'CFO 보고 고정 탭'
+      );
+
       const dailyBalanceComparisonRemoval='<script>(()=>document.getElementById("dailyBalanceCompareBody")?.closest(".table-wrap")?.remove())()<\/script>';
 
       const patches=[

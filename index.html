@@ -841,7 +841,8 @@
         dailyBalanceTopPriority,
         executiveColorTheme,
         dailyBalanceComparisonRemoval,
-        '<script src="./cfo-report-patch.js?v=20261106-1"><\/script>'
+        '<script src="./data-recovery-patch.js?v=20261106-1"><\/script>',
+        '<script src="./cfo-report-patch.js?v=20261106-2"><\/script>'
       ].join('\n');
       html=html.includes('</body>')?html.replace('</body>',exchangeConditionLayout+patches+'\n</body>'):html+exchangeConditionLayout+patches;
       document.open();

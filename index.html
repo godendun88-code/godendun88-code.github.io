@@ -807,6 +807,11 @@
         return blue>red*1.15&&blue>green*1.1&&blue<210;
       });
     }
+    function cashMonthEndNumber(value){
+      const direct=nullableCashNumber(value);if(direct!=null)return direct;
+      const text=String(value??'').trim().toUpperCase().replace('USD','').split(',').join('').split('원').join('').trim(),parsed=Number(text);
+      return Number.isFinite(parsed)?parsed:null;
+    }
     function parseCashSheetMonthEnds(sheet,rows,headerIndex){
       const header=(rows[headerIndex]||[]).map(cleanCashCell),monthColumn=header.findIndex(value=>value==='정산및지급월'),statusColumn=header.findIndex(value=>value==='상태'),krwColumn=header.findIndex(value=>value==='원화잔액'),usdColumn=header.findIndex(value=>value==='외화잔액');
       if(monthColumn<0||krwColumn<0||usdColumn<0)return[];
@@ -815,7 +820,7 @@
         const row=rows[rowIndex]||[],date=excelDate(row[monthColumn]);
         if(date)month=date.getFullYear()+'-'+String(date.getMonth()+1).padStart(2,'0');
         if(!month)continue;
-        const krw=nullableCashNumber(row[krwColumn]),usd=nullableCashNumber(row[usdColumn]);
+        const krw=cashMonthEndNumber(row[krwColumn]),usd=cashMonthEndNumber(row[usdColumn]);
         if(krw==null||usd==null)continue;
         const previous=candidates.get(month);
         if(!previous||rowIndex>previous.row)candidates.set(month,{month,status:statusColumn>=0&&['확정','예상'].includes(cleanCashCell(row[statusColumn]))?cleanCashCell(row[statusColumn]):'예상',krwBalance:krw,usdBalance:usd,sourceSheet:'자금운용',confirmedRows:cleanCashCell(row[statusColumn])==='확정'?1:0,forecastRows:cleanCashCell(row[statusColumn])==='확정'?0:1,row:rowIndex});

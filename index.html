@@ -833,7 +833,8 @@
         monthlyHistoryDisplayOrder,
         dailyBalanceTopPriority,
         executiveColorTheme,
-        dailyBalanceComparisonRemoval
+        dailyBalanceComparisonRemoval,
+        '<script src="./cfo-report-patch.js?v=20261106-1"><\/script>'
       ].join('\n');
       html=html.includes('</body>')?html.replace('</body>',exchangeConditionLayout+patches+'\n</body>'):html+exchangeConditionLayout+patches;
       document.open();

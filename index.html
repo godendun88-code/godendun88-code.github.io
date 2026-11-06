@@ -814,7 +814,8 @@
     }
     function cashMonthEndCellNumber(sheet,row,column,fallback){
       const cell=sheet[XLSX.utils.encode_cell({r:row,c:column})];
-      return cashMonthEndNumber(cell?.v??cell?.w??fallback);
+      for(const value of [cell?.w,cell?.v,fallback]){const number=cashMonthEndNumber(value);if(number!=null)return number}
+      return null;
     }
     function parseCashSheetMonthEnds(sheet,rows,headerIndex){
       const header=(rows[headerIndex]||[]).map(cleanCashCell),monthColumn=header.findIndex(value=>value==='정산및지급월'),statusColumn=header.findIndex(value=>value==='상태'),krwColumn=header.findIndex(value=>value==='원화잔액'),usdColumn=header.findIndex(value=>value==='외화잔액');

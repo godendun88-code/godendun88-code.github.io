@@ -857,28 +857,44 @@
 
       const depositMaturityGraphSync=`<script>
 (()=>{
+  const afterTaxInterest=item=>{
+    try{const value=Number(typeof depositTermReturn==='function'?depositTermReturn(item)?.aftertax:0);return Number.isFinite(value)&&value>0?value:0}catch(error){return 0}
+  };
   const install=()=>{
-    if(typeof currentMonthlySeries!=='function'||currentMonthlySeries.__depositMaturityGraphSync)return typeof currentMonthlySeries==='function';
+    if(typeof currentMonthlySeries!=='function'||typeof applyDepositMaturityScenario!=='function'||currentMonthlySeries.__depositMaturityGraphSync)return typeof currentMonthlySeries==='function';
+    applyDepositMaturityScenario=function(model){
+      if(!model?.points?.length)return model;
+      const items=currentDepositMaturityItems(),today=fxTodayKey(),assumptions=items.map(item=>({...item,released:isDepositReleased(item),effectiveDate:item.maturity>today?item.maturity:today,aftertaxInterest:afterTaxInterest(item)}));
+      if(!assumptions.length)return{...model,depositMaturityScenario:{items:[],releases:[]}};
+      const releases=assumptions.filter(item=>item.released).sort((a,b)=>a.effectiveDate.localeCompare(b.effectiveDate));
+      const points=model.points.map(point=>{
+        const date=String(point.date||''),matured=assumptions.filter(item=>date>=item.effectiveDate),locked=assumptions.filter(item=>!item.released||date<item.effectiveDate).reduce((sum,item)=>sum+num(item.principal),0),interest=matured.reduce((sum,item)=>sum+num(item.aftertaxInterest),0),bookKrw=num(point.krwBalance);
+        return{...point,bookKrwBalance:bookKrw,lockedDepositBalance:locked,maturityInterestKrw:interest,krwBalance:bookKrw-locked+interest};
+      });
+      return{...model,points,depositMaturityScenario:{items:assumptions,releases}};
+    };
     const originalCurrentMonthlySeries=currentMonthlySeries;
     const syncedCurrentMonthlySeries=function(model,referenceRate){
-      const series=originalCurrentMonthlySeries(model,referenceRate);
-      const releases=Array.isArray(model?.depositMaturityScenario?.releases)?model.depositMaturityScenario.releases:[];
-      if(!releases.length)return series;
+      const series=originalCurrentMonthlySeries(model,referenceRate),items=Array.isArray(model?.depositMaturityScenario?.items)?model.depositMaturityScenario.items:[];
+      if(!items.length)return series;
       return series.map(row=>{
-        const addedKrw=releases.filter(item=>String(row?.month||'')>=String(item?.effectiveDate||item?.maturity||'').slice(0,7)).reduce((sum,item)=>sum+num(item?.principal),0);
-        if(!addedKrw)return row;
-        const krwBalance=num(row.krwBalance)+addedKrw;
-        return {...row,krwBalance,totalBalance:row.usdConverted==null?null:krwBalance+num(row.usdConverted),maturityReleaseKrw:addedKrw};
+        const credits=items.filter(item=>String(row?.month||'')>=String(item?.effectiveDate||item?.maturity||'').slice(0,7)).reduce((sum,item)=>sum+num(item.aftertaxInterest)+(item.released?num(item.principal):0),0);
+        if(!credits)return row;
+        const krwBalance=num(row.krwBalance)+credits;
+        return{...row,krwBalance,totalBalance:row.usdConverted==null?null:krwBalance+num(row.usdConverted),maturityReleaseKrw:credits};
       });
     };
     syncedCurrentMonthlySeries.__depositMaturityGraphSync=true;
     currentMonthlySeries=syncedCurrentMonthlySeries;
     return true;
   };
-  if(!install()){
-    const timer=setInterval(()=>{if(install())clearInterval(timer)},50);
-    setTimeout(()=>clearInterval(timer),5000);
-  }
+  if(!install()){const timer=setInterval(()=>{if(install())clearInterval(timer)},50);setTimeout(()=>clearInterval(timer),5000)}
+  setTimeout(()=>{
+    const note=document.querySelector('.deposit-maturity-scenario .overview-note');
+    if(note)note.textContent='만기일에 세후 이자가 원화 가용잔액으로 반영됩니다. 원화 전환을 선택하면 원금도 함께 가용잔액으로 반영됩니다. 선택값은 이 브라우저에만 저장됩니다.';
+    if(cashModel&&typeof renderCurrentOverview==='function')renderCurrentOverview(cashModel);
+    if(typeof renderExchangeWorkspace==='function')renderExchangeWorkspace();
+  },0);
 })();
 <\/script>`;
       const depositMaturityExchangeSync=`<script>

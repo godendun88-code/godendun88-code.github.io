@@ -939,6 +939,37 @@
   if(install())setTimeout(refresh,0);else{const timer=setInterval(()=>{if(install()){clearInterval(timer);refresh()}},50);setTimeout(()=>clearInterval(timer),5000)}
 })();
 <\/script>`;
+      const availabilityLayoutPatch=`<script>
+(()=>{
+  const applyLabels=()=>{
+    const daily=$('dailyBalanceKrw'),monthly=$('currentLatestKrw'),need=$('currentNeedMonth');
+    daily?.closest('.overview-card')?.querySelector('.label')&&(daily.closest('.overview-card').querySelector('.label').textContent='가용자금 잔액');
+    monthly?.closest('.overview-card')?.querySelector('.label')&&(monthly.closest('.overview-card').querySelector('.label').textContent='가용자금 월말잔액');
+    need?.closest('.overview-card')?.querySelector('.label')&&(need.closest('.overview-card').querySelector('.label').textContent='첫 환전 필요일');
+  };
+  const install=()=>{
+    if(typeof renderCurrentOverview!=='function'||renderCurrentOverview.__availabilityLayoutPatch)return typeof renderCurrentOverview==='function';
+    const render=renderCurrentOverview;
+    const patched=function(model){
+      render(model);
+      applyLabels();
+      if(!model)return;
+      const referenceRate=num(report?.smbs_base_rate)||model.brokerRate||0,projection=currentCashProjection(model,referenceRate),firstDailyShort=projection?.analysis?.firstKrwShort||projection?.shortage||null;
+      if(!firstDailyShort?.dateObj)return;
+      const dateText=fmtDate(firstDailyShort.dateObj);
+      $('currentNeedMonth').textContent=dateText;
+      const title=$('currentFxComment')?.querySelector('.comment-title');
+      if(title&&title.textContent.includes('원화 부족 예상'))title.textContent=dateText+' 원화 부족 예상';
+      const detail=$('currentFxComment')?.querySelector('.comment-detail');
+      if(detail&&detail.textContent.includes('월말 잔액 기준'))detail.innerHTML=detail.innerHTML.replace('월말 잔액 기준 · 상세 일자는 입출금 계획 확인 필요',esc(dateText)+' 최초 부족 예상');
+    };
+    patched.__availabilityLayoutPatch=true;
+    renderCurrentOverview=patched;
+    return true;
+  };
+  if(install())setTimeout(applyLabels,0);else{const timer=setInterval(()=>{if(install()){clearInterval(timer);applyLabels()}},50);setTimeout(()=>clearInterval(timer),5000)}
+})();
+<\/script>`;
       const patches=[
         '<script src="./monthly-usd-patch.js?v=20261106-14"><\/script>',
         '<script src="./reconciliation-xls-patch.js?v=20260917-10"><\/script>',
@@ -952,7 +983,8 @@
         depositMaturityBadgeHide,
         depositMaturityGraphSync,
         depositMaturityExchangeSync,
-        depositMaturitySourceColumn
+        depositMaturitySourceColumn,
+        availabilityLayoutPatch
       ].join('\n');
       html=html.includes('</body>')?html.replace('</body>',exchangeConditionLayout+patches+'\n</body>'):html+exchangeConditionLayout+patches;
       document.open();

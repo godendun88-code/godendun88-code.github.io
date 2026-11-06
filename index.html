@@ -591,12 +591,12 @@
       );
       replaceRequired(
         "const header=rows[headerIndex].map(cleanCashCell),statusIndex=header.findIndex(value=>value==='상태'),openingKrw=num(rows[0]?.[2]),openingUsd=num(rows[1]?.[2]),planRate=num(rows[2]?.[2]),accountRate=num(rows[3]?.[2]),brokerRate=num(rows[4]?.[2]);let month=null;",
-        "const header=rows[headerIndex].map(cleanCashCell),statusIndex=header.findIndex(value=>value==='상태'),krwBalanceIndex=header.findIndex(value=>value==='원화잔액'),usdBalanceIndex=header.findIndex(value=>value==='외화잔액'),fxNeedIndex=header.findIndex(value=>value==='환전필요시기'),openingKrw=num(rows[0]?.[2]),openingUsd=num(rows[1]?.[2]),planRate=num(rows[2]?.[2]),accountRate=num(rows[3]?.[2]),brokerRate=num(rows[4]?.[2]),planBalance=value=>{if(typeof value==='number'&&Number.isFinite(value))return value;const text=String(value??'').trim().replace(/\\s/g,'').replace(/^USD/i,'').replace(/[,원]/g,'');if(!text)return null;const parsed=Number(text.replace(/^\\((.+)\\)$/,'-$1'));return Number.isFinite(parsed)?parsed:null};let month=null;",
+        "const header=rows[headerIndex].map(cleanCashCell),statusIndex=header.findIndex(value=>value==='상태'),krwBalanceIndex=header.findIndex(value=>value==='원화잔액'),usdBalanceIndex=header.findIndex(value=>value==='외화잔액'),fxNeedIndex=header.findIndex(value=>value==='환전필요시기'),maturityHandlingIndex=(()=>{const index=header.findIndex(value=>value==='만기처리'||value==='예금만기처리'||value==='재예치여부'||value==='만기해지여부'||(value.includes('만기')&&(value.includes('처리')||value.includes('재예치')||value.includes('해지'))));return index>=0?index:19})(),openingKrw=num(rows[0]?.[2]),openingUsd=num(rows[1]?.[2]),planRate=num(rows[2]?.[2]),accountRate=num(rows[3]?.[2]),brokerRate=num(rows[4]?.[2]),planBalance=value=>{if(typeof value==='number'&&Number.isFinite(value))return value;const text=String(value??'').trim().replace(/\\s/g,'').replace(/^USD/i,'').replace(/[,원]/g,'');if(!text)return null;const parsed=Number(text.replace(/^\\((.+)\\)$/,'-$1'));return Number.isFinite(parsed)?parsed:null};let month=null;",
         '자금운용 원화 잔액 열'
       );
       replaceRequired(
         "events.push({date,row:i+1,category,flow,currency,status,krwIn,krwOut,usdIn,usdOut})",
-        "const planKrwBalance=krwBalanceIndex>=0?planBalance(row[krwBalanceIndex]):null,planUsdBalance=usdBalanceIndex>=0?planBalance(row[usdBalanceIndex]):null,exchangeRequired=fxNeedIndex>=0&&cleanCashCell(row[fxNeedIndex]).includes('환전필요');events.push({date,row:i+1,category,flow,currency,status,krwIn,krwOut,usdIn,usdOut,planKrwBalance,planUsdBalance,exchangeRequired})",
+        "const planKrwBalance=krwBalanceIndex>=0?planBalance(row[krwBalanceIndex]):null,planUsdBalance=usdBalanceIndex>=0?planBalance(row[usdBalanceIndex]):null,exchangeRequired=fxNeedIndex>=0&&cleanCashCell(row[fxNeedIndex]).includes('환전필요'),maturityHandling=maturityHandlingIndex>=0?cleanCashCell(row[maturityHandlingIndex]):'';events.push({date,row:i+1,category,flow,currency,status,krwIn,krwOut,usdIn,usdOut,planKrwBalance,planUsdBalance,exchangeRequired,maturityHandling})",
         '자금운용 환전필요 행'
       );
       replaceRequired(
@@ -714,7 +714,7 @@
       if(!html.includes(linkedDepositParserAnchor))throw new Error('연결 자금파일 예금 파서 위치를 찾지 못했습니다.');
       html=html.replace(linkedDepositParserAnchor,linkedDepositParser+String.fromCharCode(10)+linkedDepositParserAnchor);
       replaceRequired("return{fileName:file.name,fileModified:file.lastModified||Date.now(),importedAt:Date.now(),sourceSheet,openingKrw,openingUsd,planRate,accountRate,brokerRate,points,monthlyHistory,...costData}}","return{fileName:file.name,fileModified:file.lastModified||Date.now(),importedAt:Date.now(),sourceSheet,openingKrw,openingUsd,planRate,accountRate,brokerRate,points,monthlyHistory,depositProducts:parseLinkedDepositProducts(workbook),...costData}}",'연결 자금파일 예금 읽기');
-      replaceRequired("usdBalance:p.usdBalance}))}}","usdBalance:p.usdBalance})),depositProducts:(model.depositProducts||[]).map(item=>({bank:item.bank,product:item.product,maturity:item.maturity,account:item.account,rate:item.rate,principal:item.principal}))}}",'연결 자금파일 예금 공유');
+      replaceRequired("usdBalance:p.usdBalance}))}}","usdBalance:p.usdBalance,maturityHandling:p.maturityHandling||''})),depositProducts:(model.depositProducts||[]).map(item=>({bank:item.bank,product:item.product,maturity:item.maturity,account:item.account,rate:item.rate,principal:item.principal}))}}",'연결 자금파일 예금 공유');
       replaceRequired("setCashModel(model,meta={}){cashSourceMeta=meta;cashModel=model;localStorage.setItem(CASH_STORAGE_KEY,JSON.stringify(model));","setCashModel(model,meta={}){cashSourceMeta=meta;cashModel=model;if(Array.isArray(model?.depositProducts)&&model.depositProducts.length)setDepositProducts(model.depositProducts);localStorage.setItem(CASH_STORAGE_KEY,JSON.stringify(model));",'연결 자금파일 예금 표시');
       replaceRequired("function applyDepositMaturityScenario(model){\n      if(!model?.points?.length)return model;\n      const items=currentDepositMaturityItems(),today=fxTodayKey(),releases=items.filter(isDepositReleased).map(item=>({...item,effectiveDate:item.maturity>today?item.maturity:today})).sort((a,b)=>a.effectiveDate.localeCompare(b.effectiveDate));\n      if(!releases.length)return{...model,depositMaturityScenario:{items,releases:[]}};\n      const points=model.points.map(point=>{\n        const released=releases.filter(item=>String(point.date||'')>=item.effectiveDate).reduce((sum,item)=>sum+num(item.principal),0);\n        return released?{...point,krwBalance:num(point.krwBalance)+released}:{...point};\n      });\n      return{...model,points,depositMaturityScenario:{items,releases}};\n    }","function applyDepositMaturityScenario(model){\n      if(!model?.points?.length)return model;\n      const items=currentDepositMaturityItems(),today=fxTodayKey(),assumptions=items.map(item=>({...item,released:isDepositReleased(item),effectiveDate:item.maturity>today?item.maturity:today}));\n      if(!assumptions.length)return{...model,depositMaturityScenario:{items:[],releases:[]}};\n      const releases=assumptions.filter(item=>item.released).sort((a,b)=>a.effectiveDate.localeCompare(b.effectiveDate));\n      const points=model.points.map(point=>{\n        const locked=assumptions.filter(item=>!item.released||String(point.date||'')<item.effectiveDate).reduce((sum,item)=>sum+num(item.principal),0),bookKrw=num(point.krwBalance);\n        return{...point,bookKrwBalance:bookKrw,lockedDepositBalance:locked,krwBalance:bookKrw-locked};\n      });\n      return{...model,points,depositMaturityScenario:{items:assumptions,releases}};\n    }",'재예치 가용 원화 계산');
       replaceRequired("const monthlyShort=series.find(row=>row.month>=currentMonthKey()&&!row.dailyCovered&&row.krwBalance<0),hasDepositRelease=(baseline.depositMaturityScenario?.releases||[]).length>0,explicitShort=hasDepositRelease?null:baseline.points.find(point=>point.date>=fxTodayKey()&&point.exchangeRequired)||null,dailyShort=analysis.firstKrwShort?.date>=fxTodayKey()?analysis.firstKrwShort:null;","const monthlyShort=series.find(row=>row.month>=currentMonthKey()&&!row.dailyCovered&&row.krwBalance<0),hasDepositLiquidityAssumption=(baseline.depositMaturityScenario?.items||[]).length>0,explicitShort=hasDepositLiquidityAssumption?null:baseline.points.find(point=>point.date>=fxTodayKey()&&point.exchangeRequired)||null,dailyShort=analysis.firstKrwShort?.date>=fxTodayKey()?analysis.firstKrwShort:null;",'예금 가정 환전 필요일 계산');
@@ -906,6 +906,39 @@
   });
 })();
 <\/script>`;
+      const depositMaturitySourceColumn=`<script>
+(()=>{
+  const sourceChoice=item=>{
+    const points=Array.isArray(cashModel?.points)?cashModel.points:[];
+    const raw=[...points].reverse().filter(point=>String(point?.date||'').slice(0,10)===String(item?.maturity||'')).map(point=>String(point?.maturityHandling||'').replace(/\\s/g,'')).find(Boolean)||'';
+    if(/만기해지|해지|원화전환/.test(raw))return'release';
+    if(/재예치|계속묶임/.test(raw))return'reinvest';
+    return'';
+  };
+  const install=()=>{
+    if(typeof isDepositReleased!=='function'||isDepositReleased.__sourceColumn)return false;
+    const localChoice=isDepositReleased;
+    const sourceAwareChoice=item=>{const choice=sourceChoice(item);return choice?choice==='release':localChoice(item)};
+    sourceAwareChoice.__sourceColumn=true;
+    isDepositReleased=sourceAwareChoice;
+    const render=renderDepositMaturityChoices;
+    renderDepositMaturityChoices=function(){
+      render();
+      const items=currentDepositMaturityItems(),byKey=new Map(items.map(item=>[depositMaturityKey(item),item]));
+      document.querySelectorAll('[data-deposit-maturity-choice]').forEach(select=>{
+        const choice=sourceChoice(byKey.get(select.dataset.depositMaturityChoice));
+        if(!choice)return;
+        select.value=choice;
+        select.disabled=true;
+        select.title='자금운용 시트 T열의 만기 처리값을 사용합니다.';
+      });
+    };
+    return true;
+  };
+  const refresh=()=>{if(typeof renderExchangeWorkspace==='function')renderExchangeWorkspace();if(cashModel&&typeof renderCurrentOverview==='function')renderCurrentOverview(cashModel)};
+  if(install())setTimeout(refresh,0);else{const timer=setInterval(()=>{if(install()){clearInterval(timer);refresh()}},50);setTimeout(()=>clearInterval(timer),5000)}
+})();
+<\/script>`;
       const patches=[
         '<script src="./monthly-usd-patch.js?v=20261106-14"><\/script>',
         '<script src="./reconciliation-xls-patch.js?v=20260917-10"><\/script>',
@@ -918,7 +951,8 @@
         dailyBalancePresentationSimplify,
         depositMaturityBadgeHide,
         depositMaturityGraphSync,
-        depositMaturityExchangeSync
+        depositMaturityExchangeSync,
+        depositMaturitySourceColumn
       ].join('\n');
       html=html.includes('</body>')?html.replace('</body>',exchangeConditionLayout+patches+'\n</body>'):html+exchangeConditionLayout+patches;
       document.open();

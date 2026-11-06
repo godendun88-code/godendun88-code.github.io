@@ -139,8 +139,9 @@
       group.innerHTML='<div class="workspace-nav-group-title">보고</div><div class="workspace-nav-group-tabs"><button type="button" class="workspace-tab" id="cfoReportTab" data-cash-view="cfo">CFO 보고</button></div>';
       const sourceGroup=nav.querySelector('.workspace-nav-source');
       nav.insertBefore(group,sourceGroup||null);
-      $('cfoReportTab').addEventListener('click',openReport);
     }
+    const cfoTab=$('cfoReportTab');
+    if(cfoTab&&!cfoTab.dataset.bound){cfoTab.dataset.bound='1';cfoTab.addEventListener('click',openReport)}
 
     if(!nav.dataset.cfoCloseBound){
       nav.dataset.cfoCloseBound='1';

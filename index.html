@@ -973,8 +973,9 @@
       const dailyBalanceCardOrderPatch=`<script>
 (()=>{
   const arrange=()=>{
-    const usd=$('dailyBalanceUsd')?.closest('.overview-card'),deposit=$('dailyBalanceDeposits')?.closest('.overview-card');
-    if(usd&&deposit&&usd.parentElement===deposit.parentElement)usd.parentElement.insertBefore(deposit,usd);
+    const cards=[$('dailyBalanceTotal'),$('dailyBalanceKrw'),$('dailyBalanceUsd'),$('dailyBalanceDeposits')].map(item=>item?.closest('.overview-card'));
+    const host=cards.find(Boolean)?.parentElement;
+    if(host&&cards.every(card=>card&&card.parentElement===host))cards.forEach(card=>host.appendChild(card));
   };
   arrange();
   if(typeof renderDailyBalances==='function'&&!renderDailyBalances.__cardOrderPatch){

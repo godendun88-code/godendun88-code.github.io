@@ -1,67 +1,67 @@
 {
-  "updated_at_kst": "2026-11-05 16:22 KST",
-  "current_rate": 1341.2,
-  "previous_close": 1340.3,
-  "rate_updated_at_kst": "2026-11-05 16:22:25 KST",
+  "updated_at_kst": "2026-11-06 18:50 KST",
+  "current_rate": 1352.3,
+  "previous_close": 1348.8,
+  "rate_updated_at_kst": "2026-11-06 18:50:28 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
-    "미 국채금리 관련 최신 기사(\"Gold rallies on softer dollar, easing yields after US midterm results\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다.",
-    "글로벌 달러 약세 관련 보도가 이어지며 원/달러 환율에는 하락 압력으로 작용하고 있습니다.",
-    "유가·지정학 관련 최신 기사(\"Chip stocks, oil sink in the aftermath of Democratic election sweep\")가 확인돼 원화 변동성 확대 요인으로 작용하고 있습니다."
+    "미국 물가 관련 최신 기사(\"Markets fret over growth and inflation despite easing oil prices\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
+    "달러 관련 최신 기사(\"Dollar climbs on haven bid as AI rout grips Asian markets\")가 확인돼 달러인덱스 방향성이 원/달러 환율의 핵심 변수로 작용하고 있습니다.",
+    "원화·국내수급 관련 최신 기사(\"South Korea stocks plunge as US midterm results spark AI selloff\")가 확인돼 외국인 자금 흐름과 원화 수급이 단기 환율 변수로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
     {
-      "title": "Chip stocks, oil sink in the aftermath of Democratic election sweep",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUG9ENFo3M0RHNWI0VEdfTlZhWmpjVGR0UjViV3dBQllRVkNha0YzU1FhX2lDaWVUT1U1Ym5DbWRlOFpJZ3JPU3AwZ1Nia3NNWjdKc3Jvd0VXU3otQU83ZjFlQmZwbHcyZmJKZFk4dVJWaXhWQnV6MTF6TUpmaDcxNmdhbFFNaU1N?oc=5",
+      "title": "Markets fret over growth and inflation despite easing oil prices",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxONUh4V2hzQnA1Rk9zNTN6d3ZxcVZycGZQVmNUNjR3NmpXSmphZHh4LWZvaGJmTTVEWDdBc0lNWmZyUUp3MTFndk5uZl80Qnk0QXotRmo5S1g0MVhDejlwMjJlczNLVWY1eHRLZ1c4dExyOUNqdjJPaUFhVnE2WC16QUc4aTVfUlAwQUtKMktZYi1STk94cXBnSXF5OEQ?oc=5",
       "domain": "Reuters",
-      "seen": "2026-11-05 15:44 KST"
+      "seen": "2026-11-06 14:09 KST"
     },
     {
-      "title": "Goldilocks or gridlock?",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1xOVpFU1lMaklaLUIxcW9lWTl6bjhFZWI2UWtfdU1tblltMFNwZEJpd2RTaXhVdW1ES0gzWDFGRXJ6MzFrdXBZY1B2czRpczBWVHpOSzlGekNkUzdwLVBXR2ljNUNxWWpaYjhYdEdDMXk1M2pScFJ4dXA1OVV4OGM?oc=5",
+      "title": "Oil set for sharp weekly drop but Middle East supply concerns provide floor",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOR0loTjAtWUlkbnpIR2huZE8zWWkxZHZIZlprNlQ5Z3BSaGUxcnE1ZDdqbXFuOHFpQVdrbzEyNnRUSGR4ZDh3SEpqQkpqX2NZa0JlZjEyZlp3RElJMFlhVDRLLTZ3MzRuV2NuTXR3SjhQejExMVR4eE10YThVcmJYaTdNYmt1SjJfeG10NlJRRFB1SFNQUlRSanFrYzBFUjlZNjBGMjhxSi1MZG1sd19kWGU0Ykt5bmR4by1B?oc=5",
       "domain": "Reuters",
-      "seen": "2026-11-05 14:50 KST"
+      "seen": "2026-11-06 11:49 KST"
     },
     {
-      "title": "Gold rallies on softer dollar, easing yields after US midterm results",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPRGw2bTVBSnBUN1BZcDhwQ0dVSmFIUVhDdGZLazVPNnV2NG5iYkVxXzg5QmRyY21IOWZOcFVRVXJBSU5PT1pXQWh3UHVmVWxhSm15bVh2NTVQZzJGVHpPT2dSSHc2NXlaLUYyQmVGX24xdW84cVN2NXpGcUhGZ0xrNDZSODR1NDNtNW9vc2JJSUVRcGZIMkprZHNONm4wN2VxUzdBX3B1NWxxcDBsWjNnZ05tUzdMRHJNaEJja2oxNC1QLWQt?oc=5",
+      "title": "Dollar climbs on haven bid as AI rout grips Asian markets",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQcTZYNGtkV0pONThjTHhjTkdYS0JYX1YtSlJISko4bVRPZDlUSzZaTmhRU0ZtQmtnZWFRQUkxRDhUWHR2akFsSkhSZmQxdVE4dURkRlJ4ekEtc1lFSTlTT3VaU1VRa0VKRjZFZkdZUWVpR3NNT1hfR1JhLVkxWHlLUDVZT04wMnJYTFMyX0haakxHcWdIdWg2SFVpNGF4eWFwNXV0eGZ3Q2ZDeTYzbGtyZXpGM05XNDVBb0U2dUtScEM?oc=5",
       "domain": "Reuters",
-      "seen": "2026-11-05 12:46 KST"
+      "seen": "2026-11-06 10:24 KST"
     },
     {
-      "title": "Oil falls for a fourth day on expectations for lower risk of Iran war escalation",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQdzM2c3YzcktwU285aS1QaVVzTk51WFR0UnpxMXlnaFdEd2RtZWYzMm81TDZQUTJZS0ZlLXFVV3ZhcGFibkdLZm9Remo3YjlhNHJTd1lxSXNMUFNzejhIMkt0TlFRXy1RZl9TdTkxbDhfdjQxUEIzcUhaYlpOMjZJSVViNmVPV0dRV0RmaTJ3dDJ3QUs4TTFleFlnZnNyUHhVYlQ5NldaZVRZRFd5dU5nVnRKVUQ0UFE?oc=5",
+      "title": "South Korea stocks plunge as US midterm results spark AI selloff",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQUXFPZWJ0ekg2Mnl6b3ZEMDRpRzJON3M1b3FnWlpsbVZSSlpnMDR1YXJFWG0zMmROd0NybFRLWXdtcjdQWm1hckFsTE15d2FoY0hnMGZsMjctbnc1VjFCZ09uUWhDbVpGOUtmQmU4UEhLNmtINHZjbTA4cXZPSmpqTFM3TEptUUU4clROU0xCc3QtM3NNbThZOHMxU1lqU1I4Y3EzRnRnY1hqUFpwUTJWcWcxQWhJNVh2VER2dGtzZUxxSmJSeXc?oc=5",
       "domain": "Reuters",
-      "seen": "2026-11-05 11:20 KST"
+      "seen": "2026-11-06 10:01 KST"
     },
     {
-      "title": "Rupee tepidly follows stock and bond rally as midterms deflate Iran worries",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQME9GZlNzY1R1djlUYWZnQ2lQRXE3ZHoxQ1VhOEZhaVRyVTY3TWZIRXhNMDNaemNtb0NFNzJZeTZtYlRCX0FtbFlYenA4Z0gtSkZBZVFRQThHZkRtcHhsR09wWXVhdl9CLUQ2Z19JNWpFWlI0N013RFR4VDFrSTFoZzVQS3F5Y216eWdlMTlZbWxldWY4TXh0M09TLTBuX3lUZ1ZWRzVaRHhxSENxT3E4Qlpwd0E?oc=5",
+      "title": "India's ONGC posts higher Q2 profit as surge in crude prices lifts margins",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPaDFXRWlWUFEzbTZzMkxMUVFmcm1FN08wOS05dkw4WWlMTUs3YnJHdGI3SjVoR2lBY3lxSjJXNnpjclZ5RGtiT0xBbFpWWUdiOTJkWkJLNV9OWldLWG1aVy1INWxnbjI2VXdwSTdfQy02dGxIRTZSamlFeURRVDlsU2JlM0ItQ0V6cHpQYVE0ck0tYmNweThRZnZzTFRTYTRWcmJxajRjNjg5MlphZGtISFhIQmxwM0FLRFMw?oc=5",
       "domain": "Reuters",
-      "seen": "2026-11-05 11:19 KST"
+      "seen": "2026-11-05 21:47 KST"
     },
     {
-      "title": "Dollar edges lower as US election outcome spurs risk sentiment; sterling gains",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOS3ZvRzF1aTlTZE9WT0NxYkU4TWFHTi04YnhEVXd1VTJRTXdibGtPdGZtTWkwZEVBLU0xNmtZaEc4R2lWZWVSdGJtY1FSdzhIazR5a2YwdDJoRzFFTHN1Z2FNb2l5b2x5SllyTE9sTTZTNkxFODFJVkhxOGhlblRTXzNiLTZpc3FKcXBqRzZUMjYtY3VXOHlnR0hPOFFYTldZaXpzSGNTbzlPNlhUdHF1amJTcFp1dw?oc=5",
+      "title": "Market Talk: Markets 'hope America will look for an off-ramp' in the Middle East",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5XUzAySThzUXlqOEVpa2hLSWVZYVRyQkhEQmIzcTEwRUxlUG42YndkSGZ0V1J2UjRyMGE1QkE3RUtrSHh2STJOOHhleUQ2R2dzVGcwYzZMUGpKdHN3V2cxd0FXWFQ1b0E?oc=5",
       "domain": "Reuters",
-      "seen": "2026-11-05 10:06 KST"
+      "seen": "2026-11-05 21:20 KST"
     }
   ],
-  "rate_source_time": "2026-11-05 16:22:25 KST",
+  "rate_source_time": "2026-11-06 18:50:28 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 0.9,
-  "rate_change_pct": 0.07,
-  "smbs_base_rate": 1340.7,
-  "smbs_rate_date": "2026-11-05",
-  "smbs_rate_updated_at_kst": "2026-11-05 16:22:11 KST",
+  "rate_change": 3.5,
+  "rate_change_pct": 0.26,
+  "smbs_base_rate": 1342.0,
+  "smbs_rate_date": "2026-11-06",
+  "smbs_rate_updated_at_kst": "2026-11-06 18:50:15 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
-    1335.0,
-    1345.0
+    1348.0,
+    1363.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-11-05 16:22:11 KST"
+  "rate_job_checked_at_kst": "2026-11-06 18:50:15 KST"
 }

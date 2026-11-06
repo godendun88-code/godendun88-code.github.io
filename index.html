@@ -656,11 +656,19 @@
       if(!model?.points?.length)return model;
       const items=currentDepositMaturityItems(),today=fxTodayKey(),releases=items.filter(isDepositReleased).map(item=>({...item,effectiveDate:item.maturity>today?item.maturity:today})).sort((a,b)=>a.effectiveDate.localeCompare(b.effectiveDate));
       if(!releases.length)return{...model,depositMaturityScenario:{items,releases:[]}};
+      const releasedAt=date=>releases.filter(item=>String(date||'')>=item.effectiveDate).reduce((sum,item)=>sum+num(item.principal),0);
       const points=model.points.map(point=>{
-        const released=releases.filter(item=>String(point.date||'')>=item.effectiveDate).reduce((sum,item)=>sum+num(item.principal),0);
+        const released=releasedAt(point.date);
         return released?{...point,krwBalance:num(point.krwBalance)+released}:{...point};
       });
-      return{...model,points,depositMaturityScenario:{items,releases}};
+      // The monthly chart primarily uses monthlyHistory, so it needs the same
+      // maturity release as the daily points.  Otherwise the selection changes
+      // the calculation but is hidden by the original month-end balances.
+      const monthlyHistory=(model.monthlyHistory||[]).map(row=>{
+        const released=releases.filter(item=>String(row.month||'')>=item.effectiveDate.slice(0,7)).reduce((sum,item)=>sum+num(item.principal),0);
+        return released?{...row,krwBalance:num(row.krwBalance)+released}:{...row};
+      });
+      return{...model,points,monthlyHistory,depositMaturityScenario:{items,releases}};
     }
     function renderDepositMaturityChoices(){
       const host=$('depositMaturityChoices');if(!host)return;

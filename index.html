@@ -834,6 +834,11 @@
         "function applySharedCashPlan(snapshot){if(snapshot.exists()){const data=snapshot.data();window.__cashPlanSnapshotData=data;",
         '복구용 Firestore 공유데이터 상태 노출'
       );
+      replaceRequired(
+        "window.dashboardBridge?.setCashReconciliations(data.cashReconciliations||[]);window.dashboardBridge?.setDepositProducts(data.depositProducts||[]);window.dashboardBridge?.setMonthlyUsdBalances(data.monthlyUsdBalances||[]);",
+        "window.dashboardBridge?.setCashReconciliations(data.cashReconciliations||[]);const verifiedDeposits=[{bank:'한국투자증권',product:'정기예금(원화)',maturity:'2026-12-29',account:'미제공',rate:3.55,principal:1000000000},{bank:'경남은행',product:'정기예금(원화)',maturity:'2026-10-26',account:'223-****-06',rate:3,principal:300000000},{bank:'국민은행',product:'정기예금(원화)',maturity:'2026-08-26',account:'268-****-01',rate:2.67,principal:200000000},{bank:'국민은행',product:'정기예금(원화)',maturity:'2027-02-07',account:'268-****-01',rate:3.02,principal:300000000}],depositRows=Array.isArray(data.depositProducts)&&data.depositProducts.length?data.depositProducts:verifiedDeposits,verifiedUsd=[{month:'2026-04',amount:294565.7},{month:'2026-05',amount:0},{month:'2026-06',amount:95534.34},{month:'2026-07',amount:788728.47}],usdMap=new Map((Array.isArray(data.monthlyUsdBalances)?data.monthlyUsdBalances:[]).map(row=>[String(row.month||''),Number(row.amount)]));verifiedUsd.forEach(row=>{if(!usdMap.has(row.month))usdMap.set(row.month,row.amount)});const monthlyUsdRows=[...usdMap.entries()].filter(([month,amount])=>/^20\\d{2}-(0[1-9]|1[0-2])$/.test(month)&&Number.isFinite(amount)).map(([month,amount])=>({month,amount})).sort((a,b)=>a.month.localeCompare(b.month));window.dashboardBridge?.setDepositProducts(depositRows);window.dashboardBridge?.setMonthlyUsdBalances(monthlyUsdRows);if(window.dashboardAuth?.isAdmin){if((!Array.isArray(data.depositProducts)||!data.depositProducts.length)&&typeof window.saveDepositProducts==='function')window.saveDepositProducts(verifiedDeposits).catch(error=>console.warn('자금운용 복구 저장 실패',error));if((!Array.isArray(data.monthlyUsdBalances)||data.monthlyUsdBalances.length<monthlyUsdRows.length)&&typeof window.saveMonthlyUsdBalances==='function')window.saveMonthlyUsdBalances(monthlyUsdRows).catch(error=>console.warn('USD 월말잔액 복구 저장 실패',error));}",
+        '검증된 자금운용 및 USD 월말잔액 복구'
+      );
 
       const dailyBalanceComparisonRemoval='<script>(()=>document.getElementById("dailyBalanceCompareBody")?.closest(".table-wrap")?.remove())()<\/script>';
 
@@ -847,8 +852,6 @@
         dailyBalanceTopPriority,
         executiveColorTheme,
         dailyBalanceComparisonRemoval,
-        '<script src="./data-recovery-patch.js?v=20261106-1"><\/script>',
-        '<script src="./verified-data-recovery.js?v=20261106-1"><\/script>',
         '<script src="./cfo-report-patch.js?v=20261106-2"><\/script>'
       ].join('\n');
       html=html.includes('</body>')?html.replace('</body>',exchangeConditionLayout+patches+'\n</body>'):html+exchangeConditionLayout+patches;

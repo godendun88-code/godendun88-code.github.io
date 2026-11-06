@@ -77,11 +77,17 @@
     // must never override a separately entered bank balance merely because the
     // month has passed.
     const confirmed = status === '확정';
-    const baseUsdBalance = dailyUsd ?? (confirmed ? sheetUsd : null) ?? pointUsd ?? sheetUsd;
+    // The cash-operation sheet's month-end row is the accounting source of
+    // record for both KRW and USD.  Daily-balance data may be delayed, so it
+    // must not overwrite that row.
+    const hasCashOperationMonthEnd = history?.sourceSheet === '자금운용' && sheetUsd != null;
+    const baseUsdBalance = hasCashOperationMonthEnd ? sheetUsd : dailyUsd ?? (confirmed ? sheetUsd : null) ?? pointUsd ?? sheetUsd;
     const manualUsd = nullableCashNumber(monthlyUsdOverrides[month]);
     const hasConfirmedSheetUsd = confirmed && sheetUsd != null;
-    const usdBalance = dailyUsd ?? manualUsd ?? (hasConfirmedSheetUsd ? sheetUsd : pointUsd ?? sheetUsd);
-    const usdSource = dailyUsd != null
+    const usdBalance = hasCashOperationMonthEnd ? sheetUsd : dailyUsd ?? manualUsd ?? (hasConfirmedSheetUsd ? sheetUsd : pointUsd ?? sheetUsd);
+    const usdSource = hasCashOperationMonthEnd
+      ? '자금운용 월말'
+      : dailyUsd != null
       ? `잔액현황보고 ${dailyBalance.date}`
       : manualUsd != null
       ? '관리자 실제 잔액'

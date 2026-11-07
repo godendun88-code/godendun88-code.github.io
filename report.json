@@ -1,49 +1,36 @@
 {
-  "updated_at_kst": "2026-11-07 18:14 KST",
+  "updated_at_kst": "2026-11-08 00:55 KST",
   "current_rate": 1361.6,
   "previous_close": 1348.8,
-  "rate_updated_at_kst": "2026-11-07 18:13:45 KST",
+  "rate_updated_at_kst": "2026-11-08 00:54:46 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
-    "미국 고용 강세 관련 보도가 확인돼 금리 인하 기대를 낮추고 달러 강세 요인으로 작용하고 있습니다.",
-    "유가·지정학 관련 최신 기사(\"Indian shares log biggest gains in seven months on oil slide, foreign flows\")가 확인돼 원화 변동성 확대 요인으로 작용하고 있습니다.",
-    "외환시장 관련 최신 기사(\"COMMENTARY: Morning Bid: Out of the blue\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다."
+    "미국 고용 관련 최신 기사(\"US labor market regains ground as job growth surges, unemployment rate falls to 4.1%\")가 확인돼 고용지표가 연준 금리 기대와 달러 방향성을 좌우하는 변수로 부각되고 있습니다.",
+    "외환시장 관련 최신 기사(\"TSX posts weekly gain as metal mining shares rally\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
     {
-      "title": "VIEW Strong October jobs report sends yields higher",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNTnpMd1ZuR2N2T2ZIelhxU25lLVpES1EteXlqbW4zVXM1V2M3SkppUlRRZkctZ181TzNsYnhPdFV4OXhzejdscG5TRHJWbGx6M0hrMXZmLS03MDFaQ2VGU0xjaHA1UDhZQ3lsUTNyVVFGODdjR253T2ZGVlNieDZ5dWRwQ3dqa0pqR21pYi1FNUlWOFpMTjZ0VEU4VGc?oc=5",
+      "title": "US labor market regains ground as job growth surges, unemployment rate falls to 4.1%",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPakNLaDVCMElHQkc5cjV5SmVJcFNPdVpMbnZHRmVFMkoxR3hhbERYTnBZcUlmQVZBanhMeVhEZHpsN3JxM0xrUHNsYVZPWW1EdXBWam1pNk5lSEZVNHkwcUV1VG9xbmVYek80a3JXelRIcW9fQjQ3TUljTUdpZkhYWUJaZHhxNTUybWQwME81bUtPTmJ4UUg4ZjVrZjVlLUx2azFkWjhmeThDWkp2MHJwdTVR?oc=5",
       "domain": "Reuters",
-      "seen": "2026-11-06 23:45 KST"
+      "seen": "2026-11-07 07:04 KST"
     },
     {
-      "title": "Indian shares log biggest gains in seven months on oil slide, foreign flows",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNVmJaMVVmaUE0cUtPUW9iRklDNUNCV2k4c1NXYzllRGYzeUdXOFJkeGVEOUNsdkhwc0pfc3pkSVdvb3Nwc3FMSE0xTVBnbEtiQ29Gd2NzbmFtMU9rVXNoNXF3MkRrMEtHczdSX0VGUExrTDkyNHAxYWI0SGFWbVRSZWhDaGlvNkhLdUtiZGdDaWVQaFJ0NkRkckJvQ0ZzSnM2dmFUd2tZXzdQaWZBaFN4Y3BNYXo0UkVZRGpQTkdTUQ?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-11-06 20:50 KST"
-    },
-    {
-      "title": "COMMENTARY: Morning Bid: Out of the blue",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxONlZrdVZLR0E5N3k1Z1JhcnZVOU5sYjg1UjRRNkJ2VG45cWdGZ19pYkpnVUdGUDBSSFJydTVJRXNLSERNQTN6Y0xrWlBSMUdDNndjV2g3NW5hbktmWU9yRUtvNHR5YUZIODVtSWoxeGFJeW5oeXJBMUttMmhRZHl1SWtkTUo2SGx6YlJNR2hlS2xRdHlkUWtF?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-11-06 20:47 KST"
-    },
-    {
-      "title": "TSX futures slip as tech jitters linger ahead of employment data",
+      "title": "TSX posts weekly gain as metal mining shares rally",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNM3JTcXVCSDQwUlM2T1FfVkQtLVBISm1yaDdQWVg5QTN6RkgzcTEyRHNuRnctZ1RQRkRVcDAwdlE4TEhfbmdWNjV1VmJRXzBNeGJfbHZ1VkpzQkhHZ3NXNkdIOEFKVXdKeFBYLWdveXlqdWJ6QmxycVNhZ0xRNGpRWThkZmlCckVCS29yb2FSdU5kNkZnZ2VyV2R2dURDeFZLaGpCM19B?oc=5",
       "domain": "Reuters",
-      "seen": "2026-11-06 20:01 KST"
+      "seen": "2026-11-07 06:51 KST"
     }
   ],
-  "rate_source_time": "2026-11-07 18:13:45 KST",
+  "rate_source_time": "2026-11-08 00:54:46 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": 12.8,
   "rate_change_pct": 0.95,
   "smbs_base_rate": 1342.0,
-  "smbs_rate_date": "2026-11-07",
-  "smbs_rate_updated_at_kst": "2026-11-07 18:13:33 KST",
+  "smbs_rate_date": "2026-11-08",
+  "smbs_rate_updated_at_kst": "2026-11-08 00:54:34 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -51,5 +38,5 @@
     1363.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-11-07 18:13:33 KST"
+  "rate_job_checked_at_kst": "2026-11-08 00:54:34 KST"
 }

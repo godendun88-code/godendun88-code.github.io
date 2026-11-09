@@ -988,6 +988,65 @@
   setTimeout(arrange,0);
 })();
 <\/script>`;
+      const chinaScenarioAvailableBalancePatch=`<script>
+(()=>{
+  const install=()=>{
+    if(typeof buildCashScenarioModel!=='function'||buildCashScenarioModel.__availableBalanceOverlay)return typeof buildCashScenarioModel==='function';
+    const buildFromAvailableBalance=function(model,config=cashScenarioConfig(),label=cashScenarioLabel()){
+      if(!model||!hasScenarioEvents(model))return model;
+      if(config.revenueRate===1&&config.chinaDelayMonths===0&&!config.chinaExclude)return {...model,scenarioLabel:label};
+      const source=[...(model.points||[])].sort((a,b)=>String(a.date||'').localeCompare(String(b.date||''))||(num(a.row)-num(b.row)));
+      const deltas=new Map();
+      const addDelta=(date,krw,usd)=>{
+        if(!date)return;
+        const prior=deltas.get(date)||{krw:0,usd:0};
+        deltas.set(date,{krw:prior.krw+krw,usd:prior.usd+usd});
+      };
+      for(const point of source){
+        const date=String(point.date||'').slice(0,10);
+        const baselineKrw=num(point.krwIn)-num(point.krwOut);
+        const baselineUsd=num(point.usdIn)-num(point.usdOut);
+        let krwIn=num(point.krwIn),krwOut=num(point.krwOut),usdIn=num(point.usdIn),usdOut=num(point.usdOut);
+        let effectiveDate=date;
+        if(isAdjustableSalesEvent(point)){krwIn*=config.revenueRate;usdIn*=config.revenueRate}
+        if(isAdjustableRoyaltyEvent(point)){krwOut*=config.revenueRate;usdOut*=config.revenueRate}
+        if(isChinaRevenueEvent(point)){
+          if(config.chinaExclude){krwIn=0;usdIn=0}
+          else if(config.chinaDelayMonths>0)effectiveDate=shiftCashMonth(date,config.chinaDelayMonths);
+        }
+        const adjustedKrw=krwIn-krwOut;
+        const adjustedUsd=usdIn-usdOut;
+        if(effectiveDate===date)addDelta(date,adjustedKrw-baselineKrw,adjustedUsd-baselineUsd);
+        else{
+          addDelta(date,-baselineKrw,-baselineUsd);
+          addDelta(effectiveDate,adjustedKrw,adjustedUsd);
+        }
+      }
+      const dates=[...new Set([...source.map(point=>String(point.date||'').slice(0,10)),...deltas.keys()])].filter(Boolean).sort();
+      let sourceIndex=-1,cumulativeKrw=0,cumulativeUsd=0;
+      const points=[];
+      for(const date of dates){
+        while(sourceIndex+1<source.length&&String(source[sourceIndex+1].date||'').slice(0,10)<=date)sourceIndex++;
+        const baseline=source[sourceIndex];
+        if(!baseline)continue;
+        const delta=deltas.get(date)||{krw:0,usd:0};
+        cumulativeKrw+=delta.krw;
+        cumulativeUsd+=delta.usd;
+        points.push({...baseline,date,krwBalance:num(baseline.krwBalance)+cumulativeKrw,usdBalance:num(baseline.usdBalance)+cumulativeUsd,scenarioDeltaKrw:cumulativeKrw,scenarioDeltaUsd:cumulativeUsd,balanceSource:'자금운용 가용 원화 시나리오'});
+      }
+      return {...model,points,scenarioLabel:label};
+    };
+    buildFromAvailableBalance.__availableBalanceOverlay=true;
+    buildCashScenarioModel=buildFromAvailableBalance;
+    return true;
+  };
+  if(install())setTimeout(()=>{if(typeof renderExchangeWorkspace==='function')renderExchangeWorkspace()},0);
+  else{
+    const timer=setInterval(()=>{if(install()){clearInterval(timer);if(typeof renderExchangeWorkspace==='function')renderExchangeWorkspace()}},50);
+    setTimeout(()=>clearInterval(timer),5000);
+  }
+})();
+<\/script>`;
       const patches=[
         '<script src="./monthly-usd-patch.js?v=20261106-14"><\/script>',
         '<script src="./reconciliation-xls-patch.js?v=20260917-10"><\/script>',
@@ -1003,7 +1062,8 @@
         depositMaturityExchangeSync,
         depositMaturitySourceColumn,
         availabilityLayoutPatch,
-        dailyBalanceCardOrderPatch
+        dailyBalanceCardOrderPatch,
+        chinaScenarioAvailableBalancePatch
       ].join('\n');
       html=html.includes('</body>')?html.replace('</body>',exchangeConditionLayout+patches+'\n</body>'):html+exchangeConditionLayout+patches;
       document.open();

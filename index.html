@@ -605,6 +605,11 @@
         '자금운용 표시잔액 사용'
       );
       replaceRequired(
+        "events.sort((a,b)=>{const diff=a.date.localeCompare(b.date);if(diff)return diff;if(a.flow!==b.flow)return a.flow==='지출'?-1:1;return a.row-b.row});let krw=openingKrw,usd=openingUsd;",
+        "events.sort((a,b)=>{const diff=a.date.localeCompare(b.date);if(diff)return diff;return a.row-b.row});let krw=openingKrw,usd=openingUsd;",
+        '자금운용 원본 행 순서'
+      );
+      replaceRequired(
         "const planned=buildCashScenarioModel(model,{revenueRate:1,chinaDelayMonths:0,chinaExclude:false},'현재 계획 100%'),baseline=rebaseCashPlanFromDailyClose(planned),series=currentMonthlySeries(baseline,referenceRate),analysis=cashAnalysis(baseline,referenceRate),actualAnchor=baseline.actualAnchor||null;",
         "const baseline=buildCashScenarioModel(model,{revenueRate:1,chinaDelayMonths:0,chinaExclude:false},'현재 계획 100%'),series=currentMonthlySeries(baseline,referenceRate),analysis=cashAnalysis(baseline,referenceRate),actualAnchor=null;",
         '자금운용 환전부족 기준'

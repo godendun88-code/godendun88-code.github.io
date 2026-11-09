@@ -1047,6 +1047,50 @@
   }
 })();
 <\/script>`;
+      const salesAndCollectionTabPatch=`<script>
+(()=>{
+  const install=()=>{
+    if(typeof setCashView!=='function'||typeof syncCashScenarioTabs!=='function')return false;
+    const tune=()=>{
+      const salesTab=document.querySelector('[data-cash-view="sales"]');
+      const chinaTab=document.querySelector('[data-cash-view="china"]');
+      if(salesTab){
+        salesTab.textContent='매출·입금 조건';
+        salesTab.setAttribute('aria-label','매출 반영률과 중국매출 입금 조건');
+      }
+      if(chinaTab)chinaTab.remove();
+      if(cashScenarioState?.view==='china'){
+        document.querySelectorAll('[data-cash-view]').forEach(button=>button.classList.toggle('active',button.dataset.cashView==='sales'));
+        const title=$('cashScenarioTitle'),description=$('cashScenarioDescription');
+        if(title)title.textContent='매출·입금 조건 자금상황';
+        if(description)description.textContent='매출 반영률과 중국매출 입금 지연·제외 여부를 함께 반영합니다.';
+      }
+    };
+    if(!syncCashScenarioTabs.__salesAndCollectionPatch){
+      const originalSync=syncCashScenarioTabs;
+      const patchedSync=function(...args){const result=originalSync.apply(this,args);tune();return result};
+      patchedSync.__salesAndCollectionPatch=true;
+      syncCashScenarioTabs=patchedSync;
+    }
+    if(!setCashView.__salesAndCollectionPatch){
+      const originalSetCashView=setCashView;
+      const patchedSetCashView=function(view,...args){
+        const result=originalSetCashView.call(this,view==='sales'?'china':view,...args);
+        tune();
+        return result;
+      };
+      patchedSetCashView.__salesAndCollectionPatch=true;
+      setCashView=patchedSetCashView;
+    }
+    tune();
+    return true;
+  };
+  if(!install()){
+    const timer=setInterval(()=>{if(install())clearInterval(timer)},50);
+    setTimeout(()=>clearInterval(timer),5000);
+  }
+})();
+<\/script>`;
       const patches=[
         '<script src="./monthly-usd-patch.js?v=20261106-14"><\/script>',
         '<script src="./reconciliation-xls-patch.js?v=20260917-10"><\/script>',
@@ -1063,7 +1107,8 @@
         depositMaturitySourceColumn,
         availabilityLayoutPatch,
         dailyBalanceCardOrderPatch,
-        chinaScenarioAvailableBalancePatch
+        chinaScenarioAvailableBalancePatch,
+        salesAndCollectionTabPatch
       ].join('\n');
       html=html.includes('</body>')?html.replace('</body>',exchangeConditionLayout+patches+'\n</body>'):html+exchangeConditionLayout+patches;
       document.open();

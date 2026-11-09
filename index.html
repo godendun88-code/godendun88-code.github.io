@@ -1099,6 +1099,38 @@ body.scenario-mode .cash-chart:has(#cashChart:not([hidden])) .chart-head,
 body.scenario-mode .cash-chart:has(#cashChart:not([hidden])) #cashEmpty{display:none!important}
 body.scenario-mode .cash-chart:has(#cashChart:not([hidden])) .cash-chart-stage{margin-top:0!important}
 </style>`;
+      const brokerRateSingleSourcePatch=`<script>
+(()=>{
+  const install=()=>{
+    if(typeof updateDashboard!=='function'||updateDashboard.__brokerRateSingleSource)return typeof updateDashboard==='function';
+    const original=updateDashboard;
+    const unified=function(...args){
+      const result=original.apply(this,args);
+      const rate=num(report?.smbs_base_rate);
+      if(rate>0){
+        fxAnalysis={...(fxAnalysis||{}),curr:rate,isLive:true};
+        const rateDate=report?.smbs_rate_date||report?.smbs_rate_updated_at_kst||'당일';
+        if($('currentRate'))$('currentRate').textContent=fmt(rate,2)+'원';
+        if($('dailyChange')){
+          $('dailyChange').textContent='서울외국환중개 매매기준율';
+          $('dailyChange').style.color='var(--muted)';
+        }
+        if($('latestDate'))$('latestDate').textContent=rateDate+' · 서울외국환중개 자동조회';
+        if(typeof updateCashDashboard==='function')updateCashDashboard();
+      }
+      return result;
+    };
+    unified.__brokerRateSingleSource=true;
+    updateDashboard=unified;
+    return true;
+  };
+  if(install())setTimeout(()=>updateDashboard(),0);
+  else{
+    const timer=setInterval(()=>{if(install()){clearInterval(timer);updateDashboard()}},50);
+    setTimeout(()=>clearInterval(timer),5000);
+  }
+})();
+<\/script>`;
       const patches=[
         '<script src="./monthly-usd-patch.js?v=20261106-14"><\/script>',
         '<script src="./reconciliation-xls-patch.js?v=20260917-10"><\/script>',
@@ -1117,7 +1149,8 @@ body.scenario-mode .cash-chart:has(#cashChart:not([hidden])) .cash-chart-stage{m
         dailyBalanceCardOrderPatch,
         chinaScenarioAvailableBalancePatch,
         salesAndCollectionTabPatch,
-        salesScenarioVisualCleanupPatch
+        salesScenarioVisualCleanupPatch,
+        brokerRateSingleSourcePatch
       ].join('\n');
       html=html.includes('</body>')?html.replace('</body>',exchangeConditionLayout+patches+'\n</body>'):html+exchangeConditionLayout+patches;
       document.open();

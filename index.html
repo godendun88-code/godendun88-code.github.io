@@ -1091,6 +1091,23 @@
   }
 })();
 <\/script>`;
+      const salesViewCleanupPatch=`<script>
+(()=>{
+  const clean=()=>{
+    document.querySelector('.fx-simulation-toolbar')?.remove();
+    const heading=[...document.querySelectorAll('.section-title')].find(node=>node.textContent.trim()==='회사 자금계획 연동');
+    if(heading){
+      const connectionPanel=heading.nextElementSibling;
+      heading.remove();
+      if(connectionPanel?.matches('.panel.cash-head'))connectionPanel.remove();
+    }
+    const chartHeading=$('cashChartTitle')?.closest('.chart-head');
+    if(chartHeading)chartHeading.remove();
+  };
+  clean();
+  setTimeout(clean,0);
+})();
+<\/script>`;
       const patches=[
         '<script src="./monthly-usd-patch.js?v=20261106-14"><\/script>',
         '<script src="./reconciliation-xls-patch.js?v=20260917-10"><\/script>',
@@ -1108,7 +1125,8 @@
         availabilityLayoutPatch,
         dailyBalanceCardOrderPatch,
         chinaScenarioAvailableBalancePatch,
-        salesAndCollectionTabPatch
+        salesAndCollectionTabPatch,
+        salesViewCleanupPatch
       ].join('\n');
       html=html.includes('</body>')?html.replace('</body>',exchangeConditionLayout+patches+'\n</body>'):html+exchangeConditionLayout+patches;
       document.open();

@@ -872,12 +872,13 @@
       const items=currentDepositMaturityItems(),today=fxTodayKey(),assumptions=items.map(item=>({...item,released:isDepositReleased(item),effectiveDate:item.maturity>today?item.maturity:today,aftertaxInterest:afterTaxInterest(item)}));
       if(!assumptions.length)return{...model,depositMaturityScenario:{items:[],releases:[]}};
       const releases=assumptions.filter(item=>item.released).sort((a,b)=>a.effectiveDate.localeCompare(b.effectiveDate));
-      if(model.points.some(point=>point.availableKrwBalance!=null))return{...model,depositMaturityScenario:{items:assumptions,releases,source:'workbookAvailableKrw'}};
+      const workbookAvailable=model.points.some(point=>point.availableKrwBalance!=null);
       const points=model.points.map(point=>{
-        const date=String(point.date||''),matured=assumptions.filter(item=>date>=item.effectiveDate),locked=assumptions.filter(item=>!item.released||date<item.effectiveDate).reduce((sum,item)=>sum+num(item.principal),0),interest=matured.reduce((sum,item)=>sum+num(item.aftertaxInterest),0),bookKrw=num(point.krwBalance);
-        return{...point,bookKrwBalance:bookKrw,lockedDepositBalance:locked,maturityInterestKrw:interest,krwBalance:bookKrw-locked+interest};
+        const date=String(point.date||''),matured=assumptions.filter(item=>date>=item.effectiveDate),releasedPrincipal=matured.filter(item=>item.released).reduce((sum,item)=>sum+num(item.principal),0),locked=assumptions.filter(item=>!item.released||date<item.effectiveDate).reduce((sum,item)=>sum+num(item.principal),0),interest=matured.reduce((sum,item)=>sum+num(item.aftertaxInterest),0),bookKrw=num(point.krwBalance);
+        const adjustedKrw=workbookAvailable?bookKrw+releasedPrincipal+interest:bookKrw-locked+interest;
+        return{...point,bookKrwBalance:bookKrw,lockedDepositBalance:locked,maturityInterestKrw:interest,krwBalance:adjustedKrw,balanceSource:workbookAvailable?'자금운용 가용 원화 + 만기 가정':'만기 가정 계산'};
       });
-      return{...model,points,depositMaturityScenario:{items:assumptions,releases}};
+      return{...model,points,depositMaturityScenario:{items:assumptions,releases,source:workbookAvailable?'workbookAvailableKrw':'calculated'}};
     };
     const originalCurrentMonthlySeries=currentMonthlySeries;
     const syncedCurrentMonthlySeries=function(model,referenceRate){

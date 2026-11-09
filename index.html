@@ -1095,6 +1095,9 @@
 body.scenario-mode .fx-simulation-toolbar,
 body.scenario-mode .fx-simulation-toolbar + .section-title,
 body.scenario-mode .fx-simulation-toolbar + .section-title + .panel.cash-head{display:none!important}
+body.scenario-mode .cash-chart:has(#cashChart:not([hidden])) .chart-head,
+body.scenario-mode .cash-chart:has(#cashChart:not([hidden])) #cashEmpty{display:none!important}
+body.scenario-mode .cash-chart:has(#cashChart:not([hidden])) .cash-chart-stage{margin-top:0!important}
 </style>`;
       const patches=[
         '<script src="./monthly-usd-patch.js?v=20261106-14"><\/script>',

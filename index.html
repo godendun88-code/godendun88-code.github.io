@@ -1091,6 +1091,11 @@
   }
 })();
 <\/script>`;
+      const salesScenarioVisualCleanupPatch=`<style>
+body.scenario-mode .fx-simulation-toolbar,
+body.scenario-mode .fx-simulation-toolbar + .section-title,
+body.scenario-mode .fx-simulation-toolbar + .section-title + .panel.cash-head{display:none!important}
+</style>`;
       const patches=[
         '<script src="./monthly-usd-patch.js?v=20261106-14"><\/script>',
         '<script src="./reconciliation-xls-patch.js?v=20260917-10"><\/script>',
@@ -1108,7 +1113,8 @@
         availabilityLayoutPatch,
         dailyBalanceCardOrderPatch,
         chinaScenarioAvailableBalancePatch,
-        salesAndCollectionTabPatch
+        salesAndCollectionTabPatch,
+        salesScenarioVisualCleanupPatch
       ].join('\n');
       html=html.includes('</body>')?html.replace('</body>',exchangeConditionLayout+patches+'\n</body>'):html+exchangeConditionLayout+patches;
       document.open();

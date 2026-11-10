@@ -1258,6 +1258,60 @@ body.scenario-mode .cash-chart:has(#cashChart:not([hidden])) .cash-chart-stage{m
   }
 })();
 <\/script>`;
+      const authoritativeAvailableBalancePatch=`<script>
+(()=>{
+  const install=()=>{
+    if(typeof applyDepositMaturityScenario!=='function'||applyDepositMaturityScenario.__authoritativeAvailableBalance)return typeof applyDepositMaturityScenario==='function';
+    const original=applyDepositMaturityScenario;
+    const patched=function(model){
+      const points=Array.isArray(model?.points)?model.points:[];
+      const hasAvailable=points.some(point=>nullableCashNumber(point?.availableKrwBalance)!=null);
+      if(!hasAvailable)return original.apply(this,arguments);
+      const items=currentDepositMaturityItems(model);
+      if(!items.length)return original.apply(this,arguments);
+      const today=fxTodayKey();
+      const assumptions=items.map(item=>{
+        const raw=String(item?.maturityHandling||'').replace(/\s/g,'');
+        const sourceReleased=/만기해지|해지|원화전환/.test(raw)?true:/재예치|계속묶임/.test(raw)?false:depositSourceReleased(item,model);
+        return {...item,sourceReleased,released:isDepositReleased(item),effectiveDate:item.maturity>today?item.maturity:today};
+      });
+      const scenarioPoints=points.map(point=>{
+        const date=String(point?.date||'');
+        const sourceAvailable=nullableCashNumber(point?.availableKrwBalance);
+        if(sourceAvailable==null)return {...point};
+        const adjustment=assumptions.reduce((sum,item)=>{
+          if(date<item.effectiveDate)return sum;
+          const selectedAvailable=item.released?1:0;
+          const sourceAvailableAtMaturity=item.sourceReleased?1:0;
+          return sum+(selectedAvailable-sourceAvailableAtMaturity)*num(item.principal);
+        },0);
+        return {...point,
+          bookKrwBalance:nullableCashNumber(point?.planKrwBalance)??num(point.krwBalance),
+          sourceAvailableKrwBalance:sourceAvailable,
+          maturityScenarioAdjustment:adjustment,
+          krwBalance:sourceAvailable+adjustment};
+      });
+      return {...model,points:scenarioPoints,depositMaturityScenario:{
+        items:assumptions,
+        releases:assumptions.filter(item=>item.released).sort((a,b)=>String(a.effectiveDate).localeCompare(String(b.effectiveDate))),
+        source:'자금운용 T열 가용 원화 + 예금 처리 변경분'
+      }};
+    };
+    patched.__authoritativeAvailableBalance=true;
+    applyDepositMaturityScenario=patched;
+    const refresh=()=>{
+      try{if(typeof updateCashDashboard==='function')updateCashDashboard();}catch(_){}
+      try{if(typeof renderExchangeWorkspace==='function')renderExchangeWorkspace();}catch(_){}
+    };
+    setTimeout(refresh,0);
+    return true;
+  };
+  if(!install()){
+    const timer=setInterval(()=>{if(install())clearInterval(timer)},50);
+    setTimeout(()=>clearInterval(timer),5000);
+  }
+})();
+<\/script>`;
       const patches=[
         '<script src="./monthly-usd-patch.js?v=20261106-14"><\/script>',
         '<script src="./reconciliation-xls-patch.js?v=20260917-10"><\/script>',
@@ -1280,7 +1334,8 @@ body.scenario-mode .cash-chart:has(#cashChart:not([hidden])) .cash-chart-stage{m
         brokerRateSingleSourcePatch,
         monthlyDailyShortageStatusPatch,
         monthlyTerminalSnapshotPatch,
-        firstShortageMonthAmountPatch
+        firstShortageMonthAmountPatch,
+        authoritativeAvailableBalancePatch
       ].join('\n');
       html=html.includes('</body>')?html.replace('</body>',exchangeConditionLayout+patches+'\n</body>'):html+exchangeConditionLayout+patches;
       document.open();

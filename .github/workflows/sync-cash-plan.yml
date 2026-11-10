@@ -1,0 +1,32 @@
+name: Sync SharePoint cash plan
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: sync-sharepoint-cash-plan
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    if: ${{ secrets.MS_CLIENT_SECRET != '' && secrets.MS_SHAREPOINT_FILE_URL != '' && secrets.FIREBASE_SERVICE_ACCOUNT_JSON != '' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '22'
+      - run: npm install --no-save xlsx firebase-admin
+      - run: node scripts/sync_cash_plan.mjs
+        env:
+          MS_TENANT_ID: ${{ secrets.MS_TENANT_ID }}
+          MS_CLIENT_ID: ${{ secrets.MS_CLIENT_ID }}
+          MS_CLIENT_SECRET: ${{ secrets.MS_CLIENT_SECRET }}
+          MS_SHAREPOINT_FILE_URL: ${{ secrets.MS_SHAREPOINT_FILE_URL }}
+          FIREBASE_SERVICE_ACCOUNT_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_JSON }}

@@ -66,8 +66,8 @@ function deposits(workbook) {
       for (const data of rows.slice(row+1)) {
         const bankName=String(data[bank]??'').trim(), productName=String(product>=0?data[product]??'':'').trim(), principal=number(data[amount]), maturityDate=iso(data[maturity]), rawRate=number(data[rate]), maturityHandling=String(handling>=0?data[handling]??'':'').trim();
         const normalizedRate=rawRate!=null&&rawRate>0&&rawRate<=1?rawRate*100:rawRate;
-        if (!product||!principal||!maturityDate||!normalizedRate) continue;
-        const key=[product,maturityDate,principal].join('|'); if (seen.has(key)) continue; seen.add(key);
+        if (!bankName||!principal||!maturityDate||!normalizedRate||!/(정기예금|예금)/.test(productName)) continue;
+        const key=[bankName,maturityDate,principal].join('|'); if (seen.has(key)) continue; seen.add(key);
         result.push({bank:bankName,product:productName||'정기예금(원화)',maturity:maturityDate,maturityHandling,rate:normalizedRate,principal,account:''});
       }
     }

@@ -154,4 +154,4 @@ const depositProducts=rawDeposits.map(item=>{
 const model=parse(workbook,item,depositProducts);
 model.sourceAudit.depositSource=parsedDeposits.length?'원본 예금현황':storedDeposits.length?'기존 저장 예금 5건':'복구 기준 예금 5건';
 await ref.set({model:{...(prior.model||{}),...model,sourceUrl:prior.sourceUrl||process.env.MS_SHAREPOINT_FILE_URL},depositProducts:model.depositProducts,updatedAt:FieldValue.serverTimestamp(),updatedBy:'GitHub Actions · SharePoint 자동동기화',cashPlanSync:{state:'ok',at:Date.now(),fileName:item.name||'',etag:item.eTag||'',tColumn:model.sourceAudit}}, {merge:true});
-console.log(JSON.stringify({file:item.name,points:model.points.length,deposits:model.depositProducts.length,depositSource:model.sourceAudit.depositSource}));
+console.log(JSON.stringify({file:item.name,points:model.points.length,deposits:model.depositProducts.length,depositSource:model.sourceAudit.depositSource,depositHeaders:depositDiagnostics(workbook)}));

@@ -1,55 +1,55 @@
 {
-  "updated_at_kst": "2026-11-10 05:44 KST",
-  "current_rate": 1346.3,
-  "previous_close": 1361.6,
-  "rate_updated_at_kst": "2026-11-10 05:44:09 KST",
+  "updated_at_kst": "2026-11-10 12:30 KST",
+  "current_rate": 1345.5,
+  "previous_close": 1345.42,
+  "rate_updated_at_kst": "2026-11-10 12:29:54 KST",
   "rate_source": "KB STAR FX Market Watch",
-  "market_bias": "하락 우세",
+  "market_bias": "혼조",
   "drivers": [
     "글로벌 달러 강세 관련 보도가 이어지며 원/달러 환율에는 상승 압력으로 작용하고 있습니다.",
-    "국제유가 하락이 한국의 수입물가 부담을 낮추는 방향으로 작용해 원화에는 상대적으로 우호적인 요인입니다.",
-    "달러 관련 최신 기사(\"Dollar dips as easing AI and Mideast worries limit its appeal\")가 확인돼 달러인덱스 방향성이 원/달러 환율의 핵심 변수로 작용하고 있습니다."
+    "유가·지정학 관련 최신 기사(\"Asian stocks climb as sliding oil prices buoy sentiment\")가 확인돼 원화 변동성 확대 요인으로 작용하고 있습니다.",
+    "외환시장 관련 최신 기사(\"Trading Day: Broad rebound rally lifts all boats but Nvidia\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다."
   ],
-  "outlook": "달러 약세·금리 하락 계열의 재료가 상대적으로 우세해 원/달러는 단기 하락 압력이 이어질 가능성이 있으나, 유가와 지정학적 리스크는 하단을 제한할 수 있습니다.",
+  "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
+    {
+      "title": "Asian stocks climb as sliding oil prices buoy sentiment",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9CVDNSVXJpWURQMkF1dUt1amw1WkxILXhVSjZyZkQxdGlBdWZvT0tqclhabXRKZC1xNlRIRmJSdkhINDVsYXlRdk9paVRCa085WWVKRTJFcm9CZWo2VzNaYU5lQ2RXbDdqb3QxdkY4SDFRb2JMVE8yemVJMA?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-11-10 11:23 KST"
+    },
+    {
+      "title": "Occidental beats profit estimates as higher oil prices offset output decline",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNS3d3eDJFNXE0T2pOMy1XYWt4VEF3NXdJVzNRQXZvWnZKeUU3Z21WNld4YS05dDhTX0tnSUhaRHVyY3dZaXBJdVlBazJMekE2ekRHVDB2SS16a0pPVFV3cVVQWmJ5cnI2QlBfQndnaDFuam1MVVpaZFdpMElYWWwzeFVINm1wQi1PdDRqaXFCYmprQVVPN09hTlVySThLS183RGVhdzRQdUQ?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-11-10 07:50 KST"
+    },
+    {
+      "title": "Trading Day: Broad rebound rally lifts all boats but Nvidia",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQeHI4YXBjYzZkbkVob1pxakZtcUNxNlV6SWp0eDNvSXZnaklqd3Zrc3J4SFJCSE9CVzhlcVBWVXdnanQtYm5rSW1YN3hOS2JzTEJoU2dEMmlpV3FxQzJKS1owdDFOZkZ1TU0xWndQcEVSUkg4aGlaSWpnUTlSRWNSMEdFM1J4aTZKTDZRZ1dtN25iblBTOHFuUVByZ0Z0enJ3b3lmdmxR?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-11-10 07:04 KST"
+    },
     {
       "title": "Sterling rises versus dollar as market sentiment brightens",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPZk1NRW5GMjJ5a0hGVTJGYnhvNTJJZzduNWpsX1BBUzQyZWpCcGROVVlrYWY1N0tETFpzMnNKVU9JTjFtMzVqR1BhN3VIbTZGcUYtSFVnbVFLN2RVUVY3T3VsRzFWYmRZQ2lnQTdVZFZ3eW00Nk9GbGRDS0pDVzFqalgzMHNDX1NNM1hXUWNBVTVZLWM2R0d6TGN0TTlZczctOGc?oc=5",
       "domain": "Reuters",
       "seen": "2026-11-09 21:13 KST"
-    },
-    {
-      "title": "Stocks rally even as Nvidia falls, oil drops",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNV0oxRGlDMkl5NWVMcTZ3NjVxWU5RakhWT3BnZG1vc254T1RSXzg0SE5MelBYSTNsakduTFo5R0pJMkNWNXZKVW9SZEFOLWZfbWQwdG94bkpoeGw5V0I5bmtlRktsWmpqTGhwVzFNSkgyaDdEVUprbDNsMkI1WThjZ1cwQmpIRjN5VVFOVw?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-11-09 10:46 KST"
-    },
-    {
-      "title": "Dollar dips as easing AI and Mideast worries limit its appeal",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNc3ZtMDBIQ2p3MzI1VUNnS3M2Q1I4T1k1Mk1sU19peE9hOGM5cVh2cXZiY3Q2THgyR3ZnMzlhRExRM0s5ci1WZG5IQk55RUZkb2tITUp2OVRoY1VXWWFDS3pBMnNLSFhhZVplWWVjWmdRRmZ3eDNUNFREZWU2Wml1Y3Nnck9saTB4T3JPSGd2SGl4X1NwNmp2U19iY3BLSmV0ZEloYTRadldmNjJIY0l4NllucjVDT3lkQ0JLakFB?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-11-09 10:16 KST"
-    },
-    {
-      "title": "Oil down more than $7 a barrel in post settlement trade as Trump signals restraint on Iran",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNWnV4VENDNkFNVllVVEpoVTJLcC13SlhHREstWFZZQ252QTRiU3dKeW5EYWYxVUJjNnQzVzh1M1FsWjNGTmRKMVFEYjhxT3M2VmF4aVpERWwwczh6dV9OTG5NcFJCMFVZZ0toWEEyMnRRTnBZUm9iQVVzblIzcmJMOTR4V29sUDFVME1jcFQ5VVhoMHVUM0YzWHM2bmE1b3VCV0s0R2JmUUQ?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-11-09 08:50 KST"
     }
   ],
-  "rate_source_time": "2026-11-10 05:44:09 KST",
+  "rate_source_time": "2026-11-10 12:29:54 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": -15.3,
-  "rate_change_pct": -1.12,
+  "rate_change": 0.08,
+  "rate_change_pct": 0.01,
   "smbs_base_rate": 1355.7,
   "smbs_rate_date": "2026-11-10",
-  "smbs_rate_updated_at_kst": "2026-11-10 05:43:53 KST",
+  "smbs_rate_updated_at_kst": "2026-11-10 12:29:42 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
-    1355.0,
-    1368.0
+    1333.0,
+    1345.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-11-10 05:43:53 KST"
+  "rate_job_checked_at_kst": "2026-11-10 12:29:42 KST"
 }

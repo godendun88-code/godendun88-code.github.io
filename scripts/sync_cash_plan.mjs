@@ -61,14 +61,14 @@ function deposits(workbook) {
   for (const name of workbook.SheetNames||[]) {
     const rows=XLSX.utils.sheet_to_json(workbook.Sheets[name],{header:1,raw:true,defval:null});
     for (let row=0;row<Math.min(rows.length,100);row++) {
-      const head=(rows[row]||[]).map(clean), bank=head.findIndex(v=>v==='금융기관'), maturity=head.findIndex(v=>v.includes('만기일')), amount=head.findIndex(v=>v==='금액(원)'||v.includes('예치금액')), rate=head.findIndex(v=>v==='금리'||v==='연이율'||v.includes('이율')), handling=head.findIndex(v=>v.includes('만기')&&(v.includes('처리')||v.includes('구분')||v.includes('재예치')||v.includes('해지')));
+      const head=(rows[row]||[]).map(clean), bank=head.findIndex(v=>v==='금융기관'), maturity=head.findIndex(v=>v.includes('만기일')), amount=head.findIndex(v=>v==='금액(원)'||v.includes('예치금액')), rate=head.findIndex(v=>v==='금리'||v==='연이율'||v.includes('이율')), product=head.findIndex(v=>v==='상품'||v.includes('상품')), handling=head.findIndex(v=>v.includes('만기')&&(v.includes('처리')||v.includes('구분')||v.includes('재예치')||v.includes('해지')));
       if ([bank,maturity,amount,rate].some(v=>v<0)) continue;
       for (const data of rows.slice(row+1)) {
-        const product=String(data[bank]??'').trim(), principal=number(data[amount]), maturityDate=iso(data[maturity]), rawRate=number(data[rate]), maturityHandling=String(handling>=0?data[handling]??'':'').trim();
+        const bankName=String(data[bank]??'').trim(), productName=String(product>=0?data[product]??'':'').trim(), principal=number(data[amount]), maturityDate=iso(data[maturity]), rawRate=number(data[rate]), maturityHandling=String(handling>=0?data[handling]??'':'').trim();
         const normalizedRate=rawRate!=null&&rawRate>0&&rawRate<=1?rawRate*100:rawRate;
         if (!product||!principal||!maturityDate||!normalizedRate) continue;
         const key=[product,maturityDate,principal].join('|'); if (seen.has(key)) continue; seen.add(key);
-        result.push({bank:product,product:'정기예금(원화)',maturity:maturityDate,maturityHandling,rate:normalizedRate,principal,account:''});
+        result.push({bank:bankName,product:productName||'정기예금(원화)',maturity:maturityDate,maturityHandling,rate:normalizedRate,principal,account:''});
       }
     }
   }

@@ -102,6 +102,18 @@ function deposits(workbook) {
   }
   return result;
 }
+function depositDiagnostics(workbook) {
+  const rows=[];
+  for (const name of workbook.SheetNames||[]) {
+    const data=XLSX.utils.sheet_to_json(workbook.Sheets[name],{header:1,raw:true,defval:null});
+    for(let index=0;index<Math.min(data.length,250);index++) {
+      const headers=(data[index]||[]).map(clean).filter(Boolean);
+      if(headers.some(value=>/금융기관|만기일|예치|금리|이율/.test(value))) rows.push({sheet:name,row:index+1,headers:headers.slice(0,24)});
+    }
+  }
+  return rows.slice(0,20);
+}
+
 function parse(workbook,file,depositProducts) {
   const {name,sheet}=findSheet(workbook), rows=XLSX.utils.sheet_to_json(sheet,{header:1,raw:true,defval:null}), headerRow=rows.findIndex(row=>(row||[]).some(v=>String(v??'').trim()==='정산 및 지급월'));
   if (headerRow<0) throw new Error('자금운용 표 머리글을 찾지 못했습니다.');
@@ -123,7 +135,7 @@ function parse(workbook,file,depositProducts) {
 const {item,bytes}=await downloadWorkbook();
 const workbook=XLSX.read(bytes,{type:'buffer',cellDates:true});
 const parsedDeposits=deposits(workbook);
-if (!parsedDeposits.length) throw new Error('예금현황에서 유효한 정기예금 행을 찾지 못했습니다. 기존 예금 데이터는 변경하지 않았습니다.');
+if (!parsedDeposits.length) throw new Error('예금현황에서 유효한 정기예금 행을 찾지 못했습니다. 기존 예금 데이터는 변경하지 않았습니다. 머리글 진단: '+JSON.stringify(depositDiagnostics(workbook)));
 const model=parse(workbook,item,parsedDeposits);
 const service=JSON.parse(process.env.FIREBASE_SERVICE_ACCOUNT_JSON);
 if (!getApps().length) initializeApp({credential:cert(service)});

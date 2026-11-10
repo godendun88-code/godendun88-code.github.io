@@ -1,43 +1,61 @@
 {
-  "updated_at_kst": "2026-11-10 20:45 KST",
-  "current_rate": 1339.2,
+  "updated_at_kst": "2026-11-11 04:40 KST",
+  "current_rate": 1343.7,
   "previous_close": 1346.3,
-  "rate_updated_at_kst": "2026-11-10 20:45:25 KST",
+  "rate_updated_at_kst": "2026-11-11 04:40:24 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "상승 우세",
   "drivers": [
     "연준의 추가 금리 인상 또는 매파적 기조 우려가 부각돼 달러 강세 압력이 높아지는 요인으로 작용하고 있습니다.",
-    "미국 물가 관련 최신 기사(\"Gold drops 1% on hawkish Fed comments ahead of US inflation data\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
-    "외환시장 관련 최신 기사(\"Japanese investors become net buyers of foreign bonds for the first time in three months\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다."
+    "미국 물가 관련 최신 기사(\"Fed officials open door to a half-point hike after inflation beats expectations\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
+    "유가 및 중동 지정학적 불확실성이 부각돼 에너지 수입 의존도가 높은 원화에는 약세 부담 요인으로 작용하고 있습니다."
   ],
   "outlook": "달러 강세·금리 상승 계열의 재료가 상대적으로 우세해 원/달러는 단기 상승 압력이 나타날 수 있으나, 국내 수급과 위험선호 회복 여부에 따라 변동성이 예상됩니다.",
   "articles": [
     {
+      "title": "Fed officials open door to a half-point hike after inflation beats expectations",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOTXo5UzFWVEh5WllQOHNxS1Q2cERxOEM0X1QyN1dPX0R4XzdfT1BpajYxdi0xOEltNWh6cE15Z2ZvZ2dXV0Vwb3NkbWZ1VGQ2M2tvVVVSaWd6clhPcS1XUEU2QXE3c0tlLUhPX0c2emRnWVpwOGtoajlnSS1VRXRNZXFaNEpyVlVwcFVIOUdkT18yQ2t6a1psZGVlOFpiZl90QnVhcmxqQzNxNnlNSEdXcWpjcUdzYUNJSi1hcnl6ZEpUSUU?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-11-11 03:14 KST"
+    },
+    {
+      "title": "US consumer prices increase strongly for third straight month in October",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQLWo2UHlxSDlLcGNITjBhSkhrVmNFMDZNZ29xNEdoZ045dWRUV3JoQXQ1MUZCRlNlbHBqMnh2cG1iWjN1STQzNy1OWTZSLXZONmdLZHp1V29LbWxUcnVQS0JwNFVtR3dmOXlDRVcxLXdHWldWek03TXRvU2x5aTgyR1hhVTIyb3R5NUVvdl93aEhHempGNUFtVFVfTQ?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-11-11 00:33 KST"
+    },
+    {
       "title": "Fed's Waller plans to support at least a quarter-point rate hike in December",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNR3RjbDlfcXFBbHp0SVRSeHIzZHFTTnY5bjBuWGszTTMzUmxLUXNzRTFid29sbXV1emJSZWMwTEo4V2dWYjJ3TGlESmRlRzdFcDdQU3RxWi1QVEZrRlNBU0N3NG50WUNBWVdXbnZFS0RuVDNyRVdGWm1aRjFjWGRlRFRoTFhlbFMwQ1NjbTZMd2x0cnlHR0F4d2JNV3dKcHFOOE5TRFVsSlc5ekxoQ0E?oc=5",
       "domain": "Reuters",
-      "seen": "2026-11-10 18:23 KST"
+      "seen": "2026-11-10 23:41 KST"
     },
     {
-      "title": "Japanese investors become net buyers of foreign bonds for the first time in three months",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQb3JfdjBNYXk0UTdMc2I2WkVrMHlqc0ZzcW9uSldYaDh3VDB3RVgyb3lSYTZ6WEhucUh0b25zMW55bDBpc05NekFwNHJoWXFlbUNNakJuWnlRSnhNLVlPb2V6ODZhYkRPOHV3b1RFNlVHeW1wUUN3ZWVFUEl6N2VRYjE1emFlMnVNV250VS1NVkZKNTBFOTlmbG9uLVNkenhlRUV2OFR6R1RRSDhQOHB0M1Z1TWJxQmpiQUZ1YVpOLTcyaF9HcGc?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-11-10 14:42 KST"
+      "title": "Gold falls more than 2% as CPI tops forecasts, lifting dollar and yields",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZGItVzRMT1dpY19zRm5oSlJwTXRwQTZpMFNYaUJEVFZfbmZmUjVfZWluWEZRVUt5Q0ZDa21tcHJObUdCLXNkTmVRajh6SDRkYS1Zc24zZ3pWNFFEdGZBM0Y0MHV5TWZPcnZhZkYxdVpuYTQ0amp4aUZtR052SHRlVjZoampxbDgwYlZabkxtTDl4dk1z?oc=5",
+      "domain": "CNBC",
+      "seen": "2026-11-10 14:46 KST"
     },
     {
-      "title": "Gold drops 1% on hawkish Fed comments ahead of US inflation data",
+      "title": "Gold falls nearly 3% as CPI tops forecasts, lifting dollar and yields",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNUUt5d0NsOEFXZzVGWU5qOFFwbGtuT0pyM3RMcTR3ZDRXYzFqV1NkM1VadUV0VzdNUFpZREVYLU1mdWFpSDE5V0w3Qlo5X1luTXVXRkZKNHQ1bXY1X0VCNHRienZVbnhQdE93UWFYRk41T0Fhd2tiQ2dpZzF2WEZmM0hVTFpjMVFzR2JhNlpWN0R5ZkFCY0JkRUVuYw?oc=5",
       "domain": "Reuters",
       "seen": "2026-11-10 12:31 KST"
+    },
+    {
+      "title": "US yields rise, stocks fall as inflation data boosts odds of larger December rate hike",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9CVDNSVXJpWURQMkF1dUt1amw1WkxILXhVSjZyZkQxdGlBdWZvT0tqclhabXRKZC1xNlRIRmJSdkhINDVsYXlRdk9paVRCa085WWVKRTJFcm9CZWo2VzNaYU5lQ2RXbDdqb3QxdkY4SDFRb2JMVE8yemVJMA?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-11-10 11:23 KST"
     }
   ],
-  "rate_source_time": "2026-11-10 20:45:25 KST",
+  "rate_source_time": "2026-11-11 04:40:24 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": -7.1,
-  "rate_change_pct": -0.53,
-  "smbs_base_rate": 1355.7,
-  "smbs_rate_date": "2026-11-10",
-  "smbs_rate_updated_at_kst": "2026-11-10 20:45:09 KST",
+  "rate_change": -2.6,
+  "rate_change_pct": -0.19,
+  "smbs_base_rate": 1343.3,
+  "smbs_rate_date": "2026-11-11",
+  "smbs_rate_updated_at_kst": "2026-11-11 04:40:13 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -45,5 +63,5 @@
     1345.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-11-10 20:45:09 KST"
+  "rate_job_checked_at_kst": "2026-11-11 04:40:13 KST"
 }

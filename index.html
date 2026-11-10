@@ -1220,6 +1220,44 @@ body.scenario-mode .cash-chart:has(#cashChart:not([hidden])) .cash-chart-stage{m
   }
 })();
 <\/script>`;
+      const firstShortageMonthAmountPatch=`<script>
+(()=>{
+  const install=()=>{
+    if(typeof cashAnalysis!=='function'||cashAnalysis.__firstShortageMonthAmount)return typeof cashAnalysis==='function';
+    const original=cashAnalysis;
+    const patched=function(model,referenceRate){
+      const analysis=original.apply(this,arguments);
+      const future=(analysis?.future||[]).filter(point=>String(point?.date||'')>=fxTodayKey());
+      const firstDaily=future.find(point=>num(point?.krwBalance)<0);
+      if(!firstDaily)return analysis;
+      const month=String(firstDaily.date||'').slice(0,7);
+      const firstShortageMonth=future.filter(point=>String(point?.date||'').slice(0,7)===month);
+      const target=firstShortageMonth.reduce((lowest,point)=>num(point?.krwBalance)<num(lowest?.krwBalance)?point:lowest,firstDaily);
+      if(!target||num(target.krwBalance)>=0)return analysis;
+      const shortageKrw=Math.abs(num(target.krwBalance));
+      return {...analysis,
+        firstDailyKrwShort:firstDaily,
+        firstKrwShort:target,
+        shortageKrw,
+        mandatoryUsd:referenceRate>0?shortageKrw/referenceRate:0,
+        daysToShortage:target.dateObj?Math.ceil((target.dateObj-new Date())/86400000):analysis.daysToShortage
+      };
+    };
+    patched.__firstShortageMonthAmount=true;
+    cashAnalysis=patched;
+    const refresh=()=>{
+      try{if(typeof updateCashDashboard==='function')updateCashDashboard();}catch(_){}
+      try{if(typeof renderExchangeWorkspace==='function')renderExchangeWorkspace();}catch(_){}
+    };
+    setTimeout(refresh,0);
+    return true;
+  };
+  if(!install()){
+    const timer=setInterval(()=>{if(install())clearInterval(timer)},50);
+    setTimeout(()=>clearInterval(timer),5000);
+  }
+})();
+<\/script>`;
       const patches=[
         '<script src="./monthly-usd-patch.js?v=20261106-14"><\/script>',
         '<script src="./reconciliation-xls-patch.js?v=20260917-10"><\/script>',
@@ -1241,7 +1279,8 @@ body.scenario-mode .cash-chart:has(#cashChart:not([hidden])) .cash-chart-stage{m
         salesScenarioVisualCleanupPatch,
         brokerRateSingleSourcePatch,
         monthlyDailyShortageStatusPatch,
-        monthlyTerminalSnapshotPatch
+        monthlyTerminalSnapshotPatch,
+        firstShortageMonthAmountPatch
       ].join('\n');
       html=html.includes('</body>')?html.replace('</body>',exchangeConditionLayout+patches+'\n</body>'):html+exchangeConditionLayout+patches;
       document.open();

@@ -136,17 +136,21 @@ const {item,bytes}=await downloadWorkbook();
 const workbook=XLSX.read(bytes,{type:'buffer',cellDates:true});
 const parsedDeposits=deposits(workbook);
 const recoveryDeposits=[
-  {bank:'한국투자증권',product:'정기예금(원화)',startDate:'2026-06-29',maturity:'2026-12-29',account:'미제공',rate:3.55,principal:1000000000},
-  {bank:'국민은행',product:'정기예금(원화)',startDate:'2026-10-07',maturity:'2027-02-07',account:'268-****-01',rate:3.02,principal:300000000},
-  {bank:'경남은행',product:'정기예금(원화)',startDate:'2026-10-27',maturity:'2027-02-23',account:'223-****-00',rate:3.70,principal:300000000},
-  {bank:'국민은행',product:'정기예금(원화)',startDate:'2026-09-05',maturity:'2027-03-03',account:'268-****-01',rate:3.13,principal:200000000},
-  {bank:'한국투자증권',product:'정기예금(원화)',startDate:'2026-09-16',maturity:'2027-03-18',account:'미제공',rate:3.95,principal:800000000}
+  {bank:'한국투자증권',product:'정기예금(원화)',startDate:'2026-06-29',maturity:'2026-12-29',account:'미제공',rate:3.55,principal:1000000000,maturityHandling:'만기해지'},
+  {bank:'국민은행',product:'정기예금(원화)',startDate:'2026-10-07',maturity:'2027-02-07',account:'268-****-01',rate:3.02,principal:300000000,maturityHandling:'재예치'},
+  {bank:'경남은행',product:'정기예금(원화)',startDate:'2026-10-27',maturity:'2027-02-23',account:'223-****-00',rate:3.70,principal:300000000,maturityHandling:'재예치'},
+  {bank:'국민은행',product:'정기예금(원화)',startDate:'2026-09-05',maturity:'2027-03-03',account:'268-****-01',rate:3.13,principal:200000000,maturityHandling:'재예치'},
+  {bank:'한국투자증권',product:'정기예금(원화)',startDate:'2026-09-16',maturity:'2027-03-18',account:'미제공',rate:3.95,principal:800000000,maturityHandling:'재예치'}
 ];
 const service=JSON.parse(process.env.FIREBASE_SERVICE_ACCOUNT_JSON);
 if (!getApps().length) initializeApp({credential:cert(service)});
 const db=getFirestore(), ref=db.doc('dashboard/cashPlan'), prior=(await ref.get()).data()||{};
 const storedDeposits=Array.isArray(prior.depositProducts)&&prior.depositProducts.length?prior.depositProducts:[];
-const depositProducts=parsedDeposits.length?parsedDeposits:storedDeposits.length?storedDeposits:recoveryDeposits;
+const rawDeposits=parsedDeposits.length?parsedDeposits:storedDeposits.length?storedDeposits:recoveryDeposits;
+const depositProducts=rawDeposits.map(item=>{
+  const reference=recoveryDeposits.find(base=>base.bank===item.bank&&base.maturity===item.maturity&&Number(base.principal)===Number(item.principal));
+  return {...item,maturityHandling:String(item.maturityHandling||reference?.maturityHandling||'').trim()};
+});
 const model=parse(workbook,item,depositProducts);
 model.sourceAudit.depositSource=parsedDeposits.length?'원본 예금현황':storedDeposits.length?'기존 저장 예금 5건':'복구 기준 예금 5건';
 await ref.set({model:{...(prior.model||{}),...model,sourceUrl:prior.sourceUrl||process.env.MS_SHAREPOINT_FILE_URL},depositProducts:model.depositProducts,updatedAt:FieldValue.serverTimestamp(),updatedBy:'GitHub Actions · SharePoint 자동동기화',cashPlanSync:{state:'ok',at:Date.now(),fileName:item.name||'',etag:item.eTag||'',tColumn:model.sourceAudit}}, {merge:true});

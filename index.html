@@ -591,7 +591,7 @@
       );
       replaceRequired(
         "const header=rows[headerIndex].map(cleanCashCell),statusIndex=header.findIndex(value=>value==='상태'),openingKrw=num(rows[0]?.[2]),openingUsd=num(rows[1]?.[2]),planRate=num(rows[2]?.[2]),accountRate=num(rows[3]?.[2]),brokerRate=num(rows[4]?.[2]);let month=null;",
-        "const header=rows[headerIndex].map(cleanCashCell),statusIndex=header.findIndex(value=>value==='상태'),krwBalanceIndex=header.findIndex(value=>value==='원화잔액'),usdBalanceIndex=header.findIndex(value=>value==='외화잔액'),fxNeedIndex=header.findIndex(value=>value==='환전필요시기'),availableKrwIndex=header.findIndex(value=>value==='가용원화'||value==='가용자금원화'||value==='가용원화잔액'),openingKrw=num(rows[0]?.[2]),openingUsd=num(rows[1]?.[2]),planRate=num(rows[2]?.[2]),accountRate=num(rows[3]?.[2]),brokerRate=num(rows[4]?.[2]),planBalance=value=>{if(typeof value==='number'&&Number.isFinite(value))return value;const text=String(value??'').trim().replace(/\\s/g,'').replace(/^USD/i,'').replace(/[,원]/g,'');if(!text)return null;const parsed=Number(text.replace(/^\\((.+)\\)$/,'-$1'));return Number.isFinite(parsed)?parsed:null};let month=null;",
+        "const header=rows[headerIndex].map(cleanCashCell),statusIndex=header.findIndex(value=>value==='상태'),krwBalanceIndex=header.findIndex(value=>value==='원화잔액'),usdBalanceIndex=header.findIndex(value=>value==='외화잔액'),fxNeedIndex=header.findIndex(value=>value==='환전필요시기'),availableKrwIndex=header.findIndex(value=>value==='가용원화'||value==='가용자금원화'||value==='가용원화잔액');if(availableKrwIndex<0)throw new Error(sourceSheet+' 시트에서 T열 가용 원화 머리글을 찾지 못했습니다. T열 머리글을 가용 원화로 확인해 주세요.');const openingKrw=num(rows[0]?.[2]),openingUsd=num(rows[1]?.[2]),planRate=num(rows[2]?.[2]),accountRate=num(rows[3]?.[2]),brokerRate=num(rows[4]?.[2]),planBalance=value=>{if(typeof value==='number'&&Number.isFinite(value))return value;const text=String(value??'').trim().replace(/\\s/g,'').replace(/^USD/i,'').replace(/[,원]/g,'');if(!text)return null;const parsed=Number(text.replace(/^\\((.+)\\)$/,'-$1'));return Number.isFinite(parsed)?parsed:null};let month=null;",
         '자금운용 원화 잔액 열'
       );
       replaceRequired(
@@ -1258,6 +1258,17 @@ body.scenario-mode .cash-chart:has(#cashChart:not([hidden])) .cash-chart-stage{m
   }
 })();
 <\/script>`;
+      // Force a one-time re-import after the T-column parser changes.
+      replaceRequired(
+        "if(!force&&etag&&localStorage.getItem(MS_ETAG_KEY)===etag){",
+        "if(!force&&etag&&localStorage.getItem(MS_ETAG_KEY)===etag&&localStorage.getItem('act.cashplan.t-column-parser')==='v3'){",
+        'T열 원본 재분석 조건'
+      );
+      replaceRequired(
+        "if(etag)localStorage.setItem(MS_ETAG_KEY,etag);setMicrosoftStatus(",
+        "if(etag){localStorage.setItem(MS_ETAG_KEY,etag);localStorage.setItem('act.cashplan.t-column-parser','v3')}setMicrosoftStatus(",
+        'T열 원본 재분석 완료 표시'
+      );
       const authoritativeAvailableBalancePatch=`<script>
 (()=>{
   const install=()=>{

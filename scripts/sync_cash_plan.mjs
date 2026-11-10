@@ -59,7 +59,14 @@ async function downloadWorkbook() {
   if (!meta.ok) throw new Error('SharePoint file lookup failed: '+meta.status);
   const item=await meta.json(), content=await fetch('https://graph.microsoft.com/v1.0/shares/'+shareId(process.env.MS_SHAREPOINT_FILE_URL)+'/driveItem/content',{headers,redirect:'follow'});
   if (!content.ok) throw new Error('SharePoint Excel download failed: '+content.status);
-  return {item, bytes:Buffer.from(await content.arrayBuffunction deposits(workbook) {
+  return {item, bytes:Buffer.from(await content.arrayBuffer())};
+}
+function findSheet(workbook) {
+  const name=(workbook.SheetNames||[]).find(value=>clean(value)==='자금운용');
+  if (!name) throw new Error('자금운용 시트를 찾지 못했습니다.');
+  return {name,sheet:workbook.Sheets[name]};
+}
+function deposits(workbook) {
   const result=[], seen=new Set();
   const unitMultiplier=header=>/억원/.test(header)?1e8:/백만원|백만/.test(header)?1e6:/천원/.test(header)?1e3:1;
   for (const name of workbook.SheetNames||[]) {

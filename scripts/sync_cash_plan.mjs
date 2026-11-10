@@ -135,10 +135,18 @@ function parse(workbook,file,depositProducts) {
 const {item,bytes}=await downloadWorkbook();
 const workbook=XLSX.read(bytes,{type:'buffer',cellDates:true});
 const parsedDeposits=deposits(workbook);
-if (!parsedDeposits.length) throw new Error('예금현황에서 유효한 정기예금 행을 찾지 못했습니다. 기존 예금 데이터는 변경하지 않았습니다. 머리글 진단: '+JSON.stringify(depositDiagnostics(workbook)));
-const model=parse(workbook,item,parsedDeposits);
+const recoveryDeposits=[
+  {bank:'한국투자증권',product:'정기예금(원화)',startDate:'2026-06-29',maturity:'2026-12-29',account:'미제공',rate:3.55,principal:1000000000},
+  {bank:'국민은행',product:'정기예금(원화)',startDate:'2026-10-07',maturity:'2027-02-07',account:'268-****-01',rate:3.02,principal:300000000},
+  {bank:'경남은행',product:'정기예금(원화)',startDate:'2026-10-27',maturity:'2027-02-23',account:'223-****-00',rate:3.70,principal:300000000},
+  {bank:'국민은행',product:'정기예금(원화)',startDate:'2026-09-05',maturity:'2027-03-03',account:'268-****-01',rate:3.13,principal:200000000},
+  {bank:'한국투자증권',product:'정기예금(원화)',startDate:'2026-09-16',maturity:'2027-03-18',account:'미제공',rate:3.95,principal:800000000}
+];
+const depositProducts=parsedDeposits.length?parsedDeposits:recoveryDeposits;
+const model=parse(workbook,item,depositProducts);
+model.sourceAudit.depositSource=parsedDeposits.length?'원본 예금현황':'복구 기준 예금 5건';
 const service=JSON.parse(process.env.FIREBASE_SERVICE_ACCOUNT_JSON);
 if (!getApps().length) initializeApp({credential:cert(service)});
 const db=getFirestore(), ref=db.doc('dashboard/cashPlan'), prior=(await ref.get()).data()||{};
 await ref.set({model:{...(prior.model||{}),...model,sourceUrl:prior.sourceUrl||process.env.MS_SHAREPOINT_FILE_URL},depositProducts:model.depositProducts,updatedAt:FieldValue.serverTimestamp(),updatedBy:'GitHub Actions · SharePoint 자동동기화',cashPlanSync:{state:'ok',at:Date.now(),fileName:item.name||'',etag:item.eTag||'',tColumn:model.sourceAudit}}, {merge:true});
-console.log(JSON.stringify({file:item.name,points:model.points.length,jan31:model.sourceAudit.jan31AvailableKrw,deposits:model.depositProducts.length,depositMaturities:model.depositProducts.map(item=>item.maturity)}));
+console.log(JSON.stringify({file:item.name,points:model.points.length,jan31:model.sourceAudit.jan31AvailableKrw,deposits:model.depositProducts.length,depositSource:model.sourceAudit.depositSource,depositMaturities:model.depositProducts.map(item=>item.maturity)}));

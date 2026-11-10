@@ -14,7 +14,6 @@ concurrency:
 
 jobs:
   sync:
-    if: ${{ secrets.MS_CLIENT_SECRET != '' && secrets.MS_SHAREPOINT_FILE_URL != '' && secrets.FIREBASE_SERVICE_ACCOUNT_JSON != '' }}
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:

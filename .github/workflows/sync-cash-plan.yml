@@ -1,6 +1,10 @@
 name: Sync SharePoint cash plan
 
 on:
+  push:
+    paths:
+      - 'scripts/sync_cash_plan.mjs'
+      - '.github/workflows/sync-cash-plan.yml'
   schedule:
     - cron: '*/15 * * * *'
   workflow_dispatch:

@@ -117,8 +117,8 @@ function depositDiagnostics(workbook) {
 function parse(workbook,file,depositProducts) {
   const {name,sheet}=findSheet(workbook), rows=XLSX.utils.sheet_to_json(sheet,{header:1,raw:true,defval:null}), headerRow=rows.findIndex(row=>(row||[]).some(v=>String(v??'').trim()==='정산 및 지급월'));
   if (headerRow<0) throw new Error('자금운용 표 머리글을 찾지 못했습니다.');
-  const headers=rows[headerRow].map(clean), t=headers.findIndex(v=>['가용원화','가용자금원화','가용원화잔액'].includes(v));
-  if (t<0) throw new Error('자금운용 시트 T열 가용 원화를 찾지 못했습니다.');
+  const headers=rows[headerRow].map(clean), t=19;
+  if (headers.length<=t) throw new Error('자금운용 시트의 T열을 찾지 못했습니다.');
   const q=headers.findIndex(v=>v==='원화잔액'), r=headers.findIndex(v=>v==='외화잔액'), status=headers.findIndex(v=>v==='상태'), fx=headers.findIndex(v=>v==='환전필요시기');
   let month=null; const points=[];
   for (let index=headerRow+1;index<rows.length;index++) {
@@ -130,7 +130,7 @@ function parse(workbook,file,depositProducts) {
   }
   if (!points.length) throw new Error('T열에서 읽은 가용 원화 행이 없습니다.');
   const jan31=points.filter(p=>p.date==='2027-01-31').at(-1);
-  return {fileName:file.name||'SharePoint Excel',fileModified:Date.parse(file.lastModifiedDateTime)||Date.now(),importedAt:Date.now(),sourceSheet:name,points,depositProducts,sourceAudit:{availableKrwColumn:t+1,availableKrwHeader:headers[t],availableKrwRows:points.length,jan31AvailableKrw:jan31?.availableKrwBalance??null}};
+  return {fileName:file.name||'SharePoint Excel',fileModified:Date.parse(file.lastModifiedDateTime)||Date.now(),importedAt:Date.now(),sourceSheet:name,points,depositProducts,sourceAudit:{availableKrwColumn:t+1,availableKrwHeader:headers[t]||'T열',availableKrwRows:points.length,jan31AvailableKrw:jan31?.availableKrwBalance??null}};
 }
 const {item,bytes}=await downloadWorkbook();
 const workbook=XLSX.read(bytes,{type:'buffer',cellDates:true});
@@ -150,4 +150,4 @@ const depositProducts=parsedDeposits.length?parsedDeposits:storedDeposits.length
 const model=parse(workbook,item,depositProducts);
 model.sourceAudit.depositSource=parsedDeposits.length?'원본 예금현황':storedDeposits.length?'기존 저장 예금 5건':'복구 기준 예금 5건';
 await ref.set({model:{...(prior.model||{}),...model,sourceUrl:prior.sourceUrl||process.env.MS_SHAREPOINT_FILE_URL},depositProducts:model.depositProducts,updatedAt:FieldValue.serverTimestamp(),updatedBy:'GitHub Actions · SharePoint 자동동기화',cashPlanSync:{state:'ok',at:Date.now(),fileName:item.name||'',etag:item.eTag||'',tColumn:model.sourceAudit}}, {merge:true});
-console.log(JSON.stringify({file:item.name,points:model.points.length,jan31:model.sourceAudit.jan31AvailableKrw,deposits:model.depositProducts.length,depositSource:model.sourceAudit.depositSource,depositMaturities:model.depositProducts.map(item=>item.maturity)}));
+console.log(JSON.stringify({file:item.name,points:model.points.length,deposits:model.depositProducts.length,depositSource:model.sourceAudit.depositSource}));

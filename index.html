@@ -1333,81 +1333,6 @@ body.scenario-mode .cash-chart:has(#cashChart:not([hidden])) .cash-chart-stage{m
   }
 })();
 <\/script>`;
-      const fundReportPatch=`<style id="fundReportStyle">
-#fundReportPanel[hidden]{display:none!important}
-#fundReportPanel{margin:0 0 18px}
-body.fund-report-mode #currentWorkspace,body.fund-report-mode #fundsWorkspace,body.fund-report-mode #cashScenarioPanel,body.fund-report-mode #sourcePanel,body.fund-report-mode .fx-overview,body.fund-report-mode .cash-workspace>.panel:not(#fundReportPanel){display:none!important}
-.fund-report-head{display:flex;align-items:flex-start;justify-content:space-between;gap:14px;margin-bottom:16px}.fund-report-title{margin:0;color:#14243c;font-size:23px}.fund-report-sub{margin:6px 0 0;color:#667085;font-size:13px}.fund-report-chip{padding:7px 10px;border-radius:999px;background:#ecfdf5;color:#087f70;font-size:12px;font-weight:900}.fund-report-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}.fund-report-card{border:1px solid #dbe5ee;border-radius:13px;padding:15px;background:#fff}.fund-report-label{font-size:12px;font-weight:850;color:#526174}.fund-report-value{margin-top:7px;font-size:24px;font-weight:950;color:#14243c;letter-spacing:-.5px}.fund-report-note{margin-top:6px;font-size:12px;color:#667085}.fund-report-warn .fund-report-value{color:#c2410c}.fund-report-good .fund-report-value{color:#087f70}.fund-report-controls{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-top:14px}.fund-report-controls label{display:grid;gap:6px;font-size:12px;font-weight:850;color:#344054}.fund-report-controls input,.fund-report-controls textarea,.fund-report-controls select{width:100%;box-sizing:border-box;padding:10px;border:1px solid #cbd9e6;border-radius:9px;background:#fff;color:#14243c;font:inherit}.fund-report-controls textarea{min-height:74px;resize:vertical}.fund-report-controls .wide{grid-column:span 2}.fund-report-actions{display:flex;gap:8px;align-items:end}.fund-report-actions button{padding:10px 12px;border:1px solid #a7d8d0;border-radius:9px;background:#edf7f5;color:#087f70;font-weight:900;cursor:pointer}.fund-report-actions button.active{background:#087f70;color:#fff;border-color:#087f70}.fund-report-meta{margin-top:14px;padding:12px 14px;border-radius:10px;background:#f8fafc;color:#526174;font-size:12px;line-height:1.65}@media(max-width:900px){.fund-report-grid,.fund-report-controls{grid-template-columns:repeat(2,minmax(0,1fr))}.fund-report-controls .wide{grid-column:span 2}}@media(max-width:600px){.fund-report-grid,.fund-report-controls{grid-template-columns:1fr}.fund-report-controls .wide{grid-column:span 1}.fund-report-head{display:grid}.fund-report-value{font-size:21px}}
-</style><section id="fundReportPanel" class="panel" hidden aria-labelledby="fundReportTitle"><div class="fund-report-head"><div><h2 id="fundReportTitle" class="fund-report-title">자금보고</h2><p class="fund-report-sub">관리자 전용 · 실제 잔고와 선택 시나리오의 환전 판단을 한 화면에서 확인합니다.</p></div><span class="fund-report-chip">관리자 전용</span></div><div id="fundReportMetrics" class="fund-report-grid"></div><div class="fund-report-controls"><label>적용 시나리오<select id="fundReportScenario"><option value="base">베이스</option><option value="upside">업사이드</option></select></label><label>베이스 원화 영향액 (원)<input id="fundReportBaseKrw" type="number" step="1000000" inputmode="numeric" placeholder="0"></label><label>베이스 USD 영향액<input id="fundReportBaseUsd" type="number" step="1000" inputmode="decimal" placeholder="0"></label><label>업사이드 원화 영향액 (원)<input id="fundReportUpsideKrw" type="number" step="1000000" inputmode="numeric" placeholder="0"></label><label>업사이드 USD 영향액<input id="fundReportUpsideUsd" type="number" step="1000" inputmode="decimal" placeholder="0"></label><label class="wide">시나리오 메모<textarea id="fundReportNote" placeholder="예: 매출 상향, 비용 절감, 일회성 자금 유입 등"></textarea></label><div class="fund-report-actions"><button type="button" id="fundReportBaseBtn">베이스 적용</button><button type="button" id="fundReportUpsideBtn">업사이드 적용</button></div></div><div id="fundReportMeta" class="fund-report-meta"></div></section><script>
-(()=>{
-  const KEY='act.fund-report.v1';
-  let mode=false;
-  const byId=id=>document.getElementById(id);
-  const safeNum=value=>{const number=Number(value);return Number.isFinite(number)?number:0};
-  const state=()=>{try{return {...{scenario:'base',baseKrw:0,baseUsd:0,upsideKrw:0,upsideUsd:0,note:''},...JSON.parse(localStorage.getItem(KEY)||'{}')}}catch(_){return {scenario:'base',baseKrw:0,baseUsd:0,upsideKrw:0,upsideUsd:0,note:''}}};
-  const save=next=>localStorage.setItem(KEY,JSON.stringify(next));
-  const fmtWon=value=>typeof fmtKrw==='function'?fmtKrw(value):Math.round(value).toLocaleString('ko-KR')+'원';
-  const fmtUsdValue=value=>typeof fmt==='function'?fmt(value,0)+' USD':Math.round(value).toLocaleString('ko-KR')+' USD';
-  const dateText=value=>value&&typeof fmtDate==='function'?fmtDate(new Date(String(value).slice(0,10)+'T00:00:00')):(value||'-');
-  const admin=()=>window.dashboardAuth&&window.dashboardAuth.isAdmin===true;
-  const card=(label,value,note,tone='')=>'<div class="fund-report-card '+tone+'"><div class="fund-report-label">'+label+'</div><div class="fund-report-value">'+value+'</div><div class="fund-report-note">'+note+'</div></div>';
-  const effectiveModel=(source,krw,usd)=>{
-    if(!source)return null;
-    const base=typeof applyDepositMaturityScenario==='function'?applyDepositMaturityScenario(source):source;
-    return {...base,points:(base.points||[]).map(point=>({...point,krwBalance:safeNum(point.krwBalance)+krw,usdBalance:safeNum(point.usdBalance)+usd}))};
-  };
-  function render(){
-    if(!mode||!admin())return;
-    const panel=byId('fundReportPanel');if(!panel)return;
-    const saved=state(), kind=saved.scenario==='upside'?'upside':'base', deltaKrw=safeNum(kind==='upside'?saved.upsideKrw:saved.baseKrw), deltaUsd=safeNum(kind==='upside'?saved.upsideUsd:saved.baseUsd);
-    const actual=typeof dailyBalanceData!=='undefined'?dailyBalanceData?.rows?.at(-1):null;
-    const rate=typeof fxReferenceRate==='function'&&typeof cashModel!=='undefined'&&cashModel?fxReferenceRate(cashModel):(cashModel?.brokerRate||cashModel?.planRate||0);
-    const model=effectiveModel(typeof cashModel!=='undefined'?cashModel:null,deltaKrw,deltaUsd);
-    const analysis=model&&typeof cashAnalysis==='function'?cashAnalysis(model,rate):null, first=analysis?.firstKrwShort||null;
-    let next=null;
-    if(first&&rate>0&&typeof simulateFxTransfer==='function'){
-      const converted=simulateFxTransfer(model,{date:String(first.date||'').slice(0,10),direction:'sell',usd:Math.max(0,analysis.mandatoryUsd||0),rate});
-      if(converted?.valid){next=(converted.model?.points||[]).find(point=>String(point.date||'')>String(first.date||'')&&safeNum(point.krwBalance)<0)||null}
-    }
-    const nowKrw=actual?.krw??model?.points?.find(point=>String(point.date||'')>=new Date().toISOString().slice(0,10))?.krwBalance??null,nowUsd=actual?.usd??model?.points?.find(point=>String(point.date||'')>=new Date().toISOString().slice(0,10))?.usdBalance??null;
-    const metrics=byId('fundReportMetrics');
-    metrics.innerHTML=card('현재 원화 잔고',nowKrw==null?'—':fmtWon(nowKrw),actual?.date?'실제 잔액 기준 '+actual.date:'연결된 계획 기준')
-      +card('현재 USD 잔고',nowUsd==null?'—':fmtUsdValue(nowUsd),actual?.date?'실제 잔액 기준 '+actual.date:'연결된 계획 기준')
-      +card(kind==='upside'?'업사이드 반영':'베이스 반영',fmtWon(deltaKrw)+' · '+fmtUsdValue(deltaUsd),'수기 입력 영향액',kind==='upside'?'fund-report-good':'')
-      +card('원화 부족 시점',first?dateText(first.date):'부족 없음',first?fmtWon(Math.abs(safeNum(first.krwBalance)))+' · '+fmtUsdValue(analysis.mandatoryUsd)+' 필요':'현재 계획기간 기준',first?'fund-report-warn':'fund-report-good')
-      +card('환전 필요금액',first?fmtUsdValue(analysis.mandatoryUsd):'0 USD',first&&rate?fmtWon(analysis.mandatoryUsd*rate)+' · 기준환율 '+(typeof fmt==='function'?fmt(rate,2):rate)+'원':'환전 불필요')
-      +card('환전 후 다음 환전시기',next?dateText(next.date):'추가 부족 없음',next?fmtWon(Math.abs(safeNum(next.krwBalance)))+' 추가 부족':'계획 종료까지')
-      +card('예금 만기 처리',model?.depositMaturityScenario?.items?.length?(model.depositMaturityScenario.releases?.length||0)+'건 만기해지':'확인 중','예금현황 원본 처리값 반영')
-      +card('보고 기준환율',rate?(typeof fmt==='function'?fmt(rate,2):rate)+'원':'—','환전 필요금액 계산 기준');
-    byId('fundReportScenario').value=kind;byId('fundReportBaseKrw').value=saved.baseKrw||'';byId('fundReportBaseUsd').value=saved.baseUsd||'';byId('fundReportUpsideKrw').value=saved.upsideKrw||'';byId('fundReportUpsideUsd').value=saved.upsideUsd||'';byId('fundReportNote').value=saved.note||'';
-    byId('fundReportBaseBtn').classList.toggle('active',kind==='base');byId('fundReportUpsideBtn').classList.toggle('active',kind==='upside');
-    byId('fundReportMeta').textContent='수기 입력값과 메모는 이 관리자 브라우저에만 저장됩니다. 원본 동기화: '+(typeof cashModel!=='undefined'&&cashModel?.importedAt?new Date(cashModel.importedAt).toLocaleString('ko-KR'):'확인 중')+' · 원본 시트: '+(cashModel?.sourceSheet||'자금운용')+(saved.note?' · 메모: '+saved.note:'');
-  }
-  function readInputs(){
-    const prior=state(), next={...prior,scenario:byId('fundReportScenario').value==='upside'?'upside':'base',baseKrw:safeNum(byId('fundReportBaseKrw').value),baseUsd:safeNum(byId('fundReportBaseUsd').value),upsideKrw:safeNum(byId('fundReportUpsideKrw').value),upsideUsd:safeNum(byId('fundReportUpsideUsd').value),note:String(byId('fundReportNote').value||'').slice(0,1000)};save(next);render();
-  }
-  function showReport(){
-    if(!admin())return;
-    mode=true;document.body.classList.add('fund-report-mode');byId('fundReportPanel').hidden=false;
-    document.querySelectorAll('[data-cash-view]').forEach(button=>button.classList.toggle('active',button.dataset.cashView==='fund-report'));render();
-  }
-  function ensure(){
-    const sourceTab=byId('sourceTab'),panel=byId('fundReportPanel');if(!sourceTab||!panel)return;
-    let tab=byId('fundReportTab');
-    if(!admin()){if(tab)tab.hidden=true;panel.hidden=true;if(mode){mode=false;document.body.classList.remove('fund-report-mode')}return}
-    if(!tab){tab=document.createElement('button');tab.type='button';tab.id='fundReportTab';tab.className='workspace-tab';tab.dataset.cashView='fund-report';tab.textContent='자금보고';tab.addEventListener('click',()=>window.setCashView('fund-report'));sourceTab.parentElement.append(tab)}
-    tab.hidden=false;
-  }
-  const wire=()=>{
-    ['fundReportScenario','fundReportBaseKrw','fundReportBaseUsd','fundReportUpsideKrw','fundReportUpsideUsd','fundReportNote'].forEach(id=>byId(id)?.addEventListener('change',readInputs));
-    byId('fundReportBaseBtn')?.addEventListener('click',()=>{const next=state();next.scenario='base';save(next);render()});
-    byId('fundReportUpsideBtn')?.addEventListener('click',()=>{const next=state();next.scenario='upside';save(next);render()});
-    const original=window.setCashView;
-    if(typeof original==='function'&&!original.__fundReportPatch){const wrapped=function(view,...args){if(view==='fund-report'){showReport();return}mode=false;document.body.classList.remove('fund-report-mode');byId('fundReportPanel').hidden=true;return original.call(this,view,...args)};wrapped.__fundReportPatch=true;window.setCashView=wrapped}
-  };
-  wire();ensure();setInterval(ensure,1000);
-})();
-</script>`;
       const patches=[
         '<script src="./monthly-usd-patch.js?v=20261106-14"><\/script>',
         '<script src="./reconciliation-xls-patch.js?v=20260917-10"><\/script>',
@@ -1431,8 +1356,7 @@ body.fund-report-mode #currentWorkspace,body.fund-report-mode #fundsWorkspace,bo
         monthlyDailyShortageStatusPatch,
         monthlyTerminalSnapshotPatch,
         firstShortageMonthAmountPatch,
-        authoritativeAvailableBalancePatch,
-        fundReportPatch
+        authoritativeAvailableBalancePatch
       ].join('\n');
       html=html.includes('</body>')?html.replace('</body>',exchangeConditionLayout+patches+'\n</body>'):html+exchangeConditionLayout+patches;
       document.open();

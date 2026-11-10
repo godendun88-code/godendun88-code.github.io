@@ -1258,6 +1258,16 @@ body.scenario-mode .cash-chart:has(#cashChart:not([hidden])) .cash-chart-stage{m
   }
 })();
 <\/script>`;
+      replaceRequired(
+        "$('excelBtn').addEventListener('click',()=>$('excelFile').click());",
+        "$('excelBtn').addEventListener('click',async()=>{const button=$('excelBtn');if(typeof window.refreshMicrosoftCashPlan!=='function'){button.textContent='원본 연결 준비 중';setTimeout(()=>button.textContent='자금계획 갱신',1200);return}button.disabled=true;button.textContent='원본 Excel 갱신 중';try{const updated=await window.refreshMicrosoftCashPlan();if(!updated)alert('원본 Excel을 갱신하지 못했습니다. 원본 연결 탭의 상태를 확인해 주세요.')}catch(error){alert(error.message||String(error))}finally{button.disabled=false;button.textContent='자금계획 갱신'}});",
+        '자금계획 갱신 버튼의 Microsoft 원본 연결'
+      );
+      replaceRequired(
+        "async function refreshMicrosoftSources(){",
+        "window.refreshMicrosoftCashPlan=()=>loadMicrosoftCashPlan(true,true);async function refreshMicrosoftSources(){",
+        'Microsoft 원본 갱신 함수 공개'
+      );
       // Force a one-time re-import after the T-column parser changes.
       replaceRequired(
         "if(!force&&etag&&localStorage.getItem(MS_ETAG_KEY)===etag){",

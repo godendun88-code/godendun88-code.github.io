@@ -654,7 +654,7 @@
     let depositMaturityChoices={};
     try{depositMaturityChoices=JSON.parse(localStorage.getItem(DEPOSIT_MATURITY_STORAGE_KEY)||'{}')||{}}catch(error){depositMaturityChoices={}}
     function depositMaturityKey(item){return [item.bank,item.product,item.maturity,item.account,item.principal].map(value=>String(value??'').trim()).join('|')}
-    function currentDepositMaturityItems(){return sanitizeDepositProducts(depositProducts).sort((a,b)=>a.maturity.localeCompare(b.maturity)||a.bank.localeCompare(b.bank))}
+    function currentDepositMaturityItems(sourceModel=cashModel){const source=Array.isArray(sourceModel?.depositProducts)&&sourceModel.depositProducts.length?sourceModel.depositProducts:depositProducts;return sanitizeDepositProducts(source).sort((a,b)=>a.maturity.localeCompare(b.maturity)||a.bank.localeCompare(b.bank))}
     function depositSourceReleased(item,model=cashModel){
       const raw=String(item?.maturityHandling||'').replace(/\s/g,'');
       if(/만기해지|해지|원화전환/.test(raw))return true;

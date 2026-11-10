@@ -38,7 +38,14 @@ const dayKey = date => date.getFullYear()+'-'+String(date.getMonth()+1).padStart
 async function graphToken() {
   const body = new URLSearchParams({client_id:process.env.MS_CLIENT_ID,client_secret:process.env.MS_CLIENT_SECRET,grant_type:'client_credentials',scope:'https://graph.microsoft.com/.default'});
   const response = await fetch('https://login.microsoftonline.com/'+encodeURIComponent(process.env.MS_TENANT_ID)+'/oauth2/v2.0/token',{method:'POST',headers:{'content-type':'application/x-www-form-urlencoded'},body});
-  if (!response.ok) throw new Error('Microsoft token request failed: '+response.status);
+  if (!response.ok) {
+    let detail='';
+    try {
+      const error=await response.json();
+      detail=[error.error,error.error_description].filter(Boolean).join(': ');
+    } catch {}
+    throw new Error('Microsoft token request failed: '+response.status+(detail?' ('+detail+')':''));
+  }
   return (await response.json()).access_token;
 }
 const shareId = url => 'u!'+Buffer.from(url).toString('base64').replace(/=/g,'').replace(/\+/g,'-').replace(/\//g,'_');

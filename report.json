@@ -1,61 +1,61 @@
 {
-  "updated_at_kst": "2026-11-11 09:37 KST",
-  "current_rate": 1338.2,
+  "updated_at_kst": "2026-11-11 16:10 KST",
+  "current_rate": 1334.5,
   "previous_close": 1343.7,
-  "rate_updated_at_kst": "2026-11-11 09:37:24 KST",
+  "rate_updated_at_kst": "2026-11-11 16:10:36 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "상승 우세",
   "drivers": [
     "연준의 추가 금리 인상 또는 매파적 기조 우려가 부각돼 달러 강세 압력이 높아지는 요인으로 작용하고 있습니다.",
-    "미국 물가 관련 최신 기사(\"Fed officials open door to a quicker round of rate hikes as inflation worsens\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
-    "글로벌 달러 약세 관련 보도가 이어지며 원/달러 환율에는 하락 압력으로 작용하고 있습니다."
+    "미국 물가 관련 최신 기사(\"US consumer prices rise briskly for third straight month\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
+    "미 국채금리 관련 최신 기사(\"Oil relief to revive rupee rally, US yields surge could act as brake\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다."
   ],
   "outlook": "달러 강세·금리 상승 계열의 재료가 상대적으로 우세해 원/달러는 단기 상승 압력이 나타날 수 있으나, 국내 수급과 위험선호 회복 여부에 따라 변동성이 예상됩니다.",
   "articles": [
     {
-      "title": "Fed officials open door to a quicker round of rate hikes as inflation worsens",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOTXo5UzFWVEh5WllQOHNxS1Q2cERxOEM0X1QyN1dPX0R4XzdfT1BpajYxdi0xOEltNWh6cE15Z2ZvZ2dXV0Vwb3NkbWZ1VGQ2M2tvVVVSaWd6clhPcS1XUEU2QXE3c0tlLUhPX0c2emRnWVpwOGtoajlnSS1VRXRNZXFaNEpyVlVwcFVIOUdkT18yQ2t6a1psZGVlOFpiZl90QnVhcmxqQzNxNnlNSEdXcWpjcUdzYUNJSi1hcnl6ZEpUSUU?oc=5",
+      "title": "COMMENTARY: Trump’s Iran war pause is as costly as new strikes",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQYXNuaEJXU0pFb0oxRlkzenJYREJId21QY2pxclZ3bnBDWEFwZXFhZkJCLTJEUWJELTRKeExPZDdYWmZUY25UZnNJYXZ5NGNUYXpUSHkwZUJyYU9wWmp0aWVHTUQ1ZFVlQ3dOZnE3azBSNm9KZVRMWnJEWXExR3VrektGaXU2RlNySG5GX01LbHR2M2xxMF92RzcwZWV0REJ6T3ZIV0dvQkM0c1pQU1hzQlVB?oc=5",
       "domain": "Reuters",
-      "seen": "2026-11-11 08:07 KST"
+      "seen": "2026-11-11 16:00 KST"
     },
     {
-      "title": "Wall St ends lower as hot inflation data, Fed comments heighten rate worries",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSEE5eGJXT1lYRVFJMUpWb2VCTENjZ2hBNWk0QWl5QVZBNmJ4TFBodVUtRVRzV0JubVE0NFJYRFlmYkpuc0tlbTBValFhV0ppcGdYNEZERXV4ZnhLZUJKTF9fUzZEeHM3cDRwdmlMdUVIUWlERHprb3lKakQ1S1gzSmI5LVZYWWx2cTBjVC1sVEc1OG8tOS0ta0k5VQ?oc=5",
+      "title": "South African rand steady despite hawkish Fed signals",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOYjFDc3h6QkRMb0t4U0JwZHlBa2Q0YVVLWHNtOXpreHkwVVFxRWpGbFJkdGhZVE9Yd2lTbENBVFJFUThodi1oVUR4dnYtUHF0RThkYmFZdkZ6Y0xEZDhKRVhBMDRid2hzbGFacWhIWnNZcVpPZXdlbEUwMy1nekpmSGg4dzhEV3ptTkRxRWFHeTl2Mkx1a08wQWtYQk9GY2hQUFo1dw?oc=5",
       "domain": "Reuters",
-      "seen": "2026-11-11 06:27 KST"
+      "seen": "2026-11-11 15:48 KST"
     },
     {
-      "title": "US consumer prices rise briskly for third straight month",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQLWo2UHlxSDlLcGNITjBhSkhrVmNFMDZNZ29xNEdoZ045dWRUV3JoQXQ1MUZCRlNlbHBqMnh2cG1iWjN1STQzNy1OWTZSLXZONmdLZHp1V29LbWxUcnVQS0JwNFVtR3dmOXlDRVcxLXdHWldWek03TXRvU2x5aTgyR1hhVTIyb3R5NUVvdl93aEhHempGNUFtVFVfTQ?oc=5",
+      "title": "Morning Bid: Everyone loves CoreWeave",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNWVBqU0M4YXZZT3dWTVI3RG5Sam1aMkl3dW1XRlVfcVdKdTFMdFltVDdqZFp1LXhxM0RfczhSOXppa3FreS1LNHktV3Y5M25UbFRpRWViaEk2WDlFRU1BWVNsaEtoLXh4blRtdndJNnpEMVBKOUNQRVZFVnQweUw1TlRfZUZ3TUJYaFpLN1Z3?oc=5",
       "domain": "Reuters",
-      "seen": "2026-11-11 05:38 KST"
+      "seen": "2026-11-11 14:32 KST"
     },
     {
-      "title": "Fed's Bowman says 'still work to do' on inflation",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNcnFXOHU2M2xkVFhGQmpoU3dwaGV2SmMyWUVQX2RaeXc0RGczN0hIMk5SclpOQUFnUXgzb0VzOUZfZHJGT0hOUTlmU0ZRNExfR2hMbHZXWWJ6WDM4aV94anhYQ1dsc3loZ2JUblZKTThMNGgzWUE0bzNzTG1rbFo1c0RoTXlEZzRYc3pwSl93?oc=5",
+      "title": "Oil relief to revive rupee rally, US yields surge could act as brake",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQdV94TDRKYUF6WkRBYmxaOXFEbWVEMGNqOFdZZVdDcUJpb3RGbjBkbldMZmtaVXJxUzB5RTgyMUpPWlUtQXhWUnNZRnBrNW1HQXZZNy1PZFhfSUpsSWV1Nm5VcUdrbUtRaUI1WFZzaC1NSUNqN19KYnp2VkR3dmdYT2oyOWFONGNzcUhMcENrNFVCVHpYem1pTVdZSEdBS05mbWhrSkhYMjlNRVJsN1E?oc=5",
       "domain": "Reuters",
-      "seen": "2026-11-11 05:31 KST"
+      "seen": "2026-11-11 12:00 KST"
     },
     {
-      "title": "Fed's Waller plans to support at least a quarter-point rate hike in December",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNR3RjbDlfcXFBbHp0SVRSeHIzZHFTTnY5bjBuWGszTTMzUmxLUXNzRTFid29sbXV1emJSZWMwTEo4V2dWYjJ3TGlESmRlRzdFcDdQU3RxWi1QVEZrRlNBU0N3NG50WUNBWVdXbnZFS0RuVDNyRVdGWm1aRjFjWGRlRFRoTFhlbFMwQ1NjbTZMd2x0cnlHR0F4d2JNV3dKcHFOOE5TRFVsSlc5ekxoQ0E?oc=5",
+      "title": "Oil rises from two-month low as Hormuz shipping attacks offset Iran truce hopes",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNUDdYdlFvTWpsUDJOZkVpN1RNYmM1RlIwZUxzSGhrazVnMTJ1el9lT2lpc08yc2VrUjdyR0tSWjJIRVRMdXh2cmJDam5yY2d1QURuUFdvQkh1ZWJDdHFXbmZCejViSHhTYnl6YU1uMmEtS1NIcFU1dmhPQVZpN2R5Ykc1OVBrUXVhemRVa01TblQ5THN6eDBlOXl3Nm5qTEtKRjNDeVVraW1hRjUwZjQyclBwd1hCTlZvNkdaVVdlUDc?oc=5",
       "domain": "Reuters",
-      "seen": "2026-11-10 23:41 KST"
+      "seen": "2026-11-11 11:10 KST"
     },
     {
-      "title": "Sterling nudges lower as Waller comments, US data underpin dollar",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPeDhKUEY5WHEyNXNoQlNsLUtZMkF5YTVWUkh4YmRyV3ZWQU91TnFJSVZYQkpMSW90T2xkMXlQSEVDbjZoR0ZUSWlvMWRTM0IwVTdLMUJfZTdZVF9vTmRTY2pUQU44X19ieWJnci10MVJlTVp4TXJYQmVUWXVlQlduYnB2bWFDbXlTWGF6REpPcGZfWUlLRnpwV2thM2U1S2ZhZ3J5TkZSM3FmZw?oc=5",
+      "title": "Stocks rally as CoreWeave soothes, bonds reel on rate hike fears",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxON2pqenNYSWUzSVBxc3U2RlhRT29TZGNJWFVMRVVQa0NkaDd6STY3VzhiZTB1b0RPcXB4c0ZEM1RwaGdkZUpkZHp2Q0ZCenBZZF90eTZFMnJvT2F4elJlZlMzOFFiaTVfUmxxNVcxNFZLOVpRY1ZHTjFITVpqVlJHdDJ6UXVUNXU4Z2NoOGZrVjB0QQ?oc=5",
       "domain": "Reuters",
-      "seen": "2026-11-10 22:58 KST"
+      "seen": "2026-11-11 11:05 KST"
     }
   ],
-  "rate_source_time": "2026-11-11 09:37:24 KST",
+  "rate_source_time": "2026-11-11 16:10:36 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": -5.5,
-  "rate_change_pct": -0.41,
+  "rate_change": -9.2,
+  "rate_change_pct": -0.68,
   "smbs_base_rate": 1343.3,
   "smbs_rate_date": "2026-11-11",
-  "smbs_rate_updated_at_kst": "2026-11-11 09:37:08 KST",
+  "smbs_rate_updated_at_kst": "2026-11-11 16:10:20 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +63,5 @@
     1349.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-11-11 09:37:08 KST"
+  "rate_job_checked_at_kst": "2026-11-11 16:10:20 KST"
 }

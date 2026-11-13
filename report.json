@@ -1,61 +1,67 @@
 {
-  "updated_at_kst": "2026-11-13 04:51 KST",
-  "current_rate": 1333.8,
-  "previous_close": 1337.3,
-  "rate_updated_at_kst": "2026-11-13 04:51:42 KST",
+  "updated_at_kst": "2026-11-13 10:02 KST",
+  "current_rate": 1335.0,
+  "previous_close": 1333.8,
+  "rate_updated_at_kst": "2026-11-13 10:02:18 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
-    "미국 고용 관련 최신 기사(\"US labor market resilient; existing home sales hit more than 16-year low in October\")가 확인돼 고용지표가 연준 금리 기대와 달러 방향성을 좌우하는 변수로 부각되고 있습니다.",
-    "달러 관련 최신 기사(\"COMMENTARY: Dollar zooms on bets US can absorb higher rates\")가 확인돼 달러인덱스 방향성이 원/달러 환율의 핵심 변수로 작용하고 있습니다.",
-    "유가 및 중동 지정학적 불확실성이 부각돼 에너지 수입 의존도가 높은 원화에는 약세 부담 요인으로 작용하고 있습니다."
+    "연준·금리 관련 최신 기사(\"US Treasury bought yen in July; Fed made no solo FX interventions in Q3\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
+    "미국 물가 관련 최신 기사(\"Canadian dollar steadies near 19-month low ahead of US inflation data\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
+    "달러 관련 최신 기사(\"COMMENTARY: Dollar zooms on bets US can absorb higher rates\")가 확인돼 달러인덱스 방향성이 원/달러 환율의 핵심 변수로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
     {
-      "title": "US labor market resilient; existing home sales hit more than 16-year low in October",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQUTZla1JsS2tMLXNSZGhQOXg4VnpnUkQxelh0RVlFQnl5b0ZGYXBwTXNVd3hWMVM1c0d5WjhPR3hGbnRPV3dDSloxV2w2Wm83a24wSUNHdTN0UmpHbzlTSHJ4VnVRNTBVdUlHTkdrZ21SdkFIZ09VMnRWZ1ZSU3ZFbk1SQnA4ZUJBVWxzSWpVTjRodDFqQlRiQzRRWHRzdzU3?oc=5",
+      "title": "US Treasury bought yen in July; Fed made no solo FX interventions in Q3",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQMkM3MHBxSC0zWERfdnhqRURMc2dhS01oamJOMC1TZFMwNGljLUtmTEVlaFZsVWc4b2JsUmJVNkUwWEpraUJaVVJrNHp3TktqczB6RXhtSTBOaWZFQ0k0WFd6UHhvTGFJMWs5UTAzZDkyb1FfNU90RVh5WVZfT0ZzMzNfeGVLR1J2NDItOVhvbmFtQVgtclBoMEpQdkxCcXFtVkUzZFZrQzB2bmd3NlE?oc=5",
       "domain": "Reuters",
-      "seen": "2026-11-13 02:49 KST"
+      "seen": "2026-11-13 08:03 KST"
     },
     {
-      "title": "Wall Street edges up, Nvidia drops after CEO resigns",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA1ODl5LXpyQ0RZanVjSnZGS1NjS1ljMjZvdW9xY3ZSSUxvNkY2Z3dCMThiSjdKNHI1TFRCZnBIRHdYY0UxTGh0QjRZX3Y2S25sY0k4M0dKN3VZdGNMSGk5N0tPUmVJa3ozWXRCcmluOWxVVjVfblRLdmttMA?oc=5",
+      "title": "Canadian dollar steadies near 19-month low ahead of US inflation data",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPd3UzM2VUR3MtMHVGVnlhSzdLWmpnZks3empvRE1nVV9DbjNBUmNuQXBNSTVXQURfMnN0S1VJdVdfbS1aV19XTjhHX04za2lpbElHam0tTDNoZU1xbGxTN0NLZXJQMS1HbXcxX2prclluZW1zZlVKMjktZnFidlJHNmlIR3kyZm5iWnZMaXJGemk0cDlZeC16UFgtc2hiQy1ZLVV0SHVOV1NLbXFnNUtFY3FYVQ?oc=5",
       "domain": "Reuters",
-      "seen": "2026-11-12 10:53 KST"
+      "seen": "2026-11-13 05:21 KST"
     },
     {
-      "title": "Oil gains over $1 on Strait of Hormuz shipping disruptions, Russia tensions",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNSVNfOWE4dnhlMzA3cExiOE1nR0FNQXFJejNsQTExRExKTlVKNjNjcFRGMWQxMGNmYnNOWFdLaUp0OUo2SHFlNVoxMUo0Y21WazFhVmhZU1VxYlRuWVRfZEtiQ0NGWENEejFpMFRzaUtNbVV3TEhKUHp2aUc0SHJ2VkNzM1BHNU5VeGNNbnRldWZaZUFkTWdDNm9ibk5kQXlOQlRRWHRhdGk5ZEtPZjVjMjE1Q1BJaTZ1NmplRWJVSDlvRFBUQnc?oc=5",
+      "title": "Gold drops to over one-year low as fading Middle East peace hopes fan inflation fears",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPc09mRGRCVmlxTnVTdDR2Y0ktNjVkZE1xUHhyTnZWUGZvbFZFS2hsTFk1SkVfNE82SVZlMTFXbUFtckZMaDIwbzA5RlgxWUxKbE5ZMGhrRkl1UWFrVG9ibW9mdWlGM0NYRTVlQnZramhHSTVadmtEaFhWMDRFY1dYVWRPX1RzNm9YNURTVUVzeGo2aEo4UzZReXRCVlQ0amhjVGFWTU1BVFVQR1k?oc=5",
       "domain": "Reuters",
-      "seen": "2026-11-12 10:52 KST"
+      "seen": "2026-11-12 12:40 KST"
     },
     {
       "title": "COMMENTARY: Dollar zooms on bets US can absorb higher rates",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdm16OE9HeTB1RzQ3Z1hSQ3VnVi1mek16Y1p4dW9JWGpHeExGTVN6NU1pUFRyeUd4SEdacFZRR0dneUh3T1U5aVBRNklHVk1CeEw2X2dCTHpJRUtTelBvYUxscHk2Uk5hM0V5OHlkYTJUS0hhY2c2QkNYcGVKUElSLXlGSEpWdWRJWUhSSGFhWV9NZWVTVXhaclljYkRzQmdIZENDdXVCZ3hoV2tVel8zbkdSeUE4NkxmMEl0eUdvNHpDQQ?oc=5",
       "domain": "Reuters",
-      "seen": "2026-11-12 10:24 KST"
+      "seen": "2026-11-12 11:48 KST"
     },
     {
-      "title": "Dollar drops slightly from 19-month highs, rate divergence in focus",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNQmd6aUhaTzk5c0pGbUgyQ2U2clNjX0VCQjZVT1g4dmNVUkFFa05DQTRmWHNLVl9oRGJ5R0tfeVZjbGlsSjhwMHNTVEhUaWtJMzJGUk15dnRGd2d5RGpLbEVtZzZFTGVVOHM0cmtMTFNkMTJDbUNPMm5acjZFbjltWC1URXlPTHdOLUlIUVdJOWxqb0xnMndvUGVwYlEtTGNvQXZ0Vg?oc=5",
+      "title": "Oil settles $3 higher on attacks on Saudi energy sites, Strait of Hormuz disruptions",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNSVNfOWE4dnhlMzA3cExiOE1nR0FNQXFJejNsQTExRExKTlVKNjNjcFRGMWQxMGNmYnNOWFdLaUp0OUo2SHFlNVoxMUo0Y21WazFhVmhZU1VxYlRuWVRfZEtiQ0NGWENEejFpMFRzaUtNbVV3TEhKUHp2aUc0SHJ2VkNzM1BHNU5VeGNNbnRldWZaZUFkTWdDNm9ibk5kQXlOQlRRWHRhdGk5ZEtPZjVjMjE1Q1BJaTZ1NmplRWJVSDlvRFBUQnc?oc=5",
       "domain": "Reuters",
-      "seen": "2026-11-12 09:05 KST"
+      "seen": "2026-11-12 10:52 KST"
+    },
+    {
+      "title": "Dollar reaches 19-month high as rate expectations dominate",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNR3B6eGFpWHZ0X1c3cnE2T1VJMFcxRzJRWXMtUGppdUlpMlhIdDhON1Z1eE1RZUJ4NUZ4SllmYUVkbTJQMkxfdWhoWEVfR0YxbEl2YU1QMzdwWHp6WXJVajF3Tl9zMUN4Z01UdlpOZkNzZVhVYVJhN29WaVdDXy1hY2k2RTJ1SUg2RldjN1VQYkxwdw?oc=5",
+      "domain": "CNBC",
+      "seen": "2026-11-12 10:43 KST"
     }
   ],
-  "rate_source_time": "2026-11-13 04:51:42 KST",
+  "rate_source_time": "2026-11-13 10:02:18 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": -3.5,
-  "rate_change_pct": -0.26,
+  "rate_change": 1.2,
+  "rate_change_pct": 0.09,
   "smbs_base_rate": 1332.4,
   "smbs_rate_date": "2026-11-13",
-  "smbs_rate_updated_at_kst": "2026-11-13 04:51:25 KST",
+  "smbs_rate_updated_at_kst": "2026-11-13 10:02:06 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
-    1330.0,
-    1340.0
+    1332.0,
+    1343.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-11-13 04:51:25 KST"
+  "rate_job_checked_at_kst": "2026-11-13 10:02:06 KST"
 }

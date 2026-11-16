@@ -1,49 +1,55 @@
 {
-  "updated_at_kst": "2026-11-15 01:43 KST",
-  "current_rate": 1333.9,
-  "previous_close": 1336.4,
-  "rate_updated_at_kst": "2026-11-16 09:58:36 KST",
+  "updated_at_kst": "2026-11-16 16:56 KST",
+  "current_rate": 1335.2,
+  "previous_close": 1333.64,
+  "rate_updated_at_kst": "2026-11-16 16:55:45 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
-    "연준·금리 관련 최신 기사(\"Logan says Treasury market functioning 'very well,' Fed needs to strengthen support tools\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
-    "미국 물가 관련 최신 기사(\"Fed likely to need to raise rates amid worsening inflation: Daly\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
-    "미 국채금리 관련 최신 기사(\"Canadian dollar heads for weekly decline on \"punishing\" yield spreads\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다."
+    "연준·금리 관련 최신 기사(\"Gold hits over one-year low as firm dollar, Fed outlook weigh\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
+    "미국 물가 관련 최신 기사(\"Oil prices fall on expectations of coming supply surplus\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
+    "글로벌 달러 강세 관련 보도가 이어지며 원/달러 환율에는 상승 압력으로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
     {
-      "title": "Fed likely to need to raise rates amid worsening inflation: Daly",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOaHBuM0FNRHlsWlNrX090Q3F6R2VZUTFYRkF3bFZwbDNQMUwxZXpiYmROVUJWWTVKZHRoOExqUkxpcktRYUZodDVncmNVSEdIMDktTDYxMXlWM1hvdXVKRmVfMmtvbTBUd1MyWkxFR3RqTlNJNVk1WFNtc2pnQ0w4QjRTdjlmcFdPUkVUZFVndGdCRWRPMEw3cFZHcjBlc3lhdDY2Vw?oc=5",
+      "title": "For investors, a truly safe haven is hard to find",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQLWhsZ01HeXgxX09FRFotT2JPWlJrSkdGOG9lblVxR1ExM2lPTkh1MExjU2Vfci01ZzI0NzlGSVFXTjBHcUhBdDJ1cVJneU9PNUUxaldjbHRZZndFRFRJYmluVDN0NHlxNUJoVXFWWTdzRG9ScTlITURqMi1wLXN0dFl6ZktNUkVxcVpjVlBhbDYwUQ?oc=5",
       "domain": "Reuters",
-      "seen": "2026-11-14 03:48 KST"
+      "seen": "2026-11-16 15:03 KST"
     },
     {
-      "title": "Canadian dollar heads for weekly decline on \"punishing\" yield spreads",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPTmc2LVk4LS1yQ1RLX00xamlZY3dZQ25GT0pxdTdfQVFHVFRBNFZpSFpMSUp4VXNhWTVjVmNzNDQ4bnNsUjVoZDJWaW03TnJwUDZMRGlTUlRQTTkxT0huRGwwT2FUb2ROV3d2Wm1xT0xLVk5MeXNEbzNMWjl0SnZNaF9ka0xwRXJQNkhRbmxJY2Z1d0luMzNfY2o4cVpDTndSeC1CNHpZSDBwYmc?oc=5",
+      "title": "Indian rupee caught between external pressures and foreign inflows",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNUnZsV3JvbXpiRElEdnViZ25tOXl2YldqM1VUT3JfSFlYTVBNZGxVZGllZWtORUxWTThHNXhfRU5NUHU0Nm1lcUw3Q0JOOXpwRjlybGFVb3IwbUhpVm9DMGIxLUN4c1VYMGFXLVJPVE9WZDNVazUtZmc0bWYzSDlXekw5QWU1cnA2ZlRRYURYQlBPSFhWcHcwTXU3cDE2ajJ0X2llUzdqb2pxOGRoVXNV?oc=5",
       "domain": "Reuters",
-      "seen": "2026-11-14 02:51 KST"
+      "seen": "2026-11-16 11:18 KST"
     },
     {
-      "title": "US producer prices rise moderately in October, but inflation broadens out",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNZTNDTVIxbVNEWDkyN3QzVk9YR2stVjFURXFqcDNXeGZ2S3FUcmhJNzJqcEp5R3JMY0dDdnl3MDEyRXVKRnB1ZGhMVHpQeTRYNnZwZDQ3UlpnTG5mR1o0akdxWDRhWDU1dm1CY2M3bFZQNHhNRHZyaUZFU1VPODZIdFJrbXBaM2UzTnRXOA?oc=5",
+      "title": "Oil prices fall on expectations of coming supply surplus",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSXlabl9ocWtiOEZLcnc2SGNVSEh2bjltWURkWU1RSDVTejZWMEtNYTR4QW9sT19DQy05SVhHVmphTEtIQXdtVzlUS25Vdk1oS0hjdWZ0MHpUb01NQUp4dzlBcE55anIwR0hKVmhCUDRsT3V3ek9jTURVYkcySDNBM1B0RmJ3emdUaHpPVWpENENfZ2JGRHB3MlJuekVfUWlFa2lfUQ?oc=5",
       "domain": "Reuters",
-      "seen": "2026-11-14 02:46 KST"
+      "seen": "2026-11-16 11:00 KST"
     },
     {
-      "title": "Logan says Treasury market functioning 'very well,' Fed needs to strengthen support tools",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPZmZBTTBhYXpVY29JS2dYc0s4MVZzQVN4NUJXX2dRUjUyMVM2OFA4cWNKT0h4bkliZ2tjTkhaRkhSeElYenlOVUVkeGNiWXlYaVQ3QXZ2TTY0WXBXTGppZ2Q0V0VlSVRPZGd4eFJNdVE0WjV4OHk3U0JBcV9BLUdIS1VPZ0xtVUhUd3A4WHB6Nlp0cjE4WjhzNGRlQjhqVElCSVlYcC1WR0N2Ri1keTFSM19PRnFSdlBVV1JteHB1UDJ4Z0FWSi1LeG5n?oc=5",
+      "title": "Gold hits over one-year low as firm dollar, Fed outlook weigh",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOR0w3QnNOYVBGYjdBMGJDeml5RExhSzMzaGVTUEQ2eEdLNHhHQzRoV2thNUo4TkVGYmNfc3NsSGpVVVF2OWxCZ21CNzBMSGs0S3NuZ2Rla1d4WTR0RGJwcllfYnZ6dlR5ZGZXa3dMakUxZmNDWFExYk9HNTkyLTN6aWF0MlRRbzN4aUJUVnVCMk1fdlpVN1B0bE1QM3dkaENDNEwzaHRORFFjVDYw?oc=5",
       "domain": "Reuters",
-      "seen": "2026-11-14 02:16 KST"
+      "seen": "2026-11-16 10:25 KST"
+    },
+    {
+      "title": "Dollar extends gains, yen looks past soft Japan GDP data",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZkdhelNXT1laWnBWei1ZTGMybnc1U1FxOUtGdjdoaGxDX29kd0pvc3FoLVhYdVh4SkdQdGN1cFU1UjVmb0lGWlJsdTlJOHppUjh0eGVrTFJBajZxUV9CVWFrN0F5S0RqVVpMWlR4ZW05R0duTFdvZjJNbGNhcEl2V002d0xWejFMRmR2ZjRDanBqZndnZndWOF96b3NxdVdaWnp4LWdzQ1RhdEdXdkhfcUJaSQ?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-11-16 10:09 KST"
     }
   ],
-  "rate_source_time": "2026-11-16 09:58:36 KST",
+  "rate_source_time": "2026-11-16 16:55:45 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": -2.5,
-  "rate_change_pct": -0.19,
+  "rate_change": 1.56,
+  "rate_change_pct": 0.19,
   "smbs_base_rate": 1333.7,
   "smbs_rate_date": "2026-11-16",
-  "smbs_rate_updated_at_kst": "2026-11-16 09:58:18 KST",
+  "smbs_rate_updated_at_kst": "2026-11-16 16:55:31 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -51,5 +57,5 @@
     1349.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-11-16 09:58:18 KST"
+  "rate_job_checked_at_kst": "2026-11-16 16:55:31 KST"
 }

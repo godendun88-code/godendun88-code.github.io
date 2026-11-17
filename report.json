@@ -1,25 +1,37 @@
 {
-  "updated_at_kst": "2026-11-17 11:05 KST",
-  "current_rate": 1340.0,
+  "updated_at_kst": "2026-11-17 19:39 KST",
+  "current_rate": 1336.3,
   "previous_close": 1336.0,
-  "rate_updated_at_kst": "2026-11-17 11:04:49 KST",
+  "rate_updated_at_kst": "2026-11-17 19:39:19 KST",
   "rate_source": "KB STAR FX Market Watch",
-  "market_bias": "혼조",
+  "market_bias": "상승 우세",
   "drivers": [
-    "연준·금리 관련 최신 기사(\"Gold hovers near over one-year low as firm dollar, Fed-hike bets weigh\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
-    "미국 물가 관련 최신 기사(\"TSX futures slip on weaker oil, gold; inflation data eyed\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
-    "미 국채금리 관련 최신 기사(\"Gold sinks to 1-year low as Treasury yields and dollar bite, set for worst year since 2015\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다."
+    "연준의 추가 금리 인상 또는 매파적 기조 우려가 부각돼 달러 강세 압력이 높아지는 요인으로 작용하고 있습니다.",
+    "미 국채금리 관련 최신 기사(\"Gold sinks to 1-year low as Treasury yields and dollar bite, set for worst year since 2015\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다.",
+    "유가·지정학 관련 최신 기사(\"Indian rupee claims seven-month peak on inflows, dollar and oil retreat\")가 확인돼 원화 변동성 확대 요인으로 작용하고 있습니다."
   ],
-  "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
+  "outlook": "달러 강세·금리 상승 계열의 재료가 상대적으로 우세해 원/달러는 단기 상승 압력이 나타날 수 있으나, 국내 수급과 위험선호 회복 여부에 따라 변동성이 예상됩니다.",
   "articles": [
     {
-      "title": "Gold hovers near over one-year low as firm dollar, Fed-hike bets weigh",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVGd6c05RMXpCQzBvWjhLZlZ6cjc4OUZ0cjZaSWxzZk9leV9WbG1EVmhoVlJfTHZZRFkxZml4Rll3TXd6SGc0dmtiSHFsYkVQWThZdkpxb3dGQkhpSkgyVC1HQlV5WkZQaHU4N3B2b2RELWdDaGpZLWtmbHo2cllMNE9tN29pYnJGM1Z4eFJ6bmNQdHJFX0lNTHZtV0x4MlNhT284LThTc1hTY2xlcEEta0wwNjg?oc=5",
+      "title": "Major Gulf equities mixed amid shipping security concerns",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNOHNZLWptczdoMTJEZGZJVU9UR3pBWTFaaEozWWtlSE95SUNSTGktZ0twWXBxWU91NU5LdEJKV056NHY5QTlKUWFzVXVudmJ3NjN5U0JCWW5Jc0g2VnBnSTB6dG1qUk5FTWptdVNQRFBBS3Q5dHEweDhtaDhtWnd6NmtkWFdCTnZheG9VelNCQ0pWWHFMeVpuN1RIR21DZjFBQ1lDanFuNGZmUjFidkF4LQ?oc=5",
       "domain": "Reuters",
-      "seen": "2026-11-17 10:47 KST"
+      "seen": "2026-11-17 17:49 KST"
     },
     {
-      "title": "Oil slips on supply surplus outlook despite Gulf tensions",
+      "title": "COMMENTARY: Midterm Meltdown - How US elections sparked a rethink on energy risks",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNaFpWOVZwSTNCMjRDWm4ybUl3WDlPbXhXbzY1OXF0NEljTHp0THZfLWpOTG15Y1lBSjBqWkw3bGJ2eHhQN1g0NUFyUUhFQ1JpT1JQNHl6SEhmVk1rQXhTVk9pMW9ETUxFckFIQ2Rpdmpudy11WjRJVk5tWi13dlVvMEtONlFRQmRtOXlKTXZWOGVNNWRDSWg4NncwWDNZNXFzU0ZWbkdSY1gyZ0VfbGFOSnp4N051ekpUZ3Z1YXZndzlDZnNFVjJDaEJWYw?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-11-17 15:00 KST"
+    },
+    {
+      "title": "Indian rupee claims seven-month peak on inflows, dollar and oil retreat",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWHBJMGZCZ09KMjBxNjl6NEZHS25KSmZKelZGX0M2TTl4MHMzdWRfNXlsRGo3Q1p4TWdVc0VGLWFKQ3RHOTFLaHhFWU5TVzhQVHlOM0REV0hEUUd1QXhaLURROUU0NlJBWDJEY2xNbnh2VzlsOC1IRUZpWExqOG95cVRTQU5FY1A4a0loZ1IwYTJjNFZqSHFIYUdxTlNuSHAyMFozeWpMWWxLSnl6cTlfcHp3?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-11-17 11:56 KST"
+    },
+    {
+      "title": "Oil prices caught between rising Mideast exports and tanker attacks",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQm40d1ZiR2k1S1RxaFdvQzJVYmRJUE1rcnNLZkEyRkZzbk5KZjlqWl9sZW9MUFB2OHpwdGZzT3duNzVnMnNaMEJMYkFKWndKTWE1OWNtd0hLcWRtSmVVYU5JaTBlNXZuT2t0V1AzVHdXVEhPMWt5QnhXakxpWkxiQk50ZEt0UGtXT3RpeXdiNEY0UXBqeXk2RGVHYURMNzJzNm13Zldtbm8tQQ?oc=5",
       "domain": "Reuters",
       "seen": "2026-11-17 10:37 KST"
@@ -35,21 +47,15 @@
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOVkNEMWt0MEpVV2U4c0tCZEQ0N3FJRnBMWEFJRktVNVpBNGZ4RWFjVXA0TnR0VE8yam5OenZaaF9KWVhuc3RCQkZXWGlwb0pPRElEM0JoU0Rsb3BpX2ZTUjBLUG52SUM1V2RkcHRKLVdLR1ZmeXFISlplcTRQU0xJMzZHcFBFbUZPVWtYeGpqbWxKU1gtQjMxZXBMZU5rdldKOTRaWXpNSkZqd3MwajRHUzVvSVI2QTBOb1dJMGc3U3VzdTFP?oc=5",
       "domain": "Reuters",
       "seen": "2026-11-17 03:03 KST"
-    },
-    {
-      "title": "TSX futures slip on weaker oil, gold; inflation data eyed",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNUHVxWl9hRWVsanhEbEhURDdvZHAwRG1NNmtQSFN3dlZIMDYxLUtWeVo0YVYtWjRETkJkdTdaU3JGZXNULUNTQnc1VTg5MGFudmpIWUdfdzNvQVFMU3J3R21DRnh4UjRyZHFzR1c1ZUtJMXZFMXE5Z1lialdKR3NEdUR4ak9zUjBwcVZXaFF0YUc0eHlwSEpHNXFETkt6RlY0Q01KbzFn?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-11-16 19:59 KST"
     }
   ],
-  "rate_source_time": "2026-11-17 11:04:49 KST",
+  "rate_source_time": "2026-11-17 19:39:19 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 4.0,
-  "rate_change_pct": 0.3,
+  "rate_change": 0.3,
+  "rate_change_pct": 0.02,
   "smbs_base_rate": 1335.0,
   "smbs_rate_date": "2026-11-17",
-  "smbs_rate_updated_at_kst": "2026-11-17 03:25:42 KST",
+  "smbs_rate_updated_at_kst": "2026-11-17 19:39:07 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -57,6 +63,5 @@
     1340.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-11-17 11:04:30 KST",
-  "smbs_rate_error": "RuntimeError: 서울외국환중개 페이지에서 USD 매매기준율을 찾지 못했습니다."
+  "rate_job_checked_at_kst": "2026-11-17 19:39:07 KST"
 }

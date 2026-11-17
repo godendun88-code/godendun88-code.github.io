@@ -1,17 +1,35 @@
 {
-  "updated_at_kst": "2026-11-17 03:26 KST",
-  "current_rate": 1336.0,
-  "previous_close": 1334.94,
-  "rate_updated_at_kst": "2026-11-17 03:25:53 KST",
+  "updated_at_kst": "2026-11-17 11:05 KST",
+  "current_rate": 1340.0,
+  "previous_close": 1336.0,
+  "rate_updated_at_kst": "2026-11-17 11:04:49 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
-    "연준·금리 관련 최신 기사(\"Dollar hits highest since April 2025 as Fed rate bets lend support\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
+    "연준·금리 관련 최신 기사(\"Gold hovers near over one-year low as firm dollar, Fed-hike bets weigh\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
     "미국 물가 관련 최신 기사(\"TSX futures slip on weaker oil, gold; inflation data eyed\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다.",
     "미 국채금리 관련 최신 기사(\"Gold sinks to 1-year low as Treasury yields and dollar bite, set for worst year since 2015\")가 확인돼 장기금리 흐름이 달러 강도에 영향을 주고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
+    {
+      "title": "Gold hovers near over one-year low as firm dollar, Fed-hike bets weigh",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVGd6c05RMXpCQzBvWjhLZlZ6cjc4OUZ0cjZaSWxzZk9leV9WbG1EVmhoVlJfTHZZRFkxZml4Rll3TXd6SGc0dmtiSHFsYkVQWThZdkpxb3dGQkhpSkgyVC1HQlV5WkZQaHU4N3B2b2RELWdDaGpZLWtmbHo2cllMNE9tN29pYnJGM1Z4eFJ6bmNQdHJFX0lNTHZtV0x4MlNhT284LThTc1hTY2xlcEEta0wwNjg?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-11-17 10:47 KST"
+    },
+    {
+      "title": "Oil slips on supply surplus outlook despite Gulf tensions",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQm40d1ZiR2k1S1RxaFdvQzJVYmRJUE1rcnNLZkEyRkZzbk5KZjlqWl9sZW9MUFB2OHpwdGZzT3duNzVnMnNaMEJMYkFKWndKTWE1OWNtd0hLcWRtSmVVYU5JaTBlNXZuT2t0V1AzVHdXVEhPMWt5QnhXakxpWkxiQk50ZEt0UGtXT3RpeXdiNEY0UXBqeXk2RGVHYURMNzJzNm13Zldtbm8tQQ?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-11-17 10:37 KST"
+    },
+    {
+      "title": "Fed's Hammack reiterates case for slow, steady rate hikes -Bloomberg TV",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNYk9kal9uc0hmSGMySFhuVE1BbTd3dkV1SkdjbEx3U2NuZFdoMFI1TThKSHVnLUNGTVNOOVpRM3VVUnBZdkxISEhKdVloQzBxUGlEcm15ZkQyUGZjWW5IbVhhZVNKWnBleE1PZzAyNUtmQUVrWHZ1R2YwU1FSZWVjczdVWXcwX3Z4VWhsVXZwUE1EaWMtZ3I0d1I2WlVOdm5rdGdZMFl4VVJENHRaSUE?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-11-17 04:34 KST"
+    },
     {
       "title": "Gold sinks to 1-year low as Treasury yields and dollar bite, set for worst year since 2015",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOVkNEMWt0MEpVV2U4c0tCZEQ0N3FJRnBMWEFJRktVNVpBNGZ4RWFjVXA0TnR0VE8yam5OenZaaF9KWVhuc3RCQkZXWGlwb0pPRElEM0JoU0Rsb3BpX2ZTUjBLUG52SUM1V2RkcHRKLVdLR1ZmeXFISlplcTRQU0xJMzZHcFBFbUZPVWtYeGpqbWxKU1gtQjMxZXBMZU5rdldKOTRaWXpNSkZqd3MwajRHUzVvSVI2QTBOb1dJMGc3U3VzdTFP?oc=5",
@@ -19,49 +37,26 @@
       "seen": "2026-11-17 03:03 KST"
     },
     {
-      "title": "COMMENTARY: Warsh's honeymoon period is over",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQWxhSndRSHRSdEJXcm1fQ1gtc0wwRGZJM1lobnREeE5zMVM1UC1TXzA3ajI4bXVsVVlNZE1EWng0Y0ppTElHd3Jfd1cwQy1WYk5ZaDM2TVhTWHIxTlVzN2U4a0VIZ1FDTG1UTWJXZTh4RHlNLV9MLXdCQTM0NWl6amhfdHA5bFFDVEpLYXNnb1ktaWxPRGlhamNXbjR1OG5YLUN2N2pjbVNqQQ?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-11-16 23:02 KST"
-    },
-    {
       "title": "TSX futures slip on weaker oil, gold; inflation data eyed",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNUHVxWl9hRWVsanhEbEhURDdvZHAwRG1NNmtQSFN3dlZIMDYxLUtWeVo0YVYtWjRETkJkdTdaU3JGZXNULUNTQnc1VTg5MGFudmpIWUdfdzNvQVFMU3J3R21DRnh4UjRyZHFzR1c1ZUtJMXZFMXE5Z1lialdKR3NEdUR4ak9zUjBwcVZXaFF0YUc0eHlwSEpHNXFETkt6RlY0Q01KbzFn?oc=5",
       "domain": "Reuters",
       "seen": "2026-11-16 19:59 KST"
-    },
-    {
-      "title": "Oil prices fall on expectations of coming supply surplus",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSXlabl9ocWtiOEZLcnc2SGNVSEh2bjltWURkWU1RSDVTejZWMEtNYTR4QW9sT19DQy05SVhHVmphTEtIQXdtVzlUS25Vdk1oS0hjdWZ0MHpUb01NQUp4dzlBcE55anIwR0hKVmhCUDRsT3V3ek9jTURVYkcySDNBM1B0RmJ3emdUaHpPVWpENENfZ2JGRHB3MlJuekVfUWlFa2lfUQ?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-11-16 11:00 KST"
-    },
-    {
-      "title": "Stocks fall ahead of Nvidia earnings and Anthropic IPO",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPa3g3MVMxZ2lSN1ZpTmpaWkdYR25ZdDZ4M3BELXQ3ZC1PZDhtNTVjYmpQdHlJZUFtLWxiUkFLbXhUVHM0OHNScEUyTWFHUU5MMmZYb0EyVW51dXd1OWJFak1NbVFwazhlVzBIcHB3TENzRG1IZ2FvVFlpS0xubFBadXlPYw?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-11-16 10:35 KST"
-    },
-    {
-      "title": "Dollar hits highest since April 2025 as Fed rate bets lend support",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZkdhelNXT1laWnBWei1ZTGMybnc1U1FxOUtGdjdoaGxDX29kd0pvc3FoLVhYdVh4SkdQdGN1cFU1UjVmb0lGWlJsdTlJOHppUjh0eGVrTFJBajZxUV9CVWFrN0F5S0RqVVpMWlR4ZW05R0duTFdvZjJNbGNhcEl2V002d0xWejFMRmR2ZjRDanBqZndnZndWOF96b3NxdVdaWnp4LWdzQ1RhdEdXdkhfcUJaSQ?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-11-16 10:09 KST"
     }
   ],
-  "rate_source_time": "2026-11-17 03:25:53 KST",
+  "rate_source_time": "2026-11-17 11:04:49 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 1.06,
-  "rate_change_pct": 0.13,
+  "rate_change": 4.0,
+  "rate_change_pct": 0.3,
   "smbs_base_rate": 1335.0,
   "smbs_rate_date": "2026-11-17",
   "smbs_rate_updated_at_kst": "2026-11-17 03:25:42 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
-    1336.0,
-    1349.0
+    1330.0,
+    1340.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-11-17 03:25:42 KST"
+  "rate_job_checked_at_kst": "2026-11-17 11:04:30 KST",
+  "smbs_rate_error": "RuntimeError: 서울외국환중개 페이지에서 USD 매매기준율을 찾지 못했습니다."
 }

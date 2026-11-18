@@ -1372,6 +1372,33 @@ body.scenario-mode .cash-chart:has(#cashChart:not([hidden])) .cash-chart-stage{m
 <\\/script>`;
 
 
+      const exchangeRequiredAmountDisplayPatch=`<script>
+(()=>{
+  const install=()=>{
+    if(typeof renderExchangeWorkspace!=='function'||typeof exchangePlannerData!=='function'||renderExchangeWorkspace.__requiredAmountDisplay)return typeof renderExchangeWorkspace==='function';
+    const original=renderExchangeWorkspace;
+    const patched=function(){
+      const value=original.apply(this,arguments);
+      const data=exchangePlannerData();
+      if(!data)return value;
+      const shortage=data.before?.firstKrwShort||null;
+      const required=Math.max(0,Number(data.recommended)||0);
+      const amount=$('exchangeSummaryAmount'),krw=$('exchangeSummaryKrw'),coverage=$('exchangeSummaryCoverage'),warning=$('exchangeSummaryWarning');
+      if(amount)amount.textContent=required>0?fmt(required,0)+' USD 매도':'환전 불필요';
+      if(krw)krw.textContent=shortage?fmtKrw(Math.abs(num(shortage.krwBalance))):'-';
+      if(coverage)coverage.textContent=shortage?'최초 부족 해소 기준':'계획기간 내 부족 없음';
+      if(warning)warning.textContent=shortage?'원본 자금운용 T열의 같은 날짜 최종 가용원화를 기준으로 계산한 필요금액입니다. 아래 직접 입력은 비교용이며 권장 필요금액을 바꾸지 않습니다.':'원본 계획기간 내 원화 부족이 없습니다.';
+      return value;
+    };
+    patched.__requiredAmountDisplay=true;
+    renderExchangeWorkspace=patched;
+    setTimeout(()=>{try{renderExchangeWorkspace()}catch(_){ }},0);
+    return true;
+  };
+  if(!install()){const timer=setInterval(()=>{if(install())clearInterval(timer)},50);setTimeout(()=>clearInterval(timer),5000)}
+})();
+<\\/script>`;
+
       const patches=[
         '<script src="./monthly-usd-patch.js?v=20261106-14"><\/script>',
         '<script src="./reconciliation-xls-patch.js?v=20260917-10"><\/script>',
@@ -1397,7 +1424,8 @@ body.scenario-mode .cash-chart:has(#cashChart:not([hidden])) .cash-chart-stage{m
         monthlyTerminalSnapshotPatch,
         authoritativeAvailableBalancePatch,
         firstShortageDayEndPatch,
-        directDepositAvailabilityPatch
+        directDepositAvailabilityPatch,
+        exchangeRequiredAmountDisplayPatch
       ].join('\n');
       html=html.includes('</body>')?html.replace('</body>',exchangeConditionLayout+patches+'\n</body>'):html+exchangeConditionLayout+patches;
       document.open();

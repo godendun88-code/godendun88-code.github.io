@@ -103,19 +103,25 @@ function deposits(workbook) {
   return result;
 }
 function depositHandlingInstructions(workbook) {
-  const sheetName=(workbook.SheetNames||[]).find(name=>clean(name)==='예금현황');
-  if(!sheetName)return [];
-  const rows=XLSX.utils.sheet_to_json(workbook.Sheets[sheetName],{header:1,raw:true,defval:null}), result=[], seen=new Set();
-  for (const row of rows) {
-    const values=row||[], maturityValue=values.find(value=>iso(value));
-    const maturity=iso(maturityValue);
-    const handling=values.map(value=>String(value??'').trim()).find(value=>/만기해지|해지|원화전환|재예치|계속묶임/.test(value))||'';
-    const principal=Math.max(0,...values.map(number).filter(value=>value!=null&&value>=10000000));
-    if(!maturity||!handling||!principal)continue;
-    const key=[maturity,principal].join('|');
-    if(seen.has(key))continue;
-    seen.add(key);
-    result.push({maturity,principal,maturityHandling:handling});
+  const result=[], seen=new Set();
+  const names=[...(workbook.SheetNames||[])].sort((a,b)=>(clean(a)==='예금현황'?-1:0)-(clean(b)==='예금현황'?-1:0));
+  for (const sheetName of names) {
+    const rows=XLSX.utils.sheet_to_json(workbook.Sheets[sheetName],{header:1,raw:true,defval:null});
+    for (const row of rows) {
+      const values=row||[];
+      const handling=values.map(value=>String(value??'').trim()).find(value=>/만기해지|원화전환|재예치|계속묶임|해지/.test(value))||'';
+      if(!handling)continue;
+      const maturities=[...new Set(values.map(iso).filter(value=>/^20\d{2}-\d{2}-\d{2}$/.test(value)))];
+      if(!maturities.length)continue;
+      const numeric=values.map(number).filter(value=>value!=null&&Math.abs(value)>=10000000);
+      const principal=numeric.length?Math.max(...numeric.map(value=>Math.abs(value))):null;
+      for (const maturity of maturities) {
+        const key=[maturity,principal??'',handling].join('|');
+        if(seen.has(key))continue;
+        seen.add(key);
+        result.push({maturity,principal,maturityHandling:handling});
+      }
+    }
   }
   return result;
 }
@@ -167,11 +173,11 @@ const storedDeposits=Array.isArray(prior.depositProducts)&&prior.depositProducts
 const rawDeposits=parsedDeposits.length?parsedDeposits:storedDeposits.length?storedDeposits:recoveryDeposits;
 const depositProducts=rawDeposits.map(item=>{
   const reference=recoveryDeposits.find(base=>base.bank===item.bank&&base.maturity===item.maturity&&Number(base.principal)===Number(item.principal));
-  const instruction=handlingInstructions.find(rule=>rule.maturity===item.maturity&&Number(rule.principal)===Number(item.principal));
+  const instruction=handlingInstructions.find(rule=>rule.maturity===item.maturity&&rule.principal!=null&&Number(rule.principal)===Number(item.principal))||handlingInstructions.find(rule=>rule.maturity===item.maturity);
   return {...item,maturityHandling:String(instruction?.maturityHandling||item.maturityHandling||reference?.maturityHandling||'').trim()};
 });
 const model=parse(workbook,item,depositProducts);
 model.sourceAudit.depositSource=parsedDeposits.length?'원본 예금현황':handlingInstructions.length?'원본 예금현황 만기처리':storedDeposits.length?'기존 저장 예금 5건':'복구 기준 예금 5건';
-model.sourceAudit.depositHandlingRows=handlingInstructions.length;
+model.sourceAudit.depositHandlingRows=handlingInstructions.length;model.sourceAudit.resolvedDepositHandlingRows=model.depositProducts.filter(item=>String(item.maturityHandling||'').trim()).length;
 await ref.set({model:{...(prior.model||{}),...model,sourceUrl:prior.sourceUrl||process.env.MS_SHAREPOINT_FILE_URL},depositProducts:model.depositProducts,updatedAt:FieldValue.serverTimestamp(),updatedBy:'GitHub Actions · SharePoint 자동동기화',cashPlanSync:{state:'ok',at:Date.now(),fileName:item.name||'',etag:item.eTag||'',tColumn:model.sourceAudit}}, {merge:true});
-console.log(JSON.stringify({file:item.name,points:model.points.length,deposits:model.depositProducts.length,depositSource:model.sourceAudit.depositSource,depositHandlingRows:handlingInstructions.length}));
+console.log(JSON.stringify({file:item.name,points:model.points.length,deposits:model.depositProducts.length,depositSource:model.sourceAudit.depositSource,depositHandlingRows:handlingInstructions.length,resolvedDepositHandlingRows:model.sourceAudit.resolvedDepositHandlingRows}));

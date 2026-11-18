@@ -1508,7 +1508,6 @@ body.scenario-mode .cash-chart:has(#cashChart:not([hidden])) .cash-chart-stage{m
         authoritativeAvailableBalancePatch,
         firstShortageDayEndPatch,
         directDepositAvailabilityPatch,
-        exchangeRequiredAmountDisplayPatch,
         exchangeDailyClosingRequirementPatch,
       ].join('\n');
       html=html.includes('</body>')?html.replace('</body>',exchangeConditionLayout+patches+'\n</body>'):html+exchangeConditionLayout+patches;

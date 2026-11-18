@@ -1450,6 +1450,52 @@ body.scenario-mode .cash-chart:has(#cashChart:not([hidden])) .cash-chart-stage{m
 })();
 <\\/script>`;
 
+      const exchangeOptionComparisonPatch=`<script>
+(()=>{
+  const install=()=>{
+    if(typeof renderExchangeWorkspace!=='function'||typeof exchangePlannerData!=='function'||renderExchangeWorkspace.__optionComparison)return typeof renderExchangeWorkspace==='function';
+    const original=renderExchangeWorkspace;
+    window.applyCustomExchangeUsdAmount=function(){
+      const input=$('exchangeCustomUsdAmount');
+      const amount=Number(String(input?.value||'').replace(/,/g,''));
+      if(!Number.isFinite(amount)||amount<0)return;
+      exchangePlannerState.usdAmount=Math.round(amount/100)*100;
+      renderExchangeWorkspace();
+    };
+    const patched=function(){
+      const value=original.apply(this,arguments);
+      const data=exchangePlannerData();
+      if(!data)return value;
+      const selected=Math.max(0,num(data.amount)),rate=num(data.rate),coverage=exchangeCoverageText(data.afterAnalysis,data.after);
+      const amount=$('exchangeSummaryAmount'),krw=$('exchangeSummaryKrw'),date=$('exchangeSummaryDate'),cover=$('exchangeSummaryCoverage'),warning=$('exchangeSummaryWarning');
+      if(amount)amount.textContent=selected>0?fmt(selected,0)+' USD 매도':'환전안 없음';
+      if(krw)krw.textContent=selected&&rate?fmtKrw(selected*rate):'-';
+      if(date)date.textContent=data.date?fmtDate(new Date(data.date+'T00:00:00')):'원화 부족 없음';
+      if(cover)cover.textContent=coverage;
+      if(warning)warning.textContent='최소 필요 환전액 또는 직접 입력한 금액을 적용해 이후 자금 버팀 시점을 비교합니다.';
+      const host=$('exchangeOptionCards');
+      if(!host)return value;
+      const presetValues=[num(data.recommended),50000,80000].filter(value=>value>0).filter((value,index,list)=>list.indexOf(value)===index);
+      const cards=presetValues.map((value,index)=>{
+        const trial=value&&data.date&&rate?simulateFxTransfer(data.baseline,{date:data.date,direction:'sell',usd:value,rate}):null;
+        const trialCoverage=trial?.valid?exchangeCoverageText(cashAnalysis(trial.model,rate),trial.model):'계산 불가';
+        const active=selected===value;
+        const title=index===0?'최소 필요 환전액':fmt(value,0)+' USD';
+        return '<div class="exchange-option'+(active?' active':'')+'" role="button" tabindex="0" onclick="chooseExchangeUsdAmount('+value+')"><strong>'+esc(title)+'</strong><span>'+(index===0?'원본 부족금액 기준<br>':'버틸 수 있는 시점<br>')+'<b>'+esc(trialCoverage)+'</b></span></div>';
+      }).join('');
+      const customValue=exchangePlannerState.usdAmount!=null&&!presetValues.includes(num(exchangePlannerState.usdAmount))?num(exchangePlannerState.usdAmount):num(data.recommended);
+      host.innerHTML=cards+'<div class="exchange-option'+(exchangePlannerState.usdAmount!=null&&!presetValues.includes(selected)?' active':'')+'"><strong>직접 입력</strong><span style="display:grid;grid-template-columns:minmax(0,1fr) auto;gap:7px;align-items:center"><input id="exchangeCustomUsdAmount" aria-label="직접 입력 USD" type="number" min="0" step="100" value="'+esc(String(customValue))+'"><button type="button" onclick="applyCustomExchangeUsdAmount()">적용</button></span><small>적용하면 권장 환전안에 반영됩니다.</small></div>';
+      return value;
+    };
+    patched.__optionComparison=true;
+    renderExchangeWorkspace=patched;
+    setTimeout(()=>{try{renderExchangeWorkspace()}catch(_){ }},0);
+    return true;
+  };
+  if(!install()){const timer=setInterval(()=>{if(install())clearInterval(timer)},50);setTimeout(()=>clearInterval(timer),5000)}
+})();
+<\\/script>`;
+
       const patches=[
         '<script src="./monthly-usd-patch.js?v=20261106-14"><\/script>',
         '<script src="./reconciliation-xls-patch.js?v=20260917-10"><\/script>',
@@ -1477,7 +1523,8 @@ body.scenario-mode .cash-chart:has(#cashChart:not([hidden])) .cash-chart-stage{m
         firstShortageDayEndPatch,
         directDepositAvailabilityPatch,
         exchangeRequiredAmountDisplayPatch,
-        exchangeDailyClosingRequirementPatch
+        exchangeDailyClosingRequirementPatch,
+        exchangeOptionComparisonPatch
       ].join('\n');
       html=html.includes('</body>')?html.replace('</body>',exchangeConditionLayout+patches+'\n</body>'):html+exchangeConditionLayout+patches;
       document.open();

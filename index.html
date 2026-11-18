@@ -1334,18 +1334,25 @@ body.scenario-mode .cash-chart:has(#cashChart:not([hidden])) .cash-chart-stage{m
       const points=Array.isArray(model?.points)?model.points:[];
       const items=currentDepositMaturityItems(model);
       if(!points.length||!items.length)return {...model,depositMaturityScenario:{items:items||[],releases:[]}};
-      const assumptions=items.map(item=>({...item,released:depositMaturityChoices?.[depositMaturityKey(item)]==='release',effectiveDate:String(item.maturity||'').slice(0,10)}));
+      const assumptions=items.map(item=>{
+        const raw=String(item?.maturityHandling||'').replace(/\\s/g,'');
+        const sourceReleased=/만기해지|해지|원화전환/.test(raw);
+        return {...item,sourceReleased,released:depositMaturityChoices?.[depositMaturityKey(item)]==='release',effectiveDate:String(item.maturity||'').slice(0,10)};
+      });
       const releases=assumptions.filter(item=>item.released).sort((a,b)=>String(a.effectiveDate).localeCompare(String(b.effectiveDate)));
       const scenarioPoints=points.map(point=>{
         const date=String(point?.date||'').slice(0,10);
+        if(!date)return {...point};
+        const sourceAvailable=nullableCashNumber(point?.availableKrwBalance);
         const book=nullableCashNumber(point?.planKrwBalance);
-        // Q열에는 정기예금 원금이 포함되어 있으므로, 선택한 처리에 따라 잠긴 원금만 차감한다.
-        if(book==null||!date)return {...point};
-        const lockedDepositBalance=assumptions.reduce((sum,item)=>sum+((date<item.effectiveDate||!item.released)?num(item.principal):0),0);
-        const available=book-lockedDepositBalance;
-        return {...point,bookKrwBalance:book,sourceAvailableKrwBalance:nullableCashNumber(point?.availableKrwBalance),lockedDepositBalance,maturityScenarioAdjustment:available-(nullableCashNumber(point?.availableKrwBalance)??available),krwBalance:available,balanceSource:'자금운용 Q열 · 대시보드 만기 처리'};
+        const sourceLocked=assumptions.reduce((sum,item)=>sum+((date<item.effectiveDate||!item.sourceReleased)?num(item.principal):0),0);
+        const selectedLocked=assumptions.reduce((sum,item)=>sum+((date<item.effectiveDate||!item.released)?num(item.principal):0),0);
+        // 원본 T열(가용 원화)을 우선 사용한다. 대시보드 선택으로 달라진 예금 원금만 보정한다.
+        const available=sourceAvailable!=null?sourceAvailable+sourceLocked-selectedLocked:book!=null?book-selectedLocked:null;
+        if(available==null)return {...point};
+        return {...point,bookKrwBalance:book,sourceAvailableKrwBalance:sourceAvailable,lockedDepositBalance:selectedLocked,maturityScenarioAdjustment:available-(sourceAvailable??available),krwBalance:available,balanceSource:sourceAvailable!=null?'자금운용 T열 가용 원화 · 대시보드 만기 처리':'자금운용 Q열 · 대시보드 만기 처리'};
       });
-      return {...model,points:scenarioPoints,depositMaturityScenario:{items:assumptions,releases,source:'자금운용 Q열에서 대시보드 만기 처리별 잠긴 원금 차감'}};
+      return {...model,points:scenarioPoints,depositMaturityScenario:{items:assumptions,releases,source:'자금운용 T열 가용 원화에서 대시보드 만기 처리 차이 반영'}};
     };
     patched.__directDepositAvailability=true;
     applyDepositMaturityScenario=patched;
@@ -1363,6 +1370,7 @@ body.scenario-mode .cash-chart:has(#cashChart:not([hidden])) .cash-chart-stage{m
   }
 })();
 <\\/script>`;
+
 
       const patches=[
         '<script src="./monthly-usd-patch.js?v=20261106-14"><\/script>',

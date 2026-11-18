@@ -1334,7 +1334,7 @@ body.scenario-mode .cash-chart:has(#cashChart:not([hidden])) .cash-chart-stage{m
       const points=Array.isArray(model?.points)?model.points:[];
       const items=currentDepositMaturityItems(model);
       if(!points.length||!items.length)return {...model,depositMaturityScenario:{items:items||[],releases:[]}};
-      const assumptions=items.map(item=>({...item,released:isDepositReleased(item),effectiveDate:String(item.maturity||'').slice(0,10)}));
+      const assumptions=items.map(item=>({...item,released:depositMaturityChoices?.[depositMaturityKey(item)]==='release',effectiveDate:String(item.maturity||'').slice(0,10)}));
       const releases=assumptions.filter(item=>item.released).sort((a,b)=>String(a.effectiveDate).localeCompare(String(b.effectiveDate)));
       const scenarioPoints=points.map(point=>{
         const date=String(point?.date||'').slice(0,10);

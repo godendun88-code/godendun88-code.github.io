@@ -1326,6 +1326,44 @@ body.scenario-mode .cash-chart:has(#cashChart:not([hidden])) .cash-chart-stage{m
 })();
 <\\/script>`;
 
+      const directDepositAvailabilityPatch=`<script>
+(()=>{
+  const install=()=>{
+    if(typeof applyDepositMaturityScenario!=='function'||typeof currentDepositMaturityItems!=='function'||applyDepositMaturityScenario.__directDepositAvailability)return typeof applyDepositMaturityScenario==='function';
+    const patched=function(model){
+      const points=Array.isArray(model?.points)?model.points:[];
+      const items=currentDepositMaturityItems(model);
+      if(!points.length||!items.length)return {...model,depositMaturityScenario:{items:items||[],releases:[]}};
+      const assumptions=items.map(item=>({...item,released:isDepositReleased(item),effectiveDate:String(item.maturity||'').slice(0,10)}));
+      const releases=assumptions.filter(item=>item.released).sort((a,b)=>String(a.effectiveDate).localeCompare(String(b.effectiveDate)));
+      const scenarioPoints=points.map(point=>{
+        const date=String(point?.date||'').slice(0,10);
+        const book=nullableCashNumber(point?.planKrwBalance);
+        // Q열에는 정기예금 원금이 포함되어 있으므로, 선택한 처리에 따라 잠긴 원금만 차감한다.
+        if(book==null||!date)return {...point};
+        const lockedDepositBalance=assumptions.reduce((sum,item)=>sum+((date<item.effectiveDate||!item.released)?num(item.principal):0),0);
+        const available=book-lockedDepositBalance;
+        return {...point,bookKrwBalance:book,sourceAvailableKrwBalance:nullableCashNumber(point?.availableKrwBalance),lockedDepositBalance,maturityScenarioAdjustment:available-(nullableCashNumber(point?.availableKrwBalance)??available),krwBalance:available,balanceSource:'자금운용 Q열 · 대시보드 만기 처리'};
+      });
+      return {...model,points:scenarioPoints,depositMaturityScenario:{items:assumptions,releases,source:'자금운용 Q열에서 대시보드 만기 처리별 잠긴 원금 차감'}};
+    };
+    patched.__directDepositAvailability=true;
+    applyDepositMaturityScenario=patched;
+    const refresh=()=>{
+      try{if(typeof updateCashDashboard==='function')updateCashDashboard()}catch(_){}
+      try{if(typeof renderExchangeWorkspace==='function')renderExchangeWorkspace()}catch(_){}
+      try{if(cashModel&&typeof renderCurrentOverview==='function')renderCurrentOverview(cashModel)}catch(_){}
+    };
+    setTimeout(refresh,0);
+    return true;
+  };
+  if(!install()){
+    const timer=setInterval(()=>{if(install()){clearInterval(timer)}},50);
+    setTimeout(()=>clearInterval(timer),5000);
+  }
+})();
+<\\/script>`;
+
       const patches=[
         '<script src="./monthly-usd-patch.js?v=20261106-14"><\/script>',
         '<script src="./reconciliation-xls-patch.js?v=20260917-10"><\/script>',
@@ -1350,7 +1388,8 @@ body.scenario-mode .cash-chart:has(#cashChart:not([hidden])) .cash-chart-stage{m
         monthlyDailyShortageStatusPatch,
         monthlyTerminalSnapshotPatch,
         authoritativeAvailableBalancePatch,
-        firstShortageDayEndPatch
+        firstShortageDayEndPatch,
+        directDepositAvailabilityPatch
       ].join('\n');
       html=html.includes('</body>')?html.replace('</body>',exchangeConditionLayout+patches+'\n</body>'):html+exchangeConditionLayout+patches;
       document.open();

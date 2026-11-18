@@ -1399,6 +1399,53 @@ body.scenario-mode .cash-chart:has(#cashChart:not([hidden])) .cash-chart-stage{m
 })();
 <\\/script>`;
 
+      const exchangeDailyClosingRequirementPatch=`<script>
+(()=>{
+  const install=()=>{
+    if(typeof exchangePlannerData!=='function'||typeof renderExchangeWorkspace!=='function'||exchangePlannerData.__dailyClosingRequirement)return typeof exchangePlannerData==='function';
+    const originalData=exchangePlannerData;
+    exchangePlannerData=function(){
+      const data=originalData.apply(this,arguments);
+      const points=Array.isArray(data?.baseline?.points)?data.baseline.points:[];
+      const today=fxTodayKey();
+      const byDate=new Map();
+      for(const point of points){
+        const date=String(point?.date||'').slice(0,10);
+        if(!date||date<today)continue;
+        const prior=byDate.get(date);
+        if(!prior||num(point?.row)>=num(prior?.row))byDate.set(date,point);
+      }
+      const closing=[...byDate.values()].sort((a,b)=>String(a.date).localeCompare(String(b.date)));
+      const shortage=closing.find(point=>num(point?.krwBalance)<0);
+      if(!shortage)return data;
+      const shortageKrw=Math.abs(num(shortage.krwBalance));
+      const rate=num(data.rate);
+      const mandatoryUsd=rate>0?shortageKrw/rate:0;
+      const before={...data.before,firstKrwShort:shortage,shortageKrw,mandatoryUsd};
+      return {...data,before,recommended:Math.ceil(mandatoryUsd/100)*100,date:String(shortage.date).slice(0,10),dailyClosingShortage:shortage};
+    };
+    exchangePlannerData.__dailyClosingRequirement=true;
+    const originalRender=renderExchangeWorkspace;
+    renderExchangeWorkspace=function(){
+      const value=originalRender.apply(this,arguments);
+      const data=exchangePlannerData(),shortage=data?.dailyClosingShortage||data?.before?.firstKrwShort;
+      if(!data||!shortage)return value;
+      const required=Math.max(0,num(data.recommended));
+      const amount=$('exchangeSummaryAmount'),krw=$('exchangeSummaryKrw'),date=$('exchangeSummaryDate'),coverage=$('exchangeSummaryCoverage'),warning=$('exchangeSummaryWarning');
+      if(amount)amount.textContent=required>0?fmt(required,0)+' USD 매도':'환전 불필요';
+      if(krw)krw.textContent=fmtKrw(Math.abs(num(shortage.krwBalance)));
+      if(date)date.textContent=fmtDate(new Date(String(shortage.date).slice(0,10)+'T00:00:00'));
+      if(coverage)coverage.textContent='최초 부족 해소 기준';
+      if(warning)warning.textContent='원본 자금운용 T열에서 해당 날짜의 마지막 행을 기준으로 계산한 필요금액입니다. 아래 직접 입력은 비교용입니다.';
+      return value;
+    };
+    setTimeout(()=>{try{renderExchangeWorkspace()}catch(_){ }},0);
+    return true;
+  };
+  if(!install()){const timer=setInterval(()=>{if(install())clearInterval(timer)},50);setTimeout(()=>clearInterval(timer),5000)}
+})();
+<\\/script>`;
+
       const patches=[
         '<script src="./monthly-usd-patch.js?v=20261106-14"><\/script>',
         '<script src="./reconciliation-xls-patch.js?v=20260917-10"><\/script>',
@@ -1425,7 +1472,8 @@ body.scenario-mode .cash-chart:has(#cashChart:not([hidden])) .cash-chart-stage{m
         authoritativeAvailableBalancePatch,
         firstShortageDayEndPatch,
         directDepositAvailabilityPatch,
-        exchangeRequiredAmountDisplayPatch
+        exchangeRequiredAmountDisplayPatch,
+        exchangeDailyClosingRequirementPatch
       ].join('\n');
       html=html.includes('</body>')?html.replace('</body>',exchangeConditionLayout+patches+'\n</body>'):html+exchangeConditionLayout+patches;
       document.open();

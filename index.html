@@ -1295,6 +1295,37 @@ body.scenario-mode .cash-chart:has(#cashChart:not([hidden])) .cash-chart-stage{m
   }
 })();
 <\/script>`;
+      const firstShortageDayEndPatch=`<script>
+(()=>{
+  const install=()=>{
+    if(typeof cashAnalysis!=='function'||cashAnalysis.__firstShortageDayEnd)return typeof cashAnalysis==='function';
+    const original=cashAnalysis;
+    const patched=function(model,referenceRate){
+      const result=original.apply(this,arguments);
+      const target=Array.isArray(result?.future)&&result.future.length?result.future:(Array.isArray(result?.points)?result.points:[]);
+      const first=target.find(point=>num(point?.krwBalance)<0);
+      if(!first)return result;
+      const sameDay=target.filter(point=>String(point?.date||'').slice(0,10)===String(first.date||'').slice(0,10)).sort((a,b)=>num(a?.row)-num(b?.row));
+      const closing=sameDay.at(-1);
+      // A same-day final positive balance is not a closing shortage; retain the first negative row in that case.
+      const shortage=closing&&num(closing.krwBalance)<0?closing:first;
+      if(shortage===first)return result;
+      const shortageKrw=Math.abs(num(shortage.krwBalance));
+      const dateObj=shortage.dateObj||new Date(String(shortage.date||'').slice(0,10)+'T00:00:00');
+      const today=new Date();today.setHours(0,0,0,0);
+      return {...result,firstKrwShort:shortage,shortageKrw,mandatoryUsd:referenceRate>0?shortageKrw/referenceRate:0,daysToShortage:Number.isFinite(dateObj.getTime())?Math.ceil((dateObj-today)/86400000):result.daysToShortage};
+    };
+    patched.__firstShortageDayEnd=true;
+    cashAnalysis=patched;
+    return true;
+  };
+  if(!install()){
+    const timer=setInterval(()=>{if(install())clearInterval(timer)},50);
+    setTimeout(()=>clearInterval(timer),5000);
+  }
+})();
+<\\/script>`;
+
       const patches=[
         '<script src="./monthly-usd-patch.js?v=20261106-14"><\/script>',
         '<script src="./reconciliation-xls-patch.js?v=20260917-10"><\/script>',
@@ -1318,7 +1349,8 @@ body.scenario-mode .cash-chart:has(#cashChart:not([hidden])) .cash-chart-stage{m
         brokerRateSingleSourcePatch,
         monthlyDailyShortageStatusPatch,
         monthlyTerminalSnapshotPatch,
-        authoritativeAvailableBalancePatch
+        authoritativeAvailableBalancePatch,
+        firstShortageDayEndPatch
       ].join('\n');
       html=html.includes('</body>')?html.replace('</body>',exchangeConditionLayout+patches+'\n</body>'):html+exchangeConditionLayout+patches;
       document.open();

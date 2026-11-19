@@ -1,17 +1,23 @@
 {
-  "updated_at_kst": "2026-11-19 18:34 KST",
-  "current_rate": 1330.4,
-  "previous_close": 1330.34,
-  "rate_updated_at_kst": "2026-11-19 18:34:42 KST",
+  "updated_at_kst": "2026-11-20 03:39 KST",
+  "current_rate": 1329.3,
+  "previous_close": 1332.4,
+  "rate_updated_at_kst": "2026-11-20 03:39:17 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
-    "달러 관련 최신 기사(\"COMMENTARY: The 'AI dollar' has arrived. Its direction hasn't\")가 확인돼 달러인덱스 방향성이 원/달러 환율의 핵심 변수로 작용하고 있습니다.",
-    "유가·지정학 관련 최신 기사(\"Oil prices steady as Middle East shipping attacks counter supply surplus outlook\")가 확인돼 원화 변동성 확대 요인으로 작용하고 있습니다.",
-    "외환시장 관련 최신 기사(\"South African rand slides to year low ahead of rate decision\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다."
+    "연준·금리 관련 최신 기사(\"Gold recoups from 14-month low, tighter Fed outlook caps gains\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
+    "미국 고용 관련 최신 기사(\"US weekly jobless claims edge up, but labor market remains resilient\")가 확인돼 고용지표가 연준 금리 기대와 달러 방향성을 좌우하는 변수로 부각되고 있습니다.",
+    "미국 물가 관련 최신 기사(\"Oil prices rise as Middle East shipping attacks counter supply surplus outlook\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
+    {
+      "title": "US weekly jobless claims edge up, but labor market remains resilient",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUjdpV0lCY3lUWlhjZzVkdTNNa1hrazREdFRCMjFSRlpzYmpXNlpYeXdOeXJyZk44NGQwT0FuN1cxdWRyUWtLenNCTGNDSVM0NERhNW5PemtfbTI1UkFtcDdvUklKdjZZM2c4NTZlUVBlYVF5SVBubVFnbkhueHNTWDhLd1c4MVJLM2g1ekQ3bHo?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-11-20 02:06 KST"
+    },
     {
       "title": "COMMENTARY: The 'AI dollar' has arrived. Its direction hasn't",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxObGh2MlA3VXo3X2xWaUNBbmxlRUVyR1RCZWFlb1Z2bFhmTEpJLWhCSXU1NHNtcElvZ0I2dHFobFQ2d3doclVEUHVvSFNrQUM2YU1pTURxSHBWWjN0azNBOGZ0VWgxRndUZkl0aDhYQ19lcVBLQkxWYl9RSWpLSFhXSE5LY2tZcGNiYm01OXBRWDVDWjF3NlVSWlZEbE56QW45Tk5aenhvS3A5LWZPcVJr?oc=5",
@@ -19,31 +25,37 @@
       "seen": "2026-11-19 16:00 KST"
     },
     {
-      "title": "South African rand slides to year low ahead of rate decision",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNQ01YTHNGdTlqMURnenF2RHpRZlUzakl5ZzdILVdKU1FZQ0dSNHZ6ekxONmFyaF9YTWpIdE9aVU1DMHdYLXlNeDl0YmxnWkdMcGV0WC1BRDFVZ0xNOU1hc3hCU05rWW9aaFYyUzhhUGM2YzlibnFqTnlIOWt5cjJhZ2oxd1lRLXNlMEtMQXFSa1pQNTlCSk5hWEd1Ym0xd2VsYnJCOERn?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-11-19 15:11 KST"
+      "title": "Gold recoups from 14-month low, tighter Fed outlook caps gains",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBzSmhHOXhFdnBjdTJSSHQ5eENObngzd3UwdF9SOFNkV1NlSlRONkEzSzJXaGZZNTlxV3VlXzVNV2E5MV9hb3RKREJfS0VCM213X1VZTUpTRGNFanc2dHBHLVZzRk9qVkFIVlZwcVBtOUhaMHNmUkRBNGF30gF_QVVfeXFMTVdQV0Z4T1c2TlFoWi00UVZPbFJxdTVlVUwtcHRiX1NvWDQ3X09FcnhzbmRhdnBTRnVYUURCcDZaWEZJYWpSdzVfVGRoQ2NrNWFSdjNVMjREYUtGNGU5U1p5dWhONUVJVTJTYWhqSURFbGVSSGhTNVdaOUctczVUcw?oc=5",
+      "domain": "CNBC",
+      "seen": "2026-11-19 12:28 KST"
     },
     {
-      "title": "Oil prices steady as Middle East shipping attacks counter supply surplus outlook",
+      "title": "Indian rupee's inflow-driven upward momentum faces hawkish Fed headwinds",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNOW1NYXJSeFRfZzFGeGlGZHh3Y3AzeWpITGNfWEdRdUYycXpreU00WlJmalVPamFKWk1EV3B2RnhhVV9yQUZCV3hNSTBMYzFyWkpmVThmZzhLS0FiblNNWjU0clNBU2Q5SU1zVTA4bE8zZl83emw0U0o1Z3MzZzlacWVjbUVUS3pKUVNRS05PZWRBdDF1NkZUTDJBeC1NMnhRMEtoWDdTZ3FNdGdybTAwbWp4RzFrRVQ3bDJV?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-11-19 11:59 KST"
+    },
+    {
+      "title": "Oil prices rise as Middle East shipping attacks counter supply surplus outlook",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOMnV0bXBXX1ZzNHpkcHFmanlPQ2FmczM3Z2xCcXRqRjYwTVB6SlFhZ29vbGcyM3V5a3lOMHZ3OXprMDM0ang4RVEwQmhFMTZ2QU1GT2lQN0ZPUXQyZWJ4MHR1S0JQTmE5Y0Z5dkZlemdFU0V6TWFId0pZZlFtbHVzaU1EeVl1S2RiSFdrcE95d1ZqQW9NRWlZUFNHWU9QVHNXRlZiTmEtckdWZEpScFREcVpPQ0x3MDNQeFhiZHJHMUlVQXFRNkE?oc=5",
       "domain": "Reuters",
       "seen": "2026-11-19 11:47 KST"
     },
     {
-      "title": "Dollar eases after seven-session rally, rates and equities in focus",
+      "title": "Dollar takes a breather as investors eye Anthropic IPO",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQQ0NIbEViM181TUJsZHFhV2J5d0lLbkVXVlBRYVJlb3YtMC1wVTlyc1NBV0RMQ0dBTXZlcHFvdnkzQm1SUWo3NFl3eGZ0SzgwTXhxTVQ3Y2VYSHg5LXZtRG9vUUp3eVlEQktJMk9JSllaQ1hRRjRuWmx0WGNJSFBLTHRpUS1tTVFoakw2dHlVRExKTU1jWE9McGswRWc5V05CYU4zR3JDdm9Jam4wTDlyNTlXRno0cXc4NVE?oc=5",
       "domain": "Reuters",
       "seen": "2026-11-19 11:01 KST"
     }
   ],
-  "rate_source_time": "2026-11-19 18:34:42 KST",
+  "rate_source_time": "2026-11-20 03:39:17 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 0.06,
-  "rate_change_pct": 0.0,
-  "smbs_base_rate": 1331.1,
-  "smbs_rate_date": "2026-11-19",
-  "smbs_rate_updated_at_kst": "2026-11-19 10:28:03 KST",
+  "rate_change": -3.1,
+  "rate_change_pct": -0.23,
+  "smbs_base_rate": 1330.8,
+  "smbs_rate_date": "2026-11-20",
+  "smbs_rate_updated_at_kst": "2026-11-20 03:39:05 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -51,6 +63,5 @@
     1340.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-11-19 18:34:22 KST",
-  "smbs_rate_error": "RuntimeError: 서울외국환중개 페이지에서 USD 매매기준율을 찾지 못했습니다."
+  "rate_job_checked_at_kst": "2026-11-20 03:39:05 KST"
 }

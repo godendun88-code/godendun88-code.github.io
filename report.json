@@ -1,17 +1,29 @@
 {
-  "updated_at_kst": "2026-11-20 10:14 KST",
-  "current_rate": 1337.2,
+  "updated_at_kst": "2026-11-20 18:09 KST",
+  "current_rate": 1336.2,
   "previous_close": 1329.3,
-  "rate_updated_at_kst": "2026-11-20 10:14:07 KST",
+  "rate_updated_at_kst": "2026-11-20 18:09:40 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
-    "연준·금리 관련 최신 기사(\"Strong dollar, tighter Fed policy bets leave gold to languish at 14-month low\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
     "미국 고용 관련 최신 기사(\"US weekly jobless claims edge up, but labor market remains resilient\")가 확인돼 고용지표가 연준 금리 기대와 달러 방향성을 좌우하는 변수로 부각되고 있습니다.",
-    "달러 관련 최신 기사(\"COMMENTARY: The 'AI dollar' has arrived. Its direction hasn't\")가 확인돼 달러인덱스 방향성이 원/달러 환율의 핵심 변수로 작용하고 있습니다."
+    "달러 관련 최신 기사(\"Dollar near 19-month high, set for 4th weekly gain as AI jitters spur haven bid\")가 확인돼 달러인덱스 방향성이 원/달러 환율의 핵심 변수로 작용하고 있습니다.",
+    "원화·국내수급 관련 최신 기사(\"Record profits but record outflows: 'Sell Korea' trade stalks Seoul market\")가 확인돼 외국인 자금 흐름과 원화 수급이 단기 환율 변수로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
+    {
+      "title": "Oil prices gain as Houthi attacks on Riyadh raise supply concerns",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPb3pQREZDSHE2RmNHdDdGdExDUXhYeWljc2VualVoQ09oQV90WnFQQlZkYW1rWnl5ODJ6N2haaVBDVUY4VmFvRmtLSlZKbU5kR1lHNklrUUR3X3JGc181OHZCUHpXalZFUllBZXVEczJPUUdZZUt1MmpsTEN0MkJGSDNCVHhoa25pZFBSb1lldS1US0VJNVNBWWN1U2VwQmd0WmlQR1RKWmgyS2lyUDVfNHdWeWhzaFhmZ1E?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-11-20 11:00 KST"
+    },
+    {
+      "title": "Dollar near 19-month high, set for 4th weekly gain as AI jitters spur haven bid",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNSWwtcmZqemtkQmd4OWJQUHN1OXZLZTgxM1FtVk5JTlAtNndPYzRndHkxbEZ2MEdNZGtRdWUwMUxlblhtLThfQ0NoRHYtZ1lzd2VkSHc4N0U3UlFjUGFubjBkOFc4bDhpR3lELUoxalJBN1lkUUtUYk1NSk9sanNaeUZrZVVXTWlDV2Zja1FFQ3lPaXNUN2FXb3BST0dmZHd3?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-11-20 10:47 KST"
+    },
     {
       "title": "Record profits but record outflows: 'Sell Korea' trade stalks Seoul market",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPbDVJVUxnTV8wWW53ZDBmMC1GX3V1Z2k1N24zdTk0bkdYR2lBYTB2c3J4QVkzUFRiTHJSTkoycmM0ZG5jSWxnSkxVOWJNZzFFX3kydHoyWU9oSURMel9Yck5VMlk3TTVaNkhBX09wU1B1TzVuYlhnYnZhMmhnMEpIMmZLeXVXT09IWEs5cXJLOWtNcklfZkU1NU85WE1NSEE1ZUhzRDBKY2dzaW5pWnQzdTJra3UybUdXVWpDeWRYYw?oc=5",
@@ -25,37 +37,19 @@
       "seen": "2026-11-20 02:06 KST"
     },
     {
-      "title": "COMMENTARY: The 'AI dollar' has arrived. Its direction hasn't",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxObGh2MlA3VXo3X2xWaUNBbmxlRUVyR1RCZWFlb1Z2bFhmTEpJLWhCSXU1NHNtcElvZ0I2dHFobFQ2d3doclVEUHVvSFNrQUM2YU1pTURxSHBWWjN0azNBOGZ0VWgxRndUZkl0aDhYQ19lcVBLQkxWYl9RSWpLSFhXSE5LY2tZcGNiYm01OXBRWDVDWjF3NlVSWlZEbE56QW45Tk5aenhvS3A5LWZPcVJr?oc=5",
+      "title": "US shale companies send oil windfall to shareholders as prices jump",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNXRMVWgzWGR1UWVVU3FGaWVSaFRrMTdYdWs3dmpyWGNNcnRrOXViZ2lVQ0RPUmc0cjNoWnNzRndJaGV5dXR5X3FpZGkyeHp4MFV6TzRuQWdCU1RTOXdDcmlTVUZxQU1BbVRiMk1UcEVvb0dkNXpCcGFpYlpxeVF2WUw4ZnhLOVVJVmZRYm0zVkUyVGJlZnNUbzl0UWRKSFVJUkZGYlVmQVNtRFVmT3V2c3pDMHdzLUVr?oc=5",
       "domain": "Reuters",
-      "seen": "2026-11-19 16:00 KST"
-    },
-    {
-      "title": "Strong dollar, tighter Fed policy bets leave gold to languish at 14-month low",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBzSmhHOXhFdnBjdTJSSHQ5eENObngzd3UwdF9SOFNkV1NlSlRONkEzSzJXaGZZNTlxV3VlXzVNV2E5MV9hb3RKREJfS0VCM213X1VZTUpTRGNFanc2dHBHLVZzRk9qVkFIVlZwcVBtOUhaMHNmUkRBNGF30gF_QVVfeXFMTVdQV0Z4T1c2TlFoWi00UVZPbFJxdTVlVUwtcHRiX1NvWDQ3X09FcnhzbmRhdnBTRnVYUURCcDZaWEZJYWpSdzVfVGRoQ2NrNWFSdjNVMjREYUtGNGU5U1p5dWhONUVJVTJTYWhqSURFbGVSSGhTNVdaOUctczVUcw?oc=5",
-      "domain": "CNBC",
-      "seen": "2026-11-19 12:28 KST"
-    },
-    {
-      "title": "Oil settles flat as Hormuz disruptions offset global surplus fears",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOMnV0bXBXX1ZzNHpkcHFmanlPQ2FmczM3Z2xCcXRqRjYwTVB6SlFhZ29vbGcyM3V5a3lOMHZ3OXprMDM0ang4RVEwQmhFMTZ2QU1GT2lQN0ZPUXQyZWJ4MHR1S0JQTmE5Y0Z5dkZlemdFU0V6TWFId0pZZlFtbHVzaU1EeVl1S2RiSFdrcE95d1ZqQW9NRWlZUFNHWU9QVHNXRlZiTmEtckdWZEpScFREcVpPQ0x3MDNQeFhiZHJHMUlVQXFRNkE?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-11-19 11:47 KST"
-    },
-    {
-      "title": "Dollar extends rally as risk appetite fades",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQQ0NIbEViM181TUJsZHFhV2J5d0lLbkVXVlBRYVJlb3YtMC1wVTlyc1NBV0RMQ0dBTXZlcHFvdnkzQm1SUWo3NFl3eGZ0SzgwTXhxTVQ3Y2VYSHg5LXZtRG9vUUp3eVlEQktJMk9JSllaQ1hRRjRuWmx0WGNJSFBLTHRpUS1tTVFoakw2dHlVRExKTU1jWE9McGswRWc5V05CYU4zR3JDdm9Jam4wTDlyNTlXRno0cXc4NVE?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-11-19 11:01 KST"
+      "seen": "2026-11-19 22:31 KST"
     }
   ],
-  "rate_source_time": "2026-11-20 10:14:07 KST",
+  "rate_source_time": "2026-11-20 18:09:40 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 7.9,
-  "rate_change_pct": 0.59,
+  "rate_change": 6.9,
+  "rate_change_pct": 0.52,
   "smbs_base_rate": 1330.8,
   "smbs_rate_date": "2026-11-20",
-  "smbs_rate_updated_at_kst": "2026-11-20 10:13:50 KST",
+  "smbs_rate_updated_at_kst": "2026-11-20 18:09:25 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -63,5 +57,5 @@
     1342.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-11-20 10:13:50 KST"
+  "rate_job_checked_at_kst": "2026-11-20 18:09:25 KST"
 }

@@ -1,17 +1,23 @@
 {
-  "updated_at_kst": "2026-11-20 03:39 KST",
-  "current_rate": 1329.3,
-  "previous_close": 1332.4,
-  "rate_updated_at_kst": "2026-11-20 03:39:17 KST",
+  "updated_at_kst": "2026-11-20 10:14 KST",
+  "current_rate": 1337.2,
+  "previous_close": 1329.3,
+  "rate_updated_at_kst": "2026-11-20 10:14:07 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
-    "연준·금리 관련 최신 기사(\"Gold recoups from 14-month low, tighter Fed outlook caps gains\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
+    "연준·금리 관련 최신 기사(\"Strong dollar, tighter Fed policy bets leave gold to languish at 14-month low\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
     "미국 고용 관련 최신 기사(\"US weekly jobless claims edge up, but labor market remains resilient\")가 확인돼 고용지표가 연준 금리 기대와 달러 방향성을 좌우하는 변수로 부각되고 있습니다.",
-    "미국 물가 관련 최신 기사(\"Oil prices rise as Middle East shipping attacks counter supply surplus outlook\")가 확인돼 CPI·PCE 흐름이 연준 금리 경로의 핵심 변수로 작용하고 있습니다."
+    "달러 관련 최신 기사(\"COMMENTARY: The 'AI dollar' has arrived. Its direction hasn't\")가 확인돼 달러인덱스 방향성이 원/달러 환율의 핵심 변수로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
+    {
+      "title": "Record profits but record outflows: 'Sell Korea' trade stalks Seoul market",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPbDVJVUxnTV8wWW53ZDBmMC1GX3V1Z2k1N24zdTk0bkdYR2lBYTB2c3J4QVkzUFRiTHJSTkoycmM0ZG5jSWxnSkxVOWJNZzFFX3kydHoyWU9oSURMel9Yck5VMlk3TTVaNkhBX09wU1B1TzVuYlhnYnZhMmhnMEpIMmZLeXVXT09IWEs5cXJLOWtNcklfZkU1NU85WE1NSEE1ZUhzRDBKY2dzaW5pWnQzdTJra3UybUdXVWpDeWRYYw?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-11-20 08:37 KST"
+    },
     {
       "title": "US weekly jobless claims edge up, but labor market remains resilient",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUjdpV0lCY3lUWlhjZzVkdTNNa1hrazREdFRCMjFSRlpzYmpXNlpYeXdOeXJyZk44NGQwT0FuN1cxdWRyUWtLenNCTGNDSVM0NERhNW5PemtfbTI1UkFtcDdvUklKdjZZM2c4NTZlUVBlYVF5SVBubVFnbkhueHNTWDhLd1c4MVJLM2g1ekQ3bHo?oc=5",
@@ -25,43 +31,37 @@
       "seen": "2026-11-19 16:00 KST"
     },
     {
-      "title": "Gold recoups from 14-month low, tighter Fed outlook caps gains",
+      "title": "Strong dollar, tighter Fed policy bets leave gold to languish at 14-month low",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBzSmhHOXhFdnBjdTJSSHQ5eENObngzd3UwdF9SOFNkV1NlSlRONkEzSzJXaGZZNTlxV3VlXzVNV2E5MV9hb3RKREJfS0VCM213X1VZTUpTRGNFanc2dHBHLVZzRk9qVkFIVlZwcVBtOUhaMHNmUkRBNGF30gF_QVVfeXFMTVdQV0Z4T1c2TlFoWi00UVZPbFJxdTVlVUwtcHRiX1NvWDQ3X09FcnhzbmRhdnBTRnVYUURCcDZaWEZJYWpSdzVfVGRoQ2NrNWFSdjNVMjREYUtGNGU5U1p5dWhONUVJVTJTYWhqSURFbGVSSGhTNVdaOUctczVUcw?oc=5",
       "domain": "CNBC",
       "seen": "2026-11-19 12:28 KST"
     },
     {
-      "title": "Indian rupee's inflow-driven upward momentum faces hawkish Fed headwinds",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNOW1NYXJSeFRfZzFGeGlGZHh3Y3AzeWpITGNfWEdRdUYycXpreU00WlJmalVPamFKWk1EV3B2RnhhVV9yQUZCV3hNSTBMYzFyWkpmVThmZzhLS0FiblNNWjU0clNBU2Q5SU1zVTA4bE8zZl83emw0U0o1Z3MzZzlacWVjbUVUS3pKUVNRS05PZWRBdDF1NkZUTDJBeC1NMnhRMEtoWDdTZ3FNdGdybTAwbWp4RzFrRVQ3bDJV?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-11-19 11:59 KST"
-    },
-    {
-      "title": "Oil prices rise as Middle East shipping attacks counter supply surplus outlook",
+      "title": "Oil settles flat as Hormuz disruptions offset global surplus fears",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOMnV0bXBXX1ZzNHpkcHFmanlPQ2FmczM3Z2xCcXRqRjYwTVB6SlFhZ29vbGcyM3V5a3lOMHZ3OXprMDM0ang4RVEwQmhFMTZ2QU1GT2lQN0ZPUXQyZWJ4MHR1S0JQTmE5Y0Z5dkZlemdFU0V6TWFId0pZZlFtbHVzaU1EeVl1S2RiSFdrcE95d1ZqQW9NRWlZUFNHWU9QVHNXRlZiTmEtckdWZEpScFREcVpPQ0x3MDNQeFhiZHJHMUlVQXFRNkE?oc=5",
       "domain": "Reuters",
       "seen": "2026-11-19 11:47 KST"
     },
     {
-      "title": "Dollar takes a breather as investors eye Anthropic IPO",
+      "title": "Dollar extends rally as risk appetite fades",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQQ0NIbEViM181TUJsZHFhV2J5d0lLbkVXVlBRYVJlb3YtMC1wVTlyc1NBV0RMQ0dBTXZlcHFvdnkzQm1SUWo3NFl3eGZ0SzgwTXhxTVQ3Y2VYSHg5LXZtRG9vUUp3eVlEQktJMk9JSllaQ1hRRjRuWmx0WGNJSFBLTHRpUS1tTVFoakw2dHlVRExKTU1jWE9McGswRWc5V05CYU4zR3JDdm9Jam4wTDlyNTlXRno0cXc4NVE?oc=5",
       "domain": "Reuters",
       "seen": "2026-11-19 11:01 KST"
     }
   ],
-  "rate_source_time": "2026-11-20 03:39:17 KST",
+  "rate_source_time": "2026-11-20 10:14:07 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": -3.1,
-  "rate_change_pct": -0.23,
+  "rate_change": 7.9,
+  "rate_change_pct": 0.59,
   "smbs_base_rate": 1330.8,
   "smbs_rate_date": "2026-11-20",
-  "smbs_rate_updated_at_kst": "2026-11-20 03:39:05 KST",
+  "smbs_rate_updated_at_kst": "2026-11-20 10:13:50 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
-    1328.0,
-    1340.0
+    1331.0,
+    1342.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-11-20 03:39:05 KST"
+  "rate_job_checked_at_kst": "2026-11-20 10:13:50 KST"
 }

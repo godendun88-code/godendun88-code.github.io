@@ -1,16 +1,16 @@
 {
-  "updated_at_kst": "2026-11-21 03:00 KST",
+  "updated_at_kst": "2026-11-21 08:58 KST",
   "current_rate": 1338.3,
   "previous_close": 1329.3,
-  "rate_updated_at_kst": "2026-11-21 03:00:03 KST",
+  "rate_updated_at_kst": "2026-11-21 08:58:00 KST",
   "rate_source": "KB STAR FX Market Watch",
-  "market_bias": "혼조",
+  "market_bias": "하락 우세",
   "drivers": [
-    "연준의 추가 금리 인상 또는 매파적 기조 우려가 부각돼 달러 강세 압력이 높아지는 요인으로 작용하고 있습니다.",
+    "연준·금리 관련 최신 기사(\"Dollar weaker as Fed-fueled rally stalls; lower US yields help yen\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
     "미 국채금리 하락 관련 보도가 확인돼 달러의 금리 매력이 낮아지면서 원/달러 환율 하락 압력으로 작용하고 있습니다.",
-    "원화·국내수급 관련 최신 기사(\"Record profits but record outflows: 'Sell Korea' trade stalks Seoul market\")가 확인돼 외국인 자금 흐름과 원화 수급이 단기 환율 변수로 작용하고 있습니다."
+    "국제유가 하락이 한국의 수입물가 부담을 낮추는 방향으로 작용해 원화에는 상대적으로 우호적인 요인입니다."
   ],
-  "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
+  "outlook": "달러 약세·금리 하락 계열의 재료가 상대적으로 우세해 원/달러는 단기 하락 압력이 이어질 가능성이 있으나, 유가와 지정학적 리스크는 하단을 제한할 수 있습니다.",
   "articles": [
     {
       "title": "TSX futures slip as lower oil, gold prices weigh; retail sales data eyed",
@@ -19,13 +19,13 @@
       "seen": "2026-11-20 20:18 KST"
     },
     {
-      "title": "Gold slides toward worst week in eight months on hawkish Fed outlook",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQSlpvRGxSc1NfT0l5cnd2STJ2d01EeUk4aDBIem9Jc1JXRm0yUEoxWWR6NG50b0N1MU5walEtWlk4eU9yeE9MeXIyNmF5YjlSRVhJaHR6STVNQXJhTlV1QzRoRXd3dXo1UlVaT0pYeTZCYjdIa1lMQkV5WktIQlpENW50QdIBiAFBVV95cUxNelZwb3pwWXdnZjNzVzR1UldsYTl0TUlSMHdTMjRrS2ZlX3BvM19HSVkzYlZmLUh4TFlhV2dEVXcyTmNNWV9rUXZIbmI4UnZ1cmUzX0NBTkNiMnliR3ZOU2RKbVFQSDJHbEJNbkdyTVN1bnN0Uy1WMHRrdnRxNHRKS1lPcHZ5Qm9I?oc=5",
-      "domain": "CNBC",
-      "seen": "2026-11-20 14:05 KST"
+      "title": "Gold's slide deepens as AI rout, rate-hike bets hurt bullion",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMFFjdnZJUDZiUXhKNUdPUWMtQ2tkd0ZKdmN4TTZ3bnQyb09SQ3cxSS1hNVYtcmF5WGpNSlJzS1dWYkdBUzBJZ2s5TnhLQ29mNWNIUy10MGJkN294UndsTmRmOF9GelkyVkdWRl8wcVJQNnRaRGp0a3NIMWNHT1dJSHhZRk1BT3FRV2pFcHVGa3ozS1ZCdjJXenJvSXlBOEdxLUp2MVVVTVBDY0NGX3ZRRUN3?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-11-20 12:24 KST"
     },
     {
-      "title": "Dollar falls as Fed-fueled rally stalls; lower US yields help yen",
+      "title": "Dollar weaker as Fed-fueled rally stalls; lower US yields help yen",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNSWwtcmZqemtkQmd4OWJQUHN1OXZLZTgxM1FtVk5JTlAtNndPYzRndHkxbEZ2MEdNZGtRdWUwMUxlblhtLThfQ0NoRHYtZ1lzd2VkSHc4N0U3UlFjUGFubjBkOFc4bDhpR3lELUoxalJBN1lkUUtUYk1NSk9sanNaeUZrZVVXTWlDV2Zja1FFQ3lPaXNUN2FXb3BST0dmZHd3?oc=5",
       "domain": "Reuters",
       "seen": "2026-11-20 10:47 KST"
@@ -35,21 +35,15 @@
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxORTBuejlwS3Nua0szT1dTbnYtSElZYjI2RUg0NnRsVHNlOW1SMTBlUFIxdmtVcnB2TFd0N19aU1RlbzVWREhqYnZmWF9HRG5odm55UUxLMnJzckZpWjh6UHdrZGtZNlBIMVh3cU1QcUNIQlZRNXJMTW54TjdkaVdGbE9yVQ?oc=5",
       "domain": "Reuters",
       "seen": "2026-11-20 10:46 KST"
-    },
-    {
-      "title": "Record profits but record outflows: 'Sell Korea' trade stalks Seoul market",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPbDVJVUxnTV8wWW53ZDBmMC1GX3V1Z2k1N24zdTk0bkdYR2lBYTB2c3J4QVkzUFRiTHJSTkoycmM0ZG5jSWxnSkxVOWJNZzFFX3kydHoyWU9oSURMel9Yck5VMlk3TTVaNkhBX09wU1B1TzVuYlhnYnZhMmhnMEpIMmZLeXVXT09IWEs5cXJLOWtNcklfZkU1NU85WE1NSEE1ZUhzRDBKY2dzaW5pWnQzdTJra3UybUdXVWpDeWRYYw?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-11-20 08:37 KST"
     }
   ],
-  "rate_source_time": "2026-11-21 03:00:03 KST",
+  "rate_source_time": "2026-11-21 08:58:00 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": 9.0,
   "rate_change_pct": 0.68,
   "smbs_base_rate": 1330.8,
   "smbs_rate_date": "2026-11-21",
-  "smbs_rate_updated_at_kst": "2026-11-21 02:59:51 KST",
+  "smbs_rate_updated_at_kst": "2026-11-21 08:57:49 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -57,5 +51,5 @@
     1342.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-11-21 02:59:51 KST"
+  "rate_job_checked_at_kst": "2026-11-21 08:57:49 KST"
 }

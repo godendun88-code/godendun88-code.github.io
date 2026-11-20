@@ -1,55 +1,55 @@
 {
-  "updated_at_kst": "2026-11-20 18:09 KST",
-  "current_rate": 1336.2,
+  "updated_at_kst": "2026-11-21 03:00 KST",
+  "current_rate": 1338.3,
   "previous_close": 1329.3,
-  "rate_updated_at_kst": "2026-11-20 18:09:40 KST",
+  "rate_updated_at_kst": "2026-11-21 03:00:03 KST",
   "rate_source": "KB STAR FX Market Watch",
   "market_bias": "혼조",
   "drivers": [
-    "미국 고용 관련 최신 기사(\"US weekly jobless claims edge up, but labor market remains resilient\")가 확인돼 고용지표가 연준 금리 기대와 달러 방향성을 좌우하는 변수로 부각되고 있습니다.",
-    "달러 관련 최신 기사(\"Dollar near 19-month high, set for 4th weekly gain as AI jitters spur haven bid\")가 확인돼 달러인덱스 방향성이 원/달러 환율의 핵심 변수로 작용하고 있습니다.",
+    "연준의 추가 금리 인상 또는 매파적 기조 우려가 부각돼 달러 강세 압력이 높아지는 요인으로 작용하고 있습니다.",
+    "미 국채금리 하락 관련 보도가 확인돼 달러의 금리 매력이 낮아지면서 원/달러 환율 하락 압력으로 작용하고 있습니다.",
     "원화·국내수급 관련 최신 기사(\"Record profits but record outflows: 'Sell Korea' trade stalks Seoul market\")가 확인돼 외국인 자금 흐름과 원화 수급이 단기 환율 변수로 작용하고 있습니다."
   ],
   "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
     {
-      "title": "Oil prices gain as Houthi attacks on Riyadh raise supply concerns",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPb3pQREZDSHE2RmNHdDdGdExDUXhYeWljc2VualVoQ09oQV90WnFQQlZkYW1rWnl5ODJ6N2haaVBDVUY4VmFvRmtLSlZKbU5kR1lHNklrUUR3X3JGc181OHZCUHpXalZFUllBZXVEczJPUUdZZUt1MmpsTEN0MkJGSDNCVHhoa25pZFBSb1lldS1US0VJNVNBWWN1U2VwQmd0WmlQR1RKWmgyS2lyUDVfNHdWeWhzaFhmZ1E?oc=5",
+      "title": "TSX futures slip as lower oil, gold prices weigh; retail sales data eyed",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQZk43YVdqYVhFb3BPT21wdF80NmR4ZUxNYXliN0xneVNsZkdHM29WRkJfanpqVU9pQXkzejE5Q053M1lnQ3RQXzlYQmhzWk5PR1JpTklsdlNNNm9wUzl2QUI5SXM3Slc1eEtRMUgyTTctdUt3eDBmcVhpX3hxS3NiVkRJWnAtRjBxbnFJOWEtbzljaVBrSEFlZFZuZDFqV0hER04ya2VCOTZjSGhTemk4cTFQb3E2MDR3Z0E?oc=5",
       "domain": "Reuters",
-      "seen": "2026-11-20 11:00 KST"
+      "seen": "2026-11-20 20:18 KST"
     },
     {
-      "title": "Dollar near 19-month high, set for 4th weekly gain as AI jitters spur haven bid",
+      "title": "Gold slides toward worst week in eight months on hawkish Fed outlook",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQSlpvRGxSc1NfT0l5cnd2STJ2d01EeUk4aDBIem9Jc1JXRm0yUEoxWWR6NG50b0N1MU5walEtWlk4eU9yeE9MeXIyNmF5YjlSRVhJaHR6STVNQXJhTlV1QzRoRXd3dXo1UlVaT0pYeTZCYjdIa1lMQkV5WktIQlpENW50QdIBiAFBVV95cUxNelZwb3pwWXdnZjNzVzR1UldsYTl0TUlSMHdTMjRrS2ZlX3BvM19HSVkzYlZmLUh4TFlhV2dEVXcyTmNNWV9rUXZIbmI4UnZ1cmUzX0NBTkNiMnliR3ZOU2RKbVFQSDJHbEJNbkdyTVN1bnN0Uy1WMHRrdnRxNHRKS1lPcHZ5Qm9I?oc=5",
+      "domain": "CNBC",
+      "seen": "2026-11-20 14:05 KST"
+    },
+    {
+      "title": "Dollar falls as Fed-fueled rally stalls; lower US yields help yen",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNSWwtcmZqemtkQmd4OWJQUHN1OXZLZTgxM1FtVk5JTlAtNndPYzRndHkxbEZ2MEdNZGtRdWUwMUxlblhtLThfQ0NoRHYtZ1lzd2VkSHc4N0U3UlFjUGFubjBkOFc4bDhpR3lELUoxalJBN1lkUUtUYk1NSk9sanNaeUZrZVVXTWlDV2Zja1FFQ3lPaXNUN2FXb3BST0dmZHd3?oc=5",
       "domain": "Reuters",
       "seen": "2026-11-20 10:47 KST"
+    },
+    {
+      "title": "Tech stocks tumble, Treasury yields fall as traders seek refuge",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxORTBuejlwS3Nua0szT1dTbnYtSElZYjI2RUg0NnRsVHNlOW1SMTBlUFIxdmtVcnB2TFd0N19aU1RlbzVWREhqYnZmWF9HRG5odm55UUxLMnJzckZpWjh6UHdrZGtZNlBIMVh3cU1QcUNIQlZRNXJMTW54TjdkaVdGbE9yVQ?oc=5",
+      "domain": "Reuters",
+      "seen": "2026-11-20 10:46 KST"
     },
     {
       "title": "Record profits but record outflows: 'Sell Korea' trade stalks Seoul market",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPbDVJVUxnTV8wWW53ZDBmMC1GX3V1Z2k1N24zdTk0bkdYR2lBYTB2c3J4QVkzUFRiTHJSTkoycmM0ZG5jSWxnSkxVOWJNZzFFX3kydHoyWU9oSURMel9Yck5VMlk3TTVaNkhBX09wU1B1TzVuYlhnYnZhMmhnMEpIMmZLeXVXT09IWEs5cXJLOWtNcklfZkU1NU85WE1NSEE1ZUhzRDBKY2dzaW5pWnQzdTJra3UybUdXVWpDeWRYYw?oc=5",
       "domain": "Reuters",
       "seen": "2026-11-20 08:37 KST"
-    },
-    {
-      "title": "US weekly jobless claims edge up, but labor market remains resilient",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUjdpV0lCY3lUWlhjZzVkdTNNa1hrazREdFRCMjFSRlpzYmpXNlpYeXdOeXJyZk44NGQwT0FuN1cxdWRyUWtLenNCTGNDSVM0NERhNW5PemtfbTI1UkFtcDdvUklKdjZZM2c4NTZlUVBlYVF5SVBubVFnbkhueHNTWDhLd1c4MVJLM2g1ekQ3bHo?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-11-20 02:06 KST"
-    },
-    {
-      "title": "US shale companies send oil windfall to shareholders as prices jump",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNXRMVWgzWGR1UWVVU3FGaWVSaFRrMTdYdWs3dmpyWGNNcnRrOXViZ2lVQ0RPUmc0cjNoWnNzRndJaGV5dXR5X3FpZGkyeHp4MFV6TzRuQWdCU1RTOXdDcmlTVUZxQU1BbVRiMk1UcEVvb0dkNXpCcGFpYlpxeVF2WUw4ZnhLOVVJVmZRYm0zVkUyVGJlZnNUbzl0UWRKSFVJUkZGYlVmQVNtRFVmT3V2c3pDMHdzLUVr?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-11-19 22:31 KST"
     }
   ],
-  "rate_source_time": "2026-11-20 18:09:40 KST",
+  "rate_source_time": "2026-11-21 03:00:03 KST",
   "rate_url": "https://fx.kbstar.com/",
-  "rate_change": 6.9,
-  "rate_change_pct": 0.52,
+  "rate_change": 9.0,
+  "rate_change_pct": 0.68,
   "smbs_base_rate": 1330.8,
-  "smbs_rate_date": "2026-11-20",
-  "smbs_rate_updated_at_kst": "2026-11-20 18:09:25 KST",
+  "smbs_rate_date": "2026-11-21",
+  "smbs_rate_updated_at_kst": "2026-11-21 02:59:51 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -57,5 +57,5 @@
     1342.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-11-20 18:09:25 KST"
+  "rate_job_checked_at_kst": "2026-11-21 02:59:51 KST"
 }

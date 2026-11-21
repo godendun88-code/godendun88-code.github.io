@@ -1,49 +1,29 @@
 {
-  "updated_at_kst": "2026-11-21 08:58 KST",
+  "updated_at_kst": "2026-11-21 15:58 KST",
   "current_rate": 1338.3,
   "previous_close": 1329.3,
-  "rate_updated_at_kst": "2026-11-21 08:58:00 KST",
+  "rate_updated_at_kst": "2026-11-21 15:58:03 KST",
   "rate_source": "KB STAR FX Market Watch",
-  "market_bias": "하락 우세",
+  "market_bias": "혼조",
   "drivers": [
-    "연준·금리 관련 최신 기사(\"Dollar weaker as Fed-fueled rally stalls; lower US yields help yen\")가 확인돼 향후 금리 경로에 대한 기대 변화가 달러 방향성을 좌우하고 있습니다.",
-    "미 국채금리 하락 관련 보도가 확인돼 달러의 금리 매력이 낮아지면서 원/달러 환율 하락 압력으로 작용하고 있습니다.",
-    "국제유가 하락이 한국의 수입물가 부담을 낮추는 방향으로 작용해 원화에는 상대적으로 우호적인 요인입니다."
+    "외환시장 관련 최신 기사(\"The snowballing selloff in global markets\")가 확인돼 단기 환율 변동 요인으로 작용하고 있습니다."
   ],
-  "outlook": "달러 약세·금리 하락 계열의 재료가 상대적으로 우세해 원/달러는 단기 하락 압력이 이어질 가능성이 있으나, 유가와 지정학적 리스크는 하단을 제한할 수 있습니다.",
+  "outlook": "금리·달러·유가 재료가 엇갈리고 있어 원/달러는 단기적으로 방향성이 제한된 가운데 주요 경제지표 발표 전후 변동성이 커질 가능성이 있습니다.",
   "articles": [
     {
-      "title": "TSX futures slip as lower oil, gold prices weigh; retail sales data eyed",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQZk43YVdqYVhFb3BPT21wdF80NmR4ZUxNYXliN0xneVNsZkdHM29WRkJfanpqVU9pQXkzejE5Q053M1lnQ3RQXzlYQmhzWk5PR1JpTklsdlNNNm9wUzl2QUI5SXM3Slc1eEtRMUgyTTctdUt3eDBmcVhpX3hxS3NiVkRJWnAtRjBxbnFJOWEtbzljaVBrSEFlZFZuZDFqV0hER04ya2VCOTZjSGhTemk4cTFQb3E2MDR3Z0E?oc=5",
+      "title": "The snowballing selloff in global markets",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE84ZFFzbDlRd0J6aHAxMkFGQUl6R2swRWt1ZTFUNWhNZlB1Q3VTMFlIcWNUUWpvZGY4TjdodG9qYkw5eVZiaENISVhjZlVQNy1RRjZ2QktKOER1d3lNOUxyOTc3aThONVdUU3VmX19fMnl2ZmpZeG1idEFGR1BkMlk?oc=5",
       "domain": "Reuters",
-      "seen": "2026-11-20 20:18 KST"
-    },
-    {
-      "title": "Gold's slide deepens as AI rout, rate-hike bets hurt bullion",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMFFjdnZJUDZiUXhKNUdPUWMtQ2tkd0ZKdmN4TTZ3bnQyb09SQ3cxSS1hNVYtcmF5WGpNSlJzS1dWYkdBUzBJZ2s5TnhLQ29mNWNIUy10MGJkN294UndsTmRmOF9GelkyVkdWRl8wcVJQNnRaRGp0a3NIMWNHT1dJSHhZRk1BT3FRV2pFcHVGa3ozS1ZCdjJXenJvSXlBOEdxLUp2MVVVTVBDY0NGX3ZRRUN3?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-11-20 12:24 KST"
-    },
-    {
-      "title": "Dollar weaker as Fed-fueled rally stalls; lower US yields help yen",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNSWwtcmZqemtkQmd4OWJQUHN1OXZLZTgxM1FtVk5JTlAtNndPYzRndHkxbEZ2MEdNZGtRdWUwMUxlblhtLThfQ0NoRHYtZ1lzd2VkSHc4N0U3UlFjUGFubjBkOFc4bDhpR3lELUoxalJBN1lkUUtUYk1NSk9sanNaeUZrZVVXTWlDV2Zja1FFQ3lPaXNUN2FXb3BST0dmZHd3?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-11-20 10:47 KST"
-    },
-    {
-      "title": "Tech stocks tumble, Treasury yields fall as traders seek refuge",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxORTBuejlwS3Nua0szT1dTbnYtSElZYjI2RUg0NnRsVHNlOW1SMTBlUFIxdmtVcnB2TFd0N19aU1RlbzVWREhqYnZmWF9HRG5odm55UUxLMnJzckZpWjh6UHdrZGtZNlBIMVh3cU1QcUNIQlZRNXJMTW54TjdkaVdGbE9yVQ?oc=5",
-      "domain": "Reuters",
-      "seen": "2026-11-20 10:46 KST"
+      "seen": "2026-11-21 00:13 KST"
     }
   ],
-  "rate_source_time": "2026-11-21 08:58:00 KST",
+  "rate_source_time": "2026-11-21 15:58:03 KST",
   "rate_url": "https://fx.kbstar.com/",
   "rate_change": 9.0,
   "rate_change_pct": 0.68,
   "smbs_base_rate": 1330.8,
   "smbs_rate_date": "2026-11-21",
-  "smbs_rate_updated_at_kst": "2026-11-21 08:57:49 KST",
+  "smbs_rate_updated_at_kst": "2026-11-21 15:57:52 KST",
   "smbs_rate_source": "서울외국환중개 매매기준율",
   "smbs_rate_url": "https://www.smbs.co.kr/Eng/ExRate/TodayExRate.jsp",
   "kb_daily_forecast_range": [
@@ -51,5 +31,5 @@
     1342.0
   ],
   "rate_check_status": "success",
-  "rate_job_checked_at_kst": "2026-11-21 08:57:49 KST"
+  "rate_job_checked_at_kst": "2026-11-21 15:57:52 KST"
 }
